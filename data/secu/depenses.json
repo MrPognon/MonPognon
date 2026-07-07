@@ -64,9 +64,6 @@
        "montant": 17300000000,
        "annee": 2025,
        "statut": "confirme",
-       "source": {
-        "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 2 « Premier constat de l'ONDAM 2025 », fiche 2.2, p. 80 (p. 82 du PDF)"
-       },
        "enfants": []
       },
       {
@@ -75,9 +72,6 @@
        "montant": 15600000000,
        "annee": 2025,
        "statut": "confirme",
-       "source": {
-        "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 2 « Premier constat de l'ONDAM 2025 », fiche 2.2, p. 80 (p. 82 du PDF)"
-       },
        "enfants": []
       }
      ],
