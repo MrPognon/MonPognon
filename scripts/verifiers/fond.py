@@ -65,10 +65,12 @@ def arbres(ref=None):
         if not c.strip():
             continue
 
-        def walk(n):
+        def walk(n, src=None):
+            # héritage de source champ par champ (ADR-0005) — même résolution que build.py
+            n["source"] = {**(src or {}), **(n.get("source") or {})}
             out[n["id"]] = n
             for k in n.get("enfants", []):
-                walk(k)
+                walk(k, n["source"])
 
         walk(json.loads(c))
     return out

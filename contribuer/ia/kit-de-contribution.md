@@ -25,12 +25,24 @@ Les données vivent dans des fichiers JSON sous `data/` : un arbre par fichier, 
 | `id` | ✅ | identifiant unique hiérarchique, ex. `etat.depenses.RS.150` (minuscules, segments séparés par des points) |
 | `label` | ✅ | libellé lisible (≥ 3 caractères) |
 | `statut` | ✅ | `confirme` · `estime` · `inconnu` |
-| `source` | ✅ | objet `{ nom, url, producteur, consulte_le }` (+ `licence`, `maj` recommandés) |
+| `source` | ✅ à la racine | objet `{ nom, url, producteur, consulte_le }` (+ `licence`, `maj`). **Héritage** : un sous-nœud peut l'omettre (tout hérité du parent) ou ne déclarer que ce qui diffère, souvent `nom` (le reste est hérité) — voir ci-dessous |
 | `enfants` | ✅ | tableau de sous-nœuds (peut être `[]`) |
 | `montant` | | en euros — décimales acceptées, ex. les centimes des comptes OFGL (`null` si inconnu) |
 | `annee` | | millésime de la donnée (entier) |
 | `description` | | contexte factuel ; **obligatoire de fait pour un `estime`** (explique la méthode) |
 | `inconnu` | | pour un nœud `inconnu` : `{ quoi, contact, url }` |
+
+### La source s'hérite (ADR-0005)
+
+Pas besoin de répéter la même source sur chaque nœud : **un sous-nœud hérite de la source de son parent, champ par champ**. Tu ne déclares que ce qui diffère — le plus souvent `nom` (pour préciser l'agrégat ou la page citée) :
+
+```json
+{ "id": "…", "label": "…", "montant": 123, "annee": 2024, "statut": "confirme",
+  "source": { "nom": "Même jeu, agrégat « Frais de personnel »" },
+  "enfants": [] }
+```
+
+La **racine du fichier** doit porter une source complète (c'est l'ancre). `build.py` résout l'héritage : sur le site, chaque nœud affiche sa source complète. Pour vérifier : `python3 scripts/build.py --show <id>`.
 
 ### Les trois statuts
 

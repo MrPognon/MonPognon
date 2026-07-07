@@ -6,7 +6,6 @@
     "id",
     "label",
     "statut",
-    "source",
     "enfants"
   ],
   "properties": {
@@ -46,12 +45,6 @@
     },
     "source": {
       "type": "object",
-      "required": [
-        "nom",
-        "url",
-        "producteur",
-        "consulte_le"
-      ],
       "properties": {
         "nom": {
           "type": "string"
@@ -84,7 +77,8 @@
           ],
           "description": "URL d'une copie archivée de la source (ex. Wayback Machine) — préservation contre les liens morts et preuve horodatée du contenu au moment de la contribution (issue #13)."
         }
-      }
+      },
+      "description": "Source officielle du chiffre. HÉRITAGE (ADR-0005) : un nœud sans source hérite de celle de son parent ; une source partielle (ex. juste `nom`) hérite des champs manquants. La racine du fichier doit être complète (nom, url, producteur, consulte_le). build.py résout l'héritage : chaque nœud généré porte sa source complète."
     },
     "inconnu": {
       "type": "object",

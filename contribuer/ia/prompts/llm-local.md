@@ -23,6 +23,8 @@ RÈGLES ABSOLUES
   marque le nœud "inconnu".
 - Neutralité : descriptions factuelles, aucun jugement.
 - Ne mélange jamais les millésimes (années).
+- Héritage des sources : un sous-nœud du même jeu peut ne déclarer que ce qui
+  diffère (souvent source.nom) — les champs manquants héritent du parent.
 
 FORMAT D'UN NŒUD (JSON) — produis EXACTEMENT cette structure
 {

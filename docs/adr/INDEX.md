@@ -10,3 +10,4 @@ Quand écrire un ADR : changement du modèle de données ou du schéma, nouveau 
 | [ADR-0002](ADR-0002-data-a-l-echelle.md) | Stratégie data à l'échelle : fichiers découpés, pipelines pour la masse | Accepté | 2026-07-07 |
 | [ADR-0003](ADR-0003-axe-temps.md) | L'axe temps : millésimes successifs et voté vs exécuté | Accepté | 2026-07-07 |
 | [ADR-0004](ADR-0004-fiches-communales.md) | Les fiches communales vivent hors de l'arbre national | Accepté | 2026-07-07 |
+| [ADR-0005](ADR-0005-heritage-source.md) | Héritage de la source parent → enfants, au niveau du champ | Accepté | 2026-07-07 |
