@@ -26,61 +26,103 @@
    },
    "enfants": [
     {
-     "id": "secu.depenses.maladie.hopital",
-     "label": "Hôpital (ONDAM hospitalier)",
-     "montant": 108000000000,
-     "annee": 2025,
-     "statut": "estime",
-     "source": {
-      "nom": "ONDAM / data.ameli.fr",
-      "url": "https://data.ameli.fr",
-      "maj": null
-     },
-     "enfants": [],
-     "a_completer": {
-      "note": "Chiffre d'ordre de grandeur à remplacer par extraction exacte de la source — contribution bienvenue.",
-      "url": null
-     }
-    },
-    {
      "id": "secu.depenses.maladie.ville",
-     "label": "Soins de ville",
-     "montant": 112000000000,
+     "label": "Soins de ville (ONDAM)",
+     "montant": 113700000000,
      "annee": 2025,
-     "statut": "estime",
+     "statut": "confirme",
      "source": {
-      "nom": "ONDAM / Open DAMIR",
-      "url": "https://www.assurance-maladie.ameli.fr/etudes-et-donnees/open-damir-depenses-sante-interregimes",
-      "maj": null
+      "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 2 « Premier constat de l'ONDAM 2025 », fiche 2.2, p. 80 (p. 82 du PDF)"
      },
      "enfants": [],
-     "a_completer": {
-      "note": "Chiffre d'ordre de grandeur à remplacer par extraction exacte de la source — contribution bienvenue.",
-      "url": null
-     }
+     "description": "Constat 2025 du sous-objectif : consultations, médicaments, indemnités journalières, transports…"
     },
     {
-     "id": "secu.depenses.maladie.autres",
-     "label": "Médico-social, IJ, autres",
-     "montant": 36000000000,
+     "id": "secu.depenses.maladie.hopital",
+     "label": "Établissements de santé (ONDAM)",
+     "montant": 109400000000,
+     "annee": 2025,
+     "statut": "confirme",
+     "source": {
+      "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 2 « Premier constat de l'ONDAM 2025 », fiche 2.2, p. 80 (p. 82 du PDF)"
+     },
+     "enfants": []
+    },
+    {
+     "id": "secu.depenses.maladie.medico-social",
+     "label": "Établissements et services médico-sociaux (ONDAM)",
+     "montant": 32900000000,
+     "annee": 2025,
+     "statut": "confirme",
+     "source": {
+      "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 2 « Premier constat de l'ONDAM 2025 », fiche 2.2, p. 80 (p. 82 du PDF)"
+     },
+     "enfants": [
+      {
+       "id": "secu.depenses.maladie.medico-social.personnes-agees",
+       "label": "Établissements et services pour personnes âgées",
+       "montant": 17300000000,
+       "annee": 2025,
+       "statut": "confirme",
+       "source": {
+        "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 2 « Premier constat de l'ONDAM 2025 », fiche 2.2, p. 80 (p. 82 du PDF)"
+       },
+       "enfants": []
+      },
+      {
+       "id": "secu.depenses.maladie.medico-social.personnes-handicapees",
+       "label": "Établissements et services pour personnes handicapées",
+       "montant": 15600000000,
+       "annee": 2025,
+       "statut": "confirme",
+       "source": {
+        "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 2 « Premier constat de l'ONDAM 2025 », fiche 2.2, p. 80 (p. 82 du PDF)"
+       },
+       "enfants": []
+      }
+     ],
+     "description": "Objectif global de dépenses délégué à la CNSA (branche autonomie) pour les établissements et services."
+    },
+    {
+     "id": "secu.depenses.maladie.fir",
+     "label": "Fonds d'intervention régional et soutien national à l'investissement (ONDAM)",
+     "montant": 6100000000,
+     "annee": 2025,
+     "statut": "confirme",
+     "source": {
+      "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 2 « Premier constat de l'ONDAM 2025 », fiche 2.2, p. 80 (p. 82 du PDF)"
+     },
+     "enfants": []
+    },
+    {
+     "id": "secu.depenses.maladie.autres-ondam",
+     "label": "Autres prises en charge (ONDAM)",
+     "montant": 3300000000,
+     "annee": 2025,
+     "statut": "confirme",
+     "source": {
+      "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 2 « Premier constat de l'ONDAM 2025 », fiche 2.2, p. 80 (p. 82 du PDF)"
+     },
+     "enfants": [],
+     "description": "Soins des Français de l'étranger, addictologie, aide médicale d'État du champ ONDAM, etc."
+    },
+    {
+     "id": "secu.depenses.maladie.ecart-champ",
+     "label": "Écart net entre le champ ONDAM et les charges de la branche maladie",
+     "montant": -2783000000,
      "annee": 2025,
      "statut": "estime",
      "source": {
-      "nom": "Rapport CCSS (PDF — à structurer)",
-      "url": "https://www.securite-sociale.fr/home/la-secu-en-detail/comptes-statistiques-et-etudes-de-la-s%C3%A9curit%C3%A9-sociale/rapports-a-la-commission-des-comptes-de-la-securite-sociale.html",
-      "maj": null
+      "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 2 « Premier constat de l'ONDAM 2025 », fiche 2.2, p. 80 (p. 82 du PDF)"
      },
      "enfants": [],
+     "description": "L'ONDAM constaté 2025 (265,4 Md€, tous financeurs : branches maladie ET AT-MP, tableau 2 p. 80) dépasse les charges nettes de la seule branche maladie (262 617 M€, tableau 16 p. 37) ; en sens inverse, la branche porte des dépenses hors champ ONDAM (indemnités maternité, gestion…). Écart NET : 262 617 − 265 400 = −2 783 M€, porté en négatif pour que la somme des enfants reconstitue la branche. Sa décomposition (part AT-MP de l'ONDAM vs dépenses maladie hors ONDAM) n'est pas publiée dans ces tableaux.",
      "a_completer": {
-      "note": "Chiffre d'ordre de grandeur à remplacer par extraction exacte de la source — contribution bienvenue.",
+      "note": "Décomposer l'écart : part AT-MP du champ ONDAM et dépenses maladie hors ONDAM (fiches 4.2-4.3 du rapport CCSS, annexes PLFSS).",
       "url": null
      }
     }
-   ],
-   "a_completer": {
-    "note": "Ventilation fine par l'ONDAM (hôpital/ville/médico-social) à confirmer depuis la partie 2 du rapport CCSS.",
-    "url": null
-   }
+   ]
   },
   {
    "id": "secu.depenses.vieillesse",

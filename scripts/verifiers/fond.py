@@ -147,8 +147,11 @@ def resoudre_pdf(node):
     texte = sans_espaces(unicodedata.normalize("NFKC", r.stdout))
     # montants en euros dont l'écriture du document est en M€ ou en € :
     candidats = {str(int(node["montant"]))}
-    if node["montant"] % 1_000_000 == 0:
-        candidats.add(str(int(abs(node["montant"]) // 1_000_000)))  # 665964
+    v = abs(node["montant"])
+    if v % 1_000_000 == 0:
+        candidats.add(str(int(v // 1_000_000)))                  # publié en M€ : 665964
+    if v % 100_000_000 == 0:
+        candidats.add(f"{v / 1e9:.1f}".replace(".", ","))        # publié en Md€ : 113,7
     trouve = any(c in texte for c in candidats)
     return ("pdf", trouve)
 
