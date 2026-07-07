@@ -15,6 +15,21 @@ Site open source et collaboratif pour comprendre **d'où vient et où va chaque 
 
 La communauté fait grandir l'arbre par pull requests : chaque contribution doit être **sourcée et datée** (validation automatique en CI).
 
+### Couverture actuelle — le baromètre
+
+<!-- couverture:debut -->
+| Périmètre | Montant | ✅ confirmé (en €) | 🟡 estimé | ❓ à réclamer |
+|---|---|---|---|---|
+| Dépenses des collectivités locales | 315,0 Md€ | **0,0 %** | 100,0 % | 2 nœud(s), dont 2 réclamé(s) |
+| Recettes des collectivités locales | 315,0 Md€ | **0,0 %** | 100,0 % | 1 nœud(s), dont 1 réclamé(s) |
+| Dépenses de l'État (PLF 2025, crédits de paiement) | 823,0 Md€ | **100,0 %** | 0,0 % | 2 nœud(s), dont 2 réclamé(s) |
+| Recettes de l'État — budget général (PLF 2025) | 588,4 Md€ | **100,0 %** | 0,0 % | 0 nœud(s), dont 0 réclamé(s) |
+| Dépenses de la Sécurité sociale (régimes de base + FSV) | 666,0 Md€ | **62,8 %** | 37,2 % | 2 nœud(s), dont 2 réclamé(s) |
+| Recettes de la Sécurité sociale (régimes de base + FSV) | 644,4 Md€ | **100,0 %** | 0,0 % | 0 nœud(s), dont 0 réclamé(s) |
+
+*Un euro est « confirmé » si le nœud le plus profond qui le porte l'est — la méthode complète est dans [`site/couverture.json`](site/couverture.json). Les périmètres ne s'additionnent pas (transferts entre administrations). Tableau régénéré par `build.py`.*
+<!-- couverture:fin -->
+
 ## Un projet apolitique, celui du peuple français
 
 Ce projet est **apolitique** et le restera _ad vitam æternam_. Il n'est, et ne sera **jamais**, le projet d'une seule personne ni d'un groupe de personnes : c'est le **projet du peuple français**. Il a simplement été initié pour montrer que nous, citoyens, avec la puissance technologique moderne, pouvons réaliser l'**agrégation qu'aucun gouvernement français n'a souhaité faire** — de manière claire, visible et publique, en un seul et unique endroit.
@@ -27,7 +42,7 @@ Sa neutralité est sa force : **le site montre les chiffres et donne à chaque c
 
 Ouvrez `site/index.html` dans un navigateur (ou activez GitHub Pages sur le dossier `site/`). Trois modes :
 
-- **💸 Dépenses** — des 1 670 Md€ de dépenses publiques jusqu'aux actions budgétaires. L'**intégralité du PLF 2025** est intégrée jusqu'au niveau le plus fin de l'open data — budget général + CAS + CCF + BA, des missions jusqu'aux sous-actions (~1 200 nœuds, tout `confirme`). Prochain raffinement : ventiler chaque action par nature (personnel, fonctionnement, investissement).
+- **💸 Dépenses** — des 1 670 Md€ de dépenses publiques jusqu'aux actions budgétaires. L'**intégralité du PLF 2025** est intégrée jusqu'au niveau le plus fin de l'open data — budget général + CAS + CCF + BA, des missions jusqu'aux sous-actions, **chaque feuille ventilée par nature de dépense** (personnel, fonctionnement, investissement… — titres LOLF). Les comptes 2025 de la Sécurité sociale sont confirmés par branche (rapport CCSS).
 - **💰 Recettes** — qui paie quoi : les 156 lignes de l'état A du PLF (chaque impôt, taxe, redevance, dividende), plus la Sécu et les collectivités.
 - **🧾 Ma fiche de paie** — entrez votre brut, suivez chaque euro prélevé jusqu'à sa destination.
 
@@ -37,7 +52,8 @@ Ouvrez `site/index.html` dans un navigateur (ou activez GitHub Pages sur le doss
 data/                    ← LA source de vérité (c'est ici qu'on contribue)
   etat/depenses.json       arbre des dépenses de l'État (PLF 2025, API data.economie)
   etat/recettes.json       les 156 lignes de recettes de l'état A
-  secu/…  collectivites/…  ordres de grandeur à raffiner (statut "estime")
+  secu/…                   comptes 2025 par branche (confirmés, rapport CCSS)
+  collectivites/…          agrégats nationaux + fiches par commune (communes/<dept>/<insee>.json)
 schema/noeud.schema.json ← format d'un nœud (documenté)
 scripts/build.py         ← valide data/ et génère site/data.js
 scripts/extract_plf.py   ← modèle d'extraction depuis l'API data.economie
@@ -51,8 +67,8 @@ Voir [CONTRIBUTING.md](CONTRIBUTING.md). Les chantiers prioritaires sont listés
 
 Grands chantiers :
 
-1. ~~Intégrer programmes → actions pour les 33 missions restantes~~ ✅ Fait : l'intégralité du PLF 2025 est intégrée (budget général + CAS + CCF + BA, jusqu'aux sous-actions — 1 200 nœuds). Prochain raffinement : ventiler chaque action par **nature** (personnel, fonctionnement, investissement — champs `titre`/`categorie` déjà présents dans le jeu source).
-2. Structurer les comptes de la Sécurité sociale (rapports CCSS et annexe 3 PLFSS, PDF → JSON).
+1. ~~Intégrer le PLF 2025 intégral puis le ventiler par nature~~ ✅ Fait (missions → sous-actions, chaque feuille ventilée par titre LOLF).
+2. ~~Structurer les comptes de la Sécurité sociale par branche~~ ✅ Fait (rapport CCSS mai 2026, résultats 2025) — reste la ventilation fine de l'ONDAM (hôpital / ville / médico-social), voir le baromètre.
 3. Brancher le sélecteur de commune sur l'API OFGL (fiche réelle recettes/dépenses par commune).
 4. Documenter « qui perçoit » (opérateurs, universités, associations) et « qui paie » (ménages/entreprises, répartition territoriale) ligne par ligne.
 5. Réclamer les données manquantes (nœuds ❓) via [madada.fr](https://madada.fr) et tracer les demandes ici.
