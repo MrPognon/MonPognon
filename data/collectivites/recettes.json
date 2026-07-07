@@ -1,0 +1,117 @@
+{
+ "id": "coll.recettes",
+ "label": "Recettes des collectivités locales",
+ "montant": 315000000000,
+ "annee": 2025,
+ "statut": "estime",
+ "source": {
+  "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
+  "url": "https://data.ofgl.fr",
+  "producteur": "OFGL / DGCL / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-07",
+  "maj": null
+ },
+ "enfants": [
+  {
+   "id": "coll.recettes.fiscalite",
+   "label": "Fiscalité locale (TFPB, CFE, TEOM, THRS…)",
+   "montant": 110000000000,
+   "annee": 2025,
+   "statut": "estime",
+   "source": {
+    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
+    "url": "https://data.ofgl.fr",
+    "producteur": "OFGL / DGCL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "description": "Taux et bases par commune : fichier REI (DGFiP).",
+   "a_completer": {
+    "note": "Intégrer le REI par commune",
+    "url": "https://www.data.gouv.fr/datasets/impots-locaux-fichier-de-recensement-des-elements-dimposition-a-la-fiscalite-directe-locale-rei-4"
+   }
+  },
+  {
+   "id": "coll.recettes.tva",
+   "label": "Fractions de TVA transférées (ex-CVAE, ex-TH)",
+   "montant": 55000000000,
+   "annee": 2025,
+   "statut": "estime",
+   "source": {
+    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
+    "url": "https://data.ofgl.fr",
+    "producteur": "OFGL / DGCL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "description": "Flux État → collectivités."
+  },
+  {
+   "id": "coll.recettes.dotations",
+   "label": "Dotations de l'État (DGF, DETR, DSIL…)",
+   "montant": 50000000000,
+   "annee": 2025,
+   "statut": "estime",
+   "source": {
+    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
+    "url": "https://data.ofgl.fr",
+    "producteur": "OFGL / DGCL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "description": "Montants ET critères publiés par commune (2018-2026).",
+   "a_completer": {
+    "note": "Par commune : jeu dotations-communes de l'OFGL",
+    "url": "https://data.ofgl.fr/explore/dataset/dotations-communes/information/"
+   }
+  },
+  {
+   "id": "coll.recettes.tarifs",
+   "label": "Tarifs, redevances, autres recettes",
+   "montant": 100000000000,
+   "annee": 2025,
+   "statut": "estime",
+   "source": {
+    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
+    "url": "https://data.ofgl.fr",
+    "producteur": "OFGL / DGCL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "a_completer": {
+    "note": "Chiffre d'ordre de grandeur à remplacer par extraction exacte de la source — contribution bienvenue.",
+    "url": null
+   }
+  },
+  {
+   "id": "coll.recettes.inconnu-flux",
+   "label": "❓ Vue consolidée des flux État→commune (FPIC, FNGIR, compensations)",
+   "montant": null,
+   "annee": null,
+   "statut": "inconnu",
+   "source": {
+    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
+    "url": "https://data.ofgl.fr",
+    "producteur": "OFGL / DGCL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "inconnu": {
+    "quoi": "Un jeu unique consolidant tous les flux — aujourd'hui dispersés dans balances, REI, fichiers critères",
+    "contact": "DGCL / OFGL (formulaire data.ofgl.fr, réactif)",
+    "url": "https://data.ofgl.fr"
+   }
+  }
+ ]
+}

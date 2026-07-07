@@ -1,0 +1,116 @@
+{
+ "id": "secu.recettes",
+ "label": "Recettes de la Sécurité sociale",
+ "montant": 660000000000,
+ "annee": 2025,
+ "statut": "estime",
+ "source": {
+  "nom": "PLFSS 2025/2026 — Annexe 3 (PDF)",
+  "url": "https://www.securite-sociale.fr",
+  "producteur": "DSS",
+  "licence": "Document public",
+  "consulte_le": "2026-07-07",
+  "maj": null
+ },
+ "enfants": [
+  {
+   "id": "secu.recettes.cotisations",
+   "label": "Cotisations sociales (salariales + patronales)",
+   "montant": 295000000000,
+   "annee": 2025,
+   "statut": "estime",
+   "source": {
+    "nom": "PLFSS 2025/2026 — Annexe 3 (PDF)",
+    "url": "https://www.securite-sociale.fr",
+    "producteur": "DSS",
+    "licence": "Document public",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "a_completer": {
+    "note": "Détail par type : open.urssaf.fr + rapports Acoss",
+    "url": "https://open.urssaf.fr"
+   }
+  },
+  {
+   "id": "secu.recettes.csg",
+   "label": "CSG",
+   "montant": 145000000000,
+   "annee": 2025,
+   "statut": "estime",
+   "source": {
+    "nom": "PLFSS 2025/2026 — Annexe 3 (PDF)",
+    "url": "https://www.securite-sociale.fr",
+    "producteur": "DSS",
+    "licence": "Document public",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "a_completer": {
+    "note": "Clés de répartition entre branches : annexe 3 PLFSS (PDF)",
+    "url": null
+   }
+  },
+  {
+   "id": "secu.recettes.tva",
+   "label": "Fraction de TVA affectée",
+   "montant": 60000000000,
+   "annee": 2025,
+   "statut": "estime",
+   "source": {
+    "nom": "PLFSS 2025/2026 — Annexe 3 (PDF)",
+    "url": "https://www.securite-sociale.fr",
+    "producteur": "DSS",
+    "licence": "Document public",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "description": "~28 % de la TVA nationale est affectée à la Sécu — flux État → Sécu."
+  },
+  {
+   "id": "secu.recettes.taxes",
+   "label": "Taxes affectées (taxe sur les salaires, tabac…) et transferts",
+   "montant": 160000000000,
+   "annee": 2025,
+   "statut": "estime",
+   "source": {
+    "nom": "PLFSS 2025/2026 — Annexe 3 (PDF)",
+    "url": "https://www.securite-sociale.fr",
+    "producteur": "DSS",
+    "licence": "Document public",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "a_completer": {
+    "note": "Chiffre d'ordre de grandeur à remplacer par extraction exacte de la source — contribution bienvenue.",
+    "url": null
+   }
+  },
+  {
+   "id": "secu.recettes.inconnu-annexe3",
+   "label": "❓ Annexe 3 PLFSS en données structurées",
+   "montant": null,
+   "annee": null,
+   "statut": "inconnu",
+   "source": {
+    "nom": "PLFSS 2025/2026 — Annexe 3 (PDF)",
+    "url": "https://www.securite-sociale.fr",
+    "producteur": "DSS",
+    "licence": "Document public",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "inconnu": {
+    "quoi": "Tableaux d'équilibre et impôts affectés en CSV (aujourd'hui PDF)",
+    "contact": "DSS ; rapporteurs PLFSS Assemblée/Sénat",
+    "url": "https://madada.fr"
+   }
+  }
+ ],
+ "description": "Ordres de grandeur. Le circuit recette→branche n'est pas bijectif : TVA affectée, taxe sur les salaires, compensations d'exonérations."
+}

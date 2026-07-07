@@ -1,0 +1,218 @@
+{
+ "id": "secu.depenses",
+ "label": "Dépenses de la Sécurité sociale (régimes de base + FSV)",
+ "montant": 665000000000,
+ "annee": 2025,
+ "statut": "estime",
+ "source": {
+  "nom": "Rapport CCSS (PDF — à structurer)",
+  "url": "https://www.securite-sociale.fr/la-secu-en-detail/comptes-de-la-securite-sociale/rapports-de-la-commission",
+  "producteur": "DSS / Commission des comptes de la Sécurité sociale",
+  "licence": "Document public",
+  "consulte_le": "2026-07-07",
+  "maj": null
+ },
+ "enfants": [
+  {
+   "id": "secu.depenses.maladie",
+   "label": "Branche maladie (CNAM)",
+   "montant": 256000000000,
+   "annee": 2025,
+   "statut": "estime",
+   "source": {
+    "nom": "Rapport CCSS (PDF — à structurer)",
+    "url": "https://www.securite-sociale.fr/la-secu-en-detail/comptes-de-la-securite-sociale/rapports-de-la-commission",
+    "producteur": "DSS / Commission des comptes de la Sécurité sociale",
+    "licence": "Document public",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [
+    {
+     "id": "secu.depenses.maladie.hopital",
+     "label": "Hôpital (ONDAM hospitalier)",
+     "montant": 108000000000,
+     "annee": 2025,
+     "statut": "estime",
+     "source": {
+      "nom": "ONDAM / data.ameli.fr",
+      "url": "https://data.ameli.fr",
+      "producteur": "DSS / Commission des comptes de la Sécurité sociale",
+      "licence": "Document public",
+      "consulte_le": "2026-07-07",
+      "maj": null
+     },
+     "enfants": [],
+     "a_completer": {
+      "note": "Chiffre d'ordre de grandeur à remplacer par extraction exacte de la source — contribution bienvenue.",
+      "url": null
+     }
+    },
+    {
+     "id": "secu.depenses.maladie.ville",
+     "label": "Soins de ville",
+     "montant": 112000000000,
+     "annee": 2025,
+     "statut": "estime",
+     "source": {
+      "nom": "ONDAM / Open DAMIR",
+      "url": "https://www.assurance-maladie.ameli.fr/etudes-et-donnees/open-damir-depenses-sante-interregimes",
+      "producteur": "DSS / Commission des comptes de la Sécurité sociale",
+      "licence": "Document public",
+      "consulte_le": "2026-07-07",
+      "maj": null
+     },
+     "enfants": [],
+     "a_completer": {
+      "note": "Chiffre d'ordre de grandeur à remplacer par extraction exacte de la source — contribution bienvenue.",
+      "url": null
+     }
+    },
+    {
+     "id": "secu.depenses.maladie.autres",
+     "label": "Médico-social, IJ, autres",
+     "montant": 36000000000,
+     "annee": 2025,
+     "statut": "estime",
+     "source": {
+      "nom": "Rapport CCSS (PDF — à structurer)",
+      "url": "https://www.securite-sociale.fr/la-secu-en-detail/comptes-de-la-securite-sociale/rapports-de-la-commission",
+      "producteur": "DSS / Commission des comptes de la Sécurité sociale",
+      "licence": "Document public",
+      "consulte_le": "2026-07-07",
+      "maj": null
+     },
+     "enfants": [],
+     "a_completer": {
+      "note": "Chiffre d'ordre de grandeur à remplacer par extraction exacte de la source — contribution bienvenue.",
+      "url": null
+     }
+    }
+   ],
+   "a_completer": {
+    "note": "Chiffre d'ordre de grandeur à remplacer par extraction exacte de la source — contribution bienvenue.",
+    "url": null
+   }
+  },
+  {
+   "id": "secu.depenses.vieillesse",
+   "label": "Branche vieillesse (CNAV)",
+   "montant": 301000000000,
+   "annee": 2025,
+   "statut": "estime",
+   "source": {
+    "nom": "Rapport CCSS (PDF — à structurer)",
+    "url": "https://www.securite-sociale.fr/la-secu-en-detail/comptes-de-la-securite-sociale/rapports-de-la-commission",
+    "producteur": "DSS / Commission des comptes de la Sécurité sociale",
+    "licence": "Document public",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "a_completer": {
+    "note": "Détail par type de pension : data.assuranceretraite.fr + COR",
+    "url": "https://data.assuranceretraite.fr"
+   }
+  },
+  {
+   "id": "secu.depenses.famille",
+   "label": "Branche famille (CNAF)",
+   "montant": 59000000000,
+   "annee": 2025,
+   "statut": "estime",
+   "source": {
+    "nom": "Rapport CCSS (PDF — à structurer)",
+    "url": "https://www.securite-sociale.fr/la-secu-en-detail/comptes-de-la-securite-sociale/rapports-de-la-commission",
+    "producteur": "DSS / Commission des comptes de la Sécurité sociale",
+    "licence": "Document public",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "a_completer": {
+    "note": "Détail par prestation : data.caf.fr",
+    "url": "https://data.caf.fr"
+   }
+  },
+  {
+   "id": "secu.depenses.autonomie",
+   "label": "Branche autonomie (CNSA)",
+   "montant": 42000000000,
+   "annee": 2025,
+   "statut": "estime",
+   "source": {
+    "nom": "Rapport CCSS (PDF — à structurer)",
+    "url": "https://www.securite-sociale.fr/la-secu-en-detail/comptes-de-la-securite-sociale/rapports-de-la-commission",
+    "producteur": "DSS / Commission des comptes de la Sécurité sociale",
+    "licence": "Document public",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "a_completer": {
+    "note": "Détail : data-autonomie.cnsa.fr",
+    "url": "https://data-autonomie.cnsa.fr"
+   }
+  },
+  {
+   "id": "secu.depenses.atmp",
+   "label": "Branche AT-MP",
+   "montant": 17000000000,
+   "annee": 2025,
+   "statut": "estime",
+   "source": {
+    "nom": "Rapport CCSS (PDF — à structurer)",
+    "url": "https://www.securite-sociale.fr/la-secu-en-detail/comptes-de-la-securite-sociale/rapports-de-la-commission",
+    "producteur": "DSS / Commission des comptes de la Sécurité sociale",
+    "licence": "Document public",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": []
+  },
+  {
+   "id": "secu.depenses.inconnu-ccss",
+   "label": "❓ Comptes CCSS en données structurées",
+   "montant": null,
+   "annee": null,
+   "statut": "inconnu",
+   "source": {
+    "nom": "Rapport CCSS (PDF — à structurer)",
+    "url": "https://www.securite-sociale.fr/la-secu-en-detail/comptes-de-la-securite-sociale/rapports-de-la-commission",
+    "producteur": "DSS / Commission des comptes de la Sécurité sociale",
+    "licence": "Document public",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "inconnu": {
+    "quoi": "Tableaux recettes/dépenses par branche en CSV/API (aujourd'hui PDF uniquement)",
+    "contact": "Direction de la Sécurité sociale (DSS)",
+    "url": "https://www.securite-sociale.fr"
+   }
+  },
+  {
+   "id": "secu.depenses.inconnu-agirc",
+   "label": "❓ Agirc-Arrco (retraite complémentaire, ~98 Md€ de pensions)",
+   "montant": null,
+   "annee": null,
+   "statut": "inconnu",
+   "source": {
+    "nom": "Rapport CCSS (PDF — à structurer)",
+    "url": "https://www.securite-sociale.fr/la-secu-en-detail/comptes-de-la-securite-sociale/rapports-de-la-commission",
+    "producteur": "DSS / Commission des comptes de la Sécurité sociale",
+    "licence": "Document public",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "description": "Hors régimes de base mais incontournable sur la fiche de paie.",
+   "inconnu": {
+    "quoi": "Comptes détaillés machine-readable, licence claire",
+    "contact": "Agirc-Arrco ; demande CADA possible (organisme privé chargé d'un service public)",
+    "url": "https://madada.fr"
+   }
+  }
+ ],
+ "description": "Ordres de grandeur 2025. LA priorité communautaire : structurer les tableaux CCSS (PDF) en données."
+}

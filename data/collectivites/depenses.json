@@ -1,0 +1,142 @@
+{
+ "id": "coll.depenses",
+ "label": "Dépenses des collectivités locales",
+ "montant": 315000000000,
+ "annee": 2025,
+ "statut": "estime",
+ "source": {
+  "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
+  "url": "https://data.ofgl.fr",
+  "producteur": "OFGL / DGCL / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-07",
+  "maj": null
+ },
+ "enfants": [
+  {
+   "id": "coll.depenses.communes",
+   "label": "Bloc communal (communes + intercommunalités)",
+   "montant": 165000000000,
+   "annee": 2025,
+   "statut": "estime",
+   "source": {
+    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
+    "url": "https://data.ofgl.fr",
+    "producteur": "OFGL / DGCL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "a_completer": {
+    "note": "Par commune : API OFGL ofgl-base-communes ; par fonction : balances nature-fonction DGFiP (≥ 3 500 hab.)",
+    "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/"
+   }
+  },
+  {
+   "id": "coll.depenses.departements",
+   "label": "Départements",
+   "montant": 78000000000,
+   "annee": 2025,
+   "statut": "estime",
+   "source": {
+    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
+    "url": "https://data.ofgl.fr",
+    "producteur": "OFGL / DGCL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "description": "Social (RSA, ASE, APA), collèges, routes.",
+   "a_completer": {
+    "note": "Chiffre d'ordre de grandeur à remplacer par extraction exacte de la source — contribution bienvenue.",
+    "url": null
+   }
+  },
+  {
+   "id": "coll.depenses.regions",
+   "label": "Régions",
+   "montant": 44000000000,
+   "annee": 2025,
+   "statut": "estime",
+   "source": {
+    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
+    "url": "https://data.ofgl.fr",
+    "producteur": "OFGL / DGCL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "description": "Lycées, trains régionaux, formation professionnelle, développement économique.",
+   "a_completer": {
+    "note": "Chiffre d'ordre de grandeur à remplacer par extraction exacte de la source — contribution bienvenue.",
+    "url": null
+   }
+  },
+  {
+   "id": "coll.depenses.syndicats",
+   "label": "Syndicats (eau, déchets, énergie…)",
+   "montant": 28000000000,
+   "annee": 2025,
+   "statut": "estime",
+   "source": {
+    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
+    "url": "https://data.ofgl.fr",
+    "producteur": "OFGL / DGCL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "a_completer": {
+    "note": "Chiffre d'ordre de grandeur à remplacer par extraction exacte de la source — contribution bienvenue.",
+    "url": null
+   }
+  },
+  {
+   "id": "coll.depenses.inconnu-bp",
+   "label": "❓ Budgets votés (primitifs) de l'année en cours",
+   "montant": null,
+   "annee": null,
+   "statut": "inconnu",
+   "source": {
+    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
+    "url": "https://data.ofgl.fr",
+    "producteur": "OFGL / DGCL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "inconnu": {
+    "quoi": "Publication centralisée des XML TOTEM / schéma SCDL — on ne voit que l'exécuté à ~18 mois",
+    "contact": "DGCL + chaque mairie (obligation légale > 3 500 hab.)",
+    "url": "https://madada.fr"
+   }
+  },
+  {
+   "id": "coll.depenses.inconnu-fonction",
+   "label": "❓ Détail fonctionnel des communes < 3 500 hab.",
+   "montant": null,
+   "annee": null,
+   "statut": "inconnu",
+   "source": {
+    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
+    "url": "https://data.ofgl.fr",
+    "producteur": "OFGL / DGCL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-07",
+    "maj": null
+   },
+   "enfants": [],
+   "inconnu": {
+    "quoi": "Ventilation par fonction (écoles, voirie…) pour ~90 % des communes",
+    "contact": "DGFiP / DGCL",
+    "url": "https://www.collectivites-locales.gouv.fr"
+   }
+  }
+ ],
+ "description": "Ordre de grandeur 2024 (APUL). Objectif : remplacer ce sous-arbre par un appel API OFGL sur la commune choisie par l'utilisateur."
+}

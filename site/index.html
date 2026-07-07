@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Où va l'argent public ?</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="data.js"></script>
+<style>
+  /* Thème inspiré des principes du DSFR (grille, contrastes RGAA, badges, callouts)
+     SANS réutiliser ses composants, sa palette bleu France ni la police Marianne,
+     dont l'usage est réservé aux sites de l'État. */
+  :root{
+    --primary:#2f4d8a; --primary-hover:#243c6d;
+    --ink:#161616; --mute:#666; --border:#ddd;
+    --surface:#f6f6f6; --card:#fff;
+    --ok:#18753c;  --ok-bg:#dffee6;
+    --est:#b34000; --est-bg:#ffecc2;
+    --unk:#ce0500; --unk-bg:#ffe9e9;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; background:#fff; color:var(--ink); min-height:100vh;}
+  a{color:var(--primary);}
+  :focus-visible{outline:2px solid var(--primary); outline-offset:2px;}
+  header{padding:14px 28px 0; display:flex; flex-wrap:wrap; gap:14px; align-items:flex-start; justify-content:space-between; border-bottom:1px solid var(--border);}
+  h1{font-size:1.3rem; font-weight:700;}
+  h1 small{display:block; font-size:.72rem; font-weight:400; color:var(--mute); margin-top:2px;}
+  .modes{display:flex; gap:4px; align-self:flex-end;}
+  .mode-btn{background:none; color:var(--ink); border:none; border-bottom:3px solid transparent; padding:10px 16px 12px; cursor:pointer; font-size:.9rem; font-weight:500;}
+  .mode-btn:hover{background:var(--surface);}
+  .mode-btn.active{color:var(--primary); border-bottom-color:var(--primary); font-weight:700;}
+  #bar{padding:10px 28px; display:flex; gap:18px; flex-wrap:wrap; align-items:center; font-size:.8rem; background:#fff;}
+  #bar input{background:#fff; border:1px solid var(--border); border-bottom:2px solid var(--ink); color:var(--ink); border-radius:4px 4px 0 0; padding:6px 10px; width:110px;}
+  .leg{display:flex; gap:10px; flex-wrap:wrap; align-items:center;}
+  .badge{display:inline-block; border-radius:4px; padding:2px 8px; font-size:.7rem; font-weight:700; text-transform:uppercase; letter-spacing:.02em;}
+  .badge.ok{background:var(--ok-bg); color:var(--ok);}
+  .badge.est{background:var(--est-bg); color:var(--est);}
+  .badge.unk{background:var(--unk-bg); color:var(--unk);}
+  #stats{color:var(--mute);}
+  #wrap{display:flex; height:calc(100vh - 122px);}
+  #chart{flex:1; overflow:hidden; background:var(--surface);}
+  #panel{width:340px; background:#fff; border-left:1px solid var(--border); padding:20px; overflow-y:auto; font-size:.84rem; line-height:1.55;}
+  #panel h2{font-size:1.05rem; margin-bottom:6px;}
+  #panel .amount{font-size:1.5rem; font-weight:700; color:var(--ink); margin:4px 0 2px;}
+  #panel .annee{font-size:.75rem; color:var(--mute); margin-bottom:8px;}
+  #panel .tag{display:inline-block; border-radius:4px; padding:3px 10px; font-size:.7rem; font-weight:700; text-transform:uppercase; margin-bottom:10px;}
+  #panel .desc{color:#333; margin-bottom:12px;}
+  #panel a{word-break:break-all;}
+  #panel .src{background:var(--surface); border-left:4px solid var(--primary); padding:10px 12px; margin-top:12px; font-size:.78rem;}
+  #panel .box{padding:12px; margin-top:12px; font-size:.8rem;}
+  #panel .box.unk{background:var(--unk-bg); border-left:4px solid var(--unk);}
+  #panel .box.todo{background:var(--est-bg); border-left:4px solid var(--est);}
+  .node foreignObject{overflow:visible;}
+  .nbox{width:232px; height:58px; background:var(--card); color:var(--ink); border-radius:4px;
+    padding:7px 20px 6px 10px; cursor:pointer; border:1px solid var(--border); border-left:4px solid #888;
+    position:relative; box-shadow:0 1px 3px rgba(0,0,0,.12); transition:box-shadow .15s;}
+  .nbox:hover{box-shadow:0 0 0 2px var(--primary);}
+  .nbox.sel{box-shadow:0 0 0 2.5px var(--primary);}
+  .nbox.confirme{border-left-color:var(--ok);}
+  .nbox.estime{border-left-color:var(--est); background:#fff9ef;}
+  .nbox.inconnu{border-left-color:var(--unk); border-style:dashed; border-left-style:solid; background:#fff5f5;}
+  .nlabel{font-size:11px; font-weight:600; line-height:1.25;
+    display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;}
+  .nvalue{font-size:10.5px; color:var(--mute); margin-top:3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .nbox.collapsed::after{content:'▸'; position:absolute; right:6px; top:50%; transform:translateY(-50%); color:var(--mute); font-size:13px; font-weight:700;}
+  .link{fill:none; stroke:#bbb; stroke-width:1.5px;}
+  .link.unknown{stroke:var(--unk); stroke-dasharray:5 4;}
+</style>
+</head>
+<body>
+<header>
+  <h1>🌳 Où va l'argent public ?<small>Projet collaboratif — chaque nœud est sourcé et daté · <a href="https://github.com/MrPognon/MonPognon" target="_blank">contribuer sur GitHub</a></small></h1>
+  <div class="modes">
+    <button class="mode-btn active" data-mode="depenses">💸 Dépenses</button>
+    <button class="mode-btn" data-mode="recettes">💰 Recettes</button>
+    <button class="mode-btn" data-mode="paie">🧾 Ma fiche de paie</button>
+  </div>
+</header>
+<div id="bar">
+  <span id="ctl-paie" style="display:none">Salaire brut mensuel <input type="number" id="brut" value="3000" min="1802" step="100"> €</span>
+  <span class="leg">
+    <span class="badge ok">Confirmé — source officielle</span>
+    <span class="badge est">Estimé — à raffiner</span>
+    <span class="badge unk">❓ Donnée manquante</span>
+    <span id="stats"></span>
+  </span>
+</div>
+<div id="wrap">
+  <div id="chart"></div>
+  <aside id="panel">
+    <h2>Bienvenue 👋</h2>
+    <p class="desc">Cliquez sur un nœud pour le déplier et voir <b>montant, millésime, source officielle datée</b> — ou, pour les données manquantes, <b>qui contacter pour les obtenir</b>.</p>
+    <p class="desc">💸 <b>Dépenses</b> : la mission « Recherche et enseignement supérieur » est intégrée jusqu'au niveau le plus fin de l'open data (programmes → 46 actions, PLF 2025 réel). Les autres missions attendent votre contribution.</p>
+    <p class="desc">💰 <b>Recettes</b> : les 156 lignes réelles de l'état A — chaque impôt, taxe, redevance et dividende.</p>
+    <p class="desc">🧩 Les nœuds jaunes/orange sont la <b>todo-list publique</b> du projet : chacun peut les compléter par pull request, sourcée et datée.</p>
+  </aside>
+</div>
+
+<script>
+const fmtEUR = v => v>=1e9 ? (v/1e9).toLocaleString('fr-FR',{maximumFractionDigits:2})+' Md€'
+                : v>=1e6 ? (v/1e6).toLocaleString('fr-FR',{maximumFractionDigits:1})+' M€'
+                : Math.round(v).toLocaleString('fr-FR')+' €';
+const REPO = 'https://github.com/MrPognon/MonPognon';
+const fmtDate = iso => { if(!iso) return null; const [y,m,d] = iso.split('-'); return `${d}/${m}/${y}`; };
+const dateTag = n => { const maj = n.source && n.source.maj; return maj ? `maj ${fmtDate(maj)}` : (n.annee ? `millésime ${n.annee}` : null); };
+const D = window.DATA;
+
+// ---- Racines composées ----
+function rootDepenses(){
+  const kids=[D.etat_depenses, D.secu_depenses, D.collectivites_depenses];
+  return {id:'depenses', label:'Dépenses publiques France (État + Sécu + collectivités)',
+    montant:kids.reduce((s,k)=>s+(k.montant||0),0), annee:2025, statut:'estime',
+    description:"Somme des trois sous-secteurs (recoupements possibles : transferts État→collectivités et État→Sécu comptés une fois dans chaque arbre — voir description des nœuds). Cadrage macro : comptes nationaux INSEE.",
+    source:{nom:'INSEE — comptes des administrations publiques', url:'https://www.data.gouv.fr/datasets/comptes-des-administrations-publiques', producteur:'INSEE', licence:'Licence Ouverte 2.0', consulte_le:'2026-07-07'},
+    enfants:kids};
+}
+function rootRecettes(){
+  const kids=[D.etat_recettes, D.secu_recettes, D.collectivites_recettes];
+  return {id:'recettes', label:"D'où vient l'argent public (État + Sécu + collectivités)",
+    montant:kids.reduce((s,k)=>s+(k.montant||0),0), annee:2025, statut:'estime',
+    description:"Attention aux doubles comptes entre sous-secteurs (TVA affectée à la Sécu, fractions de TVA et dotations aux collectivités) : chaque arbre les signale.",
+    source:{nom:'INSEE / PLF / PLFSS / OFGL', url:'https://www.data.gouv.fr/datasets/comptes-des-administrations-publiques', producteur:'multiples', licence:'Licence Ouverte 2.0', consulte_le:'2026-07-07'},
+    enfants:kids};
+}
+// ---- Fiche de paie (règles simplifiées 2025-2026, cf. modele-social) ----
+function rootPaie(brut){
+  const csg=brut*0.9825; const MS={nom:'modele-social (Urssaf/beta.gouv, MIT) — règles simplifiées non-cadre sous plafond', url:'https://github.com/betagouv/mon-entreprise', producteur:'Urssaf / beta.gouv', licence:'MIT', consulte_le:'2026-07-07'};
+  const p=(id,label,m,desc,kids,extra)=>({id:'paie.'+id,label,montant:m,annee:2026,statut:extra&&extra.statut||'estime',description:desc,source:extra&&extra.source||MS,enfants:kids||[],...(extra&&extra.inconnu?{inconnu:extra.inconnu}:{})});
+  const r={vs:brut*0.073, cs:brut*0.0401, csgd:csg*0.068, csgn:csg*0.024, crds:csg*0.005,
+    mal:brut*0.07, vp:brut*0.1057, fam:brut*0.0345, atmp:brut*0.0212, cho:brut*0.0405, cp:brut*0.0601, csa:brut*0.003, aut:brut*0.016};
+  const sal=r.vs+r.cs+r.csgd+r.csgn+r.crds, net=brut-sal, csgT=r.csgd+r.csgn;
+  const cout=brut+r.mal+r.vp+r.fam+r.atmp+r.cho+r.cp+r.csa+r.aut;
+  return p('cout','Coût total employeur',cout,"Votre brut + cotisations patronales : le point de départ de tout l'argent qui suit.",[
+    p('net','💶 Net avant impôt',net,"Ce qui arrive sur votre compte, avant prélèvement à la source (taux personnalisé)."),
+    p('sante','🏥 Santé',r.mal+csgT*0.68,"Cotisation maladie patronale + ~68 % de votre CSG → branche maladie (CNAM) : hôpital, soins de ville, médicaments."),
+    p('retraite','👴 Retraite',r.vs+r.vp+r.cp,"Vieillesse de base (CNAV) + complémentaire Agirc-Arrco.",[
+      p('cnav','Retraite de base (CNAV)',r.vs+r.vp,"Répartition : vos cotisations paient les retraités actuels."),
+      p('arrco','⚠️ Complémentaire Agirc-Arrco',r.cp,"Publie peu : pas d'API, pas de licence claire.",null,{statut:'inconnu',inconnu:{quoi:'Comptes détaillés machine-readable',contact:'Agirc-Arrco · demande CADA possible',url:'https://madada.fr'}})]),
+    p('famille','👨‍👩‍👧 Famille',r.fam+csgT*0.10,"Cotisation famille + part de CSG → CNAF (allocations, PAJE…)."),
+    p('chomage','💼 Chômage',r.cho,"→ Unédic (recettes/dépenses en open data depuis 2011 : data.unedic.org)."),
+    p('autonomie','🦽 Autonomie',r.csa+csgT*0.09,"CSA + part de CSG → CNSA (grand âge, handicap)."),
+    p('atmp','🩹 Accidents du travail',r.atmp,"Taux moyen ≈2,12 % — le taux réel par entreprise n'est pas public."),
+    p('dette','🇫🇷 Dette sociale & solidarité',r.crds+csgT*0.13,"CRDS → CADES ; part de CSG → FSV (minimum vieillesse)."),
+    p('autres','📦 Autres contributions',r.aut,"Formation, apprentissage, FNAL… (+ versement mobilité selon la commune).")]);
+}
+
+// ---- Rendu D3 (arbre repliable) ----
+const chartEl=document.getElementById('chart');
+let mode='depenses', selId=null;
+function render(data){
+  chartEl.innerHTML='';
+  const W=chartEl.clientWidth||900, H=chartEl.clientHeight||600;
+  const svg=d3.select('#chart').append('svg').attr('width',W).attr('height',H);
+  const outer=svg.append('g'); const g=outer.append('g');
+  svg.call(d3.zoom().scaleExtent([0.3,2]).on('zoom',e=>outer.attr('transform',e.transform)));
+  const root=d3.hierarchy(data,d=>d.enfants);
+  root.x0=H/2; root.y0=0;
+  root.children?.forEach(c=>{c._children=c.children; c.children=null;});
+  const BW=232, BH=58;                       // dimensions des boîtes
+  const tree=d3.tree().nodeSize([BH+12,BW+70]);
+  const lh=d3.linkHorizontal().x(p=>p.y).y(p=>p.x);
+  const linkPath=d=>lh({source:{x:d.source.x,y:d.source.y+BW},target:{x:d.target.x,y:d.target.y}});
+  const valueText=n=>{
+    if(n.montant==null) return n.statut==='inconnu'?'donnée manquante':'';
+    const dt=dateTag(n);
+    return fmtEUR(n.montant)+(mode==='paie'?' /mois':'')+(dt?' · '+dt:'');
+  };
+  function update(source){
+    tree(root);
+    let left=root; root.eachBefore(n=>{if(n.x<left.x)left=n;});
+    g.attr('transform',`translate(30,${Math.max(50,-left.x+50)})`);
+    const nodes=g.selectAll('g.node').data(root.descendants(),d=>d.data.id);
+    const nEnter=nodes.enter().append('g').attr('class','node')
+      .attr('transform',`translate(${source.y0},${source.x0})`)
+      .on('click',(e,d)=>{selId=d.data.id; showPanel(d.data); toggle(d); update(d);});
+    nEnter.append('foreignObject').attr('width',BW).attr('height',BH).attr('y',-BH/2)
+      .append('xhtml:div')
+      .attr('class',d=>'nbox '+(d.data.statut||''))
+      .html(d=>`<div class="nlabel" title="${d.data.label.replace(/"/g,'&quot;')}">${d.data.label}</div><div class="nvalue">${valueText(d.data)}</div>`);
+    const all=nodes.merge(nEnter);
+    all.transition().duration(350).attr('transform',d=>`translate(${d.y},${d.x})`);
+    all.select('div.nbox')
+      .classed('collapsed',d=>!!d._children)
+      .classed('sel',d=>d.data.id===selId);
+    nodes.exit().transition().duration(250).attr('transform',`translate(${source.y},${source.x})`).remove();
+    const links=g.selectAll('path.link').data(root.links(),d=>d.target.data.id);
+    links.enter().append('path')
+      .attr('class',d=>'link'+(d.target.data.statut==='inconnu'?' unknown':''))
+      .attr('d',()=>{const o={x:source.x0,y:source.y0+BW};return lh({source:o,target:o});})
+      .merge(links).transition().duration(350).attr('d',linkPath);
+    links.exit().remove();
+    root.eachBefore(d=>{d.x0=d.x; d.y0=d.y;});
+  }
+  function toggle(d){ if(d.children){d._children=d.children;d.children=null;} else if(d._children){d.children=d._children;d._children=null;} }
+  update(root);
+}
+const LAB={confirme:['Confirmé — source officielle','ok'],estime:['Estimé — à raffiner','est'],inconnu:['❓ Donnée manquante','unk']};
+function showPanel(d){
+  const [lab,cls]=LAB[d.statut]||['',''];
+  let h=`<h2>${d.label}</h2>`;
+  if(d.montant!=null) h+=`<div class="amount">${fmtEUR(d.montant)}${mode==='paie'?' <span style="font-size:.8rem;color:var(--mute)">/ mois</span>':''}</div>`;
+  const maj = d.source && d.source.maj;
+  if(d.montant!=null) h+=`<div class="annee">${d.annee?`millésime ${d.annee} · `:''}${maj?`🕐 donnée mise à jour le <b>${fmtDate(maj)}</b>`:'🧩 date de mise à jour non renseignée — à compléter'}</div>`;
+  else if(d.annee) h+=`<div class="annee">millésime ${d.annee}</div>`;
+  h+=`<span class="tag badge ${cls}">${lab}</span>`;
+  if(d.description) h+=`<p class="desc">${d.description}</p>`;
+  if(d.source) h+=`<div class="src">📚 <b>${d.source.nom}</b><br>Producteur : ${d.source.producteur} · ${d.source.licence||''}<br>${maj?`Jeu de données mis à jour le <b>${fmtDate(maj)}</b> · `:''}Consulté le ${fmtDate(d.source.consulte_le)||d.source.consulte_le}<br><a href="${d.source.url}" target="_blank">${d.source.url}</a></div>`;
+  if(d.inconnu) h+=`<div class="box unk"><b>❓ Ce qui manque :</b> ${d.inconnu.quoi}<br><b>📮 Qui contacter :</b> ${d.inconnu.contact}${d.inconnu.url?`<br><a href="${d.inconnu.url}" target="_blank">→ Réclamer publiquement</a>`:''}</div>`;
+  if(d.a_completer) h+=`<div class="box todo"><b>🧩 À compléter :</b> ${d.a_completer.note}${d.a_completer.url?`<br><a href="${d.a_completer.url}" target="_blank">→ Source pour contribuer</a>`:''}<br><a href="${REPO}/tree/main/data" target="_blank">→ Éditer sur GitHub (PR)</a></div>`;
+  h+=`<div class="src" style="opacity:.55">id : <code>${d.id}</code></div>`;
+  document.getElementById('panel').innerHTML=h;
+}
+// ---- Stats ----
+(function(){
+  let c={confirme:0,estime:0,inconnu:0};
+  const walk=n=>{c[n.statut]=(c[n.statut]||0)+1; (n.enfants||[]).forEach(walk);};
+  Object.values(D).forEach(walk);
+  document.getElementById('stats').textContent=`· ${c.confirme} nœuds confirmés · ${c.estime} estimés · ${c.inconnu} manquants`;
+})();
+// ---- Interactions ----
+function refresh(){
+  document.getElementById('ctl-paie').style.display = mode==='paie'?'inline':'none';
+  if(mode==='depenses') render(rootDepenses());
+  else if(mode==='recettes') render(rootRecettes());
+  else render(rootPaie(+document.getElementById('brut').value||3000));
+}
+document.querySelectorAll('.mode-btn').forEach(b=>b.onclick=()=>{
+  mode=b.dataset.mode;
+  document.querySelectorAll('.mode-btn').forEach(x=>x.classList.toggle('active',x===b));
+  refresh();
+});
+document.getElementById('brut').addEventListener('change',refresh);
+window.addEventListener('resize',refresh);
+refresh();
+</script>
+</body>
+</html>

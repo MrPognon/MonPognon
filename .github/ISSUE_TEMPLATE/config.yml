@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Comment contribuer"
+    url: https://github.com/MrPognon/MonPognon/blob/main/CONTRIBUTING.md
+    about: "Lire le guide de contribution et le modèle de données avant d'ouvrir une issue."
+  - name: "Réclamer une donnée publique (CADA)"
+    url: https://madada.fr
+    about: "Déposer une demande d'accès à un document administratif."
