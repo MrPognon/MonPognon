@@ -27,6 +27,7 @@ python3 scripts/build.py           # régénère site/data.js — NE PAS l'édit
 ## Pièges
 
 - API ODS data.economie : URL-encoder `(` `)` et quotes des query params (`sum%28cp%29`), sinon 400 silencieux.
+- API OFGL : `exer` est un champ **date** — filtrer avec `year(exer)=2024`, jamais `exer="2024"` (400 `IncompatibleTypesInComparisonFilter`).
 - Circuit recette → branche Sécu non bijectif : passer par un nœud « transferts » explicite.
 - Collectivités : rupture M14 → M57 (2024) ; passer par le COG INSEE millésimé.
 
