@@ -35,23 +35,37 @@ def validate(node, path, seen_ids):
     for c in node["enfants"]: validate(c, path, seen_ids)
 
 def main():
-    data, seen = {}, set()
+    data, fiches, seen = {}, {}, set()
+    communes_dir = os.path.join(ROOT, "data", "collectivites", "communes") + os.sep
     for f in sorted(glob.glob(os.path.join(ROOT, "data", "**", "*.json"), recursive=True)):
         key = os.path.relpath(f, os.path.join(ROOT, "data")).replace(os.sep, "_").removesuffix(".json")
         with open(f, encoding="utf-8") as fh:
             node = json.load(fh)
         validate(node, os.path.relpath(f, ROOT), seen)
-        data[key] = node
+        # Fiches communales (ADR-0004) : validées comme le reste, publiées en
+        # fragments individuels chargés à la demande — jamais dans data.js.
+        if f.startswith(communes_dir):
+            fiches[os.path.basename(f).removesuffix(".json")] = node
+        else:
+            data[key] = node
     for w in warnings: print("AVERTISSEMENT:", w)
     if errors:
         for e in errors: print("ERREUR:", e, file=sys.stderr)
         sys.exit(1)
-    print(f"OK — {len(data)} fichiers, {len(seen)} nœuds validés")
+    extra = f" + {len(fiches)} fiche(s) communale(s)" if fiches else ""
+    print(f"OK — {len(data)} fichiers{extra}, {len(seen)} nœuds validés")
     if "--check" not in sys.argv:
         out = os.path.join(ROOT, "site", "data.js")
         with open(out, "w", encoding="utf-8") as fh:
             fh.write("// Généré par scripts/build.py — NE PAS ÉDITER À LA MAIN (éditez data/)\n")
             fh.write("window.DATA = " + json.dumps(data, ensure_ascii=False) + ";\n")
         print("→", out)
+        if fiches:
+            frag_dir = os.path.join(ROOT, "site", "data", "communes")
+            os.makedirs(frag_dir, exist_ok=True)
+            for insee, node in sorted(fiches.items()):
+                with open(os.path.join(frag_dir, insee + ".json"), "w", encoding="utf-8") as fh:
+                    json.dump(node, fh, ensure_ascii=False)
+            print(f"→ {frag_dir}{os.sep} ({len(fiches)} fragment(s))")
 
 if __name__ == "__main__": main()
