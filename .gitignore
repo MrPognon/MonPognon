@@ -1,6 +1,9 @@
 __pycache__/
 .DS_Store
 
-# CLAUDE.md est ignoré globalement (~/.gitignore_global) mais fait partie
-# intégrante de ce dépôt public (conventions du projet) : on le force ici.
+# CLAUDE.md et .claude/ sont ignorés globalement (~/.gitignore_global) mais font
+# partie intégrante de ce dépôt public (conventions + skill de contribution) :
+# on les force ici.
 !CLAUDE.md
+!.claude/
+!.claude/**
