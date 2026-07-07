@@ -113,22 +113,23 @@
    "label": "Dépenses de la Sécurité sociale (régimes de base + FSV)",
    "montant": 665964000000,
    "statuts": {
-    "confirme": 418165833706.91,
-    "estime": 247798166293.09,
+    "confirme": 665964000000.0,
+    "estime": 0.0,
     "inconnu": 0.0
    },
-   "pct_confirme": 62.8,
+   "pct_confirme": 100.0,
    "annees": {
     "2025": 665964000000.0
    },
    "profondeurs": {
     "1": 418165833706.91,
-    "2": 247798166293.09
+    "2": 217080156982.45,
+    "3": 30718009310.64
    },
-   "maj_renseignee_pct": 62.8,
+   "maj_renseignee_pct": 100.0,
    "noeuds": {
-    "confirme": 7,
-    "estime": 4,
+    "confirme": 14,
+    "estime": 2,
     "inconnu": 2
    },
    "inconnues": {
