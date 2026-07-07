@@ -7,3 +7,10 @@ __pycache__/
 !CLAUDE.md
 !.claude/
 !.claude/**
+
+# Fichiers générés par scripts/build.py — plus versionnés depuis l'issue #11 :
+# le déploiement Pages les régénère à chaque merge. En local : lancer build.py.
+site/data.js
+site/couverture.js
+site/couverture.json
+site/data/

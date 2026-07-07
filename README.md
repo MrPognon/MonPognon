@@ -40,7 +40,7 @@ Sa neutralité est sa force : **le site montre les chiffres et donne à chaque c
 
 ## Voir le site
 
-Ouvrez `site/index.html` dans un navigateur (ou activez GitHub Pages sur le dossier `site/`). Trois modes :
+En ligne : le site est déployé automatiquement à chaque merge (les données affichées sont régénérées au déploiement). En local : `python3 scripts/build.py` puis `python3 -m http.server -d site` (les fichiers générés ne sont pas versionnés). Trois modes :
 
 - **💸 Dépenses** — des 1 670 Md€ de dépenses publiques jusqu'aux actions budgétaires. L'**intégralité du PLF 2025** est intégrée jusqu'au niveau le plus fin de l'open data — budget général + CAS + CCF + BA, des missions jusqu'aux sous-actions, **chaque feuille ventilée par nature de dépense** (personnel, fonctionnement, investissement… — titres LOLF). Les comptes 2025 de la Sécurité sociale sont confirmés par branche (rapport CCSS).
 - **💰 Recettes** — qui paie quoi : les 156 lignes de l'état A du PLF (chaque impôt, taxe, redevance, dividende), plus la Sécu et les collectivités.

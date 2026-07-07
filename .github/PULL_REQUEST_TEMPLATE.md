@@ -38,7 +38,7 @@ avec le contact, jamais une estimation non sourcée.
 ## Checklist
 
 - [ ] `python3 scripts/build.py --check` passe en local (`OK — … nœuds validés`)
-- [ ] `site/data.js` régénéré via `python3 scripts/build.py` si `data/` a changé (jamais édité à la main)
+- [ ] Aucun fichier généré dans la PR (`site/data.js`, fragments… — régénérés automatiquement au déploiement)
 - [ ] Chaque nouveau nœud a un statut (`confirme` / `estime` / `inconnu`) et une `source` complète
 - [ ] Aucun secret, token ou donnée personnelle dans le diff
 - [ ] Neutralité respectée : les `description` documentent le flux, sans juger son opportunité
