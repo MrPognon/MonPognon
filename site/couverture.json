@@ -1,0 +1,167 @@
+{
+ "methode": "Chaque euro du montant racine d'un arbre est attribué au statut du nœud le plus profond qui le porte : un total confirmé dont la ventilation fine est estimée compte comme estimé — le baromètre mesure la profondeur réelle du sourçage, pas la surface. Allocation descendante : les enfants à montant positif reçoivent leur montant (au pro-rata si leur somme dépasse le parent, cas des transferts internes) ; le reliquat non détaillé reste porté par le parent. Les montants négatifs (nœuds de neutralisation) sont exclus de l'allocation. Les arbres ne sont JAMAIS additionnés entre eux (transferts inter-administrations : TVA affectée, dotations…) — chaque périmètre se lit seul.",
+ "arbres": {
+  "collectivites_depenses": {
+   "label": "Dépenses des collectivités locales",
+   "montant": 315000000000,
+   "statuts": {
+    "confirme": 0.0,
+    "estime": 315000000000.0,
+    "inconnu": 0.0
+   },
+   "pct_confirme": 0.0,
+   "annees": {
+    "2025": 315000000000.0
+   },
+   "profondeurs": {
+    "1": 315000000000.0
+   },
+   "maj_renseignee_pct": 0.0,
+   "noeuds": {
+    "confirme": 0,
+    "estime": 5,
+    "inconnu": 2
+   },
+   "inconnues": {
+    "total": 2,
+    "avec_demande": 2
+   }
+  },
+  "collectivites_recettes": {
+   "label": "Recettes des collectivités locales",
+   "montant": 315000000000,
+   "statuts": {
+    "confirme": 0.0,
+    "estime": 315000000000.0,
+    "inconnu": 0.0
+   },
+   "pct_confirme": 0.0,
+   "annees": {
+    "2025": 315000000000.0
+   },
+   "profondeurs": {
+    "1": 315000000000.0
+   },
+   "maj_renseignee_pct": 0.0,
+   "noeuds": {
+    "confirme": 0,
+    "estime": 5,
+    "inconnu": 1
+   },
+   "inconnues": {
+    "total": 1,
+    "avec_demande": 1
+   }
+  },
+  "etat_depenses": {
+   "label": "Dépenses de l'État (PLF 2025, crédits de paiement)",
+   "montant": 823043976041.0,
+   "statuts": {
+    "confirme": 823043976041.0,
+    "estime": 0.0,
+    "inconnu": 0.0
+   },
+   "pct_confirme": 100.0,
+   "annees": {
+    "2025": 823043976041.0
+   },
+   "profondeurs": {
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 569129418903.0,
+    "6": 253914557138.0
+   },
+   "maj_renseignee_pct": 100.0,
+   "noeuds": {
+    "confirme": 2797,
+    "estime": 0,
+    "inconnu": 2
+   },
+   "inconnues": {
+    "total": 2,
+    "avec_demande": 2
+   }
+  },
+  "etat_recettes": {
+   "label": "Recettes de l'État — budget général (PLF 2025)",
+   "montant": 588407754684,
+   "statuts": {
+    "confirme": 588407754684.0,
+    "estime": 0.0,
+    "inconnu": 0.0
+   },
+   "pct_confirme": 100.0,
+   "annees": {
+    "2025": 588407754684.0
+   },
+   "profondeurs": {
+    "2": 588407754684.0
+   },
+   "maj_renseignee_pct": 100.0,
+   "noeuds": {
+    "confirme": 161,
+    "estime": 0,
+    "inconnu": 0
+   },
+   "inconnues": {
+    "total": 0,
+    "avec_demande": 0
+   }
+  },
+  "secu_depenses": {
+   "label": "Dépenses de la Sécurité sociale (régimes de base + FSV)",
+   "montant": 665964000000,
+   "statuts": {
+    "confirme": 418165833706.91,
+    "estime": 247798166293.09,
+    "inconnu": 0.0
+   },
+   "pct_confirme": 62.8,
+   "annees": {
+    "2025": 665964000000.0
+   },
+   "profondeurs": {
+    "1": 418165833706.91,
+    "2": 247798166293.09
+   },
+   "maj_renseignee_pct": 62.8,
+   "noeuds": {
+    "confirme": 7,
+    "estime": 4,
+    "inconnu": 2
+   },
+   "inconnues": {
+    "total": 2,
+    "avec_demande": 2
+   }
+  },
+  "secu_recettes": {
+   "label": "Recettes de la Sécurité sociale (régimes de base + FSV)",
+   "montant": 644392000000,
+   "statuts": {
+    "confirme": 644392000000.0,
+    "estime": 0.0,
+    "inconnu": 0.0
+   },
+   "pct_confirme": 100.0,
+   "annees": {
+    "2025": 644392000000.0
+   },
+   "profondeurs": {
+    "1": 531948000000.0,
+    "2": 112444000000.0
+   },
+   "maj_renseignee_pct": 100.0,
+   "noeuds": {
+    "confirme": 11,
+    "estime": 0,
+    "inconnu": 0
+   },
+   "inconnues": {
+    "total": 0,
+    "avec_demande": 0
+   }
+  }
+ }
+}

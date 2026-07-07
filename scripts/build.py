@@ -34,6 +34,100 @@ def validate(node, path, seen_ids):
             warnings.append(f"{path}: somme des enfants ({s:,.0f}) > parent ({m:,.0f}) de plus de 2 % ({node['id']})")
     for c in node["enfants"]: validate(c, path, seen_ids)
 
+METHODE_COUVERTURE = (
+    "Chaque euro du montant racine d'un arbre est attribué au statut du nœud le plus profond qui le porte : "
+    "un total confirmé dont la ventilation fine est estimée compte comme estimé — le baromètre mesure la "
+    "profondeur réelle du sourçage, pas la surface. Allocation descendante : les enfants à montant positif "
+    "reçoivent leur montant (au pro-rata si leur somme dépasse le parent, cas des transferts internes) ; le "
+    "reliquat non détaillé reste porté par le parent. Les montants négatifs (nœuds de neutralisation) sont "
+    "exclus de l'allocation. Les arbres ne sont JAMAIS additionnés entre eux (transferts inter-administrations : "
+    "TVA affectée, dotations…) — chaque périmètre se lit seul."
+)
+
+
+def couverture(node):
+    """Répartition du montant racine par statut / millésime / profondeur du porteur (cf. METHODE_COUVERTURE)."""
+    acc = {"statuts": {"confirme": 0.0, "estime": 0.0, "inconnu": 0.0},
+           "annees": {}, "profondeurs": {}, "maj_renseignee": 0.0}
+
+    def poser(n, euros, prof):
+        if euros <= 0:
+            return
+        acc["statuts"][n["statut"]] += euros
+        a = str(n.get("annee") or "?")
+        acc["annees"][a] = acc["annees"].get(a, 0.0) + euros
+        acc["profondeurs"][str(prof)] = acc["profondeurs"].get(str(prof), 0.0) + euros
+        if n.get("source", {}).get("maj"):
+            acc["maj_renseignee"] += euros
+
+    def repartir(n, alloue, prof):
+        kids = [c for c in n["enfants"] if isinstance(c.get("montant"), (int, float)) and c["montant"] > 0]
+        total = sum(c["montant"] for c in kids)
+        if not kids or alloue <= 0:
+            poser(n, alloue, prof)
+            return
+        if total >= alloue:  # dépassement (transferts internes) : pro-rata
+            for c in kids:
+                repartir(c, alloue * c["montant"] / total, prof + 1)
+        else:                # ventilation partielle : le reliquat reste au parent
+            for c in kids:
+                repartir(c, c["montant"], prof + 1)
+            poser(n, alloue - total, prof)
+
+    repartir(node, node.get("montant") or 0, 0)
+    noeuds, inconnues, demandes = {"confirme": 0, "estime": 0, "inconnu": 0}, 0, 0
+
+    def compter(n):
+        nonlocal inconnues, demandes
+        noeuds[n["statut"]] += 1
+        if n["statut"] == "inconnu":
+            inconnues += 1
+            if (n.get("inconnu") or {}).get("url"):
+                demandes += 1
+        for c in n["enfants"]:
+            compter(c)
+
+    compter(node)
+    m = node.get("montant") or 0
+    return {
+        "label": node["label"], "montant": m,
+        "statuts": {k: round(v, 2) for k, v in acc["statuts"].items()},
+        "pct_confirme": round(acc["statuts"]["confirme"] / m * 100, 1) if m else None,
+        "annees": {k: round(v, 2) for k, v in sorted(acc["annees"].items())},
+        "profondeurs": {k: round(v, 2) for k, v in sorted(acc["profondeurs"].items())},
+        "maj_renseignee_pct": round(acc["maj_renseignee"] / m * 100, 1) if m else None,
+        "noeuds": noeuds,
+        "inconnues": {"total": inconnues, "avec_demande": demandes},
+    }
+
+
+def maj_readme(cov):
+    """Régénère le tableau de couverture du README entre ses balises (si présentes)."""
+    debut, fin = "<!-- couverture:debut -->", "<!-- couverture:fin -->"
+    path = os.path.join(ROOT, "README.md")
+    with open(path, encoding="utf-8") as fh:
+        texte = fh.read()
+    if debut not in texte or fin not in texte:
+        return False
+    md = lambda v: f"{v / 1e9:,.1f}".replace(",", " ").replace(".", ",") + " Md€"
+    lignes = ["| Périmètre | Montant | ✅ confirmé (en €) | 🟡 estimé | ❓ à réclamer |", "|---|---|---|---|---|"]
+    for cle, c in cov.items():
+        s, m = c["statuts"], c["montant"]
+        pc = lambda v: f"{v / m * 100:,.1f}".replace(".", ",") + " %" if m else "—"
+        lignes.append(f"| {c['label']} | {md(m)} | **{pc(s['confirme'])}** | {pc(s['estime'])} | "
+                      f"{c['inconnues']['total']} nœud(s), dont {c['inconnues']['avec_demande']} réclamé(s) |")
+    lignes.append("")
+    lignes.append("*Un euro est « confirmé » si le nœud le plus profond qui le porte l'est — la méthode complète "
+                  "est dans [`site/couverture.json`](site/couverture.json). Les périmètres ne s'additionnent pas "
+                  "(transferts entre administrations). Tableau régénéré par `build.py`.*")
+    bloc = debut + "\n" + "\n".join(lignes) + "\n" + fin
+    nouveau = texte[: texte.index(debut)] + bloc + texte[texte.index(fin) + len(fin):]
+    if nouveau != texte:
+        with open(path, "w", encoding="utf-8") as fh:
+            fh.write(nouveau)
+    return True
+
+
 def main():
     data, fiches, seen = {}, {}, set()
     communes_dir = os.path.join(ROOT, "data", "collectivites", "communes") + os.sep
@@ -67,5 +161,15 @@ def main():
                 with open(os.path.join(frag_dir, insee + ".json"), "w", encoding="utf-8") as fh:
                     json.dump(node, fh, ensure_ascii=False)
             print(f"→ {frag_dir}{os.sep} ({len(fiches)} fragment(s))")
+        # Baromètre de couverture (issue #15) — par arbre, jamais sommé entre arbres.
+        cov = {k: couverture(n) for k, n in data.items()}
+        cov_doc = {"methode": METHODE_COUVERTURE, "arbres": cov}
+        with open(os.path.join(ROOT, "site", "couverture.json"), "w", encoding="utf-8") as fh:
+            json.dump(cov_doc, fh, ensure_ascii=False, indent=1)
+        with open(os.path.join(ROOT, "site", "couverture.js"), "w", encoding="utf-8") as fh:
+            fh.write("// Généré par scripts/build.py — NE PAS ÉDITER À LA MAIN (éditez data/)\n")
+            fh.write("window.COUVERTURE = " + json.dumps(cov_doc, ensure_ascii=False) + ";\n")
+        readme_ok = maj_readme(cov)
+        print(f"→ site/couverture.json + couverture.js{' + README (tableau)' if readme_ok else ''}")
 
 if __name__ == "__main__": main()

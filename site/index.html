@@ -6,6 +6,7 @@
 <title>Où va l'argent public ?</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
 <script src="data.js"></script>
+<script src="couverture.js"></script>
 <style>
   /* Thème inspiré des principes du DSFR (grille, contrastes RGAA, badges, callouts)
      SANS réutiliser ses composants, sa palette bleu France ni la police Marianne,
@@ -37,7 +38,19 @@
   .badge.est{background:var(--est-bg); color:var(--est);}
   .badge.unk{background:var(--unk-bg); color:var(--unk);}
   #stats{color:var(--mute);}
-  #wrap{display:flex; height:calc(100vh - 122px);}
+  #couverture{display:flex; gap:14px; flex-wrap:wrap; align-items:center; padding:7px 28px 9px; border-top:1px solid var(--border); background:#fff; font-size:.72rem;}
+  #couverture .cv-titre{font-weight:700; color:var(--mute); text-transform:uppercase; letter-spacing:.03em; font-size:.66rem;}
+  .cv{display:flex; align-items:center; gap:6px;}
+  .cv .cv-nom{color:var(--ink); white-space:nowrap;}
+  .cv .cv-barre{display:flex; width:86px; height:9px; border-radius:5px; overflow:hidden; border:1px solid var(--border);}
+  .cv .cv-barre i{display:block; height:100%;}
+  .cv .cv-pct{color:var(--mute); font-variant-numeric:tabular-nums; white-space:nowrap;}
+  #couverture details{position:relative;}
+  #couverture summary{cursor:pointer; color:var(--primary); list-style:none;}
+  #couverture details[open] .cv-methode{position:absolute; right:0; top:calc(100% + 6px); z-index:20; width:420px; max-width:80vw;
+    background:var(--card); border:1px solid var(--border); border-left:4px solid var(--primary); box-shadow:0 4px 14px rgba(0,0,0,.15);
+    padding:12px 14px; font-size:.74rem; line-height:1.5; color:#333;}
+  #wrap{display:flex; height:calc(100vh - 162px);}
   #chart{flex:1; overflow:hidden; background:var(--surface);}
   #panel{width:340px; background:#fff; border-left:1px solid var(--border); padding:20px; overflow-y:auto; font-size:.84rem; line-height:1.55;}
   #panel h2{font-size:1.05rem; margin-bottom:6px;}
@@ -85,13 +98,14 @@
     <span id="stats"></span>
   </span>
 </div>
+<div id="couverture" hidden></div>
 <div id="wrap">
   <div id="chart"></div>
   <aside id="panel">
     <h2>Bienvenue 👋</h2>
     <p class="desc">Cliquez sur un nœud pour le déplier et voir <b>montant, millésime, source officielle datée</b> — ou, pour les données manquantes, <b>qui contacter pour les obtenir</b>.</p>
-    <p class="desc">💸 <b>Dépenses</b> : la mission « Recherche et enseignement supérieur » est intégrée jusqu'au niveau le plus fin de l'open data (programmes → 46 actions, PLF 2025 réel). Les autres missions attendent votre contribution.</p>
-    <p class="desc">💰 <b>Recettes</b> : les 156 lignes réelles de l'état A — chaque impôt, taxe, redevance et dividende.</p>
+    <p class="desc">💸 <b>Dépenses</b> : l'intégralité du PLF 2025 (missions → programmes → actions → sous-actions), ventilée par nature de dépense (personnel, fonctionnement, investissement…), et les comptes 2025 de la Sécurité sociale par branche.</p>
+    <p class="desc">💰 <b>Recettes</b> : les 156 lignes réelles de l'état A — chaque impôt, taxe, redevance et dividende — et les recettes de la Sécu par catégorie.</p>
     <p class="desc">🧩 Les nœuds jaunes/orange sont la <b>todo-list publique</b> du projet : chacun peut les compléter par pull request, sourcée et datée.</p>
   </aside>
 </div>
@@ -216,6 +230,25 @@ function showPanel(d){
   const walk=n=>{c[n.statut]=(c[n.statut]||0)+1; (n.enfants||[]).forEach(walk);};
   Object.values(D).forEach(walk);
   document.getElementById('stats').textContent=`· ${c.confirme} nœuds confirmés · ${c.estime} estimés · ${c.inconnu} manquants`;
+})();
+// ---- Baromètre de couverture (en euros — issue #15) ----
+(function(){
+  const COV=window.COUVERTURE; const el=document.getElementById('couverture');
+  if(!COV||!COV.arbres) return;
+  const ORDRE=[['etat_depenses','💸 État'],['etat_recettes','💰 État'],['secu_depenses','💸 Sécu'],
+               ['secu_recettes','💰 Sécu'],['collectivites_depenses','💸 Collectivités'],['collectivites_recettes','💰 Collectivités']];
+  const pct=(v,m)=>m?Math.round(v/m*1000)/10:0;
+  let h='<span class="cv-titre">Couverture (en €)</span>';
+  for(const [k,nom] of ORDRE){
+    const c=COV.arbres[k]; if(!c) continue;
+    const s=c.statuts, m=c.montant, p=[pct(s.confirme,m),pct(s.estime,m),pct(s.inconnu,m)];
+    h+=`<span class="cv" title="${c.label} — ✅ confirmé ${p[0].toLocaleString('fr-FR')} % · 🟡 estimé ${p[1].toLocaleString('fr-FR')} % · ❓ ${c.inconnues.total} donnée(s) à réclamer">
+      <span class="cv-nom">${nom}</span>
+      <span class="cv-barre"><i style="width:${p[0]}%;background:var(--ok)"></i><i style="width:${p[1]}%;background:var(--est)"></i><i style="width:${p[2]}%;background:var(--unk)"></i></span>
+      <span class="cv-pct">${p[0].toLocaleString('fr-FR')} %</span></span>`;
+  }
+  h+=`<details><summary>méthode ▾</summary><div class="cv-methode"><b>Comment lire ce baromètre.</b> ${COV.methode}<br><br>C'est la <b>todo-list chiffrée</b> du projet : chaque part jaune ou rouge est une contribution qui vous attend.</div></details>`;
+  el.innerHTML=h; el.hidden=false;
 })();
 // ---- Interactions ----
 function refresh(){
