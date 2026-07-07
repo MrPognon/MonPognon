@@ -27,7 +27,7 @@ RÈGLES ABSOLUES
 FORMAT D'UN NŒUD (JSON) — produis EXACTEMENT cette structure
 {
   "id": "etat.depenses.XX.000",   // minuscules hiérarchiques ; préfixes :
-                                   // etat.depenses / etat.recettes / secu / coll
+                                   // etat.depenses / etat.recettes / secu / coll / commune.<insee>
   "label": "…",
   "montant": 0,                    // en euros (décimales acceptées), ou null si inconnu
   "annee": 2025,
