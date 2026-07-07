@@ -143,7 +143,7 @@ Appris sur le terrain — ils font perdre du temps à toutes les IA :
 4. En bas, clique **« Commit changes… »** puis **« Propose changes »** : ça ouvre une **pull request** avec le modèle à remplir (source, méthode, ce que tu n'as pas pu vérifier).
 5. C'est tout. La validation automatique et un mainteneur prennent le relais. Zéro terminal, zéro git.
 
-> 💡 Le fichier `site/data.js` (l'affichage) est **régénéré par un mainteneur** à la fusion — tu n'as pas à t'en occuper. Tu ne touches qu'aux fichiers de `data/`.
+> 💡 Les fichiers d'affichage (`site/data.js`, fragments…) sont **régénérés automatiquement au déploiement** après la fusion — tu n'as pas à t'en occuper. Tu ne touches qu'aux fichiers de `data/`.
 
 ## Ce que tu dois donner à ton IA
 

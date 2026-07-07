@@ -2,12 +2,20 @@ name: Déploiement du site sur GitHub Pages
 
 # GitHub Pages en « déploiement depuis une branche » n'accepte que / ou /docs.
 # Le site vit dans site/ : on le publie donc via ce workflow (build_type: workflow).
+#
+# Les fichiers générés (data.js, couverture.*, fragments communaux) ne sont PLUS
+# versionnés (issue #11) : ils sont régénérés ici, à chaque déploiement — toute
+# modification de data/ mergée arrive donc sur le site sans intervention manuelle,
+# y compris pour les PRs de contributeurs qui ne peuvent pas lancer build.py.
 
 on:
   push:
     branches: [main]
     paths:
       - 'site/**'
+      - 'data/**'
+      - 'schema/**'
+      - 'scripts/**'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
@@ -29,6 +37,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: Régénérer les fichiers servis (data.js, couverture, fragments communaux)
+        run: python3 scripts/build.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
