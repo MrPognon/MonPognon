@@ -1,6 +1,6 @@
 # ADR-0001 — Les flux croisés comme donnée : graphe de flux, arbres en vues
 
-- **Statut : Proposé** (décision à prendre dans la PR — commentaires bienvenus)
+- **Statut : Accepté** (2026-07-07, validé dans la PR #20)
 - **Date : 2026-07-07**
 
 ## Contexte

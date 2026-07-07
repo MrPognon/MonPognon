@@ -1,6 +1,6 @@
 # ADR-0003 — L'axe temps : millésimes successifs et voté vs exécuté
 
-- **Statut : Proposé** (décision à prendre dans la PR — commentaires bienvenus)
+- **Statut : Accepté** (2026-07-07, validé dans la PR #20)
 - **Date : 2026-07-07**
 
 ## Contexte
