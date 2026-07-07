@@ -1,7 +1,9 @@
 name: Validation des données
 on:
+  # Sur PR : on valide TOUT le dataset à chaque fois (build.py --check ~10 s) afin
+  # que le check requis « validate » se rapporte toujours. Sinon une PR ne touchant
+  # que site/ ou docs/ resterait bloquée par la protection de branche (check jamais émis).
   pull_request:
-    paths: ["data/**", "schema/**", "scripts/**"]
   push:
     branches: [main]
 jobs:
