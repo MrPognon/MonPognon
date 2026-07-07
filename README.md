@@ -1,5 +1,8 @@
 # 🌳 Où va l'argent public ?
 
+> **⚠️ Ce site n'était, n'est, et ne sera _jamais_ affilié — directement ou indirectement — à un gouvernement et/ou à un parti politique, passé, présent ou futur.**
+> Ce site est **objectif et apolitique**, et ces volontés ne seront jamais remises en question.
+
 Site open source et collaboratif pour comprendre **d'où vient et où va chaque euro public en France** : État, Sécurité sociale, collectivités — depuis votre fiche de paie jusqu'à l'action budgétaire la plus fine.
 
 **Principe fondateur : l'incomplétude est assumée et visible.** Chaque nœud de l'arbre porte un statut :
@@ -11,6 +14,14 @@ Site open source et collaboratif pour comprendre **d'où vient et où va chaque 
 | ❓ `inconnu` | La donnée **n'existe pas publiquement** — le nœud indique *qui contacter* et comment la réclamer (CADA / madada.fr) |
 
 La communauté fait grandir l'arbre par pull requests : chaque contribution doit être **sourcée et datée** (validation automatique en CI).
+
+## Un projet apolitique, celui du peuple français
+
+Ce projet est **apolitique** et le restera _ad vitam æternam_. Il n'est, et ne sera **jamais**, le projet d'une seule personne ni d'un groupe de personnes : c'est le **projet du peuple français**. Il a simplement été initié pour montrer que nous, citoyens, avec la puissance technologique moderne, pouvons réaliser l'**agrégation qu'aucun gouvernement français n'a souhaité faire** — de manière claire, visible et publique, en un seul et unique endroit.
+
+**Aucune affiliation — publique ou privée — n'est nécessaire, ni ne sera demandée ou acceptée.** De rares exceptions pourront être faites côté privé ; elles seront **toujours motivées et explicitées publiquement**, et concerneront pour l'essentiel le soutien à la **gestion technique et à l'infrastructure**, ou à la **recherche et l'exécution assistées par une ou plusieurs IA dont la gouvernance est, et sera, clairement établie**.
+
+Sa neutralité est sa force : **le site montre les chiffres et donne à chaque citoyen les moyens de juger par lui-même** — il ne porte, lui, aucun jugement sur l'opportunité d'une dépense ou d'une recette. C'est précisément cette rigueur qui fait sa crédibilité.
 
 ## Voir le site
 
@@ -48,7 +59,7 @@ Grands chantiers :
 
 ## Design
 
-Le site suit les **principes** du [Système de Design de l'État (DSFR)](https://www.systeme-de-design.gouv.fr/) — sobriété, contrastes RGAA, badges de statut, callouts sourcés — **sans réutiliser ses composants, sa palette « bleu France » ni la police Marianne** : leur usage est formellement réservé aux sites de l'État ([périmètre d'application](https://www.systeme-de-design.gouv.fr/version-courante/fr/premiers-pas/perimetre-d-application)), précisément pour qu'un site citoyen comme celui-ci ne puisse pas être confondu avec un site officiel. Si le projet était un jour porté par une administration (ex. beta.gouv.fr), l'adoption du vrai DSFR se ferait sur agrément du SIG.
+Le site suit les **principes** du [Système de Design de l'État (DSFR)](https://www.systeme-de-design.gouv.fr/) — sobriété, contrastes RGAA, badges de statut, callouts sourcés — **sans réutiliser ses composants, sa palette « bleu France » ni la police Marianne** : leur usage est formellement réservé aux sites de l'État ([périmètre d'application](https://www.systeme-de-design.gouv.fr/version-courante/fr/premiers-pas/perimetre-d-application)), précisément pour qu'un site citoyen comme celui-ci ne puisse pas être confondu avec un site officiel. Il s'agit d'une **inspiration assumée, non d'une réutilisation** : aucune autorisation n'est donc requise ni sollicitée. Si le projet était un jour porté par une administration (ex. beta.gouv.fr), l'adoption du vrai DSFR se ferait sur agrément du SIG.
 
 ## Sources et licences
 
