@@ -7,6 +7,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
 <script src="data.js"></script>
 <script src="couverture.js"></script>
+<script src="communes-index.js"></script>
 <style>
   /* Thème inspiré des principes du DSFR (grille, contrastes RGAA, badges, callouts)
      SANS réutiliser ses composants, sa palette bleu France ni la police Marianne,
@@ -38,6 +39,39 @@
   .badge.est{background:var(--est-bg); color:var(--est);}
   .badge.unk{background:var(--unk-bg); color:var(--unk);}
   #stats{color:var(--mute);}
+  /* ── Recherche (issue #18 : la recherche d'abord) ── */
+  #recherche-wrap{position:relative;}
+  #recherche{width:250px !important;}
+  #resultats{position:absolute; top:calc(100% + 4px); left:0; width:440px; max-width:86vw; background:var(--card);
+    border:1px solid var(--border); border-radius:6px; box-shadow:0 4px 14px rgba(0,0,0,.18);
+    max-height:340px; overflow:auto; z-index:40; display:none; padding:3px;}
+  #resultats.open{display:block;}
+  .res-item{display:flex; gap:9px; width:100%; text-align:left; border:0; background:none; padding:7px 10px;
+    cursor:pointer; font-size:.78rem; align-items:center; border-radius:4px;}
+  .res-item:hover,.res-item.actif{background:var(--surface);}
+  .res-dot{width:8px; height:8px; border-radius:99px; flex:none;}
+  .res-txt{min-width:0; flex:1;}
+  .res-lab{font-weight:600; display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .res-chemin{color:var(--mute); font-size:.68rem; display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .res-m{color:var(--mute); white-space:nowrap; font-size:.72rem;}
+  /* ── Vue « surfaces » (treemap zoomable, issue #18) ── */
+  .vue-btn{background:none; border:1px solid var(--border); border-radius:4px; padding:4px 10px; cursor:pointer; font-size:.75rem; color:var(--ink);}
+  .vue-btn.active{background:var(--primary); border-color:var(--primary); color:#fff; font-weight:600;}
+  .tmwrap{width:100%; height:100%; padding:10px 14px; display:flex; flex-direction:column;}
+  .tm-crumbs{display:flex; align-items:center; gap:4px; flex-wrap:wrap; font-size:.78rem; padding-bottom:8px;}
+  .tm-crumbs button{border:0; background:none; color:var(--primary); cursor:pointer; padding:3px 6px; border-radius:4px; font-weight:600;}
+  .tm-crumbs button:hover{background:#fff;}
+  .tm-crumbs .ici{color:var(--ink); font-weight:700;}
+  .tm-area{position:relative; flex:1;}
+  .tmb{position:absolute; overflow:hidden; text-align:left; background:var(--card); border:1px solid var(--border);
+    border-left:4px solid var(--ok); border-radius:3px; padding:6px 8px; cursor:pointer; font-size:11px; transition:box-shadow .12s;}
+  .tmb:hover,.tmb:focus-visible{box-shadow:0 0 0 2px var(--primary); z-index:3;}
+  .tmb.estime{border-left-color:var(--est); background:#fff9ef;}
+  .tmb.inconnu{border-left-color:var(--unk); border-style:dashed; border-left-style:solid; background:#fff5f5;}
+  .tmb.autres{border-style:dotted; border-left-color:#888; color:var(--mute); background:var(--surface);}
+  .tmb .l{font-weight:600; line-height:1.22; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;}
+  .tmb .v{color:var(--mute); font-size:10px; margin-top:2px; white-space:nowrap;}
+  .tmb.small .l,.tmb.small .v{display:none;}
   #couverture{display:flex; gap:14px; flex-wrap:wrap; align-items:center; padding:7px 28px 9px; border-top:1px solid var(--border); background:#fff; font-size:.72rem;}
   #couverture .cv-titre{font-weight:700; color:var(--mute); text-transform:uppercase; letter-spacing:.03em; font-size:.66rem;}
   .cv{display:flex; align-items:center; gap:6px;}
@@ -90,6 +124,13 @@
   </div>
 </header>
 <div id="bar">
+  <span id="recherche-wrap">🔎 <input id="recherche" type="search" placeholder="Rechercher : programme, impôt, commune… ( / )" autocomplete="off"
+      role="combobox" aria-expanded="false" aria-controls="resultats" aria-label="Rechercher dans toutes les données">
+    <div id="resultats" role="listbox"></div></span>
+  <span id="ctl-vue" role="group" aria-label="Type de visualisation">
+    <button class="vue-btn active" data-vue="arbre" aria-pressed="true">⌲ arbre</button>
+    <button class="vue-btn" data-vue="surfaces" aria-pressed="false">◱ surfaces</button>
+  </span>
   <span id="ctl-paie" style="display:none">Salaire brut mensuel <input type="number" id="brut" value="3000" min="1802" step="100"> €</span>
   <span id="ctl-commune">🏘️ Ma commune <input id="commune-q" list="communes-dl" placeholder="tapez son nom…" autocomplete="off" aria-label="Rechercher une commune" style="width:210px"><datalist id="communes-dl"></datalist></span>
   <span class="leg">
@@ -167,10 +208,13 @@ function render(data){
   const W=chartEl.clientWidth||900, H=chartEl.clientHeight||600;
   const svg=d3.select('#chart').append('svg').attr('width',W).attr('height',H);
   const outer=svg.append('g'); const g=outer.append('g');
-  svg.call(d3.zoom().scaleExtent([0.3,2]).on('zoom',e=>outer.attr('transform',e.transform)));
+  const zoomB=d3.zoom().scaleExtent([0.3,2]).on('zoom',e=>outer.attr('transform',e.transform));
+  svg.call(zoomB);
   const root=d3.hierarchy(data,d=>d.enfants);
   root.x0=H/2; root.y0=0;
-  root.children?.forEach(c=>{c._children=c.children; c.children=null;});
+  // repli récursif : chaque niveau se déplie un cran à la fois (issue #18 — l'arbre
+  // dépliait auparavant toute la descendance d'un coup : illisible à 3 000 nœuds)
+  root.descendants().slice(1).forEach(c=>{if(c.children){c._children=c.children; c.children=null;}});
   const BW=232, BH=58;                       // dimensions des boîtes
   const tree=d3.tree().nodeSize([BH+12,BW+70]);
   const lh=d3.linkHorizontal().x(p=>p.y).y(p=>p.x);
@@ -180,10 +224,12 @@ function render(data){
     const dt=dateTag(n);
     return fmtEUR(n.montant)+(mode==='paie'?' /mois':'')+(dt?' · '+dt:'');
   };
+  let offsetY=50;
   function update(source){
     tree(root);
     let left=root; root.eachBefore(n=>{if(n.x<left.x)left=n;});
-    g.attr('transform',`translate(30,${Math.max(50,-left.x+50)})`);
+    offsetY=Math.max(50,-left.x+50);
+    g.attr('transform',`translate(30,${offsetY})`);
     const nodes=g.selectAll('g.node').data(root.descendants(),d=>d.data.id);
     const nEnter=nodes.enter().append('g').attr('class','node')
       .attr('transform',`translate(${source.y0},${source.x0})`)
@@ -208,6 +254,26 @@ function render(data){
   }
   function toggle(d){ if(d.children){d._children=d.children;d.children=null;} else if(d._children){d.children=d._children;d._children=null;} }
   update(root);
+  // API d'atterrissage pour la recherche (issue #18)
+  window.__arbre={
+    root, update,
+    centrer(d){
+      const tx=W*0.3-(d.y+30), ty=H*0.45-(d.x+offsetY);
+      svg.transition().duration(400).call(zoomB.transform, d3.zoomIdentity.translate(tx,ty));
+    }
+  };
+}
+function atterrir(id){
+  const A=window.__arbre; if(!A) return;
+  let n=A.root;
+  while(n.data.id!==id){
+    const kids=n.children||n._children||[];
+    const suivant=kids.find(c=>id===c.data.id||id.startsWith(c.data.id+'.'));
+    if(!suivant) break;
+    if(n._children){n.children=n._children; n._children=null;}   // réveille le chemin, un cran à la fois
+    n=suivant;
+  }
+  selId=n.data.id; A.update(A.root); showPanel(n.data); A.centrer(n);
 }
 const LAB={confirme:['Confirmé — source officielle','ok'],estime:['Estimé — à raffiner','est'],inconnu:['❓ Donnée manquante','unk']};
 function showPanel(d){
@@ -274,6 +340,7 @@ function showPanel(d){
     },250);
   });
   const AGS=["Dépenses totales","Dépenses de fonctionnement","Dépenses d'investissement","Recettes totales","Recettes de fonctionnement","Recettes d'investissement"];
+  window.__chargerFicheCommune=(insee)=>chargerFiche(insee);   // utilisé par la recherche globale (issue #18)
   const panneau=h=>{document.getElementById('panel').innerHTML=h;};
   async function chargerFiche(insee){
     panneau('<h2>🏘️ Chargement…</h2>');
@@ -318,14 +385,162 @@ function showPanel(d){
       <div class="src">📚 <b>OFGL — Comptes des communes (ofgl-base-communes), budget principal, exercice ${an}</b><br>Licence Ouverte 2.0 · <a href="https://data.ofgl.fr/explore/dataset/ofgl-base-communes/" target="_blank">data.ofgl.fr</a></div>`);
   }
 })();
+// ---- Vue « surfaces » : treemap zoomable, top-N + « autres » (issue #18) ----
+let vue='arbre', tmPath=[], tmToutVoir=new Set();
+const TM_N=24;
+function squarify(items,x,y,w,h){
+  const out=[]; items=items.slice();
+  const total=items.reduce((s,i)=>s+i.v,0)||1, scale=w*h/total;
+  items.forEach(i=>i.a=i.v*scale);
+  let cx=x,cy=y,cw=w,ch=h;
+  while(items.length){
+    const row=[]; let best=Infinity; const side=Math.min(cw,ch);
+    while(items.length){
+      row.push(items[0]);
+      const sum=row.reduce((s,i)=>s+i.a,0), mx=Math.max(...row.map(i=>i.a)), mn=Math.min(...row.map(i=>i.a));
+      const ratio=Math.max(side*side*mx/(sum*sum), sum*sum/(side*side*mn));
+      if(ratio<=best){best=ratio; items.shift();} else {row.pop(); break;}
+    }
+    const sum=row.reduce((s,i)=>s+i.a,0);
+    if(cw>=ch){const rw=sum/ch; let yy=cy; row.forEach(i=>{const hh=i.a/rw; out.push({...i,x:cx,y:yy,w:rw,h:hh}); yy+=hh;}); cx+=rw; cw-=rw;}
+    else{const rh=sum/cw; let xx=cx; row.forEach(i=>{const ww=i.a/rh; out.push({...i,x:xx,y:cy,w:ww,h:rh}); xx+=rh===0?0:i.a/rh;}); cy+=rh; ch-=rh;}
+  }
+  return out;
+}
+function renderTreemap(data){
+  chartEl.innerHTML='';
+  // redescendre le chemin de drill-down par ids (les objets sont recréés à chaque refresh)
+  let node=data;
+  for(const id of tmPath){
+    const k=(node.enfants||[]).find(c=>c.id===id);
+    if(!k) {tmPath=tmPath.slice(0,tmPath.indexOf(id)); break;}
+    node=k;
+  }
+  const wrap=document.createElement('div'); wrap.className='tmwrap';
+  const crumbs=document.createElement('div'); crumbs.className='tm-crumbs';
+  const chaine=[{label:data.label.split('(')[0].trim(),id:null},...tmPath.map(id=>({id}))];
+  let cur=data;
+  chaine.forEach((c,i)=>{
+    if(c.id){cur=(cur.enfants||[]).find(x=>x.id===c.id)||cur; c.label=cur.label;}
+    const b=document.createElement('button'); b.textContent=c.label;
+    if(i===chaine.length-1){b.className='ici'; b.disabled=true;}
+    else b.onclick=()=>{tmPath=tmPath.slice(0,i); refresh();};
+    crumbs.appendChild(b);
+    if(i<chaine.length-1){const s=document.createElement('span'); s.textContent='›'; s.style.color='var(--mute)'; crumbs.appendChild(s);}
+  });
+  wrap.appendChild(crumbs);
+  const area=document.createElement('div'); area.className='tm-area'; wrap.appendChild(area);
+  chartEl.appendChild(wrap);
+  const W=area.clientWidth, H=area.clientHeight;
+  let kids=(node.enfants||[]).filter(c=>(c.montant||0)>0).sort((a,b)=>b.montant-a.montant);
+  const sansMontant=(node.enfants||[]).filter(c=>!(c.montant>0));
+  if(!kids.length){showPanel(node); return;}
+  let items;
+  if(kids.length>TM_N && !tmToutVoir.has(node.id)){
+    const top=kids.slice(0,TM_N-1), reste=kids.slice(TM_N-1);
+    items=top.map(c=>({node:c, v:c.montant}));
+    items.push({autres:true, v:reste.reduce((s,c)=>s+c.montant,0), n:reste.length});
+  } else items=kids.map(c=>({node:c, v:c.montant}));
+  squarify(items,0,0,W,H).forEach(r=>{
+    const b=document.createElement('button');
+    const nd=r.node;
+    b.className='tmb '+(nd?(nd.statut||''):'autres');
+    b.style.cssText=`left:${r.x+1.5}px;top:${r.y+1.5}px;width:${Math.max(r.w-3,2)}px;height:${Math.max(r.h-3,2)}px`;
+    if(r.w<74||r.h<38) b.classList.add('small');
+    const lab=nd?nd.label:`+ ${r.n} autres`;
+    b.innerHTML=`<span class="l"></span><span class="v"></span>`;
+    b.querySelector('.l').textContent=lab;
+    b.querySelector('.v').textContent=fmtEUR(r.v)+(mode==='paie'?' /mois':'');
+    b.title=`${lab} — ${fmtEUR(r.v)}`;
+    b.setAttribute('aria-label',b.title);
+    b.onclick=()=>{
+      if(!nd){tmToutVoir.add(node.id); refresh(); return;}
+      showPanel(nd); selId=nd.data?nd.data.id:nd.id;
+      if((nd.enfants||[]).some(c=>(c.montant||0)>0)){tmPath.push(nd.id); refresh();}
+    };
+    area.appendChild(b);
+  });
+  if(sansMontant.length){
+    const note=document.createElement('div');
+    note.style.cssText='position:absolute;right:8px;bottom:6px;font-size:10.5px;color:var(--unk);background:rgba(255,255,255,.85);padding:2px 8px;border-radius:4px;';
+    note.textContent=`+ ${sansMontant.length} nœud(s) sans montant (❓) — visibles dans la vue arbre`;
+    area.appendChild(note);
+  }
+}
+// ---- Recherche globale : la recherche d'abord (issue #18) ----
+(function(){
+  const inp=document.getElementById('recherche'), box=document.getElementById('resultats');
+  const norm=s=>(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+  const INDEX=[];
+  const MODE={etat_depenses:'depenses',secu_depenses:'depenses',collectivites_depenses:'depenses',
+              etat_recettes:'recettes',secu_recettes:'recettes',collectivites_recettes:'recettes'};
+  for(const [cle,arbre] of Object.entries(D)){
+    (function walk(n,chemin){
+      INDEX.push({id:n.id,label:n.label,nl:norm(n.label),montant:n.montant,statut:n.statut,chemin,m:MODE[cle]});
+      (n.enfants||[]).forEach(c=>walk(c,chemin?chemin+' › '+n.label:n.label));
+    })(arbre,'');
+  }
+  (window.COMMUNES_IDX||[]).forEach(c=>INDEX.push({commune:c.i,label:c.n,nl:norm(c.n),chemin:'🏘️ fiche communale',statut:'confirme'}));
+  let hits=[],actif=-1;
+  function chercher(q){
+    const s=norm(q.trim());
+    if(s.length<2){fermer(); return;}
+    hits=INDEX.filter(e=>e.nl.includes(s))
+      .sort((a,b)=>(a.nl.startsWith(s)?0:1)-(b.nl.startsWith(s)?0:1)||(b.montant||0)-(a.montant||0))
+      .slice(0,9);
+    actif=0; peindre();
+  }
+  function peindre(){
+    box.innerHTML='';
+    if(!hits.length){fermer(); return;}
+    hits.forEach((e,i)=>{
+      const b=document.createElement('button');
+      b.className='res-item'+(i===actif?' actif':''); b.setAttribute('role','option');
+      const coul=e.statut==='confirme'?'var(--ok)':e.statut==='estime'?'var(--est)':'var(--unk)';
+      b.innerHTML=`<span class="res-dot" style="background:${coul}"></span><span class="res-txt"><span class="res-lab"></span><span class="res-chemin"></span></span><span class="res-m">${e.montant!=null?fmtEUR(e.montant):''}</span>`;
+      b.querySelector('.res-lab').textContent=e.label;
+      b.querySelector('.res-chemin').textContent=e.chemin||'racine';
+      b.onclick=()=>aller(e);
+      box.appendChild(b);
+    });
+    box.classList.add('open'); inp.setAttribute('aria-expanded','true');
+  }
+  function fermer(){box.classList.remove('open'); inp.setAttribute('aria-expanded','false'); hits=[]; actif=-1;}
+  function aller(e){
+    fermer(); inp.value=e.label;
+    if(e.commune){window.__chargerFicheCommune&&window.__chargerFicheCommune(e.commune); return;}
+    if(e.m&&e.m!==mode){
+      mode=e.m;
+      document.querySelectorAll('.mode-btn').forEach(x=>x.classList.toggle('active',x.dataset.mode===mode));
+    }
+    if(vue!=='arbre'){vue='arbre'; document.querySelectorAll('.vue-btn').forEach(x=>{x.classList.toggle('active',x.dataset.vue==='arbre'); x.setAttribute('aria-pressed',x.dataset.vue==='arbre');});}
+    refresh();
+    atterrir(e.id);
+  }
+  inp.addEventListener('input',()=>chercher(inp.value));
+  inp.addEventListener('keydown',ev=>{
+    if(ev.key==='ArrowDown'){actif=Math.min(actif+1,hits.length-1); peindre(); ev.preventDefault();}
+    else if(ev.key==='ArrowUp'){actif=Math.max(actif-1,0); peindre(); ev.preventDefault();}
+    else if(ev.key==='Enter'&&hits[Math.max(actif,0)]) aller(hits[Math.max(actif,0)]);
+    else if(ev.key==='Escape') fermer();
+  });
+  document.addEventListener('keydown',ev=>{if(ev.key==='/'&&document.activeElement!==inp&&document.activeElement.tagName!=='INPUT'){ev.preventDefault(); inp.focus(); inp.select();}});
+  document.addEventListener('click',ev=>{if(!ev.target.closest('#recherche-wrap'))fermer();});
+})();
 // ---- Interactions ----
 function refresh(){
   document.getElementById('ctl-paie').style.display = mode==='paie'?'inline':'none';
   document.getElementById('ctl-commune').style.display = mode==='paie'?'none':'inline';
-  if(mode==='depenses') render(rootDepenses());
-  else if(mode==='recettes') render(rootRecettes());
-  else render(rootPaie(+document.getElementById('brut').value||3000));
+  document.getElementById('ctl-vue').style.display = mode==='paie'?'none':'inline';
+  const data = mode==='depenses'?rootDepenses() : mode==='recettes'?rootRecettes() : rootPaie(+document.getElementById('brut').value||3000);
+  if(vue==='surfaces'&&mode!=='paie') renderTreemap(data);
+  else render(data);
 }
+document.querySelectorAll('.vue-btn').forEach(b=>b.onclick=()=>{
+  vue=b.dataset.vue; tmPath=[]; tmToutVoir.clear();
+  document.querySelectorAll('.vue-btn').forEach(x=>{x.classList.toggle('active',x===b); x.setAttribute('aria-pressed',x===b);});
+  refresh();
+});
 document.querySelectorAll('.mode-btn').forEach(b=>b.onclick=()=>{
   mode=b.dataset.mode;
   document.querySelectorAll('.mode-btn').forEach(x=>x.classList.toggle('active',x===b));

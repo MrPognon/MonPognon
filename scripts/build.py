@@ -197,6 +197,10 @@ def main():
                 with open(os.path.join(frag_dir, insee + ".json"), "w", encoding="utf-8") as fh:
                     json.dump(node, fh, ensure_ascii=False)
             print(f"→ {frag_dir}{os.sep} ({len(fiches)} fragment(s))")
+            with open(os.path.join(ROOT, "site", "communes-index.js"), "w", encoding="utf-8") as fh:
+                fh.write("// Généré par scripts/build.py — NE PAS ÉDITER À LA MAIN (éditez data/)\n")
+                idx = [{"i": insee, "n": n["label"].split(" (")[0]} for insee, n in sorted(fiches.items())]
+                fh.write("window.COMMUNES_IDX = " + json.dumps(idx, ensure_ascii=False) + ";\n")
         # Baromètre de couverture (issue #15) — par arbre, jamais sommé entre arbres.
         cov = {k: couverture(n) for k, n in data.items()}
         cov_doc = {"methode": METHODE_COUVERTURE, "arbres": cov}
