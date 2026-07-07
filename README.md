@@ -27,7 +27,7 @@ Sa neutralité est sa force : **le site montre les chiffres et donne à chaque c
 
 Ouvrez `site/index.html` dans un navigateur (ou activez GitHub Pages sur le dossier `site/`). Trois modes :
 
-- **💸 Dépenses** — des 1 670 Md€ de dépenses publiques jusqu'aux actions budgétaires. La mission « Recherche et enseignement supérieur » est intégrée jusqu'au niveau le plus fin de l'open data (8 programmes, 46 actions, données réelles PLF 2025) : c'est le modèle à reproduire pour les 33 autres missions.
+- **💸 Dépenses** — des 1 670 Md€ de dépenses publiques jusqu'aux actions budgétaires. L'**intégralité du PLF 2025** est intégrée jusqu'au niveau le plus fin de l'open data — budget général + CAS + CCF + BA, des missions jusqu'aux sous-actions (~1 200 nœuds, tout `confirme`). Prochain raffinement : ventiler chaque action par nature (personnel, fonctionnement, investissement).
 - **💰 Recettes** — qui paie quoi : les 156 lignes de l'état A du PLF (chaque impôt, taxe, redevance, dividende), plus la Sécu et les collectivités.
 - **🧾 Ma fiche de paie** — entrez votre brut, suivez chaque euro prélevé jusqu'à sa destination.
 
