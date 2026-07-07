@@ -9,7 +9,8 @@ Site open source de visualisation des flux d'argent public français (État, Sé
 ## Architecture
 
 - `data/**/*.json` — source de vérité. Un arbre par fichier, nœuds conformes à `schema/noeud.schema.json`.
-- `scripts/build.py` — valide data/ (ids uniques, sources, cohérence des sommes ±2 %) et génère `site/data.js`. **À relancer après toute modif de data/. `site/data.js` est généré, ne jamais l'éditer à la main.**
+- `data/collectivites/communes/<dept>/<insee>.json` — **fiches communales** (ADR-0004) : racine `commune.<insee>` (montant null) + enfants `.depenses`/`.recettes`. Validées comme le reste, publiées en fragments `site/data/communes/<insee>.json` chargés à la demande — **jamais dans `data.js`**, jamais sommées dans l'arbre national.
+- `scripts/build.py` — valide data/ (ids uniques, sources, cohérence des sommes ±2 %) et génère `site/data.js` + les fragments communaux. **À relancer après toute modif de data/. Les fichiers générés ne s'éditent jamais à la main.**
 - `scripts/extract_plf.py` — modèle d'extraction API data.economie.
 - `site/index.html` — site statique (D3 depuis cdnjs, zéro build front). Trois modes : Dépenses / Recettes / Ma fiche de paie.
 - `data-sources/raw/` — extraits bruts des API (traçabilité des transformations).

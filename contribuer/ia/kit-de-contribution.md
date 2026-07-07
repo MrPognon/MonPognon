@@ -92,9 +92,20 @@ L'`id` donne le fichier et l'emplacement :
 | `etat.depenses.` | `data/etat/depenses.json` |
 | `etat.recettes.` | `data/etat/recettes.json` |
 | `secu.` | `data/secu/depenses.json` ou `recettes.json` |
-| `coll.` | `data/collectivites/depenses.json` ou `recettes.json` |
+| `coll.` | `data/collectivites/depenses.json` ou `recettes.json` (agrégats nationaux uniquement) |
+| `commune.<insee>.` | `data/collectivites/communes/<n° département>/<code INSEE>.json` — la fiche de TA commune (voir ci-dessous) |
 
 Un nouveau nœud s'ajoute dans le tableau `enfants` de son **parent logique** (ex. une action se range sous son programme). Si tu ne sais pas où, mets-le au niveau le plus proche et **dis-le dans la PR** — un mainteneur t'aidera à le ranger.
+
+### Le budget de ta commune : un fichier dédié (ADR-0004)
+
+Une commune = **un fichier**, jamais un nœud de l'arbre national (sinon ses recettes seraient comptées deux fois). Structure imposée :
+
+- fichier : `data/collectivites/communes/<n° département>/<code INSEE>.json` (ex. `45/45082.json`) ;
+- nœud racine `commune.<insee>` avec **`montant: null`** (les dépenses et les recettes ne s'additionnent pas) ;
+- deux enfants : `commune.<insee>.depenses` et `commune.<insee>.recettes`, chacun avec son arbre sourcé (OFGL, balances DGFiP…).
+
+**Dans le navigateur** : sur GitHub, bouton **« Add file » → « Create new file »**, tape le chemin complet (`data/collectivites/communes/45/45082.json` — GitHub crée les dossiers tout seul), colle le JSON entier, puis « Commit changes » → « Propose changes ». Exemple fondateur à imiter : la fiche `45082` (Châteauneuf-sur-Loire).
 
 ## Cohérence des sommes
 
@@ -109,7 +120,7 @@ Appris sur le terrain — ils font perdre du temps à toutes les IA :
 - **Balances comptables DGFiP** (`balances-comptables-des-communes-en-<année>` sur data.economie) : le niveau **sous** les agrégats OFGL — chaque **compte comptable M57/M14** de chaque commune (ex. compte `20422` = subventions d'équipement aux personnes de droit privé). Trois pièges : ① `obnetdeb`/`obnetcre` = **flux de l'exercice** (mandaté/titré net), alors que `sd`/`sc` = **stocks cumulés au bilan** — ne jamais les confondre ; ② filtrer `cbudg="1"` (budget principal) ; ③ les agrégats OFGL se recalculent depuis ces comptes (bonne vérification croisée : ex. « Subventions d'équipement versées » = somme des `obnetdeb` des comptes `204x`).
 - **Le nominatif (qui a reçu, qui a payé)** n'est PAS dans les balances : subventions attribuées → obligation de publication seulement au-delà de 23 000 € (schéma SCDL) ; marchés publics → DECP. Beaucoup de communes ne publient rien : c'est alors un **nœud `inconnu`** avec la mairie en contact (délibérations du conseil municipal) — une contribution de pleine valeur.
 - **Date de mise à jour d'un jeu ODS** (pour `source.maj`) : `GET /api/explore/v2.1/catalog/datasets/<id>` → `metas.default.modified`.
-- **Recettes d'une commune** : l'arbre des recettes des collectivités est ventilé par nature, pas par commune — en attendant la décision de structure ([issue #21](https://github.com/MrPognon/MonPognon/issues/21)), mentionne les recettes totales dans la `description` du nœud dépenses de la commune et signale-le dans la PR.
+- **Recettes d'une commune** : elles vont dans la **fiche de la commune** (`commune.<insee>.recettes` — voir « Le budget de ta commune » ci-dessus), jamais dans l'arbre national des recettes, qui est ventilé par nature (décision ADR-0004).
 
 ## Proposer ta contribution — SANS rien connaître à git (dans le navigateur)
 
