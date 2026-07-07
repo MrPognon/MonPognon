@@ -19,14 +19,6 @@
    "montant": 165000000000,
    "annee": 2025,
    "statut": "estime",
-   "source": {
-    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
-    "url": "https://data.ofgl.fr",
-    "producteur": "OFGL / DGCL / DGFiP",
-    "licence": "Licence Ouverte 2.0",
-    "consulte_le": "2026-07-07",
-    "maj": null
-   },
    "enfants": [],
    "a_completer": {
     "note": "Par commune : API OFGL ofgl-base-communes ; par fonction : balances nature-fonction DGFiP (≥ 3 500 hab.)",
@@ -39,14 +31,6 @@
    "montant": 78000000000,
    "annee": 2025,
    "statut": "estime",
-   "source": {
-    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
-    "url": "https://data.ofgl.fr",
-    "producteur": "OFGL / DGCL / DGFiP",
-    "licence": "Licence Ouverte 2.0",
-    "consulte_le": "2026-07-07",
-    "maj": null
-   },
    "enfants": [],
    "description": "Social (RSA, ASE, APA), collèges, routes.",
    "a_completer": {
@@ -60,14 +44,6 @@
    "montant": 44000000000,
    "annee": 2025,
    "statut": "estime",
-   "source": {
-    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
-    "url": "https://data.ofgl.fr",
-    "producteur": "OFGL / DGCL / DGFiP",
-    "licence": "Licence Ouverte 2.0",
-    "consulte_le": "2026-07-07",
-    "maj": null
-   },
    "enfants": [],
    "description": "Lycées, trains régionaux, formation professionnelle, développement économique.",
    "a_completer": {
@@ -81,14 +57,6 @@
    "montant": 28000000000,
    "annee": 2025,
    "statut": "estime",
-   "source": {
-    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
-    "url": "https://data.ofgl.fr",
-    "producteur": "OFGL / DGCL / DGFiP",
-    "licence": "Licence Ouverte 2.0",
-    "consulte_le": "2026-07-07",
-    "maj": null
-   },
    "enfants": [],
    "a_completer": {
     "note": "Chiffre d'ordre de grandeur à remplacer par extraction exacte de la source — contribution bienvenue.",
@@ -101,14 +69,6 @@
    "montant": null,
    "annee": null,
    "statut": "inconnu",
-   "source": {
-    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
-    "url": "https://data.ofgl.fr",
-    "producteur": "OFGL / DGCL / DGFiP",
-    "licence": "Licence Ouverte 2.0",
-    "consulte_le": "2026-07-07",
-    "maj": null
-   },
    "enfants": [],
    "inconnu": {
     "quoi": "Publication centralisée des XML TOTEM / schéma SCDL — on ne voit que l'exécuté à ~18 mois",
@@ -122,14 +82,6 @@
    "montant": null,
    "annee": null,
    "statut": "inconnu",
-   "source": {
-    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
-    "url": "https://data.ofgl.fr",
-    "producteur": "OFGL / DGCL / DGFiP",
-    "licence": "Licence Ouverte 2.0",
-    "consulte_le": "2026-07-07",
-    "maj": null
-   },
    "enfants": [],
    "inconnu": {
     "quoi": "Ventilation par fonction (écoles, voirie…) pour ~90 % des communes",

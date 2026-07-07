@@ -43,12 +43,13 @@ Le reste de cette page décrit la contribution « à la main » — utile pour c
 }
 ```
 
-4. Choisissez le bon `statut` :
+4. **La source s'hérite** (ADR-0005) : un sous-nœud du même jeu peut ne déclarer que ce qui diffère (souvent `nom`) — les champs manquants héritent du parent. La racine du fichier doit être complète.
+5. Choisissez le bon `statut` :
    - `confirme` : le montant est extrait tel quel de la source (copie exacte, pas de calcul « de tête »).
    - `estime` : ordre de grandeur, calcul dérivé, ou source secondaire — expliquez la méthode dans `description`.
    - `inconnu` : la donnée n'existe pas publiquement. Ajoutez alors un bloc `inconnu` avec `quoi` (ce qui manque) et `contact` (l'administration à solliciter). C'est une contribution précieuse : cartographier l'ombre fait avancer la transparence.
-5. Vérifiez localement : `python3 scripts/build.py --check` (la CI le fera aussi sur votre PR).
-6. Ouvrez la pull request en indiquant : source, méthode, et ce que vous n'avez PAS pu vérifier.
+6. Vérifiez localement : `python3 scripts/build.py --check` (la CI le fera aussi sur votre PR).
+7. Ouvrez la pull request en indiquant : source, méthode, et ce que vous n'avez PAS pu vérifier.
 
 ## Contributions typiques (par difficulté croissante)
 

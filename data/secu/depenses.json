@@ -22,12 +22,7 @@
    "statut": "confirme",
    "description": "Charges nettes 2025  tous régimes de base. Produits nets : 246 738 M€ ; solde : -15 879 M€.",
    "source": {
-    "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 16 « Charges nettes, produits nets et soldes des régimes de base, par branche », p. 37 (p. 39 du PDF)",
-    "url": "https://www.securite-sociale.fr/files/live/sites/SSFR/files/medias/CCSS/2026/CCSS%20mai%202026_assembl%C3%A9_V2.pdf",
-    "producteur": "DSS / Commission des comptes de la Sécurité sociale",
-    "licence": "Document public",
-    "consulte_le": "2026-07-07",
-    "maj": "2026-06-23"
+    "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 16 « Charges nettes, produits nets et soldes des régimes de base, par branche », p. 37 (p. 39 du PDF)"
    },
    "enfants": [
     {
@@ -39,9 +34,6 @@
      "source": {
       "nom": "ONDAM / data.ameli.fr",
       "url": "https://data.ameli.fr",
-      "producteur": "DSS / Commission des comptes de la Sécurité sociale",
-      "licence": "Document public",
-      "consulte_le": "2026-07-07",
       "maj": null
      },
      "enfants": [],
@@ -59,9 +51,6 @@
      "source": {
       "nom": "ONDAM / Open DAMIR",
       "url": "https://www.assurance-maladie.ameli.fr/etudes-et-donnees/open-damir-depenses-sante-interregimes",
-      "producteur": "DSS / Commission des comptes de la Sécurité sociale",
-      "licence": "Document public",
-      "consulte_le": "2026-07-07",
       "maj": null
      },
      "enfants": [],
@@ -79,9 +68,6 @@
      "source": {
       "nom": "Rapport CCSS (PDF — à structurer)",
       "url": "https://www.securite-sociale.fr/home/la-secu-en-detail/comptes-statistiques-et-etudes-de-la-s%C3%A9curit%C3%A9-sociale/rapports-a-la-commission-des-comptes-de-la-securite-sociale.html",
-      "producteur": "DSS / Commission des comptes de la Sécurité sociale",
-      "licence": "Document public",
-      "consulte_le": "2026-07-07",
       "maj": null
      },
      "enfants": [],
@@ -104,12 +90,7 @@
    "statut": "confirme",
    "description": "Charges nettes 2025  tous régimes de base. Produits nets : 296 978 M€ ; solde : -7 136 M€.",
    "source": {
-    "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 16 « Charges nettes, produits nets et soldes des régimes de base, par branche », p. 37 (p. 39 du PDF)",
-    "url": "https://www.securite-sociale.fr/files/live/sites/SSFR/files/medias/CCSS/2026/CCSS%20mai%202026_assembl%C3%A9_V2.pdf",
-    "producteur": "DSS / Commission des comptes de la Sécurité sociale",
-    "licence": "Document public",
-    "consulte_le": "2026-07-07",
-    "maj": "2026-06-23"
+    "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 16 « Charges nettes, produits nets et soldes des régimes de base, par branche », p. 37 (p. 39 du PDF)"
    },
    "enfants": [],
    "a_completer": {
@@ -125,12 +106,7 @@
    "statut": "confirme",
    "description": "Charges nettes 2025  tous régimes de base. Produits nets : 59 705 M€ ; solde : +1 171 M€.",
    "source": {
-    "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 16 « Charges nettes, produits nets et soldes des régimes de base, par branche », p. 37 (p. 39 du PDF)",
-    "url": "https://www.securite-sociale.fr/files/live/sites/SSFR/files/medias/CCSS/2026/CCSS%20mai%202026_assembl%C3%A9_V2.pdf",
-    "producteur": "DSS / Commission des comptes de la Sécurité sociale",
-    "licence": "Document public",
-    "consulte_le": "2026-07-07",
-    "maj": "2026-06-23"
+    "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 16 « Charges nettes, produits nets et soldes des régimes de base, par branche », p. 37 (p. 39 du PDF)"
    },
    "enfants": [],
    "a_completer": {
@@ -146,12 +122,7 @@
    "statut": "confirme",
    "description": "Charges nettes 2025  tous régimes de base. Produits nets : 41 864 M€ ; solde : +92 M€.",
    "source": {
-    "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 16 « Charges nettes, produits nets et soldes des régimes de base, par branche », p. 37 (p. 39 du PDF)",
-    "url": "https://www.securite-sociale.fr/files/live/sites/SSFR/files/medias/CCSS/2026/CCSS%20mai%202026_assembl%C3%A9_V2.pdf",
-    "producteur": "DSS / Commission des comptes de la Sécurité sociale",
-    "licence": "Document public",
-    "consulte_le": "2026-07-07",
-    "maj": "2026-06-23"
+    "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 16 « Charges nettes, produits nets et soldes des régimes de base, par branche », p. 37 (p. 39 du PDF)"
    },
    "enfants": [],
    "a_completer": {
@@ -167,12 +138,7 @@
    "statut": "confirme",
    "description": "Charges nettes 2025  tous régimes de base. Produits nets : 17 175 M€ ; solde : -200 M€.",
    "source": {
-    "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 16 « Charges nettes, produits nets et soldes des régimes de base, par branche », p. 37 (p. 39 du PDF)",
-    "url": "https://www.securite-sociale.fr/files/live/sites/SSFR/files/medias/CCSS/2026/CCSS%20mai%202026_assembl%C3%A9_V2.pdf",
-    "producteur": "DSS / Commission des comptes de la Sécurité sociale",
-    "licence": "Document public",
-    "consulte_le": "2026-07-07",
-    "maj": "2026-06-23"
+    "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 16 « Charges nettes, produits nets et soldes des régimes de base, par branche », p. 37 (p. 39 du PDF)"
    },
    "enfants": []
   },
@@ -184,12 +150,7 @@
    "statut": "confirme",
    "description": "Dépenses 2025 du FSV, qui prend en charge le minimum vieillesse et les cotisations retraite de périodes non travaillées (chômage notamment). Recettes 2025 : 21 759 M€.",
    "source": {
-    "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 16 « Charges nettes, produits nets et soldes des régimes de base, par branche », p. 37 (p. 39 du PDF)",
-    "url": "https://www.securite-sociale.fr/files/live/sites/SSFR/files/medias/CCSS/2026/CCSS%20mai%202026_assembl%C3%A9_V2.pdf",
-    "producteur": "DSS / Commission des comptes de la Sécurité sociale",
-    "licence": "Document public",
-    "consulte_le": "2026-07-07",
-    "maj": "2026-06-23"
+    "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 16 « Charges nettes, produits nets et soldes des régimes de base, par branche », p. 37 (p. 39 du PDF)"
    },
    "enfants": []
   },
@@ -201,12 +162,7 @@
    "statut": "estime",
    "description": "Les branches se versent des transferts entre elles et avec le FSV : ces flux sont comptés dans les dépenses de chaque entité ci-dessus, mais neutralisés dans le total consolidé. Méthode : somme des dépenses brutes des cinq branches et du FSV (705 790 M€, tableau 16, p. 37 (p. 39 du PDF)) moins les charges nettes consolidées (665 964 M€, tableau 1, p. 147 (p. 149 du PDF)) = 39 826 M€, portés en négatif pour que la somme des enfants reconstitue le total consolidé. Le montant exact des transferts internes n'est pas publié en tant que tel dans ces tableaux.",
    "source": {
-    "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 16 « Charges nettes, produits nets et soldes des régimes de base, par branche », p. 37 (p. 39 du PDF) et tableau 1 « Principaux agrégats consolidés des régimes de base et du FSV », p. 147 (p. 149 du PDF)",
-    "url": "https://www.securite-sociale.fr/files/live/sites/SSFR/files/medias/CCSS/2026/CCSS%20mai%202026_assembl%C3%A9_V2.pdf",
-    "producteur": "DSS / Commission des comptes de la Sécurité sociale",
-    "licence": "Document public",
-    "consulte_le": "2026-07-07",
-    "maj": "2026-06-23"
+    "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 16 « Charges nettes, produits nets et soldes des régimes de base, par branche », p. 37 (p. 39 du PDF) et tableau 1 « Principaux agrégats consolidés des régimes de base et du FSV », p. 147 (p. 149 du PDF)"
    },
    "enfants": []
   },
@@ -219,9 +175,6 @@
    "source": {
     "nom": "Rapport CCSS (PDF — à structurer)",
     "url": "https://www.securite-sociale.fr/home/la-secu-en-detail/comptes-statistiques-et-etudes-de-la-s%C3%A9curit%C3%A9-sociale/rapports-a-la-commission-des-comptes-de-la-securite-sociale.html",
-    "producteur": "DSS / Commission des comptes de la Sécurité sociale",
-    "licence": "Document public",
-    "consulte_le": "2026-07-07",
     "maj": null
    },
    "enfants": [],
@@ -240,9 +193,6 @@
    "source": {
     "nom": "Rapport CCSS (PDF — à structurer)",
     "url": "https://www.securite-sociale.fr/home/la-secu-en-detail/comptes-statistiques-et-etudes-de-la-s%C3%A9curit%C3%A9-sociale/rapports-a-la-commission-des-comptes-de-la-securite-sociale.html",
-    "producteur": "DSS / Commission des comptes de la Sécurité sociale",
-    "licence": "Document public",
-    "consulte_le": "2026-07-07",
     "maj": null
    },
    "enfants": [],

@@ -19,14 +19,6 @@
    "montant": 110000000000,
    "annee": 2025,
    "statut": "estime",
-   "source": {
-    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
-    "url": "https://data.ofgl.fr",
-    "producteur": "OFGL / DGCL / DGFiP",
-    "licence": "Licence Ouverte 2.0",
-    "consulte_le": "2026-07-07",
-    "maj": null
-   },
    "enfants": [],
    "description": "Taux et bases par commune : fichier REI (DGFiP).",
    "a_completer": {
@@ -40,14 +32,6 @@
    "montant": 55000000000,
    "annee": 2025,
    "statut": "estime",
-   "source": {
-    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
-    "url": "https://data.ofgl.fr",
-    "producteur": "OFGL / DGCL / DGFiP",
-    "licence": "Licence Ouverte 2.0",
-    "consulte_le": "2026-07-07",
-    "maj": null
-   },
    "enfants": [],
    "description": "Flux État → collectivités."
   },
@@ -57,14 +41,6 @@
    "montant": 50000000000,
    "annee": 2025,
    "statut": "estime",
-   "source": {
-    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
-    "url": "https://data.ofgl.fr",
-    "producteur": "OFGL / DGCL / DGFiP",
-    "licence": "Licence Ouverte 2.0",
-    "consulte_le": "2026-07-07",
-    "maj": null
-   },
    "enfants": [],
    "description": "Montants ET critères publiés par commune (2018-2026).",
    "a_completer": {
@@ -78,14 +54,6 @@
    "montant": 100000000000,
    "annee": 2025,
    "statut": "estime",
-   "source": {
-    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
-    "url": "https://data.ofgl.fr",
-    "producteur": "OFGL / DGCL / DGFiP",
-    "licence": "Licence Ouverte 2.0",
-    "consulte_le": "2026-07-07",
-    "maj": null
-   },
    "enfants": [],
    "a_completer": {
     "note": "Chiffre d'ordre de grandeur à remplacer par extraction exacte de la source — contribution bienvenue.",
@@ -98,14 +66,6 @@
    "montant": null,
    "annee": null,
    "statut": "inconnu",
-   "source": {
-    "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
-    "url": "https://data.ofgl.fr",
-    "producteur": "OFGL / DGCL / DGFiP",
-    "licence": "Licence Ouverte 2.0",
-    "consulte_le": "2026-07-07",
-    "maj": null
-   },
    "enfants": [],
    "inconnu": {
     "quoi": "Un jeu unique consolidant tous les flux — aujourd'hui dispersés dans balances, REI, fichiers critères",

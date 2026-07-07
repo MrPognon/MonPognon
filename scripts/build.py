@@ -1,11 +1,34 @@
 #!/usr/bin/env python3
 """Valide les fichiers data/ et génère site/data.js.
-Usage : python3 scripts/build.py [--check]  (--check : validation seule, pour la CI)"""
+Usage : python3 scripts/build.py [--check]        validation seule, pour la CI
+        python3 scripts/build.py --show <id>      affiche un nœud, source résolue (ADR-0005)"""
 import json, sys, glob, os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATUTS = {"confirme", "estime", "inconnu"}
 errors, warnings = [], []
+
+def resoudre_sources(node, path, parent_src=None):
+    """Héritage de la source champ par champ, en descendant (ADR-0005).
+    Un nœud sans source hérite tout ; une source partielle hérite des champs
+    manquants ; la racine du fichier doit être complète (ancre). Après cette
+    passe, chaque nœud porte sa source résolue — c'est elle qui est validée,
+    générée dans data.js et les fragments, et affichée sur le site."""
+    declaree = node.get("source")
+    if parent_src is None and not declaree:
+        errors.append(f"{path}: la racine du fichier doit porter une source complète — ancre de l'héritage ({node.get('id','?')})")
+        return
+    resolue = {**(parent_src or {}), **(declaree or {})}
+    if "source" in node:
+        node["source"] = resolue          # la clé garde sa position d'origine
+    else:                                  # clé absente : l'insérer AVANT 'enfants'
+        cles = list(node.keys())
+        node["source"] = resolue
+        if "enfants" in cles:
+            for k in cles[cles.index("enfants"):]:
+                node[k] = node.pop(k)      # repousse enfants (et la suite) après source
+    for c in node.get("enfants", []):
+        resoudre_sources(c, path, node["source"])
 
 def validate(node, path, seen_ids):
     for req in ("id", "label", "statut", "source", "enfants"):
@@ -135,6 +158,7 @@ def main():
         key = os.path.relpath(f, os.path.join(ROOT, "data")).replace(os.sep, "_").removesuffix(".json")
         with open(f, encoding="utf-8") as fh:
             node = json.load(fh)
+        resoudre_sources(node, os.path.relpath(f, ROOT))
         validate(node, os.path.relpath(f, ROOT), seen)
         # Fiches communales (ADR-0004) : validées comme le reste, publiées en
         # fragments individuels chargés à la demande — jamais dans data.js.
@@ -142,6 +166,18 @@ def main():
             fiches[os.path.basename(f).removesuffix(".json")] = node
         else:
             data[key] = node
+    if "--show" in sys.argv:  # affiche un nœud avec sa source résolue (ADR-0005)
+        cible = sys.argv[sys.argv.index("--show") + 1]
+        def chercher(n):
+            if n["id"] == cible: return n
+            return next((r for c in n.get("enfants", []) if (r := chercher(c))), None)
+        for arbre in list(data.values()) + list(fiches.values()):
+            n = chercher(arbre)
+            if n:
+                apercu = {k: v for k, v in n.items() if k != "enfants"}
+                apercu["enfants"] = f"[{len(n.get('enfants', []))} enfant(s)]"
+                print(json.dumps(apercu, ensure_ascii=False, indent=1)); return
+        print(f"id introuvable : {cible}", file=sys.stderr); sys.exit(1)
     for w in warnings: print("AVERTISSEMENT:", w)
     if errors:
         for e in errors: print("ERREUR:", e, file=sys.stderr)
