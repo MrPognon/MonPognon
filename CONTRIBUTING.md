@@ -2,6 +2,18 @@
 
 Merci ! Ce projet grandit uniquement par contributions sourcées. Aucune connaissance en développement n'est nécessaire pour contribuer aux données : ce sont des fichiers JSON lisibles.
 
+## 🤖 Le plus simple : contribuer avec l'aide d'une IA (sans rien connaître à l'informatique)
+
+Tu as trouvé une information intéressante (le budget de ta commune, une ligne de dépense, un rapport…) et tu veux l'ajouter ? **Ton assistant IA fait le travail technique, toi tu fournis la source.** N'importe quel modèle convient (ChatGPT, Claude, Gemini, Perplexity, Le Chat, un LLM local…).
+
+1. **Rassemble ta source officielle** : le lien, le chiffre, l'année, la date de consultation.
+2. **Colle le prompt prêt** de ton IA (→ [`contribuer/ia/`](contribuer/ia/README.md)) et ajoute ton info : l'IA te rend un bloc **JSON** et te dit quel fichier modifier.
+3. **Propose la modif dans le navigateur** : sur GitHub, bouton **✏️ Edit** du fichier → colle → **Propose changes**. La pull request s'ouvre toute seule. **Zéro terminal, zéro git.**
+
+👉 **Tout est là : [`contribuer/ia/`](contribuer/ia/README.md)** (prompts par modèle + [kit de contribution](contribuer/ia/kit-de-contribution.md)). Assistants de code : voir [`AGENTS.md`](AGENTS.md), [`GEMINI.md`](GEMINI.md), [`CLAUDE.md`](CLAUDE.md).
+
+Le reste de cette page décrit la contribution « à la main » — utile pour comprendre le format, que tu passes par une IA ou non.
+
 ## La règle d'or
 
 > **Tout chiffre doit avoir une source officielle, une URL, une date de consultation et un millésime.** Un chiffre sans source sera refusé, même s'il est juste.
