@@ -91,6 +91,7 @@
 </header>
 <div id="bar">
   <span id="ctl-paie" style="display:none">Salaire brut mensuel <input type="number" id="brut" value="3000" min="1802" step="100"> €</span>
+  <span id="ctl-commune">🏘️ Ma commune <input id="commune-q" list="communes-dl" placeholder="tapez son nom…" autocomplete="off" aria-label="Rechercher une commune" style="width:210px"><datalist id="communes-dl"></datalist></span>
   <span class="leg">
     <span class="badge ok">Confirmé — source officielle</span>
     <span class="badge est">Estimé — à raffiner</span>
@@ -250,9 +251,77 @@ function showPanel(d){
   h+=`<details><summary>méthode ▾</summary><div class="cv-methode"><b>Comment lire ce baromètre.</b> ${COV.methode}<br><br>C'est la <b>todo-list chiffrée</b> du projet : chaque part jaune ou rouge est une contribution qui vous attend.</div></details>`;
   el.innerHTML=h; el.hidden=false;
 })();
+// ---- Ma commune (issue #3, ADR-0004 : fiche versionnée d'abord, API OFGL en direct sinon) ----
+(function(){
+  const inp=document.getElementById('commune-q'), dl=document.getElementById('communes-dl');
+  let props={}, t=null;
+  inp.addEventListener('input',()=>{
+    clearTimeout(t);
+    const q=inp.value.trim();
+    if(props[q]){chargerFiche(props[q]); return;}       // une suggestion vient d'être choisie
+    if(q.length<3) return;
+    t=setTimeout(async()=>{
+      try{
+        const r=await fetch(`https://geo.api.gouv.fr/communes?nom=${encodeURIComponent(q)}&fields=nom,code,codesPostaux&boost=population&limit=8`);
+        const cs=await r.json();
+        props={}; dl.innerHTML='';
+        for(const c of cs){
+          const lab=`${c.nom} (${(c.codesPostaux||[])[0]||c.code})`;
+          props[lab]=c.code;
+          const o=document.createElement('option'); o.value=lab; dl.appendChild(o);
+        }
+      }catch(e){/* suggestions indisponibles : la saisie reste possible */}
+    },250);
+  });
+  const AGS=["Dépenses totales","Dépenses de fonctionnement","Dépenses d'investissement","Recettes totales","Recettes de fonctionnement","Recettes d'investissement"];
+  const panneau=h=>{document.getElementById('panel').innerHTML=h;};
+  async function chargerFiche(insee){
+    panneau('<h2>🏘️ Chargement…</h2>');
+    try{ // 1) la fiche versionnée au dépôt (fragment généré par build.py)
+      const r=await fetch(`data/communes/${insee}.json`);
+      if(r.ok){rendreDepot(await r.json()); return;}
+    }catch(e){}
+    try{ // 2) l'API OFGL en direct — toute commune de France
+      const w=`insee="${insee}" and type_de_budget="Budget principal" and agregat in ("${AGS.join('","')}")`;
+      const r=await fetch(`https://data.ofgl.fr/api/explore/v2.1/catalog/datasets/ofgl-base-communes/records?where=${encodeURIComponent(w)}&select=agregat,montant,exer,com_name,ptot&limit=100`);
+      const rows=(await r.json()).results||[];
+      if(!rows.length){panneau(`<h2>🏘️ Commune ${insee}</h2><p class="desc">Aucune donnée dans l'OFGL pour ce code INSEE (commune récente ou fusionnée ?).</p>`); return;}
+      const an=rows.map(x=>+String(x.exer).slice(0,4)).reduce((a,b)=>Math.max(a,b),0);
+      const d={}; let nom='', pop=null;
+      rows.filter(x=>String(x.exer).startsWith(String(an))).forEach(x=>{d[x.agregat]=x.montant; nom=x.com_name; pop=x.ptot;});
+      rendreLive(insee,nom,an,pop,d);
+    }catch(e){
+      panneau(`<h2>🏘️ Erreur</h2><p class="desc">Impossible de joindre l'API OFGL. Réessayez, ou consultez directement <a href="https://data.ofgl.fr" target="_blank">data.ofgl.fr</a>.</p>`);
+    }
+  }
+  function rendreDepot(f){
+    const bloc=(titre,n)=>{ if(!n) return '';
+      let h=`<p style="margin:12px 0 2px"><b>${titre}${n.annee?' '+n.annee:''} : ${fmtEUR(n.montant)}</b></p><ul style="margin-left:18px">`;
+      for(const c of n.enfants||[])
+        h+=`<li>${c.label} : <b>${fmtEUR(c.montant)}</b>${(c.enfants||[]).length?`<ul style="margin-left:14px;color:var(--mute)">${c.enfants.map(x=>`<li>${x.label} : ${fmtEUR(x.montant)}</li>`).join('')}</ul>`:''}</li>`;
+      return h+'</ul>'; };
+    const dep=(f.enfants||[]).find(c=>c.id.endsWith('.depenses')), rec=(f.enfants||[]).find(c=>c.id.endsWith('.recettes'));
+    panneau(`<h2>🏘️ ${f.label}</h2><span class="tag badge ok">Fiche versionnée au dépôt — sourcée et revue</span>
+      ${f.description?`<p class="desc">${f.description}</p>`:''}
+      ${bloc('💸 Dépenses',dep)}${bloc('💰 Recettes',rec)}
+      <div class="src">📚 <b>${f.source.nom}</b><br><a href="${f.source.url}" target="_blank">${f.source.url}</a></div>`);
+  }
+  function rendreLive(insee,nom,an,pop,d){
+    const li=(lab,v)=>v!=null?`<li>${lab} : <b>${fmtEUR(v)}</b></li>`:'';
+    panneau(`<h2>🏘️ ${nom} (${insee})</h2><span class="tag badge est">En direct de l'API OFGL — pas encore versée au dépôt</span>
+      <p class="desc">Comptes ${an}, budget principal (exécution)${pop?` · ${(+pop).toLocaleString('fr-FR')} habitants`:''}.</p>
+      <ul style="margin-left:18px">
+        ${li('💸 Dépenses totales',d['Dépenses totales'])}${li('· fonctionnement',d['Dépenses de fonctionnement'])}${li('· investissement',d["Dépenses d'investissement"])}
+        ${li('💰 Recettes totales',d['Recettes totales'])}${li('· fonctionnement',d['Recettes de fonctionnement'])}${li('· investissement',d["Recettes d'investissement"])}
+      </ul>
+      <div class="box todo"><b>🧩 Versez cette commune au dépôt !</b> Cette fiche est servie en direct par l'API : pour qu'elle soit relue, versionnée et suivie, contribuez-la — <a href="${REPO}/blob/main/contribuer/ia/README.md" target="_blank">guide « contribuer avec une IA »</a>.</div>
+      <div class="src">📚 <b>OFGL — Comptes des communes (ofgl-base-communes), budget principal, exercice ${an}</b><br>Licence Ouverte 2.0 · <a href="https://data.ofgl.fr/explore/dataset/ofgl-base-communes/" target="_blank">data.ofgl.fr</a></div>`);
+  }
+})();
 // ---- Interactions ----
 function refresh(){
   document.getElementById('ctl-paie').style.display = mode==='paie'?'inline':'none';
+  document.getElementById('ctl-commune').style.display = mode==='paie'?'none':'inline';
   if(mode==='depenses') render(rootDepenses());
   else if(mode==='recettes') render(rootRecettes());
   else render(rootPaie(+document.getElementById('brut').value||3000));
