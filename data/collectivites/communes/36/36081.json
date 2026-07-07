@@ -1,0 +1,278 @@
+{
+ "id": "commune.36081",
+ "label": "Gargilesse-Dampierre (Indre, 36081)",
+ "montant": null,
+ "annee": 2024,
+ "statut": "confirme",
+ "description": "Fiche communale (ADR-0004) — Gargilesse-Dampierre, code INSEE 36081, Indre  278 habitants (population DGF 2024), membre de « Communauté de communes Éguzon - Argenton - Vallée de la Creuse ». Comptes 2024 exécutés, budget principal, nomenclature M57A, hors budgets annexes. Le montant racine est volontairement null : les dépenses (519 120,88 €) et les recettes (575 415,82 €) ne s'additionnent pas.",
+ "source": {
+  "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024",
+  "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+  "producteur": "OFGL / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-07",
+  "maj": "2025-07-30"
+ },
+ "enfants": [
+  {
+   "id": "commune.36081.depenses",
+   "label": "Dépenses 2024 (budget principal)",
+   "montant": 519120.88,
+   "annee": 2024,
+   "statut": "confirme",
+   "source": {
+    "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Dépenses totales »"
+   },
+   "enfants": [
+    {
+     "id": "commune.36081.depenses.fonctionnement",
+     "label": "Dépenses de fonctionnement",
+     "montant": 457029.48,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Dépenses de fonctionnement »"
+     },
+     "enfants": [
+      {
+       "id": "commune.36081.depenses.fonctionnement.personnel",
+       "label": "Frais de personnel",
+       "montant": 242644.36,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Frais de personnel »"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.36081.depenses.fonctionnement.achats",
+       "label": "Achats et charges externes",
+       "montant": 135069.72,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Achats et charges externes »"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.36081.depenses.fonctionnement.intervention",
+       "label": "Dépenses d'intervention",
+       "montant": 43319.47,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Dépenses d'intervention »"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.36081.depenses.fonctionnement.autres",
+       "label": "Autres dépenses de fonctionnement",
+       "montant": 33216.03,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Autres dépenses de fonctionnement »"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.36081.depenses.fonctionnement.charges-financieres",
+       "label": "Charges financières",
+       "montant": 2779.9,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Charges financières »"
+       },
+       "enfants": []
+      }
+     ]
+    },
+    {
+     "id": "commune.36081.depenses.investissement",
+     "label": "Dépenses d'investissement",
+     "montant": 62091.4,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Dépenses d'investissement »"
+     },
+     "enfants": [
+      {
+       "id": "commune.36081.depenses.investissement.equipement",
+       "label": "Dépenses d'équipement",
+       "montant": 35317.74,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Dépenses d'équipement »"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.36081.depenses.investissement.remboursement-emprunts",
+       "label": "Remboursements d'emprunts (hors gestion active de la dette)",
+       "montant": 26773.66,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Remboursements d'emprunts hors GAD »"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.36081.depenses.investissement.autres",
+       "label": "Autres dépenses d'investissement",
+       "montant": 0.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Autres dépenses d'investissement »"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.36081.depenses.investissement.subventions-versees",
+       "label": "Subventions d'équipement versées",
+       "montant": 0.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Subventions d'équipement versées »"
+       },
+       "enfants": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "commune.36081.recettes",
+   "label": "Recettes 2024 (budget principal)",
+   "montant": 575415.82,
+   "annee": 2024,
+   "statut": "confirme",
+   "source": {
+    "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Recettes totales »"
+   },
+   "enfants": [
+    {
+     "id": "commune.36081.recettes.fonctionnement",
+     "label": "Recettes de fonctionnement",
+     "montant": 546011.29,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Recettes de fonctionnement »"
+     },
+     "enfants": [
+      {
+       "id": "commune.36081.recettes.fonctionnement.impots",
+       "label": "Impôts et taxes",
+       "montant": 345690.13,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Impôts et taxes »"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.36081.recettes.fonctionnement.concours-etat",
+       "label": "Concours de l'État (dont DGF)",
+       "montant": 79243.66,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Concours de l'Etat »"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.36081.recettes.fonctionnement.ventes",
+       "label": "Ventes de biens et services",
+       "montant": 3225.11,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Ventes de biens et services »"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.36081.recettes.fonctionnement.subventions-participations",
+       "label": "Subventions reçues et participations",
+       "montant": 7286.11,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Subventions reçues et participations »"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.36081.recettes.fonctionnement.autres",
+       "label": "Autres recettes de fonctionnement",
+       "montant": 110566.28,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Autres recettes de fonctionnement »"
+       },
+       "enfants": []
+      }
+     ]
+    },
+    {
+     "id": "commune.36081.recettes.investissement",
+     "label": "Recettes d'investissement",
+     "montant": 29404.53,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Recettes d'investissement »"
+     },
+     "enfants": [
+      {
+       "id": "commune.36081.recettes.investissement.emprunts",
+       "label": "Emprunts (hors gestion active de la dette)",
+       "montant": 0.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Emprunts hors GAD »"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.36081.recettes.investissement.fctva",
+       "label": "FCTVA (remboursement de TVA sur investissements)",
+       "montant": 16173.53,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « FCTVA »"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.36081.recettes.investissement.autres",
+       "label": "Autres recettes d'investissement",
+       "montant": 100.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Autres recettes d'investissement »"
+       },
+       "enfants": []
+      }
+     ],
+     "description": "Ventilation partielle : postes principaux uniquement — la somme des enfants est inférieure au total, le reliquat correspond à d'autres agrégats OFGL non repris ici."
+    }
+   ]
+  }
+ ]
+}

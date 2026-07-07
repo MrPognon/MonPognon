@@ -14,14 +14,18 @@ agrégats OFGL — pipeline de la mission « balances d'un département » (#17)
 - Les fiches déjà présentes ne sont JAMAIS écrasées (enrichissements manuels
   préservés, ex. 45082) — --forcer pour outrepasser.
 
-Usage : python3 scripts/pipelines/fiches_communales_ofgl.py --departement 45 --exercice 2024
+Usage : python3 scripts/pipelines/fiches_communales_ofgl.py --departement 45 [--telecharger]
+        --telecharger : (re)crée l'extrait brut versionné depuis l'API OFGL (sinon zéro réseau)
 Puis  : python3 scripts/build.py   (validation + fragments site/data/communes/)
 """
+import datetime
 import glob
 import gzip
 import json
 import os
+import subprocess
 import sys
+import urllib.parse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -59,6 +63,31 @@ def source(meta, agregat=None):
             "consulte_le": meta["consulte_le"], "maj": meta["maj_dataset"]}
 
 
+OFGL_API = "https://data.ofgl.fr/api/explore/v2.1/catalog/datasets/ofgl-base-communes"
+
+
+def telecharger(dept, raw_p):
+    """(Re)crée l'extrait brut versionné + sa provenance depuis l'API OFGL."""
+    where = urllib.parse.quote(f'dep_code="{dept}" and year(exer)=2024 and type_de_budget="Budget principal"')
+    select = "insee,com_name,dep_name,exer,agregat,montant,ptot,epci_name,nomen"
+    url = f"{OFGL_API}/exports/json?where={where}&select={select}"
+    r = subprocess.run(["curl", "-fsSL", "--compressed", "--max-time", "180", url], capture_output=True, text=True)
+    if r.returncode != 0:
+        raise SystemExit(f"téléchargement OFGL impossible ({dept})")
+    rows = json.loads(r.stdout)
+    meta_api = json.loads(subprocess.run(["curl", "-fsSL", OFGL_API], capture_output=True, text=True).stdout)
+    maj = (meta_api.get("metas", {}).get("default", {}).get("modified") or "")[:10] or None
+    with gzip.open(raw_p, "wt", encoding="utf-8") as fh:
+        json.dump(rows, fh, ensure_ascii=False)
+    meta = {"dataset": "ofgl-base-communes",
+            "filtre": f'dep_code="{dept}" and year(exer)=2024 and type_de_budget="Budget principal"',
+            "consulte_le": datetime.date.today().isoformat(), "maj_dataset": maj,
+            "lignes": len(rows), "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/"}
+    with open(raw_p.replace(".json.gz", ".meta.json"), "w", encoding="utf-8") as fh:
+        json.dump(meta, fh, ensure_ascii=False, indent=1)
+    print(f"raw téléchargé : {len(rows)} lignes, maj dataset {maj}")
+
+
 def centime(a, b):
     return abs(a - b) < 0.01
 
@@ -66,6 +95,7 @@ def centime(a, b):
 def fiche_commune(insee, dept, rows, meta, rapport):
     ag = {r["agregat"]: r["montant"] for r in rows if r["montant"] is not None}
     nom, ptot, nomen, epci = rows[0]["com_name"], rows[0].get("ptot"), rows[0].get("nomen"), rows[0].get("epci_name")
+    dep_nom = rows[0].get("dep_name") or f"département {dept}"
     exer = 2024
 
     def noeud(ide, label, montant, agregat, enfants=None, desc=None):
@@ -118,9 +148,9 @@ def fiche_commune(insee, dept, rows, meta, rapport):
         return None
     d_m, r_m = dep["montant"], rec["montant"]
     fmt = lambda v: f"{v:,.2f}".replace(",", " ").replace(".", ",")
-    return {"id": f"commune.{insee}", "label": f"{nom} (Loiret, {insee})", "montant": None,
+    return {"id": f"commune.{insee}", "label": f"{nom} ({dep_nom}, {insee})", "montant": None,
             "annee": exer, "statut": "confirme",
-            "description": (f"Fiche communale (ADR-0004) — {nom}, code INSEE {insee}, Loiret"
+            "description": (f"Fiche communale (ADR-0004) — {nom}, code INSEE {insee}, {dep_nom}"
                             + (f", {int(ptot):,} habitants (population DGF {exer})".replace(",", " ") if ptot else "")
                             + (f", membre de « {epci} »" if epci else "")
                             + f". Comptes {exer} exécutés, budget principal, nomenclature {nomen or 'M57'}, hors budgets annexes. "
@@ -133,6 +163,8 @@ def main():
     dept = sys.argv[sys.argv.index("--departement") + 1] if "--departement" in sys.argv else "45"
     forcer = "--forcer" in sys.argv
     raw_p = os.path.join(ROOT, "data-sources", "raw", f"ofgl-communes-{dept}-2024.json.gz")
+    if "--telecharger" in sys.argv or not os.path.exists(raw_p):
+        telecharger(dept, raw_p)
     meta = json.load(open(raw_p.replace(".json.gz", ".meta.json"), encoding="utf-8"))
     with gzip.open(raw_p, "rt", encoding="utf-8") as fh:
         rows = json.load(fh)
