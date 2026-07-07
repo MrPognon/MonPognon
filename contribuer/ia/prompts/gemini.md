@@ -29,7 +29,7 @@ FORMAT D'UN NŒUD (JSON)
   "id": "etat.depenses.XX.000",   // minuscules hiérarchiques ; préfixes :
                                    // etat.depenses / etat.recettes / secu / coll
   "label": "…",
-  "montant": 0,                    // entier en euros, ou null si inconnu
+  "montant": 0,                    // en euros (décimales acceptées), ou null si inconnu
   "annee": 2025,
   "statut": "confirme",            // "confirme" = copié tel quel de la source
                                    // "estime"   = calcul/dérivé (méthode dans description)

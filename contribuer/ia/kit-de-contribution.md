@@ -27,7 +27,7 @@ Les données vivent dans des fichiers JSON sous `data/` : un arbre par fichier, 
 | `statut` | ✅ | `confirme` · `estime` · `inconnu` |
 | `source` | ✅ | objet `{ nom, url, producteur, consulte_le }` (+ `licence`, `maj` recommandés) |
 | `enfants` | ✅ | tableau de sous-nœuds (peut être `[]`) |
-| `montant` | | en euros, nombre entier (`null` si inconnu) |
+| `montant` | | en euros — décimales acceptées, ex. les centimes des comptes OFGL (`null` si inconnu) |
 | `annee` | | millésime de la donnée (entier) |
 | `description` | | contexte factuel ; **obligatoire de fait pour un `estime`** (explique la méthode) |
 | `inconnu` | | pour un nœud `inconnu` : `{ quoi, contact, url }` |
@@ -99,6 +99,15 @@ Un nouveau nœud s'ajoute dans le tableau `enfants` de son **parent logique** (e
 ## Cohérence des sommes
 
 La validation tolère un écart de **± 2 %** entre un parent et la somme de ses enfants. Si ça dépasse, ce n'est pas à contourner : signale-le dans la PR (souvent un périmètre ou un millésime à préciser).
+
+## Pièges des APIs officielles (pour l'IA qui va chercher la donnée)
+
+Appris sur le terrain — ils font perdre du temps à toutes les IA :
+
+- **ODS / data.economie** : URL-encoder les parenthèses et les quotes des query params (`select=sum%28credit_de_paiement%29`), sinon **400 silencieux**. Gros volumes : `/exports/json` + compression.
+- **OFGL** (`ofgl-base-communes`, comptes des communes) : le champ `exer` (exercice) est une **date**, pas un texte — filtrer avec `where=year(exer)=2024`, jamais `exer="2024"` (erreur `IncompatibleTypesInComparisonFilter`). Penser à filtrer aussi `type_de_budget="Budget principal"` pour ne pas mélanger budgets annexes et principal.
+- **Date de mise à jour d'un jeu ODS** (pour `source.maj`) : `GET /api/explore/v2.1/catalog/datasets/<id>` → `metas.default.modified`.
+- **Recettes d'une commune** : l'arbre des recettes des collectivités est ventilé par nature, pas par commune — en attendant la décision de structure ([issue #21](https://github.com/MrPognon/MonPognon/issues/21)), mentionne les recettes totales dans la `description` du nœud dépenses de la commune et signale-le dans la PR.
 
 ## Proposer ta contribution — SANS rien connaître à git (dans le navigateur)
 

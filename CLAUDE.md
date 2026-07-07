@@ -33,6 +33,7 @@ python3 -m http.server -d site     # prévisualiser http://localhost:8000
 ## Pièges techniques connus
 
 - API data.economie (ODS Explore v2.1) : parenthèses et quotes des query params DOIVENT être URL-encodées (`sum%28cp%29`), sinon 400. Pour les gros volumes, utiliser `/exports/json` avec `curl --compressed` (le serveur renvoie du gzip).
+- API OFGL (`ofgl-base-communes`…) : `exer` est un champ **date** — filtrer avec `year(exer)=2024`, jamais `exer="2024"` (erreur `IncompatibleTypesInComparisonFilter`). Découvert en test terrain 07/2026.
 - Dates de maj des jeux : `metas.default.modified` sur l'endpoint dataset de l'API ODS.
 - Rupture M14→M57 (2024) dans les balances communales ; fusions de communes → toujours passer par le COG INSEE millésimé.
 - Le circuit recette→branche Sécu n'est PAS bijectif (TVA affectée ~28 %, taxe sur les salaires, compensations) : ne jamais forcer une correspondance 1:1.
