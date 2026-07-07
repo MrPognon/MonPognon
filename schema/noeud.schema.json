@@ -76,6 +76,13 @@
           ],
           "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
           "description": "Date de dernière mise à jour du jeu de données source (affichée à côté du montant). null si non renseignée — à compléter."
+        },
+        "archive": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "URL d'une copie archivée de la source (ex. Wayback Machine) — préservation contre les liens morts et preuve horodatée du contenu au moment de la contribution (issue #13)."
         }
       }
     },

@@ -1,0 +1,17 @@
+name: Confiance des sources
+on:
+  pull_request:
+    paths: ["data/**", "data-sources/domaines/**", "scripts/verifier_sources.py"]
+  workflow_dispatch:
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: Hygiène et tiers de confiance (statique, bloquant)
+        run: python3 scripts/verifier_sources.py
+      - name: URLs vivantes (réseau, informatif)
+        continue-on-error: true
+        run: python3 scripts/verifier_sources.py --online

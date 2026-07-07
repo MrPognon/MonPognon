@@ -1,0 +1,19 @@
+name: Vérification de fond des sources
+on:
+  pull_request:
+    paths: ["data/**"]
+  workflow_dispatch:
+jobs:
+  fond:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: Outils PDF
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Re-vérifier chaque montant modifié à sa source
+        run: |
+          git fetch -q origin ${{ github.base_ref }}
+          python3 scripts/verifiers/fond.py --base "origin/${{ github.base_ref }}"
