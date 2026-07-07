@@ -1,0 +1,24 @@
+# Tier 1 — domaines officiels nationaux (issue #13).
+# Un domaine matche s'il est égal à une entrée ou s'en est un sous-domaine.
+# Une entrée par ligne ; commentaires avec #.
+
+# État et administrations centrales
+gouv.fr
+insee.fr
+ccomptes.fr
+vie-publique.fr
+service-public.fr
+senat.fr
+assemblee-nationale.fr
+
+# Finances locales
+ofgl.fr
+banquedesterritoires.fr
+
+# Sécurité sociale et organismes nationaux
+securite-sociale.fr
+ameli.fr
+caf.fr
+assuranceretraite.fr
+cnsa.fr
+urssaf.fr

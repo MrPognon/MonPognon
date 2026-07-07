@@ -1,0 +1,11 @@
+{
+  "_description": "Tier 3 — domaines approuvés par les mainteneurs (issue #13). Un domaine légitime hors tier 1/2 entre ici via PR, avec justification. Le retrait se fait de la même façon.",
+  "domaines": [
+    {
+      "domaine": "madada.fr",
+      "justification": "Plateforme française de demandes d'accès aux documents administratifs (CADA) : les demandes ET les réponses y sont publiques — utilisée pour tracer les nœuds « inconnu » (voir issue #6).",
+      "approuve_par": "MrPognon",
+      "date": "2026-07-07"
+    }
+  ]
+}
