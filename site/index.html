@@ -173,11 +173,12 @@ function rootDepenses(){
 }
 function rootRecettes(){
   const kids=[D.etat_recettes, D.secu_recettes, D.collectivites_recettes];
+  const vues=[D['etat_qui-paie']].filter(Boolean);   // vues transverses non sommées (montant null, issue #5)
   return {id:'recettes', label:"D'où vient l'argent public (État + Sécu + collectivités)",
     montant:kids.reduce((s,k)=>s+(k.montant||0),0), annee:2025, statut:'estime',
     description:"Attention aux doubles comptes entre sous-secteurs (TVA affectée à la Sécu, fractions de TVA et dotations aux collectivités) : chaque arbre les signale.",
     source:{nom:'INSEE / PLF / PLFSS / OFGL', url:'https://www.data.gouv.fr/datasets/comptes-des-administrations-publiques', producteur:'multiples', licence:'Licence Ouverte 2.0', consulte_le:'2026-07-07'},
-    enfants:kids};
+    enfants:[...kids, ...vues]};
 }
 // ---- Fiche de paie (règles simplifiées 2025-2026, cf. modele-social) ----
 function rootPaie(brut){
@@ -474,7 +475,7 @@ function renderTreemap(data){
   const norm=s=>(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
   const INDEX=[];
   const MODE={etat_depenses:'depenses',secu_depenses:'depenses',collectivites_depenses:'depenses',
-              'etat_qui-percoit':'depenses',
+              'etat_qui-percoit':'depenses','etat_qui-paie':'recettes',
               etat_recettes:'recettes',secu_recettes:'recettes',collectivites_recettes:'recettes'};
   for(const [cle,arbre] of Object.entries(D)){
     (function walk(n,chemin){

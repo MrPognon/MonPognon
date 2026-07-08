@@ -1,0 +1,198 @@
+{
+ "tranches": [
+  {
+   "tranche": "0 à 10 000",
+   "foyers": 8065610.0,
+   "rfr_milliers": 27887151.855,
+   "impot_net_milliers": -326469.114,
+   "foyers_imposes": 180169.0
+  },
+  {
+   "tranche": "10 001 à 12 000",
+   "foyers": 1583513.0,
+   "rfr_milliers": 17449595.087,
+   "impot_net_milliers": -117055.23,
+   "foyers_imposes": 49924.0
+  },
+  {
+   "tranche": "12 001 à 15 000",
+   "foyers": 2599052.0,
+   "rfr_milliers": 35098503.507,
+   "impot_net_milliers": -216356.147,
+   "foyers_imposes": 91957.0
+  },
+  {
+   "tranche": "15 001 à 20 000",
+   "foyers": 5221953.0,
+   "rfr_milliers": 92408184.137,
+   "impot_net_milliers": -65461.336,
+   "foyers_imposes": 1489534.0
+  },
+  {
+   "tranche": "20 001 à 30 000",
+   "foyers": 8720534.0,
+   "rfr_milliers": 212415842.399,
+   "impot_net_milliers": 3984310.093,
+   "foyers_imposes": 5340632.0
+  },
+  {
+   "tranche": "30 001 à 50 000",
+   "foyers": 8543902.0,
+   "rfr_milliers": 329025984.476,
+   "impot_net_milliers": 12841048.876,
+   "foyers_imposes": 6157744.0
+  },
+  {
+   "tranche": "50 001 à 100 000",
+   "foyers": 5486353.0,
+   "rfr_milliers": 366614220.695,
+   "impot_net_milliers": 26606265.949,
+   "foyers_imposes": 5000420.0
+  },
+  {
+   "tranche": "Plus de 100 000 dont:",
+   "foyers": 1414342.0,
+   "rfr_milliers": 294159432.298,
+   "impot_net_milliers": 49012711.391,
+   "foyers_imposes": 1371377.0
+  },
+  {
+   "tranche": "100 001 à 200 000",
+   "foyers": 1115487.0,
+   "rfr_milliers": 146200998.19,
+   "impot_net_milliers": 20479968.37,
+   "foyers_imposes": 1078597.0
+  },
+  {
+   "tranche": "200 001 à 300 000",
+   "foyers": 163375.0,
+   "rfr_milliers": 39093798.623,
+   "impot_net_milliers": 7299100.03,
+   "foyers_imposes": 159228.0
+  },
+  {
+   "tranche": "300 001 à 400 000",
+   "foyers": 54453.0,
+   "rfr_milliers": 18669131.798,
+   "impot_net_milliers": 3787365.146,
+   "foyers_imposes": 53377.0
+  },
+  {
+   "tranche": "400 001 à 500 000",
+   "foyers": 26739.0,
+   "rfr_milliers": 11910383.064,
+   "impot_net_milliers": 2412941.253,
+   "foyers_imposes": 26328.0
+  },
+  {
+   "tranche": "500 001 à 600 000",
+   "foyers": 14520.0,
+   "rfr_milliers": 7919412.321,
+   "impot_net_milliers": 1636352.64,
+   "foyers_imposes": 14351.0
+  },
+  {
+   "tranche": "600 001 à 700 000",
+   "foyers": 8546.0,
+   "rfr_milliers": 5524900.243,
+   "impot_net_milliers": 1145064.005,
+   "foyers_imposes": 8460.0
+  },
+  {
+   "tranche": "700 001 à 800 000",
+   "foyers": 5806.0,
+   "rfr_milliers": 4338812.177,
+   "impot_net_milliers": 882730.037,
+   "foyers_imposes": 5762.0
+  },
+  {
+   "tranche": "800 001 à 900 000",
+   "foyers": 4142.0,
+   "rfr_milliers": 3511883.842,
+   "impot_net_milliers": 714053.28,
+   "foyers_imposes": 4109.0
+  },
+  {
+   "tranche": "900 001 à 1 000 000",
+   "foyers": 2993.0,
+   "rfr_milliers": 2835186.754,
+   "impot_net_milliers": 577964.568,
+   "foyers_imposes": 2968.0
+  },
+  {
+   "tranche": "1 000 001 à 2 000 000",
+   "foyers": 11478.0,
+   "rfr_milliers": 15525624.179,
+   "impot_net_milliers": 3125893.26,
+   "foyers_imposes": 11427.0
+  },
+  {
+   "tranche": "2 000 001 à 3 000 000",
+   "foyers": 2999.0,
+   "rfr_milliers": 7234112.149,
+   "impot_net_milliers": 1427609.776,
+   "foyers_imposes": 2981.0
+  },
+  {
+   "tranche": "3 000 001 à 4 000 000",
+   "foyers": 1338.0,
+   "rfr_milliers": 4582514.286,
+   "impot_net_milliers": 893994.508,
+   "foyers_imposes": null
+  },
+  {
+   "tranche": "4 000 001 à 5 000 000",
+   "foyers": 681.0,
+   "rfr_milliers": 3025856.527,
+   "impot_net_milliers": 591539.812,
+   "foyers_imposes": null
+  },
+  {
+   "tranche": "5 000 001 à 6 000 000",
+   "foyers": 455.0,
+   "rfr_milliers": 2478686.351,
+   "impot_net_milliers": 470696.826,
+   "foyers_imposes": null
+  },
+  {
+   "tranche": "6 000 001 à 7 000 000",
+   "foyers": 298.0,
+   "rfr_milliers": 1930547.875,
+   "impot_net_milliers": 342764.272,
+   "foyers_imposes": 298.0
+  },
+  {
+   "tranche": "7 000 001 à 8 000 000",
+   "foyers": 180.0,
+   "rfr_milliers": 1338196.428,
+   "impot_net_milliers": 245078.376,
+   "foyers_imposes": 180.0
+  },
+  {
+   "tranche": "8 000 001 à 9 000 000",
+   "foyers": 157.0,
+   "rfr_milliers": 1327675.602,
+   "impot_net_milliers": 234481.489,
+   "foyers_imposes": null
+  },
+  {
+   "tranche": "Plus de 9 000 000",
+   "foyers": 695.0,
+   "rfr_milliers": 16711711.889,
+   "impot_net_milliers": 2745113.743,
+   "foyers_imposes": null
+  }
+ ],
+ "total": {
+  "foyers": 41635259.0,
+  "rfr_milliers": 1375058914.454,
+  "impot_net_milliers": 91718994.482,
+  "foyers_imposes": 19681757.0
+ },
+ "non_residents": {
+  "foyers": 298023.0,
+  "impot_net_milliers": 953414.438
+ },
+ "note_impot_net": "* Impôt sur le revenu émis par voie de rôle, hors prélèvement forfaitaire obligatoire sur les revenus de capitaux mobiliers et crédit d'impôt correspondant, hors prélèvements libératoires (sur revenus de capitaux mobiliers, sur revenus des auto-entrepreneurs) et hors impôt sur les plus-values immobilières.",
+ "unite": "Montants en milliers d'euros (exceptés ceux des RFR par tranche)"
+}
