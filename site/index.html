@@ -164,11 +164,12 @@ const D = window.DATA;
 // ---- Racines composées ----
 function rootDepenses(){
   const kids=[D.etat_depenses, D.secu_depenses, D.collectivites_depenses];
+  const vues=[D['etat_qui-percoit']].filter(Boolean);   // vues transverses non sommées (montant null, issue #4)
   return {id:'depenses', label:'Dépenses publiques France (État + Sécu + collectivités)',
     montant:kids.reduce((s,k)=>s+(k.montant||0),0), annee:2025, statut:'estime',
     description:"Somme des trois sous-secteurs (recoupements possibles : transferts État→collectivités et État→Sécu comptés une fois dans chaque arbre — voir description des nœuds). Cadrage macro : comptes nationaux INSEE.",
     source:{nom:'INSEE — comptes des administrations publiques', url:'https://www.data.gouv.fr/datasets/comptes-des-administrations-publiques', producteur:'INSEE', licence:'Licence Ouverte 2.0', consulte_le:'2026-07-07'},
-    enfants:kids};
+    enfants:[...kids, ...vues]};
 }
 function rootRecettes(){
   const kids=[D.etat_recettes, D.secu_recettes, D.collectivites_recettes];
@@ -473,6 +474,7 @@ function renderTreemap(data){
   const norm=s=>(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
   const INDEX=[];
   const MODE={etat_depenses:'depenses',secu_depenses:'depenses',collectivites_depenses:'depenses',
+              'etat_qui-percoit':'depenses',
               etat_recettes:'recettes',secu_recettes:'recettes',collectivites_recettes:'recettes'};
   for(const [cle,arbre] of Object.entries(D)){
     (function walk(n,chemin){

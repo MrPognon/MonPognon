@@ -1,0 +1,186 @@
+#!/usr/bin/env python3
+"""Génère la vue transverse « Qui perçoit ? » (issue #4) : data/etat/qui-percoit.json.
+
+Deux sous-vues, chacune avec SON millésime (jamais sommées entre elles ni avec
+l'arbre des dépenses — la racine porte un montant null : ces montants sont déjà
+compris dans les crédits des programmes) :
+
+- OPÉRATEURS DE L'ÉTAT (PLF 2025) : les 433 opérateurs et catégories du jaune,
+  rattachés à leur mission et programme chefs de file. La liste open data ne
+  publie pas les crédits par opérateur (a_completer → jaune PDF).
+- SUBVENTIONS AUX ASSOCIATIONS (exécution 2023, annexe jaune du PLF 2025) :
+  par programme (somme des versements du jeu) avec les 5 premières associations
+  bénéficiaires telles quelles, et le reste compté en description.
+
+Rejouable : relit les extraits bruts versionnés (data-sources/raw/), zéro appel
+réseau. Usage : python3 scripts/pipelines/qui_percoit.py && python3 scripts/build.py
+"""
+import csv
+import gzip
+import io
+import json
+import os
+import re
+import unicodedata
+
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+RAW = os.path.join(ROOT, "data-sources", "raw")
+
+
+def slug(s, vus):
+    s = unicodedata.normalize("NFD", s).encode("ascii", "ignore").decode()
+    s = re.sub(r"[^A-Za-z0-9]+", "-", s).strip("-").lower()[:40] or "x"
+    base, i = s, 2
+    while s in vus:
+        s, i = f"{base}-{i}", i + 1
+    vus.add(s)
+    return s
+
+
+def libelles_programmes():
+    """code programme → libellé, depuis l'arbre des dépenses (source de vérité)."""
+    lib = {}
+
+    def walk(n):
+        m = re.match(r"Programme (\d+) — (.+)", n.get("label", ""))
+        if m:
+            lib[m.group(1)] = m.group(2)
+        for c in n.get("enfants", []):
+            walk(c)
+
+    walk(json.load(open(os.path.join(ROOT, "data", "etat", "depenses.json"), encoding="utf-8")))
+    return lib
+
+
+def vue_operateurs(meta):
+    with gzip.open(os.path.join(RAW, "plf25-jaune-operateurs.csv.gz"), "rb") as fh:
+        rows = list(csv.DictReader(io.StringIO(fh.read().decode(meta["encodage"])), delimiter=meta["separateur"]))
+    cle_nom = next(k for k in rows[0] if k.startswith("Opérateur ou catégorie"))
+    src = {"nom": "PLF 2025 — jaune « Opérateurs de l'État », liste des opérateurs et catégories",
+           "url": meta["source_page"], "producteur": "Direction du budget",
+           "licence": "Licence Ouverte 2.0", "consulte_le": meta["consulte_le"], "maj": meta["maj_dataset"]}
+    missions, vus = {}, set()
+    for r in rows:
+        rattachement = (r.get("Mission et Programme chefs de file") or "").strip()
+        lignes = [x.strip() for x in rattachement.split("\n") if x.strip()]
+        mission = lignes[0] if lignes else "Rattachement non précisé"
+        programme = lignes[1] if len(lignes) > 1 else None
+        propre = lambda x: " ".join((x or "").split())   # espaces/retours internes normalisés
+        nom = propre(r.get(cle_nom))
+        membre = propre(r.get("Opérateur de la catégorie"))
+        statut = propre(r.get("Statut"))
+        mission, programme = propre(mission), propre(programme) if programme else None
+        m = missions.setdefault(mission, {})
+        p = m.setdefault(programme or "—", [])
+        p.append({"nom": membre or nom, "categorie": nom if membre else None, "statut": statut})
+
+    enfants_missions = []
+    for mission in sorted(missions):
+        id_mission = f"etat.qui-percoit.operateurs.{slug(mission, vus)}"
+        enfants_prog = []
+        for prog in sorted(missions[mission]):
+            id_prog = f"{id_mission}.{slug(prog, vus)}"
+            ops = missions[mission][prog]
+            enfants_ops = [{
+                "id": f"{id_prog}.{slug(o['nom'], vus)}",
+                "label": o["nom"] + (f" (via la catégorie « {o['categorie']} »)" if o["categorie"] else ""),
+                "montant": None, "annee": 2025, "statut": "confirme",
+                "description": f"Statut juridique : {o['statut']}." if o["statut"] else None,
+                "enfants": [],
+            } for o in ops]
+            for e in enfants_ops:
+                if e["description"] is None:
+                    e.pop("description")
+            enfants_prog.append({
+                "id": id_prog,
+                "label": prog if prog != "—" else "Programme chef de file non précisé",
+                "montant": None, "annee": 2025, "statut": "confirme", "enfants": enfants_ops,
+            })
+        enfants_missions.append({
+            "id": id_mission,
+            "label": mission, "montant": None, "annee": 2025, "statut": "confirme",
+            "enfants": enfants_prog,
+        })
+    return {
+        "id": "etat.qui-percoit.operateurs",
+        "label": f"Les opérateurs de l'État — {len(rows)} organismes (PLF 2025)",
+        "montant": None, "annee": 2025, "statut": "confirme",
+        "description": ("Agences, établissements et organismes financés et contrôlés par l'État (ADEME, universités, "
+                        "Pôle emploi devenu France Travail…), rattachés à leur mission et programme chefs de file. "
+                        "Leur financement est déjà compté dans les crédits des programmes (💸 Dépenses)."),
+        "source": src, "enfants": enfants_missions,
+        "a_completer": {"note": "La liste open data ne publie pas les crédits par opérateur — ils figurent dans le jaune PDF « Opérateurs de l'État » (budget.gouv.fr) : contribution bienvenue, page à citer.",
+                        "url": "https://www.budget.gouv.fr/documentation/documents-budgetaires"},
+    }
+
+
+def vue_associations(meta, lib):
+    with gzip.open(os.path.join(RAW, "plf25-jaune-associations.json.gz"), "rt", encoding="utf-8") as fh:
+        rows = json.load(fh)
+    src = {"nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+           "url": meta["url"], "producteur": "Direction du budget / DGFiP",
+           "licence": "Licence Ouverte 2.0", "consulte_le": meta["consulte_le"], "maj": meta["maj_dataset"]}
+    par_prog = {}
+    for r in rows:
+        if r.get("montant"):
+            par_prog.setdefault(str(r["programme"]), []).append(r)
+    total = sum(r["montant"] for lst in par_prog.values() for r in lst)
+    vus = set()
+    enfants_prog = []
+    for prog, lst in sorted(par_prog.items(), key=lambda kv: -sum(r["montant"] for r in kv[1])):
+        somme = sum(r["montant"] for r in lst)
+        top = sorted(lst, key=lambda r: -r["montant"])[:5]
+        reste_n, reste_m = len(lst) - len(top), somme - sum(r["montant"] for r in top)
+        libelle = lib.get(prog)
+        enfants_assoc = [{
+            "id": f"etat.qui-percoit.associations.p{prog}.{slug(t['denomination'] or 'association', vus)}",
+            "label": " ".join((t["denomination"] or "(dénomination non renseignée)").split()).title(),
+            "montant": round(t["montant"], 2), "annee": 2023, "statut": "confirme",
+            "source": {"nom": src["nom"] + f", ligne du programme {prog}"},
+            "enfants": [],
+        } for t in top]
+        enfants_prog.append({
+            "id": f"etat.qui-percoit.associations.p{prog}",
+            "label": f"Programme {prog}" + (f" — {libelle}" if libelle else "") + " : subventions aux associations",
+            "montant": round(somme, 2), "annee": 2023, "statut": "confirme",
+            "description": (f"{len(lst):,} versement(s) recensés en 2023 sur ce programme. Les 5 plus importants sont "
+                            f"détaillés ci-dessous ; les {reste_n:,} autres représentent {reste_m:,.0f} €.").replace(",", " "),
+            "enfants": enfants_assoc,
+        })
+    return {
+        "id": "etat.qui-percoit.associations",
+        "label": "Subventions de l'État aux associations (exécution 2023)",
+        "montant": round(total, 2), "annee": 2023, "statut": "confirme",
+        "description": (f"{len(rows):,} versements recensés dans l'annexe jaune, agrégés par programme budgétaire. "
+                        "⚠️ Millésime 2023 (dernier exécuté publié) — ces montants sont déjà compris dans les dépenses "
+                        "exécutées des programmes, ils ne s'additionnent pas au PLF 2025.").replace(",", " "),
+        "source": src, "enfants": enfants_prog,
+    }
+
+
+def main():
+    meta_ops = json.load(open(os.path.join(RAW, "plf25-jaune-operateurs.meta.json"), encoding="utf-8"))
+    meta_ass = json.load(open(os.path.join(RAW, "plf25-jaune-associations.meta.json"), encoding="utf-8"))
+    lib = libelles_programmes()
+    vue = {
+        "id": "etat.qui-percoit",
+        "label": "🔎 Qui perçoit ? — opérateurs et associations (vues non sommées)",
+        "montant": None, "annee": 2025, "statut": "confirme",
+        "description": ("Vues transverses : à qui va l'argent des programmes. Le montant racine est volontairement null : "
+                        "ces sommes sont déjà comptées dans les crédits des programmes (aucun double compte), et chaque "
+                        "sous-vue porte son propre millésime."),
+        "source": {"nom": "Annexes « jaunes » du PLF 2025 (voir la source précise de chaque sous-vue)",
+                   "url": "https://www.budget.gouv.fr/documentation/documents-budgetaires",
+                   "producteur": "Direction du budget", "licence": "Licence Ouverte 2.0",
+                   "consulte_le": meta_ops["consulte_le"], "maj": None},
+        "enfants": [vue_operateurs(meta_ops), vue_associations(meta_ass, lib)],
+    }
+    def compte(n): return 1 + sum(compte(c) for c in n["enfants"])
+    with open(os.path.join(ROOT, "data", "etat", "qui-percoit.json"), "w", encoding="utf-8") as fh:
+        json.dump(vue, fh, ensure_ascii=False, indent=1)
+    print(f"vue « qui perçoit » : {compte(vue)} nœuds "
+          f"(opérateurs : {compte(vue['enfants'][0])}, associations : {compte(vue['enfants'][1])})")
+
+
+if __name__ == "__main__":
+    main()
