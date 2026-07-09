@@ -1,0 +1,10 @@
+{
+ "dataset": "PLF 2025 — jaune opérateurs de l'État (liste et catégories)",
+ "source_page": "https://www.data.gouv.fr/datasets/67a095a09fa4b7ef99af5df6/",
+ "url_ressource": "https://static.data.gouv.fr/resources/projet-de-loi-de-finances-pour-2025-plf-2025-jaune-operateurs-de-letat-liste-des-operateurs-et-categories/20250203-100832/plf2025-jauneoperateurs.csv",
+ "consulte_le": "2026-07-08",
+ "maj_dataset": "2025-02-03",
+ "lignes": 433,
+ "encodage": "cp1252",
+ "separateur": ";"
+}

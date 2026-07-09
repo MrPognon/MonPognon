@@ -136,6 +136,8 @@ def maj_readme(cov):
     lignes = ["| Périmètre | Montant | ✅ confirmé (en €) | 🟡 estimé | ❓ à réclamer |", "|---|---|---|---|---|"]
     for cle, c in cov.items():
         s, m = c["statuts"], c["montant"]
+        if not m:
+            continue  # vues transverses (montant racine null) : hors tableau de couverture
         pc = lambda v: f"{v / m * 100:,.1f}".replace(".", ",") + " %" if m else "—"
         lignes.append(f"| {c['label']} | {md(m)} | **{pc(s['confirme'])}** | {pc(s['estime'])} | "
                       f"{c['inconnues']['total']} nœud(s), dont {c['inconnues']['avec_demande']} réclamé(s) |")
