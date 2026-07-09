@@ -1,0 +1,271 @@
+{
+ "id": "etat.qui-paie",
+ "label": "🔎 Qui paie ? — l'impôt par profil de contribuable (vues non sommées)",
+ "montant": null,
+ "annee": 2025,
+ "statut": "confirme",
+ "description": "Vues transverses : qui verse les recettes publiques. Le montant racine est volontairement null : ces montants (constatés, millésime propre) ne s'additionnent pas aux lignes prévisionnelles des recettes — aucun double compte. D'autres impôts (TVA, IS…) attendent leur ventilation : contribution bienvenue.",
+ "source": {
+  "nom": "Statistiques fiscales de la DGFiP (voir la source précise de chaque sous-vue)",
+  "url": "https://www.impots.gouv.fr/statistiques",
+  "producteur": "DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": null
+ },
+ "enfants": [
+  {
+   "id": "etat.qui-paie.ir",
+   "label": "L'impôt sur le revenu par tranche de revenu (revenus 2024, émis en 2025)",
+   "montant": 91718994482.0,
+   "annee": 2025,
+   "statut": "confirme",
+   "description": "Impôt net émis par voie de rôle : 91 718 994 482 € payés par 41 635 259 foyers fiscaux, dont 19 681 757 imposés (21 953 502 foyers non imposés). Dont non-résidents : 953 414 438 € (298 023 foyers). Définition du fichier : « * Impôt sur le revenu émis par voie de rôle, hors prélèvement forfaitaire obligatoire sur les revenus de capitaux mobiliers et crédit d'impôt correspondant, hors prélèvements libératoires (sur revenus de capitaux mobilie… » — ce périmètre (émission) diffère de la ligne prévisionnelle de recettes de l'état A : les deux ne se comparent qu'avec précaution.",
+   "source": {
+    "nom": "DGFiP — IRCOM, fichier national (revenus 2024 déclarés en 2025), tableau par tranche de RFR ; montants en milliers d'euros",
+    "url": "https://www.data.gouv.fr/datasets/536998cba3a729239d20505e/",
+    "producteur": "DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-08",
+    "maj": "2026-05-26"
+   },
+   "enfants": [
+    {
+     "id": "etat.qui-paie.ir.0-a-10-000",
+     "label": "Foyers de 0 à 10 000 € de RFR",
+     "montant": -326469114.0,
+     "annee": 2025,
+     "statut": "confirme",
+     "description": "8 065 610 foyers fiscaux (dont 180 169 imposés), revenu fiscal de référence cumulé : 27 887 151 855 €. Montant négatif : sur cette tranche, les restitutions (crédits d'impôt…) dépassent l'impôt émis.",
+     "enfants": []
+    },
+    {
+     "id": "etat.qui-paie.ir.10-001-a-12-000",
+     "label": "Foyers de 10 001 à 12 000 € de RFR",
+     "montant": -117055230.0,
+     "annee": 2025,
+     "statut": "confirme",
+     "description": "1 583 513 foyers fiscaux (dont 49 924 imposés), revenu fiscal de référence cumulé : 17 449 595 087 €. Montant négatif : sur cette tranche, les restitutions (crédits d'impôt…) dépassent l'impôt émis.",
+     "enfants": []
+    },
+    {
+     "id": "etat.qui-paie.ir.12-001-a-15-000",
+     "label": "Foyers de 12 001 à 15 000 € de RFR",
+     "montant": -216356147.0,
+     "annee": 2025,
+     "statut": "confirme",
+     "description": "2 599 052 foyers fiscaux (dont 91 957 imposés), revenu fiscal de référence cumulé : 35 098 503 507 €. Montant négatif : sur cette tranche, les restitutions (crédits d'impôt…) dépassent l'impôt émis.",
+     "enfants": []
+    },
+    {
+     "id": "etat.qui-paie.ir.15-001-a-20-000",
+     "label": "Foyers de 15 001 à 20 000 € de RFR",
+     "montant": -65461336.0,
+     "annee": 2025,
+     "statut": "confirme",
+     "description": "5 221 953 foyers fiscaux (dont 1 489 534 imposés), revenu fiscal de référence cumulé : 92 408 184 137 €. Montant négatif : sur cette tranche, les restitutions (crédits d'impôt…) dépassent l'impôt émis.",
+     "enfants": []
+    },
+    {
+     "id": "etat.qui-paie.ir.20-001-a-30-000",
+     "label": "Foyers de 20 001 à 30 000 € de RFR",
+     "montant": 3984310093.0,
+     "annee": 2025,
+     "statut": "confirme",
+     "description": "8 720 534 foyers fiscaux (dont 5 340 632 imposés), revenu fiscal de référence cumulé : 212 415 842 399 €.",
+     "enfants": []
+    },
+    {
+     "id": "etat.qui-paie.ir.30-001-a-50-000",
+     "label": "Foyers de 30 001 à 50 000 € de RFR",
+     "montant": 12841048876.0,
+     "annee": 2025,
+     "statut": "confirme",
+     "description": "8 543 902 foyers fiscaux (dont 6 157 744 imposés), revenu fiscal de référence cumulé : 329 025 984 476 €.",
+     "enfants": []
+    },
+    {
+     "id": "etat.qui-paie.ir.50-001-a-100-000",
+     "label": "Foyers de 50 001 à 100 000 € de RFR",
+     "montant": 26606265949.0,
+     "annee": 2025,
+     "statut": "confirme",
+     "description": "5 486 353 foyers fiscaux (dont 5 000 420 imposés), revenu fiscal de référence cumulé : 366 614 220 695 €.",
+     "enfants": []
+    },
+    {
+     "id": "etat.qui-paie.ir.plus-de-100-000-dont",
+     "label": "Foyers de plus de 100 000 € de RFR",
+     "montant": 49012711391.0,
+     "annee": 2025,
+     "statut": "confirme",
+     "description": "1 414 342 foyers fiscaux (dont 1 371 377 imposés), revenu fiscal de référence cumulé : 294 159 432 298 €.",
+     "enfants": [
+      {
+       "id": "etat.qui-paie.ir.plus-de-100-000.100-001-a-200-000",
+       "label": "Foyers de 100 001 à 200 000 € de RFR",
+       "montant": 20479968370.0,
+       "annee": 2025,
+       "statut": "confirme",
+       "description": "1 115 487 foyers fiscaux (dont 1 078 597 imposés), revenu fiscal de référence cumulé : 146 200 998 190 €.",
+       "enfants": []
+      },
+      {
+       "id": "etat.qui-paie.ir.plus-de-100-000.200-001-a-300-000",
+       "label": "Foyers de 200 001 à 300 000 € de RFR",
+       "montant": 7299100030.0,
+       "annee": 2025,
+       "statut": "confirme",
+       "description": "163 375 foyers fiscaux (dont 159 228 imposés), revenu fiscal de référence cumulé : 39 093 798 623 €.",
+       "enfants": []
+      },
+      {
+       "id": "etat.qui-paie.ir.plus-de-100-000.300-001-a-400-000",
+       "label": "Foyers de 300 001 à 400 000 € de RFR",
+       "montant": 3787365146.0,
+       "annee": 2025,
+       "statut": "confirme",
+       "description": "54 453 foyers fiscaux (dont 53 377 imposés), revenu fiscal de référence cumulé : 18 669 131 798 €.",
+       "enfants": []
+      },
+      {
+       "id": "etat.qui-paie.ir.plus-de-100-000.400-001-a-500-000",
+       "label": "Foyers de 400 001 à 500 000 € de RFR",
+       "montant": 2412941253.0,
+       "annee": 2025,
+       "statut": "confirme",
+       "description": "26 739 foyers fiscaux (dont 26 328 imposés), revenu fiscal de référence cumulé : 11 910 383 064 €.",
+       "enfants": []
+      },
+      {
+       "id": "etat.qui-paie.ir.plus-de-100-000.500-001-a-600-000",
+       "label": "Foyers de 500 001 à 600 000 € de RFR",
+       "montant": 1636352640.0,
+       "annee": 2025,
+       "statut": "confirme",
+       "description": "14 520 foyers fiscaux (dont 14 351 imposés), revenu fiscal de référence cumulé : 7 919 412 321 €.",
+       "enfants": []
+      },
+      {
+       "id": "etat.qui-paie.ir.plus-de-100-000.600-001-a-700-000",
+       "label": "Foyers de 600 001 à 700 000 € de RFR",
+       "montant": 1145064005.0,
+       "annee": 2025,
+       "statut": "confirme",
+       "description": "8 546 foyers fiscaux (dont 8 460 imposés), revenu fiscal de référence cumulé : 5 524 900 243 €.",
+       "enfants": []
+      },
+      {
+       "id": "etat.qui-paie.ir.plus-de-100-000.700-001-a-800-000",
+       "label": "Foyers de 700 001 à 800 000 € de RFR",
+       "montant": 882730037.0,
+       "annee": 2025,
+       "statut": "confirme",
+       "description": "5 806 foyers fiscaux (dont 5 762 imposés), revenu fiscal de référence cumulé : 4 338 812 177 €.",
+       "enfants": []
+      },
+      {
+       "id": "etat.qui-paie.ir.plus-de-100-000.800-001-a-900-000",
+       "label": "Foyers de 800 001 à 900 000 € de RFR",
+       "montant": 714053280.0,
+       "annee": 2025,
+       "statut": "confirme",
+       "description": "4 142 foyers fiscaux (dont 4 109 imposés), revenu fiscal de référence cumulé : 3 511 883 842 €.",
+       "enfants": []
+      },
+      {
+       "id": "etat.qui-paie.ir.plus-de-100-000.900-001-a-1-000-000",
+       "label": "Foyers de 900 001 à 1 000 000 € de RFR",
+       "montant": 577964568.0,
+       "annee": 2025,
+       "statut": "confirme",
+       "description": "2 993 foyers fiscaux (dont 2 968 imposés), revenu fiscal de référence cumulé : 2 835 186 754 €.",
+       "enfants": []
+      },
+      {
+       "id": "etat.qui-paie.ir.plus-de-100-000.1-000-001-a-2-000-000",
+       "label": "Foyers de 1 000 001 à 2 000 000 € de RFR",
+       "montant": 3125893260.0,
+       "annee": 2025,
+       "statut": "confirme",
+       "description": "11 478 foyers fiscaux (dont 11 427 imposés), revenu fiscal de référence cumulé : 15 525 624 179 €.",
+       "enfants": []
+      },
+      {
+       "id": "etat.qui-paie.ir.plus-de-100-000.2-000-001-a-3-000-000",
+       "label": "Foyers de 2 000 001 à 3 000 000 € de RFR",
+       "montant": 1427609776.0,
+       "annee": 2025,
+       "statut": "confirme",
+       "description": "2 999 foyers fiscaux (dont 2 981 imposés), revenu fiscal de référence cumulé : 7 234 112 149 €.",
+       "enfants": []
+      },
+      {
+       "id": "etat.qui-paie.ir.plus-de-100-000.3-000-001-a-4-000-000",
+       "label": "Foyers de 3 000 001 à 4 000 000 € de RFR",
+       "montant": 893994508.0,
+       "annee": 2025,
+       "statut": "confirme",
+       "description": "1 338 foyers fiscaux, revenu fiscal de référence cumulé : 4 582 514 286 €.",
+       "enfants": []
+      },
+      {
+       "id": "etat.qui-paie.ir.plus-de-100-000.4-000-001-a-5-000-000",
+       "label": "Foyers de 4 000 001 à 5 000 000 € de RFR",
+       "montant": 591539812.0,
+       "annee": 2025,
+       "statut": "confirme",
+       "description": "681 foyers fiscaux, revenu fiscal de référence cumulé : 3 025 856 527 €.",
+       "enfants": []
+      },
+      {
+       "id": "etat.qui-paie.ir.plus-de-100-000.5-000-001-a-6-000-000",
+       "label": "Foyers de 5 000 001 à 6 000 000 € de RFR",
+       "montant": 470696826.0,
+       "annee": 2025,
+       "statut": "confirme",
+       "description": "455 foyers fiscaux, revenu fiscal de référence cumulé : 2 478 686 351 €.",
+       "enfants": []
+      },
+      {
+       "id": "etat.qui-paie.ir.plus-de-100-000.6-000-001-a-7-000-000",
+       "label": "Foyers de 6 000 001 à 7 000 000 € de RFR",
+       "montant": 342764272.0,
+       "annee": 2025,
+       "statut": "confirme",
+       "description": "298 foyers fiscaux (dont 298 imposés), revenu fiscal de référence cumulé : 1 930 547 875 €.",
+       "enfants": []
+      },
+      {
+       "id": "etat.qui-paie.ir.plus-de-100-000.7-000-001-a-8-000-000",
+       "label": "Foyers de 7 000 001 à 8 000 000 € de RFR",
+       "montant": 245078376.0,
+       "annee": 2025,
+       "statut": "confirme",
+       "description": "180 foyers fiscaux (dont 180 imposés), revenu fiscal de référence cumulé : 1 338 196 428 €.",
+       "enfants": []
+      },
+      {
+       "id": "etat.qui-paie.ir.plus-de-100-000.8-000-001-a-9-000-000",
+       "label": "Foyers de 8 000 001 à 9 000 000 € de RFR",
+       "montant": 234481489.0,
+       "annee": 2025,
+       "statut": "confirme",
+       "description": "157 foyers fiscaux, revenu fiscal de référence cumulé : 1 327 675 602 €.",
+       "enfants": []
+      },
+      {
+       "id": "etat.qui-paie.ir.plus-de-100-000.plus-de-9-000-000",
+       "label": "Foyers de plus de 100 000 € de RFR",
+       "montant": 2745113743.0,
+       "annee": 2025,
+       "statut": "confirme",
+       "description": "695 foyers fiscaux, revenu fiscal de référence cumulé : 16 711 711 889 €.",
+       "enfants": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

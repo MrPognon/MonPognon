@@ -1,0 +1,9 @@
+{
+ "dataset": "L'impôt sur le revenu par collectivité territoriale (IRCOM) — fichier national, revenus 2024 déclarés en 2025",
+ "source_page": "https://www.data.gouv.fr/datasets/536998cba3a729239d20505e/",
+ "url_ressource": "https://static.data.gouv.fr/resources/limpot-sur-le-revenu-par-collectivite-territoriale-ircom/20260526-131537/ircom-2025-revenus-2024.zip",
+ "fichier": "ircom_2025_revenus_2024/national/national.xls",
+ "consulte_le": "2026-07-08",
+ "maj_dataset": "2026-05-26",
+ "extraction": "cellules L7-L34 (xlrd) — montants en milliers d'euros (cellule L3 du fichier)"
+}
