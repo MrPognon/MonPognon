@@ -153,13 +153,40 @@ def maj_readme(cov):
     return True
 
 
+def valider_flux(doc, path, seen_ids):
+    """Valide un fichier de flux (ADR-0001) : pôles déclarés, extrémités connues,
+    montants sourcés comme des nœuds, noeuds_lies existants dans les arbres."""
+    poles = doc.get("poles") or {}
+    for f in doc.get("flux", []):
+        fid = f.get("id", "?")
+        for req in ("id", "de", "vers", "label", "montant", "annee", "statut", "source"):
+            if req not in f:
+                errors.append(f"{path}: flux — champ requis manquant '{req}' ({fid})")
+        if f.get("de") not in poles or f.get("vers") not in poles:
+            errors.append(f"{path}: flux — pôle non déclaré ({fid}: {f.get('de')} → {f.get('vers')})")
+        if f.get("statut") not in STATUTS:
+            errors.append(f"{path}: flux — statut invalide ({fid})")
+        src = f.get("source") or {}
+        for req in ("nom", "url", "producteur", "consulte_le"):
+            if not src.get(req):
+                errors.append(f"{path}: flux — source.{req} manquant ({fid})")
+        for nid in f.get("noeuds_lies", []):
+            if nid not in seen_ids:
+                errors.append(f"{path}: flux — noeud_lie inexistant « {nid} » ({fid})")
+
+
 def main():
     data, fiches, seen = {}, {}, set()
+    flux_docs = {}
     communes_dir = os.path.join(ROOT, "data", "collectivites", "communes") + os.sep
+    flux_dir = os.path.join(ROOT, "data", "flux") + os.sep
     for f in sorted(glob.glob(os.path.join(ROOT, "data", "**", "*.json"), recursive=True)):
         key = os.path.relpath(f, os.path.join(ROOT, "data")).replace(os.sep, "_").removesuffix(".json")
         with open(f, encoding="utf-8") as fh:
             node = json.load(fh)
+        if f.startswith(flux_dir):          # flux (ADR-0001) : validés après les arbres
+            flux_docs[os.path.relpath(f, ROOT)] = node
+            continue
         resoudre_sources(node, os.path.relpath(f, ROOT))
         validate(node, os.path.relpath(f, ROOT), seen)
         # Fiches communales (ADR-0004) : validées comme le reste, publiées en
@@ -168,6 +195,8 @@ def main():
             fiches[os.path.basename(f).removesuffix(".json")] = node
         else:
             data[key] = node
+    for path, doc in flux_docs.items():
+        valider_flux(doc, path, seen)
     if "--show" in sys.argv:  # affiche un nœud avec sa source résolue (ADR-0005)
         cible = sys.argv[sys.argv.index("--show") + 1]
         def chercher(n):
@@ -185,6 +214,9 @@ def main():
         for e in errors: print("ERREUR:", e, file=sys.stderr)
         sys.exit(1)
     extra = f" + {len(fiches)} fiche(s) communale(s)" if fiches else ""
+    n_flux = sum(len(d.get("flux", [])) for d in flux_docs.values())
+    if n_flux:
+        extra += f" + {n_flux} flux"
     print(f"OK — {len(data)} fichiers{extra}, {len(seen)} nœuds validés")
     if "--check" not in sys.argv:
         out = os.path.join(ROOT, "site", "data.js")
@@ -211,6 +243,14 @@ def main():
         with open(os.path.join(ROOT, "site", "couverture.js"), "w", encoding="utf-8") as fh:
             fh.write("// Généré par scripts/build.py — NE PAS ÉDITER À LA MAIN (éditez data/)\n")
             fh.write("window.COUVERTURE = " + json.dumps(cov_doc, ensure_ascii=False) + ";\n")
+        if flux_docs:
+            fusion = {"poles": {}, "flux": []}
+            for d in flux_docs.values():
+                fusion["poles"].update(d.get("poles", {}))
+                fusion["flux"] += d.get("flux", [])
+            with open(os.path.join(ROOT, "site", "flux.js"), "w", encoding="utf-8") as fh:
+                fh.write("// Généré par scripts/build.py — NE PAS ÉDITER À LA MAIN (éditez data/flux/)\n")
+                fh.write("window.FLUX = " + json.dumps(fusion, ensure_ascii=False) + ";\n")
         readme_ok = maj_readme(cov)
         print(f"→ site/couverture.json + couverture.js{' + README (tableau)' if readme_ok else ''}")
 
