@@ -64,6 +64,11 @@ def arbres(ref=None):
     for c in contenus:
         if not c.strip():
             continue
+        racine = json.loads(c)
+        if "flux" in racine and "poles" in racine:   # document de flux (ADR-0001) :
+            for f in racine["flux"]:                  # chaque flux est vérifiable comme un nœud
+                out[f["id"]] = f                      # (source complète déclarée, montant, statut)
+            continue
 
         def walk(n, src=None):
             # héritage de source champ par champ (ADR-0005) — même résolution que build.py
@@ -72,7 +77,7 @@ def arbres(ref=None):
             for k in n.get("enfants", []):
                 walk(k, n["source"])
 
-        walk(json.loads(c))
+        walk(racine)
     return out
 
 
@@ -181,8 +186,9 @@ def main():
 
     for n in modifies:
         cle = (n["montant"], n.get("annee"), n.get("source", {}).get("producteur"))
+        lies = set(n.get("noeuds_lies", []))   # un flux porte légitimement le montant de son nœud lié
         freres = [i for i in empreintes.get(cle, [])
-                  if i != n["id"] and i not in nouveaux_ids and not meme_lignee(i, n["id"])]
+                  if i != n["id"] and i not in nouveaux_ids and i not in lies and not meme_lignee(i, n["id"])]
         if freres:
             doublons.append(f"{n['id']} porte le même (montant, année, producteur) que {freres[0]}")
 
