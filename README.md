@@ -63,7 +63,7 @@ site/                    ← site statique (D3, sans build front, hébergeable s
 
 ## Contribuer
 
-Voir [CONTRIBUTING.md](CONTRIBUTING.md). Les chantiers prioritaires sont listés dans les nœuds `a_completer` et `inconnu` de l'arbre lui-même — le site EST la todo-list.
+Voir [CONTRIBUTING.md](CONTRIBUTING.md). Les chantiers prioritaires sont listés dans les nœuds `a_completer` et `inconnu` de l'arbre lui-même — le site EST la todo-list. La gouvernance du projet (rôles, décisions, contestation d'une donnée, modération) est écrite dans [GOVERNANCE.md](GOVERNANCE.md), et les échanges suivent le [code de conduite](CODE_OF_CONDUCT.md).
 
 Grands chantiers :
 
