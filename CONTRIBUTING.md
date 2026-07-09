@@ -59,6 +59,13 @@ Le reste de cette page décrit la contribution « à la main » — utile pour c
 - **Structurer un tableau PDF** (rapports CCSS, annexe 3 PLFSS) : recopier un tableau en JSON avec la page citée dans `source.nom` — chantier prioritaire.
 - **Réclamer une donnée manquante** : déposer une demande sur [madada.fr](https://madada.fr), puis ajouter l'URL de la demande dans le champ `inconnu.url` du nœud. Quand l'administration répond, la donnée entre dans l'arbre.
 
+## Sources sans URL publique (réponses CADA, documents reçus)
+
+Une source doit être **publiquement consultable et vérifiable par un tiers** — pas forcément en ligne à l'origine. Deux circuits, détaillés dans [`data-sources/documents/README.md`](data-sources/documents/README.md) :
+
+1. **madada.fr d'abord** : une demande CADA qui y transite voit sa réponse publiée → elle redevient une source à URL, ordinaire (et se fait **en votre nom propre**, jamais au nom du projet) ;
+2. sinon, **le document se versionne ici** : caviardé (zéro donnée personnelle), accompagné de sa **provenance** ([modèle](data-sources/documents/MODELE.provenance.md)), cité à la page près — `confirme` seulement s'il est authentifiable, `estime` au moindre doute.
+
 ## Ce qui est refusé
 
 - Chiffres sans source ou avec source cassée (la CI vérifie le format, les mainteneurs vérifient le fond).
