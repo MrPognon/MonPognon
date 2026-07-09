@@ -1,0 +1,20 @@
+# Référents de périmètre (GOVERNANCE.md) — leur revue est demandée automatiquement
+# par GitHub sur les PRs touchant leur périmètre.
+#
+# Le projet démarre : un seul mainteneur partout. Les lignes ci-dessous sont la
+# structure d'accueil des futurs référents — proposez-vous en contribuant.
+
+# Fondations (schéma, validation, CI) — revue mainteneur obligatoire
+/schema/            @MrPognon
+/scripts/           @MrPognon
+/.github/           @MrPognon
+
+# Données par périmètre — futurs référents : État, Sécu, collectivités…
+/data/etat/           @MrPognon
+/data/secu/           @MrPognon
+/data/collectivites/  @MrPognon
+
+# Gouvernance et documentation structurante
+/GOVERNANCE.md        @MrPognon
+/CODE_OF_CONDUCT.md   @MrPognon
+/docs/adr/            @MrPognon

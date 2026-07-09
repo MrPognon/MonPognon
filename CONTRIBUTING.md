@@ -67,4 +67,4 @@ Le reste de cette page décrit la contribution « à la main » — utile pour c
 
 ## Gouvernance
 
-Décisions par consensus dans les issues. Les mainteneurs garantissent la neutralité et la traçabilité, pas une ligne éditoriale.
+Qui décide quoi, comment on devient référent ou mainteneur, comment se conteste une donnée, comment fonctionne la modération : tout est écrit dans **[GOVERNANCE.md](GOVERNANCE.md)**. Les échanges suivent le **[code de conduite](CODE_OF_CONDUCT.md)** — dont la clause propre au projet : on débat des sources et des méthodes, jamais de l'opportunité politique des flux.
