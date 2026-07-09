@@ -158,6 +158,28 @@ def vue_associations(meta, lib):
     }
 
 
+def inconnues_vue():
+    """Les inconnues structurelles du « qui perçoit » (issue #19, étude §6 — n° 11 et 12)."""
+    return [
+        {"id": "etat.qui-percoit.inconnu-consolide",
+         "label": "❓ Subventions publiques consolidées (État + collectivités + Sécu)",
+         "montant": None, "annee": None, "statut": "inconnu",
+         "source": {"nom": "Constat d'absence — le jaune « associations » ne couvre que l'État (docs/etude-donnees.md §6)",
+                    "url": "https://www.budget.gouv.fr/documentation/documents-budgetaires",
+                    "producteur": "—", "licence": "Licence Ouverte 2.0", "consulte_le": "2026-07-09", "maj": None},
+         "inconnu": {"quoi": "Une vue consolidée des ~23 Md€/an de subventions publiques, tous financeurs confondus (État + collectivités + organismes de sécurité sociale) — la sous-vue ci-dessus ne couvre que l'État.",
+                     "contact": "Direction du Budget ; ou question parlementaire", "url": None}, "enfants": []},
+        {"id": "etat.qui-percoit.inconnu-decp",
+         "label": "❓ Commande publique : qui sont les fournisseurs de l'État (DECP)",
+         "montant": None, "annee": None, "statut": "inconnu",
+         "source": {"nom": "Constat de qualité — données essentielles de la commande publique consolidées défaillantes (docs/etude-donnees.md §6)",
+                    "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides/",
+                    "producteur": "—", "licence": "Licence Ouverte 2.0", "consulte_le": "2026-07-09", "maj": None},
+         "inconnu": {"quoi": "Les marchés publics par attributaire, exploitables : les DECP consolidées souffrent de doublons et d'identifiants manquants (nouveau format unifié depuis 01/2024 — qualité à réévaluer avant intégration).",
+                     "contact": "AIFE / data.gouv.fr", "url": None}, "enfants": []},
+    ]
+
+
 def main():
     meta_ops = json.load(open(os.path.join(RAW, "plf25-jaune-operateurs.meta.json"), encoding="utf-8"))
     meta_ass = json.load(open(os.path.join(RAW, "plf25-jaune-associations.meta.json"), encoding="utf-8"))
@@ -173,7 +195,7 @@ def main():
                    "url": "https://www.budget.gouv.fr/documentation/documents-budgetaires",
                    "producteur": "Direction du budget", "licence": "Licence Ouverte 2.0",
                    "consulte_le": meta_ops["consulte_le"], "maj": None},
-        "enfants": [vue_operateurs(meta_ops), vue_associations(meta_ass, lib)],
+        "enfants": [vue_operateurs(meta_ops), vue_associations(meta_ass, lib), *inconnues_vue()],
     }
     def compte(n): return 1 + sum(compte(c) for c in n["enfants"])
     with open(os.path.join(ROOT, "data", "etat", "qui-percoit.json"), "w", encoding="utf-8") as fh:

@@ -27253,6 +27253,48 @@
     "url": "https://madada.fr"
    },
    "enfants": []
+  },
+  {
+   "id": "etat.depenses.inconnu-infra-annuel",
+   "label": "❓ Exécution infra-annuelle par mission",
+   "montant": null,
+   "annee": null,
+   "statut": "inconnu",
+   "source": {
+    "nom": "Constat d'absence — la situation mensuelle publiée s'arrête aux agrégats ministère×titre (docs/etude-donnees.md §6 (inventaire des inconnues))",
+    "url": "https://www.budget.gouv.fr",
+    "producteur": "—",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-09",
+    "maj": null
+   },
+   "inconnu": {
+    "quoi": "L'exécution du budget en cours d'année, mission par mission : la situation mensuelle publiée ne donne que des agrégats par ministère et par titre ; les données fines de Chorus ne sont pas publiées.",
+    "contact": "Direction du Budget + AIFE (opératrice de Chorus)",
+    "url": null
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.depenses.inconnu-plf2026",
+   "label": "❓ PLF/LFI 2026 en données ouvertes",
+   "montant": null,
+   "annee": null,
+   "statut": "inconnu",
+   "source": {
+    "nom": "Constat d'absence — recherche « plf26 » sur data.economie : aucun jeu dépenses/recettes (docs/etude-donnees.md §6 (inventaire des inconnues))",
+    "url": "https://data.economie.gouv.fr",
+    "producteur": "—",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-09",
+    "maj": null
+   },
+   "inconnu": {
+    "quoi": "Les séries dépenses/recettes du PLF 2026 (voté le 30/12/2025) ne sont toujours pas publiées en open data au 09/07/2026 — seul le « budget vert » 2026 l'est. Le site reste donc au millésime 2025.",
+    "contact": "Direction du Budget, via data.economie.gouv.fr (formulaire de contact)",
+    "url": null
+   },
+   "enfants": []
   }
  ]
 }
