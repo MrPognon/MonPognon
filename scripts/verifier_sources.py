@@ -29,6 +29,11 @@ from urllib.parse import urlparse
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOM_DIR = os.path.join(ROOT, "data-sources", "domaines")
 
+# Les documents versionnés dans CE dépôt (data-sources/documents/, politique #14) sont
+# des sources légitimes : revus en PR, provenance obligatoire. Le préfixe est exact —
+# github.com en général resterait un domaine inconnu (n'importe qui peut y publier).
+PREFIXE_DEPOT = "https://github.com/MrPognon/MonPognon/blob/main/data-sources/documents/"
+
 RACCOURCISSEURS = {
     "bit.ly", "tinyurl.com", "t.co", "goo.gl", "ow.ly", "is.gd", "buff.ly",
     "cutt.ly", "rebrand.ly", "shorturl.at", "urlr.me", "lstu.fr", "frama.link",
@@ -110,6 +115,9 @@ def verifier(urls, tier1, tier3):
         if reg in RACCOURCISSEURS:
             violations.append(f"raccourcisseur d'URL interdit : {exemple}")
             continue
+        if u.startswith(PREFIXE_DEPOT):
+            tiers.setdefault("depot", set()).add("(documents versionnés du dépôt)")
+            continue
         if any(matche(netloc, t) for t in tier1):
             tiers.setdefault(1, set()).add(netloc)
             continue
@@ -160,7 +168,7 @@ def main():
     violations, tiers = verifier(urls, tier1, tier3)
 
     lignes = [f"URLs distinctes : {len(urls)}"]
-    for t, label in ((1, "tier 1 · officiel national"), (3, "tier 3 · approuvé"), (4, "tier 4 · INCONNU — revue humaine")):
+    for t, label in ((1, "tier 1 · officiel national"), ("depot", "dépôt · document versionné, revu en PR"), (3, "tier 3 · approuvé"), (4, "tier 4 · INCONNU — revue humaine")):
         for d in sorted(tiers.get(t, ())):
             lignes.append(f"  [{label}] {d}")
     if violations:
