@@ -20,12 +20,12 @@ La communauté fait grandir l'arbre par pull requests : chaque contribution doit
 <!-- couverture:debut -->
 | Périmètre | Montant | ✅ confirmé (en €) | 🟡 estimé | ❓ à réclamer |
 |---|---|---|---|---|
-| Dépenses des collectivités locales | 315,0 Md€ | **0,0 %** | 100,0 % | 2 nœud(s), dont 2 réclamé(s) |
+| Dépenses des collectivités locales | 315,0 Md€ | **0,0 %** | 100,0 % | 3 nœud(s), dont 2 réclamé(s) |
 | Recettes des collectivités locales | 315,0 Md€ | **0,0 %** | 100,0 % | 1 nœud(s), dont 1 réclamé(s) |
-| Dépenses de l'État (PLF 2025, crédits de paiement) | 823,0 Md€ | **100,0 %** | 0,0 % | 2 nœud(s), dont 2 réclamé(s) |
-| Recettes de l'État — budget général (PLF 2025) | 588,4 Md€ | **100,0 %** | 0,0 % | 0 nœud(s), dont 0 réclamé(s) |
+| Dépenses de l'État (PLF 2025, crédits de paiement) | 823,0 Md€ | **100,0 %** | 0,0 % | 4 nœud(s), dont 2 réclamé(s) |
+| Recettes de l'État — budget général (PLF 2025) | 588,4 Md€ | **100,0 %** | 0,0 % | 1 nœud(s), dont 0 réclamé(s) |
 | Dépenses de la Sécurité sociale (régimes de base + FSV) | 666,0 Md€ | **100,0 %** | 0,0 % | 2 nœud(s), dont 2 réclamé(s) |
-| Recettes de la Sécurité sociale (régimes de base + FSV) | 644,4 Md€ | **100,0 %** | 0,0 % | 0 nœud(s), dont 0 réclamé(s) |
+| Recettes de la Sécurité sociale (régimes de base + FSV) | 644,4 Md€ | **100,0 %** | 0,0 % | 1 nœud(s), dont 0 réclamé(s) |
 
 *Un euro est « confirmé » si le nœud le plus profond qui le porte l'est — la méthode complète est dans [`site/couverture.json`](site/couverture.json). Les périmètres ne s'additionnent pas (transferts entre administrations). Tableau régénéré par `build.py`.*
 <!-- couverture:fin -->

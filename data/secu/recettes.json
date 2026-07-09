@@ -101,6 +101,27 @@
    "annee": 2025,
    "statut": "confirme",
    "enfants": []
+  },
+  {
+   "id": "secu.recettes.inconnu-taux",
+   "label": "❓ Taux de cotisations sociales en open data officiel",
+   "montant": null,
+   "annee": null,
+   "statut": "inconnu",
+   "source": {
+    "nom": "Constat d'absence — le BOSS publie les règles en HTML sans API ni licence de données (docs/etude-donnees.md §6 (inventaire des inconnues))",
+    "url": "https://boss.gouv.fr",
+    "producteur": "—",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-09",
+    "maj": null
+   },
+   "inconnu": {
+    "quoi": "Un référentiel officiel machine-readable des taux de cotisations (le BOSS et l'Urssaf publient en HTML ; les moteurs open source — mon-entreprise, OpenFisca — ne sont pas « opposables »).",
+    "contact": "Direction de la Sécurité sociale, via boss.gouv.fr ; issues GitHub betagouv/mon-entreprise ; contact@openfisca.org",
+    "url": null
+   },
+   "enfants": []
   }
  ]
 }

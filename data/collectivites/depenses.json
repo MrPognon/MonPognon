@@ -88,6 +88,27 @@
     "contact": "DGFiP / DGCL",
     "url": "https://www.collectivites-locales.gouv.fr"
    }
+  },
+  {
+   "id": "coll.depenses.inconnu-syndicats",
+   "label": "❓ Clés de répartition commune⇄EPCI⇄syndicats",
+   "montant": null,
+   "annee": null,
+   "statut": "inconnu",
+   "source": {
+    "nom": "Constat d'absence — BANATIC recense les structures mais pas les clés financières (docs/etude-donnees.md §6 (inventaire des inconnues))",
+    "url": "https://www.banatic.interieur.gouv.fr",
+    "producteur": "—",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-09",
+    "maj": null
+   },
+   "inconnu": {
+    "quoi": "Comment se répartissent les contributions des communes et EPCI aux syndicats (eau, déchets, énergie…) : les clés de répartition ne sont pas publiées.",
+    "contact": "DGCL (référentiel BANATIC) ; OFGL (formulaire data.ofgl.fr, réactif)",
+    "url": null
+   },
+   "enfants": []
   }
  ],
  "description": "Ordre de grandeur 2024 (APUL). Objectif : remplacer ce sous-arbre par un appel API OFGL sur la commune choisie par l'utilisateur."

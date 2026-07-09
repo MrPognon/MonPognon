@@ -2085,6 +2085,27 @@
      "enfants": []
     }
    ]
+  },
+  {
+   "id": "etat.recettes.inconnu-territorialise",
+   "label": "❓ TVA, IS et TICPE territorialisés",
+   "montant": null,
+   "annee": null,
+   "statut": "inconnu",
+   "source": {
+    "nom": "Constat d'absence — les statistiques fiscales publiées n'incluent pas ces territorialisations (docs/etude-donnees.md §6 (inventaire des inconnues))",
+    "url": "https://www.impots.gouv.fr/statistiques",
+    "producteur": "—",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-09",
+    "maj": null
+   },
+   "inconnu": {
+    "quoi": "Qui paie la TVA, l'impôt sur les sociétés ou la TICPE, département par département : non publié (secret fiscal invoqué) — seul l'impôt sur le revenu est territorialisé (IRCOM, voir la vue « Qui paie ? »).",
+    "contact": "DGFiP — Département des études et statistiques fiscales ; pour les chercheurs : CASD",
+    "url": null
+   },
+   "enfants": []
   }
  ]
 }

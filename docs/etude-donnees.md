@@ -116,7 +116,9 @@ DGF et dotations (OFGL/DGCL, critères publiés), dotations d'investissement DET
 
 ## 6. Les inconnues — ce qui n'existe PAS, et qui contacter
 
-C'est la matière du mode « depuis le gouvernement » : chaque manque doit être affiché comme un nœud « inconnu » avec le contact public.
+**✅ Fait (issue #19) : chacune de ces 13 inconnues vit désormais dans les données** — un nœud ❓ dans `data/`, visible sur le site, avec `inconnu.quoi` et `inconnu.contact` (et `inconnu.url` quand une demande madada est déposée, voir #6). **La vérité opérationnelle est dans les nœuds** ; ce tableau reste la référence méthodologique d'origine.
+
+Correspondance : 1 → `etat.depenses.inconnu-execution` · 2 → `etat.depenses.inconnu-infra-annuel` · 3 → `etat.depenses.inconnu-geo` · 4 → `etat.recettes.inconnu-territorialise` · 5 → `coll.depenses.inconnu-bp` · 6 → `coll.depenses.inconnu-fonction` · 7 → `coll.depenses.inconnu-syndicats` · 8 → `secu.depenses.inconnu-ccss` · 9 → `secu.recettes.inconnu-taux` · 10 → `secu.depenses.inconnu-agirc` · 11 → `etat.qui-percoit.inconnu-consolide` · 12 → `etat.qui-percoit.inconnu-decp` · 13 → `etat.depenses.inconnu-plf2026`
 
 | # | Inconnue | Détail | Contact public / recours |
 |---|---|---|---|
