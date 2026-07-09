@@ -8,6 +8,7 @@
 <script src="data.js"></script>
 <script src="couverture.js"></script>
 <script src="communes-index.js"></script>
+<script src="flux.js"></script>
 <style>
   /* Thème inspiré des principes du DSFR (grille, contrastes RGAA, badges, callouts)
      SANS réutiliser ses composants, sa palette bleu France ni la police Marianne,
@@ -120,6 +121,7 @@
   <div class="modes">
     <button class="mode-btn active" data-mode="depenses">💸 Dépenses</button>
     <button class="mode-btn" data-mode="recettes">💰 Recettes</button>
+    <button class="mode-btn" data-mode="flux">🔀 Flux</button>
     <button class="mode-btn" data-mode="paie">🧾 Ma fiche de paie</button>
   </div>
 </header>
@@ -530,11 +532,86 @@ function renderTreemap(data){
   document.addEventListener('keydown',ev=>{if(ev.key==='/'&&document.activeElement!==inp&&document.activeElement.tagName!=='INPUT'){ev.preventDefault(); inp.focus(); inp.select();}});
   document.addEventListener('click',ev=>{if(!ev.target.closest('#recherche-wrap'))fermer();});
 })();
+// ---- Mode « Flux » : Sankey des flux entre administrations (ADR-0001, issues #38/#40) ----
+function renderFlux(){
+  chartEl.innerHTML='';
+  const F=window.FLUX;
+  if(!F||!F.flux||!F.flux.length){
+    chartEl.innerHTML='<p style="padding:30px;color:var(--mute)">Aucun flux documenté pour l\'instant — contribuez dans <code>data/flux/</code>.</p>';
+    return;
+  }
+  const W=chartEl.clientWidth||900, H=chartEl.clientHeight||600;
+  const P=F.poles, flux=F.flux.slice();
+  const total=flux.reduce((s,f)=>s+f.montant,0);
+  const GAP=16, PAD=54, COLW=16, LBL=190;
+  const hDisp=H-2*PAD;
+  const emetteurs=[...new Set(flux.map(f=>f.de))];
+  const recepteurs=[...new Set(flux.map(f=>f.vers))];
+  const totalCote=cote=>flux.reduce((s,f)=>s+f.montant,0);
+  const echelle=(hDisp-GAP*Math.max(emetteurs.length,recepteurs.length))/total;
+  const sortants=p=>flux.filter(f=>f.de===p).reduce((s,f)=>s+f.montant,0);
+  const entrants=p=>flux.filter(f=>f.vers===p).reduce((s,f)=>s+f.montant,0);
+  emetteurs.sort((a,b)=>sortants(b)-sortants(a));
+  recepteurs.sort((a,b)=>entrants(b)-entrants(a));
+  const posG={}, posD={};
+  let y=PAD;
+  for(const p of emetteurs){ posG[p]={y0:y, y:y, h:sortants(p)*echelle}; y+=sortants(p)*echelle+GAP; }
+  y=PAD;
+  for(const p of recepteurs){ posD[p]={y0:y, y:y, h:entrants(p)*echelle}; y+=entrants(p)*echelle+GAP; }
+  const xG=LBL, xD=W-LBL;
+  const svg=d3.select('#chart').append('svg').attr('width',W).attr('height',H).attr('role','list')
+    .attr('aria-label','Flux financiers entre administrations');
+  // rubans (triés gros → petits pour l'empilement)
+  flux.sort((a,b)=>b.montant-a.montant);
+  for(const f of flux){
+    const h=f.montant*echelle;
+    const g=posG[f.de], d=posD[f.vers];
+    const y1=g.y, y2=d.y; g.y+=h; d.y+=h;
+    const mid=(xG+xD)/2;
+    const path=`M ${xG+COLW},${y1} C ${mid},${y1} ${mid},${y2} ${xD-COLW},${y2}
+                L ${xD-COLW},${y2+h} C ${mid},${y2+h} ${mid},${y1+h} ${xG+COLW},${y1+h} Z`;
+    const est=f.statut==='estime';
+    svg.append('path').attr('d',path)
+      .attr('fill',est?'var(--est)':'var(--primary)').attr('fill-opacity',est?0.30:0.22)
+      .attr('stroke',est?'var(--est)':'var(--primary)').attr('stroke-opacity',0.45)
+      .attr('stroke-dasharray',est?'6 4':null)
+      .attr('tabindex',0).attr('role','listitem').style('cursor','pointer')
+      .attr('aria-label',`${f.label} : ${fmtEUR(f.montant)} (${P[f.de]} vers ${P[f.vers]})`)
+      .on('mouseover',function(){d3.select(this).attr('fill-opacity',est?0.5:0.42);})
+      .on('mouseout',function(){d3.select(this).attr('fill-opacity',est?0.30:0.22);})
+      .on('click keydown',(e)=>{
+        if(e.type==='keydown'&&e.key!=='Enter')return;
+        showPanel({...f, description:`${P[f.de]} → ${P[f.vers]}. `+(f.description||'')
+          +(f.noeuds_lies&&f.noeuds_lies.length?` (Nœuds liés : ${f.noeuds_lies.join(', ')}.)`:'')});
+      });
+    // montant sur le ruban si assez épais
+    if(h>15) svg.append('text').attr('x',mid).attr('y',(y1+y2+h)/2+4).attr('text-anchor','middle')
+      .attr('font-size',11).attr('fill','var(--ink)').attr('opacity',.75).style('pointer-events','none')
+      .text(fmtEUR(f.montant)+(f.annee?` (${f.annee})`:''));
+  }
+  // colonnes + étiquettes des pôles
+  const bloc=(pos,x,anchor,dx)=>{
+    for(const [p,o] of Object.entries(pos)){
+      svg.append('rect').attr('x',x).attr('y',o.y0).attr('width',COLW).attr('height',Math.max(o.h,3))
+        .attr('fill','var(--ink)').attr('fill-opacity',0.72).attr('rx',3);
+      svg.append('text').attr('x',x+dx).attr('y',o.y0+Math.max(o.h,3)/2-3).attr('text-anchor',anchor)
+        .attr('font-size',12.5).attr('font-weight',700).attr('fill','var(--ink)').text(P[p]);
+      svg.append('text').attr('x',x+dx).attr('y',o.y0+Math.max(o.h,3)/2+13).attr('text-anchor',anchor)
+        .attr('font-size',10.5).attr('fill','var(--mute)')
+        .text(fmtEUR((anchor==='end'?sortants(p):entrants(p))));
+    }
+  };
+  bloc(posG,xG,'end',-8); bloc(posD,xD-COLW,'start',COLW+8);
+  svg.append('text').attr('x',W/2).attr('y',H-10).attr('text-anchor','middle')
+    .attr('font-size',10.5).attr('fill','var(--mute)')
+    .text('Chaque flux porte son propre millésime (affiché) — les rubans ne se somment pas entre eux. Ambre pointillé = estimé.');
+}
 // ---- Interactions ----
 function refresh(){
   document.getElementById('ctl-paie').style.display = mode==='paie'?'inline':'none';
-  document.getElementById('ctl-commune').style.display = mode==='paie'?'none':'inline';
-  document.getElementById('ctl-vue').style.display = mode==='paie'?'none':'inline';
+  document.getElementById('ctl-commune').style.display = (mode==='paie'||mode==='flux')?'none':'inline';
+  document.getElementById('ctl-vue').style.display = (mode==='paie'||mode==='flux')?'none':'inline';
+  if(mode==='flux'){ renderFlux(); return; }
   const data = mode==='depenses'?rootDepenses() : mode==='recettes'?rootRecettes() : rootPaie(+document.getElementById('brut').value||3000);
   if(vue==='surfaces'&&mode!=='paie') renderTreemap(data);
   else render(data);

@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Flux entre administrations et vers l'extérieur (ADR-0001)",
+  "description": "Un fichier de flux déclare des pôles (agrégats de visualisation : État, Sécu, collectivités, UE, international…) et des flux typés entre eux. Chaque flux obéit aux mêmes règles qu'un nœud : montant sourcé, millésime, statut. Les pôles sont la granularité v1 (Sankey) — le raffinement nœud à nœud viendra si besoin ; `noeuds_lies` fait le pont avec les arbres (validé par build.py : les ids doivent exister).",
+  "type": "object",
+  "required": ["poles", "flux"],
+  "properties": {
+    "poles": {
+      "type": "object",
+      "description": "slug → libellé affiché (ex. \"etat\": \"État\").",
+      "additionalProperties": {"type": "string"}
+    },
+    "flux": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "de", "vers", "label", "montant", "annee", "statut", "source"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^flux\\.[A-Za-z0-9_.-]+$"},
+          "de": {"type": "string", "description": "slug d'un pôle déclaré"},
+          "vers": {"type": "string", "description": "slug d'un pôle déclaré"},
+          "label": {"type": "string", "minLength": 3},
+          "montant": {"type": "number", "description": "en euros"},
+          "annee": {"type": "integer", "description": "millésime du flux — les flux d'un même fichier peuvent différer : chacun l'affiche"},
+          "statut": {"enum": ["confirme", "estime", "inconnu"]},
+          "description": {"type": "string"},
+          "source": {"$ref": "noeud.schema.json#/properties/source"},
+          "noeuds_lies": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "ids de nœuds des arbres qui justifient ou portent ce flux (existence validée)"
+          }
+        }
+      }
+    }
+  }
+}

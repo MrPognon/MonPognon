@@ -60,10 +60,22 @@
      "montant": 98900000000,
      "annee": 2025,
      "statut": "confirme",
-     "enfants": [],
+     "enfants": [
+      {
+       "id": "secu.recettes.autres-itaf.impots-taxes.tva",
+       "label": "TVA affectée à la Sécurité sociale",
+       "montant": 49588000000,
+       "annee": 2025,
+       "statut": "confirme",
+       "source": {
+        "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 3 « Charges et produits consolidés des régimes de base et du FSV », ligne TVA, p. 149 (p. 151 du PDF)"
+       },
+       "enfants": []
+      }
+     ],
      "description": "Comprend notamment la fraction de TVA affectée à la Sécurité sociale et la taxe sur les salaires — détail non publié dans le tableau 1.",
      "a_completer": {
-      "note": "Isoler la TVA affectée et la taxe sur les salaires (fiches recettes du rapport CCSS, partie 1).",
+      "note": "Isoler la taxe sur les salaires (fiches recettes du rapport CCSS, partie 1) — la TVA est faite.",
       "url": null
      }
     }
