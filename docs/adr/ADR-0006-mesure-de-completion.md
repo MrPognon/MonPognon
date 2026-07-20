@@ -126,3 +126,30 @@ Vérification en première main du tableau INSEE **3.108** « Passage du résult
 **Pourquoi cette correction compte** : une affirmation d'absence fausse est précisément ce qui ferait tomber la crédibilité du site au premier contradicteur informé. Le projet préfère corriger une de ses propres phrases plutôt que de la défendre.
 
 Le champ `manque` du sous-segment `ASSO.regimes` porte désormais l'énoncé exact de ce qui manque et le contact à saisir (INSEE — Département des comptes nationaux).
+
+---
+
+## Note d'application — 2026-07-20 (2) : le raccord LOLF → SEC, et une règle de rédaction
+
+Investigation de l'étape 12 de l'issue #50. Elle porte sur le sous-segment `APUC.etat`, qui représente à lui seul **77 % du numérateur de C** : c'est le point où la crédibilité de l'indice se joue.
+
+### Ce qui a été établi
+
+Le fichier de dénominateurs affirmait qu'**« aucune table de passage LOLF→SEC n'est publiée »**. **C'est faux.** Vérification en première main du tableau INSEE **3.107** « Passage du résultat d'exécution des lois de finances au déficit de l'État (S13111) au sens de Maastricht » : sa notice énonce qu'il « permet de réconcilier deux chiffres clés des finances de l'État : le Résultat d'exécution des lois de finances d'une part et le Déficit de l'État au sens de Maastricht d'autre part ».
+
+**La décision reste néanmoins inchangée** — `raccord_publie: false` — pour deux raisons cumulatives :
+
+1. **Elle convertit un solde, jamais des dépenses.** Elle part de −124,7 Md€ de résultat d'exécution 2025 et arrive à un déficit. Aucune ligne de dépenses. Convertir 823 Md€ de crédits de paiement est une impossibilité **de nature**.
+2. **Son point de départ n'est pas le nôtre** : l'**exécution constatée**, quand l'arbre modélise le **PLF déposé** (prévision).
+
+Ce qui manque est donc précis : une réconciliation **en dépenses** entre les crédits de paiement LOLF (823,04 Md€) et les dépenses de l'État en comptabilité nationale (607,70 Md€, tableau 3.203) — un écart de **215,34 Md€**, dont 147,14 Md€ de remboursements et dégrèvements neutralisés en SEC. Le reconstituer soi-même serait un travail original, que la règle d'or interdit.
+
+### La règle de rédaction que cette note ajoute
+
+**C'est la deuxième fois que le projet affirme à tort qu'une table de passage n'existe pas** — après le raccord CCSS → SEC (note d'application 1, tableau 3.108). Les deux fois, une table officielle existait et ne faisait simplement pas ce dont le projet avait besoin.
+
+Le motif est identique et prévisible : on constate qu'un raccord est *inutilisable*, et on l'écrit *inexistant*. Sur un projet dont la crédibilité est le produit, une affirmation d'absence fausse est ce qui tombe en premier face à un contradicteur informé.
+
+**Règle : le dépôt n'écrit jamais qu'une donnée « n'existe pas ».** Il écrit ce qui a été cherché, où, et ce qui a été trouvé — puis pourquoi cela ne convient pas. Toute affirmation d'absence porte le périmètre de la recherche qui la fonde, et reste réfutable.
+
+Les champs `manque.quoi` des sous-segments `APUC.etat` et `ASSO.regimes` sont rédigés selon cette règle.

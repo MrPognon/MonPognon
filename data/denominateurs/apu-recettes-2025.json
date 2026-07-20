@@ -67,7 +67,12 @@
           ],
           "raccord_publie": false,
           "ecart_millesime": false,
-          "note": "Les 156 lignes de l'état A sont intégralement modélisées : coefficient 1,000. MÊME RÉSERVE QUE POUR LES DÉPENSES — le référentiel est du PLF DÉPOSÉ (prévision) alors que le poids est en comptabilité nationale d'EXÉCUTION, et aucune table de passage LOLF→SEC n'est publiée. L'état A ne couvre par ailleurs que le BUDGET GÉNÉRAL : les recettes des comptes spéciaux et budgets annexes ne sont pas dans ce référentiel."
+          "note": "Les 156 lignes de l'état A sont intégralement modélisées : coefficient 1,000. MÊME RÉSERVE QUE LE VOLET DÉPENSES sur le raccord LOLF→SEC — voir la note du sous-segment APUC.etat du fichier apu-depenses-2025.json : le tableau INSEE 3.107 existe mais convertit un solde, non des flux, et part de l'exécution. L'état A ne couvre par ailleurs que le BUDGET GÉNÉRAL : les recettes des comptes spéciaux et budgets annexes sont hors de ce référentiel.",
+          "manque": {
+            "quoi": "Une table de passage officielle EN DÉPENSES entre la comptabilité budgétaire de l'État (crédits de paiement LOLF, 823,04 Md€ au PLF 2025) et ses dépenses en comptabilité nationale (607,70 Md€, SEC 2010, tableau INSEE 3.203). Les tables existantes — INSEE 3.107 et les tableaux de notification PDE transmis à Eurostat — convertissent un SOLDE (résultat d'exécution → déficit Maastricht) et partent de l'exécution constatée, non du PLF déposé. Recherche menée le 2026-07-20 sur les tableaux INSEE 3.101 à 3.108 et 3.201 à 3.217 ; l'absence d'une réconciliation en dépenses est constatée sur ces sources, elle n'est pas démontrée universellement.",
+            "contact": "INSEE — Département des comptes nationaux, producteur des tableaux 3.107 et 3.203. Demande à formuler : publier, à côté du passage en solde déjà offert par le 3.107, une réconciliation en DÉPENSES entre crédits de paiement LOLF et dépenses SEC de l'État. En second recours : la Direction du budget, productrice des documents budgétaires.",
+            "url": "https://www.insee.fr/fr/information/2411108"
+          }
         },
         {
           "code": "APUC.odac",
