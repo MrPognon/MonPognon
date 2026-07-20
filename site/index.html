@@ -138,6 +138,9 @@
     #m-liste{display:flex; flex-direction:column; gap:8px; flex:1; min-height:0;
       overflow-y:auto; -webkit-overflow-scrolling:touch;
       padding:10px 10px calc(14px + env(safe-area-inset-bottom));}
+    /* conteneur flex : sans ceci les enfants se compriment (flex-shrink:1 par défaut)
+       et leur contenu est rogné au lieu de faire défiler la liste. */
+    #m-liste>*{flex:none;}
 
     .m-crumbs{display:flex; align-items:center; gap:5px; flex:none; overflow-x:auto; padding-bottom:2px;
       scrollbar-width:none;}
@@ -236,7 +239,18 @@
       border:1px solid var(--border); border-radius:8px; background:var(--card); color:var(--primary);}
     .m-brut .lg{font-size:.72rem; color:var(--mute); text-align:center;}
 
-    /* ── flux : accordéon par pôle (le Sankey vertical arrive en PR 2) ── */
+    /* ── flux : segmenté « par émetteur | par récepteur | schéma » ── */
+    .m-seg{display:flex; gap:3px; flex:none; padding:3px; background:var(--surface);
+      border:1px solid var(--border); border-radius:9px;}
+    .m-seg button{flex:1; min-height:44px; min-width:0; padding:6px 4px; cursor:pointer;
+      border:0; border-radius:6px; background:none; font:inherit; font-size:.78rem;
+      font-weight:600; color:var(--mute);}
+    .m-seg button[aria-pressed="true"]{background:var(--card); color:var(--ink);
+      box-shadow:0 1px 3px rgba(0,0,0,.14);}
+    .m-schema{background:var(--card); border:1px solid var(--border); border-radius:8px; padding:2px;}
+    .m-schema svg{display:block; width:100%; height:auto;}
+
+    /* ── flux : accordéon par pôle ── */
     .m-pole{background:var(--card); border:1px solid var(--border); border-radius:8px; overflow:hidden;}
     .m-pole>.h{display:flex; justify-content:space-between; align-items:center; gap:8px;
       padding:11px 12px; font-weight:700; font-size:.9rem;}
@@ -862,36 +876,143 @@ function carteBrut(){
   return d;
 }
 
+let fluxVue='emetteur';                       // 'emetteur' | 'recepteur' | 'schema'
+const ficheFlux=(P,f)=>showPanel({...f, description:`${P[f.de]} → ${P[f.vers]}. `+(f.description||'')
+  +(f.noeuds_lies&&f.noeuds_lies.length?` (Nœuds liés : ${f.noeuds_lies.join(', ')}.)`:'')});
+const NOTE_FLUX='Les rubans ne se somment pas · chaque flux porte son millésime · ambre pointillé = estimé.';
+
 function renderFluxMobile(){
   const F=window.FLUX;
   if(!F||!F.flux||!F.flux.length){
     elListe.innerHTML='<p class="m-vide">Aucun flux documenté pour l\'instant — contribuez dans <code>data/flux/</code>.</p>';
     return;
   }
-  const P=F.poles, parPole={};
-  F.flux.forEach(f=>{ (parPole[f.de]=parPole[f.de]||[]).push(f); });
+  const P=F.poles;
+  const seg=document.createElement('div'); seg.className='m-seg';
+  seg.setAttribute('role','group'); seg.setAttribute('aria-label','Représentation des flux');
+  [['emetteur','Par émetteur'],['recepteur','Par récepteur'],['schema','Schéma']].forEach(([v,lab])=>{
+    const b=document.createElement('button'); b.type='button'; b.textContent=lab;
+    b.setAttribute('aria-pressed',String(fluxVue===v));
+    b.onclick=()=>{ fluxVue=v; renderMobile(); elListe.scrollTop=0; };
+    seg.appendChild(b);
+  });
+  elListe.appendChild(seg);
+
+  if(fluxVue==='schema'){ schemaFluxMobile(P,F.flux); return; }
+
+  // regroupement par émetteur (« → qui reçoit ») ou par récepteur (« ← qui verse »)
+  const parEmetteur = fluxVue==='emetteur';
+  const cle   = f => parEmetteur ? f.de   : f.vers;
+  const autre = f => parEmetteur ? f.vers : f.de;
+  const fleche = parEmetteur ? '→ ' : '← ';
+  const groupes={};
+  F.flux.forEach(f=>{ (groupes[cle(f)]=groupes[cle(f)]||[]).push(f); });
   const total=fs=>fs.reduce((s,f)=>s+f.montant,0);
-  Object.entries(parPole).sort((a,b)=>total(b[1])-total(a[1])).forEach(([p,fs])=>{
+  Object.entries(groupes).sort((a,b)=>total(b[1])-total(a[1])).forEach(([p,fs])=>{
     const bloc=document.createElement('div'); bloc.className='m-pole';
     const h=document.createElement('div'); h.className='h';
     h.innerHTML='<span></span><span class="tot"></span>';
     h.children[0].textContent=P[p]||p;
-    h.children[1].textContent=fmtEUR(total(fs));
+    h.children[1].textContent=(parEmetteur?'sort ':'reçoit ')+fmtEUR(total(fs));
     bloc.appendChild(h);
     fs.slice().sort((a,b)=>b.montant-a.montant).forEach(f=>{
       const b=document.createElement('button');
       b.type='button'; b.className='m-flux'+(f.statut==='estime'?' estime':'');
       b.innerHTML='<span></span><span class="m"></span>';
-      b.children[0].textContent='→ '+(P[f.vers]||f.vers)+' · '+f.label;
+      b.children[0].textContent=fleche+(P[autre(f)]||autre(f))+' · '+f.label;
       b.children[1].textContent=fmtEUR(f.montant)+(f.annee?` (${f.annee})`:'');
-      b.onclick=()=>showPanel({...f, description:`${P[f.de]} → ${P[f.vers]}. `+(f.description||'')
-        +(f.noeuds_lies&&f.noeuds_lies.length?` (Nœuds liés : ${f.noeuds_lies.join(', ')}.)`:'')});
+      b.onclick=()=>ficheFlux(P,f);
       bloc.appendChild(b);
     });
     elListe.appendChild(bloc);
   });
+  const n=document.createElement('p'); n.className='m-note'; n.textContent=NOTE_FLUX;
+  elListe.appendChild(n);
+}
+
+// Sankey VERTICAL : on permute x et y du path cubique de renderFlux. C'est ce qui tue
+// la cause du bug d'origine — le Sankey horizontal réservait 190 px de marge d'étiquette
+// de CHAQUE côté, donc sur 375 px la largeur des rubans tombait à zéro. À la verticale,
+// toute la largeur de l'écran sert à l'épaisseur des rubans.
+function schemaFluxMobile(P,fluxSrc){
+  const hote=document.createElement('div'); hote.className='m-schema';
+  elListe.appendChild(hote);
+  const W=Math.max(280,hote.clientWidth||300);
+  const flux=fluxSrc.slice().sort((a,b)=>b.montant-a.montant);   // gros rubans dessous
+  const totalTous=flux.reduce((s,f)=>s+f.montant,0);
+  const sortants=p=>flux.filter(f=>f.de===p).reduce((s,f)=>s+f.montant,0);
+  const entrants=p=>flux.filter(f=>f.vers===p).reduce((s,f)=>s+f.montant,0);
+  const emetteurs=[...new Set(flux.map(f=>f.de))].sort((a,b)=>sortants(b)-sortants(a));
+  const recepteurs=[...new Set(flux.map(f=>f.vers))].sort((a,b)=>entrants(b)-entrants(a));
+  const PADX=6, TOP=54, BOT=148, COLH=12, GAP=6;
+  const nMax=Math.max(emetteurs.length,recepteurs.length);
+  const echelle=(W-2*PADX-GAP*Math.max(nMax-1,0))/totalTous;
+  const H=TOP+BOT+300, yH=TOP+COLH, yB=H-BOT, mid=(yH+yB)/2;
+
+  const posH={},posB={};
+  let x=PADX;
+  for(const p of emetteurs){ const w=sortants(p)*echelle; posH[p]={x0:x,x,w}; x+=w+GAP; }
+  x=PADX;
+  for(const p of recepteurs){ const w=entrants(p)*echelle; posB[p]={x0:x,x,w}; x+=w+GAP; }
+
+  const svg=d3.select(hote).append('svg')
+    .attr('viewBox',`0 0 ${W} ${H}`).attr('width','100%')
+    .attr('role','list').attr('aria-label','Schéma des flux entre administrations');
+
+  for(const f of flux){
+    const w=f.montant*echelle, g=posH[f.de], d=posB[f.vers];
+    const x1=g.x, x2=d.x; g.x+=w; d.x+=w;
+    const est=f.statut==='estime';
+    svg.append('path')
+      .attr('d',`M ${x1},${yH} C ${x1},${mid} ${x2},${mid} ${x2},${yB}
+                 L ${x2+w},${yB} C ${x2+w},${mid} ${x1+w},${mid} ${x1+w},${yH} Z`)
+      .attr('fill',est?'var(--est)':'var(--primary)').attr('fill-opacity',est?0.30:0.22)
+      .attr('stroke',est?'var(--est)':'var(--primary)').attr('stroke-opacity',0.45)
+      .attr('stroke-dasharray',est?'6 4':null)
+      .attr('tabindex',0).attr('role','listitem').style('cursor','pointer')
+      .attr('aria-label',`${f.label} : ${fmtEUR(f.montant)} (${P[f.de]} vers ${P[f.vers]})`)
+      .on('click keydown',e=>{ if(e.type==='keydown'&&e.key!=='Enter') return; ficheFlux(P,f); });
+  }
+
+  const rect=(o,y)=>svg.append('rect').attr('x',o.x0).attr('y',y)
+    .attr('width',Math.max(o.w,2)).attr('height',COLH)
+    .attr('rx',3).attr('fill','var(--ink)').attr('fill-opacity',0.72);
+
+  // Émetteurs : étiquette centrée, mais ramenée dans le cadre par MESURE du texte
+  // (un pôle collé au bord droit débordait du viewBox).
+  for(const p of emetteurs){
+    const o=posH[p]; rect(o,TOP);
+    const cx=o.x0+Math.max(o.w,2)/2;
+    const t=svg.append('text').attr('y',TOP-20).attr('text-anchor','middle').attr('font-size',12)
+      .attr('font-weight',700).attr('fill','var(--ink)').text(P[p]||p);
+    const demi=t.node().getComputedTextLength()/2;
+    const tx=Math.min(Math.max(cx,demi+2),W-demi-2);
+    t.attr('x',tx);
+    svg.append('text').attr('x',tx).attr('y',TOP-7).attr('text-anchor','middle')
+      .attr('font-size',10.5).attr('fill','var(--mute)').text(fmtEUR(sortants(p)));
+  }
+
+  // Récepteurs : étiquettes inclinées à pas RÉGULIER + trait de rappel vers la barre.
+  // Centrer sur la barre les faisait se chevaucher dès que plusieurs pôles sont étroits
+  // (« International » ≈ 8 px de large) ; l'espacement régulier garantit la lisibilité.
+  const pas=(W-2*PADX)/recepteurs.length;
+  recepteurs.forEach((p,i)=>{
+    const o=posB[p]; rect(o,yB);
+    const cx=o.x0+Math.max(o.w,2)/2;
+    const ax=PADX+pas*(i+0.92);
+    svg.append('path')
+      .attr('d',`M ${cx},${yB+COLH} L ${cx},${yB+COLH+6} L ${ax},${yB+COLH+13}`)
+      .attr('fill','none').attr('stroke','var(--mute)')
+      .attr('stroke-width',0.8).attr('stroke-opacity',0.5);
+    const g=svg.append('g').attr('transform',`translate(${ax},${yB+COLH+17}) rotate(-45)`);
+    g.append('text').attr('text-anchor','end').attr('font-size',11.5).attr('font-weight',700)
+      .attr('fill','var(--ink)').text(P[p]||p);
+    g.append('text').attr('text-anchor','end').attr('y',12).attr('font-size',10)
+      .attr('fill','var(--mute)').text(fmtEUR(entrants(p)));
+  });
+
   const n=document.createElement('p'); n.className='m-note';
-  n.textContent='Les rubans ne se somment pas · chaque flux porte son millésime · ambre pointillé = estimé.';
+  n.textContent='Émetteurs en haut, récepteurs en bas · '+NOTE_FLUX;
   elListe.appendChild(n);
 }
 
