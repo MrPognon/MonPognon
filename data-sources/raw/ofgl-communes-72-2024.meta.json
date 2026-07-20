@@ -1,0 +1,8 @@
+{
+ "dataset": "ofgl-base-communes",
+ "filtre": "dep_code=\"72\" and year(exer)=2024 and type_de_budget=\"Budget principal\"",
+ "consulte_le": "2026-07-20",
+ "maj_dataset": "2026-07-15",
+ "lignes": 17248,
+ "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/"
+}

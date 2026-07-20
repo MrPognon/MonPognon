@@ -1,0 +1,402 @@
+{
+ "id": "commune.71534",
+ "label": "Le Tartre (Saône-et-Loire, 71534)",
+ "montant": null,
+ "annee": 2024,
+ "statut": "confirme",
+ "bloc_univers": "APUL.communes",
+ "volet": "mixte",
+ "niveaux": [
+  "P2",
+  "P2",
+  "P2",
+  null,
+  null,
+  null
+ ],
+ "description": "Fiche communale (ADR-0004) — Le Tartre, code INSEE 71534, Saône-et-Loire  115 habitants (population DGF 2024), membre de « Communauté de communes Bresse Revermont 71 ». Comptes 2024 exécutés, budget principal, nomenclature M57A, hors budgets annexes. Le montant racine est volontairement null : les dépenses (113 868,77 €) et les recettes (219 708,54 €) ne s'additionnent pas.",
+ "source": {
+  "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024",
+  "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+  "producteur": "OFGL / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-20",
+  "maj": "2026-07-15"
+ },
+ "enfants": [
+  {
+   "id": "commune.71534.depenses",
+   "label": "Dépenses 2024 (budget principal)",
+   "montant": 113868.77,
+   "annee": 2024,
+   "statut": "confirme",
+   "source": {
+    "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Dépenses totales »",
+    "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+    "producteur": "OFGL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-20",
+    "maj": "2026-07-15"
+   },
+   "enfants": [
+    {
+     "id": "commune.71534.depenses.fonctionnement",
+     "label": "Dépenses de fonctionnement",
+     "montant": 80798.87,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Dépenses de fonctionnement »",
+      "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+      "producteur": "OFGL / DGFiP",
+      "licence": "Licence Ouverte 2.0",
+      "consulte_le": "2026-07-20",
+      "maj": "2026-07-15"
+     },
+     "enfants": [
+      {
+       "id": "commune.71534.depenses.fonctionnement.personnel",
+       "label": "Frais de personnel",
+       "montant": 17574.01,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Frais de personnel »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-15"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.71534.depenses.fonctionnement.achats",
+       "label": "Achats et charges externes",
+       "montant": 39934.39,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Achats et charges externes »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-15"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.71534.depenses.fonctionnement.intervention",
+       "label": "Dépenses d'intervention",
+       "montant": 8375.5,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Dépenses d'intervention »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-15"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.71534.depenses.fonctionnement.autres",
+       "label": "Autres dépenses de fonctionnement",
+       "montant": 14872.31,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Autres dépenses de fonctionnement »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-15"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.71534.depenses.fonctionnement.charges-financieres",
+       "label": "Charges financières",
+       "montant": 42.66,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Charges financières »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-15"
+       },
+       "enfants": []
+      }
+     ]
+    },
+    {
+     "id": "commune.71534.depenses.investissement",
+     "label": "Dépenses d'investissement",
+     "montant": 33069.9,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Dépenses d'investissement »",
+      "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+      "producteur": "OFGL / DGFiP",
+      "licence": "Licence Ouverte 2.0",
+      "consulte_le": "2026-07-20",
+      "maj": "2026-07-15"
+     },
+     "enfants": [
+      {
+       "id": "commune.71534.depenses.investissement.equipement",
+       "label": "Dépenses d'équipement",
+       "montant": 30397.69,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Dépenses d'équipement »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-15"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.71534.depenses.investissement.remboursement-emprunts",
+       "label": "Remboursements d'emprunts (hors gestion active de la dette)",
+       "montant": 2672.21,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Remboursements d'emprunts hors GAD »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-15"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.71534.depenses.investissement.autres",
+       "label": "Autres dépenses d'investissement",
+       "montant": 0.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Autres dépenses d'investissement »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-15"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.71534.depenses.investissement.subventions-versees",
+       "label": "Subventions d'équipement versées",
+       "montant": 0.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Subventions d'équipement versées »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-15"
+       },
+       "enfants": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "commune.71534.recettes",
+   "label": "Recettes 2024 (budget principal)",
+   "montant": 219708.54,
+   "annee": 2024,
+   "statut": "confirme",
+   "source": {
+    "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Recettes totales »",
+    "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+    "producteur": "OFGL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-20",
+    "maj": "2026-07-15"
+   },
+   "enfants": [
+    {
+     "id": "commune.71534.recettes.fonctionnement",
+     "label": "Recettes de fonctionnement",
+     "montant": 103559.24,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Recettes de fonctionnement »",
+      "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+      "producteur": "OFGL / DGFiP",
+      "licence": "Licence Ouverte 2.0",
+      "consulte_le": "2026-07-20",
+      "maj": "2026-07-15"
+     },
+     "enfants": [
+      {
+       "id": "commune.71534.recettes.fonctionnement.impots",
+       "label": "Impôts et taxes",
+       "montant": 53214.33,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Impôts et taxes »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-15"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.71534.recettes.fonctionnement.concours-etat",
+       "label": "Concours de l'État (dont DGF)",
+       "montant": 40921.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Concours de l'Etat »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-15"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.71534.recettes.fonctionnement.ventes",
+       "label": "Ventes de biens et services",
+       "montant": 2338.69,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Ventes de biens et services »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-15"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.71534.recettes.fonctionnement.subventions-participations",
+       "label": "Subventions reçues et participations",
+       "montant": 160.99,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Subventions reçues et participations »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-15"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.71534.recettes.fonctionnement.autres",
+       "label": "Autres recettes de fonctionnement",
+       "montant": 6924.23,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Autres recettes de fonctionnement »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-15"
+       },
+       "enfants": []
+      }
+     ]
+    },
+    {
+     "id": "commune.71534.recettes.investissement",
+     "label": "Recettes d'investissement",
+     "montant": 116149.3,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Recettes d'investissement »",
+      "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+      "producteur": "OFGL / DGFiP",
+      "licence": "Licence Ouverte 2.0",
+      "consulte_le": "2026-07-20",
+      "maj": "2026-07-15"
+     },
+     "enfants": [
+      {
+       "id": "commune.71534.recettes.investissement.emprunts",
+       "label": "Emprunts (hors gestion active de la dette)",
+       "montant": 110000.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Emprunts hors GAD »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-15"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.71534.recettes.investissement.fctva",
+       "label": "FCTVA (remboursement de TVA sur investissements)",
+       "montant": 6149.3,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « FCTVA »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-15"
+       },
+       "enfants": []
+      },
+      {
+       "id": "commune.71534.recettes.investissement.autres",
+       "label": "Autres recettes d'investissement",
+       "montant": 0.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024, agrégat « Autres recettes d'investissement »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-15"
+       },
+       "enfants": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
