@@ -1,6 +1,6 @@
 # ADR-0006 — Mesurer la complétion contre l'univers réel : l'indice C·P
 
-- **Statut : Proposé** (2026-07-20, issue #50)
+- **Statut : Accepté** (2026-07-20, décision du mainteneur — fusion de la PR #51)
 - **Date : 2026-07-20**
 
 ## Contexte
