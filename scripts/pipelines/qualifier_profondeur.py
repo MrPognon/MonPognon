@@ -86,6 +86,8 @@ FICHES_ECHELONS = {
     "departements": "APUL.departements",
     "regions": "APUL.regions",
     "syndicats": "APUL.syndicats",
+    "ccas": "APUL.odal",
+    "sdis": "APUL.odal",
 }
 
 NIVEAUX_VALIDES = {"P0", "P1", "P2", "P3", "P4", "P5", "P6", None}

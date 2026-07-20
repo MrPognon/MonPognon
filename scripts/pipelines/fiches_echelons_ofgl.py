@@ -60,6 +60,20 @@ ECHELONS = {
         "libelle_jeu": "Comptes consolidés des groupements à fiscalité propre",
         "quoi": "Fiche d'intercommunalité",
     },
+    "ccas": {
+        # Centres communaux et intercommunaux d'action sociale — ODAL (S13132).
+        "jeu": "ofgl-base-ccas-cias", "cle": "siren", "nom_champ": "lbudg",
+        "sans_population": True,
+        "prefixe": "ccas", "dossier": "ccas", "bloc": "APUL.odal",
+        "libelle_jeu": "Comptes des CCAS et CIAS", "quoi": "Fiche de centre d'action sociale",
+    },
+    "sdis": {
+        # Services départementaux d'incendie et de secours — ODAL (S13132).
+        "jeu": "ofgl-base-sdis", "cle": "siren", "nom_champ": "lbudg",
+        "sans_population": True,
+        "prefixe": "sdis", "dossier": "sdis", "bloc": "APUL.odal",
+        "libelle_jeu": "Comptes des SDIS", "quoi": "Fiche de service d'incendie et de secours",
+    },
     "syndicats": {
         "jeu": "ofgl-base-syndicats-consolidee", "cle": "siren", "nom_champ": "synd_name",
         "sans_population": True,   # ce jeu ne porte pas de champ ptot
@@ -135,8 +149,15 @@ def fiche(cle_val, rows, cfg, meta, rapport):
         tot, fct, inv = ag[tot_a], ag[fct_a], ag[inv_a]
         base = f"{racine}.{cle}"
         if not centime(fct + inv, tot):
-            rapport.setdefault("non_reconcilie", []).append(f"{cle_val} {cle}")
-            return noeud(base, f"{label_volet} {EXER} (comptes consolidés)", tot, tot_a)
+            # Caractéristique connue de certains jeux (CCAS notamment) : la somme des
+            # sections ne reconstitue pas le total publié. On NE DÉCOMPOSE PAS — la
+            # fiche reste au niveau sûr, et le nœud dit pourquoi. Ce n'est pas un
+            # échec de run : c'est ce que la source permet d'affirmer.
+            rapport.setdefault("_non_decomposes", set()).add(f"{cle_val}.{cle}")
+            return noeud(base, f"{label_volet} {EXER} (comptes consolidés)", tot, tot_a, None,
+                         "Total seul : la somme des sections fonctionnement et investissement "
+                         "publiée par la source ne reconstitue pas ce total. Aucune ventilation "
+                         "n'est affichée plutôt qu'une ventilation fausse.")
         kids_fct = sous_postes(f"{base}.fonctionnement", fct, fct_postes)
         kids_inv = sous_postes(f"{base}.investissement", inv, inv_postes)
         part = rapport.get("_partiels", set())
@@ -212,6 +233,9 @@ def main():
     partiels = len(rapport.pop("_partiels", set()))
     if partiels:
         print(f"ℹ ventilations partielles : {partiels}")
+    non_dec = len(rapport.pop("_non_decomposes", set()))
+    if non_dec:
+        print(f"ℹ volets non décomposés (sections ≠ total à la source) : {non_dec}")
     for cle, val in rapport.items():
         print(f"⚠ {cle} : {len(val)}")
         for v in val[:8]:
