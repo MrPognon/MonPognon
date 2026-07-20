@@ -102,7 +102,7 @@ def indice_cp(arbres, denom):
     bloc_univers ; `denom` : le dénominateur du volet dépenses."""
     # 1) proportions par niveau de destination, à l'intérieur de chaque bloc
     volet = denom.get("volet", "depenses")
-    euros_bloc = {}
+    euros_bloc, reel = {}, {}
     for node in arbres:
         bloc = node.get("bloc_univers")
         if not bloc:
@@ -122,6 +122,11 @@ def indice_cp(arbres, denom):
             decalage = 1
         if cible is None:
             continue
+        # Somme RÉELLEMENT présente dans le corpus, exprimée dans le référentiel de
+        # comptage du bloc. C'est elle qui alimente le numérateur de C : sans cela,
+        # l'indice serait piloté par un nombre saisi à la main dans le dénominateur
+        # et resterait identique si tout le corpus disparaissait.
+        reel[bloc] = reel.get(bloc, 0.0) + (cible.get("montant") or 0.0)
         d = euros_bloc.setdefault(bloc, {})
         for prof, euros in couverture(cible)["profondeurs"].items():
             n = niveau_effectif(niveaux, int(prof) + decalage)
@@ -179,8 +184,25 @@ def indice_cp(arbres, denom):
     blocs = []
     for seg in denom["segments"]:
         for ss in seg["sous_segments"]:
-            ref, couvert = ss.get("referentiel_comptage"), ss.get("couvert_referentiel_eur")
-            c = (couvert / ref["total_eur"]) if (ref and couvert) else 0.0
+            ref, declare = ss.get("referentiel_comptage"), ss.get("couvert_referentiel_eur")
+            present = reel.get(ss["code"])
+            # Règle du référentiel homogène (ADR-0006) : sans référentiel, la couverture
+            # est nulle même si l'arbre documente le bloc — cas du raccord Sécu manquant.
+            if ref is None or present is None:
+                c = 0.0
+            else:
+                c = present / ref["total_eur"]
+                # La valeur déclarée n'est plus la source du calcul, mais elle reste une
+                # ASSERTION VÉRIFIÉE : si elle diverge du corpus, quelqu'un a ajouté ou
+                # retiré des données sans mettre le dénominateur à jour.
+                if declare is None:
+                    errors.append(f"dénominateur — {ss['code']} : référentiel déclaré mais "
+                                  f"'couvert_referentiel_eur' absent (corpus présent : {present:.2f})")
+                elif abs(present - declare) > max(1.0, abs(declare) * 0.005):
+                    errors.append(f"dénominateur — {ss['code']} : couverture déclarée {declare:.2f} € "
+                                  f"mais corpus réellement présent {present:.2f} € "
+                                  f"(écart {present - declare:+.2f} €). Mettre à jour "
+                                  f"'couvert_referentiel_eur' à {present:.2f}.")
             comptes = c * ss["poids_eur"]
             numerateur += comptes
             if ss.get("raccord_publie"):
@@ -199,6 +221,7 @@ def indice_cp(arbres, denom):
             blocs.append({
                 "code": ss["code"], "label": ss["label"],
                 "poids_eur": ss["poids_eur"], "coefficient": round(c, 6),
+                "corpus_present_eur": round(present, 2) if present is not None else None,
                 "compte_eur": round(comptes, 2),
                 "referentiel": ref["nom"] if ref else None,
                 "raccord_publie": ss.get("raccord_publie", False),
@@ -469,6 +492,14 @@ def main():
                 apercu["enfants"] = f"[{len(n.get('enfants', []))} enfant(s)]"
                 print(json.dumps(apercu, ensure_ascii=False, indent=1)); return
         print(f"id introuvable : {cible}", file=sys.stderr); sys.exit(1)
+    # Indice C·P (ADR-0006) : calculé AVANT le verdict, et donc AUSSI en --check.
+    # Il était auparavant produit dans la seule branche de génération : la CI ne
+    # l'exerçait jamais, et un dénominateur périmé passait inaperçu.
+    cov = {k: couverture(n) for k, n in data.items()}
+    cov_doc = {"methode": METHODE_COUVERTURE, "arbres": cov}
+    arbres = list(data.values()) + list(fiches.values())
+    cov_doc["cp"] = {v: indice_cp(arbres, d) for v, d in sorted(denominateurs.items())}
+
     for w in warnings: print("AVERTISSEMENT:", w)
     if errors:
         for e in errors: print("ERREUR:", e, file=sys.stderr)
@@ -495,13 +526,7 @@ def main():
                 fh.write("// Généré par scripts/build.py — NE PAS ÉDITER À LA MAIN (éditez data/)\n")
                 idx = [{"i": insee, "n": n["label"].split(" (")[0]} for insee, n in sorted(fiches.items())]
                 fh.write("window.COMMUNES_IDX = " + json.dumps(idx, ensure_ascii=False) + ";\n")
-        # Baromètre de couverture (issue #15) — par arbre, jamais sommé entre arbres.
-        cov = {k: couverture(n) for k, n in data.items()}
-        cov_doc = {"methode": METHODE_COUVERTURE, "arbres": cov}
-        # Indice C·P (ADR-0006) : mesuré contre l'univers réel des APU, pas
-        # contre ce qui est déjà modélisé. C'est lui qui va à côté du titre.
-        arbres = list(data.values()) + list(fiches.values())
-        cov_doc["cp"] = {v: indice_cp(arbres, d) for v, d in sorted(denominateurs.items())}
+        # cov_doc est calculé plus haut (avant le verdict) : la CI l'exerce aussi.
         with open(os.path.join(ROOT, "site", "couverture.json"), "w", encoding="utf-8") as fh:
             json.dump(cov_doc, fh, ensure_ascii=False, indent=1)
         with open(os.path.join(ROOT, "site", "couverture.js"), "w", encoding="utf-8") as fh:
