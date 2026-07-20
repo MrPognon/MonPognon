@@ -69,6 +69,11 @@ def arbres(ref=None):
             for f in racine["flux"]:                  # chaque flux est vérifiable comme un nœud
                 out[f["id"]] = f                      # (source complète déclarée, montant, statut)
             continue
+        if "segments" in racine and "total_brut_eur" in racine:
+            # Dénominateur C·P (ADR-0006) : ce ne sont pas des nœuds de l'arbre mais des
+            # agrégats de comptabilité nationale, diffusés en XLSX. Aucun resolver ne sait
+            # les re-vérifier automatiquement — ils sont relus à la main en revue de PR.
+            continue
 
         def walk(n, src=None):
             # héritage de source champ par champ (ADR-0005) — même résolution que build.py

@@ -81,6 +81,24 @@ def collecter_urls(data_dir):
         with open(f, encoding="utf-8") as fh:
             tree = json.load(fh)
 
+        # Dénominateurs C·P (ADR-0006) : pas un arbre de nœuds, mais leurs sources
+        # doivent passer les mêmes contrôles d'hygiène et de tiers de confiance.
+        if isinstance(tree, dict) and "segments" in tree and "total_brut_eur" in tree:
+            def walk_denom(o, etiquette):
+                if isinstance(o, dict):
+                    etiquette = o.get("code") or o.get("nom") or etiquette
+                    u = o.get("url")
+                    if isinstance(u, str) and u.startswith("http"):
+                        urls.setdefault(u, []).append(etiquette)
+                    for v in o.values():
+                        walk_denom(v, etiquette)
+                elif isinstance(o, list):
+                    for v in o:
+                        walk_denom(v, etiquette)
+
+            walk_denom(tree, os.path.basename(f))
+            continue
+
         def walk(n):
             for champ in ("source", "inconnu", "a_completer"):
                 u = (n.get(champ) or {}).get("url")
