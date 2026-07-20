@@ -113,6 +113,144 @@
   .nbox.collapsed::after{content:'▸'; position:absolute; right:6px; top:50%; transform:translateY(-50%); color:var(--mute); font-size:13px; font-weight:700;}
   .link{fill:none; stroke:#bbb; stroke-width:1.5px;}
   .link.unknown{stroke:var(--unk); stroke-dasharray:5 4;}
+
+  /* ══════════ Coquille mobile — direction A+ « Explorateur » (issue #47) ══════════
+     Le desktop (arbre D3, treemap, panneau latéral) reste INTACT : il n'est servi
+     qu'au-dessus de 768 px. Sous 768 px on sert une seconde vue — forage en liste
+     (un seul niveau dans le DOM), bottom sheet, barre d'onglets basse.
+     Ces éléments sont inertes en desktop (display:none par défaut ci-dessous). */
+  #m-appbar,#m-liste,#m-tabs,#m-sheet,#m-scrim,#m-overlay{display:none;}
+
+  @media (max-width:768px){
+    /* on remise la mise en page desktop */
+    header,#bar,#couverture,#wrap{display:none !important;}
+    /* 100dvh (jamais 100vh : Safari mobile ment) + flexbox, zéro hauteur figée */
+    body{display:flex; flex-direction:column; height:100dvh; min-height:0; overflow:hidden; background:var(--surface);}
+
+    #m-appbar{display:flex; align-items:center; gap:6px; flex:none; min-height:52px;
+      padding:5px 8px; background:var(--card); border-bottom:1px solid var(--border);}
+    #m-titre{flex:1; min-width:0; font-weight:700; font-size:1rem;
+      overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+    .m-ib{width:44px; height:44px; flex:none; display:grid; place-items:center;
+      background:none; border:0; border-radius:8px; font-size:1.15rem; color:var(--primary); cursor:pointer;}
+    .m-ib:active{background:var(--surface);}
+
+    #m-liste{display:flex; flex-direction:column; gap:8px; flex:1; min-height:0;
+      overflow-y:auto; -webkit-overflow-scrolling:touch;
+      padding:10px 10px calc(14px + env(safe-area-inset-bottom));}
+
+    .m-crumbs{display:flex; align-items:center; gap:5px; flex:none; overflow-x:auto; padding-bottom:2px;
+      scrollbar-width:none;}
+    .m-crumbs::-webkit-scrollbar{display:none;}
+    .m-crumbs button{flex:none; white-space:nowrap; cursor:pointer; border:1px solid var(--border);
+      background:var(--card); color:var(--primary); font-size:.72rem; font-weight:600;
+      padding:6px 9px; border-radius:6px; min-height:32px;
+      max-width:58vw; overflow:hidden; text-overflow:ellipsis;}
+    .m-crumbs button.ici{color:var(--ink); background:var(--surface); font-weight:700;}
+
+    .m-resume{background:var(--card); border:1px solid var(--border); border-left:4px solid var(--ok);
+      border-radius:0 8px 8px 0; padding:11px 13px;}
+    .m-resume.estime{border-left-color:var(--est);}
+    .m-resume.inconnu{border-left-color:var(--unk); border-left-style:dashed;}
+    .m-resume .t{font-weight:700; font-size:.9rem; line-height:1.3;}
+    .m-resume .a{font-size:1.3rem; font-weight:700; margin:4px 0 2px; font-variant-numeric:tabular-nums;}
+    .m-resume button{border:0; background:none; color:var(--primary); font-weight:700;
+      font-size:.78rem; padding:6px 0 2px; cursor:pointer; min-height:32px;}
+
+    /* une row = deux cibles distinctes : le corps (forer) et ⓘ (source, sans forer) */
+    .m-row{display:flex; align-items:stretch; min-height:64px; overflow:hidden;
+      background:var(--card); border:1px solid var(--border); border-left:4px solid #888; border-radius:8px;}
+    .m-row.confirme{border-left-color:var(--ok);}
+    .m-row.estime{border-left-color:var(--est); background:#fff9ef;}
+    .m-row.inconnu{border-left-color:var(--unk); border-left-style:dashed; background:#fff5f5;}
+    .m-main{flex:1; min-width:0; display:flex; align-items:center; gap:9px; text-align:left;
+      background:none; border:0; padding:10px; font:inherit; color:inherit; cursor:pointer;}
+    .m-main .bd{flex:1; min-width:0;}
+    .m-main .lab{font-size:.94rem; font-weight:600; line-height:1.25;
+      display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;}
+    .m-main .sub{display:flex; align-items:center; gap:8px; margin-top:5px;}
+    .m-main .amt{font-size:.82rem; font-weight:700; white-space:nowrap; font-variant-numeric:tabular-nums;}
+    .m-row.inconnu .amt{color:var(--unk);}
+    .m-main .pw{flex:1; max-width:96px; height:4px; border-radius:3px; background:#e6e6e6; overflow:hidden;}
+    .m-main .pw i{display:block; height:100%; background:var(--ok);}
+    .m-row.estime .pw i{background:var(--est);}
+    .m-chev{flex:none; width:10px; text-align:center; color:var(--mute); font-size:1.1rem;}
+    .m-info{width:48px; flex:none; border:0; border-left:1px solid var(--border);
+      background:transparent; font-size:.95rem; color:var(--mute); cursor:pointer;}
+    .m-info:active{background:var(--surface);}
+
+    #m-tabs{display:flex; flex:none; background:var(--card); border-top:1px solid var(--border);
+      padding-bottom:env(safe-area-inset-bottom);}
+    #m-tabs button{flex:1; min-height:56px; display:flex; flex-direction:column; align-items:center; gap:2px;
+      padding:8px 2px 6px; border:0; border-top:3px solid transparent; background:none;
+      font-size:.66rem; font-weight:600; color:var(--mute); cursor:pointer;}
+    #m-tabs button .ic{font-size:1.2rem; line-height:1;}
+    #m-tabs button[aria-selected="true"]{color:var(--primary); border-top-color:var(--primary);}
+
+    /* ── bottom sheet mono-détente : fermeture redondante (swipe-bas, scrim, Esc, bouton) ── */
+    #m-scrim.on{display:block; position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:60;}
+    #m-sheet.on{display:flex; flex-direction:column; position:fixed; left:0; right:0; bottom:0; z-index:61;
+      max-height:88dvh; background:var(--card); border-radius:16px 16px 0 0;
+      box-shadow:0 -6px 26px rgba(0,0,0,.28);}
+    #m-handle{width:36px; height:5px; flex:none; border-radius:3px; background:var(--border); margin:7px auto 2px;}
+    #m-sheet-close{position:absolute; top:4px; right:4px; width:44px; height:44px;
+      border:0; background:none; font-size:1.05rem; color:var(--mute); cursor:pointer;}
+    #m-sheet-body{overflow-y:auto; -webkit-overflow-scrolling:touch; font-size:.9rem; line-height:1.55;
+      padding:8px 16px calc(20px + env(safe-area-inset-bottom));}
+    #m-sheet-body h2{font-size:1.05rem; margin-bottom:6px; padding-right:44px;}
+    #m-sheet-body .amount{font-size:1.5rem; font-weight:700; margin:4px 0 2px; font-variant-numeric:tabular-nums;}
+    #m-sheet-body .annee{font-size:.75rem; color:var(--mute); margin-bottom:8px;}
+    #m-sheet-body .tag{display:inline-block; border-radius:4px; padding:3px 10px; font-size:.7rem;
+      font-weight:700; text-transform:uppercase; margin-bottom:10px;}
+    #m-sheet-body .desc{color:#333; margin-bottom:12px;}
+    #m-sheet-body a{word-break:break-word;}
+    #m-sheet-body .src{background:var(--surface); border-left:4px solid var(--primary);
+      padding:10px 12px; margin-top:12px; font-size:.8rem;}
+    #m-sheet-body .box{padding:12px; margin-top:12px; font-size:.82rem;}
+    #m-sheet-body .box.unk{background:var(--unk-bg); border-left:4px solid var(--unk);}
+    #m-sheet-body .box.todo{background:var(--est-bg); border-left:4px solid var(--est);}
+
+    /* ── recherche plein écran : accueille le VRAI champ #recherche (toute la logique est réutilisée) ── */
+    #m-overlay.on{display:flex; flex-direction:column; position:fixed; inset:0; z-index:70; background:var(--card);}
+    #m-overlay-bar{display:flex; align-items:center; gap:6px; flex:none; min-height:56px;
+      padding:6px 8px; border-bottom:1px solid var(--border);}
+    #m-rech-hote{flex:1; min-width:0;}
+    #m-overlay #recherche-wrap{display:block;}
+    #m-overlay .loupe{display:none;}                       /* la loupe vit déjà dans l'app bar */
+    #m-overlay #recherche{width:100% !important; font-size:16px !important; padding:11px 12px;}
+    /* les résultats sortent du flux : sinon ils gonflent la barre et poussent le bouton retour */
+    #m-overlay #resultats{position:fixed; top:57px; left:0; right:0; bottom:0;
+      width:auto; max-width:none; max-height:none; margin:0; padding:4px 6px;
+      border:0; border-radius:0; box-shadow:none; overflow-y:auto; background:var(--card);}
+    #m-overlay .res-item{min-height:56px; padding:11px 10px; font-size:.86rem;}
+    #m-overlay .res-lab{white-space:normal;}
+
+    /* ── fiche de paie : la carte « brut » ── */
+    .m-brut{display:flex; flex-direction:column; gap:8px; background:var(--card);
+      border:1px solid var(--border); border-radius:10px; padding:12px;}
+    .m-brut .f{display:flex; align-items:center; gap:10px;}
+    .m-brut input{flex:1; min-width:0; font-size:16px; font-weight:700; text-align:center;
+      padding:11px 8px; border:1px solid var(--border); border-radius:8px;
+      font-variant-numeric:tabular-nums; color:var(--ink); background:var(--card);}
+    .m-brut .stp{width:44px; height:44px; flex:none; cursor:pointer; font-size:1.2rem;
+      border:1px solid var(--border); border-radius:8px; background:var(--card); color:var(--primary);}
+    .m-brut .lg{font-size:.72rem; color:var(--mute); text-align:center;}
+
+    /* ── flux : accordéon par pôle (le Sankey vertical arrive en PR 2) ── */
+    .m-pole{background:var(--card); border:1px solid var(--border); border-radius:8px; overflow:hidden;}
+    .m-pole>.h{display:flex; justify-content:space-between; align-items:center; gap:8px;
+      padding:11px 12px; font-weight:700; font-size:.9rem;}
+    .m-pole>.h .tot{color:var(--mute); font-variant-numeric:tabular-nums; white-space:nowrap;}
+    .m-flux{display:flex; justify-content:space-between; align-items:center; gap:8px; width:100%;
+      min-height:52px; text-align:left; cursor:pointer; padding:10px 12px; font:inherit; font-size:.8rem;
+      color:var(--mute); background:var(--card); border:0; border-top:1px solid var(--border);
+      border-left:3px solid var(--primary);}
+    .m-flux.estime{border-left-color:var(--est); border-left-style:dashed;}
+    .m-flux .m{font-weight:700; color:var(--ink); white-space:nowrap; font-variant-numeric:tabular-nums;}
+
+    .m-note{font-size:.72rem; color:var(--mute); text-align:center; padding:6px 8px;}
+    .m-vide{padding:26px 16px; text-align:center; color:var(--mute); font-size:.9rem;}
+  }
 </style>
 </head>
 <body>
@@ -126,7 +264,7 @@
   </div>
 </header>
 <div id="bar">
-  <span id="recherche-wrap">🔎 <input id="recherche" type="search" placeholder="Rechercher : programme, impôt, commune… ( / )" autocomplete="off"
+  <span id="recherche-wrap"><span class="loupe">🔎</span> <input id="recherche" type="search" placeholder="Rechercher : programme, impôt, commune… ( / )" autocomplete="off"
       role="combobox" aria-expanded="false" aria-controls="resultats" aria-label="Rechercher dans toutes les données">
     <div id="resultats" role="listbox"></div></span>
   <span id="ctl-vue" role="group" aria-label="Type de visualisation">
@@ -153,6 +291,29 @@
     <p class="desc">🧩 Les nœuds jaunes/orange sont la <b>todo-list publique</b> du projet : chacun peut les compléter par pull request, sourcée et datée.</p>
   </aside>
 </div>
+
+<!-- ══ Coquille mobile (issue #47) — inerte au-dessus de 768 px ══ -->
+<div id="m-appbar">
+  <button class="m-ib" id="m-retour" style="display:none" aria-label="Revenir au niveau précédent">‹</button>
+  <span id="m-titre"></span>
+  <button class="m-ib" id="m-rech-ouvrir" aria-label="Rechercher">🔎</button>
+</div>
+<div id="m-liste"></div>
+<nav id="m-tabs" role="tablist" aria-label="Choisir une lentille"></nav>
+
+<div id="m-overlay">
+  <div id="m-overlay-bar">
+    <button class="m-ib" id="m-rech-fermer" aria-label="Fermer la recherche">‹</button>
+    <span id="m-rech-hote"></span>
+  </div>
+</div>
+
+<div id="m-scrim"></div>
+<aside id="m-sheet" role="dialog" aria-modal="true" aria-label="Détail d'un poste">
+  <div id="m-handle" aria-hidden="true"></div>
+  <button id="m-sheet-close" aria-label="Fermer le détail">✕</button>
+  <div id="m-sheet-body"></div>
+</aside>
 
 <script>
 const fmtEUR = v => v>=1e9 ? (v/1e9).toLocaleString('fr-FR',{maximumFractionDigits:2})+' Md€'
@@ -280,7 +441,7 @@ function atterrir(id){
   selId=n.data.id; A.update(A.root); showPanel(n.data); A.centrer(n);
 }
 const LAB={confirme:['Confirmé — source officielle','ok'],estime:['Estimé — à raffiner','est'],inconnu:['❓ Donnée manquante','unk']};
-function showPanel(d){
+function panneauHTML(d){
   const [lab,cls]=LAB[d.statut]||['',''];
   let h=`<h2>${d.label}</h2>`;
   if(d.montant!=null) h+=`<div class="amount">${fmtEUR(d.montant)}${mode==='paie'?' <span style="font-size:.8rem;color:var(--mute)">/ mois</span>':''}</div>`;
@@ -293,8 +454,16 @@ function showPanel(d){
   if(d.inconnu) h+=`<div class="box unk"><b>❓ Ce qui manque :</b> ${d.inconnu.quoi}<br><b>📮 Qui contacter :</b> ${d.inconnu.contact}${d.inconnu.url?`<br><a href="${d.inconnu.url}" target="_blank">→ Réclamer publiquement</a>`:''}</div>`;
   if(d.a_completer) h+=`<div class="box todo"><b>🧩 À compléter :</b> ${d.a_completer.note}${d.a_completer.url?`<br><a href="${d.a_completer.url}" target="_blank">→ Source pour contribuer</a>`:''}<br><a href="${REPO}/tree/main/data" target="_blank">→ Éditer sur GitHub (PR)</a></div>`;
   h+=`<div class="src" style="opacity:.55">id : <code>${d.id}</code></div>`;
-  document.getElementById('panel').innerHTML=h;
+  return h;
 }
+// Un seul rendu pour les deux vues : panneau latéral en desktop, bottom sheet en mobile.
+// Tout ce qui écrit dans le panneau (nœud, flux, fiche communale) passe par ici.
+function afficherPanneau(html){
+  document.getElementById('panel').innerHTML=html;
+  const sb=document.getElementById('m-sheet-body');
+  if(sb){ sb.innerHTML=html; if(estMobile()) ouvrirSheet(); }
+}
+function showPanel(d){ afficherPanneau(panneauHTML(d)); }
 // ---- Stats ----
 (function(){
   let c={confirme:0,estime:0,inconnu:0};
@@ -345,7 +514,7 @@ function showPanel(d){
   });
   const AGS=["Dépenses totales","Dépenses de fonctionnement","Dépenses d'investissement","Recettes totales","Recettes de fonctionnement","Recettes d'investissement"];
   window.__chargerFicheCommune=(insee)=>chargerFiche(insee);   // utilisé par la recherche globale (issue #18)
-  const panneau=h=>{document.getElementById('panel').innerHTML=h;};
+  const panneau=h=>afficherPanneau(h);   // → panneau desktop ou bottom sheet mobile
   async function chargerFiche(insee){
     panneau('<h2>🏘️ Chargement…</h2>');
     try{ // 1) la fiche versionnée au dépôt (fragment généré par build.py)
@@ -513,6 +682,7 @@ function renderTreemap(data){
   function fermer(){box.classList.remove('open'); inp.setAttribute('aria-expanded','false'); hits=[]; actif=-1;}
   function aller(e){
     fermer(); inp.value=e.label;
+    if(estMobile()&&window.__fermerRechercheMobile) window.__fermerRechercheMobile();
     if(e.commune){window.__chargerFicheCommune&&window.__chargerFicheCommune(e.commune); return;}
     if(e.m&&e.m!==mode){
       mode=e.m;
@@ -520,7 +690,8 @@ function renderTreemap(data){
     }
     if(vue!=='arbre'){vue='arbre'; document.querySelectorAll('.vue-btn').forEach(x=>{x.classList.toggle('active',x.dataset.vue==='arbre'); x.setAttribute('aria-pressed',x.dataset.vue==='arbre');});}
     refresh();
-    atterrir(e.id);
+    // l'atterrissage dépend de la vue : pile de forage en mobile, zoom D3 en desktop
+    if(estMobile()) atterrirMobile(e.id); else atterrir(e.id);
   }
   inp.addEventListener('input',()=>chercher(inp.value));
   inp.addEventListener('keydown',ev=>{
@@ -606,8 +777,252 @@ function renderFlux(){
     .attr('font-size',10.5).attr('fill','var(--mute)')
     .text('Chaque flux porte son propre millésime (affiché) — les rubans ne se somment pas entre eux. Ambre pointillé = estimé.');
 }
+// ══════════ Coquille mobile — forage en liste (issue #47, direction A+) ══════════
+// Principe : on ne rend JAMAIS plus d'un niveau à la fois dans le DOM. À 46 000 nœuds,
+// un niveau = quelques dizaines de rows : la perf devient triviale et la lecture linéaire.
+const MQ = window.matchMedia('(max-width:768px)');
+const estMobile = () => MQ.matches;
+const LENTILLES = [['depenses','💸','Dépenses'],['recettes','💰','Recettes'],['flux','🔀','Flux'],['paie','🧾','Paie']];
+const piles = {depenses:[], recettes:[], paie:[]};   // pile d'ids de forage, mémorisée PAR lentille
+const elListe = document.getElementById('m-liste');
+
+function racineCourante(){
+  return mode==='depenses' ? rootDepenses()
+       : mode==='recettes' ? rootRecettes()
+       : mode==='paie'     ? rootPaie(+document.getElementById('brut').value||3000)
+       : null;
+}
+// redescend la pile par ids (les objets sont recréés à chaque rendu) ; tronque si un id a disparu
+function noeudDeLaPile(racine){
+  const pile=piles[mode]||[]; let n=racine;
+  for(let i=0;i<pile.length;i++){
+    const k=(n.enfants||[]).find(c=>c.id===pile[i]);
+    if(!k){ pile.length=i; break; }
+    n=k;
+  }
+  return n;
+}
+const aDesEnfants = n => (n.enfants||[]).length>0;
+
+function ligneMobile(n,maxM){
+  const d=document.createElement('div');
+  d.className='m-row '+(n.statut||'');
+  const forable=aDesEnfants(n);
+  // barre de proportion relative au plus gros frère : c'est ce qui donne la lecture « surface »
+  const prop=(maxM>0&&n.montant>0)?Math.max(2,Math.round(n.montant/maxM*100)):0;
+  const main=document.createElement('button');
+  main.type='button'; main.className='m-main';
+  // Un montant nul n'est pas toujours un manque : les vues transverses (« qui perçoit »)
+  // sont volontairement non sommées. On n'écrit « donnée manquante » que si c'est vrai.
+  const txt = n.montant!=null
+      ? fmtEUR(n.montant)+(mode==='paie'?' /mois':'')+(n.annee?' · '+n.annee:'')
+      : (n.statut==='inconnu' ? 'donnée manquante' : '');
+  main.innerHTML=`<span class="bd"><span class="lab"></span>`
+    +(txt?`<span class="sub"><span class="amt"></span>`
+      +(prop?`<span class="pw"><i style="width:${prop}%"></i></span>`:'')+`</span>`:'')
+    +`</span>`+(forable?'<span class="m-chev" aria-hidden="true">›</span>':'');
+  main.querySelector('.lab').textContent=n.label;
+  if(txt) main.querySelector('.amt').textContent=txt;
+  main.onclick=()=>{
+    if(forable){ piles[mode].push(n.id); renderMobile(); elListe.scrollTop=0; }
+    else showPanel(n);
+  };
+  // ⓘ : la source à un tap, SANS forer — y compris sur un conteneur
+  const info=document.createElement('button');
+  info.type='button'; info.className='m-info'; info.textContent='ⓘ';
+  info.setAttribute('aria-label','Détail et source — '+n.label);
+  info.onclick=()=>showPanel(n);
+  d.append(main,info);
+  return d;
+}
+
+function carteResume(n){
+  const d=document.createElement('div');
+  d.className='m-resume '+(n.statut||'');
+  d.innerHTML='<div class="t"></div><div class="a"></div><button type="button">Détail &amp; source ⌄</button>';
+  d.querySelector('.t').textContent=n.label;
+  d.querySelector('.a').textContent = n.montant!=null ? fmtEUR(n.montant)+(mode==='paie'?' /mois':'') : '—';
+  d.querySelector('button').onclick=()=>showPanel(n);
+  return d;
+}
+
+function carteBrut(){
+  const src=document.getElementById('brut');
+  const d=document.createElement('div'); d.className='m-brut';
+  d.innerHTML='<div class="f"><button class="stp" type="button" aria-label="Diminuer le brut">−</button>'
+    +'<input type="number" inputmode="numeric" min="1802" step="100" aria-label="Salaire brut mensuel">'
+    +'<button class="stp" type="button" aria-label="Augmenter le brut">+</button></div>'
+    +'<div class="lg">salaire brut mensuel (€)</div>';
+  const champ=d.querySelector('input'); champ.value=src.value;
+  const maj=v=>{ src.value=Math.max(0,Math.round(v)||0); piles.paie=[]; renderMobile(); };
+  const [moins,plus]=d.querySelectorAll('.stp');
+  moins.onclick=()=>maj(+src.value-100);
+  plus.onclick =()=>maj(+src.value+100);
+  champ.onchange=()=>maj(+champ.value||3000);
+  return d;
+}
+
+function renderFluxMobile(){
+  const F=window.FLUX;
+  if(!F||!F.flux||!F.flux.length){
+    elListe.innerHTML='<p class="m-vide">Aucun flux documenté pour l\'instant — contribuez dans <code>data/flux/</code>.</p>';
+    return;
+  }
+  const P=F.poles, parPole={};
+  F.flux.forEach(f=>{ (parPole[f.de]=parPole[f.de]||[]).push(f); });
+  const total=fs=>fs.reduce((s,f)=>s+f.montant,0);
+  Object.entries(parPole).sort((a,b)=>total(b[1])-total(a[1])).forEach(([p,fs])=>{
+    const bloc=document.createElement('div'); bloc.className='m-pole';
+    const h=document.createElement('div'); h.className='h';
+    h.innerHTML='<span></span><span class="tot"></span>';
+    h.children[0].textContent=P[p]||p;
+    h.children[1].textContent=fmtEUR(total(fs));
+    bloc.appendChild(h);
+    fs.slice().sort((a,b)=>b.montant-a.montant).forEach(f=>{
+      const b=document.createElement('button');
+      b.type='button'; b.className='m-flux'+(f.statut==='estime'?' estime':'');
+      b.innerHTML='<span></span><span class="m"></span>';
+      b.children[0].textContent='→ '+(P[f.vers]||f.vers)+' · '+f.label;
+      b.children[1].textContent=fmtEUR(f.montant)+(f.annee?` (${f.annee})`:'');
+      b.onclick=()=>showPanel({...f, description:`${P[f.de]} → ${P[f.vers]}. `+(f.description||'')
+        +(f.noeuds_lies&&f.noeuds_lies.length?` (Nœuds liés : ${f.noeuds_lies.join(', ')}.)`:'')});
+      bloc.appendChild(b);
+    });
+    elListe.appendChild(bloc);
+  });
+  const n=document.createElement('p'); n.className='m-note';
+  n.textContent='Les rubans ne se somment pas · chaque flux porte son millésime · ambre pointillé = estimé.';
+  elListe.appendChild(n);
+}
+
+function majOnglets(){
+  const tabs=document.getElementById('m-tabs');
+  if(!tabs.childElementCount){
+    LENTILLES.forEach(([m,ic,lab])=>{
+      const b=document.createElement('button');
+      b.type='button'; b.dataset.mode=m; b.setAttribute('role','tab');
+      b.innerHTML=`<span class="ic" aria-hidden="true">${ic}</span>${lab}`;
+      b.onclick=()=>{
+        mode=m;
+        document.querySelectorAll('.mode-btn').forEach(x=>x.classList.toggle('active',x.dataset.mode===m));
+        refresh(); elListe.scrollTop=0;
+      };
+      tabs.appendChild(b);
+    });
+  }
+  [...tabs.children].forEach(b=>b.setAttribute('aria-selected', String(b.dataset.mode===mode)));
+}
+
+function renderMobile(){
+  const titre=document.getElementById('m-titre'), retour=document.getElementById('m-retour');
+  majOnglets();
+  elListe.innerHTML='';
+  const lent=LENTILLES.find(l=>l[0]===mode)||LENTILLES[0];
+
+  if(mode==='flux'){                       // les flux n'ont pas d'arbre : pas de forage
+    retour.style.display='none';
+    titre.textContent=`${lent[1]} ${lent[2]}`;
+    return renderFluxMobile();
+  }
+  const racine=racineCourante();
+  const pile=piles[mode];
+  const noeud=noeudDeLaPile(racine);
+  retour.style.display = pile.length ? 'grid' : 'none';
+  retour.onclick=()=>{ pile.pop(); renderMobile(); elListe.scrollTop=0; };
+  titre.textContent = pile.length ? noeud.label : `${lent[1]} ${lent[2]}`;
+
+  if(mode==='paie') elListe.appendChild(carteBrut());
+
+  if(pile.length){                          // fil d'Ariane + carte-résumé du conteneur
+    const cr=document.createElement('div'); cr.className='m-crumbs';
+    const chem=[{lab:lent[2], coupe:0}];
+    let cur=racine;
+    pile.forEach((id,i)=>{ cur=(cur.enfants||[]).find(c=>c.id===id)||cur; chem.push({lab:cur.label, coupe:i+1}); });
+    chem.forEach((c,i)=>{
+      const b=document.createElement('button'); b.type='button'; b.textContent=c.lab;
+      if(i===chem.length-1){ b.className='ici'; b.disabled=true; }
+      else b.onclick=()=>{ pile.length=c.coupe; renderMobile(); elListe.scrollTop=0; };
+      cr.appendChild(b);
+      if(i<chem.length-1){ const s=document.createElement('span'); s.textContent='›'; s.style.color='var(--mute)'; cr.appendChild(s); }
+    });
+    elListe.appendChild(cr);
+    elListe.appendChild(carteResume(noeud));
+    cr.scrollLeft=cr.scrollWidth;           // garder « ici » visible à droite
+  }
+
+  // enfants triés par montant décroissant — les nœuds sans montant restent DANS le flux (jamais masqués)
+  const kids=(noeud.enfants||[]).slice().sort((a,b)=>(b.montant||0)-(a.montant||0));
+  if(!kids.length){
+    const v=document.createElement('p'); v.className='m-vide';
+    v.textContent='Ce poste n\'a pas de sous-poste documenté.';
+    elListe.appendChild(v);
+    return;
+  }
+  const maxM=Math.max(0,...kids.map(k=>k.montant||0));
+  kids.forEach(k=>elListe.appendChild(ligneMobile(k,maxM)));
+}
+
+// atterrissage depuis la recherche : on reconstruit la pile jusqu'au PARENT du nœud
+// (pour le voir dans sa liste), puis on ouvre sa fiche.
+function atterrirMobile(id){
+  const racine=racineCourante(); if(!racine) return;
+  const pile=[]; let n=racine;
+  while(n.id!==id){
+    const k=(n.enfants||[]).find(c=>id===c.id||id.startsWith(c.id+'.'));
+    if(!k) break;
+    pile.push(k.id); n=k;
+  }
+  if(pile.length && n.id===id) pile.pop();
+  piles[mode]=pile;
+  renderMobile(); elListe.scrollTop=0;
+  if(n.id===id) showPanel(n);
+}
+
+// ---- bottom sheet : fermeture redondante (swipe-bas, scrim, Esc, bouton) ----
+function ouvrirSheet(){
+  document.getElementById('m-scrim').classList.add('on');
+  document.getElementById('m-sheet').classList.add('on');
+  document.getElementById('m-sheet-body').scrollTop=0;
+  document.getElementById('m-sheet-close').focus();
+}
+function fermerSheet(){
+  document.getElementById('m-scrim').classList.remove('on');
+  document.getElementById('m-sheet').classList.remove('on');
+}
+(function(){
+  document.getElementById('m-scrim').onclick=fermerSheet;
+  document.getElementById('m-sheet-close').onclick=fermerSheet;
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape') fermerSheet(); });
+  // swipe vers le bas quand le contenu est déjà en haut — jamais de preventDefault (listener passif)
+  const s=document.getElementById('m-sheet'), corps=document.getElementById('m-sheet-body');
+  let y0=null;
+  s.addEventListener('touchstart',e=>{ y0=e.touches[0].clientY; },{passive:true});
+  s.addEventListener('touchmove',e=>{
+    if(y0===null) return;
+    if(e.touches[0].clientY-y0>60 && corps.scrollTop<=0){ fermerSheet(); y0=null; }
+  },{passive:true});
+  s.addEventListener('touchend',()=>{ y0=null; },{passive:true});
+})();
+
+// ---- recherche plein écran : on DÉPLACE le vrai #recherche-wrap (toute sa logique est réutilisée) ----
+(function(){
+  const ov=document.getElementById('m-overlay'), hote=document.getElementById('m-rech-hote');
+  const wrap=document.getElementById('recherche-wrap'), barre=document.getElementById('bar');
+  document.getElementById('m-rech-ouvrir').onclick=()=>{
+    hote.appendChild(wrap); ov.classList.add('on');
+    const i=document.getElementById('recherche'); i.focus(); i.select();
+  };
+  const fermerRecherche=()=>{
+    ov.classList.remove('on');
+    if(wrap.parentElement===hote) barre.insertBefore(wrap,barre.firstChild);   // rendre le champ au desktop
+  };
+  document.getElementById('m-rech-fermer').onclick=fermerRecherche;
+  window.__fermerRechercheMobile=fermerRecherche;
+})();
+
 // ---- Interactions ----
 function refresh(){
+  if(estMobile()){ renderMobile(); return; }   // garde matchMedia : jamais de rendu SVG en étroit
   document.getElementById('ctl-paie').style.display = mode==='paie'?'inline':'none';
   document.getElementById('ctl-commune').style.display = (mode==='paie'||mode==='flux')?'none':'inline';
   document.getElementById('ctl-vue').style.display = (mode==='paie'||mode==='flux')?'none':'inline';
@@ -627,7 +1042,15 @@ document.querySelectorAll('.mode-btn').forEach(b=>b.onclick=()=>{
   refresh();
 });
 document.getElementById('brut').addEventListener('change',refresh);
-window.addEventListener('resize',refresh);
+// En mobile, l'ouverture du clavier déclenche un resize : re-rendre remettrait la liste à zéro
+// et perdrait la position de forage. On ne re-rend au resize qu'en desktop ; la bascule
+// mobile ↔ desktop est portée par matchMedia, qui ne se déclenche qu'au franchissement du seuil.
+window.addEventListener('resize',()=>{ if(!estMobile()) refresh(); });
+MQ.addEventListener('change',()=>{
+  fermerSheet();
+  if(!estMobile()&&window.__fermerRechercheMobile) window.__fermerRechercheMobile();
+  refresh();
+});
 refresh();
 </script>
 </body>
