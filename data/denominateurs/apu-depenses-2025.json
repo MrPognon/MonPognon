@@ -120,7 +120,7 @@
       "sous_segments": [
         {
           "code": "APUL.communes",
-          "label": "Communes (S131311)",
+          "label": "Communes et intercommunalités (S131311)",
           "poids_publie_eur": 184358800000,
           "source_poids": {
             "nom": "Comptes nationaux 2025 — tableau 3.207 « Dépenses et recettes des communes (S131311) »",
@@ -135,24 +135,24 @@
           "methode_poids": "Poids publié × facteur de consolidation du sous-secteur (répartition des transferts internes au prorata des poids bruts). Voir `methode_consolidation` à la racine.",
           "sens_du_biais": "sous-estime",
           "referentiel_comptage": {
-            "nom": "OFGL — comptes consolidés des communes, exercice 2024, agrégat « Dépenses totales »",
-            "total_eur": 123170866806.61,
+            "nom": "OFGL — comptes consolidés des communes ET des groupements à fiscalité propre, exercice 2024, agrégat « Dépenses totales »",
+            "total_eur": 194368606648.38,
             "source": {
-              "nom": "ofgl-base-communes-consolidee",
-              "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes-consolidee/",
+              "nom": "ofgl-base-communes-consolidee + ofgl-base-gfp-consolidee",
+              "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
               "producteur": "OFGL / DGCL",
               "licence": "Licence Ouverte 2.0",
               "consulte_le": "2026-07-20"
             },
-            "verification": "Somme recalculée le 20/07/2026 par appel API sur les 34 932 communes."
+            "verification": "Sommes recalculées le 20/07/2026 par appel API sur les 34 932 communes et les 1 266 groupements à fiscalité propre."
           },
-          "couvert_referentiel_eur": 118975277087.95,
+          "couvert_referentiel_eur": 190173016929.72,
           "noeuds": [
             "commune.*"
           ],
           "raccord_publie": false,
           "ecart_millesime": true,
-          "note": "34 877 fiches communales sur 34 932 budgets. Le numérateur est en budget principal, le référentiel en consolidé : le coefficient (3,1127 %) est donc SOUS-estimé. Écart de millésime assumé : fiches 2024, univers 2025."
+          "note": "34 877 fiches communales et 1 266 fiches d'intercommunalité. PÉRIMÈTRE CORRIGÉ LE 20/07/2026 : la définition INSEE de S13131 inclut explicitement les établissements publics de coopération intercommunale, et aucune table INSEE ne leur est dédiée — les EPCI relèvent donc de S131311, avec les communes. Le référentiel de comptage additionne en conséquence les deux jeux OFGL. Avant cette correction, un coefficient mesuré sur les seules communes était appliqué à un poids SEC incluant 71,2 Md€ d'EPCI non modélisés, ce qui SURESTIMAIT la couverture d'environ 3 points. Le numérateur reste en budget principal pour les communes face à un référentiel consolidé : le coefficient demeure sous-estimé de ce fait. Écart de millésime : fiches 2024, univers 2025."
         },
         {
           "code": "APUL.departements",

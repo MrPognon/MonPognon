@@ -1,0 +1,8 @@
+{
+ "dataset": "ofgl-base-gfp-consolidee",
+ "filtre": "year(exer)=2024",
+ "consulte_le": "2026-07-20",
+ "maj_dataset": "2025-07-25",
+ "lignes": 64152,
+ "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/"
+}
