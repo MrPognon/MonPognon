@@ -122,6 +122,48 @@ def indice_cp(arbres, denom):
             n = niveau_effectif(niveaux, int(prof) + decalage)
             d[n] = d.get(n, 0.0) + euros
 
+    # 1 bis) P5 — les euros dont on connaît le bénéficiaire final ET la ligne payeuse.
+    # Ils vivent dans les vues transverses (non sommées), mais désignent des euros
+    # DÉJÀ comptés dans l'arbre du payeur : on les y RECLASSE, on ne les ajoute jamais.
+    id_vers_bloc = {}
+    for node in arbres:
+        bloc = node.get("bloc_univers")
+        if not bloc:
+            continue
+        def indexer(n):
+            id_vers_bloc[n["id"]] = bloc
+            for c in n.get("enfants", []):
+                indexer(c)
+        indexer(node)
+
+    trace = {}
+    def collecter_p5(n):
+        cible = n.get("rattachement_id")
+        if cible and n.get("identifiant") and isinstance(n.get("montant"), (int, float)):
+            b = id_vers_bloc.get(cible)
+            if b:
+                trace[b] = trace.get(b, 0.0) + n["montant"]
+        for c in n.get("enfants", []):
+            collecter_p5(c)
+    for node in arbres:
+        collecter_p5(node)
+
+    for bloc, montant in trace.items():
+        d = euros_bloc.get(bloc)
+        if not d:
+            continue
+        # on ne peut pas tracer plus d'euros que la ligne payeuse n'en porte :
+        # le reclassement part des niveaux les plus profonds déjà atteints.
+        sous = sorted((k for k in d if NIVEAUX_P.index(k) < 5), key=lambda k: -NIVEAUX_P.index(k))
+        reste = min(montant, sum(d[k] for k in sous))
+        for niv in sous:
+            pris = min(d[niv], reste)
+            d[niv] -= pris
+            d["P5"] = d.get("P5", 0.0) + pris
+            reste -= pris
+            if reste <= 0:
+                break
+
     # 2) C, et ventilation des euros d'univers par niveau
     univers = denom["total_brut_eur"]
     numerateur = raccorde = 0.0
@@ -283,6 +325,27 @@ def valider_flux(doc, path, seen_ids):
                 errors.append(f"{path}: flux — noeud_lie inexistant « {nid} » ({fid})")
 
 
+def valider_rattachements(node, path, seen_ids):
+    """Un bénéficiaire ne peut atteindre P5 (ADR-0006) qu'avec les DEUX : un
+    identifiant machine et un rattachement à une ligne payeuse réelle."""
+    def walk(n):
+        cible = n.get("rattachement_id")
+        if cible is not None:
+            if cible not in seen_ids:
+                errors.append(f"{path}: rattachement_id inexistant « {cible} » ({n['id']})")
+            elif cible == n["id"]:
+                errors.append(f"{path}: rattachement_id pointe sur le nœud lui-même ({n['id']})")
+        ident = n.get("identifiant")
+        if ident is not None:
+            if not isinstance(ident, dict) or not ident.get("type") or not ident.get("valeur"):
+                errors.append(f"{path}: identifiant sans type ou sans valeur ({n['id']})")
+            elif ident["type"] == "SIREN" and not str(ident["valeur"]).isdigit():
+                errors.append(f"{path}: SIREN non numérique « {ident['valeur']} » ({n['id']})")
+        for c in n.get("enfants", []):
+            walk(c)
+    walk(node)
+
+
 def valider_denominateur(doc, path):
     """Dénominateur de l'indice C·P (ADR-0006) : ce n'est PAS un arbre de nœuds.
     On vérifie ici les seuls invariants qui rendraient l'indice faux ; le calcul
@@ -379,6 +442,7 @@ def main():
              for seg in d["segments"] for ss in seg["sous_segments"]}
     for cle, node in list(data.items()) + list(fiches.items()):
         valider_racine_cp(node, cle, codes)
+        valider_rattachements(node, cle, seen)
     if "--show" in sys.argv:  # affiche un nœud avec sa source résolue (ADR-0005)
         cible = sys.argv[sys.argv.index("--show") + 1]
         def chercher(n):
