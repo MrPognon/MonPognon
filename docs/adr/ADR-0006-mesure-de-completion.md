@@ -50,11 +50,15 @@ Le rattachement de P5 est ce qui distingue « on sait que cette association a re
 
 **On ne divise jamais un euro d'une comptabilité par un euro d'une autre.**
 
-Le coefficient de couverture `c` d'un bloc est mesuré **à l'intérieur d'un référentiel homogène** (PLF ÷ PLF, OFGL ÷ OFGL, CCSS ÷ CCSS), puis appliqué au **poids SEC** du bloc. Un rapport inter-référentiel est mécaniquement refusé par `build.py`.
+Le coefficient de couverture `c` d'un bloc est mesuré **à l'intérieur d'un référentiel homogène** (PLF ÷ PLF, OFGL ÷ OFGL, CCSS ÷ CCSS), puis appliqué au **poids SEC** du bloc.
 
-Conséquence assumée et inconfortable : les **666 Md€ de la Sécurité sociale**, pourtant modélisés, sourcés et confirmés, **comptent zéro** tant qu'aucune table de passage CCSS → SEC n'est publiée. Ce n'est pas une donnée manquante, c'est un **raccord** manquant, et la page `/perimetre` doit le dire en clair.
+⚠️ **Cette règle est un garde-fou ÉDITORIAL, et non un verrou mécanique** — voir la note d'application 3 du 20/07/2026, qui corrige une surpromesse de la présente section. `build.py` refuse mécaniquement un référentiel **absent** (`ref is None → c = 0`). Il ne sait pas détecter un référentiel **faux** : `indice_cp()` calcule `c = present / ref["total_eur"]` sans jamais comparer les bases comptables des deux termes, et `referentiel_comptage` ne porte aucun champ qui les déclare. La règle tient donc par la relecture humaine.
 
-Écrire `666 / 803,3 = 83 %` ferait passer C de 33,6 % à ~70 %. C'est exactement le piège que cet ADR interdit.
+Conséquence assumée et inconfortable : les **666 Md€ de la Sécurité sociale**, pourtant modélisés, sourcés et confirmés, **comptent zéro**. Ce n'est pas une donnée manquante, c'est un **raccord** manquant, et la page `/perimetre` doit le dire en clair. La note d'application 3 établit que ce raccord est impossible pour une raison plus profonde qu'une lacune de publication : les deux périmètres ne s'emboîtent pas.
+
+Écrire `666 / 682,5 = 97,6 %` ferait passer C de 46,0 % à ~83,5 %. C'est exactement le piège que cet ADR interdit — et ce quotient est en outre substantiellement absurde, S13141 contenant l'AGIRC-ARRCO et l'UNEDIC que l'arbre ne modélise pas.
+
+**Corollaire non évident, à ne pas redécouvrir à ses dépens : un bloc à `c = 0` est absent de P autant que de C.** `comptes = c × poids_eur` ; avec `c = 0`, aucun euro du bloc n'entre dans l'histogramme de profondeur. Approfondir la Sécu jusqu'à P6 laisse P strictement inchangé (vérifié : 2,663 avant et après). Ce comportement est **voulu** — sans lui, la faille que la règle ferme sur C se rouvrirait par P — mais il signifie qu'aucun travail d'approfondissement sur un bloc non raccordé ne fait bouger l'indice.
 
 ### 4. Base brute plutôt que consolidée
 
@@ -153,3 +157,41 @@ Le motif est identique et prévisible : on constate qu'un raccord est *inutilisa
 **Règle : le dépôt n'écrit jamais qu'une donnée « n'existe pas ».** Il écrit ce qui a été cherché, où, et ce qui a été trouvé — puis pourquoi cela ne convient pas. Toute affirmation d'absence porte le périmètre de la recherche qui la fonde, et reste réfutable.
 
 Les champs `manque.quoi` des sous-segments `APUC.etat` et `ASSO.regimes` sont rédigés selon cette règle.
+
+## Note d'application — 2026-07-20 (3) : le raccord Sécu est impossible, et la question était mal posée
+
+Investigation dédiée : sept pistes instruites en parallèle sur sources primaires (couverture intégrale de S13141 · INSEE au-delà de 3.108/3.212 · DSS-PLFSS-CCSS · DREES · soustraction des composantes · doctrine · axe P), chacune ensuite soumise à deux réfutations adversariales indépendantes (règle anti-triche · coïncidence des périmètres). **Sept pistes, sept réfutées.** Cette note enregistre ce que l'investigation a établi, y compris contre le dépôt lui-même.
+
+### 1. Le blocage n'est pas documentaire, il est de nomenclature
+
+Le dépôt réclamait à l'INSEE « une ventilation en dépenses de S13141 isolant les régimes obligatoires de base + FSV ». **Cet objet ne peut pas exister** : « régimes de base + FSV » n'est pas un sous-ensemble de S13141. Les deux périmètres se croisent sans qu'aucun ne contienne l'autre.
+
+Le régime des fonctionnaires civils et militaires de l'État (~65 Md€) et le FSPOEIE (~2 Md€) sont **dans** les 666,0 Md€ du CCSS mais enregistrés en **S13111 (État)** en comptabilité nationale : servis sans caisse, ce sont des services de l'État.
+
+Preuve arithmétique, indépendante de toute affirmation de classement : S13141 brut = 766,3 Md€. Si les 666,0 Md€ y étaient inclus, il ne resterait que 100,3 Md€ pour l'AGIRC-ARRCO (~100 Md€ à elle seule), l'UNEDIC (45,0), la CADES et le FRR. **Déficit de contenance ≥ 45 Md€.**
+
+**Conséquence : même publiée demain, la ventilation réclamée ne raccorderait rien.**
+
+**Corollaire à ne pas manquer** : ces euros de pensions FPE sont **déjà comptés** dans le numérateur de C, via `APUC.etat` (référentiel PLF, `c = 1,000`). Un raccord naïf de la Sécu aurait donc **double-compté ~67 Md€** — et un « minorant prudent » déclaré `sens_du_biais: sous-estime` aurait été faux dans son sens même.
+
+### 2. Formulation correcte, à employer désormais
+
+> Aucune ventilation en dépenses de S13141 par organisme ou par régime n'est publiée ; **et** le périmètre CCSS « régimes de base + FSV » n'est de toute façon pas inclus dans S13141 — les régimes servis sans caisse par l'État en sont exclus, tandis que S13141 inclut des organismes que l'arbre ne modélise pas.
+
+Ce qui débloquerait la situation est une publication unique satisfaisant **les trois conditions à la fois** : porter sur des **dépenses** (pas un solde) ; être en **concepts SEC**, produite par l'INSEE ou sous son calage ; et isoler à l'intérieur de S13141 un périmètre d'unités explicitement défini **tout en publiant symétriquement** le montant SEC des régimes de base logés hors S13141.
+
+### 3. Correction d'une surpromesse de cet ADR
+
+Le §3 affirmait : « *Un rapport inter-référentiel est mécaniquement refusé par `build.py`.* » **C'est faux**, et le §3 est corrigé en conséquence.
+
+Vérifié ligne à ligne : `indice_cp()` calcule `c = present / ref["total_eur"]` sans jamais comparer les bases comptables ; `valider_denominateur()` ne contrôle que la présence d'un `total_eur` non nul et d'une source `https://` ; `schema/denominateur.schema.json` ne porte aucun champ typant le référentiel. La seule règle réellement mécanique est `ref is None → c = 0`.
+
+Démonstration par exécution obtenue pendant l'investigation : on peut renseigner un dénominateur DREES face à un arbre CCSS, gagner **+30,3 points de C, et passer la CI en silence**.
+
+**La règle anti-triche est tenue par la convention et la relecture humaine, pas par le code.** Rendre la phrase vraie supposerait un champ `base_comptable` sur le référentiel *et* sur les racines d'arbres, comparé à la validation. Cette option est **identifiée, non retenue à ce stade** — elle modifie le schéma et la doctrine, et relève d'un ADR propre.
+
+### 4. Ce qui a été cherché, et où
+
+Sources primaires ouvertes : INSEE `t_3108_fr.xlsx` (passage du solde, périmètre régime général, arrivée S1314) et `t_3213_fr.xlsx` (compte de S13141 — total du sous-secteur, jamais sa partition) ; Eurostat `gov_10a_main` (granularité S1314 maximum) ; annexe 5 du PLFSS 2026 et tableau 23 du RESF (isole régime général + FSV, pas ROBSS + FSV, et n'est pas une partition exhaustive) ; annexe 1 méthodologique des Comptes de la protection sociale édition 2025 et jeu open data DREES n° 305 (`si_code = S13141` — troisième référentiel, champ Sespros, hors Mayotte, prestations incluant des crédits d'impôt ; CPS 2024 = 823,6 Md€ contre INSEE 3.213 = 740,5 Md€ sur millésime identique) ; catalogues open data AMELI, ATIH/ScanSanté, CNAF/Cafdata.
+
+Bornes de cette recherche, à énoncer avec elle : les fichiers CSV des catalogues de santé n'ont pas été téléchargés et inspectés colonne par colonne — les conclusions de granularité reposent sur les pages de description des producteurs. Les 52+ jeux « professionnels de santé libéraux » du catalogue AMELI n'ont pas été parcourus un par un. Cet angle reste formellement ouvert, mais il ne peut pas changer le verdict : le gain d'indice serait nul quelle que soit la granularité trouvée, un bloc à `c = 0` étant absent de P comme de C.

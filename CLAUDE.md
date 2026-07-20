@@ -32,7 +32,12 @@ Au 07/2026 : **C = 46,0 %** (837,6 Md€ couverts sur un univers de 1 819,9 Md�
 
 **Règle anti-triche cardinale : on ne divise jamais un euro d'une comptabilité par un euro d'une autre.** Le coefficient d'un bloc se mesure dans un référentiel homogène (PLF ÷ PLF, OFGL ÷ OFGL) puis s'applique au poids SEC. Un bloc sans référentiel homogène compte **zéro**, même si l'arbre le documente. **Quatre blocs sur neuf sont dans ce cas, soit 978,6 Md€ en dépenses** : Sécu (682,5), ODAC (129,2), ODASS (120,8), ODAL (46,1).
 
-Corollaire contre-intuitif : **ingérer des fiches ne fait pas toujours monter C.** Les 11 394 CCAS et 97 SDIS relèvent du bloc `APUL.odal`, sans référentiel — leurs 9,31 Md€ sourcés et réconciliés comptent zéro. Le travail est fait, il n'est pas comptabilisé.
+⚠️ **Cette règle est un garde-fou ÉDITORIAL, pas un verrou mécanique.** `build.py` refuse un référentiel **absent** (`ref is None → c = 0`) ; il ne sait pas détecter un référentiel **faux**. `indice_cp()` fait `c = present / ref["total_eur"]` sans comparer les bases comptables, et `referentiel_comptage` n'a aucun champ qui les déclare. Il est démontré qu'on peut brancher un dénominateur d'une autre comptabilité, gagner +30 points de C et passer la CI en silence. **C'est la relecture humaine qui tient cette règle** (ADR-0006, note d'application 3).
+
+Deux corollaires contre-intuitifs, à ne pas redécouvrir à ses dépens :
+
+- **Ingérer des fiches ne fait pas toujours monter C.** Les 11 394 CCAS et 97 SDIS relèvent du bloc `APUL.odal`, sans référentiel — leurs 9,31 Md€ sourcés et réconciliés comptent zéro. Le travail est fait, il n'est pas comptabilisé.
+- **Un bloc à `c = 0` est absent de P autant que de C.** `comptes = c × poids_eur` : approfondir un bloc non raccordé ne fait bouger *aucun* des deux nombres. Vérifié — pousser tout l'arbre Sécu à P6 laisse P à 2,663, inchangé. Le comportement est voulu (sinon la faille fermée sur C se rouvrirait par P), mais il signifie qu'il est **inutile d'approfondir la Sécu, les ODAC, les ODASS ou les ODAL** tant que leur raccord n'existe pas.
 
 Le corpus réellement présent pilote le numérateur ; `couvert_referentiel_eur` est une **assertion vérifiée** (au-delà de `max(1 €, 0,5 %)` d'écart, le build échoue). Toute PR qui ajoute ou retire des fiches **d'un bloc doté d'un référentiel** doit donc mettre ce nombre à jour.
 
