@@ -140,13 +140,13 @@
             },
             "verification": "Somme recalculée le 20/07/2026 par appel API sur les 34 932 communes."
           },
-          "couvert_referentiel_eur": 3989662288.83,
+          "couvert_referentiel_eur": 23211672072.99,
           "noeuds": [
             "commune.*"
           ],
           "raccord_publie": false,
           "ecart_millesime": true,
-          "note": "1 856 fiches communales sur 34 932. Numérateur en budget principal, référentiel en consolidé : le coefficient est SOUS-estimé. Écart de millésime assumé : fiches 2024, univers 2025."
+          "note": "10 513 fiches communales sur 34 932. Numérateur en budget principal, référentiel en consolidé : le coefficient est SOUS-estimé. Écart de millésime assumé : fiches 2024, univers 2025."
         },
         {
           "code": "APUL.departements",
