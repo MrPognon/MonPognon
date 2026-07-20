@@ -114,7 +114,33 @@ def vue_operateurs(meta):
     }
 
 
-def vue_associations(meta, lib):
+def lignes_payeuses():
+    """Programme → id du nœud qui le porte dans l'arbre des dépenses.
+    C'est ce qui permet de rattacher un bénéficiaire nommé à la ligne qui l'a payé
+    (niveau P5 de l'ADR-0006) : sans ce rattachement, on sait seulement qu'un
+    organisme a reçu de l'argent, jamais QUELLE ligne budgétaire l'a versé."""
+    with open(os.path.join(ROOT, "data", "etat", "depenses.json"), encoding="utf-8") as fh:
+        arbre = json.load(fh)
+    out = {}
+
+    def walk(n, prof=0):
+        if prof == 3:                      # profondeur du programme dans l'arbre
+            out[n["id"].split(".")[-1]] = n["id"]
+        for c in n.get("enfants", []):
+            walk(c, prof + 1)
+
+    walk(arbre)
+    return out
+
+
+def siren_propre(v):
+    """Le jeu source porte « NR CHORUS » (461 lignes, 1,08 Md€) quand l'identifiant
+    n'a pas été renseigné dans Chorus : on ne fabrique pas d'identifiant, on renvoie None."""
+    s = " ".join(str(v or "").split()).replace(" ", "")
+    return s if s.isdigit() and len(s) == 9 else None
+
+
+def vue_associations(meta, lib, payeuses):
     with gzip.open(os.path.join(RAW, "plf25-jaune-associations.json.gz"), "rt", encoding="utf-8") as fh:
         rows = json.load(fh)
     src = {"nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
@@ -132,13 +158,23 @@ def vue_associations(meta, lib):
         top = sorted(lst, key=lambda r: -r["montant"])[:5]
         reste_n, reste_m = len(lst) - len(top), somme - sum(r["montant"] for r in top)
         libelle = lib.get(prog)
-        enfants_assoc = [{
-            "id": f"etat.qui-percoit.associations.p{prog}.{slug(t['denomination'] or 'association', vus)}",
-            "label": " ".join((t["denomination"] or "(dénomination non renseignée)").split()).title(),
-            "montant": round(t["montant"], 2), "annee": 2023, "statut": "confirme",
-            "source": {"nom": src["nom"] + f", ligne du programme {prog}"},
-            "enfants": [],
-        } for t in top]
+        paye_par = payeuses.get(prog)
+        enfants_assoc = []
+        for t in top:
+            sir = siren_propre(t.get("siren"))
+            noeud = {
+                "id": f"etat.qui-percoit.associations.p{prog}.{slug(t['denomination'] or 'association', vus)}",
+                "label": " ".join((t["denomination"] or "(dénomination non renseignée)").split()).title(),
+                "montant": round(t["montant"], 2), "annee": 2023, "statut": "confirme",
+                "source": {"nom": src["nom"] + f", ligne du programme {prog}"},
+            }
+            # P5 exige les DEUX : un identifiant machine et la ligne payeuse.
+            if sir:
+                noeud["identifiant"] = {"type": "SIREN", "valeur": sir}
+            if paye_par:
+                noeud["rattachement_id"] = paye_par
+            noeud["enfants"] = []
+            enfants_assoc.append(noeud)
         enfants_prog.append({
             "id": f"etat.qui-percoit.associations.p{prog}",
             "label": f"Programme {prog}" + (f" — {libelle}" if libelle else "") + " : subventions aux associations",
@@ -195,7 +231,7 @@ def main():
                    "url": "https://www.budget.gouv.fr/documentation/documents-budgetaires",
                    "producteur": "Direction du budget", "licence": "Licence Ouverte 2.0",
                    "consulte_le": meta_ops["consulte_le"], "maj": None},
-        "enfants": [vue_operateurs(meta_ops), vue_associations(meta_ass, lib), *inconnues_vue()],
+        "enfants": [vue_operateurs(meta_ops), vue_associations(meta_ass, lib, lignes_payeuses()), *inconnues_vue()],
     }
     def compte(n): return 1 + sum(compte(c) for c in n["enfants"])
     with open(os.path.join(ROOT, "data", "etat", "qui-percoit.json"), "w", encoding="utf-8") as fh:

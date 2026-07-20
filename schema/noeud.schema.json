@@ -67,6 +67,31 @@
         ]
       }
     },
+    "identifiant": {
+      "type": "object",
+      "description": "Identifiant MACHINE du bénéficiaire (ADR-0006). Condition nécessaire — avec rattachement_id — pour qu'un euro atteigne le niveau P5. Sans lui, on sait qu'un organisme a reçu de l'argent, mais on ne peut pas le relier de façon fiable à un registre public.",
+      "required": [
+        "type",
+        "valeur"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "SIREN",
+            "SIRET",
+            "RNA"
+          ]
+        },
+        "valeur": {
+          "type": "string"
+        }
+      }
+    },
+    "rattachement_id": {
+      "type": "string",
+      "description": "Id du nœud de la LIGNE PAYEUSE (ADR-0006). Condition nécessaire — avec identifiant — pour atteindre P5 : c'est ce qui distingue « cet organisme a reçu de l'argent » de « CETTE ligne budgétaire l'a payé ». Le nœud visé doit exister ; les euros sont RECLASSÉS dans le bloc du payeur, jamais ajoutés."
+    },
     "description": {
       "type": "string"
     },
