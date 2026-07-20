@@ -4,6 +4,16 @@
  "montant": 823043976041.0,
  "annee": 2025,
  "statut": "confirme",
+ "bloc_univers": "APUC.etat",
+ "niveaux": [
+  "P0",
+  "P0",
+  "P1",
+  "P2",
+  "P3",
+  "P3",
+  null
+ ],
  "source": {
   "nom": "PLF 2025 — dépenses selon destination (Direction du Budget)",
   "url": "https://data.economie.gouv.fr/explore/dataset/plf25-depenses-2025-selon-destination/",

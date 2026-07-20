@@ -4,6 +4,12 @@
  "montant": 588407754684,
  "annee": 2025,
  "statut": "confirme",
+ "bloc_univers": null,
+ "niveaux": [
+  "P0",
+  "P1",
+  "P2"
+ ],
  "source": {
   "nom": "PLF 2025 — recettes du budget général (état A)",
   "url": "https://data.economie.gouv.fr/explore/dataset/plf25-recettes-du-budget-general/",

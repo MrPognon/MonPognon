@@ -4,6 +4,13 @@
  "montant": null,
  "annee": 2025,
  "statut": "confirme",
+ "bloc_univers": null,
+ "niveaux": [
+  "P0",
+  "P0",
+  "P1",
+  "P2"
+ ],
  "description": "Vues transverses : qui verse les recettes publiques. Le montant racine est volontairement null : ces montants (constatés, millésime propre) ne s'additionnent pas aux lignes prévisionnelles des recettes — aucun double compte. D'autres impôts (TVA, IS…) attendent leur ventilation : contribution bienvenue.",
  "source": {
   "nom": "Statistiques fiscales de la DGFiP (voir la source précise de chaque sous-vue)",

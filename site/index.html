@@ -114,6 +114,32 @@
   .link{fill:none; stroke:#bbb; stroke-width:1.5px;}
   .link.unknown{stroke:var(--unk); stroke-dasharray:5 4;}
 
+  /* ── Indice C·P (ADR-0006) : le compteur de complétion, à côté du titre ──
+     Deux nombres qui ne se moyennent jamais, la phrase de cadrage solidaire du
+     nombre, et le qualificatif de raccord collé au pourcentage. */
+  #cp-badge{display:flex; align-items:center; gap:14px; cursor:pointer; text-align:left;
+    background:var(--card); border:1px solid var(--border); border-left:4px solid var(--primary);
+    border-radius:0 8px 8px 0; padding:8px 14px; font:inherit; color:inherit; align-self:center;}
+  #cp-badge:hover{background:var(--surface);}
+  #cp-badge .n{font-size:1.35rem; font-weight:700; line-height:1; font-variant-numeric:tabular-nums;}
+  #cp-badge .k{display:block; font-size:.58rem; font-weight:700; text-transform:uppercase;
+    letter-spacing:.07em; color:var(--mute); margin-bottom:3px;}
+  #cp-badge .cadre{font-size:.66rem; color:var(--mute); line-height:1.35; max-width:19rem;}
+  #cp-badge .sep{width:1px; align-self:stretch; background:var(--border);}
+  .cp-histo{display:flex; flex-direction:column; gap:4px; margin:10px 0 4px;}
+  .cp-histo .l{display:flex; align-items:center; gap:8px; font-size:.72rem;}
+  .cp-histo .l code{width:1.6rem; color:var(--mute); font-weight:700;}
+  .cp-histo .b{flex:1; height:12px; background:var(--surface); border-radius:3px; overflow:hidden;}
+  .cp-histo .b i{display:block; height:100%; background:var(--primary);}
+  .cp-histo .l.vide .b i{background:#c9c9c9;}
+  .cp-histo .v{width:4.6rem; text-align:right; color:var(--mute); font-variant-numeric:tabular-nums;}
+  .cp-blocs{width:100%; border-collapse:collapse; font-size:.74rem; margin-top:8px;}
+  .cp-blocs th{text-align:left; color:var(--mute); font-weight:700; border-bottom:1px solid var(--border); padding:4px 6px;}
+  .cp-blocs td{padding:5px 6px; border-bottom:1px solid var(--surface); vertical-align:top;}
+  .cp-blocs td.num{text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap;}
+  .cp-blocs tr.zero td{color:var(--mute);}
+  .cp-blocs .pastille{display:inline-block; width:7px; height:7px; border-radius:99px; margin-right:5px;}
+
   /* ══════════ Coquille mobile — direction A+ « Explorateur » (issue #47) ══════════
      Le desktop (arbre D3, treemap, panneau latéral) reste INTACT : il n'est servi
      qu'au-dessus de 768 px. Sous 768 px on sert une seconde vue — forage en liste
@@ -262,6 +288,15 @@
     .m-flux.estime{border-left-color:var(--est); border-left-style:dashed;}
     .m-flux .m{font-weight:700; color:var(--ink); white-space:nowrap; font-variant-numeric:tabular-nums;}
 
+    /* indice C·P en mobile : chip d'entrée, même contenu au tap */
+    .m-cp{display:flex; align-items:center; gap:10px; width:100%; text-align:left; cursor:pointer;
+      min-height:52px; padding:9px 12px; font:inherit; background:var(--card);
+      border:1px solid var(--border); border-left:4px solid var(--primary); border-radius:0 8px 8px 0;}
+    .m-cp .n{font-size:1.05rem; font-weight:700; font-variant-numeric:tabular-nums; white-space:nowrap;}
+    .m-cp .k{display:block; font-size:.55rem; font-weight:700; text-transform:uppercase;
+      letter-spacing:.06em; color:var(--mute);}
+    .m-cp .c{flex:1; min-width:0; font-size:.65rem; color:var(--mute); line-height:1.3;}
+
     .m-note{font-size:.72rem; color:var(--mute); text-align:center; padding:6px 8px;}
     .m-vide{padding:26px 16px; text-align:center; color:var(--mute); font-size:.9rem;}
   }
@@ -270,6 +305,7 @@
 <body>
 <header>
   <h1>🌳 Où va l'argent public ?<small>Projet collaboratif — chaque nœud est sourcé et daté · <a href="https://github.com/MrPognon/MonPognon" target="_blank">contribuer sur GitHub</a></small></h1>
+  <button id="cp-badge" type="button" hidden aria-label="Complétion du site : périmètre et profondeur"></button>
   <div class="modes">
     <button class="mode-btn active" data-mode="depenses">💸 Dépenses</button>
     <button class="mode-btn" data-mode="recettes">💰 Recettes</button>
@@ -492,7 +528,10 @@ function showPanel(d){ afficherPanneau(panneauHTML(d)); }
   const ORDRE=[['etat_depenses','💸 État'],['etat_recettes','💰 État'],['secu_depenses','💸 Sécu'],
                ['secu_recettes','💰 Sécu'],['collectivites_depenses','💸 Collectivités'],['collectivites_recettes','💰 Collectivités']];
   const pct=(v,m)=>m?Math.round(v/m*1000)/10:0;
-  let h='<span class="cv-titre">Couverture (en €)</span>';
+  // Rétrogradé et relibellé par l'ADR-0006 : cet indicateur ne mesure QUE la qualité
+  // de source à l'intérieur de ce qui est déjà modélisé. Le compteur de complétion,
+  // lui, est le badge C·P à côté du titre.
+  let h='<span class="cv-titre">Qualité de source (en €)</span>';
   for(const [k,nom] of ORDRE){
     const c=COV.arbres[k]; if(!c) continue;
     const s=c.statuts, m=c.montant, p=[pct(s.confirme,m),pct(s.estime,m),pct(s.inconnu,m)];
@@ -501,8 +540,64 @@ function showPanel(d){ afficherPanneau(panneauHTML(d)); }
       <span class="cv-barre"><i style="width:${p[0]}%;background:var(--ok)"></i><i style="width:${p[1]}%;background:var(--est)"></i><i style="width:${p[2]}%;background:var(--unk)"></i></span>
       <span class="cv-pct">${p[0].toLocaleString('fr-FR')} %</span></span>`;
   }
-  h+=`<details><summary>méthode ▾</summary><div class="cv-methode"><b>Comment lire ce baromètre.</b> ${COV.methode}<br><br>C'est la <b>todo-list chiffrée</b> du projet : chaque part jaune ou rouge est une contribution qui vous attend.</div></details>`;
+  h+=`<details><summary>méthode ▾</summary><div class="cv-methode"><b>⚠️ Cet indicateur ne dit RIEN de ce qui manque.</b>
+      Il mesure la qualité de source <b>à l'intérieur de ce qui est déjà modélisé</b> : un périmètre affiché à 100 %
+      peut n'être qu'une fraction de l'argent public réel. Ce qui manque en périmètre et en profondeur se lit sur le
+      <b>compteur de complétion, à côté du titre</b>.<br><br><b>Comment lire ce baromètre.</b> ${COV.methode}<br><br>
+      Chaque part jaune ou rouge est une contribution qui vous attend.</div></details>`;
   el.innerHTML=h; el.hidden=false;
+})();
+// ---- Indice C·P : la complétion mesurée contre l'univers réel (ADR-0006, issue #50) ----
+const CP = (window.COUVERTURE||{}).cp || null;
+const pct = v => (v*100).toLocaleString('fr-FR',{maximumFractionDigits:1})+' %';
+function cpDetailHTML(){
+  const c=CP, U=c.univers_eur;
+  const ordre=['P0','P1','P2','P3','P4','P5','P6'];
+  const sens={P0:'agrégat non ventilé, ou absent de l\'arbre',P1:'politique publique',
+    P2:'programme ou entité nommée',P3:'ligne budgétaire fine',P4:'organisme destinataire',
+    P5:'bénéficiaire final nommé',P6:'pièce justificative'};
+  let h=`<h2>Complétion du site</h2>
+    <p class="desc"><b>${pct(c.C)}</b> des euros publics sont dans l'arbre — ${(c.couvert_eur/1e9).toLocaleString('fr-FR',{maximumFractionDigits:1})} Md€
+      sur ${(U/1e9).toLocaleString('fr-FR',{maximumFractionDigits:1})} Md€ de dépenses des administrations publiques
+      (${c.millesime_univers}, INSEE, comptes ${c.statut_revision_univers}s).
+      <b>Ce pourcentage mesure le périmètre, pas la finesse.</b></p>
+    <p class="desc"><b>${c.part_raccordee===0?'0 %':pct(c.part_raccordee)}</b> de cette couverture est adossée à une table de passage
+      publiée vers la comptabilité nationale. Le reste repose sur des référentiels de comptage homogènes mais non raccordés.</p>
+    <p class="desc"><b>Profondeur ${c.P.toLocaleString('fr-FR',{maximumFractionDigits:2})} / 6</b> sur les euros couverts :
+      on sait à quelle ligne budgétaire ils vont, jamais à qui.</p>
+    <div class="cp-histo">`;
+  for(const n of ordre){
+    const v=c.histogramme_univers[n]||0, p=v/U;
+    h+=`<span class="l${n==='P0'?' vide':''}"><code>${n}</code><span class="b"><i style="width:${(p*100).toFixed(2)}%"></i></span>
+        <span class="v">${p<0.0001?'0 %':pct(p)}</span></span>
+        <span style="font-size:.66rem;color:var(--mute);margin:-2px 0 2px 2.3rem">${sens[n]}</span>`;
+  }
+  h+=`</div><p class="desc" style="font-size:.75rem">Sans la barre P0, un « ${c.P.toFixed(1)} / 6 » se lirait « à mi-chemin » — ce qui serait faux.</p>`;
+  h+=`<table class="cp-blocs"><thead><tr><th>Bloc de l'univers</th><th style="text-align:right">Poids</th><th style="text-align:right">Couvert</th></tr></thead><tbody>`;
+  for(const b of c.blocs){
+    const z=b.compte_eur<=0;
+    h+=`<tr class="${z?'zero':''}"><td><span class="pastille" style="background:${z?'var(--unk)':'var(--ok)'}"></span>${b.label}
+        ${b.manque?`<br><span style="font-size:.68rem;color:var(--mute)">${b.manque.quoi.slice(0,150)}…</span>`:''}</td>
+        <td class="num">${fmtEUR(b.poids_eur)}</td><td class="num">${z?'—':pct(b.coefficient)}</td></tr>`;
+  }
+  h+=`</tbody></table>`;
+  h+=`<div class="box todo"><b>🧩 Ce que ce chiffre ne compte pas.</b> Le périmètre des administrations publiques exclut les
+      entreprises publiques marchandes, les stocks de dette et engagements hors bilan, et les dépenses fiscales.
+      <b>Un périmètre de 100 % ne signifierait donc pas que tout l'argent public est visible</b> — et une profondeur de 6/6
+      signifierait que chaque euro est traçable jusqu'à sa pièce, pas que la dépense est justifiée.</div>`;
+  h+=`<div class="src">📚 <b>Méthode</b><br>${c.methode}</div>`;
+  return h;
+}
+(function(){
+  const b=document.getElementById('cp-badge');
+  if(!CP||!b) return;
+  b.innerHTML=`<span><span class="k">Périmètre</span><span class="n">${pct(CP.C)}</span></span>
+    <span class="sep"></span>
+    <span><span class="k">Profondeur</span><span class="n">${CP.P.toLocaleString('fr-FR',{maximumFractionDigits:2})}<span style="font-size:.8rem;color:var(--mute)"> / 6</span></span></span>
+    <span class="cadre">des euros publics sont dans l'arbre · ${CP.part_raccordee===0?'0 %':pct(CP.part_raccordee)} raccordé<br>
+      Ce pourcentage mesure le périmètre, pas la finesse.</span>`;
+  b.hidden=false;
+  b.onclick=()=>afficherPanneau(cpDetailHTML());
 })();
 // ---- Ma commune (issue #3, ADR-0004 : fiche versionnée d'abord, API OFGL en direct sinon) ----
 (function(){
@@ -1051,6 +1146,17 @@ function renderMobile(){
   retour.style.display = pile.length ? 'grid' : 'none';
   retour.onclick=()=>{ pile.pop(); renderMobile(); elListe.scrollTop=0; };
   titre.textContent = pile.length ? noeud.label : `${lent[1]} ${lent[2]}`;
+
+  // le compteur de complétion s'affiche à la racine de chaque lentille
+  if(!pile.length && CP){
+    const c=document.createElement('button');
+    c.type='button'; c.className='m-cp';
+    c.innerHTML=`<span><span class="k">Périmètre</span><span class="n">${pct(CP.C)}</span></span>
+      <span><span class="k">Profondeur</span><span class="n">${CP.P.toLocaleString('fr-FR',{maximumFractionDigits:2})}/6</span></span>
+      <span class="c">des euros publics sont dans l'arbre · ${CP.part_raccordee===0?'0 %':pct(CP.part_raccordee)} raccordé ▸</span>`;
+    c.onclick=()=>afficherPanneau(cpDetailHTML());
+    elListe.appendChild(c);
+  }
 
   if(mode==='paie') elListe.appendChild(carteBrut());
 

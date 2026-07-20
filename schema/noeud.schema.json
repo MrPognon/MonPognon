@@ -40,6 +40,33 @@
       ],
       "description": "confirme = extrait tel quel d'une source officielle ; estime = ordre de grandeur à raffiner ; inconnu = la donnée n'existe pas publiquement"
     },
+    "bloc_univers": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "RACINE DE FICHIER UNIQUEMENT (ADR-0006). Code du sous-segment du dénominateur que cet arbre alimente (data/denominateurs/), ou null si l'arbre ne compte PAS dans la couverture C : vue transverse non sommée, agrégat estimé dont la couverture est portée ailleurs, ou volet dont le dénominateur n'est pas encore ouvert."
+    },
+    "niveaux": {
+      "type": "array",
+      "description": "RACINE DE FICHIER UNIQUEMENT (ADR-0006). Table de traduction « profondeur JSON → niveau de destination » sur l'échelle P0→P6. Un null signifie que ce cran n'avance PAS l'axe destination : l'euro conserve le dernier niveau non nul au-dessus de lui. C'est le cas d'une ventilation par nature de dépense (titre LOLF), qui dit comment l'argent est dépensé et non à qui il va.",
+      "items": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "enum": [
+          "P0",
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "P5",
+          "P6",
+          null
+        ]
+      }
+    },
     "description": {
       "type": "string"
     },

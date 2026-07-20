@@ -4,6 +4,14 @@
  "montant": null,
  "annee": 2025,
  "statut": "confirme",
+ "bloc_univers": null,
+ "niveaux": [
+  "P0",
+  "P0",
+  "P1",
+  "P2",
+  "P4"
+ ],
  "description": "Vues transverses : à qui va l'argent des programmes. Le montant racine est volontairement null : ces sommes sont déjà comptées dans les crédits des programmes (aucun double compte), et chaque sous-vue porte son propre millésime.",
  "source": {
   "nom": "Annexes « jaunes » du PLF 2025 (voir la source précise de chaque sous-vue)",

@@ -4,6 +4,13 @@
  "montant": 644392000000,
  "annee": 2025,
  "statut": "confirme",
+ "bloc_univers": null,
+ "niveaux": [
+  "P0",
+  "P1",
+  "P2",
+  "P3"
+ ],
  "description": "Produits nets consolidés 2025 des régimes de base et du FSV (résultats 2025, rapport CCSS de mai 2026). Charges nettes : 665 964 M€ ; solde : −21 572 M€.",
  "source": {
   "nom": "Rapport à la Commission des comptes de la Sécurité sociale, mai 2026 (résultats 2025) — tableau 1 « Principaux agrégats consolidés des régimes de base et du FSV », p. 147 (p. 149 du PDF)",
