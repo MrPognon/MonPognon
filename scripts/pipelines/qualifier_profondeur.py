@@ -25,6 +25,15 @@ fonctionnement, investissement) dit COMMENT l'argent est dépensé, jamais À QU
 il va : ce cran ne doit donc rien rapporter. Même raisonnement pour la
 ventilation d'une commune par nature de dépense.
 
+ATTENTION — qualifier finement un bloc dont le coefficient de couverture est NUL
+ne rapporte RIEN, ni sur C ni sur P. build.py calcule `comptes = c * poids_eur` :
+avec c = 0, aucun euro du bloc n'entre dans l'histogramme de profondeur. Pousser
+tout l'arbre de la Sécu à P6 laisse P strictement inchangé. Le comportement est
+voulu (sans lui, la faille que la règle du référentiel homogène ferme sur C se
+rouvrirait par P), mais il rend inutile tout travail de profondeur sur les blocs
+non raccordés : ASSO.regimes, ASSO.odass, APUC.odac, APUL.odal. Voir l'ADR-0006,
+note d'application 3.
+
 Idempotent : relancer le script ne change rien si les valeurs sont déjà à jour.
 
     python3 scripts/pipelines/qualifier_profondeur.py [--verifier]
