@@ -150,6 +150,11 @@ def fiche_commune(insee, dept, rows, meta, rapport):
     fmt = lambda v: f"{v:,.2f}".replace(",", " ").replace(".", ",")
     return {"id": f"commune.{insee}", "label": f"{nom} ({dep_nom}, {insee})", "montant": None,
             "annee": exer, "statut": "confirme",
+            # Qualification C·P (ADR-0006) : émise ici pour qu'une fiche fraîche soit
+            # valide sans passer par qualifier_profondeur.py. Les deux restent cohérents
+            # — le qualificateur est idempotent et sert de filet.
+            "bloc_univers": "APUL.communes", "volet": "mixte",
+            "niveaux": ["P2", "P2", "P2", None, None, None],
             "description": (f"Fiche communale (ADR-0004) — {nom}, code INSEE {insee}, {dep_nom}"
                             + (f", {int(ptot):,} habitants (population DGF {exer})".replace(",", " ") if ptot else "")
                             + (f", membre de « {epci} »" if epci else "")
