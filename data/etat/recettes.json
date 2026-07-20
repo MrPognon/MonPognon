@@ -4,7 +4,8 @@
  "montant": 588407754684,
  "annee": 2025,
  "statut": "confirme",
- "bloc_univers": null,
+ "bloc_univers": "APUC.etat",
+ "volet": "recettes",
  "niveaux": [
   "P0",
   "P1",

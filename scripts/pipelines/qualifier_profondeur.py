@@ -9,6 +9,11 @@ Ajoute deux champs à la RACINE de chaque fichier de données :
                 estimés doublonnant une couverture portée ailleurs, volets dont
                 le dénominateur n'est pas encore ouvert.
 
+  volet         "depenses" | "recettes" | "mixte" (les deux volets sous une même
+                racine, cas des fiches communales) | null (vue transverse). Sans
+                lui, le calcul mélangerait l'arbre des dépenses et celui des
+                recettes, qui se mesurent contre deux dénominateurs distincts.
+
   niveaux       table de traduction « profondeur JSON → niveau de destination »
                 sur l'échelle P0→P6 de l'ADR-0006. Un `null` signifie que ce
                 cran N'AVANCE PAS l'axe destination : l'euro conserve alors le
@@ -35,61 +40,63 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 # Les niveaux sont indexés par profondeur JSON (0 = racine du fichier).
 QUALIF = {
     "data/etat/depenses.json": (
-        "APUC.etat",
+        "APUC.etat", "depenses",
         # racine, titre budgétaire (BG/CAS/CCF/BA), mission, programme,
         # action, sous-action, titre LOLF (nature → n'avance pas la destination)
         ["P0", "P0", "P1", "P2", "P3", "P3", None],
     ),
     "data/etat/recettes.json": (
-        None,  # le dénominateur des recettes n'est pas encore ouvert (étape 8)
+        "APUC.etat", "recettes",   # les 156 lignes de l'état A
         ["P0", "P1", "P2"],
     ),
     "data/etat/qui-percoit.json": (
-        None,  # vue transverse, montant racine null, jamais sommée (issue #4)
+        None, None,  # vue transverse, montant racine null, jamais sommée (issue #4)
         ["P0", "P0", "P1", "P2", "P4"],
     ),
     "data/etat/qui-paie.json": (
-        None,  # vue transverse, montant racine null, jamais sommée (issue #5)
+        None, None,  # vue transverse, montant racine null, jamais sommée (issue #5)
         ["P0", "P0", "P1", "P2"],
     ),
     "data/secu/depenses.json": (
-        "ASSO.regimes",
+        "ASSO.regimes", "depenses",
         ["P0", "P1", "P2", "P3"],
     ),
     "data/secu/recettes.json": (
-        None,
+        "ASSO.regimes", "recettes",
         ["P0", "P1", "P2", "P3"],
     ),
     "data/collectivites/depenses.json": (
         # Agrégat national « estimé ». La couverture locale est portée par les
         # fiches communales : le rattacher à APUL doublonnerait.
-        None,
+        None, "depenses",
         ["P0", "P1"],
     ),
     "data/collectivites/recettes.json": (
-        None,
+        None, "recettes",
         ["P0", "P1"],
     ),
 }
 
 # Fiches communales (ADR-0004) : la commune est l'entité nommée (P2) ; sa
 # ventilation interne par nature de dépense n'avance pas l'axe destination.
-FICHE_COMMUNALE = ("APUL.communes", ["P2", "P2", "P2", None, None, None])
+FICHE_COMMUNALE = ("APUL.communes", "mixte", ["P2", "P2", "P2", None, None, None])
 
 NIVEAUX_VALIDES = {"P0", "P1", "P2", "P3", "P4", "P5", "P6", None}
 
 
-def poser_champs(node, bloc, niveaux):
+def poser_champs(node, bloc, volet, niveaux):
     """Insère bloc_univers et niveaux juste après `statut`, en préservant l'ordre
     des autres clés (la position compte pour la lisibilité des diffs)."""
-    if node.get("bloc_univers", "∅") == bloc and node.get("niveaux") == niveaux:
+    if (node.get("bloc_univers", "∅") == bloc and node.get("volet", "∅") == volet
+            and node.get("niveaux") == niveaux):
         return False
-    for k in ("bloc_univers", "niveaux"):
+    for k in ("bloc_univers", "volet", "niveaux"):
         node.pop(k, None)
     cles = list(node.keys())
     ancre = cles.index("statut") + 1 if "statut" in cles else len(cles)
     reste = cles[ancre:]
     node["bloc_univers"] = bloc
+    node["volet"] = volet
     node["niveaux"] = niveaux
     for k in reste:                      # on repousse la fin pour garder l'ordre
         node[k] = node.pop(k)
@@ -108,7 +115,7 @@ def main():
     for f in sorted(glob.glob(os.path.join(ROOT, "data", "collectivites", "communes", "*", "*.json"))):
         cibles.append((os.path.relpath(f, ROOT), FICHE_COMMUNALE))
 
-    for rel, (bloc, niveaux) in cibles:
+    for rel, (bloc, volet, niveaux) in cibles:
         chemin = os.path.join(ROOT, rel)
         with open(chemin, encoding="utf-8") as fh:
             node = json.load(fh)
@@ -120,7 +127,7 @@ def main():
             erreurs += 1
             continue
 
-        if poser_champs(node, bloc, niveaux):
+        if poser_champs(node, bloc, volet, niveaux):
             modifies += 1
             if not verifier:
                 with open(chemin, "w", encoding="utf-8") as fh:
