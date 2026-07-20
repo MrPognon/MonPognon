@@ -1,0 +1,62 @@
+{
+ "id": "ccas.267303428",
+ "label": "EHPAD LES GRILLONS CIAS GRAND LAC (267303428)",
+ "montant": null,
+ "annee": 2024,
+ "statut": "confirme",
+ "bloc_univers": "APUL.odal",
+ "volet": "mixte",
+ "niveaux": [
+  "P2",
+  "P2",
+  "P2",
+  null,
+  null,
+  null
+ ],
+ "description": "Fiche de centre d'action sociale (ADR-0004) — EHPAD LES GRILLONS CIAS GRAND LAC, code 267303428. Comptes 2024 exécutés, CONSOLIDÉS (budget principal et budgets annexes). Le montant racine est volontairement null : les dépenses (2 265 351,07 €) et les recettes (1 218 369,23 €) ne s'additionnent pas.",
+ "source": {
+  "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024",
+  "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+  "producteur": "OFGL / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-20",
+  "maj": "2026-07-20"
+ },
+ "enfants": [
+  {
+   "id": "ccas.267303428.depenses",
+   "label": "Dépenses 2024 (comptes consolidés)",
+   "montant": 2265351.07,
+   "annee": 2024,
+   "statut": "confirme",
+   "source": {
+    "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Dépenses totales »",
+    "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+    "producteur": "OFGL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-20",
+    "maj": "2026-07-20"
+   },
+   "enfants": [],
+   "description": "Total seul : la somme des sections fonctionnement et investissement publiée par la source ne reconstitue pas ce total. Aucune ventilation n'est affichée plutôt qu'une ventilation fausse."
+  },
+  {
+   "id": "ccas.267303428.recettes",
+   "label": "Recettes 2024 (comptes consolidés)",
+   "montant": 1218369.23,
+   "annee": 2024,
+   "statut": "confirme",
+   "source": {
+    "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Recettes totales »",
+    "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+    "producteur": "OFGL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-20",
+    "maj": "2026-07-20"
+   },
+   "enfants": [],
+   "description": "Total seul : la somme des sections fonctionnement et investissement publiée par la source ne reconstitue pas ce total. Aucune ventilation n'est affichée plutôt qu'une ventilation fausse."
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "id": "ccas.267901114",
+ "label": "CCAS VILLIERS-EN-PLAINE (267901114)",
+ "montant": null,
+ "annee": 2024,
+ "statut": "confirme",
+ "bloc_univers": "APUL.odal",
+ "volet": "mixte",
+ "niveaux": [
+  "P2",
+  "P2",
+  "P2",
+  null,
+  null,
+  null
+ ],
+ "description": "Fiche de centre d'action sociale (ADR-0004) — CCAS VILLIERS-EN-PLAINE, code 267901114. Comptes 2024 exécutés, CONSOLIDÉS (budget principal et budgets annexes). Le montant racine est volontairement null : les dépenses (6 648,57 €) et les recettes (9 851,60 €) ne s'additionnent pas.",
+ "source": {
+  "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024",
+  "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+  "producteur": "OFGL / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-20",
+  "maj": "2026-07-20"
+ },
+ "enfants": [
+  {
+   "id": "ccas.267901114.depenses",
+   "label": "Dépenses 2024 (comptes consolidés)",
+   "montant": 6648.57,
+   "annee": 2024,
+   "statut": "confirme",
+   "source": {
+    "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Dépenses totales »",
+    "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+    "producteur": "OFGL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-20",
+    "maj": "2026-07-20"
+   },
+   "enfants": [],
+   "description": "Total seul : la somme des sections fonctionnement et investissement publiée par la source ne reconstitue pas ce total. Aucune ventilation n'est affichée plutôt qu'une ventilation fausse."
+  },
+  {
+   "id": "ccas.267901114.recettes",
+   "label": "Recettes 2024 (comptes consolidés)",
+   "montant": 9851.6,
+   "annee": 2024,
+   "statut": "confirme",
+   "source": {
+    "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Recettes totales »",
+    "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+    "producteur": "OFGL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-20",
+    "maj": "2026-07-20"
+   },
+   "enfants": [],
+   "description": "Total seul : la somme des sections fonctionnement et investissement publiée par la source ne reconstitue pas ce total. Aucune ventilation n'est affichée plutôt qu'une ventilation fausse."
+  }
+ ]
+}

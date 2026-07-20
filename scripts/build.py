@@ -453,7 +453,8 @@ def main():
     # Fiches de collectivités (ADR-0004), tous échelons : communes, départements,
     # régions, syndicats. Elles sont validées comme le reste mais publiées en
     # fragments individuels — jamais dans data.js, qui resterait sinon inchargeable.
-    ECHELONS_FICHES = ("communes", "groupements", "departements", "regions", "syndicats")
+    ECHELONS_FICHES = ("communes", "groupements", "departements", "regions",
+                       "syndicats", "ccas", "sdis")
     fiches_dirs = {os.path.join(ROOT, "data", "collectivites", e) + os.sep: e
                    for e in ECHELONS_FICHES}
     flux_dir = os.path.join(ROOT, "data", "flux") + os.sep

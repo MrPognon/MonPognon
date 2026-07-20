@@ -1,0 +1,144 @@
+{
+ "id": "ccas.267600898",
+ "label": "RA LE CLOS FLEURY - CCAS GONFREVILLE (267600898)",
+ "montant": null,
+ "annee": 2024,
+ "statut": "confirme",
+ "bloc_univers": "APUL.odal",
+ "volet": "mixte",
+ "niveaux": [
+  "P2",
+  "P2",
+  "P2",
+  null,
+  null,
+  null
+ ],
+ "description": "Fiche de centre d'action sociale (ADR-0004) — RA LE CLOS FLEURY - CCAS GONFREVILLE, code 267600898. Comptes 2024 exécutés, CONSOLIDÉS (budget principal et budgets annexes). Le montant racine est volontairement null : les dépenses (983 142,28 €) et les recettes (1 132 220,18 €) ne s'additionnent pas.",
+ "source": {
+  "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024",
+  "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+  "producteur": "OFGL / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-20",
+  "maj": "2026-07-20"
+ },
+ "enfants": [
+  {
+   "id": "ccas.267600898.depenses",
+   "label": "Dépenses 2024 (comptes consolidés)",
+   "montant": 983142.28,
+   "annee": 2024,
+   "statut": "confirme",
+   "source": {
+    "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Dépenses totales »",
+    "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+    "producteur": "OFGL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-20",
+    "maj": "2026-07-20"
+   },
+   "enfants": [],
+   "description": "Total seul : la somme des sections fonctionnement et investissement publiée par la source ne reconstitue pas ce total. Aucune ventilation n'est affichée plutôt qu'une ventilation fausse."
+  },
+  {
+   "id": "ccas.267600898.recettes",
+   "label": "Recettes 2024 (comptes consolidés)",
+   "montant": 1132220.18,
+   "annee": 2024,
+   "statut": "confirme",
+   "source": {
+    "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Recettes totales »",
+    "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+    "producteur": "OFGL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-20",
+    "maj": "2026-07-20"
+   },
+   "enfants": [
+    {
+     "id": "ccas.267600898.recettes.fonctionnement",
+     "label": "Recettes de fonctionnement",
+     "montant": 1126583.8,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Recettes de fonctionnement »",
+      "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+      "producteur": "OFGL / DGFiP",
+      "licence": "Licence Ouverte 2.0",
+      "consulte_le": "2026-07-20",
+      "maj": "2026-07-20"
+     },
+     "enfants": []
+    },
+    {
+     "id": "ccas.267600898.recettes.investissement",
+     "label": "Recettes d'investissement",
+     "montant": 5636.38,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Recettes d'investissement »",
+      "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+      "producteur": "OFGL / DGFiP",
+      "licence": "Licence Ouverte 2.0",
+      "consulte_le": "2026-07-20",
+      "maj": "2026-07-20"
+     },
+     "enfants": [
+      {
+       "id": "ccas.267600898.recettes.investissement.emprunts",
+       "label": "Emprunts (hors gestion active de la dette)",
+       "montant": 0.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Emprunts hors GAD »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-20"
+       },
+       "enfants": []
+      },
+      {
+       "id": "ccas.267600898.recettes.investissement.fctva",
+       "label": "FCTVA (remboursement de TVA sur investissements)",
+       "montant": 4803.62,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « FCTVA »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-20"
+       },
+       "enfants": []
+      },
+      {
+       "id": "ccas.267600898.recettes.investissement.autres",
+       "label": "Autres recettes d'investissement",
+       "montant": 132.75,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Autres recettes d'investissement »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-20"
+       },
+       "enfants": []
+      }
+     ],
+     "description": "Ventilation partielle : postes principaux uniquement — la somme des enfants est inférieure au total, le reliquat correspond à d'autres agrégats OFGL non repris ici."
+    }
+   ]
+  }
+ ]
+}

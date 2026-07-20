@@ -1,0 +1,176 @@
+{
+ "id": "ccas.268101151",
+ "label": "EHPAD CHEZ NOUS-CCAS ST-SULPICE (268101151)",
+ "montant": null,
+ "annee": 2024,
+ "statut": "confirme",
+ "bloc_univers": "APUL.odal",
+ "volet": "mixte",
+ "niveaux": [
+  "P2",
+  "P2",
+  "P2",
+  null,
+  null,
+  null
+ ],
+ "description": "Fiche de centre d'action sociale (ADR-0004) — EHPAD CHEZ NOUS-CCAS ST-SULPICE, code 268101151. Comptes 2024 exécutés, CONSOLIDÉS (budget principal et budgets annexes). Le montant racine est volontairement null : les dépenses (4 338 044,25 €) et les recettes (4 370 602,55 €) ne s'additionnent pas.",
+ "source": {
+  "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024",
+  "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+  "producteur": "OFGL / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-20",
+  "maj": "2026-07-20"
+ },
+ "enfants": [
+  {
+   "id": "ccas.268101151.depenses",
+   "label": "Dépenses 2024 (comptes consolidés)",
+   "montant": 4338044.25,
+   "annee": 2024,
+   "statut": "confirme",
+   "source": {
+    "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Dépenses totales »",
+    "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+    "producteur": "OFGL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-20",
+    "maj": "2026-07-20"
+   },
+   "enfants": [
+    {
+     "id": "ccas.268101151.depenses.fonctionnement",
+     "label": "Dépenses de fonctionnement",
+     "montant": 4123303.54,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Dépenses de fonctionnement »",
+      "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+      "producteur": "OFGL / DGFiP",
+      "licence": "Licence Ouverte 2.0",
+      "consulte_le": "2026-07-20",
+      "maj": "2026-07-20"
+     },
+     "enfants": [
+      {
+       "id": "ccas.268101151.depenses.fonctionnement.personnel",
+       "label": "Frais de personnel",
+       "montant": 3276270.85,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Frais de personnel »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-20"
+       },
+       "enfants": []
+      },
+      {
+       "id": "ccas.268101151.depenses.fonctionnement.achats",
+       "label": "Achats et charges externes",
+       "montant": 767679.65,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Achats et charges externes »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-20"
+       },
+       "enfants": []
+      },
+      {
+       "id": "ccas.268101151.depenses.fonctionnement.intervention",
+       "label": "Dépenses d'intervention",
+       "montant": 0.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Dépenses d'intervention »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-20"
+       },
+       "enfants": []
+      },
+      {
+       "id": "ccas.268101151.depenses.fonctionnement.autres",
+       "label": "Autres dépenses de fonctionnement",
+       "montant": 501.49,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Autres dépenses de fonctionnement »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-20"
+       },
+       "enfants": []
+      },
+      {
+       "id": "ccas.268101151.depenses.fonctionnement.charges-financieres",
+       "label": "Charges financières",
+       "montant": 0.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Charges financières »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-07-20"
+       },
+       "enfants": []
+      }
+     ],
+     "description": "Ventilation partielle : postes principaux uniquement — la somme des enfants est inférieure au total, le reliquat correspond à d'autres agrégats OFGL non repris ici."
+    },
+    {
+     "id": "ccas.268101151.depenses.investissement",
+     "label": "Dépenses d'investissement",
+     "montant": 214740.71,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Dépenses d'investissement »",
+      "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+      "producteur": "OFGL / DGFiP",
+      "licence": "Licence Ouverte 2.0",
+      "consulte_le": "2026-07-20",
+      "maj": "2026-07-20"
+     },
+     "enfants": []
+    }
+   ]
+  },
+  {
+   "id": "ccas.268101151.recettes",
+   "label": "Recettes 2024 (comptes consolidés)",
+   "montant": 4370602.55,
+   "annee": 2024,
+   "statut": "confirme",
+   "source": {
+    "nom": "OFGL — Comptes des CCAS et CIAS (jeu ofgl-base-ccas-cias), comptes consolidés, exercice 2024, agrégat « Recettes totales »",
+    "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/",
+    "producteur": "OFGL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-20",
+    "maj": "2026-07-20"
+   },
+   "enfants": [],
+   "description": "Total seul : la somme des sections fonctionnement et investissement publiée par la source ne reconstitue pas ce total. Aucune ventilation n'est affichée plutôt qu'une ventilation fausse."
+  }
+ ]
+}

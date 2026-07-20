@@ -277,10 +277,11 @@
           "raccord_publie": false,
           "ecart_millesime": false,
           "manque": {
-            "quoi": "Aucun ODAL modélisé (SDIS, CCAS, régies…).",
-            "contact": "OFGL — jeux ofgl-base-sdis et ofgl-base-ccas-cias",
+            "quoi": "Un référentiel de comptage couvrant l'ENSEMBLE du périmètre ODAL (S13132). La définition INSEE du bloc énumère « centres communaux d'action sociale, caisses des écoles, services départementaux d'incendie et de secours » ; s'y ajoutent régies personnalisées, EPA locaux, GIP et agences d'urbanisme. Or, sur les 16 jeux de comptes de l'OFGL (catalogue vérifié le 20/07/2026), SEULS `ofgl-base-ccas-cias` et `ofgl-base-sdis` relèvent de ce périmètre : 14,88 Md€ de dépenses, soit environ 31 % des 48,51 Md€ du bloc. Appliquer un coefficient mesuré sur ces deux jeux au poids entier du bloc reviendrait à annoncer une couverture intégrale d'un périmètre couvert à moins d'un tiers — exactement l'erreur commise puis corrigée sur les EPCI (S131311). Le coefficient reste donc nul tant que le reste du périmètre n'est pas publié. Constat établi sur le catalogue OFGL ; il n'est pas démontré qu'aucune autre source publique ne couvre les ODAL manquants.",
+            "contact": "OFGL / DGCL — étendre la publication des comptes locaux aux autres organismes divers d'administration locale (caisses des écoles, régies personnalisées, EPA locaux, GIP), à la granularité déjà offerte pour les CCAS et les SDIS. En second recours : l'INSEE, pour une ventilation publiée du bloc S13132.",
             "url": "https://data.ofgl.fr/"
-          }
+          },
+          "note": "DONNÉES PRÉSENTES MAIS NON COMPTABILISÉES — et c'est délibéré. Le dépôt porte 11 491 fiches d'ODAL (11 394 CCAS/CIAS et 97 SDIS), soit 8.99 Md€ de recettes, toutes sourcées et réconciliées. Elles ne sont pourtant PAS comptées dans C, faute de référentiel de comptage couvrant le bloc."
         }
       ]
     },

@@ -1,0 +1,8 @@
+{
+ "dataset": "ofgl-base-ccas-cias",
+ "filtre": "year(exer)=2024",
+ "consulte_le": "2026-07-20",
+ "maj_dataset": "2026-07-20",
+ "lignes": 584000,
+ "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-ccas-cias/"
+}
