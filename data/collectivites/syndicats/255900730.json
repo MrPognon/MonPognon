@@ -1,0 +1,402 @@
+{
+ "id": "syndicat.255900730",
+ "label": "SI DES TROIS VILLES (255900730)",
+ "montant": null,
+ "annee": 2024,
+ "statut": "confirme",
+ "bloc_univers": "APUL.syndicats",
+ "volet": "mixte",
+ "niveaux": [
+  "P2",
+  "P2",
+  "P2",
+  null,
+  null,
+  null
+ ],
+ "description": "Fiche de syndicat (ADR-0004) — SI DES TROIS VILLES, code 255900730. Comptes 2024 exécutés, CONSOLIDÉS (budget principal et budgets annexes). Le montant racine est volontairement null : les dépenses (867 918,84 €) et les recettes (767 485,77 €) ne s'additionnent pas.",
+ "source": {
+  "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024",
+  "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+  "producteur": "OFGL / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-20",
+  "maj": "2025-12-10"
+ },
+ "enfants": [
+  {
+   "id": "syndicat.255900730.depenses",
+   "label": "Dépenses 2024 (comptes consolidés)",
+   "montant": 867918.84,
+   "annee": 2024,
+   "statut": "confirme",
+   "source": {
+    "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses totales »",
+    "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+    "producteur": "OFGL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-20",
+    "maj": "2025-12-10"
+   },
+   "enfants": [
+    {
+     "id": "syndicat.255900730.depenses.fonctionnement",
+     "label": "Dépenses de fonctionnement",
+     "montant": 782406.75,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses de fonctionnement »",
+      "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+      "producteur": "OFGL / DGFiP",
+      "licence": "Licence Ouverte 2.0",
+      "consulte_le": "2026-07-20",
+      "maj": "2025-12-10"
+     },
+     "enfants": [
+      {
+       "id": "syndicat.255900730.depenses.fonctionnement.personnel",
+       "label": "Frais de personnel",
+       "montant": 428210.08,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Frais de personnel »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-12-10"
+       },
+       "enfants": []
+      },
+      {
+       "id": "syndicat.255900730.depenses.fonctionnement.achats",
+       "label": "Achats et charges externes",
+       "montant": 332412.57,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Achats et charges externes »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-12-10"
+       },
+       "enfants": []
+      },
+      {
+       "id": "syndicat.255900730.depenses.fonctionnement.intervention",
+       "label": "Dépenses d'intervention",
+       "montant": 0.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses d'intervention »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-12-10"
+       },
+       "enfants": []
+      },
+      {
+       "id": "syndicat.255900730.depenses.fonctionnement.autres",
+       "label": "Autres dépenses de fonctionnement",
+       "montant": 21784.1,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Autres dépenses de fonctionnement »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-12-10"
+       },
+       "enfants": []
+      },
+      {
+       "id": "syndicat.255900730.depenses.fonctionnement.charges-financieres",
+       "label": "Charges financières",
+       "montant": 0.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Charges financières »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-12-10"
+       },
+       "enfants": []
+      }
+     ]
+    },
+    {
+     "id": "syndicat.255900730.depenses.investissement",
+     "label": "Dépenses d'investissement",
+     "montant": 85512.09,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses d'investissement »",
+      "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+      "producteur": "OFGL / DGFiP",
+      "licence": "Licence Ouverte 2.0",
+      "consulte_le": "2026-07-20",
+      "maj": "2025-12-10"
+     },
+     "enfants": [
+      {
+       "id": "syndicat.255900730.depenses.investissement.equipement",
+       "label": "Dépenses d'équipement",
+       "montant": 85512.09,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses d'équipement »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-12-10"
+       },
+       "enfants": []
+      },
+      {
+       "id": "syndicat.255900730.depenses.investissement.remboursement-emprunts",
+       "label": "Remboursements d'emprunts (hors gestion active de la dette)",
+       "montant": 0.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Remboursements d'emprunts hors GAD »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-12-10"
+       },
+       "enfants": []
+      },
+      {
+       "id": "syndicat.255900730.depenses.investissement.autres",
+       "label": "Autres dépenses d'investissement",
+       "montant": 0.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Autres dépenses d'investissement »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-12-10"
+       },
+       "enfants": []
+      },
+      {
+       "id": "syndicat.255900730.depenses.investissement.subventions-versees",
+       "label": "Subventions d'équipement versées",
+       "montant": 0.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Subventions d'équipement versées »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-12-10"
+       },
+       "enfants": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "syndicat.255900730.recettes",
+   "label": "Recettes 2024 (comptes consolidés)",
+   "montant": 767485.77,
+   "annee": 2024,
+   "statut": "confirme",
+   "source": {
+    "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Recettes totales »",
+    "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+    "producteur": "OFGL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-20",
+    "maj": "2025-12-10"
+   },
+   "enfants": [
+    {
+     "id": "syndicat.255900730.recettes.fonctionnement",
+     "label": "Recettes de fonctionnement",
+     "montant": 763492.08,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Recettes de fonctionnement »",
+      "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+      "producteur": "OFGL / DGFiP",
+      "licence": "Licence Ouverte 2.0",
+      "consulte_le": "2026-07-20",
+      "maj": "2025-12-10"
+     },
+     "enfants": [
+      {
+       "id": "syndicat.255900730.recettes.fonctionnement.impots",
+       "label": "Impôts et taxes",
+       "montant": 0.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Impôts et taxes »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-12-10"
+       },
+       "enfants": []
+      },
+      {
+       "id": "syndicat.255900730.recettes.fonctionnement.concours-etat",
+       "label": "Concours de l'État (dont DGF)",
+       "montant": 2699.23,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Concours de l'Etat »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-12-10"
+       },
+       "enfants": []
+      },
+      {
+       "id": "syndicat.255900730.recettes.fonctionnement.ventes",
+       "label": "Ventes de biens et services",
+       "montant": 153960.46,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Ventes de biens et services »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-12-10"
+       },
+       "enfants": []
+      },
+      {
+       "id": "syndicat.255900730.recettes.fonctionnement.subventions-participations",
+       "label": "Subventions reçues et participations",
+       "montant": 602337.8,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Subventions reçues et participations »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-12-10"
+       },
+       "enfants": []
+      },
+      {
+       "id": "syndicat.255900730.recettes.fonctionnement.autres",
+       "label": "Autres recettes de fonctionnement",
+       "montant": 4494.59,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Autres recettes de fonctionnement »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-12-10"
+       },
+       "enfants": []
+      }
+     ]
+    },
+    {
+     "id": "syndicat.255900730.recettes.investissement",
+     "label": "Recettes d'investissement",
+     "montant": 3993.69,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Recettes d'investissement »",
+      "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+      "producteur": "OFGL / DGFiP",
+      "licence": "Licence Ouverte 2.0",
+      "consulte_le": "2026-07-20",
+      "maj": "2025-12-10"
+     },
+     "enfants": [
+      {
+       "id": "syndicat.255900730.recettes.investissement.emprunts",
+       "label": "Emprunts (hors gestion active de la dette)",
+       "montant": 0.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Emprunts hors GAD »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-12-10"
+       },
+       "enfants": []
+      },
+      {
+       "id": "syndicat.255900730.recettes.investissement.fctva",
+       "label": "FCTVA (remboursement de TVA sur investissements)",
+       "montant": 3993.69,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « FCTVA »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-12-10"
+       },
+       "enfants": []
+      },
+      {
+       "id": "syndicat.255900730.recettes.investissement.autres",
+       "label": "Autres recettes d'investissement",
+       "montant": 0.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des syndicats (jeu ofgl-base-syndicats-consolidee), comptes consolidés, exercice 2024, agrégat « Autres recettes d'investissement »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-12-10"
+       },
+       "enfants": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

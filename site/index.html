@@ -636,14 +636,18 @@ majBadgeCP();
     },250);
   });
   const AGS=["Dépenses totales","Dépenses de fonctionnement","Dépenses d'investissement","Recettes totales","Recettes de fonctionnement","Recettes d'investissement"];
-  window.__chargerFicheCommune=(insee)=>chargerFiche(insee);   // utilisé par la recherche globale (issue #18)
+  window.__chargerFicheCommune=(code,ech)=>chargerFiche(code,ech||'communes');   // recherche globale (issue #18)
   const panneau=h=>afficherPanneau(h);   // → panneau desktop ou bottom sheet mobile
-  async function chargerFiche(insee){
+  async function chargerFiche(insee, ech){
     panneau('<h2>🏘️ Chargement…</h2>');
     try{ // 1) la fiche versionnée au dépôt (fragment généré par build.py)
-      const r=await fetch(`data/communes/${insee}.json`);
+      const r=await fetch(`data/${ech||'communes'}/${insee}.json`);
       if(r.ok){rendreDepot(await r.json()); return;}
     }catch(e){}
+    if(ech && ech!=='communes'){   // pas de repli API pour les autres échelons
+      panneau(`<h2>Fiche introuvable</h2><p class="desc">Le fragment <code>data/${ech}/${insee}.json</code> n'a pas pu être chargé.</p>`);
+      return;
+    }
     try{ // 2) l'API OFGL en direct — toute commune de France
       const w=`insee="${insee}" and type_de_budget="Budget principal" and agregat in ("${AGS.join('","')}")`;
       const r=await fetch(`https://data.ofgl.fr/api/explore/v2.1/catalog/datasets/ofgl-base-communes/records?where=${encodeURIComponent(w)}&select=agregat,montant,exer,com_name,ptot&limit=100`);
@@ -664,7 +668,9 @@ majBadgeCP();
         h+=`<li>${c.label} : <b>${fmtEUR(c.montant)}</b>${(c.enfants||[]).length?`<ul style="margin-left:14px;color:var(--mute)">${c.enfants.map(x=>`<li>${x.label} : ${fmtEUR(x.montant)}</li>`).join('')}</ul>`:''}</li>`;
       return h+'</ul>'; };
     const dep=(f.enfants||[]).find(c=>c.id.endsWith('.depenses')), rec=(f.enfants||[]).find(c=>c.id.endsWith('.recettes'));
-    panneau(`<h2>🏘️ ${f.label}</h2><span class="tag badge ok">Fiche versionnée au dépôt — sourcée et revue</span>
+    const EMOJI={commune:'🏘️',departement:'🏛️',region:'🗺️',syndicat:'🔗'};
+    const ico=EMOJI[(f.id||'').split('.')[0]]||'🏘️';
+    panneau(`<h2>${ico} ${f.label}</h2><span class="tag badge ok">Fiche versionnée au dépôt — sourcée et revue</span>
       ${f.description?`<p class="desc">${f.description}</p>`:''}
       ${bloc('💸 Dépenses',dep)}${bloc('💰 Recettes',rec)}
       <div class="src">📚 <b>${f.source.nom}</b><br><a href="${f.source.url}" target="_blank">${f.source.url}</a></div>`);
@@ -777,7 +783,12 @@ function renderTreemap(data){
       (n.enfants||[]).forEach(c=>walk(c,chemin?chemin+' › '+n.label:n.label));
     })(arbre,'');
   }
-  (window.COMMUNES_IDX||[]).forEach(c=>INDEX.push({commune:c.i,label:c.n,nl:norm(c.n),chemin:'🏘️ fiche communale',statut:'confirme'}));
+  // Un échelon = un dossier de fragments. Sans « e », un département serait cherché
+  // dans data/communes/ et la fiche ne se chargerait jamais.
+  const ECH_LIB={communes:'🏘️ fiche communale',departements:'🏛️ fiche départementale',
+                 regions:'🗺️ fiche régionale',syndicats:'🔗 fiche de syndicat'};
+  (window.COMMUNES_IDX||[]).forEach(c=>INDEX.push({collectivite:c.i,echelon:c.e||'communes',
+    label:c.n,nl:norm(c.n),chemin:ECH_LIB[c.e||'communes']||'fiche',statut:'confirme'}));
   let hits=[],actif=-1;
   function chercher(q){
     const s=norm(q.trim());
@@ -806,7 +817,7 @@ function renderTreemap(data){
   function aller(e){
     fermer(); inp.value=e.label;
     if(estMobile()&&window.__fermerRechercheMobile) window.__fermerRechercheMobile();
-    if(e.commune){window.__chargerFicheCommune&&window.__chargerFicheCommune(e.commune); return;}
+    if(e.collectivite){window.__chargerFicheCommune&&window.__chargerFicheCommune(e.collectivite,e.echelon); return;}
     if(e.m&&e.m!==mode){
       mode=e.m;
       document.querySelectorAll('.mode-btn').forEach(x=>x.classList.toggle('active',x.dataset.mode===mode));

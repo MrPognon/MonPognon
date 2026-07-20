@@ -77,9 +77,15 @@ QUALIF = {
     ),
 }
 
-# Fiches communales (ADR-0004) : la commune est l'entité nommée (P2) ; sa
-# ventilation interne par nature de dépense n'avance pas l'axe destination.
-FICHE_COMMUNALE = ("APUL.communes", "mixte", ["P2", "P2", "P2", None, None, None])
+# Fiches de collectivités (ADR-0004) : l'entité est nommée (P2) ; sa ventilation
+# interne par nature de dépense n'avance pas l'axe destination. Un échelon = un bloc.
+NIVEAUX_FICHE = ["P2", "P2", "P2", None, None, None]
+FICHES_ECHELONS = {
+    "communes": "APUL.communes",
+    "departements": "APUL.departements",
+    "regions": "APUL.regions",
+    "syndicats": "APUL.syndicats",
+}
 
 NIVEAUX_VALIDES = {"P0", "P1", "P2", "P3", "P4", "P5", "P6", None}
 
@@ -112,8 +118,10 @@ def main():
     modifies = erreurs = 0
 
     cibles = list(QUALIF.items())
-    for f in sorted(glob.glob(os.path.join(ROOT, "data", "collectivites", "communes", "*", "*.json"))):
-        cibles.append((os.path.relpath(f, ROOT), FICHE_COMMUNALE))
+    for ech, bloc in FICHES_ECHELONS.items():
+        motif = ("*", "*.json") if ech == "communes" else ("*.json",)
+        for f in sorted(glob.glob(os.path.join(ROOT, "data", "collectivites", ech, *motif))):
+            cibles.append((os.path.relpath(f, ROOT), (bloc, "mixte", NIVEAUX_FICHE)))
 
     for rel, (bloc, volet, niveaux) in cibles:
         chemin = os.path.join(ROOT, rel)

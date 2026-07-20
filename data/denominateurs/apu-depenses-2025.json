@@ -170,16 +170,23 @@
           "poids_derive": true,
           "methode_poids": "Poids publié × facteur de consolidation du sous-secteur (répartition des transferts internes au prorata des poids bruts). Voir `methode_consolidation` à la racine.",
           "sens_du_biais": "neutre",
-          "referentiel_comptage": null,
-          "couvert_referentiel_eur": null,
+          "referentiel_comptage": {
+            "nom": "OFGL — comptes consolidés des départements, exercice 2024, agrégat « Dépenses totales »",
+            "total_eur": 95977414003.86,
+            "source": {
+              "nom": "ofgl-base-departements-consolidee",
+              "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
+              "producteur": "OFGL / DGCL",
+              "licence": "Licence Ouverte 2.0",
+              "consulte_le": "2026-07-20"
+            },
+            "verification": "Somme recalculée le 20/07/2026 par appel API sur l'ensemble des départements."
+          },
+          "couvert_referentiel_eur": 95977414003.86,
           "noeuds": [],
           "raccord_publie": false,
-          "ecart_millesime": false,
-          "manque": {
-            "quoi": "Aucun département modélisé.",
-            "contact": "OFGL — jeu ofgl-base-departements-consolidee",
-            "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/"
-          }
+          "ecart_millesime": true,
+          "note": "97 fiches, couverture intégrale du référentiel au centime. Contrairement aux communes, le numérateur est ici en comptes CONSOLIDÉS (budget principal et budgets annexes), exactement comme le référentiel : aucun biais de périmètre à déclarer. Écart de millésime assumé : fiches 2024, univers 2025."
         },
         {
           "code": "APUL.regions",
@@ -197,16 +204,23 @@
           "poids_derive": true,
           "methode_poids": "Poids publié × facteur de consolidation du sous-secteur (répartition des transferts internes au prorata des poids bruts). Voir `methode_consolidation` à la racine.",
           "sens_du_biais": "neutre",
-          "referentiel_comptage": null,
-          "couvert_referentiel_eur": null,
+          "referentiel_comptage": {
+            "nom": "OFGL — comptes consolidés des régions, exercice 2024, agrégat « Dépenses totales »",
+            "total_eur": 42987027594.7,
+            "source": {
+              "nom": "ofgl-base-regions-consolidee",
+              "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
+              "producteur": "OFGL / DGCL",
+              "licence": "Licence Ouverte 2.0",
+              "consulte_le": "2026-07-20"
+            },
+            "verification": "Somme recalculée le 20/07/2026 par appel API sur l'ensemble des régions."
+          },
+          "couvert_referentiel_eur": 42987027594.7,
           "noeuds": [],
           "raccord_publie": false,
-          "ecart_millesime": false,
-          "manque": {
-            "quoi": "Aucune région modélisée.",
-            "contact": "OFGL — jeu ofgl-base-regions-consolidee",
-            "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/"
-          }
+          "ecart_millesime": true,
+          "note": "17 fiches, couverture intégrale du référentiel au centime. Contrairement aux communes, le numérateur est ici en comptes CONSOLIDÉS (budget principal et budgets annexes), exactement comme le référentiel : aucun biais de périmètre à déclarer. Écart de millésime assumé : fiches 2024, univers 2025."
         },
         {
           "code": "APUL.syndicats",
@@ -224,16 +238,23 @@
           "poids_derive": true,
           "methode_poids": "Poids publié × facteur de consolidation du sous-secteur (répartition des transferts internes au prorata des poids bruts). Voir `methode_consolidation` à la racine.",
           "sens_du_biais": "neutre",
-          "referentiel_comptage": null,
-          "couvert_referentiel_eur": null,
+          "referentiel_comptage": {
+            "nom": "OFGL — comptes consolidés des syndicats, exercice 2024, agrégat « Dépenses totales »",
+            "total_eur": 24381933725.9,
+            "source": {
+              "nom": "ofgl-base-syndicats-consolidee",
+              "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/",
+              "producteur": "OFGL / DGCL",
+              "licence": "Licence Ouverte 2.0",
+              "consulte_le": "2026-07-20"
+            },
+            "verification": "Somme recalculée le 20/07/2026 par appel API sur l'ensemble des syndicats."
+          },
+          "couvert_referentiel_eur": 24381933725.9,
           "noeuds": [],
           "raccord_publie": false,
-          "ecart_millesime": false,
-          "manque": {
-            "quoi": "Aucun syndicat modélisé.",
-            "contact": "OFGL — jeu ofgl-base-syndicats-consolidee",
-            "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/"
-          }
+          "ecart_millesime": true,
+          "note": "8743 fiches, couverture intégrale du référentiel au centime. Contrairement aux communes, le numérateur est ici en comptes CONSOLIDÉS (budget principal et budgets annexes), exactement comme le référentiel : aucun biais de périmètre à déclarer. Écart de millésime assumé : fiches 2024, univers 2025."
         },
         {
           "code": "APUL.odal",

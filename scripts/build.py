@@ -450,7 +450,12 @@ def valider_racine_cp(node, path, codes):
 def main():
     data, fiches, seen = {}, {}, set()
     flux_docs, denominateurs = {}, {}
-    communes_dir = os.path.join(ROOT, "data", "collectivites", "communes") + os.sep
+    # Fiches de collectivités (ADR-0004), tous échelons : communes, départements,
+    # régions, syndicats. Elles sont validées comme le reste mais publiées en
+    # fragments individuels — jamais dans data.js, qui resterait sinon inchargeable.
+    ECHELONS_FICHES = ("communes", "departements", "regions", "syndicats")
+    fiches_dirs = {os.path.join(ROOT, "data", "collectivites", e) + os.sep: e
+                   for e in ECHELONS_FICHES}
     flux_dir = os.path.join(ROOT, "data", "flux") + os.sep
     denom_dir = os.path.join(ROOT, "data", "denominateurs") + os.sep
     for f in sorted(glob.glob(os.path.join(ROOT, "data", "**", "*.json"), recursive=True)):
@@ -466,10 +471,11 @@ def main():
             continue
         resoudre_sources(node, os.path.relpath(f, ROOT))
         validate(node, os.path.relpath(f, ROOT), seen)
-        # Fiches communales (ADR-0004) : validées comme le reste, publiées en
-        # fragments individuels chargés à la demande — jamais dans data.js.
-        if f.startswith(communes_dir):
-            fiches[os.path.basename(f).removesuffix(".json")] = node
+        ech = next((e for d, e in fiches_dirs.items() if f.startswith(d)), None)
+        if ech:
+            # clé = (échelon, code) : un département « 45 » et une commune « 45001 »
+            # ne peuvent pas se marcher dessus, et l'échelon suit jusqu'au fragment.
+            fiches[(ech, os.path.basename(f).removesuffix(".json"))] = node
         else:
             data[key] = node
     for path, doc in flux_docs.items():
@@ -477,7 +483,7 @@ def main():
     # Qualification C·P : validée APRÈS la boucle, le dénominateur devant être chargé
     codes = {ss["code"] for d in denominateurs.values()
              for seg in d["segments"] for ss in seg["sous_segments"]}
-    for cle, node in list(data.items()) + list(fiches.items()):
+    for cle, node in list(data.items()) + [(f"{e}/{c}", n) for (e, c), n in fiches.items()]:
         valider_racine_cp(node, cle, codes)
         valider_rattachements(node, cle, seen)
     if "--show" in sys.argv:  # affiche un nœud avec sa source résolue (ADR-0005)
@@ -504,7 +510,13 @@ def main():
     if errors:
         for e in errors: print("ERREUR:", e, file=sys.stderr)
         sys.exit(1)
-    extra = f" + {len(fiches)} fiche(s) communale(s)" if fiches else ""
+    if fiches:
+        par_ech = {}
+        for (e, _), _n in fiches.items():
+            par_ech[e] = par_ech.get(e, 0) + 1
+        extra = " + " + " + ".join(f"{v} {k}" for k, v in sorted(par_ech.items()))
+    else:
+        extra = ""
     n_flux = sum(len(d.get("flux", [])) for d in flux_docs.values())
     if n_flux:
         extra += f" + {n_flux} flux"
@@ -516,15 +528,18 @@ def main():
             fh.write("window.DATA = " + json.dumps(data, ensure_ascii=False) + ";\n")
         print("→", out)
         if fiches:
-            frag_dir = os.path.join(ROOT, "site", "data", "communes")
-            os.makedirs(frag_dir, exist_ok=True)
-            for insee, node in sorted(fiches.items()):
-                with open(os.path.join(frag_dir, insee + ".json"), "w", encoding="utf-8") as fh:
+            for ech in {e for e, _ in fiches}:
+                os.makedirs(os.path.join(ROOT, "site", "data", ech), exist_ok=True)
+            for (ech, code), node in sorted(fiches.items()):
+                with open(os.path.join(ROOT, "site", "data", ech, code + ".json"), "w", encoding="utf-8") as fh:
                     json.dump(node, fh, ensure_ascii=False)
-            print(f"→ {frag_dir}{os.sep} ({len(fiches)} fragment(s))")
+            print(f"→ site/data/<échelon>/ ({len(fiches)} fragment(s))")
             with open(os.path.join(ROOT, "site", "communes-index.js"), "w", encoding="utf-8") as fh:
                 fh.write("// Généré par scripts/build.py — NE PAS ÉDITER À LA MAIN (éditez data/)\n")
-                idx = [{"i": insee, "n": n["label"].split(" (")[0]} for insee, n in sorted(fiches.items())]
+                # « e » = échelon : le site sait ainsi où chercher le fragment et
+                # comment libeller le résultat (commune, département, région, syndicat).
+                idx = [{"i": code, "e": ech, "n": n["label"].split(" (")[0]}
+                       for (ech, code), n in sorted(fiches.items())]
                 fh.write("window.COMMUNES_IDX = " + json.dumps(idx, ensure_ascii=False) + ";\n")
         # cov_doc est calculé plus haut (avant le verdict) : la CI l'exerce aussi.
         with open(os.path.join(ROOT, "site", "couverture.json"), "w", encoding="utf-8") as fh:
