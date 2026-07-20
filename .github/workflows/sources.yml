@@ -1,7 +1,8 @@
 name: Confiance des sources
 on:
   pull_request:
-    paths: ["data/**", "data-sources/domaines/**", "scripts/verifier_sources.py"]
+    paths: ["data/**", "data-sources/**", "scripts/verifier_sources.py",
+            "scripts/pipelines/**", "scripts/build.py"]
   workflow_dispatch:
 jobs:
   sources:

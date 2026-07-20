@@ -168,8 +168,18 @@ def main():
     dept = sys.argv[sys.argv.index("--departement") + 1] if "--departement" in sys.argv else "45"
     forcer = "--forcer" in sys.argv
     raw_p = os.path.join(ROOT, "data-sources", "raw", f"ofgl-communes-{dept}-2024.json.gz")
-    if "--telecharger" in sys.argv or not os.path.exists(raw_p):
+    # Le brut versionné FAIT FOI. Un brut absent est une erreur fatale : sinon un
+    # téléchargement furtif se déclenche (le réseau est disponible en CI), la fiche
+    # produite porte `consulte_le` = aujourd'hui, et l'affirmation « le raw fait foi »
+    # devient fausse précisément quand elle compte.
+    if "--telecharger" in sys.argv:
+        if os.environ.get("CI"):
+            sys.exit("ERREUR : --telecharger est refusé en CI — le brut versionné fait foi.")
         telecharger(dept, raw_p)
+    elif not os.path.exists(raw_p):
+        sys.exit(f"ERREUR : extrait brut absent — {os.path.relpath(raw_p, ROOT)}\n"
+                 f"        Le brut versionné fait foi. Pour le créer hors CI :\n"
+                 f"        python3 scripts/pipelines/fiches_communales_ofgl.py --departement {dept} --telecharger")
     meta = json.load(open(raw_p.replace(".json.gz", ".meta.json"), encoding="utf-8"))
     with gzip.open(raw_p, "rt", encoding="utf-8") as fh:
         rows = json.load(fh)
@@ -204,6 +214,18 @@ def main():
                 print(f"   {v}")
     if not rapport:
         print("réconciliations : totales = fonctionnement + investissement au centime, partout ✅")
+
+    # Sortie non nulle dès qu'un invariant casse. Sans cela, un brut tronqué, un
+    # schéma OFGL modifié ou une coupure réseau produisent une couverture partielle
+    # affichée « ✅ » avec un code de sortie 0 — l'échec silencieux le plus coûteux.
+    manquantes = len(par_commune) - (ecrites + gardees)
+    if rapport or manquantes:
+        detail = []
+        if rapport:
+            detail.append("invariants cassés : " + ", ".join(f"{k} ({len(v)})" for k, v in rapport.items()))
+        if manquantes:
+            detail.append(f"{manquantes} commune(s) du brut sans fiche produite")
+        sys.exit("ERREUR : " + " ; ".join(detail))
 
 
 if __name__ == "__main__":

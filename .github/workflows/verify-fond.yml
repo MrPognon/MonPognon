@@ -1,7 +1,8 @@
 name: Vérification de fond des sources
 on:
   pull_request:
-    paths: ["data/**"]
+    paths: ["data/**", "data-sources/**", "scripts/pipelines/**",
+            "scripts/build.py", "scripts/verifiers/**"]
   workflow_dispatch:
 jobs:
   fond:
