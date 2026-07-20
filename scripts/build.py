@@ -175,15 +175,57 @@ def valider_flux(doc, path, seen_ids):
                 errors.append(f"{path}: flux — noeud_lie inexistant « {nid} » ({fid})")
 
 
+def valider_denominateur(doc, path):
+    """Dénominateur de l'indice C·P (ADR-0006) : ce n'est PAS un arbre de nœuds.
+    On vérifie ici les seuls invariants qui rendraient l'indice faux ; le calcul
+    de C et de P viendra avec l'étape 4 de l'issue #50."""
+    for req in ("millesime", "volet", "statut_revision", "total_brut_eur",
+                "total_consolide_publie_eur", "base_retenue", "source", "segments"):
+        if req not in doc:
+            errors.append(f"{path}: dénominateur — champ requis manquant '{req}'")
+            return
+    if doc["base_retenue"] != "brut":
+        errors.append(f"{path}: dénominateur — l'ADR-0006 impose la base brute")
+    total = 0
+    for seg in doc["segments"]:
+        somme = sum(ss["poids_eur"] for ss in seg["sous_segments"])
+        # invariant cardinal : la somme des sous-segments doit refermer le segment,
+        # sinon des euros d'univers disparaissent ou sont comptés deux fois.
+        if abs(somme - seg["poids_brut_eur"]) > 2:
+            errors.append(f"{path}: dénominateur — segment {seg['code']} : "
+                          f"somme des sous-segments {somme} ≠ poids {seg['poids_brut_eur']}")
+        total += seg["poids_brut_eur"]
+        for ss in seg["sous_segments"]:
+            ident = f"{path}: dénominateur — {ss['code']}"
+            if ss.get("poids_derive") and not ss.get("methode_poids"):
+                errors.append(f"{ident} : poids dérivé sans methode_poids")
+            if ss.get("sens_du_biais") not in ("sous-estime", "sur-estime", "neutre"):
+                errors.append(f"{ident} : sens_du_biais absent ou invalide")
+            ref = ss.get("referentiel_comptage")
+            if ref is None:
+                # pas de référentiel homogène → aucune couverture ne peut être comptée
+                if ss.get("couvert_referentiel_eur"):
+                    errors.append(f"{ident} : couverture déclarée sans référentiel de comptage "
+                                  f"— interdit par l'ADR-0006 (règle du référentiel homogène)")
+            elif not ref.get("total_eur") or not ref.get("source", {}).get("url", "").startswith("https://"):
+                errors.append(f"{ident} : référentiel de comptage sans total ou sans source HTTPS")
+    if abs(total - doc["total_brut_eur"]) > 3:
+        errors.append(f"{path}: dénominateur — somme des segments {total} ≠ total_brut_eur {doc['total_brut_eur']}")
+
+
 def main():
     data, fiches, seen = {}, {}, set()
     flux_docs = {}
     communes_dir = os.path.join(ROOT, "data", "collectivites", "communes") + os.sep
     flux_dir = os.path.join(ROOT, "data", "flux") + os.sep
+    denom_dir = os.path.join(ROOT, "data", "denominateurs") + os.sep
     for f in sorted(glob.glob(os.path.join(ROOT, "data", "**", "*.json"), recursive=True)):
         key = os.path.relpath(f, os.path.join(ROOT, "data")).replace(os.sep, "_").removesuffix(".json")
         with open(f, encoding="utf-8") as fh:
             node = json.load(fh)
+        if f.startswith(denom_dir):         # dénominateurs C·P (ADR-0006) : pas des arbres
+            valider_denominateur(node, os.path.relpath(f, ROOT))
+            continue
         if f.startswith(flux_dir):          # flux (ADR-0001) : validés après les arbres
             flux_docs[os.path.relpath(f, ROOT)] = node
             continue
