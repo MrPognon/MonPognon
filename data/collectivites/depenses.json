@@ -5,6 +5,7 @@
  "annee": 2025,
  "statut": "estime",
  "bloc_univers": null,
+ "volet": "depenses",
  "niveaux": [
   "P0",
   "P1"

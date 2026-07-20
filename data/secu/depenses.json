@@ -5,6 +5,7 @@
  "annee": 2025,
  "statut": "confirme",
  "bloc_univers": "ASSO.regimes",
+ "volet": "depenses",
  "niveaux": [
   "P0",
   "P1",

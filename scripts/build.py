@@ -107,12 +107,17 @@ def indice_cp(arbres, denom):
         bloc = node.get("bloc_univers")
         if not bloc:
             continue
+        # Un arbre ne compte que dans SON volet : dépenses et recettes se mesurent
+        # contre deux dénominateurs distincts et ne doivent jamais se mélanger.
+        v = node.get("volet")
+        if v not in (volet, "mixte"):
+            continue
         niveaux = node.get("niveaux") or []
-        # Une fiche communale porte un montant racine null (ADR-0004 : dépenses et
-        # recettes ne s'additionnent pas). On analyse alors le volet demandé, en
-        # décalant la profondeur d'un cran pour rester aligné sur la table `niveaux`.
+        # « mixte » = les deux volets sous une même racine (fiche communale, ADR-0004 :
+        # le montant racine est null car dépenses et recettes ne s'additionnent pas).
+        # On analyse alors le volet demandé, en décalant la profondeur d'un cran.
         cible, decalage = node, 0
-        if node.get("montant") is None:
+        if v == "mixte":
             cible = next((c for c in node.get("enfants", []) if c["id"].endswith("." + volet)), None)
             decalage = 1
         if cible is None:
@@ -128,7 +133,9 @@ def indice_cp(arbres, denom):
     id_vers_bloc = {}
     for node in arbres:
         bloc = node.get("bloc_univers")
-        if not bloc:
+        # même filtre de volet que ci-dessus : une subvention versée depuis une ligne
+        # de DÉPENSE ne doit jamais reclasser des euros du volet recettes.
+        if not bloc or node.get("volet") not in (volet, "mixte"):
             continue
         def indexer(n):
             id_vers_bloc[n["id"]] = bloc
@@ -204,6 +211,7 @@ def indice_cp(arbres, denom):
     P = (sum(NIVEAUX_P.index(n) * e for n, e in histo_couvert.items()) / total_couvert) if total_couvert else 0.0
     return {
         "methode": METHODE_CP,
+        "volet": volet,
         "millesime_univers": denom["millesime"],
         "statut_revision_univers": denom["statut_revision"],
         "univers_eur": univers,
@@ -393,6 +401,12 @@ def valider_racine_cp(node, path, codes):
         bloc = node["bloc_univers"]
         if bloc is not None and bloc not in codes:
             errors.append(f"{path}: bloc_univers « {bloc} » inconnu du dénominateur")
+    if "volet" not in node:
+        errors.append(f"{path}: racine sans 'volet' (depenses / recettes / mixte, ou null si l'arbre ne compte pas)")
+    elif node["volet"] not in (None, "depenses", "recettes", "mixte"):
+        errors.append(f"{path}: volet « {node['volet']} » invalide")
+    elif node.get("bloc_univers") and node["volet"] is None:
+        errors.append(f"{path}: bloc_univers déclaré sans volet — le calcul ne saurait pas contre quel dénominateur mesurer")
     niveaux = node.get("niveaux")
     if not isinstance(niveaux, list) or not niveaux:
         errors.append(f"{path}: racine sans table 'niveaux'")
@@ -486,9 +500,8 @@ def main():
         cov_doc = {"methode": METHODE_COUVERTURE, "arbres": cov}
         # Indice C·P (ADR-0006) : mesuré contre l'univers réel des APU, pas
         # contre ce qui est déjà modélisé. C'est lui qui va à côté du titre.
-        if "depenses" in denominateurs:
-            cov_doc["cp"] = indice_cp(list(data.values()) + list(fiches.values()),
-                                      denominateurs["depenses"])
+        arbres = list(data.values()) + list(fiches.values())
+        cov_doc["cp"] = {v: indice_cp(arbres, d) for v, d in sorted(denominateurs.items())}
         with open(os.path.join(ROOT, "site", "couverture.json"), "w", encoding="utf-8") as fh:
             json.dump(cov_doc, fh, ensure_ascii=False, indent=1)
         with open(os.path.join(ROOT, "site", "couverture.js"), "w", encoding="utf-8") as fh:

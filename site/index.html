@@ -548,22 +548,28 @@ function showPanel(d){ afficherPanneau(panneauHTML(d)); }
   el.innerHTML=h; el.hidden=false;
 })();
 // ---- Indice C·P : la complétion mesurée contre l'univers réel (ADR-0006, issue #50) ----
-const CP = (window.COUVERTURE||{}).cp || null;
+// Un compteur PAR VOLET : « où va l'argent » et « d'où il vient » se mesurent
+// contre deux dénominateurs distincts et n'ont aucune raison d'avoir le même score.
+const CPS = (window.COUVERTURE||{}).cp || {};
+const VOLET_LENTILLE = {depenses:'depenses', recettes:'recettes', flux:'depenses', paie:'depenses'};
+const cpCourant = () => CPS[VOLET_LENTILLE[mode]||'depenses'] || null;
+const LIB_VOLET = {depenses:'dépenses', recettes:'recettes'};
 const pct = v => (v*100).toLocaleString('fr-FR',{maximumFractionDigits:1})+' %';
 // deux décimales imposées : « 3 » masquerait le mouvement de P quand un euro
 // franchit un cran (2,99 → 3,00 lors du premier bénéficiaire nommé).
 const fmtP = v => v.toLocaleString('fr-FR',{minimumFractionDigits:2, maximumFractionDigits:2});
 function cpDetailHTML(){
-  const c=CP, U=c.univers_eur;
+  const c=cpCourant(); if(!c) return '';
+  const U=c.univers_eur, vol=LIB_VOLET[c.volet]||c.volet;
   // euros dont on connaît le bénéficiaire final (P5) ou la pièce (P6)
   const trace=(c.histogramme_couvert.P5||0)+(c.histogramme_couvert.P6||0);
   const ordre=['P0','P1','P2','P3','P4','P5','P6'];
   const sens={P0:'agrégat non ventilé, ou absent de l\'arbre',P1:'politique publique',
     P2:'programme ou entité nommée',P3:'ligne budgétaire fine',P4:'organisme destinataire',
     P5:'bénéficiaire final nommé',P6:'pièce justificative'};
-  let h=`<h2>Complétion du site</h2>
+  let h=`<h2>Complétion du site — ${vol}</h2>
     <p class="desc"><b>${pct(c.C)}</b> des euros publics sont dans l'arbre — ${(c.couvert_eur/1e9).toLocaleString('fr-FR',{maximumFractionDigits:1})} Md€
-      sur ${(U/1e9).toLocaleString('fr-FR',{maximumFractionDigits:1})} Md€ de dépenses des administrations publiques
+      sur ${(U/1e9).toLocaleString('fr-FR',{maximumFractionDigits:1})} Md€ de ${vol} des administrations publiques
       (${c.millesime_univers}, INSEE, comptes ${c.statut_revision_univers}s).
       <b>Ce pourcentage mesure le périmètre, pas la finesse.</b></p>
     <p class="desc"><b>${c.part_raccordee===0?'0 %':pct(c.part_raccordee)}</b> de cette couverture est adossée à une table de passage
@@ -594,17 +600,19 @@ function cpDetailHTML(){
   h+=`<div class="src">📚 <b>Méthode</b><br>${c.methode}</div>`;
   return h;
 }
-(function(){
-  const b=document.getElementById('cp-badge');
-  if(!CP||!b) return;
-  b.innerHTML=`<span><span class="k">Périmètre</span><span class="n">${pct(CP.C)}</span></span>
+function majBadgeCP(){
+  const b=document.getElementById('cp-badge'), c=cpCourant();
+  if(!b) return;
+  if(!c){ b.hidden=true; return; }
+  b.innerHTML=`<span><span class="k">Périmètre · ${LIB_VOLET[c.volet]||c.volet}</span><span class="n">${pct(c.C)}</span></span>
     <span class="sep"></span>
-    <span><span class="k">Profondeur</span><span class="n">${fmtP(CP.P)}<span style="font-size:.8rem;color:var(--mute)"> / 6</span></span></span>
-    <span class="cadre">des euros publics sont dans l'arbre · ${CP.part_raccordee===0?'0 %':pct(CP.part_raccordee)} raccordé<br>
+    <span><span class="k">Profondeur</span><span class="n">${fmtP(c.P)}<span style="font-size:.8rem;color:var(--mute)"> / 6</span></span></span>
+    <span class="cadre">des euros publics sont dans l'arbre · ${c.part_raccordee===0?'0 %':pct(c.part_raccordee)} raccordé<br>
       Ce pourcentage mesure le périmètre, pas la finesse.</span>`;
   b.hidden=false;
   b.onclick=()=>afficherPanneau(cpDetailHTML());
-})();
+}
+majBadgeCP();
 // ---- Ma commune (issue #3, ADR-0004 : fiche versionnée d'abord, API OFGL en direct sinon) ----
 (function(){
   const inp=document.getElementById('commune-q'), dl=document.getElementById('communes-dl');
@@ -1154,12 +1162,13 @@ function renderMobile(){
   titre.textContent = pile.length ? noeud.label : `${lent[1]} ${lent[2]}`;
 
   // le compteur de complétion s'affiche à la racine de chaque lentille
-  if(!pile.length && CP){
+  const cpv=cpCourant();
+  if(!pile.length && cpv){
     const c=document.createElement('button');
     c.type='button'; c.className='m-cp';
-    c.innerHTML=`<span><span class="k">Périmètre</span><span class="n">${pct(CP.C)}</span></span>
-      <span><span class="k">Profondeur</span><span class="n">${fmtP(CP.P)}/6</span></span>
-      <span class="c">des euros publics sont dans l'arbre · ${CP.part_raccordee===0?'0 %':pct(CP.part_raccordee)} raccordé ▸</span>`;
+    c.innerHTML=`<span><span class="k">Périmètre · ${LIB_VOLET[cpv.volet]||cpv.volet}</span><span class="n">${pct(cpv.C)}</span></span>
+      <span><span class="k">Profondeur</span><span class="n">${fmtP(cpv.P)}/6</span></span>
+      <span class="c">des euros publics sont dans l'arbre · ${cpv.part_raccordee===0?'0 %':pct(cpv.part_raccordee)} raccordé ▸</span>`;
     c.onclick=()=>afficherPanneau(cpDetailHTML());
     elListe.appendChild(c);
   }
@@ -1255,6 +1264,7 @@ function fermerSheet(){
 
 // ---- Interactions ----
 function refresh(){
+  majBadgeCP();                                 // le compteur suit la lentille
   if(estMobile()){ renderMobile(); return; }   // garde matchMedia : jamais de rendu SVG en étroit
   document.getElementById('ctl-paie').style.display = mode==='paie'?'inline':'none';
   document.getElementById('ctl-commune').style.display = (mode==='paie'||mode==='flux')?'none':'inline';

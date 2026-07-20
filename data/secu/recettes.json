@@ -4,7 +4,8 @@
  "montant": 644392000000,
  "annee": 2025,
  "statut": "confirme",
- "bloc_univers": null,
+ "bloc_univers": "ASSO.regimes",
+ "volet": "recettes",
  "niveaux": [
   "P0",
   "P1",

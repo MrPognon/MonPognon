@@ -1,0 +1,333 @@
+{
+  "millesime": 2025,
+  "volet": "recettes",
+  "statut_revision": "provisoire",
+  "referentiel": "SEC 2010, base 2020",
+  "description": "Dénominateur de l'indice C·P pour le volet RECETTES (ADR-0006) : d'où vient l'argent public. Poids lus en première main dans les tableaux des comptes nationaux de l'INSEE le 20/07/2026.",
+  "total_brut_eur": 1667319700000,
+  "total_consolide_publie_eur": 1561689700000,
+  "ecart_consolidation_inter_secteurs_eur": 105630000000,
+  "base_retenue": "brut",
+  "methode_consolidation": "Identique au volet dépenses : C est calculé sur la somme BRUTE des trois sous-secteurs (1 667,3 Md€), non sur le total consolidé publié (1 561,7 Md€), les nœuds de l'arbre étant eux-mêmes bruts. À l'intérieur de chaque sous-secteur, les transferts internes sont répartis au prorata des poids bruts publiés.",
+  "avertissement": "Comptes 2025 PROVISOIRES (INSEE), sujets à révision. Fichier versionné par millésime, jamais écrasé en place.",
+  "source": {
+    "nom": "Comptes nationaux 2025 — tableau 3.201 « Dépenses et recettes des administrations publiques (S13) »",
+    "url": "https://www.insee.fr/fr/statistiques/fichier/8988845/t_3201_fr.xlsx",
+    "producteur": "INSEE",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-20",
+    "maj": "2026-05-29"
+  },
+  "segments": [
+    {
+      "code": "APUC",
+      "label": "Administrations publiques centrales (S1311)",
+      "poids_brut_eur": 550841300000,
+      "source": {
+        "nom": "Comptes nationaux 2025 — tableau 3.202 « Dépenses et recettes de l'administration publique centrale (S1311) »",
+        "url": "https://www.insee.fr/fr/statistiques/fichier/8988845/t_3202_fr.xlsx",
+        "producteur": "INSEE",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-05-29"
+      },
+      "transferts_internes_neutralises_eur": 68900000000,
+      "sous_segments": [
+        {
+          "code": "APUC.etat",
+          "label": "État (S13111)",
+          "poids_publie_eur": 479627200000,
+          "source_poids": {
+            "nom": "Comptes nationaux 2025 — tableau 3.203 « Dépenses et recettes de l'État (S13111) »",
+            "url": "https://www.insee.fr/fr/statistiques/fichier/8988845/t_3203_fr.xlsx",
+            "producteur": "INSEE",
+            "licence": "Licence Ouverte 2.0",
+            "consulte_le": "2026-07-20",
+            "maj": "2026-05-29"
+          },
+          "poids_eur": 426304444069,
+          "poids_derive": true,
+          "methode_poids": "Poids publié × facteur de consolidation du sous-secteur (répartition des transferts internes au prorata des poids bruts). Voir `methode_consolidation` à la racine.",
+          "sens_du_biais": "sur-estime",
+          "referentiel_comptage": {
+            "nom": "PLF 2025 — recettes du budget général (état A), somme des 156 lignes",
+            "total_eur": 588407754684,
+            "source": {
+              "nom": "PLF 2025 — recettes du budget général",
+              "url": "https://data.economie.gouv.fr/explore/dataset/plf25-recettes-du-budget-general/",
+              "producteur": "Direction du budget",
+              "licence": "Licence Ouverte 2.0",
+              "consulte_le": "2026-07-20"
+            },
+            "verification": "Total recalculé le 20/07/2026 par appel API (select=sum(montant_recettes_plf), 156 lignes) : 588 407 754 684 € — identique au montant porté par le nœud racine etat.recettes, à l'euro."
+          },
+          "couvert_referentiel_eur": 588407754684,
+          "noeuds": [
+            "etat.recettes"
+          ],
+          "raccord_publie": false,
+          "ecart_millesime": false,
+          "note": "Les 156 lignes de l'état A sont intégralement modélisées : coefficient 1,000. MÊME RÉSERVE QUE POUR LES DÉPENSES — le référentiel est du PLF DÉPOSÉ (prévision) alors que le poids est en comptabilité nationale d'EXÉCUTION, et aucune table de passage LOLF→SEC n'est publiée. L'état A ne couvre par ailleurs que le BUDGET GÉNÉRAL : les recettes des comptes spéciaux et budgets annexes ne sont pas dans ce référentiel."
+        },
+        {
+          "code": "APUC.odac",
+          "label": "Organismes divers d'administration centrale (S13112)",
+          "poids_publie_eur": 140114100000,
+          "source_poids": {
+            "nom": "Comptes nationaux 2025 — tableau 3.204 « Dépenses et recettes des ODAC (S13112) »",
+            "url": "https://www.insee.fr/fr/statistiques/fichier/8988845/t_3204_fr.xlsx",
+            "producteur": "INSEE",
+            "licence": "Licence Ouverte 2.0",
+            "consulte_le": "2026-07-20",
+            "maj": "2026-05-29"
+          },
+          "poids_eur": 124536855931,
+          "poids_derive": true,
+          "methode_poids": "Poids publié × facteur de consolidation du sous-secteur (répartition des transferts internes au prorata des poids bruts). Voir `methode_consolidation` à la racine.",
+          "sens_du_biais": "neutre",
+          "referentiel_comptage": null,
+          "couvert_referentiel_eur": null,
+          "noeuds": [],
+          "raccord_publie": false,
+          "ecart_millesime": false,
+          "manque": {
+            "quoi": "Aucune recette d'opérateur de l'État n'est modélisée (taxes affectées, ressources propres des ~700 ODAC).",
+            "contact": "Jaune budgétaire « Opérateurs de l'État » annexé au PLF",
+            "url": "https://www.budget.gouv.fr/documentation/documents-budgetaires"
+          }
+        }
+      ]
+    },
+    {
+      "code": "APUL",
+      "label": "Administrations publiques locales (S1313)",
+      "poids_brut_eur": 319926900000,
+      "source": {
+        "nom": "Comptes nationaux 2025 — tableau 3.205 « Dépenses et recettes des administrations publiques locales (S1313) »",
+        "url": "https://www.insee.fr/fr/statistiques/fichier/8988845/t_3205_fr.xlsx",
+        "producteur": "INSEE",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-05-29"
+      },
+      "transferts_internes_neutralises_eur": 17274000000,
+      "sous_segments": [
+        {
+          "code": "APUL.communes",
+          "label": "Communes (S131311)",
+          "poids_publie_eur": 179931900000,
+          "source_poids": {
+            "nom": "Comptes nationaux 2025 — tableau 3.207 « Dépenses et recettes des communes (S131311) »",
+            "url": "https://www.insee.fr/fr/statistiques/fichier/8988845/t_3207_fr.xlsx",
+            "producteur": "INSEE",
+            "licence": "Licence Ouverte 2.0",
+            "consulte_le": "2026-07-20",
+            "maj": "2026-05-29"
+          },
+          "poids_eur": 163387508391,
+          "poids_derive": true,
+          "methode_poids": "Poids publié × facteur de consolidation du sous-secteur (répartition des transferts internes au prorata des poids bruts). Voir `methode_consolidation` à la racine.",
+          "sens_du_biais": "sous-estime",
+          "referentiel_comptage": {
+            "nom": "OFGL — comptes consolidés des communes, exercice 2024, agrégat « Recettes totales »",
+            "total_eur": 121451338109.23,
+            "source": {
+              "nom": "ofgl-base-communes-consolidee",
+              "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-communes-consolidee/",
+              "producteur": "OFGL / DGCL",
+              "licence": "Licence Ouverte 2.0",
+              "consulte_le": "2026-07-20"
+            },
+            "verification": "Somme recalculée le 20/07/2026 par appel API sur les 34 932 communes."
+          },
+          "couvert_referentiel_eur": 3787562167.03,
+          "noeuds": [
+            "commune.*"
+          ],
+          "raccord_publie": false,
+          "ecart_millesime": true,
+          "note": "1 755 fiches communales sur 34 932. Numérateur en budget principal, référentiel en consolidé : le coefficient est SOUS-estimé. Écart de millésime assumé : fiches 2024, univers 2025."
+        },
+        {
+          "code": "APUL.departements",
+          "label": "Départements (S131312)",
+          "poids_publie_eur": 75951000000,
+          "source_poids": {
+            "nom": "Comptes nationaux 2025 — tableau 3.208 « Dépenses et recettes des départements (S131312) »",
+            "url": "https://www.insee.fr/fr/statistiques/fichier/8988845/t_3208_fr.xlsx",
+            "producteur": "INSEE",
+            "licence": "Licence Ouverte 2.0",
+            "consulte_le": "2026-07-20",
+            "maj": "2026-05-29"
+          },
+          "poids_eur": 68967451851,
+          "poids_derive": true,
+          "methode_poids": "Poids publié × facteur de consolidation du sous-secteur (répartition des transferts internes au prorata des poids bruts). Voir `methode_consolidation` à la racine.",
+          "sens_du_biais": "neutre",
+          "referentiel_comptage": null,
+          "couvert_referentiel_eur": null,
+          "noeuds": [],
+          "raccord_publie": false,
+          "ecart_millesime": false,
+          "manque": {
+            "quoi": "Aucun département modélisé.",
+            "contact": "OFGL — jeu ofgl-base-departements-consolidee",
+            "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/"
+          }
+        },
+        {
+          "code": "APUL.regions",
+          "label": "Régions (S131313)",
+          "poids_publie_eur": 35920000000,
+          "source_poids": {
+            "nom": "Comptes nationaux 2025 — tableau 3.209 « Dépenses et recettes des régions (S131313) »",
+            "url": "https://www.insee.fr/fr/statistiques/fichier/8988845/t_3209_fr.xlsx",
+            "producteur": "INSEE",
+            "licence": "Licence Ouverte 2.0",
+            "consulte_le": "2026-07-20",
+            "maj": "2026-05-29"
+          },
+          "poids_eur": 32617225191,
+          "poids_derive": true,
+          "methode_poids": "Poids publié × facteur de consolidation du sous-secteur (répartition des transferts internes au prorata des poids bruts). Voir `methode_consolidation` à la racine.",
+          "sens_du_biais": "neutre",
+          "referentiel_comptage": null,
+          "couvert_referentiel_eur": null,
+          "noeuds": [],
+          "raccord_publie": false,
+          "ecart_millesime": false,
+          "manque": {
+            "quoi": "Aucune région modélisée.",
+            "contact": "OFGL — jeu ofgl-base-regions-consolidee",
+            "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/"
+          }
+        },
+        {
+          "code": "APUL.syndicats",
+          "label": "Syndicats (S131314)",
+          "poids_publie_eur": 16335000000,
+          "source_poids": {
+            "nom": "Comptes nationaux 2025 — tableau 3.210 « Dépenses et recettes des syndicats (S131314) »",
+            "url": "https://www.insee.fr/fr/statistiques/fichier/8988845/t_3210_fr.xlsx",
+            "producteur": "INSEE",
+            "licence": "Licence Ouverte 2.0",
+            "consulte_le": "2026-07-20",
+            "maj": "2026-05-29"
+          },
+          "poids_eur": 14833028215,
+          "poids_derive": true,
+          "methode_poids": "Poids publié × facteur de consolidation du sous-secteur (répartition des transferts internes au prorata des poids bruts). Voir `methode_consolidation` à la racine.",
+          "sens_du_biais": "neutre",
+          "referentiel_comptage": null,
+          "couvert_referentiel_eur": null,
+          "noeuds": [],
+          "raccord_publie": false,
+          "ecart_millesime": false,
+          "manque": {
+            "quoi": "Aucun syndicat modélisé.",
+            "contact": "OFGL — jeu ofgl-base-syndicats-consolidee",
+            "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-syndicats-consolidee/"
+          }
+        },
+        {
+          "code": "APUL.odal",
+          "label": "Organismes divers d'administration locale (S13132)",
+          "poids_publie_eur": 42288000000,
+          "source_poids": {
+            "nom": "Comptes nationaux 2025 — tableau 3.211 « Dépenses et recettes des ODAL (S13132) »",
+            "url": "https://www.insee.fr/fr/statistiques/fichier/8988845/t_3211_fr.xlsx",
+            "producteur": "INSEE",
+            "licence": "Licence Ouverte 2.0",
+            "consulte_le": "2026-07-20",
+            "maj": "2026-05-29"
+          },
+          "poids_eur": 40121686351,
+          "poids_derive": true,
+          "methode_poids": "Poids publié × facteur de consolidation du sous-secteur (répartition des transferts internes au prorata des poids bruts). Voir `methode_consolidation` à la racine.",
+          "sens_du_biais": "neutre",
+          "referentiel_comptage": null,
+          "couvert_referentiel_eur": null,
+          "noeuds": [],
+          "raccord_publie": false,
+          "ecart_millesime": false,
+          "manque": {
+            "quoi": "Aucun ODAL modélisé (SDIS, CCAS, régies…).",
+            "contact": "OFGL — jeux ofgl-base-sdis et ofgl-base-ccas-cias",
+            "url": "https://data.ofgl.fr/"
+          }
+        }
+      ]
+    },
+    {
+      "code": "ASSO",
+      "label": "Administrations de sécurité sociale (S1314)",
+      "poids_brut_eur": 796551500000,
+      "source": {
+        "nom": "Comptes nationaux 2025 — tableau 3.212 « Dépenses et recettes des administrations de sécurité sociale (S1314) »",
+        "url": "https://www.insee.fr/fr/statistiques/fichier/8988845/t_3212_fr.xlsx",
+        "producteur": "INSEE",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2026-05-29"
+      },
+      "transferts_internes_neutralises_eur": 98605000000,
+      "sous_segments": [
+        {
+          "code": "ASSO.regimes",
+          "label": "Régimes d'assurance sociale (S13141)",
+          "poids_publie_eur": 761579900000,
+          "source_poids": {
+            "nom": "Comptes nationaux 2025 — tableau 3.213 « Dépenses et recettes des régimes d'assurance sociale (S13141) »",
+            "url": "https://www.insee.fr/fr/statistiques/fichier/8988845/t_3213_fr.xlsx",
+            "producteur": "INSEE",
+            "licence": "Licence Ouverte 2.0",
+            "consulte_le": "2026-07-20",
+            "maj": "2026-05-29"
+          },
+          "poids_eur": 677688886485,
+          "poids_derive": true,
+          "methode_poids": "Poids publié × facteur de consolidation du sous-secteur (répartition des transferts internes au prorata des poids bruts). Voir `methode_consolidation` à la racine.",
+          "sens_du_biais": "neutre",
+          "referentiel_comptage": null,
+          "couvert_referentiel_eur": null,
+          "noeuds": [],
+          "raccord_publie": false,
+          "ecart_millesime": false,
+          "manque": {
+            "quoi": "RACCORD MANQUANT, ET NON DONNÉE MANQUANTE — même situation que le volet dépenses. L'arbre porte 644 392 000 000 € de recettes de la Sécurité sociale (régimes de base + FSV, rapport CCSS), tous confirmés, mais en base CCSS ; le poids est en base SEC (S13141, qui inclut régimes complémentaires, assurance chômage, CADES et FRR). L'investigation du 20/07/2026 (PR #53) a établi qu'aucune ventilation en recettes de S13141 n'est publiée, et que les tables de passage existantes (INSEE 3.108) portent sur le SOLDE, partent du régime général et arrivent à S1314.",
+            "contact": "INSEE — Département des comptes nationaux ; en second recours la Direction de la sécurité sociale (DSS).",
+            "url": "https://www.insee.fr/fr/information/2411108"
+          },
+          "note": "Deuxième plus gros gisement du volet recettes : 677,8 Md€ de poids face à 644,4 Md€ de travail déjà sourcé et confirmé."
+        },
+        {
+          "code": "ASSO.odass",
+          "label": "Organismes dépendant des assurances sociales (S13142)",
+          "poids_publie_eur": 133576600000,
+          "source_poids": {
+            "nom": "Comptes nationaux 2025 — tableau 3.214 « Dépenses et recettes des ODASS (S13142) »",
+            "url": "https://www.insee.fr/fr/statistiques/fichier/8988845/t_3214_fr.xlsx",
+            "producteur": "INSEE",
+            "licence": "Licence Ouverte 2.0",
+            "consulte_le": "2026-07-20",
+            "maj": "2026-05-29"
+          },
+          "poids_eur": 118862613515,
+          "poids_derive": true,
+          "methode_poids": "Poids publié × facteur de consolidation du sous-secteur (répartition des transferts internes au prorata des poids bruts). Voir `methode_consolidation` à la racine.",
+          "sens_du_biais": "neutre",
+          "referentiel_comptage": null,
+          "couvert_referentiel_eur": null,
+          "noeuds": [],
+          "raccord_publie": false,
+          "ecart_millesime": false,
+          "manque": {
+            "quoi": "Aucune recette d'ODASS modélisée (hôpitaux publics pour l'essentiel).",
+            "contact": "DREES / ATIH",
+            "url": "https://www.atih.sante.fr/"
+          }
+        }
+      ]
+    }
+  ]
+}
