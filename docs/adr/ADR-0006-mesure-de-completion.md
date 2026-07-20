@@ -106,3 +106,23 @@ Le fichier de dénominateurs est versionné par millésime (`apu-depenses-2025.j
 - **M3 — traçabilité bornée par le plafond légal** : 70 % de son dénominateur serait un plafond, c'est-à-dire un **jugement**. Un dénominateur discrétionnaire est le contraire de la règle d'or. Sa manchette à 0,7 % invitait au contresens « on ne sait rien ».
 - **Un pourcentage unique agrégé** : quelle que soit la pondération, il permet de compenser une profondeur nulle par un périmètre large. C'est le trompe-l'œil actuel sous une autre forme.
 - **Assouplir la règle du référentiel homogène** pour que la Sécu compte : gain immédiat de 36 points de C, au prix d'un ratio entre deux comptabilités incomparables. Refusé mécaniquement, et c'est le motif principal de l'existence de cet ADR.
+
+---
+
+## Note d'application — 2026-07-20 : précision sur le raccord CCSS → SEC
+
+L'ADR écrit plus haut, au §3, que les 666 Md€ de la Sécurité sociale comptent zéro **« tant qu'aucune table de passage CCSS → SEC n'est publiée »**. Cette formulation est **imprécise et doit être lue à la lumière de la présente note** : une investigation dédiée (quatre pistes — INSEE, DREES, DSS/PLFSS, composantes à retrancher — chacune soumise à réfutation) a établi que **de telles tables existent bel et bien**.
+
+Vérification en première main du tableau INSEE **3.108** « Passage du résultat comptable du régime général au déficit des administrations de sécurité sociale (S1314) au sens de Maastricht » (fichier `t_3108_fr.xlsx`, comptes nationaux base 2020, millésime 2025). Sa notice énonce qu'il « permet de réconcilier le résultat comptable du régime général de la sécurité sociale calculé par la Commission des Comptes de la Sécurité Sociale et le déficit au sens de Maastricht des administrations de sécurité sociale calculé par l'Insee ».
+
+**La décision du §3 est néanmoins confirmée, et sans réserve** : cette table ne raccorde pas ce que le site modélise, pour trois raisons cumulatives.
+
+1. **Elle convertit un solde, jamais des dépenses.** Elle part d'un résultat comptable (−20,8 Md€ en 2025) et arrive à une capacité/besoin de financement (−20,3 Md€ pour le régime général, −6,7 Md€ pour l'ensemble des ASSO). Aucune ligne de dépenses. Convertir 666 Md€ de dépenses est une impossibilité **de nature**, pas une lacune de granularité.
+2. **Son périmètre de départ n'est pas celui du site** : « régime général » (CNAF, CNAM, CNAV, FSV — la notice y ajoute la CNSA depuis 2021 sans que le libellé de ligne l'ait suivi), strictement plus étroit que « régimes de base + FSV ».
+3. **Elle arrive à S1314**, l'ensemble des ASSO, et non à S13141.
+
+**Ce que cette note change** : la formule « aucune table de passage n'est publiée » ne doit plus être employée, ni dans le dépôt, ni sur le site. La formulation exacte est : *aucune ventilation en dépenses de S13141 n'est publiée, et les tables de passage existantes portent sur le solde et sur un périmètre plus étroit.*
+
+**Pourquoi cette correction compte** : une affirmation d'absence fausse est précisément ce qui ferait tomber la crédibilité du site au premier contradicteur informé. Le projet préfère corriger une de ses propres phrases plutôt que de la défendre.
+
+Le champ `manque` du sous-segment `ASSO.regimes` porte désormais l'énoncé exact de ce qui manque et le contact à saisir (INSEE — Département des comptes nationaux).
