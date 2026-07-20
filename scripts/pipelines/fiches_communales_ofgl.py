@@ -156,7 +156,7 @@ def fiche_commune(insee, dept, rows, meta, rapport):
             "bloc_univers": "APUL.communes", "volet": "mixte",
             "niveaux": ["P2", "P2", "P2", None, None, None],
             "description": (f"Fiche communale (ADR-0004) — {nom}, code INSEE {insee}, {dep_nom}"
-                            + (f", {int(ptot):,} habitants (population DGF {exer})".replace(",", " ") if ptot else "")
+                            + (f" · {int(ptot):,} habitants (population DGF {exer})".replace(",", "\u202f") if ptot else "")
                             + (f", membre de « {epci} »" if epci else "")
                             + f". Comptes {exer} exécutés, budget principal, nomenclature {nomen or 'M57'}, hors budgets annexes. "
                             f"Le montant racine est volontairement null : les dépenses ({fmt(d_m)} €) et les recettes "
