@@ -4,6 +4,15 @@
  "montant": null,
  "annee": 2024,
  "statut": "confirme",
+ "bloc_univers": "APUL.communes",
+ "niveaux": [
+  "P2",
+  "P2",
+  "P2",
+  null,
+  null,
+  null
+ ],
  "description": "Fiche communale (ADR-0004) — Champrond-en-Perchet, code INSEE 28072, Eure-et-Loir  409 habitants (population DGF 2024), membre de « Communauté de communes du Perche ». Comptes 2024 exécutés, budget principal, nomenclature M57A, hors budgets annexes. Le montant racine est volontairement null : les dépenses (351 215,82 €) et les recettes (347 614,24 €) ne s'additionnent pas.",
  "source": {
   "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024",

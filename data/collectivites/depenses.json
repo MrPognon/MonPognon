@@ -4,6 +4,11 @@
  "montant": 315000000000,
  "annee": 2025,
  "statut": "estime",
+ "bloc_univers": null,
+ "niveaux": [
+  "P0",
+  "P1"
+ ],
  "source": {
   "nom": "OFGL — comptes consolidés des collectivités (2023-2024)",
   "url": "https://data.ofgl.fr",

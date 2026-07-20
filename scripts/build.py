@@ -68,6 +68,114 @@ METHODE_COUVERTURE = (
 )
 
 
+METHODE_CP = (
+    "Indice C·P (ADR-0006) — deux nombres qui ne se moyennent JAMAIS. "
+    "C = COUVERTURE DE PÉRIMÈTRE : part des euros de l'univers des administrations publiques "
+    "(dénominateur INSEE, base brute) représentés dans l'arbre. Pour chaque bloc, le coefficient de "
+    "couverture est mesuré À L'INTÉRIEUR d'un référentiel de comptage homogène (PLF ÷ PLF, OFGL ÷ OFGL), "
+    "puis appliqué au poids en comptabilité nationale : on ne divise jamais un euro d'une comptabilité "
+    "par un euro d'une autre. Un bloc sans référentiel homogène compte zéro, même si l'arbre le documente. "
+    "P = PROFONDEUR : niveau moyen atteint sur l'échelle de destination P0→P6, calculé sur les SEULS euros "
+    "couverts. P0 agrégat non ventilé · P1 politique publique · P2 programme ou entité nommée · "
+    "P3 ligne budgétaire fine · P4 organisme destinataire · P5 bénéficiaire final nommé et rattaché à sa "
+    "ligne payeuse · P6 pièce justificative. Un cran qui décrit COMMENT l'argent est dépensé (titre LOLF, "
+    "nature de dépense) et non À QUI il va n'avance pas P : la table `niveaux` de chaque fichier le déclare "
+    "par un null. La répartition par niveau vient des proportions internes de l'arbre, jamais d'une "
+    "conversion entre comptabilités. C mesure la largeur, P la finesse : ni l'un ni l'autre ne mesure "
+    "l'exactitude des montants — le baromètre de qualité de source répond à cette question-là."
+)
+
+NIVEAUX_P = ["P0", "P1", "P2", "P3", "P4", "P5", "P6"]
+
+
+def niveau_effectif(niveaux, prof):
+    """Niveau de destination d'un euro porté à cette profondeur JSON : le dernier
+    cran non nul à ou au-dessus de lui (un null n'avance pas l'axe destination)."""
+    for p in range(min(prof, len(niveaux) - 1), -1, -1):
+        if niveaux[p]:
+            return niveaux[p]
+    return "P0"
+
+
+def indice_cp(arbres, denom):
+    """Calcule C et P (ADR-0006). `arbres` : tous les nœuds racines porteurs d'un
+    bloc_univers ; `denom` : le dénominateur du volet dépenses."""
+    # 1) proportions par niveau de destination, à l'intérieur de chaque bloc
+    volet = denom.get("volet", "depenses")
+    euros_bloc = {}
+    for node in arbres:
+        bloc = node.get("bloc_univers")
+        if not bloc:
+            continue
+        niveaux = node.get("niveaux") or []
+        # Une fiche communale porte un montant racine null (ADR-0004 : dépenses et
+        # recettes ne s'additionnent pas). On analyse alors le volet demandé, en
+        # décalant la profondeur d'un cran pour rester aligné sur la table `niveaux`.
+        cible, decalage = node, 0
+        if node.get("montant") is None:
+            cible = next((c for c in node.get("enfants", []) if c["id"].endswith("." + volet)), None)
+            decalage = 1
+        if cible is None:
+            continue
+        d = euros_bloc.setdefault(bloc, {})
+        for prof, euros in couverture(cible)["profondeurs"].items():
+            n = niveau_effectif(niveaux, int(prof) + decalage)
+            d[n] = d.get(n, 0.0) + euros
+
+    # 2) C, et ventilation des euros d'univers par niveau
+    univers = denom["total_brut_eur"]
+    numerateur = raccorde = 0.0
+    histo_univers = {n: 0.0 for n in NIVEAUX_P}
+    histo_couvert = {n: 0.0 for n in NIVEAUX_P}
+    blocs = []
+    for seg in denom["segments"]:
+        for ss in seg["sous_segments"]:
+            ref, couvert = ss.get("referentiel_comptage"), ss.get("couvert_referentiel_eur")
+            c = (couvert / ref["total_eur"]) if (ref and couvert) else 0.0
+            comptes = c * ss["poids_eur"]
+            numerateur += comptes
+            if ss.get("raccord_publie"):
+                raccorde += comptes
+            dist = euros_bloc.get(ss["code"], {})
+            somme = sum(dist.values())
+            if comptes > 0 and somme > 0:
+                for n, e in dist.items():
+                    part = comptes * e / somme
+                    histo_univers[n] += part
+                    histo_couvert[n] += part
+            else:
+                histo_univers["P0"] += comptes
+                histo_couvert["P0"] += comptes
+            histo_univers["P0"] += ss["poids_eur"] - comptes   # non couvert = P0
+            blocs.append({
+                "code": ss["code"], "label": ss["label"],
+                "poids_eur": ss["poids_eur"], "coefficient": round(c, 6),
+                "compte_eur": round(comptes, 2),
+                "referentiel": ref["nom"] if ref else None,
+                "raccord_publie": ss.get("raccord_publie", False),
+                "ecart_millesime": ss.get("ecart_millesime", False),
+                "sens_du_biais": ss.get("sens_du_biais"),
+                "manque": ss.get("manque"),
+            })
+
+    total_couvert = sum(histo_couvert.values())
+    P = (sum(NIVEAUX_P.index(n) * e for n, e in histo_couvert.items()) / total_couvert) if total_couvert else 0.0
+    return {
+        "methode": METHODE_CP,
+        "millesime_univers": denom["millesime"],
+        "statut_revision_univers": denom["statut_revision"],
+        "univers_eur": univers,
+        "univers_consolide_publie_eur": denom["total_consolide_publie_eur"],
+        "couvert_eur": round(numerateur, 2),
+        "C": round(numerateur / univers, 6),
+        "P": round(P, 3),
+        "part_raccordee": round(raccorde / numerateur, 6) if numerateur else 0.0,
+        "histogramme_univers": {n: round(v, 2) for n, v in histo_univers.items()},
+        "histogramme_couvert": {n: round(v, 2) for n, v in histo_couvert.items()},
+        "blocs": blocs,
+    }
+
+
 def couverture(node):
     """Répartition du montant racine par statut / millésime / profondeur du porteur (cf. METHODE_COUVERTURE)."""
     acc = {"statuts": {"confirme": 0.0, "estime": 0.0, "inconnu": 0.0},
@@ -213,9 +321,35 @@ def valider_denominateur(doc, path):
         errors.append(f"{path}: dénominateur — somme des segments {total} ≠ total_brut_eur {doc['total_brut_eur']}")
 
 
+def valider_racine_cp(node, path, codes):
+    """Chaque fichier de données déclare ce qu'il représente dans l'univers
+    (bloc_univers) et jusqu'où il suit l'euro (niveaux) — ADR-0006, étape 3."""
+    if "bloc_univers" not in node:
+        errors.append(f"{path}: racine sans 'bloc_univers' (mettre null si l'arbre ne compte pas dans la couverture)")
+    else:
+        bloc = node["bloc_univers"]
+        if bloc is not None and bloc not in codes:
+            errors.append(f"{path}: bloc_univers « {bloc} » inconnu du dénominateur")
+    niveaux = node.get("niveaux")
+    if not isinstance(niveaux, list) or not niveaux:
+        errors.append(f"{path}: racine sans table 'niveaux'")
+        return
+    for n in niveaux:
+        if n is not None and n not in NIVEAUX_P:
+            errors.append(f"{path}: niveau « {n} » hors de l'échelle P0→P6")
+    if niveaux[0] is None:
+        errors.append(f"{path}: le niveau de la racine ne peut pas être null")
+
+    def prof_max(n, p=0):
+        return max([prof_max(c, p + 1) for c in n.get("enfants", [])] or [p])
+    pm = prof_max(node)
+    if pm >= len(niveaux):
+        errors.append(f"{path}: profondeur max {pm} non couverte par la table de {len(niveaux)} niveaux")
+
+
 def main():
     data, fiches, seen = {}, {}, set()
-    flux_docs = {}
+    flux_docs, denominateurs = {}, {}
     communes_dir = os.path.join(ROOT, "data", "collectivites", "communes") + os.sep
     flux_dir = os.path.join(ROOT, "data", "flux") + os.sep
     denom_dir = os.path.join(ROOT, "data", "denominateurs") + os.sep
@@ -225,6 +359,7 @@ def main():
             node = json.load(fh)
         if f.startswith(denom_dir):         # dénominateurs C·P (ADR-0006) : pas des arbres
             valider_denominateur(node, os.path.relpath(f, ROOT))
+            denominateurs[node.get("volet", "?")] = node
             continue
         if f.startswith(flux_dir):          # flux (ADR-0001) : validés après les arbres
             flux_docs[os.path.relpath(f, ROOT)] = node
@@ -239,6 +374,11 @@ def main():
             data[key] = node
     for path, doc in flux_docs.items():
         valider_flux(doc, path, seen)
+    # Qualification C·P : validée APRÈS la boucle, le dénominateur devant être chargé
+    codes = {ss["code"] for d in denominateurs.values()
+             for seg in d["segments"] for ss in seg["sous_segments"]}
+    for cle, node in list(data.items()) + list(fiches.items()):
+        valider_racine_cp(node, cle, codes)
     if "--show" in sys.argv:  # affiche un nœud avec sa source résolue (ADR-0005)
         cible = sys.argv[sys.argv.index("--show") + 1]
         def chercher(n):
@@ -280,6 +420,11 @@ def main():
         # Baromètre de couverture (issue #15) — par arbre, jamais sommé entre arbres.
         cov = {k: couverture(n) for k, n in data.items()}
         cov_doc = {"methode": METHODE_COUVERTURE, "arbres": cov}
+        # Indice C·P (ADR-0006) : mesuré contre l'univers réel des APU, pas
+        # contre ce qui est déjà modélisé. C'est lui qui va à côté du titre.
+        if "depenses" in denominateurs:
+            cov_doc["cp"] = indice_cp(list(data.values()) + list(fiches.values()),
+                                      denominateurs["depenses"])
         with open(os.path.join(ROOT, "site", "couverture.json"), "w", encoding="utf-8") as fh:
             json.dump(cov_doc, fh, ensure_ascii=False, indent=1)
         with open(os.path.join(ROOT, "site", "couverture.js"), "w", encoding="utf-8") as fh:

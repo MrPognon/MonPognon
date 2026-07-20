@@ -4,6 +4,15 @@
  "montant": null,
  "annee": 2024,
  "statut": "confirme",
+ "bloc_univers": "APUL.communes",
+ "niveaux": [
+  "P2",
+  "P2",
+  "P2",
+  null,
+  null,
+  null
+ ],
  "description": "Fiche communale (ADR-0004) — Ferrières-en-Gâtinais, code INSEE 45145, Loiret  3 823 habitants (population DGF 2024), membre de « Communauté de communes des Quatre Vallées ». Comptes 2024 exécutés, budget principal, nomenclature M57, hors budgets annexes. Le montant racine est volontairement null : les dépenses (5 369 176,41 €) et les recettes (5 527 673,38 €) ne s'additionnent pas.",
  "source": {
   "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024",

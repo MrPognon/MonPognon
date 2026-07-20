@@ -4,6 +4,15 @@
  "montant": null,
  "annee": 2024,
  "statut": "confirme",
+ "bloc_univers": "APUL.communes",
+ "niveaux": [
+  "P2",
+  "P2",
+  "P2",
+  null,
+  null,
+  null
+ ],
  "description": "Fiche communale (ADR-0004) — Précy, code INSEE 18184, Cher  351 habitants (population DGF 2024), membre de « Communauté de communes Berry-Loire-Vauvise ». Comptes 2024 exécutés, budget principal, nomenclature M57A, hors budgets annexes. Le montant racine est volontairement null : les dépenses (325 923,58 €) et les recettes (447 326,62 €) ne s'additionnent pas.",
  "source": {
   "nom": "OFGL — Comptes des communes 2017-2024 (jeu ofgl-base-communes), budget principal, exercice 2024",
