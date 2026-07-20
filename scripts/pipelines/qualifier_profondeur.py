@@ -82,6 +82,7 @@ QUALIF = {
 NIVEAUX_FICHE = ["P2", "P2", "P2", None, None, None]
 FICHES_ECHELONS = {
     "communes": "APUL.communes",
+    "groupements": "APUL.communes",   # EPCI : même bloc SEC que les communes
     "departements": "APUL.departements",
     "regions": "APUL.regions",
     "syndicats": "APUL.syndicats",

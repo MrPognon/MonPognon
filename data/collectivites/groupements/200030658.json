@@ -1,0 +1,403 @@
+{
+ "id": "groupement.200030658",
+ "label": "Communauté de communes du Trièves (200030658)",
+ "montant": null,
+ "annee": 2024,
+ "statut": "confirme",
+ "bloc_univers": "APUL.communes",
+ "volet": "mixte",
+ "niveaux": [
+  "P2",
+  "P2",
+  "P2",
+  null,
+  null,
+  null
+ ],
+ "description": "Fiche d'intercommunalité (ADR-0004) — Communauté de communes du Trièves, code 200030658 · 10 526 habitants. Comptes 2024 exécutés, CONSOLIDÉS (budget principal et budgets annexes). Le montant racine est volontairement null : les dépenses (12 561 717,00 €) et les recettes (13 398 116,42 €) ne s'additionnent pas.",
+ "source": {
+  "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024",
+  "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+  "producteur": "OFGL / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-20",
+  "maj": "2025-07-25"
+ },
+ "enfants": [
+  {
+   "id": "groupement.200030658.depenses",
+   "label": "Dépenses 2024 (comptes consolidés)",
+   "montant": 12561717.0,
+   "annee": 2024,
+   "statut": "confirme",
+   "source": {
+    "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses totales »",
+    "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+    "producteur": "OFGL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-20",
+    "maj": "2025-07-25"
+   },
+   "enfants": [
+    {
+     "id": "groupement.200030658.depenses.fonctionnement",
+     "label": "Dépenses de fonctionnement",
+     "montant": 10001849.0,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses de fonctionnement »",
+      "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+      "producteur": "OFGL / DGFiP",
+      "licence": "Licence Ouverte 2.0",
+      "consulte_le": "2026-07-20",
+      "maj": "2025-07-25"
+     },
+     "enfants": [
+      {
+       "id": "groupement.200030658.depenses.fonctionnement.personnel",
+       "label": "Frais de personnel",
+       "montant": 6053970.66,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Frais de personnel »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-07-25"
+       },
+       "enfants": []
+      },
+      {
+       "id": "groupement.200030658.depenses.fonctionnement.achats",
+       "label": "Achats et charges externes",
+       "montant": 3047180.54,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Achats et charges externes »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-07-25"
+       },
+       "enfants": []
+      },
+      {
+       "id": "groupement.200030658.depenses.fonctionnement.intervention",
+       "label": "Dépenses d'intervention",
+       "montant": 474455.88,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses d'intervention »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-07-25"
+       },
+       "enfants": []
+      },
+      {
+       "id": "groupement.200030658.depenses.fonctionnement.autres",
+       "label": "Autres dépenses de fonctionnement",
+       "montant": 364530.38,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Autres dépenses de fonctionnement »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-07-25"
+       },
+       "enfants": []
+      },
+      {
+       "id": "groupement.200030658.depenses.fonctionnement.charges-financieres",
+       "label": "Charges financières",
+       "montant": 61711.54,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Charges financières »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-07-25"
+       },
+       "enfants": []
+      }
+     ]
+    },
+    {
+     "id": "groupement.200030658.depenses.investissement",
+     "label": "Dépenses d'investissement",
+     "montant": 2559868.0,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses d'investissement »",
+      "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+      "producteur": "OFGL / DGFiP",
+      "licence": "Licence Ouverte 2.0",
+      "consulte_le": "2026-07-20",
+      "maj": "2025-07-25"
+     },
+     "enfants": [
+      {
+       "id": "groupement.200030658.depenses.investissement.equipement",
+       "label": "Dépenses d'équipement",
+       "montant": 2072025.85,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses d'équipement »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-07-25"
+       },
+       "enfants": []
+      },
+      {
+       "id": "groupement.200030658.depenses.investissement.remboursement-emprunts",
+       "label": "Remboursements d'emprunts (hors gestion active de la dette)",
+       "montant": 231464.74,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Remboursements d'emprunts hors GAD »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-07-25"
+       },
+       "enfants": []
+      },
+      {
+       "id": "groupement.200030658.depenses.investissement.autres",
+       "label": "Autres dépenses d'investissement",
+       "montant": 85052.91,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Autres dépenses d'investissement »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-07-25"
+       },
+       "enfants": []
+      },
+      {
+       "id": "groupement.200030658.depenses.investissement.subventions-versees",
+       "label": "Subventions d'équipement versées",
+       "montant": 171324.5,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Subventions d'équipement versées »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-07-25"
+       },
+       "enfants": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "groupement.200030658.recettes",
+   "label": "Recettes 2024 (comptes consolidés)",
+   "montant": 13398116.42,
+   "annee": 2024,
+   "statut": "confirme",
+   "source": {
+    "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Recettes totales »",
+    "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+    "producteur": "OFGL / DGFiP",
+    "licence": "Licence Ouverte 2.0",
+    "consulte_le": "2026-07-20",
+    "maj": "2025-07-25"
+   },
+   "enfants": [
+    {
+     "id": "groupement.200030658.recettes.fonctionnement",
+     "label": "Recettes de fonctionnement",
+     "montant": 11659405.78,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Recettes de fonctionnement »",
+      "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+      "producteur": "OFGL / DGFiP",
+      "licence": "Licence Ouverte 2.0",
+      "consulte_le": "2026-07-20",
+      "maj": "2025-07-25"
+     },
+     "enfants": [
+      {
+       "id": "groupement.200030658.recettes.fonctionnement.impots",
+       "label": "Impôts et taxes",
+       "montant": 5229678.3,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Impôts et taxes »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-07-25"
+       },
+       "enfants": []
+      },
+      {
+       "id": "groupement.200030658.recettes.fonctionnement.concours-etat",
+       "label": "Concours de l'État (dont DGF)",
+       "montant": 764201.98,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Concours de l'Etat »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-07-25"
+       },
+       "enfants": []
+      },
+      {
+       "id": "groupement.200030658.recettes.fonctionnement.ventes",
+       "label": "Ventes de biens et services",
+       "montant": 4326466.93,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Ventes de biens et services »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-07-25"
+       },
+       "enfants": []
+      },
+      {
+       "id": "groupement.200030658.recettes.fonctionnement.subventions-participations",
+       "label": "Subventions reçues et participations",
+       "montant": -708405.04,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Subventions reçues et participations »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-07-25"
+       },
+       "enfants": []
+      },
+      {
+       "id": "groupement.200030658.recettes.fonctionnement.autres",
+       "label": "Autres recettes de fonctionnement",
+       "montant": 2047463.61,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Autres recettes de fonctionnement »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-07-25"
+       },
+       "enfants": []
+      }
+     ]
+    },
+    {
+     "id": "groupement.200030658.recettes.investissement",
+     "label": "Recettes d'investissement",
+     "montant": 1738710.64,
+     "annee": 2024,
+     "statut": "confirme",
+     "source": {
+      "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Recettes d'investissement »",
+      "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+      "producteur": "OFGL / DGFiP",
+      "licence": "Licence Ouverte 2.0",
+      "consulte_le": "2026-07-20",
+      "maj": "2025-07-25"
+     },
+     "enfants": [
+      {
+       "id": "groupement.200030658.recettes.investissement.emprunts",
+       "label": "Emprunts (hors gestion active de la dette)",
+       "montant": 200.0,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Emprunts hors GAD »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-07-25"
+       },
+       "enfants": []
+      },
+      {
+       "id": "groupement.200030658.recettes.investissement.fctva",
+       "label": "FCTVA (remboursement de TVA sur investissements)",
+       "montant": 260235.51,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « FCTVA »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-07-25"
+       },
+       "enfants": []
+      },
+      {
+       "id": "groupement.200030658.recettes.investissement.autres",
+       "label": "Autres recettes d'investissement",
+       "montant": 112084.13,
+       "annee": 2024,
+       "statut": "confirme",
+       "source": {
+        "nom": "OFGL — Comptes consolidés des groupements à fiscalité propre (jeu ofgl-base-gfp-consolidee), comptes consolidés, exercice 2024, agrégat « Autres recettes d'investissement »",
+        "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-gfp-consolidee/",
+        "producteur": "OFGL / DGFiP",
+        "licence": "Licence Ouverte 2.0",
+        "consulte_le": "2026-07-20",
+        "maj": "2025-07-25"
+       },
+       "enfants": []
+      }
+     ],
+     "description": "Ventilation partielle : postes principaux uniquement — la somme des enfants est inférieure au total, le reliquat correspond à d'autres agrégats OFGL non repris ici."
+    }
+   ]
+  }
+ ]
+}

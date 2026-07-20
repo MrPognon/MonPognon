@@ -50,6 +50,16 @@ ECHELONS = {
         "prefixe": "region", "dossier": "regions", "bloc": "APUL.regions",
         "libelle_jeu": "Comptes consolidés des régions", "quoi": "Fiche régionale",
     },
+    "groupements": {
+        # EPCI à fiscalité propre. Ils relèvent de S131311 « communes » au sens SEC
+        # (définition INSEE : S13131 regroupe les collectivités à compétence générale
+        # ET les EPCI) — ils partagent donc le bloc APUL.communes, dont le référentiel
+        # de comptage additionne les deux jeux OFGL.
+        "jeu": "ofgl-base-gfp-consolidee", "cle": "siren", "nom_champ": "epci_name",
+        "prefixe": "groupement", "dossier": "groupements", "bloc": "APUL.communes",
+        "libelle_jeu": "Comptes consolidés des groupements à fiscalité propre",
+        "quoi": "Fiche d'intercommunalité",
+    },
     "syndicats": {
         "jeu": "ofgl-base-syndicats-consolidee", "cle": "siren", "nom_champ": "synd_name",
         "sans_population": True,   # ce jeu ne porte pas de champ ptot
