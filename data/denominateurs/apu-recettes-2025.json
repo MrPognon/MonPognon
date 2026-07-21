@@ -337,7 +337,7 @@
           "label": "Organismes dépendant des assurances sociales (S13142)",
           "poids_publie_eur": 133576600000,
           "source_poids": {
-            "nom": "Comptes nationaux 2025 — tableau 3.214 « Dépenses et recettes des ODASS (S13142) »",
+            "nom": "Comptes nationaux 2025 — tableau 3.214 « Dépenses et recettes des organismes dépendant des assurances sociales dont hôpitaux, Pôle Emploi,… (S13142) »",
             "url": "https://www.insee.fr/fr/statistiques/fichier/8988845/t_3214_fr.xlsx",
             "producteur": "INSEE",
             "licence": "Licence Ouverte 2.0",
@@ -354,9 +354,9 @@
           "raccord_publie": false,
           "ecart_millesime": false,
           "manque": {
-            "quoi": "Aucune recette d'ODASS modélisée (hôpitaux publics pour l'essentiel).",
-            "contact": "DREES / ATIH",
-            "url": "https://www.atih.sante.fr/"
+            "quoi": "RÉFÉRENTIEL MANQUANT, ET PÉRIMÈTRE MAL DÉSIGNÉ — même situation et même correction du 21/07/2026 que le volet dépenses. Aucune recette d'ODASS n'est modélisée. S13142 ne se réduit pas aux hôpitaux publics : il comprend aussi les hôpitaux privés financés par dotation globale, les œuvres sociales des organismes de sécurité sociale et France Travail hors indemnisation (6 997,1 M€ de ressources au budget initial 2024). La M21 est structurellement disqualifiée comme référentiel (champ défini par le statut juridique, non par le classement économique). Voir le volet dépenses pour la carte complète, l'inventaire de ce qui a été cherché, et le danger de double-compte avec l'arbre Sécu.",
+            "contact": "INSEE — Département des comptes nationaux, pour un référentiel de comptage du sous-secteur S13142. L'ATIH couvre le champ hospitalier, qui n'est PAS tout le bloc.",
+            "url": "https://www.insee.fr/fr/statistiques/8988845"
           }
         }
       ]
