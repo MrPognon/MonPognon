@@ -87,6 +87,59 @@ METHODE_CP = (
 
 NIVEAUX_P = ["P0", "P1", "P2", "P3", "P4", "P5", "P6"]
 
+# ── Bases comptables (ADR-0007) ───────────────────────────────────────────────
+# La règle anti-triche de l'ADR-0006 (« on ne divise jamais un euro d'une
+# comptabilité par un euro d'une autre ») était jusqu'ici un garde-fou éditorial :
+# indice_cp() divisait sans jamais comparer les bases. Ces constantes et les
+# quatre règles qui les exploitent rendent la promesse mécanique.
+#
+# L'énumération est FERMÉE À DESSEIN. Ajouter une base est une décision qui doit
+# passer par une relecture, pas un effet de bord d'une PR de données : c'est
+# précisément par un référentiel d'une autre comptabilité que la faille s'ouvrait.
+BASES_COMPTABLES = {
+    "PLF": "comptabilité budgétaire de l'État (LOLF, crédits de paiement)",
+    "OFGL": "comptes locaux publiés par l'Observatoire des finances et de la gestion publique locales",
+    "CCSS": "comptes de la Commission des comptes de la Sécurité sociale",
+    "SEC": "comptabilité nationale (SEC 2010) — INTERDITE comme référentiel, voir plus bas",
+}
+# Le poids d'un bloc est TOUJOURS en SEC. Un référentiel lui aussi en SEC rendrait
+# le coefficient tautologique (on diviserait le poids par lui-même, c = 1 par
+# construction) : le bloc compterait plein sans qu'aucun euro soit modélisé.
+# C'est le piège du tableau INSEE 3.204 relevé sur les ODAC.
+BASE_INTERDITE_EN_REFERENTIEL = "SEC"
+
+
+def valider_bases_comptables(arbres, denominateurs):
+    """Règle du référentiel homogène, version mécanique (ADR-0007).
+
+    Vérifie que le NUMÉRATEUR et le DÉNOMINATEUR d'un coefficient relèvent bien
+    de la même comptabilité. Sans ce contrôle, on pouvait brancher un référentiel
+    DREES sur un arbre CCSS, gagner trente points de couverture, et passer la CI
+    en silence — c'est une attaque qui a été démontrée, pas une hypothèse."""
+    for volet, denom in sorted(denominateurs.items()):
+        # base attendue pour chaque bloc doté d'un référentiel
+        base_du_bloc = {}
+        for seg in denom["segments"]:
+            for ss in seg["sous_segments"]:
+                ref = ss.get("referentiel_comptage")
+                if ref and ref.get("base_comptable"):
+                    base_du_bloc[ss["code"]] = ref["base_comptable"]
+
+        for node in arbres:
+            bloc = node.get("bloc_univers")
+            if not bloc or node.get("volet") not in (volet, "mixte"):
+                continue
+            attendue = base_du_bloc.get(bloc)
+            if attendue is None:
+                continue          # bloc sans référentiel : il compte zéro, rien à vérifier
+            portee = node.get("base_comptable")
+            if portee != attendue:
+                errors.append(
+                    f"{node['id']}: base comptable « {portee} » face à un référentiel "
+                    f"« {attendue} » pour le bloc {bloc} ({volet}). Un coefficient ne se "
+                    f"mesure qu'à l'intérieur d'une même comptabilité (ADR-0006 §3, "
+                    f"ADR-0007) : corriger l'arbre, ou retirer le référentiel du bloc.")
+
 
 def niveau_effectif(niveaux, prof):
     """Niveau de destination d'un euro porté à cette profondeur JSON : le dernier
@@ -192,6 +245,16 @@ def indice_cp(arbres, denom):
                 c = 0.0
             else:
                 c = present / ref["total_eur"]
+                # ADR-0007 — un coefficient > 1 signifie que le corpus dépasse son propre
+                # référentiel. C'est toujours faux : référentiel sous-dimensionné, ou corpus
+                # hors périmètre. Sans ce plancher, `total_eur` reste un nombre libre — le
+                # diviser par deux double le coefficient et gonfle C de trente points sans
+                # qu'aucune base_comptable ne soit mensongère. Attaque vérifiée le 21/07/2026.
+                if c > 1.005:
+                    errors.append(f"dénominateur — {ss['code']} : coefficient {c:.4f} > 1 — le corpus "
+                                  f"présent ({present:.2f} €) dépasse son référentiel de comptage "
+                                  f"({ref['total_eur']:.2f} €). Soit le référentiel est sous-dimensionné, "
+                                  f"soit l'arbre porte des euros hors de son périmètre (ADR-0007).")
                 # La valeur déclarée n'est plus la source du calcul, mais elle reste une
                 # ASSERTION VÉRIFIÉE : si elle diverge du corpus, quelqu'un a ajouté ou
                 # retiré des données sans mettre le dénominateur à jour.
@@ -217,6 +280,14 @@ def indice_cp(arbres, denom):
             else:
                 histo_univers["P0"] += comptes
                 histo_couvert["P0"] += comptes
+            # ADR-0007 — filet de dernier recours, indépendant de tout paramétrage : un bloc
+            # ne peut pas être couvert au-delà de son poids. Contrairement au contrôle sur `c`,
+            # celui-ci attrape aussi les cas où le poids lui-même a été déplacé entre
+            # sous-segments. Un euro d'univers négatif est physiquement impossible.
+            if comptes > ss["poids_eur"] * 1.005:
+                errors.append(f"dénominateur — {ss['code']} : {comptes:.2f} € comptés pour un poids "
+                              f"de {ss['poids_eur']:.2f} € — un bloc ne peut pas être couvert "
+                              f"au-delà de lui-même (ADR-0007).")
             histo_univers["P0"] += ss["poids_eur"] - comptes   # non couvert = P0
             blocs.append({
                 "code": ss["code"], "label": ss["label"],
@@ -411,6 +482,19 @@ def valider_denominateur(doc, path):
                                   f"— interdit par l'ADR-0006 (règle du référentiel homogène)")
             elif not ref.get("total_eur") or not ref.get("source", {}).get("url", "").startswith("https://"):
                 errors.append(f"{ident} : référentiel de comptage sans total ou sans source HTTPS")
+            else:
+                # ADR-0007 — la comptabilité du référentiel doit être déclarée…
+                base = ref.get("base_comptable")
+                if base not in BASES_COMPTABLES:
+                    errors.append(f"{ident} : référentiel sans 'base_comptable' valide "
+                                  f"(attendu l'une de {sorted(BASES_COMPTABLES)}). Sans elle, "
+                                  f"rien n'empêche de mesurer le coefficient dans une "
+                                  f"comptabilité et de l'appliquer à une autre.")
+                # …et elle ne peut pas être celle du poids, sans quoi c = 1 par construction.
+                elif base == BASE_INTERDITE_EN_REFERENTIEL:
+                    errors.append(f"{ident} : référentiel en base SEC — interdit. Le poids du "
+                                  f"bloc est lui-même en SEC : le coefficient vaudrait 1 par "
+                                  f"construction et ne mesurerait rien (ADR-0007).")
     if abs(total - doc["total_brut_eur"]) > 3:
         errors.append(f"{path}: dénominateur — somme des segments {total} ≠ total_brut_eur {doc['total_brut_eur']}")
 
@@ -430,6 +514,14 @@ def valider_racine_cp(node, path, codes):
         errors.append(f"{path}: volet « {node['volet']} » invalide")
     elif node.get("bloc_univers") and node["volet"] is None:
         errors.append(f"{path}: bloc_univers déclaré sans volet — le calcul ne saurait pas contre quel dénominateur mesurer")
+    # ADR-0007 : un arbre qui compte dans un bloc dit dans quelle comptabilité il
+    # est libellé. C'est ce qui permet de refuser mécaniquement un coefficient
+    # mesuré entre deux comptabilités différentes.
+    if node.get("bloc_univers"):
+        base = node.get("base_comptable")
+        if base not in BASES_COMPTABLES:
+            errors.append(f"{path}: racine sans 'base_comptable' valide "
+                          f"(attendu l'une de {sorted(BASES_COMPTABLES)})")
     niveaux = node.get("niveaux")
     if not isinstance(niveaux, list) or not niveaux:
         errors.append(f"{path}: racine sans table 'niveaux'")
@@ -505,6 +597,7 @@ def main():
     cov = {k: couverture(n) for k, n in data.items()}
     cov_doc = {"methode": METHODE_COUVERTURE, "arbres": cov}
     arbres = list(data.values()) + list(fiches.values())
+    valider_bases_comptables(arbres, denominateurs)   # ADR-0007, AVANT le calcul
     cov_doc["cp"] = {v: indice_cp(arbres, d) for v, d in sorted(denominateurs.items())}
 
     for w in warnings: print("AVERTISSEMENT:", w)

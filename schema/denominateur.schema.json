@@ -61,10 +61,11 @@
     "referentiel_comptage": {
       "type": ["object", "null"],
       "description": "le référentiel HOMOGÈNE dans lequel se mesure la couverture. Null si aucun raccord n'est possible : le coefficient vaut alors zéro, et `manque` doit dire pourquoi.",
-      "required": ["nom", "total_eur", "source"],
+      "required": ["nom", "base_comptable", "total_eur", "source"],
       "additionalProperties": false,
       "properties": {
         "nom": { "type": "string" },
+        "base_comptable": { "enum": ["PLF", "OFGL", "CCSS"], "description": "comptabilité dans laquelle ce total est exprimé (ADR-0007). Elle DOIT être identique à celle des arbres qui alimentent le bloc : build.py refuse mécaniquement un coefficient mesuré entre deux comptabilités. « SEC » est volontairement exclu — le poids du bloc étant lui-même en SEC, le coefficient vaudrait 1 par construction et ne mesurerait rien." },
         "total_eur": { "type": "number", "exclusiveMinimum": 0 },
         "source": { "$ref": "#/definitions/source" },
         "verification": { "type": "string", "description": "comment ce total a été recalculé en première main" }

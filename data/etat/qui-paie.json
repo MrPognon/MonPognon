@@ -6,6 +6,7 @@
  "statut": "confirme",
  "bloc_univers": null,
  "volet": null,
+ "base_comptable": null,
  "niveaux": [
   "P0",
   "P0",

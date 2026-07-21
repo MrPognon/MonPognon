@@ -6,6 +6,7 @@
  "statut": "confirme",
  "bloc_univers": "APUL.odal",
  "volet": "mixte",
+ "base_comptable": "OFGL",
  "niveaux": [
   "P2",
   "P2",

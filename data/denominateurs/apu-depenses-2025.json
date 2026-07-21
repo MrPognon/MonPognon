@@ -51,6 +51,7 @@
           "sens_du_biais": "sur-estime",
           "referentiel_comptage": {
             "nom": "PLF 2025 — dépenses selon destination, somme des crédits de paiement",
+            "base_comptable": "PLF",
             "total_eur": 823043976041,
             "source": {
               "nom": "PLF 2025 — dépenses selon destination",
@@ -136,6 +137,7 @@
           "sens_du_biais": "sous-estime",
           "referentiel_comptage": {
             "nom": "OFGL — comptes consolidés des communes ET des groupements à fiscalité propre, exercice 2024, agrégat « Dépenses totales »",
+            "base_comptable": "OFGL",
             "total_eur": 194368606648.38,
             "source": {
               "nom": "ofgl-base-communes-consolidee + ofgl-base-gfp-consolidee",
@@ -172,6 +174,7 @@
           "sens_du_biais": "neutre",
           "referentiel_comptage": {
             "nom": "OFGL — comptes consolidés des départements, exercice 2024, agrégat « Dépenses totales »",
+            "base_comptable": "OFGL",
             "total_eur": 95977414003.86,
             "source": {
               "nom": "ofgl-base-departements-consolidee",
@@ -206,6 +209,7 @@
           "sens_du_biais": "neutre",
           "referentiel_comptage": {
             "nom": "OFGL — comptes consolidés des régions, exercice 2024, agrégat « Dépenses totales »",
+            "base_comptable": "OFGL",
             "total_eur": 42987027594.7,
             "source": {
               "nom": "ofgl-base-regions-consolidee",
@@ -240,6 +244,7 @@
           "sens_du_biais": "neutre",
           "referentiel_comptage": {
             "nom": "OFGL — comptes consolidés des syndicats, exercice 2024, agrégat « Dépenses totales »",
+            "base_comptable": "OFGL",
             "total_eur": 24381933725.9,
             "source": {
               "nom": "ofgl-base-syndicats-consolidee",

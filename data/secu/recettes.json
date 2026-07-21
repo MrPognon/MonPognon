@@ -6,6 +6,7 @@
  "statut": "confirme",
  "bloc_univers": "ASSO.regimes",
  "volet": "recettes",
+ "base_comptable": "CCSS",
  "niveaux": [
   "P0",
   "P1",

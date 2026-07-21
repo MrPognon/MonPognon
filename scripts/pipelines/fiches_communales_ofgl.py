@@ -153,7 +153,7 @@ def fiche_commune(insee, dept, rows, meta, rapport):
             # Qualification C·P (ADR-0006) : émise ici pour qu'une fiche fraîche soit
             # valide sans passer par qualifier_profondeur.py. Les deux restent cohérents
             # — le qualificateur est idempotent et sert de filet.
-            "bloc_univers": "APUL.communes", "volet": "mixte",
+            "bloc_univers": "APUL.communes", "volet": "mixte", "base_comptable": "OFGL",
             "niveaux": ["P2", "P2", "P2", None, None, None],
             "description": (f"Fiche communale (ADR-0004) — {nom}, code INSEE {insee}, {dep_nom}"
                             + (f" · {int(ptot):,} habitants (population DGF {exer})".replace(",", "\u202f") if ptot else "")
