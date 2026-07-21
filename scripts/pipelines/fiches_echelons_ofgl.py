@@ -19,7 +19,8 @@ RIGUEUR : les sous-niveaux ne sont émis QUE si leur somme réconcilie le parent
 centime ; sinon la fiche reste au niveau sûr et l'entité est listée au rapport.
 Sortie non nulle dès qu'un invariant casse.
 
-Usage : python3 scripts/pipelines/fiches_echelons_ofgl.py --echelon departements [--telecharger]
+Usage : python3 scripts/pipelines/fiches_echelons_ofgl.py --echelon departements
+                 [--exercice 2025] [--telecharger] [--forcer]
 Puis  : python3 scripts/build.py
 """
 import datetime
@@ -81,6 +82,11 @@ ECHELONS = {
         "libelle_jeu": "Comptes consolidés des syndicats", "quoi": "Fiche de syndicat",
     },
 }
+# Exercice OFGL par défaut. Surchargeable par --exercice : l'OFGL publie les
+# échelons à des rythmes DIFFÉRENTS (au 21/07/2026, 2025 existe pour les
+# départements, les régions, les CCAS et les SDIS, mais pas pour les communes,
+# les intercommunalités ni les syndicats). Figer une année unique pour tous
+# obligerait à attendre le plus lent.
 EXER = 2024
 
 
@@ -193,6 +199,9 @@ def main():
     ech = sys.argv[sys.argv.index("--echelon") + 1]
     if ech not in ECHELONS:
         raise SystemExit(f"échelon inconnu « {ech} » — attendu : {', '.join(ECHELONS)}")
+    global EXER
+    if "--exercice" in sys.argv:
+        EXER = int(sys.argv[sys.argv.index("--exercice") + 1])
     cfg, forcer = ECHELONS[ech], "--forcer" in sys.argv
     raw_p = os.path.join(ROOT, "data-sources", "raw", f"ofgl-{ech}-{EXER}.json.gz")
 
@@ -203,7 +212,7 @@ def main():
         telecharger(cfg, raw_p)
     elif not os.path.exists(raw_p):
         sys.exit(f"ERREUR : extrait brut absent — {os.path.relpath(raw_p, ROOT)}\n"
-                 f"        Pour le créer hors CI : --echelon {ech} --telecharger")
+                 f"        Pour le créer hors CI : --echelon {ech} --exercice {EXER} --telecharger")
 
     meta = json.load(open(raw_p.replace(".json.gz", ".meta.json"), encoding="utf-8"))
     with gzip.open(raw_p, "rt", encoding="utf-8") as fh:
