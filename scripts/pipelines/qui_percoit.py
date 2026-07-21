@@ -101,13 +101,47 @@ def vue_operateurs(meta):
             "label": mission, "montant": None, "annee": 2025, "statut": "confirme",
             "enfants": enfants_prog,
         })
+    # Le financement par opérateur N'EST PAS dans ce jeu de données : la liste
+    # publiée porte le nom, le statut juridique, la catégorie et le programme
+    # chef de file — jamais un euro. On le déclare au lieu de laisser 433 nœuds
+    # muets, conformément à la règle du dépôt sur les données manquantes.
+    enfants_missions.append({
+        "id": "etat.qui-percoit.operateurs.inconnu-financement",
+        "label": "❓ Combien chaque opérateur reçoit-il ? — montants non publiés en données",
+        "montant": None, "annee": None, "statut": "inconnu",
+        "source": {"nom": "Constat d'absence — data.gouv.fr ne publie du jaune « Opérateurs de l'État » "
+                          "que la liste des opérateurs et catégories (PLF 2024, 2025 et 2026 vérifiés "
+                          "le 21/07/2026) : cinq colonnes, aucun montant.",
+                   "url": "https://www.budget.gouv.fr/budget-etat/operateurs",
+                   "producteur": "Direction du budget", "licence": "Licence Ouverte 2.0",
+                   "consulte_le": "2026-07-21", "maj": None},
+        "inconnu": {
+            "quoi": "Le financement versé à chaque opérateur — 73 à 77 Md€ au total (subventions pour "
+                    "charges de service public, dotations, transferts, taxes affectées). Il EXISTE, publié "
+                    "dans le jaune « Opérateurs de l'État » annexé au PLF, mais en PDF seulement : la série "
+                    "en format ouvert des budgets d'opérateurs est INTERROMPUE depuis le PLF 2019. "
+                    "ATTENTION, PIÈGE DE LECTURE : même une fois les montants obtenus, la colonne « Mission "
+                    "et Programme chefs de file » de la liste publiée ne dit PAS quel programme paie — un "
+                    "chef de file est une attribution administrative, et un opérateur peut être financé par "
+                    "plusieurs programmes. Rattacher un montant à son chef de file reviendrait à imputer un "
+                    "agrégat à une ligne choisie : c'est exclu. Un rattachement suppose donc une source "
+                    "donnant le programme PAYEUR par opérateur, pas seulement le chef de file.",
+            "contact": "Direction du budget — reprise de la publication en format ouvert des budgets "
+                       "d'opérateurs, interrompue après le PLF 2019",
+            "url": "https://www.budget.gouv.fr/documentation/documents-budgetaires"},
+        "enfants": []})
+
     return {
         "id": "etat.qui-percoit.operateurs",
         "label": f"Les opérateurs de l'État — {len(rows)} organismes (PLF 2025)",
         "montant": None, "annee": 2025, "statut": "confirme",
         "description": ("Agences, établissements et organismes financés et contrôlés par l'État (ADEME, universités, "
                         "Pôle emploi devenu France Travail…), rattachés à leur mission et programme chefs de file. "
-                        "Leur financement est déjà compté dans les crédits des programmes (💸 Dépenses)."),
+                        "Leur financement est déjà compté dans les crédits des programmes (💸 Dépenses). "
+                        "⚠️ Les montants par opérateur ne sont PAS affichés parce qu'ils ne sont pas publiés "
+                        "en données ouvertes — voir le nœud « Combien chaque opérateur reçoit-il ? » en fin "
+                        "de liste. Ce que cette vue apporte : le nom, le statut juridique, la catégorie de "
+                        "rattachement et le programme chef de file de chacun des 433 organismes."),
         "source": src, "enfants": enfants_missions,
         "a_completer": {"note": "La liste open data ne publie pas les crédits par opérateur — ils figurent dans le jaune PDF « Opérateurs de l'État » (budget.gouv.fr) : contribution bienvenue, page à citer.",
                         "url": "https://www.budget.gouv.fr/documentation/documents-budgetaires"},
