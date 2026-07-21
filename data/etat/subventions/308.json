@@ -1,0 +1,550 @@
+{
+ "id": "etat.subventions.p308",
+ "label": "Programme 308 — Protection des droits et libertés : bénéficiaires des subventions aux associations",
+ "montant": 295275.53,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "41 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p308.fondationroyaumont",
+   "label": "Fondation Royaumont",
+   "montant": 48409.97,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775689003"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.fondationnationalesciences-politiques",
+   "label": "Fondation Nationale Sciences Politiques",
+   "montant": 41124.48,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784308249"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.assgestionrestauadministratif-finance",
+   "label": "Ass Gestion Restau Administratif Finance",
+   "montant": 40803.66,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "328139837"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.ecoledeconomiedeparis",
+   "label": "Ecole D Economie De Paris",
+   "montant": 36000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "493902662"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.jasadyat",
+   "label": "Jasadyat",
+   "montant": 14000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "918043969"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.cultureetloisirspm",
+   "label": "Culture Et Loisirs Pm",
+   "montant": 12000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "450685482"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.associationconcordia",
+   "label": "Association Concordia",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784180440"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.reelassociationderecherches-realisations",
+   "label": "Reel Association De Recherches Realisations Explorations Du Reel",
+   "montant": 9682.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923197206"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.associationpourlaformationdes-informatic",
+   "label": "Association Pour La Formation Des Informaticiens Par L Aprentissage",
+   "montant": 9500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391087210"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.institutdumondearabe",
+   "label": "Institut Du Monde Arabe",
+   "montant": 9382.08,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "320607922"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.supalia",
+   "label": "Supalia",
+   "montant": 8400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "387679111"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.cultureetloisirspm-2",
+   "label": "Culture Et Loisirs Pm",
+   "montant": 8250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "450685482"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.solidaritesida",
+   "label": "Solidarite Sida",
+   "montant": 6926.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398613083"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.associationfrancophonedes-autoritesdepro",
+   "label": "Association Francophone Des Autorites De Protection Des Donnes Personnelles",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "505088039"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.institutcatholiquedeparis",
+   "label": "Institut Catholique De Paris",
+   "montant": 5580.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784280737"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.ennhri",
+   "label": "Ennhri",
+   "montant": 4500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.comitefrancaisdaccreditation",
+   "label": "Comite Francais D Accreditation",
+   "montant": 3945.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "397879487"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.assgestionrestauradminassemblee-nat",
+   "label": "Ass Gestion Restaur Admin Assemblee Nat",
+   "montant": 2904.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "325843670"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.assusagersrestauinterminist",
+   "label": "Ass Usagers Restau Interminist",
+   "montant": 2462.59,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784295115"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.lafresqueduclimat",
+   "label": "La Fresque Du Climat",
+   "montant": 2451.05,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "849329107"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.assgestionrestauradminassemblee-nat-2",
+   "label": "Ass Gestion Restaur Admin Assemblee Nat",
+   "montant": 2200.7,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "325843670"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.protectioncivileparisseine",
+   "label": "Protection Civile Paris Seine",
+   "montant": 1670.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418037461"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.lereseaueuropeendesombudsmans-pourenfant",
+   "label": "Le Reseau Europeen Des Ombudsmans Pour Enfants",
+   "montant": 1100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "508460151"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.assoimmobiliereecolemilitaire",
+   "label": "Asso Immobiliere Ecole Militaire",
+   "montant": 1036.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "572099000"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.associationdesombudsmans",
+   "label": "Association Des Ombudsmans",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.communicationpublique",
+   "label": "Communication Publique",
+   "montant": 950.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382508604"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.fondationirlandaise",
+   "label": "Fondation Irlandaise",
+   "montant": 791.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "315575829"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.associationfrancaisedes-correspondantsal",
+   "label": "Association Francaise Des Correspondants A La Protection Des Donnees A Caractere Personnel",
+   "montant": 670.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "503314353"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.assgestioncentremedicaleurope-annexe",
+   "label": "Ass Gestion Centre Medical Europe Annexe",
+   "montant": 550.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784401846"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.ctrereflexionsapplications-magiques",
+   "label": "Ctre Reflexions Applications Magiques",
+   "montant": 506.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "402451710"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.ctreeuropeenpromotiondel-histoire",
+   "label": "Ctre Europeen Promotion De L Histoire",
+   "montant": 465.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "419248646"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.croixrougefrancaise",
+   "label": "Croix Rouge Francaise",
+   "montant": 290.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672272"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.isminterpretariat",
+   "label": "Ism Interpretariat",
+   "montant": 288.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "322434077"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.isminterpretariat-2",
+   "label": "Ism Interpretariat",
+   "montant": 240.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "322434077"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.lesmainsturquoises",
+   "label": "Les Mains Turquoises",
+   "montant": 234.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "884459892"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.associationfrancaisede-normalisation",
+   "label": "Association Francaise De Normalisation",
+   "montant": 186.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775724818"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.lafresqueduclimat-2",
+   "label": "La Fresque Du Climat",
+   "montant": 180.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "849329107"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.assdesmairesindreetloire",
+   "label": "Ass Des Maires Indre Et Loire",
+   "montant": 180.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "320518673"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.assgestionrestauradminassemblee-nat-3",
+   "label": "Ass Gestion Restaur Admin Assemblee Nat",
+   "montant": 152.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "325843670"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.lespetitsfreresdespauvres",
+   "label": "Les Petits Freres Des Pauvres",
+   "montant": 150.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775680259"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p308.uniondepartassfamiliales",
+   "label": "Union Depart Ass Familiales",
+   "montant": 113.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "781849070"
+   },
+   "rattachement_id": "etat.depenses.BG.DC.308",
+   "enfants": []
+  }
+ ]
+}

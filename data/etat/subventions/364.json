@@ -1,0 +1,3613 @@
+{
+ "id": "etat.subventions.p364",
+ "label": "Programme 364 : bénéficiaires des subventions aux associations",
+ "montant": 27395372.94,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "299 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p364.federationdesplateformeset-coordinations",
+   "label": "Federation Des Plateformes Et Coordinations Regionales Initiative France Ou Initiative France",
+   "montant": 3312500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "335358230"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.missionlocalenord",
+   "label": "Mission Locale Nord",
+   "montant": 1317244.02,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380379750"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.coallia",
+   "label": "Coallia",
+   "montant": 1138239.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775680309"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationuniscite",
+   "label": "Association Unis Cite",
+   "montant": 902629.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398191569"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.federationdescentressociaux",
+   "label": "Federation Des Centres Sociaux",
+   "montant": 854126.36,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784452773"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.croixrougeinsertion",
+   "label": "Croix Rouge Insertion",
+   "montant": 631495.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "751703430"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lepetitpays",
+   "label": "Le Petit Pays",
+   "montant": 620570.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428237804"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lacravatesolidaire",
+   "label": "La Cravate Solidaire",
+   "montant": 546300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "792455156"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.croixrougefrancaise",
+   "label": "Croix Rouge Francaise",
+   "montant": 451844.72,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672272"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationpourlinsertionsociale-etprofe",
+   "label": "Association Pour L Insertion Sociale Et Professionnelle Des Jeunes Mission Locale De Mayotte",
+   "montant": 425000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "524894276"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.mobinfrance",
+   "label": "Mob In France",
+   "montant": 399927.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "880859707"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.federationfrancaisedesclubs-alpinsetdemo",
+   "label": "Federation Francaise Des Clubs Alpins Et De Montagne",
+   "montant": 320000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775671316"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.assocmissionintercommunaledel-ouest",
+   "label": "Assoc Mission Intercommunale De L Ouest",
+   "montant": 262748.44,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "381502939"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.revivredanslemonde",
+   "label": "Re Vivre Dans Le Monde",
+   "montant": 252081.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "788600377"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationmlezimaore",
+   "label": "Association Mlezi Maore",
+   "montant": 249916.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "518926472"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.banquealimentairedupasdecalais",
+   "label": "Banque Alimentaire Du Pas De Calais",
+   "montant": 231449.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382028264"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.apprentisdauteuilmayotte",
+   "label": "Apprentis D Auteuil Mayotte",
+   "montant": 220809.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "511593758"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.fondationdelarmeedusalut",
+   "label": "Fondation De L Armee Du Salut",
+   "montant": 215040.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "431968601"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lesatelierspartagesdelestuaire",
+   "label": "Les Ateliers Partages De L Estuaire",
+   "montant": 212000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "819252628"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lesperancepatronagesaintlouis",
+   "label": "L Esperance Patronage Saint Louis",
+   "montant": 210738.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "477746531"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.labricoleuse",
+   "label": "La Bricoleuse",
+   "montant": 209500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "844372599"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationcreative",
+   "label": "Association Creative",
+   "montant": 203001.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "451483424"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.federationfrancaisebanques-alimentaire",
+   "label": "Federation Francaise Banques Alimentaire",
+   "montant": 201863.07,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "334559465"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lamanufacturepaysbasque",
+   "label": "La Manufacture Pays Basque",
+   "montant": 199500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "921542338"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.basiliade",
+   "label": "Basiliade",
+   "montant": 196200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "400840476"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.etreecolie",
+   "label": "Etre Eco Lie",
+   "montant": 189000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "844953778"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.federationleolagrange",
+   "label": "Federation Leo Lagrange",
+   "montant": 176747.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784405870"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.coallia-2",
+   "label": "Coallia",
+   "montant": 175954.1,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775680309"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.banquealimentairedelavendee",
+   "label": "Banque Alimentaire De La Vendee",
+   "montant": 175000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "349114348"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.foyerinternationalaccueilet-culture",
+   "label": "Foyer International Accueil Et Culture",
+   "montant": 170191.7,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775689102"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lamatiere",
+   "label": "La Matiere",
+   "montant": 169500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "809021553"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lafabriquedelespoirfablab-montreuilsolid",
+   "label": "La Fabrique De L Espoir Fablab Montreuil Solidaire",
+   "montant": 167000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840424451"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lasmalah",
+   "label": "La Smalah",
+   "montant": 162000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "812166775"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.tcrmblida",
+   "label": "Tcrm Blida",
+   "montant": 162000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "820453520"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lacitedufaire",
+   "label": "La Cite Du Faire",
+   "montant": 162000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "910871706"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.reseaudesaccorderiesdefrance",
+   "label": "Reseau Des Accorderies De France",
+   "montant": 158975.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "799170709"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.garrigues",
+   "label": "Garrigues",
+   "montant": 155260.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "448362160"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationlaiquepourleducation-laformat",
+   "label": "Association Laique Pour L Education La Formation La Prevention Et L Autonomie",
+   "montant": 152469.9,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775624075"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.ay128",
+   "label": "Ay 128",
+   "montant": 152000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "790904882"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.openfab",
+   "label": "Openfab",
+   "montant": 152000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "814856688"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.pollen",
+   "label": "Pollen",
+   "montant": 152000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "817908031"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.larbretierslieuagriculturel",
+   "label": "L Arbre Tiers Lieu Agri Culturel",
+   "montant": 152000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "884865098"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationpupillesenseignement-public",
+   "label": "Association Pupilles Enseignement Public",
+   "montant": 151065.01,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775597503"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.madyco",
+   "label": "Mady Co",
+   "montant": 149500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "880166160"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationdesnouveauxateliers-dudorlay",
+   "label": "Association Des Nouveaux Ateliers Du Dorlay",
+   "montant": 144500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "884508359"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lafabriquedudegrad",
+   "label": "La Fabrique Du Degrad",
+   "montant": 142000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "850741984"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationlesfourmisvertes",
+   "label": "Association Les Fourmis Vertes",
+   "montant": 142000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "830356408"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.banquealimentaireaisne",
+   "label": "Banque Alimentaire Aisne",
+   "montant": 140000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380571513"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.assmeluninsertionsolidarite-accueil",
+   "label": "Ass Melun Insertion Solidarite Accueil",
+   "montant": 140000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "482571353"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.runfabrik",
+   "label": "Runfabrik",
+   "montant": 139500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "899224174"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationvillagepotier",
+   "label": "Association Village Potier",
+   "montant": 138000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "351328786"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.aufoindelarue",
+   "label": "Au Foin De La Rue",
+   "montant": 138000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439553611"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationentraideetsolidarites",
+   "label": "Association Entraide Et Solidarites",
+   "montant": 137028.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775341787"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationholywood",
+   "label": "Association Holywood",
+   "montant": 137000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "898552443"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.atelierpartagelacabane",
+   "label": "Atelier Partage La Cabane",
+   "montant": 137000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "842653727"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.institutdetramayes",
+   "label": "Institut De Tramayes",
+   "montant": 137000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "901321604"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.valorise",
+   "label": "Valorise",
+   "montant": 137000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "828155408"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.flap",
+   "label": "Flap",
+   "montant": 137000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "480655851"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.grandplateau",
+   "label": "Grand Plateau",
+   "montant": 134500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "912425626"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.fashiongreenhub",
+   "label": "Fashion Green Hub",
+   "montant": 134500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "824368989"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.electrolab",
+   "label": "Electrolab",
+   "montant": 134500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "808096002"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.legaragemoderneateliers-associatifs",
+   "label": "Le Garage Moderne Ateliers Associatifs",
+   "montant": 132000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434705281"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.pangloss",
+   "label": "Pangloss",
+   "montant": 132000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "817970338"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationsudformation",
+   "label": "Association Sud Formation",
+   "montant": 131160.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "415225416"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.manufacturecirculaireducotentin",
+   "label": "Manufacture Circulaire Du Cotentin",
+   "montant": 127500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "910383066"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.accueilsoutienluttecontre-detresses",
+   "label": "Accueil Soutien Lutte Contre Detresses",
+   "montant": 123410.25,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775370372"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lorecampum",
+   "label": "Lo Recampum",
+   "montant": 122000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "490097763"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationlyonnaisenouvelled-ecouteetda",
+   "label": "Association Lyonnaise Nouvelle D Ecoute Et D Accompagnement",
+   "montant": 118841.7,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "301365631"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.assregoeuvreseducatives-vacances",
+   "label": "Ass Reg Oeuvres Educatives Vacances",
+   "montant": 113521.54,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775615644"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lesecoloreseducationaleco-creativite",
+   "label": "Les Ecolores Education A L Eco Creativite",
+   "montant": 112000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "831073796"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lamachinerie",
+   "label": "La Machinerie",
+   "montant": 112000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "802773333"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.aubonheurdeschutes",
+   "label": "Au Bonheur Des Chutes",
+   "montant": 112000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "834821803"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.visieresolidaire",
+   "label": "Visiere Solidaire",
+   "montant": 112000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "883221384"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.pphhermitagexperimentations",
+   "label": "Pph Hermitag Experimentations",
+   "montant": 112000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "829609221"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.secourscatholique",
+   "label": "Secours Catholique",
+   "montant": 110000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775666696"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.bibliothequessansfrontieres",
+   "label": "Bibliotheques Sans Frontieres",
+   "montant": 109400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "499622017"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.labricothequefablabdepernesles-fontaines",
+   "label": "La Bricotheque Fablab De Pernes Les Fontaines",
+   "montant": 108135.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "827988460"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.loumercat",
+   "label": "Lou Mercat",
+   "montant": 106362.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "500933593"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.restaurantsducoeurcentre-departementalde",
+   "label": "Restaurants Du Coeur Centre Departemental Des Bouches Du Rhone",
+   "montant": 105000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "521810317"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.assdepsauvegardeenfance",
+   "label": "Ass Dep Sauvegarde Enfance",
+   "montant": 105000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779311489"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lainesfibrestextilesnaturellesdu-massifc",
+   "label": "Laines Fibres Textiles Naturelles Du Massif Central",
+   "montant": 100500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "523934057"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.asshabitathumanismerhone",
+   "label": "Ass Habitat Humanisme Rhone",
+   "montant": 96999.69,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398754903"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationsaintbenoitlabre",
+   "label": "Association Saint Benoit Labre",
+   "montant": 96489.73,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777743139"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.letouremploi",
+   "label": "Le Tour Emploi",
+   "montant": 90950.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "823040589"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.ligueenseignementfederatdep-isere",
+   "label": "Ligue Enseignement Federat Dep Isere",
+   "montant": 90000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779552405"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.liguedelenseignement31",
+   "label": "Ligue De L Enseignement 31",
+   "montant": 90000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776950917"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationsaintjeanbosco",
+   "label": "Association Saint Jean Bosco",
+   "montant": 87286.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "812092245"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.laformationenaction",
+   "label": "La Formation En Action",
+   "montant": 83250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "539677492"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.compagnonsbatisseurscentreval-deloire",
+   "label": "Compagnons Batisseurs Centre Val De Loire",
+   "montant": 82300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "534139266"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.croixrougefrancaise-2",
+   "label": "Croix Rouge Francaise",
+   "montant": 80000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672272"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.conservatoiredespacesnaturels-delorraine",
+   "label": "Conservatoire D Espaces Naturels De Lorraine",
+   "montant": 79049.91,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "333915569"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.fahamoumaecha",
+   "label": "Fahamou Maecha",
+   "montant": 78195.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "798679619"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.secourspopulairefrancais",
+   "label": "Secours Populaire Francais",
+   "montant": 77713.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "312409592"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.ajdmauricegounon",
+   "label": "Ajd Maurice Gounon",
+   "montant": 75218.83,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "522479898"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.emmaussolidarite",
+   "label": "Emmaus Solidarite",
+   "montant": 74863.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "317236248"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.mayotteentraideetudiants",
+   "label": "Mayotte Entraide Etudiants",
+   "montant": 74065.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "883095119"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.revivrerhonealpes",
+   "label": "Revivre Rhone Alpes",
+   "montant": 70000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420360471"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lespapillonsblancsducambresis",
+   "label": "Les Papillons Blancs Du Cambresis",
+   "montant": 70000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775621014"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.oisemontsolidarite",
+   "label": "Oisemont Solidarite",
+   "montant": 70000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "429980006"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.asspourdroitalinitiative-economique",
+   "label": "Ass Pour Droit A L Initiative Economique",
+   "montant": 69493.96,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "352216873"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.uniondepassociationsfamiliales",
+   "label": "Union Dep Associations Familiales",
+   "montant": 67970.3,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "788354124"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.assocbearnpontdecamps",
+   "label": "Assoc Bearn Pont De Camps",
+   "montant": 66770.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "300692589"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.logivarestudv",
+   "label": "Logivar Est Udv",
+   "montant": 64000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "429149495"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationpourledeveloppement-delhabita",
+   "label": "Association Pour Le Developpement De Lhabitat Jeunes En Correze",
+   "montant": 63000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "444320097"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.justiceetunionpourla-transformationsocia",
+   "label": "Justice Et Union Pour La Transformation Sociale",
+   "montant": 60000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "812047884"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.assconseildedeveloppays-pyreneesme",
+   "label": "Ass Conseil De Develop Pays Pyrenees Me",
+   "montant": 60000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380561498"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lesfleursdexceptiondupaysde-grasse",
+   "label": "Les Fleurs D Exception Du Pays De Grasse",
+   "montant": 59260.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "521073726"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.unionfrancaisecentrevacances-loisirs",
+   "label": "Union Francaise Centre Vacances Loisirs",
+   "montant": 58501.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775685621"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.banquealimentairedesavoie",
+   "label": "Banque Alimentaire De Savoie",
+   "montant": 57612.49,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344636840"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.federationdepartementaledela-liguedelens",
+   "label": "Federation Departementale De La Ligue De L Enseignement De Mayotte",
+   "montant": 56505.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "751699711"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.painetpartage",
+   "label": "Pain Et Partage",
+   "montant": 56000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "405383761"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.familyalyon",
+   "label": "Familya Lyon",
+   "montant": 56000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "791079908"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.aideemploiservices",
+   "label": "Aide Emploi Services",
+   "montant": 54973.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388439184"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.artisup",
+   "label": "Artis Up",
+   "montant": 54800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "904665635"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.infodroits",
+   "label": "Infodroits",
+   "montant": 54000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "400124483"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.interlogement93",
+   "label": "Interlogement 93",
+   "montant": 52500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "381627280"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.assestivadedaspepyrenees",
+   "label": "Ass Estivade D Aspe Pyrenees",
+   "montant": 51385.13,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "350276598"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.clubloisirsactionjeunessefranc-comte",
+   "label": "Club Loisirs Action Jeunesse Franc Comte",
+   "montant": 50185.82,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "320091317"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.pointdeau",
+   "label": "Point D Eau",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390543742"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.ateliersgersoisinnovation-insertion",
+   "label": "Ateliers Gersois Innovation Insertion",
+   "montant": 49200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "419964317"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.comitefederaldusecourspopulaire-francais",
+   "label": "Comite Federal Du Secours Populaire Francais Du Departement De L Aisne",
+   "montant": 48684.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "377577465"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.secourspopulairefrancais-2",
+   "label": "Secours Populaire Francais",
+   "montant": 48437.77,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379011141"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.banquealimentaireindre",
+   "label": "Banque Alimentaire Indre",
+   "montant": 48230.56,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "348642166"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.assfamilintercomregionbeau",
+   "label": "Ass Famil Intercom Region Beau",
+   "montant": 46585.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780508248"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.essv",
+   "label": "E S S V",
+   "montant": 46200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483939732"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.ajdmauricegounon-2",
+   "label": "Ajd Maurice Gounon",
+   "montant": 46048.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "522479898"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lamaterniteconsciente",
+   "label": "La Maternite Consciente",
+   "montant": 45000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "314560640"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.mamama",
+   "label": "Mamama",
+   "montant": 43000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "883425860"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.famillesruralesfederation-regionalenouve",
+   "label": "Familles Rurales Federation Regionale Nouvelle Aquitaine Aquitaine Limousin Poitou Charentes",
+   "montant": 42500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "411300882"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.secourspopulairefrancais-3",
+   "label": "Secours Populaire Francais",
+   "montant": 41265.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391414943"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.bordeauxinterchallenge",
+   "label": "Bordeaux Inter Challenge",
+   "montant": 41000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344966452"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.kaza",
+   "label": "Kaza",
+   "montant": 40873.7,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "534073945"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lesamisdelarue",
+   "label": "Les Amis De La Rue",
+   "montant": 40803.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383332418"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.uniondepartementaledes-associationsfamil",
+   "label": "Union Departementale Des Associations Familiales De Mayotte",
+   "montant": 40772.66,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "809419542"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationlespoir",
+   "label": "Association L Espoir",
+   "montant": 39925.18,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775560261"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.restaurantsducoeurduhainaut-cambresi",
+   "label": "Restaurants Du Coeur Du Hainaut Cambresi",
+   "montant": 39724.16,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384700068"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.enchantier",
+   "label": "En Chantier",
+   "montant": 39492.45,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "509365466"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.secourspopulairefrancais-4",
+   "label": "Secours Populaire Francais",
+   "montant": 39375.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "484217476"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.missionloccreuseinserprofsoc-jeune",
+   "label": "Mission Loc Creuse Inser Prof Soc Jeune",
+   "montant": 38500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "412014037"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.secourspopulairefrancais-5",
+   "label": "Secours Populaire Francais",
+   "montant": 37200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779917905"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.secourspopulairefrancais-6",
+   "label": "Secours Populaire Francais",
+   "montant": 37180.69,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384642641"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.assdepartementalprotectioncivile-nord",
+   "label": "Ass Departemental Protection Civile Nord",
+   "montant": 37100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "402028013"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.federationdecorsesecours-populaire",
+   "label": "Federation De Corse Secours Populaire",
+   "montant": 36900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "403149495"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.acars",
+   "label": "Acars",
+   "montant": 35175.58,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "309869048"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.collectifpartageetprojets",
+   "label": "Collectif Partage Et Projets",
+   "montant": 35136.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "348886961"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.comiteactionsocialeisraelite-marseill",
+   "label": "Comite Action Sociale Israelite Marseill",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344265848"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.croixrougefrancaise-3",
+   "label": "Croix Rouge Francaise",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672272"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.entourage",
+   "label": "Entourage",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "813792405"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationcemearhonealpes",
+   "label": "Association Cemea Rhone Alpes",
+   "montant": 34000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "404169997"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.emmausdunkerque",
+   "label": "Emmaus Dunkerque",
+   "montant": 33768.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "339567414"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lattisoir",
+   "label": "L Attisoir",
+   "montant": 33664.87,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923165815"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.secourscatholique-2",
+   "label": "Secours Catholique",
+   "montant": 32766.65,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775666696"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.stajauraservicetechniquepour-lesactivite",
+   "label": "Staj Aura Service Technique Pour Les Activites De Jeunesse Auvergne Rhone Alpes",
+   "montant": 32500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "492009295"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.secourscatholique-3",
+   "label": "Secours Catholique",
+   "montant": 31500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775666696"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.habitatethumanisme",
+   "label": "Habitat Et Humanisme",
+   "montant": 31000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "523906782"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.secourspopulairefrancais-7",
+   "label": "Secours Populaire Francais",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "303588941"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.viltais",
+   "label": "Viltais",
+   "montant": 29884.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "407521798"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.banquealimentairecalvados",
+   "label": "Banque Alimentaire Calvados",
+   "montant": 29064.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "337984959"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lesrestaurantsducoeur",
+   "label": "Les Restaurants Du Coeur",
+   "montant": 28980.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418431797"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.maisondesfamillesdevaulxenvelin",
+   "label": "Maison Des Familles De Vaulx En Velin",
+   "montant": 28352.67,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "824346514"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.evoliopaysdaubagneetdeletoile-pae",
+   "label": "Evolio Pays D Aubagne Et De L Etoile P A E",
+   "montant": 28000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "488779091"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.revedenfant",
+   "label": "Reve D Enfant",
+   "montant": 27953.88,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420872285"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.wimoov",
+   "label": "Wimoov",
+   "montant": 27872.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "422136143"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lutterpourlinclusionetlerespect-parlecri",
+   "label": "Lutter Pour L Inclusion Et Le Respect Par L Ecriture",
+   "montant": 27500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "878977230"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.alsacedestinationtourisme",
+   "label": "Alsace Destination Tourisme",
+   "montant": 26784.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "817765035"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.cabiria",
+   "label": "Cabiria",
+   "montant": 26636.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "401263710"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.banquealimentairedelamarne",
+   "label": "Banque Alimentaire De La Marne",
+   "montant": 26600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "350743704"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.secourspopulairefrancais-8",
+   "label": "Secours Populaire Francais",
+   "montant": 26449.69,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "309675205"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.uniondepartementaledela-confederationsyn",
+   "label": "Union Departementale De La Confederation Syndicale Des Familles De L Isere",
+   "montant": 26325.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779552421"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lesrestaurantsducoeurdu-vaucluse",
+   "label": "Les Restaurants Du Coeur Du Vaucluse",
+   "montant": 26174.43,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380291278"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.assocbanquealimentaireduvar",
+   "label": "Assoc Banque Alimentaire Du Var",
+   "montant": 26125.52,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388666141"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.msaservicespicardie",
+   "label": "Msa Services Picardie",
+   "montant": 25710.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "489130229"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.etudesetchantiersiledefrance",
+   "label": "Etudes Et Chantiers Ile De France",
+   "montant": 24500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "440662047"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lesrestaurantsducoeurdeleure",
+   "label": "Les Restaurants Du Coeur De L Eure",
+   "montant": 23844.85,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390117745"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.habitatethumanismemayennesarthe",
+   "label": "Habitat Et Humanisme Mayenne Sarthe",
+   "montant": 23622.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "514874130"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.developpementaccompagnement-animationcoo",
+   "label": "Developpement Accompagnement Animation Cooperation",
+   "montant": 23129.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "488308479"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.croixrougefrancaise-4",
+   "label": "Croix Rouge Francaise",
+   "montant": 22961.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672272"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.compagnonsbatisseurauvergne",
+   "label": "Compagnons Batisseur Auvergne",
+   "montant": 22930.96,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "798697280"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.accueillieutransihebergecoute-accomp",
+   "label": "Accueil Lieu Transi Heberg Ecoute Accomp",
+   "montant": 22704.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779559368"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationmontjoie",
+   "label": "Association Montjoie",
+   "montant": 22695.77,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775652290"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.collectifsocialweb",
+   "label": "Collectif Social Web",
+   "montant": 22600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "807723846"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.academieyounus",
+   "label": "Academie Younus",
+   "montant": 22500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "752065979"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.unionfrancaisedesoeuvreslaiques-deducati",
+   "label": "Union Francaise Des Oeuvres Laiques D Education Physique Ufolep Loire",
+   "montant": 22500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "538114018"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.assliaisonpouravenirdujeune-enfant",
+   "label": "Ass Liaison Pour Avenir Du Jeune Enfant",
+   "montant": 21628.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390534469"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.federationregionaledescentresd-informati",
+   "label": "Federation Regionale Des Centres D Information Sur Les Droits Des Femmes Et Des Familles De Normandie",
+   "montant": 21224.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "849397955"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.solidaction",
+   "label": "Solid Action",
+   "montant": 21196.92,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "445113855"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.secourscatholique-4",
+   "label": "Secours Catholique",
+   "montant": 21140.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775666696"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lesmarronniers",
+   "label": "Les Marronniers",
+   "montant": 21000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "400289252"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.epiceriesolidaireamandine",
+   "label": "Epicerie Solidaire Amandine",
+   "montant": 21000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "517854741"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.gestionanimationresgavotte-peyrets",
+   "label": "Gestion Animation Res Gavotte Peyrets",
+   "montant": 21000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "341680411"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.insertionrestauraucoeurdesbdr",
+   "label": "Insertion Restaur Au Coeur Des Bdr",
+   "montant": 21000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "424552974"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.assmissionlocaledevaulxenvelin",
+   "label": "Ass Mission Locale De Vaulx En Velin",
+   "montant": 20725.73,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "328668157"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.servicesocialdutravail",
+   "label": "Service Social Du Travail",
+   "montant": 20638.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783702970"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.wimoov-2",
+   "label": "Wimoov",
+   "montant": 20534.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "422136143"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.comiteregionalufolepauvergne-rhonealpes",
+   "label": "Comite Regional Ufolep Auvergne Rhone Alpes",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "435253125"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.centreregionalinformation-jeunesse",
+   "label": "Centre Regional Information Jeunesse",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "354082364"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.issuedesecoursmaisonrelaiset-rialtososfe",
+   "label": "Issue De Secours Maison Relais Et Rialto Sos Femmes 38",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "341201234"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.arianemediterranee",
+   "label": "Ariane Mediterranee",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388234627"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.asscoordinationinterassociative-deluttec",
+   "label": "Ass Coordination Inter Associative De Lutte Contre L Exclusion",
+   "montant": 19303.57,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "485386585"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.uniondepdesassfamiliales",
+   "label": "Union Dep Des Ass Familiales",
+   "montant": 19000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775189152"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.yeswecamp",
+   "label": "Yes We Camp",
+   "montant": 18590.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "789420668"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.semtaroute",
+   "label": "Sem Ta Route",
+   "montant": 16380.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "825241490"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationdepartementaledes-restaurants",
+   "label": "Association Departementale Des Restaurants Du Coeur Relais Du Coeur Des Alpes De Haute Provence",
+   "montant": 16334.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "409550654"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.auteuilpetiteenfance",
+   "label": "Auteuil Petite Enfance",
+   "montant": 16329.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "525242889"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.comiteregionalsportspourtous-bretagne",
+   "label": "Comite Regional Sports Pour Tous Bretagne",
+   "montant": 16130.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "338218746"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.assaccueiletrencontresterre-nouvelle",
+   "label": "Ass Accueil Et Rencontres Terre Nouvelle",
+   "montant": 15774.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "350445276"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.zimboum26",
+   "label": "Zimboum26",
+   "montant": 15310.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "529558330"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.maisfamilrurdeducationet-orientatio",
+   "label": "Mais Famil Rur D Education Et Orientatio",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779105485"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.labetapi",
+   "label": "La Beta Pi",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "421131905"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationdescollectifsenfants-parentsp",
+   "label": "Association Des Collectifs Enfants Parents Professionnels",
+   "montant": 14717.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "512662438"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.galicegroupementdacteurspour-lelogementl",
+   "label": "Galice Groupement D Acteurs Pour Le Logement L Insertion La Citoyennete Et L Emploi",
+   "montant": 14495.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "802607267"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.vracnational",
+   "label": "Vrac National",
+   "montant": 14000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "892791898"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.carrefourdessolidarites",
+   "label": "Carrefour Des Solidarites",
+   "montant": 14000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420452864"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.secourspopulairefrancais-9",
+   "label": "Secours Populaire Francais",
+   "montant": 14000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "387680747"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lesjeunespousses",
+   "label": "Les Jeunes Pousses",
+   "montant": 14000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "847797024"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lenvol",
+   "label": "L Envol",
+   "montant": 14000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "403555584"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.francehorizon",
+   "label": "France Horizon",
+   "montant": 13776.74,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775666704"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.onpalpouvanse",
+   "label": "On Pal Pou Vanse",
+   "montant": 13750.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "488276353"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.entourage-2",
+   "label": "Entourage",
+   "montant": 13460.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "813792405"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.realisationdactionssociales-specialisees",
+   "label": "Realisation D Actions Sociales Specialisees",
+   "montant": 13219.28,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "333337905"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.comiteregionalgrandestdela-randonneepede",
+   "label": "Comite Regional Grand Est De La Randonnee Pedestre",
+   "montant": 13200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "824766869"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.odti",
+   "label": "O D T I",
+   "montant": 13109.91,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779559673"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lesnouvellesgrisettes",
+   "label": "Les Nouvelles Grisettes",
+   "montant": 12706.36,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "885206870"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationlapetitepierre",
+   "label": "Association La Petite Pierre",
+   "montant": 12600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "830514055"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.creerdulienparlechangede-savoirs",
+   "label": "Creer Du Lien Par L Echange De Savoirs",
+   "montant": 12519.54,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "803749795"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.anefcantal",
+   "label": "Anef Cantal",
+   "montant": 12500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "501596324"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.solidariteauxaines",
+   "label": "Solidarite Aux Aines",
+   "montant": 12500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "448345231"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.centreregionalecoenergetique-aquitaine",
+   "label": "Centre Regional Ecoenergetique Aquitaine",
+   "montant": 12500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "419932199"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.afratellanza",
+   "label": "A Fratellanza",
+   "montant": 12474.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "404193625"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.ycroireagir",
+   "label": "Y Croire Agir",
+   "montant": 10800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "890195423"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationmobilitemodemploi",
+   "label": "Association Mobilite Mod Emploi",
+   "montant": 10800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "808318331"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.solihapaysbasque",
+   "label": "Soliha Pays Basque",
+   "montant": 10660.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782260830"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.uniondepartementaledes-associationsfamil-2",
+   "label": "Union Departementale Des Associations Familiales De Maine Et Loire",
+   "montant": 10500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "786119131"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.assocthieracheardennaise",
+   "label": "Assoc Thierache Ardennaise",
+   "montant": 10500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "329504237"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationpourlautonomiela-continuitele",
+   "label": "Association Pour L Autonomie La Continuite L Excellence Et La Diversite",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "444811848"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.diaconatprotestant",
+   "label": "Diaconat Protestant",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779554245"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.assocnationalecompagnons-batisseurs",
+   "label": "Assoc Nationale Compagnons Batisseurs",
+   "montant": 9450.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775666639"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.ensembleeducationnation-solidariteenfanc",
+   "label": "E N S E M B L E Education Nation Solidarite Enfance Meritocratie Bien Vivre Laicite Espoir",
+   "montant": 8914.65,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "494344377"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.uniondepartassocfamille-guadeloupe",
+   "label": "Union Depart Assoc Famille Guadeloupe",
+   "montant": 8820.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "314408154"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.epicentreepiceriesolidaireet-sociale",
+   "label": "Epi Centre Epicerie Solidaire Et Sociale",
+   "montant": 8790.89,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "801491283"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.watizat",
+   "label": "Watizat",
+   "montant": 8505.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "879004547"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lakoubosco",
+   "label": "Lakou Bosco",
+   "montant": 8500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "891443996"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.cimadeserviceoecumeniqued-entraide",
+   "label": "Cimade Service Oecumenique D Entraide",
+   "montant": 8400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775666597"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.banquealimentairedulotet-garonne",
+   "label": "Banque Alimentaire Du Lot Et Garonne",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379382658"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationlesmarionnettes",
+   "label": "Association Les Marionnettes",
+   "montant": 7840.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "404402612"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.croixrougefrancaise-5",
+   "label": "Croix Rouge Francaise",
+   "montant": 7790.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672272"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.mouvementpourunealternativenon-violented",
+   "label": "Mouvement Pour Une Alternative Non Violente De L Ocean Indien Man Ocean Indien",
+   "montant": 7500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "820085090"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationnumeriqueinnovation-socialesa",
+   "label": "Association Numerique Innovation Sociale Saint Martin",
+   "montant": 7450.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "842438798"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.abricotier",
+   "label": "Abri Cotier",
+   "montant": 7092.04,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "511002347"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lacroiseedesbesoins",
+   "label": "La Croisee Des Besoins",
+   "montant": 6918.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "798346474"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.opraalecciacomitedequartier",
+   "label": "Opra A Leccia Comite De Quartier",
+   "montant": 6730.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434214896"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.agirenbray",
+   "label": "Agir En Bray",
+   "montant": 6401.9,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "347553398"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.croixrougefrancaise-6",
+   "label": "Croix Rouge Francaise",
+   "montant": 6300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672272"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationpompiersgrassementon-pourlaid",
+   "label": "Association Pompiers Grasse Menton Pour L Aide Humanitaire",
+   "montant": 5846.54,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "798274197"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lasemeuse",
+   "label": "La Semeuse",
+   "montant": 5412.37,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782621304"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lamaison24",
+   "label": "Lamaison24",
+   "montant": 5400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "799705702"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.guidance73",
+   "label": "Guidance 73",
+   "montant": 5390.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483929048"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.pimmsmediation",
+   "label": "Pimms Mediation",
+   "montant": 5191.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423841741"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.accueilspreventionscultures-intercommuna",
+   "label": "Accueils Preventions Cultures Intercommunautaire Et Solidaire",
+   "montant": 5180.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380935627"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.uniondiaconaleduvar",
+   "label": "Union Diaconale Du Var",
+   "montant": 5155.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "353229032"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.alternative119",
+   "label": "Alternative 119",
+   "montant": 5056.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "517839247"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.institutregionaldeformation-handisport",
+   "label": "Institut Regional De Formation Handisport",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "822254546"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.comiteregionaldequitationidf",
+   "label": "Comite Regional D Equitation Idf",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "438658700"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationdescollectifsenfants-parentsp-2",
+   "label": "Association Des Collectifs Enfants Parents Professionnels De La Region Auvergne",
+   "montant": 4047.61,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "487682403"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.croixrougefrancaise-7",
+   "label": "Croix Rouge Francaise",
+   "montant": 3865.94,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672272"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.pimmsmediationgrandpoitiers",
+   "label": "Pimms Mediation Grand Poitiers",
+   "montant": 3520.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "792014672"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.fondationapprentisdauteuil",
+   "label": "Fondation Apprentis D Auteuil",
+   "montant": 3500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775688799"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.pimmsmediationsevran",
+   "label": "Pimms Mediation Sevran",
+   "montant": 3336.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "750843773"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.ligueauvergnerhonealpesd-halterophiliemu",
+   "label": "Ligue Auvergne Rhone Alpes D Halterophilie Musculation",
+   "montant": 3220.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434460622"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.centresocialdelacapelette",
+   "label": "Centre Social De La Capelette",
+   "montant": 3216.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782932255"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationhabitatjeunesen-tregorargoat",
+   "label": "Association Habitat Jeunes En Tregor Argoat",
+   "montant": 3200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777372665"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.foyerlaiqueeducationpermanente",
+   "label": "Foyer Laique Education Permanente",
+   "montant": 3092.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "781256003"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.aumaquis",
+   "label": "Au Maquis",
+   "montant": 2960.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "750515512"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.episol",
+   "label": "Episol",
+   "montant": 2855.55,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "807759204"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lespetitesbatteries",
+   "label": "Les Petites Batteries",
+   "montant": 2850.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "512857996"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lasurprenantesepicerie",
+   "label": "La Surprenantes Epicerie",
+   "montant": 2800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "879070605"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.regiedequartieractif",
+   "label": "Regie De Quartier Actif",
+   "montant": 2744.04,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "377661368"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lacantinesavoyarde",
+   "label": "La Cantine Savoyarde",
+   "montant": 2648.45,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342337698"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationdunumerique",
+   "label": "Association Du Numerique",
+   "montant": 2528.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840256713"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.asslesamisdesbauges",
+   "label": "Ass Les Amis Des Bauges",
+   "montant": 2517.76,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "318932928"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationdesusagersducentre-socialetcu",
+   "label": "Association Des Usagers Du Centre Social Et Culturel Kergomard",
+   "montant": 2450.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783414477"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.secourscatholique-5",
+   "label": "Secours Catholique",
+   "montant": 2350.86,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775666696"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.cispeo",
+   "label": "C I S P E O",
+   "montant": 2298.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "300412608"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationcreative-2",
+   "label": "Association Creative",
+   "montant": 2246.66,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "789377900"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.assconstruirelapluriactivite",
+   "label": "Ass Construire La Pluriactivite",
+   "montant": 2053.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "408613966"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.lesrestaurantsducoeurrelaisdu-coeur",
+   "label": "Les Restaurants Du Coeur Relais Du Coeur",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "343811279"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.motamot",
+   "label": "Mot A Mot",
+   "montant": 1842.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "532865516"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationreussirlinsertiona-bron",
+   "label": "Association Reussir L Insertion A Bron",
+   "montant": 1768.64,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390815504"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.associationdesmairesetdes-presidentsdeco",
+   "label": "Association Des Maires Et Des Presidents De Communautes Du Departement De Tarn Et Garonne",
+   "montant": 1601.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "800300626"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.faucignymontblancdeveloppement-maisondel",
+   "label": "Faucigny Mont Blanc Developpement Maison De L Emploi",
+   "montant": 1600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "417503125"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.centredanimationruralavocation-educative",
+   "label": "Centre D Animation Rural A Vocation Educative Locale Ludique Et Solidaire",
+   "montant": 1596.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "431848308"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.centresocialrural",
+   "label": "Centre Social Rural",
+   "montant": 1344.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "425096427"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.innovaformation",
+   "label": "Innovaformation",
+   "montant": 904.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "813610185"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.assusagerctresociauxgiraudeau-marys",
+   "label": "Ass Usager Ctre Sociaux Giraudeau Marys",
+   "montant": 752.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775349087"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.unionregionaledesfederationsdes-oeuvresl",
+   "label": "Union Regionale Des Federations Des Oeuvres Laique Auvergne Rhone Alpes",
+   "montant": 750.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779673722"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.ligueregionalediledefrancedela-federatio",
+   "label": "Ligue Regionale D Ile De France De La Federation Francaise De Natation",
+   "montant": 681.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784808818"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.pimmsmediationnoisylegrand",
+   "label": "Pimms Mediation Noisy Le Grand",
+   "montant": 476.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "494537160"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.unionfrancaisecentrevacances-loisirs-2",
+   "label": "Union Francaise Centre Vacances Loisirs",
+   "montant": 350.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775685621"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p364.mouvementdunid",
+   "label": "Mouvement Du Nid",
+   "montant": 350.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775723745"
+   },
+   "enfants": []
+  }
+ ]
+}

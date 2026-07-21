@@ -1,0 +1,133 @@
+{
+ "id": "etat.subventions.p382",
+ "label": "Programme 382 : bénéficiaires des subventions aux associations",
+ "montant": 261478.42,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "9 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p382.oeuvreassistbetesabattoir",
+   "label": "Oeuvre Assist Betes Abattoir",
+   "montant": 150000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784452351"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p382.oeuvreassistbetesabattoir-2",
+   "label": "Oeuvre Assist Betes Abattoir",
+   "montant": 32122.28,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784452351"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p382.fondation30millionsdamis",
+   "label": "Fondation 30 Millions D Amis",
+   "montant": 28269.11,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "325215085"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p382.lesamisdesbetes",
+   "label": "Les Amis Des Betes",
+   "montant": 24474.49,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "308128768"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p382.oeuvreassistbetesabattoir-3",
+   "label": "Oeuvre Assist Betes Abattoir",
+   "montant": 14067.9,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784452351"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p382.asssecoursanimauxmazamet-aussillon",
+   "label": "Ass Secours Animaux Mazamet Aussillon",
+   "montant": 8792.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "347826778"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p382.societeprotectricedesanimaux",
+   "label": "Societe Protectrice Des Animaux",
+   "montant": 2847.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394266050"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p382.leschatsbaroudeurs",
+   "label": "Les Chats Baroudeurs",
+   "montant": 694.88,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "899732978"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p382.oeuvreassistbetesabattoir-4",
+   "label": "Oeuvre Assist Betes Abattoir",
+   "montant": 210.36,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784452351"
+   },
+   "enfants": []
+  }
+ ]
+}

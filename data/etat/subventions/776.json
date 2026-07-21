@@ -1,0 +1,298 @@
+{
+ "id": "etat.subventions.p776",
+ "label": "Programme 776 — Recherche appliquée et innovation en agriculture : bénéficiaires des subventions aux associations",
+ "montant": 37759844.48,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "21 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p776.arvalisinstitutduvegetal",
+   "label": "Arvalis Institut Du Vegetal",
+   "montant": 10442658.64,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775685779"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.institutdelelevage",
+   "label": "Institut De L Elevage",
+   "montant": 10114081.53,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302984158"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.asscoordinattechniqagricole",
+   "label": "Ass Coordinat Techniq Agricole",
+   "montant": 5317321.04,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784523318"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.ifipinstitutduporc",
+   "label": "Ifip Institut Du Porc",
+   "montant": 4295315.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775681323"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.instituttechniquedelaviculturede-lacunic",
+   "label": "Institut Technique De L Aviculture De La Cuniculture Et De La Pisciculture Itavi",
+   "montant": 1885569.48,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "339155681"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.instituttechniquedelabetteraveit-b",
+   "label": "Institut Technique De La Betterave I T B",
+   "montant": 1513969.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784855447"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.instituttechndelagriculturebio",
+   "label": "Institut Techn De L Agriculture Bio",
+   "montant": 1101671.9,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "389187451"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.astredhorinstitutdes-professionnelsduveg",
+   "label": "Astredhor Institut Des Professionnels Du Vegetal",
+   "montant": 1086412.43,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "414912725"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.instittechniplantmedicarom",
+   "label": "Instit Techni Plant Medic Arom",
+   "montant": 812966.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "320387889"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.itsapinstitutdelabeille",
+   "label": "Itsap Institut De L Abeille",
+   "montant": 350271.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439160458"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.armeflhor",
+   "label": "A R M E F L Hor",
+   "montant": 153937.44,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390767564"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.actalia",
+   "label": "Actalia",
+   "montant": 139611.7,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "325346542"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.instituttechniquetropical",
+   "label": "Institut Technique Tropical",
+   "montant": 119646.02,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "511532079"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.institutdegenech",
+   "label": "Institut De Genech",
+   "montant": 106800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783626260"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.centretechniquedesfromages-comtois",
+   "label": "Centre Technique Des Fromages Comtois",
+   "montant": 99324.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "303216725"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.federnatproductplantpterre",
+   "label": "Feder Nat Product Plant P Terre",
+   "montant": 89961.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775676455"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.instituttechniquedelabetteraveit-b-2",
+   "label": "Institut Technique De La Betterave I T B",
+   "montant": 49137.3,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784855447"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.instittechniplantmedicarom-2",
+   "label": "Instit Techni Plant Medic Arom",
+   "montant": 46588.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "320387889"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.unionnational-interprofessionnellesdesle",
+   "label": "Union National Interprofessionnelles Des Legumes Transformes",
+   "montant": 19824.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "327410312"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.federnatproductplantpterre-2",
+   "label": "Feder Nat Product Plant P Terre",
+   "montant": 11777.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775676455"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p776.sciencescitoyennes",
+   "label": "Sciences Citoyennes",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "445143936"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.776",
+   "enfants": []
+  }
+ ]
+}

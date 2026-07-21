@@ -1,0 +1,580 @@
+{
+ "id": "etat.subventions.p613",
+ "label": "Programme 613 — Soutien aux prestations de l'aviation civile : bénéficiaires des subventions aux associations",
+ "montant": 3511516.17,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "43 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p613.aramis-association-pour-la-realisation-d",
+   "label": "Aramis - Association Pour La Réalisation Des Actions Et Missions Sociales",
+   "montant": 1629570.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784278822"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.musee-de-l-air-et-de-l-espace",
+   "label": "Musée De L'Air Et De L'Espace",
+   "montant": 300000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "180090052"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.unasacem-union-nationale-des-association",
+   "label": "Unasacem - Union Nationale Des Associations Sportives De L’Aviation Civile Et Météo France",
+   "montant": 207470.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "450021100"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.caravelle",
+   "label": "Caravelle",
+   "montant": 196804.37,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "889791356"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.medusam",
+   "label": "Medusam",
+   "montant": 168364.9,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923332928"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.concorde",
+   "label": "Concorde",
+   "montant": 162352.21,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "922804695"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.apacem-so",
+   "label": "Apacem So",
+   "montant": 146849.94,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "414681478"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.anafacem-association-des-anciens-fonctio",
+   "label": "Anafacem - Association Des Anciens Fonctionnaires De L’Aviation Civile Et Météo France",
+   "montant": 131988.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "481518751"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.arrimage",
+   "label": "Arrimage",
+   "montant": 103260.24,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "451936074"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.aero-biodiversite",
+   "label": "Aero Biodiversite",
+   "montant": 75000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "813607629"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.fosa-fondation-des-oeuvres-sociales-air",
+   "label": "Fosa - Fondation Des Oeuvres Sociales Air",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784671919"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.aroma",
+   "label": "Aroma",
+   "montant": 47334.93,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "924179690"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.atacem",
+   "label": "Atacem",
+   "montant": 41256.07,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "835348657"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.aglae-assocation-gerant-localement-activ",
+   "label": "Aglae - Assocation Gérant Localement Activités Et Évènements Socio-Culturels",
+   "montant": 28619.29,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "421023953"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.arc-en-ciel",
+   "label": "Arc En Ciel",
+   "montant": 26042.88,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "348903055"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.le-citron-bleu",
+   "label": "Le Citron Bleu",
+   "montant": 20392.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "499607257"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.ass-meteo-aviat-civile-ex-amac",
+   "label": "Ass Meteo Aviat.Civile (Ex Amac)",
+   "montant": 18081.55,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "490586187"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.personnels-de-laviation-civile-de-bretag",
+   "label": "Personnels De L’Aviation Civile De Bretagne-Apacib",
+   "montant": 16289.78,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "452611262"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.nuamces-nouvelle-union-dassociations-de-",
+   "label": "Nuamces - Nouvelle Union D’Associations De La Météorologie Pour La Culture, L’Entraide Et Les Sports",
+   "montant": 15077.82,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "449678986"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.academie-de-l-air-et-de-l-espace",
+   "label": "Académie De L'Air Et De L'Espace",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "348286550"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.a-tree-for-you",
+   "label": "A Tree For You",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "822579850"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.arouman",
+   "label": "Arouman",
+   "montant": 14818.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "494109549"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.faram",
+   "label": "Faram",
+   "montant": 11775.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "924905110"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.auceam",
+   "label": "Auceam",
+   "montant": 10410.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923229470"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.escal",
+   "label": "Escal",
+   "montant": 9176.7,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "488184185"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.troupe-farman",
+   "label": "Troupe Farman",
+   "montant": 9014.71,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "524195260"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.club-meteo",
+   "label": "Club Meteo",
+   "montant": 6835.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378491062"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.aero-club-de-france",
+   "label": "Aero Club De France",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784663064"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.ascac-association-sportive-et-culturelle",
+   "label": "Ascac - Association Sportive Et Culturelle De L'Aviation Civile",
+   "montant": 4477.9,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379961204"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.amicale-meteo-aviation-civile",
+   "label": "Amicale Meteo Aviation Civile",
+   "montant": 3800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "450995089"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.groupement-des-uvres-de-loisirs-de-laero",
+   "label": "Groupement Des Œuvres De Loisirs De L’Aéroport De Nantes",
+   "montant": 3720.08,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434570677"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.association-anciens-aerodromes",
+   "label": "Association Anciens Aérodromes",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "518807169"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.association-les-chevaliers-du-ciel",
+   "label": "Association Les Chevaliers Du Ciel",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "451712053"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.personnels-meteo-aviation-civile-35",
+   "label": "Personnels Météo Aviation Civile 35",
+   "montant": 2726.99,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "341656916"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.associaition-des-personnels-du-cms-apcms",
+   "label": "Associaition Des Personnels Du Cms-Apcmsl (Centre Meteorologie Spatiale)",
+   "montant": 2641.56,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "451596621"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.associtation-des-anciens-de-la-meteorolg",
+   "label": "Associtation Des Anciens De La Météorolgie",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "493241046"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.aero-club-de-france-2",
+   "label": "Aero Club De France",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784663064"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.groupement-des-ingenieurs-de-l-aviation-",
+   "label": "Groupement Des Ingenieurs De L'Aviation Civiles Retraites",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "512118712"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.amicale-aviation-civile-noumea",
+   "label": "Amicale Aviation Civile Noumea",
+   "montant": 845.47,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "839087319"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.amicale-aviation-civile-et-meteo-wf",
+   "label": "Amicale Aviation Civile Et Meteo Wf",
+   "montant": 717.19,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "851357210"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.ammac",
+   "label": "Ammac",
+   "montant": 714.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "820276046"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.club-aviation-civile-de-tontouta",
+   "label": "Club Aviation Civile De Tontouta",
+   "montant": 705.01,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p613.cogemas",
+   "label": "Cogemas",
+   "montant": 383.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "791442700"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.613",
+   "enfants": []
+  }
+ ]
+}

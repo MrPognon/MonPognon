@@ -1,0 +1,779 @@
+{
+ "id": "etat.subventions.p363",
+ "label": "Programme 363 — Compétitivité : bénéficiaires des subventions aux associations",
+ "montant": 3405282.84,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "58 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p363.fondationsaintlouis",
+   "label": "Fondation Saint Louis",
+   "montant": 1080000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775697618"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.congregationdescisterciensdel-immaculeec",
+   "label": "Congregation Des Cisterciens De L Immaculee Conception",
+   "montant": 222375.46,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782509400"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.congregdesserviteursdejesuset-marie",
+   "label": "Congreg Des Serviteurs De Jesus Et Marie",
+   "montant": 191812.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "392503322"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.associationpourledeveloppement-etlinnova",
+   "label": "Association Pour Le Developpement Et L Innovation Numerique Des Collectivites",
+   "montant": 188000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384452611"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.lezef",
+   "label": "Le Zef",
+   "montant": 168000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "315228841"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.fracartothequenouvelleaquitaine",
+   "label": "Frac Artotheque Nouvelle Aquitaine",
+   "montant": 151644.47,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "421296526"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.clarte",
+   "label": "Clarte",
+   "montant": 141348.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410199749"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.lecarrescenenationale",
+   "label": "Le Carre Scene Nationale",
+   "montant": 135453.14,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "301523080"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.pola",
+   "label": "Pola",
+   "montant": 133791.65,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "444337588"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.associationecoledulouvre",
+   "label": "Association Ecole Du Louvre",
+   "montant": 123700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "312519630"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.institutcurie",
+   "label": "Institut Curie",
+   "montant": 90000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784257164"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.abbayeauxdameslacitemusicale-saintes",
+   "label": "Abbaye Aux Dames La Cite Musicale Saintes",
+   "montant": 79576.58,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "348653254"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.assdesmairesdeloiretcher",
+   "label": "Ass Des Maires De Loir Et Cher",
+   "montant": 79371.12,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "334454469"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.lagarancescenenationalede-cavaillon",
+   "label": "La Garance Scene Nationale De Cavaillon",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384347860"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.institutpasteur",
+   "label": "Institut Pasteur",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775684897"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.lesrestaurantsducoeur",
+   "label": "Les Restaurants Du Coeur",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "339863417"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.plantecite",
+   "label": "Plante Cite",
+   "montant": 46480.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "488701095"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.institutpasteur-2",
+   "label": "Institut Pasteur",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775684897"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.assgroupemammalogiquenormand",
+   "label": "Ass Groupe Mammalogique Normand",
+   "montant": 39500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "422845123"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.associationlafraternelle",
+   "label": "Association La Fraternelle",
+   "montant": 37417.78,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "334313418"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.maisondelariviereetdupaysage",
+   "label": "Maison De La Riviere Et Du Paysage",
+   "montant": 34200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383514841"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.collectionlambertenavignon",
+   "label": "Collection Lambert En Avignon",
+   "montant": 31412.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "430159822"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.reseaudesstructuresdeproximite-emploifor",
+   "label": "Reseau Des Structures De Proximite Emploi Formation Bretonnes",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "802033514"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.agencecaribeennepourla-cybersecurite",
+   "label": "Agence Caribeenne Pour La Cybersecurite",
+   "montant": 24000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "918714890"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.ctreculturelportdebouc",
+   "label": "Ctre Culturel Port De Bouc",
+   "montant": 23868.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "387856099"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.agencealpinedesterritoires",
+   "label": "Agence Alpine Des Territoires",
+   "montant": 23000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "309421444"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.centredetudesmedievalessaint-germain",
+   "label": "Centre D Etudes Medievales Saint Germain",
+   "montant": 12222.66,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410731657"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.associationdesamiesdesnouvelles-news",
+   "label": "Association Des Ami E S Des Nouvelles News",
+   "montant": 11814.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "809389695"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.enattendantnadeau",
+   "label": "En Attendant Nadeau",
+   "montant": 11648.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "820078590"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.assocbrennepaysdazay",
+   "label": "Assoc Brenne Pays D Azay",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "320598972"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.indrenature",
+   "label": "Indre Nature",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "353825664"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.assinsertreinsertprofhumain-handic",
+   "label": "Ass Insert Reinsert Prof Humain Handic",
+   "montant": 7980.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775660970"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.compagnieyokai",
+   "label": "Compagnie Yokai",
+   "montant": 7937.53,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "807881859"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.fondsregionaldartcontemporain-depicardie",
+   "label": "Fonds Regional D Art Contemporain De Picardie",
+   "montant": 7834.04,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "303744247"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.espacecroise",
+   "label": "Espace Croise",
+   "montant": 7822.32,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "430372243"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.dauphinnovation",
+   "label": "Dauph Innovation",
+   "montant": 7200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "815182548"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.compagniedesamorce",
+   "label": "Compagnie Desamorce",
+   "montant": 6448.37,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "489152744"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.lamelee",
+   "label": "La Melee",
+   "montant": 5760.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "443717830"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.normandiewebxperts",
+   "label": "Normandie Web Xperts",
+   "montant": 4816.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "533621785"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.ctrechoregraphiqenationalde-nantes",
+   "label": "Ctre Choregraphiqe National De Nantes",
+   "montant": 4146.78,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388830929"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.theshifters",
+   "label": "The Shifters",
+   "montant": 3520.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "837507722"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.centrephotographiquemarseille-lesatelier",
+   "label": "Centre Photographique Marseille Les Ateliers De L Image",
+   "montant": 3161.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "441655156"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.fondsregionaldartcontemporaind-alsace",
+   "label": "Fonds Regional D Art Contemporain D Alsace",
+   "montant": 2931.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "844692616"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.lafresquedelalimentation",
+   "label": "La Fresque De L Alimentation",
+   "montant": 2550.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "902619626"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.lafabriquenarrative",
+   "label": "La Fabrique Narrative",
+   "montant": 2520.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "790313134"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.resurgence",
+   "label": "Resurgence",
+   "montant": 2150.87,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483840864"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.fondationjeanmoulin",
+   "label": "Fondation Jean Moulin",
+   "montant": 1888.37,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "332589670"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.indrenature-2",
+   "label": "Indre Nature",
+   "montant": 1750.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "353825664"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.vacancestourismeloisirsleo-lagrange",
+   "label": "Vacances Tourisme Loisirs Leo Lagrange",
+   "montant": 1652.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782815062"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.associationdescommunesdugrand-sitedeveze",
+   "label": "Association Des Communes Du Grand Site De Vezelay",
+   "montant": 1472.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "851059212"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.yeswecamp",
+   "label": "Yes We Camp",
+   "montant": 1254.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "789420668"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.hoplatransition",
+   "label": "Hop La Transition",
+   "montant": 1200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "913858643"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.adelis",
+   "label": "Adelis",
+   "montant": 1192.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775605108"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.legom",
+   "label": "Le Gom",
+   "montant": 987.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "752676288"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.ecolededesignnantesatlantique",
+   "label": "Ecole De Design Nantes Atlantique",
+   "montant": 935.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "334055902"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.associationestro",
+   "label": "Association Estro",
+   "montant": 916.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "798404356"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.zerodechetlyon",
+   "label": "Zero Dechet Lyon",
+   "montant": 850.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "821071099"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p363.adelis-2",
+   "label": "Adelis",
+   "montant": 773.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775605108"
+   },
+   "rattachement_id": "etat.depenses.BG.PR.363",
+   "enfants": []
+  }
+ ]
+}

@@ -1,0 +1,265 @@
+{
+ "id": "etat.subventions.p907",
+ "label": "Programme 907 : bénéficiaires des subventions aux associations",
+ "montant": 103762.26,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "20 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p907.alternatri53",
+   "label": "Alternatri 53",
+   "montant": 27996.28,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "501312219"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.oeuvreuniversitaireduloiret",
+   "label": "Oeuvre Universitaire Du Loiret",
+   "montant": 17400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775508211"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.comitedaccueilcreusois",
+   "label": "Comite D Accueil Creusois",
+   "montant": 17000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305420457"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.associationdemobilisationparl-activiteet",
+   "label": "Association De Mobilisation Par L Activite Et Pour Les Competences",
+   "montant": 7622.68,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "351331137"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.agraco",
+   "label": "Agraco",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302115944"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.jeunesequipesdeducation-populaire",
+   "label": "Jeunes Equipes D Education Populaire",
+   "montant": 4616.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778870329"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.comitedorganisationducongres-nationaldes",
+   "label": "Comite D Organisation Du Congres National Des Sapeurs Pompiers De France Midi Pyrenees",
+   "montant": 3637.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "892947011"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.servicedaidepartravail-occasionnel",
+   "label": "Service D Aide Par Travail Occasionnel",
+   "montant": 2890.51,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "334912623"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.associationregieurbaine",
+   "label": "Association Regie Urbaine",
+   "montant": 2784.17,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "402627871"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.assparentsenfantsinadaptes",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 2331.48,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.parentsenfantsinadaptesvallee-orne",
+   "label": "Parents Enfants Inadaptes Vallee Orne",
+   "montant": 1656.36,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775619117"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.fedcorrezaidepersonnes-handicapees",
+   "label": "Fed Correz Aide Personnes Handicapees",
+   "montant": 1545.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434876009"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.insertjeunes",
+   "label": "Insert Jeunes",
+   "montant": 1528.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379065139"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.lespapillonsblancsdufinistere",
+   "label": "Les Papillons Blancs Du Finistere",
+   "montant": 1467.32,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775577851"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.cotrivaservices61",
+   "label": "Co Tri Va Services 61",
+   "montant": 1225.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "894073394"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.apeimoselle",
+   "label": "Apei Moselle",
+   "montant": 900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775619596"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.assparentsenfantsinadaptes-2",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 772.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.groupeetudesprotectmammiferes-alsace",
+   "label": "Groupe Etudes Protect Mammiferes Alsace",
+   "montant": 742.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418716643"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.uniondepsappompierchars-secourisme",
+   "label": "Union Dep Sap Pompier Char S Secourisme",
+   "montant": 600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "421522004"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p907.assrestaurantciteadministrative",
+   "label": "Ass Restaurant Cite Administrative",
+   "montant": 46.76,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388331183"
+   },
+   "enfants": []
+  }
+ ]
+}

@@ -1,0 +1,2244 @@
+{
+ "id": "etat.subventions.p111",
+ "label": "Programme 111 — Amélioration de la qualité de l'emploi et des relations du travail : bénéficiaires des subventions aux associations",
+ "montant": 42951409.22,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "171 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p111.associationdegestiondufonds-paritairenat",
+   "label": "Association De Gestion Du Fonds Paritaire National",
+   "montant": 32600000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "810158956"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.instspeciformaconseprudhom-salaries",
+   "label": "Inst Speci Forma Conse Prudhom Salaries",
+   "montant": 2439893.95,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "325050334"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.institutsyndicaletudesformationjurid",
+   "label": "Institut Syndical Etudes Formation Jurid",
+   "montant": 1358280.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "447807066"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.edsentrepriseetdroitsocial",
+   "label": "Eds Entreprise Et Droit Social",
+   "montant": 1259584.42,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "322982638"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationformationinformationdes-conse",
+   "label": "Association Formation Information Des Conseillers Prud Hommaux",
+   "montant": 1006675.25,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "447639766"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.institutdeformationprudhomalepme",
+   "label": "Institut De Formation Prud Homale Pme",
+   "montant": 452760.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "444298368"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.prudhommesformation",
+   "label": "Prud Hommes Formation",
+   "montant": 431200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "335062345"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.institutnationalrecherchesecurite",
+   "label": "Institut National Recherche Securite",
+   "montant": 368364.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775671456"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.assformationconsprudhommes-salaries",
+   "label": "Ass Formation Cons Prud Hommes Salaries",
+   "montant": 284067.72,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "449935220"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.institutpourlaformationdes-conseillerspr",
+   "label": "Institut Pour La Formation Des Conseillers Prud Hommes Cftc",
+   "montant": 247940.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "885064436"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationfrancaisedenormalisation",
+   "label": "Association Francaise De Normalisation",
+   "montant": 235855.67,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775724818"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.assonatartisanatformationprud-homale",
+   "label": "Asso Nat Artisanat Formation Prud Homale",
+   "montant": 232632.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "447687963"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationfrancaisedenormalisation-2",
+   "label": "Association Francaise De Normalisation",
+   "montant": 228180.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775724818"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.unionnormalisationmecanique",
+   "label": "Union Normalisation Mecanique",
+   "montant": 141000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "310025697"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.assprudhommesformatempleconom-socia",
+   "label": "Ass Prud Hommes Format Empl Econom Socia",
+   "montant": 94001.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "449163575"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.institutregeducationouvrierenord-pdc",
+   "label": "Institut Reg Education Ouvriere Nord Pdc",
+   "montant": 63187.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "311584130"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.uriopsscentre",
+   "label": "Uriopss Centre",
+   "montant": 58727.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378456800"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.comitefrancaisdaccreditation",
+   "label": "Comite Francais D Accreditation",
+   "montant": 52140.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "397879487"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.aft",
+   "label": "Aft",
+   "montant": 51072.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775692015"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.observatoireregionaldelasantedu-grandest",
+   "label": "Observatoire Regional De La Sante Du Grand Est",
+   "montant": 45900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "328921911"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.institutpourlaformationdes-conseillerspr-2",
+   "label": "Institut Pour La Formation Des Conseillers Prud Hommes Cftc",
+   "montant": 45227.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "829352509"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.confederationgeneralesocs-cooperativesde",
+   "label": "Confederation Generale Socs Cooperatives De Production",
+   "montant": 45000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784853632"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.assprudhommesformatempleconom-socia-2",
+   "label": "Ass Prud Hommes Format Empl Econom Socia",
+   "montant": 42722.3,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "449163575"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.cultureetliberte",
+   "label": "Culture Et Liberte",
+   "montant": 40163.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775739477"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.citeinternationuniversitairedeparis",
+   "label": "Cite Internation Universitaire De Paris",
+   "montant": 38638.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784562878"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.observatoireregionaldelasanteetdu-social",
+   "label": "Observatoire Regional De La Sante Et Du Social De Picardie",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "326803194"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationregionalepourl-ameliorationde",
+   "label": "Association Regionale Pour L Amelioration Des Conditions De Travail De Mayotte",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "793144353"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.institutnatdeplongeeprofessionnelle",
+   "label": "Institut Nat De Plongee Professionnelle",
+   "montant": 31077.36,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "325598894"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.conseilrechercheingenierieformation-pour",
+   "label": "Conseil Recherche Ingenierie Formation Pour L Egalite Femmes Hommes",
+   "montant": 30725.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "326047313"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.desaccidentesdelavie",
+   "label": "Des Accidentes De La Vie",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776399164"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.plateformepublicprivepourlapre-validatio",
+   "label": "Plateforme Public Prive Pour La Pre Validation Des Methodes De Caracterisation Des Perturbateurs Endocriniens",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "880969555"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.observatoireregionaldelasante",
+   "label": "Observatoire Regional De La Sante",
+   "montant": 29534.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "330065095"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.crgecentrederessourcespourles-groupement",
+   "label": "Crge Centre De Ressources Pour Les Groupements D Employeurs",
+   "montant": 29478.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434079422"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.institutdesantetravailnordfrance",
+   "label": "Institut De Sante Travail Nord France",
+   "montant": 27000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783708381"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationnationaledepreventionen-alcoo",
+   "label": "Association Nationale De Prevention En Alcoologie Et Addictologie",
+   "montant": 23700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775660087"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.comiteregionaleducationpourla-sante",
+   "label": "Comite Regional Education Pour La Sante",
+   "montant": 23582.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782886196"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.comitecontrelesclavagemoderne",
+   "label": "Comite Contre L Esclavage Moderne",
+   "montant": 23000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "419367909"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.cpmehautesavoie",
+   "label": "Cpme Haute Savoie",
+   "montant": 22750.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388445777"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.fondationnationalesciencespolitiques",
+   "label": "Fondation Nationale Sciences Politiques",
+   "montant": 21000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784308249"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.institutdamenagementetdurbanisme-delareg",
+   "label": "Institut D Amenagement Et D Urbanisme De La Region Ile De France",
+   "montant": 21000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "849810155"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.bretagnesupplychain",
+   "label": "Bretagne Supply Chain",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "529431348"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.u2pnouvelleaquitaine",
+   "label": "U2P Nouvelle Aquitaine",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "824613640"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.observatoireregionsantebretagne",
+   "label": "Observatoire Region Sante Bretagne",
+   "montant": 17000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "311865513"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.id3",
+   "label": "Id3",
+   "montant": 16120.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382087377"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.mouvementdesentreprisesdefrance",
+   "label": "Mouvement Des Entreprises De France",
+   "montant": 15845.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "403505159"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.uniondesemployeursdeleconomie-socialeets",
+   "label": "Union Des Employeurs De L Economie Sociale Et Solidaire",
+   "montant": 15084.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410168512"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.chambreregionaleeconomiesociale",
+   "label": "Chambre Regionale Economie Sociale",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379779309"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.assdegestiondelacommission-paritaireloca",
+   "label": "Ass De Gestion De La Commission Paritaire Locale Du Bassin D Arcachoni",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "793208802"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.agison",
+   "label": "Agison",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "451548341"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.centreinformationdocumentation-bruit",
+   "label": "Centre Information Documentation Bruit",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "313296717"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.asscontreviolencesfaitefemme-travail",
+   "label": "Ass Contre Violences Faite Femme Travail",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340096528"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.formasupprovencealpescotedazur",
+   "label": "Formasup Provence Alpes Cote D Azur",
+   "montant": 14478.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393914395"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.cgpme15",
+   "label": "Cgpme 15",
+   "montant": 13980.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "444090807"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.centremedicalintereurope",
+   "label": "Centre Medical Inter Europe",
+   "montant": 13500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784401879"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.u2pauvergnerhonealpes",
+   "label": "U2P Auvergne Rhone Alpes",
+   "montant": 12463.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420737694"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.federregionagrobiologistebretagne",
+   "label": "Feder Region Agrobiologiste Bretagne",
+   "montant": 12000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398916841"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.assfrancdroittravailsecuritesociale",
+   "label": "Ass Franc Droit Travail Securite Sociale",
+   "montant": 12000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "419951116"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.capee",
+   "label": "Capee",
+   "montant": 12000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "381447671"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.astgrandlyon",
+   "label": "A S T Grand Lyon",
+   "montant": 11550.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775646524"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.federationadmrdelardeche",
+   "label": "Federation Admr De L Ardeche",
+   "montant": 11400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "412665150"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.feddepaidedomicilmilieururalallier",
+   "label": "Fed Dep Aide Domicil Milieu Rural Allier",
+   "montant": 11313.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "478465198"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.assnatemploiformatenagricultur",
+   "label": "Ass Nat Emploi Format En Agricultur",
+   "montant": 11081.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "433690245"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.lesfilmsdelagenette",
+   "label": "Les Films De La Genette",
+   "montant": 11016.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "909435364"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.filmerletravail",
+   "label": "Filmer Le Travail",
+   "montant": 10460.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "510046139"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.assgestioncentreformationconti-fntp",
+   "label": "Ass Gestion Centre Formation Conti Fntp",
+   "montant": 10400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "303433189"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.comiteauvergnerhonealpesgourmand",
+   "label": "Comite Auvergne Rhone Alpes Gourmand",
+   "montant": 10240.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "339877839"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.uniondesemployeursdeleconomie-socialeets-2",
+   "label": "Union Des Employeurs De L Economie Sociale Et Solidaire",
+   "montant": 10204.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410168512"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.anefalandes",
+   "label": "Anefa Landes",
+   "montant": 10061.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "440912947"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.reimssanteautravail",
+   "label": "Reims Sante Au Travail",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780424776"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.scemedicalinterprofessionnelmeusien",
+   "label": "Sce Medical Interprofessionnel Meusien",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783395205"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationparitairedepartementale-inter",
+   "label": "Association Paritaire Departementale Interprofessionnelle Des Entreprises Du Lot",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "533621652"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.assmedicaletravailepernayetregion",
+   "label": "Ass Medicale Travail Epernay Et Region",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780385043"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.provae",
+   "label": "Provae",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780347324"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.syndtransproutiersloire",
+   "label": "Synd Transp Routiers Loire",
+   "montant": 9800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776397929"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.mouvementdesentreprisesdefrance-enhautsd",
+   "label": "Mouvement Des Entreprises De France En Hauts De France",
+   "montant": 9600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783711039"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.observatoireregionaldelasante-2",
+   "label": "Observatoire Regional De La Sante",
+   "montant": 9125.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "327389938"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.federationdesparticuliersemployeurs-defr",
+   "label": "Federation Des Particuliers Employeurs De France",
+   "montant": 9094.08,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784204786"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.cantalienneinterprofessionnellepour-lasa",
+   "label": "Cantalienne Interprofessionnelle Pour La Sante En Milieu Du Travail",
+   "montant": 9030.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775562507"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.medecinedutravailservice-interprofess",
+   "label": "Medecine Du Travail Service Interprofess",
+   "montant": 9000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "300171196"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.thesamemecatroniqueetmanagement",
+   "label": "Thesame Mecatronique Et Management",
+   "montant": 8016.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "431217090"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.cpmecorsica",
+   "label": "Cpme Corsica",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418441549"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.lecap",
+   "label": "Le Cap",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483432266"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.cezamnouvelleaquitaine",
+   "label": "Cezam Nouvelle Aquitaine",
+   "montant": 7615.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "332061399"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.cezamauvergnerhonealpescezaura",
+   "label": "Cezam Auvergne Rhone Alpes Cezaura",
+   "montant": 7363.7,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "534090832"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.ctreculturelancienneabbaye-premontres",
+   "label": "Ctre Culturel Ancienne Abbaye Premontres",
+   "montant": 7163.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783345994"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.federationregionaledesmaisons-familiales",
+   "label": "Federation Regionale Des Maisons Familiales Rurales De N",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "304328594"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.entreprendrepourapprendrecorsica",
+   "label": "Entreprendre Pour Apprendre Corsica",
+   "montant": 6800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "811908086"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.faceauvergnerhonealpes",
+   "label": "Face Auvergne Rhone Alpes",
+   "montant": 6368.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "834793697"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.assinterprofservicemedicaux",
+   "label": "Ass Interprof Service Medicaux",
+   "montant": 5500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783542400"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.alsacepreventionsantetravail68",
+   "label": "Alsace Prevention Sante Travail 68",
+   "montant": 5447.7,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778902791"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.aractnormandie",
+   "label": "Aract Normandie",
+   "montant": 5010.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410691620"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.confederatglepetitesmoyennes-entrep",
+   "label": "Confederat Gle Petites Moyennes Entrep",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "450271838"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.sceinterentrsantetravailcorsesud",
+   "label": "Sce Inter Entr Sante Travail Corse Sud",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782991830"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.aractprovencealpescotesdazur",
+   "label": "Aract Provence Alpes Cotes D Azur",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "381029735"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.corsicabusinesswomen",
+   "label": "Corsica Business Women",
+   "montant": 4800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "810324095"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.saphyrmartinique",
+   "label": "Saphyr Martinique",
+   "montant": 4800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "890746480"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.observatoireregionalsante",
+   "label": "Observatoire Regional Sante",
+   "montant": 4200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "337977565"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.unionregionaledesmetiersetdes-industries",
+   "label": "Union Regionale Des Metiers Et Des Industries De L Hotellerie De Corse",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "493671796"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.cezampaysdelaloire",
+   "label": "Cezam Pays De La Loire",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "795282557"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.servicedesanteautravaildelahaute-corse",
+   "label": "Service De Sante Au Travail De La Haute Corse",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783004450"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationdeprotectionsocialedu-batimen",
+   "label": "Association De Protection Sociale Du Batiment Et Des Travaux Publics Pro Btp",
+   "montant": 3589.92,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394164966"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.serviceinterentreprisesdesanteau-travail",
+   "label": "Service Interentreprises De Sante Au Travail Du Btp De Lorraine",
+   "montant": 3500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "309857274"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationdegestionduspppi",
+   "label": "Association De Gestion Du Spppi",
+   "montant": 3500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "790793244"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.uniondesentreprisesdeproxipaca",
+   "label": "Union Des Entreprises De Proxi Paca",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "441737343"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.fetefemmesegaliteemploi",
+   "label": "Fete Femmes Egalite Emploi",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "812370666"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.mouvementdesentreprisesdefrance-provence",
+   "label": "Mouvement Des Entreprises De France Provence Cote D Azur",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "524498896"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.unionregionaleprovencealpescoted-azurcft",
+   "label": "Union Regionale Provence Alpes Cote D Azur C F T C",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "530002021"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.uniondesemployeursdeleconomie-socialeets-3",
+   "label": "Union Des Employeurs De L Economie Sociale Et Solidaire",
+   "montant": 2926.83,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410168512"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.assinternationaledelinspection",
+   "label": "Ass Internationale De L Inspection",
+   "montant": 2724.48,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.ametifsanteautravail",
+   "label": "Ametif Sante Au Travail",
+   "montant": 2700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785897489"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.asseducativedumascavaillac",
+   "label": "Ass Educative Du Mas Cavaillac",
+   "montant": 2665.02,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775884976"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.filmerletravail-2",
+   "label": "Filmer Le Travail",
+   "montant": 2500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "510046139"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.actionsocialebatimentettp",
+   "label": "Action Sociale Batiment Et T P",
+   "montant": 2380.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780424768"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.santetravailsudmarne",
+   "label": "Sante Travail Sud Marne",
+   "montant": 2354.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780369591"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationmontjoye",
+   "label": "Association Montjoye",
+   "montant": 2231.98,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775552235"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationlorrainedesanteenmilieu-detra",
+   "label": "Association Lorraine De Sante En Milieu De Travail",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775615552"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.ardennessantetravail",
+   "label": "Ardennes Sante Travail",
+   "montant": 1530.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "518238092"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.confederationgeneraledespetiteset-moyenn",
+   "label": "Confederation Generale Des Petites Et Moyennes Entreprises Provence Alpes Cote D Azur",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "494975121"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.domainedelasnee",
+   "label": "Domaine De L Asnee",
+   "montant": 1248.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "448432856"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.agccumaouest",
+   "label": "Agc Cuma Ouest",
+   "montant": 1131.47,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "492036793"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.institutmaritimedeprevention",
+   "label": "Institut Maritime De Prevention",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388308959"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.ensemblepourlapreventionetlasante-autrav",
+   "label": "Ensemble Pour La Prevention Et La Sante Au Travail Dans Les Vosges",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783439185"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.plateformepublicprivepourlapre-validatio-2",
+   "label": "Plateforme Public Prive Pour La Pre Validation Des Methodes De Caracterisation Des Perturbateurs Endocriniens",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "880969555"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.assinterentreprisesmedecinedu-travail",
+   "label": "Ass Interentreprises Medecine Du Travail",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780464731"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.assmedicaledutravail",
+   "label": "Ass Medicale Du Travail",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780327623"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationdaideauxpersonnesdu-departeme",
+   "label": "Association D Aide Aux Personnes Du Departement De L Ain",
+   "montant": 976.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779311448"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.lacitedesfleursdiaconesses",
+   "label": "La Cite Des Fleurs Diaconesses",
+   "montant": 968.03,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785423849"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationdesfondateurset-protecteursde",
+   "label": "Association Des Fondateurs Et Protecteurs De L Institut Catholique De Lyon",
+   "montant": 880.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "326930062"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.fondationbonsauveurdalby",
+   "label": "Fondation Bon Sauveur D Alby",
+   "montant": 861.55,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "320662612"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.agraco",
+   "label": "Agraco",
+   "montant": 834.57,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302115944"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.apajh",
+   "label": "Apajh",
+   "montant": 751.93,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "788059376"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.officedetourismedelentredeuxmers",
+   "label": "Office De Tourisme De L Entre Deux Mers",
+   "montant": 730.52,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "403479231"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.missionlocalejeunesstetienne",
+   "label": "Mission Locale Jeunes St Etienne",
+   "montant": 675.23,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "325908184"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.comiteinterdepartementaldesunions-depart",
+   "label": "Comite Interdepartemental Des Unions Departementales C G T F O Des Pays De La Loire",
+   "montant": 600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "915255764"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.collectiffamillesstopalamortau-travail",
+   "label": "Collectif Familles Stop A La Mort Au Travail",
+   "montant": 545.7,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "924193873"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationfredericlevavasseur",
+   "label": "Association Frederic Levavasseur",
+   "montant": 500.53,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "315682674"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.croixrougefrancaise",
+   "label": "Croix Rouge Francaise",
+   "montant": 492.33,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672272"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.efficiencesanteautravail",
+   "label": "Efficience Sante Au Travail",
+   "montant": 433.74,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "501232789"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.radioatlantiqueadlian",
+   "label": "Radio Atlantique Adlian",
+   "montant": 400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390219749"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.aftral",
+   "label": "Aftral",
+   "montant": 297.93,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305405045"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.anras",
+   "label": "Anras",
+   "montant": 274.09,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305874117"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.agropoleentreprises",
+   "label": "Agropole Entreprises",
+   "montant": 262.66,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "350651121"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.fondationdelarmeedusalut",
+   "label": "Fondation De L Armee Du Salut",
+   "montant": 258.87,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "431968601"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.adapeiariadevendee",
+   "label": "Adapei Aria De Vendee",
+   "montant": 235.65,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775715105"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationpourlelogementdes-jeunestrava",
+   "label": "Association Pour Le Logement Des Jeunes Travailleurs",
+   "montant": 228.72,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775666431"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationmontjoye-2",
+   "label": "Association Montjoye",
+   "montant": 219.32,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775552235"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.asslorraineformatrecheraction-social",
+   "label": "Ass Lorraine Format Recher Action Social",
+   "montant": 212.52,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "421968249"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.aradopauna",
+   "label": "Aradopa Una",
+   "montant": 188.69,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780429429"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.adavie",
+   "label": "Adavie",
+   "montant": 172.42,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783441140"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationasael",
+   "label": "Association Asael",
+   "montant": 147.45,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782099329"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.apffrancehandicap",
+   "label": "Apf France Handicap",
+   "montant": 139.75,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775688732"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.assocpouradultesetjeunes-handicapes",
+   "label": "Assoc Pour Adultes Et Jeunes Handicapes",
+   "montant": 134.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383361474"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.groupementdecooperationmedico-socialarra",
+   "label": "Groupement De Cooperation Medico Social Arras Montreuil Sur Mer",
+   "montant": 130.79,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "509909537"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.maisonaccueilprotestantepour-enfants",
+   "label": "Maison Accueil Protestante Pour Enfants",
+   "montant": 125.95,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775572266"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationdeformation-professionnellede",
+   "label": "Association De Formation Professionnelle De L Industrie Franche Comte",
+   "montant": 116.78,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "421560681"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.judodammartinois",
+   "label": "Judo Dammartinois",
+   "montant": 111.08,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "433774098"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.unionfrancaisecentrevacances-loisirs",
+   "label": "Union Francaise Centre Vacances Loisirs",
+   "montant": 105.11,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775685621"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.larosee",
+   "label": "La Rosee",
+   "montant": 104.3,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782245963"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.croixrougefrancaise-2",
+   "label": "Croix Rouge Francaise",
+   "montant": 97.67,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672272"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.btpcfaauvergnerhonealpes",
+   "label": "Btp Cfa Auvergne Rhone Alpes",
+   "montant": 95.83,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418846762"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.adamad",
+   "label": "Adamad",
+   "montant": 82.08,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "508277464"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.agcpicardienorddeseine",
+   "label": "Agc Picardie Nord De Seine",
+   "montant": 80.66,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "484114236"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationasael-2",
+   "label": "Association Asael",
+   "montant": 75.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782099329"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.habitatjeunespaupyrenees",
+   "label": "Habitat Jeunes Pau Pyrenees",
+   "montant": 73.89,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "329325922"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.undepartementassocfamiliale",
+   "label": "Un Departement Assoc Familiale",
+   "montant": 69.73,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777461484"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.associationdegestionetde-comptabilitegas",
+   "label": "Association De Gestion Et De Comptabilite Gascogne Occitane",
+   "montant": 65.55,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "327216867"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.aftral-2",
+   "label": "Aftral",
+   "montant": 55.96,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305405045"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.solihasolidairespourlhabitatla-reunion",
+   "label": "Soliha Solidaires Pour Lhabitat La Reunion",
+   "montant": 46.51,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "317556819"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.assparentsenfantsinadaptes",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 44.45,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.assaidedomicileactivitesregroupees",
+   "label": "Ass Aide Domicile Activites Regroupees",
+   "montant": 22.17,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "301423737"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p111.assparentsenfantsinadaptes-2",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 13.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "rattachement_id": "etat.depenses.BG.TB.111",
+   "enfants": []
+  }
+ ]
+}

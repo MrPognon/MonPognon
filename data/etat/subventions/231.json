@@ -1,0 +1,1910 @@
+{
+ "id": "etat.subventions.p231",
+ "label": "Programme 231 — Vie étudiante : bénéficiaires des subventions aux associations",
+ "montant": 17327476.44,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "145 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p231.citeinternationuniversitairede-paris",
+   "label": "Cite Internation Universitaire De Paris",
+   "montant": 5600290.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784562878"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.federationfrdusport-universitaire",
+   "label": "Federation Fr Du Sport Universitaire",
+   "montant": 5272880.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "314328691"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.federationassgenerales-etudiantes",
+   "label": "Federation Ass Generales Etudiantes",
+   "montant": 929550.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "397834425"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.linkeefrance",
+   "label": "Linkee France",
+   "montant": 900000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "837634534"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.fondationsantedesetudiantsde-france",
+   "label": "Fondation Sante Des Etudiants De France",
+   "montant": 580000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775683006"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.article1",
+   "label": "Article 1",
+   "montant": 500000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "499381812"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.unionnationaledesetudiantsde-france",
+   "label": "Union Nationale Des Etudiants De France",
+   "montant": 347025.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "447810037"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.lunionetudianteunionnationale-desetudian",
+   "label": "L Union Etudiante Union Nationale Des Etudiant E S De France",
+   "montant": 323645.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923790992"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.animafac",
+   "label": "Anima Fac",
+   "montant": 300000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "408560209"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.cop1solidaritesetudiantes",
+   "label": "Cop1 Solidarites Etudiantes",
+   "montant": 260000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "889105425"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.assfondationetudiantepourla-ville",
+   "label": "Ass Fondation Etudiante Pour La Ville",
+   "montant": 220000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390322055"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.fondationnationalesciences-politiques",
+   "label": "Fondation Nationale Sciences Politiques",
+   "montant": 164800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784308249"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.fondationnationalesciences-politiques-2",
+   "label": "Fondation Nationale Sciences Politiques",
+   "montant": 125315.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784308249"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.reseauetudiantpourunesociete-ecologiquee",
+   "label": "Reseau Etudiant Pour Une Societe Ecologique Et Solidaire",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "510614217"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.100handinamiquepourlareussite-desjeunesh",
+   "label": "100 Handinamique Pour La Reussite Des Jeunes Handicapes 100 Handinamique",
+   "montant": 98000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "525024121"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.assunionnatinteruniversit",
+   "label": "Ass Union Nat Inter Universit",
+   "montant": 93450.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784672891"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.nightlinefrance",
+   "label": "Nightline France",
+   "montant": 90000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "824092605"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.institutcatholiquedelille",
+   "label": "Institut Catholique De Lille",
+   "montant": 81000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775624240"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.enavanttoutes",
+   "label": "En Avant Toute S",
+   "montant": 78382.14,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "812434025"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.institutcatholiquedeparis",
+   "label": "Institut Catholique De Paris",
+   "montant": 58000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784280737"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationdesfondateurset-protecteursde",
+   "label": "Association Des Fondateurs Et Protecteurs De L Institut Catholique De Lyon",
+   "montant": 56000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "326930062"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationsaintyvesuniversite-catholiqu",
+   "label": "Association Saint Yves Universite Catholique De L Ouest",
+   "montant": 51000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "786116681"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.erasmusstudentnetworkfrance",
+   "label": "Erasmus Student Network France",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "501870737"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.unionetudiantjuifsdefrance",
+   "label": "Union Etudiant Juifs De France",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "334065539"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.assoreseaunationalentreprise-education",
+   "label": "Asso Reseau National Entreprise Education",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "495110991"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.institutpolytechniqueunilasalle",
+   "label": "Institut Polytechnique Unilasalle",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780507190"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.essca",
+   "label": "Essca",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "786116723"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.iastarfrance",
+   "label": "Iastar France",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432772697"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.avenirsantefrance",
+   "label": "Avenir Sante France",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420829228"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.eurofranceassociation",
+   "label": "Euro France Association",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "539004473"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationdroitausavoir",
+   "label": "Association Droit Au Savoir",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "450253323"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.efreiparis",
+   "label": "Efrei Paris",
+   "montant": 27000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398898338"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationgroupeessec",
+   "label": "Association Groupe Essec",
+   "montant": 27000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775663958"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.artuniversiteculture",
+   "label": "Art Universite Culture",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380014480"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.solidairesetudiantessyndicats-deluttes",
+   "label": "Solidaires Etudiant E S Syndicats De Luttes",
+   "montant": 23165.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "907584064"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.federationsyndicaleetudiante",
+   "label": "Federation Syndicale Etudiante",
+   "montant": 23165.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "850581380"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.skemabusinessschool",
+   "label": "Skema Business School",
+   "montant": 23000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783705841"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.unionnaleclubsuniversitaires",
+   "label": "Union Nale Clubs Universitaires",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432940286"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.federationnationaleagencesd-urbanisme",
+   "label": "Federation Nationale Agences D Urbanisme",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378936942"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.engageesetdeterminees",
+   "label": "Engage E S Et Determine E S",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398228387"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ogecdulevant",
+   "label": "Ogec Du Levant",
+   "montant": 19000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777863960"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ecamlasalle",
+   "label": "Ecam Lasalle",
+   "montant": 17000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779883446"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.yncreamediterranee",
+   "label": "Yncrea Mediterranee",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383386877"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.confederatnationalejunior-entreprise",
+   "label": "Confederat Nationale Junior Entreprise",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "330296955"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationdesprofessionnelsd-accompagne",
+   "label": "Association Des Professionnels D Accompagnement Du Handicap Dans L Enseignement Superieur",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "791898406"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.assparlementeuropeendesjeunes-france",
+   "label": "Ass Parlement Europeen Des Jeunes France",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432681336"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.enactusfrance",
+   "label": "Enactus France",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "487940538"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.assenseignementsuperieur-commercial",
+   "label": "Ass Enseignement Superieur Commercial",
+   "montant": 12742.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "959504739"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.institutdoptique",
+   "label": "Institut D Optique",
+   "montant": 12400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784616989"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ecolesuperieuredejournalismede-lille",
+   "label": "Ecole Superieure De Journalisme De Lille",
+   "montant": 11000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783707011"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.exceliagroup",
+   "label": "Excelia Group",
+   "montant": 11000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "348768508"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ipag",
+   "label": "Ipag",
+   "montant": 11000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784280802"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationdelacliniquedes-augustinesdem",
+   "label": "Association De La Clinique Des Augustines De Malestroit",
+   "montant": 10160.9,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777852427"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationgroupeessec-2",
+   "label": "Association Groupe Essec",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775663958"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationjetsdencre",
+   "label": "Association Jets D Encre",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "479605941"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.assocfranccinemaartessai",
+   "label": "Assoc Franc Cinema Art Essai",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784362477"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.campusmarket",
+   "label": "Campus Market",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "839269818"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.100000entrepreneurs",
+   "label": "100 000 Entrepreneurs",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "498598747"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.esigelec",
+   "label": "Esigelec",
+   "montant": 9465.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "413701111"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ecolesupchimiephyselectroniq-lyon",
+   "label": "Ecole Sup Chimie Phys Electroniq Lyon",
+   "montant": 9000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391895109"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.institutcatholique",
+   "label": "Institut Catholique",
+   "montant": 9000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776944100"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.agesparassomption",
+   "label": "Agespar Assomption",
+   "montant": 8500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777745654"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.fondationisaesupaero",
+   "label": "Fondation Isae Supaero",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "509341632"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.assocstartingblock",
+   "label": "Assoc Starting Block",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "441326428"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationderechercheetde-formationenin",
+   "label": "Association De Recherche Et De Formation En Intervention Sociale Ocean Indien Irts Reunion Mayotte Creai Oi",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "421003724"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.comitenationalcontrelebizutage",
+   "label": "Comite National Contre Le Bizutage",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "481199586"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationisepedouardbranly",
+   "label": "Association Isep Edouard Branly",
+   "montant": 7800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784280745"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.audenciabusinessschool",
+   "label": "Audencia Business School",
+   "montant": 7500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "351526512"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ogecsacrecoeur",
+   "label": "Ogec Sacre Coeur",
+   "montant": 7400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777460338"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationeipf",
+   "label": "Association Eipf",
+   "montant": 7191.53,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "332303999"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ditesjesuisla",
+   "label": "Dites Je Suis La",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "892105206"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ensmmetudes",
+   "label": "Ensmm Etudes",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390303824"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.assnaleetudiantscienctech-activitephyssp",
+   "label": "Ass Nale Etudiant Scienc Tech Activite Phys Sport",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "495207334"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationgroupeesa",
+   "label": "Association Groupe Esa",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342382637"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.groupekedgebusinessschool",
+   "label": "Groupe Kedge Business School",
+   "montant": 6885.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "514005123"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.institutcatholiquedeparis-2",
+   "label": "Institut Catholique De Paris",
+   "montant": 6103.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784280737"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.buildersecoledingenieurs",
+   "label": "Builders Ecole D Ingenieurs",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "403162688"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.institutcatholiquederennes",
+   "label": "Institut Catholique De Rennes",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "424437127"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.grouperennesschoolofbusiness",
+   "label": "Groupe Rennes School Of Business",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378327514"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.groupesupdecomontpellier",
+   "label": "Groupe Sup De Co Montpellier",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "790261242"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.neomadeveloppement",
+   "label": "Neoma Developpement",
+   "montant": 5920.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "792237463"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.yncreaouest",
+   "label": "Yncrea Ouest",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "397792656"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.groupementnatdesdirecteursde-servicesuni",
+   "label": "Groupement Nat Des Directeurs De Services Univ Et Interuniversitaires Des Activites Physiques Et Sportives",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "488960501"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.enseis",
+   "label": "Enseis",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "392694014"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationdenseignement-techniquesuperi",
+   "label": "Association D Enseignement Technique Superieur Dite Esaip",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379204381"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.lesjeuneseuropeensfrance",
+   "label": "Les Jeunes Europeens France",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "419387469"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.unionnationassdefensefamilet-indiv",
+   "label": "Union Nation Ass Defense Famil Et Indiv",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "335255956"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.soutiendelinitiativealumnifor-theplanet",
+   "label": "Soutien De L Initiative Alumni For The Planet",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "891161960"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.efreiparis-2",
+   "label": "Efrei Paris",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398898338"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationgroupeessec-3",
+   "label": "Association Groupe Essec",
+   "montant": 4400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775663958"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationgroupeessec-4",
+   "label": "Association Groupe Essec",
+   "montant": 4261.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775663958"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ecoleenseignementsuperieur-priveicn",
+   "label": "Ecole Enseignement Superieur Prive Icn",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "381395680"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationedhecbusinessschool",
+   "label": "Association Edhec Business School",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783707060"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ecolesuperieureelectroniquedel-ouest",
+   "label": "Ecole Superieure Electronique De L Ouest",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "786116715"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.conventionpourlatransitiondes-etablissem",
+   "label": "Convention Pour La Transition Des Etablissements Du Superieur",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "878340751"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.assogecrebours",
+   "label": "Ass Ogec Rebours",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784544512"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ogeceensemblelamennaisdes-lyceescatholiq",
+   "label": "Ogece Ensemble La Mennais Des Lycees Catholiques De Saint Malo",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777661612"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.esigelec-2",
+   "label": "Esigelec",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "413701111"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.assdelecoledebiologie-industrielle",
+   "label": "Ass De L Ecole De Biologie Industrielle",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388591638"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationdesfondateurset-protecteursde-2",
+   "label": "Association Des Fondateurs Et Protecteurs De L Institut Catholique De Lyon",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "326930062"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.faireunmondeequitable",
+   "label": "Faire Un Monde Equitable",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "530550144"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.yncreamediterranee-2",
+   "label": "Yncrea Mediterranee",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383386877"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.resosolidaire",
+   "label": "Reso Solidaire",
+   "montant": 3444.87,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "513319764"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationsainteanne",
+   "label": "Association Sainte Anne",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "329491476"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.institutfrancaisdelamode",
+   "label": "Institut Francais De La Mode",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "333452985"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.instituttextileetchimiquedelyon",
+   "label": "Institut Textile Et Chimique De Lyon",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "320140551"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationleonarddevinci",
+   "label": "Association Leonard De Vinci",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "402850226"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ogecjeannedarc",
+   "label": "Ogec Jeanne D Arc",
+   "montant": 2750.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379618499"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.buildersecoledingenieurs-2",
+   "label": "Builders Ecole D Ingenieurs",
+   "montant": 2473.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "403162688"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.fondationnationalesciences-politiques-3",
+   "label": "Fondation Nationale Sciences Politiques",
+   "montant": 2452.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784308249"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.institutiondelasallelille",
+   "label": "Institution De La Salle Lille",
+   "montant": 2400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775624265"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.fondationnationalesciences-politiques-4",
+   "label": "Fondation Nationale Sciences Politiques",
+   "montant": 2200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784308249"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationpourlagestionde3il",
+   "label": "Association Pour La Gestion De 3Il",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "397704628"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.assistomecolesupagrodevel-internat",
+   "label": "Ass Istom Ecole Sup Agro Devel Internat",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383798998"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ogecdelamballe",
+   "label": "Ogec De Lamballe",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777380940"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.santelysassociation",
+   "label": "Santelys Association",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775624711"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ecoleelecprodmethodes-industrielles",
+   "label": "Ecole Elec Prod Methodes Industrielles",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388964520"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.troyesaubeformation",
+   "label": "Troyes Aube Formation",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "529175341"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ogecassgpescolairestvincentde-paul",
+   "label": "Ogec Ass Gpe Scolaire St Vincent De Paul",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784544462"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.isitinstitutdemanagementetde-communicati",
+   "label": "Isit Institut De Management Et De Communication Interculturels",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784280836"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationdenseignement-techniquesuperi-2",
+   "label": "Association D Enseignement Technique Superieur Dite Esaip",
+   "montant": 1967.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379204381"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ecolesuperieureelectroniquedel-ouest-2",
+   "label": "Ecole Superieure Electronique De L Ouest",
+   "montant": 1600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "786116715"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.instituteconomiescientifique-gestion",
+   "label": "Institut Economie Scientifique Gestion",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783707052"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.troyesaubeformation-2",
+   "label": "Troyes Aube Formation",
+   "montant": 1320.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "529175341"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.institutpolytechniqueunilasalle-2",
+   "label": "Institut Polytechnique Unilasalle",
+   "montant": 1100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780507190"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.rubika",
+   "label": "Rubika",
+   "montant": 1100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "900786906"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.gptapprentissreparatautomobile-cycle",
+   "label": "Gpt Apprentiss Reparat Automobile Cycle",
+   "montant": 1057.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775688112"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.assgestioninstilibreeducaphysi-supe",
+   "label": "Ass Gestion Insti Libre Educa Physi Supe",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "321164931"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.fondationnationalesciences-politiques-5",
+   "label": "Fondation Nationale Sciences Politiques",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784308249"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ecolesuperieuredejournalismede-lille-2",
+   "label": "Ecole Superieure De Journalisme De Lille",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783707011"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.fenelonsaintemarielaplaine-monceau",
+   "label": "Fenelon Sainte Marie La Plaine Monceau",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775671118"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.facultelibrephilosophiecomparee",
+   "label": "Faculte Libre Philosophie Comparee",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775728470"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ecolesuperieuredubois",
+   "label": "Ecole Superieure Du Bois",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784521304"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.itiihautenormandie4l",
+   "label": "Itii Haute Normandie 4L",
+   "montant": 628.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "803056019"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.cesi",
+   "label": "Cesi",
+   "montant": 572.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775722572"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.fresnoystudionalarts-contemporains",
+   "label": "Fresnoy Studio Nal Arts Contemporains",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "348812140"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationedhecbusinessschool-2",
+   "label": "Association Edhec Business School",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783707060"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ecolesuperieurchimieorgan-minerale",
+   "label": "Ecole Superieur Chimie Organ Minerale",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784280760"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.institutcatholiquedartset-metierssitedeg",
+   "label": "Institut Catholique D Arts Et Metiers Site De Grand Paris Sud",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "788769230"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.associationjeannedarc",
+   "label": "Association Jeanne D Arc",
+   "montant": 495.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783005176"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ecamlasalle-2",
+   "label": "Ecam Lasalle",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779883446"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ecolecfj",
+   "label": "Ecole Cfj",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "450355326"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.ogecstdenis",
+   "label": "O G E C St Denis",
+   "montant": 200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776229098"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.croixrougefrancaise",
+   "label": "Croix Rouge Francaise",
+   "montant": 122.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672272"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p231.institutlyfe",
+   "label": "Institut Lyfe",
+   "montant": 100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418137741"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.231",
+   "enfants": []
+  }
+ ]
+}

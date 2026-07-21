@@ -1,0 +1,90 @@
+{
+ "id": "etat.subventions.p190",
+ "label": "Programme 190 — Recherche dans les domaines de l'énergie, du développement et de la mobilité durables : bénéficiaires des subventions aux associations",
+ "montant": 1114672.71,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "5 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p190.institutdesoudure",
+   "label": "Institut De Soudure",
+   "montant": 595654.14,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784756413"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.190",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p190.assrecherchedevel-methodeprocesindus",
+   "label": "Ass Recherche Devel Methode Proces Indus",
+   "montant": 199452.57,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775664113"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.190",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p190.groupekedgebusiness-school",
+   "label": "Groupe Kedge Business School",
+   "montant": 191400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "514005123"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.190",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p190.bureaunormalisation-aeronautiqueespace",
+   "label": "Bureau Normalisation Aeronautique Espace",
+   "montant": 102291.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785301532"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.190",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p190.assoctransferts-technologiesmans",
+   "label": "Assoc Transferts Technologies Mans",
+   "montant": 25875.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "387707102"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.190",
+   "enfants": []
+  }
+ ]
+}

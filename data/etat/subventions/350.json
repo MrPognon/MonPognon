@@ -1,0 +1,38 @@
+{
+ "id": "etat.subventions.p350",
+ "label": "Programme 350 — Jeux olympiques et paralympiques 2024 : bénéficiaires des subventions aux associations",
+ "montant": 69500000.0,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "1 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p350.paris2024comitedorganisationdes-jeuxolym",
+   "label": "Paris 2024 Comite D Organisation Des Jeux Olympiques Et Paralympiques Cojo",
+   "montant": 69500000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "834983439"
+   },
+   "rattachement_id": "etat.depenses.BG.SF.350",
+   "enfants": []
+  }
+ ]
+}

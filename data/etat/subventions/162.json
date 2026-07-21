@@ -1,0 +1,1000 @@
+{
+ "id": "etat.subventions.p162",
+ "label": "Programme 162 — Interventions territoriales de l'État : bénéficiaires des subventions aux associations",
+ "montant": 3161823.14,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "75 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p162.gwadair",
+   "label": "Gwad Air",
+   "montant": 493660.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "442638698"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.conservatoiredesespacesnaturels-deguyane",
+   "label": "Conservatoire Des Espaces Naturels De Guyane",
+   "montant": 312336.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "512957044"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.gptdefensesanitairemartinique",
+   "label": "Gpt Defense Sanitaire Martinique",
+   "montant": 285000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423953850"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.associationpourlaprotection-sanitairedes",
+   "label": "Association Pour La Protection Sanitaire Des Elevages De Gwadloup",
+   "montant": 259400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "880672639"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.latitudecirque",
+   "label": "Latitude Cirque",
+   "montant": 195462.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "520326620"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.phytovictimesoupvassociationdes-professi",
+   "label": "Phyto Victimes Ou Pv Association Des Professionnels Victimes Des Produits Phytosanitaires",
+   "montant": 124200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "532715927"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.assocnationalecompagnons-batisseurs",
+   "label": "Assoc Nationale Compagnons Batisseurs",
+   "montant": 121364.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775666639"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.comitecoordnatioassaide-chomeursemp",
+   "label": "Comite Coord Natio Ass Aide Chomeurs Emp",
+   "montant": 102885.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "341175404"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.eaurivieresdebretagne",
+   "label": "Eau Rivieres De Bretagne",
+   "montant": 95000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777879909"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.phytovictimesoupvassociationdes-professi-2",
+   "label": "Phyto Victimes Ou Pv Association Des Professionnels Victimes Des Produits Phytosanitaires",
+   "montant": 80000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "532715927"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.yenkumulutu",
+   "label": "Yenkumu Lutu",
+   "montant": 58030.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "844622910"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.iguaflhor",
+   "label": "Iguaflhor",
+   "montant": 52150.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "518574140"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.institutpasteur",
+   "label": "Institut Pasteur",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775684897"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.caissedegarantiecontrele-chomageintemper",
+   "label": "Caisse De Garantie Contre Le Chomage Intemperie Des Pecheurs Artisans De La Martinique",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "351564398"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.groupeetudeprotectionoiseaux-guyane",
+   "label": "Groupe Etude Protection Oiseaux Guyane",
+   "montant": 46207.43,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391711181"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.associationdegestionetde-comptabilitecot",
+   "label": "Association De Gestion Et De Comptabilite Cotes D Armor",
+   "montant": 43000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "348155623"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.chambreregionaledeleconomie-socialedelag",
+   "label": "Chambre Regionale De L Economie Sociale De La Guyane",
+   "montant": 40250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "392243119"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.liguedevoileoccitanie",
+   "label": "Ligue De Voile Occitanie",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "824242382"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.crodipbretagne",
+   "label": "Crodip Bretagne",
+   "montant": 36233.46,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420571788"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.phytovictimesoupvassociationdes-professi-3",
+   "label": "Phyto Victimes Ou Pv Association Des Professionnels Victimes Des Produits Phytosanitaires",
+   "montant": 33500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "532715927"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.federregionagrobiologiste-bretagne",
+   "label": "Feder Region Agrobiologiste Bretagne",
+   "montant": 32661.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398916841"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.unionnationaledesassociations-agreeesdus",
+   "label": "Union Nationale Des Associations Agreees Du Systeme De Sante",
+   "montant": 32000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "481370039"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.guyaclic",
+   "label": "Guyaclic",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "809915671"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.larbrefromager",
+   "label": "L Arbre Fromager",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "814314704"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.lincubateurpepiniereaufemininde-guyane",
+   "label": "L Incubateur Pepiniere Au Feminin De Guyane",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "798847620"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.savesablevagueenvironnement-associationp",
+   "label": "Save Sable Vague Environnement Association Pour La Sauvegarde Du Littoral Des Plages Et Autres Dunes",
+   "montant": 29623.55,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "845101708"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.franceactiveguyane",
+   "label": "France Active Guyane",
+   "montant": 27500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923828024"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.yenkumulutu-2",
+   "label": "Yenkumu Lutu",
+   "montant": 25500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "844622910"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.atipagite",
+   "label": "Atipagite",
+   "montant": 24480.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420242976"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.associationregionaledel-ameliorationdesc",
+   "label": "Association Regionale De L Amelioration Des Conditions De Travail En Entreprises Guyane",
+   "montant": 24000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "891683575"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.uniondesvillesportuairesd-occitanie",
+   "label": "Union Des Villes Portuaires D Occitanie",
+   "montant": 24000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "519806111"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.annoukombatansamntoutinegalite-dijodla",
+   "label": "An Nou Kombat Ansamn Tout Inegalite Di Jodla",
+   "montant": 23040.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "401525241"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.lafabriquedudegrad",
+   "label": "La Fabrique Du Degrad",
+   "montant": 20393.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "850741984"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.idsante",
+   "label": "Idsante",
+   "montant": 17500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "819842600"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.guyanedeveloppementinnovation",
+   "label": "Guyane Developpement Innovation",
+   "montant": 17000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "794622233"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.associationdeprefigurationdela-regiedete",
+   "label": "Association De Prefiguration De La Regie De Territoire De Macouria",
+   "montant": 16277.1,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "814345906"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.theatredelentonnoir",
+   "label": "Theatre De L Entonnoir",
+   "montant": 16000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "443427091"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.associationtaanputande",
+   "label": "Association Taanpu Tande",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "804506806"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.idsante-2",
+   "label": "Idsante",
+   "montant": 13000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "819842600"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.youmoov",
+   "label": "Youmoov",
+   "montant": 12000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "853406288"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.carbetdessciences",
+   "label": "Carbet Des Sciences",
+   "montant": 11783.75,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394418875"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.resagrilegumes29",
+   "label": "Res Agri Legumes 29",
+   "montant": 10634.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "800865388"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.apffrancehandicap",
+   "label": "Apf France Handicap",
+   "montant": 9342.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775688732"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.gcamguyanecinemaaudiovisuelet-multimedia",
+   "label": "G Cam Guyane Cinema Audiovisuel Et Multimedia",
+   "montant": 9000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "520113853"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.kaledacooperationsocialeet-culturelle",
+   "label": "Kaleda Cooperation Sociale Et Culturelle",
+   "montant": 8433.55,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "903568418"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.associationyepe",
+   "label": "Association Yepe",
+   "montant": 8251.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "381297175"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.groupeetudeprotectionoiseaux-guyane-2",
+   "label": "Groupe Etude Protection Oiseaux Guyane",
+   "montant": 7400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391711181"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.regrts",
+   "label": "Reg Rts",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "501634505"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.loyolaomnisportsclub",
+   "label": "Loyola Omnisports Club",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "829237346"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.itek",
+   "label": "Itek",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "515135788"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.lepapadilo",
+   "label": "Le Papadilo",
+   "montant": 6548.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "887696433"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.associationguyanaisedereduction-desrisqu",
+   "label": "Association Guyanaise De Reduction Des Risques",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "819651274"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.associationfranceactive",
+   "label": "Association France Active",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344891668"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.lezpritrequipe",
+   "label": "Lezprit Requipe",
+   "montant": 5670.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "891952608"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.mindyourownbusiness",
+   "label": "Mind Your Own Business",
+   "montant": 5500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "908535156"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.actionprotectionaccompagnement-etmesures",
+   "label": "Action Protection Accompagnement Et Mesures Educatives Et Penales En Guyane",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "481124212"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.maztek",
+   "label": "Maztek",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "523336840"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.973aavipassdaideauxvictimes-infractionsp",
+   "label": "973 A A V I P Ass D Aide Aux Victimes Infractions Penales",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "791310840"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.assocnationalecompagnons-batisseurs-2",
+   "label": "Assoc Nationale Compagnons Batisseurs",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775666639"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.groupeetudeprotectionoiseaux-guyane-3",
+   "label": "Groupe Etude Protection Oiseaux Guyane",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391711181"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.confederationgeneralesocs-cooperativesde",
+   "label": "Confederation Generale Socs Cooperatives De Production",
+   "montant": 4819.22,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784853632"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.lacritic",
+   "label": "La Critic",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "802221523"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.kazavenirlgbt",
+   "label": "Kaz Avenir Lgbt",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "887940575"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.kazkozemaisondelapoesieguyane",
+   "label": "Kaz Koze Maison De La Poesie Guyane",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "908015126"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.assockwata",
+   "label": "Assoc Kwata",
+   "montant": 3650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "399244474"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.federationlokonodematoury",
+   "label": "Federation Lokono De Matoury",
+   "montant": 3540.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "509717500"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.assembleepermanentedes-presidentsdecommi",
+   "label": "Assemblee Permanente Des Presidents De Commissions Locales De L Eau De Bretagne",
+   "montant": 3500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "751902255"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.comitedeparttourismeherault",
+   "label": "Comite Depart Tourisme Herault",
+   "montant": 3200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "322148834"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.actionpourledeveloppementl-educationetla",
+   "label": "Action Pour Le Developpement L Education Et La Recherche",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "509995312"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.lagaulelamballaiseassociation-agreeedepe",
+   "label": "La Gaule Lamballaise Association Agreee De Peche Et De Protection Du Milieu Aquatique",
+   "montant": 2156.25,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "829398536"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.kreol",
+   "label": "Kreol",
+   "montant": 2105.85,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "433825585"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.associationculturellemaracudja",
+   "label": "Association Culturelle Maracudja",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "921074332"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.caissedesreglementspecuniaires-effectues",
+   "label": "Caisse Des Reglements Pecuniaires Effectues Par Les Avocats A La Cour De Paris Carpa",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784181216"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.assdeveltechniqmodernesde-communicat",
+   "label": "Ass Devel Techniq Modernes De Communicat",
+   "montant": 735.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "335120259"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p162.yopalas",
+   "label": "Yo Pa La S",
+   "montant": 400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "801061128"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.162",
+   "enfants": []
+  }
+ ]
+}

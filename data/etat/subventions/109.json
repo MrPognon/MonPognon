@@ -1,0 +1,1234 @@
+{
+ "id": "etat.subventions.p109",
+ "label": "Programme 109 — Aide à l'accès au logement : bénéficiaires des subventions aux associations",
+ "montant": 8998601.0,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "93 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p109.assonationaleinforlogement",
+   "label": "Asso Nationale Infor Logement",
+   "montant": 894320.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "304163983"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.associationinterdepartementaled-informat",
+   "label": "Association Interdepartementale D Information Surle Logement Du Nord Et Du Pas De Calais",
+   "montant": 368945.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "343097333"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartementaleinformation-logement",
+   "label": "Ass Departementale Information Logement",
+   "montant": 207121.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "315483727"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepdinformationsurle-logement",
+   "label": "Ass Dep D Information Sur Le Logement",
+   "montant": 197757.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "444149645"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.agcedepartinformlogementseine-stden",
+   "label": "Agce Depart Inform Logement Seine St Den",
+   "montant": 180588.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "417813193"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assodepartementaleinformation-logement",
+   "label": "Asso Departementale Information Logement",
+   "montant": 173162.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "387570716"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdeppourinformationau-logement",
+   "label": "Ass Dep Pour Information Au Logement",
+   "montant": 160335.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305378234"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartpourlinformsurle-logement",
+   "label": "Ass Depart Pour L Inform Sur Le Logement",
+   "montant": 148494.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342737061"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.confedernationaledulogement",
+   "label": "Confeder Nationale Du Logement",
+   "montant": 147378.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775681265"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.agencedepartinformationlogement-94",
+   "label": "Agence Depart Information Logement 94",
+   "montant": 144198.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "412264012"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepinformationlogementhte-garonne",
+   "label": "Ass Dep Information Logement Hte Garonne",
+   "montant": 141385.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "326479003"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepinformationlogement",
+   "label": "Ass Dep Information Logement",
+   "montant": 137212.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "387758824"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartementinformation-logementla",
+   "label": "Ass Departement Information Logement L A",
+   "montant": 135826.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "322008426"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdeptinformationlogtherault",
+   "label": "Ass Dept Information Logt Herault",
+   "montant": 133626.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "397482498"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepinformationlogement77",
+   "label": "Ass Dep Information Logement 77",
+   "montant": 132982.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784971897"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepinformationsurlelogement",
+   "label": "Ass Dep Information Sur Le Logement",
+   "montant": 130452.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "317995579"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.agenceinterdepartementaled-informationsu",
+   "label": "Agence Interdepartementale D Information Sur Le Logement Du Loiret Et D Eure Et Loir",
+   "montant": 129293.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "451811863"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.adildemeurtheetmoselleetde-meuse",
+   "label": "Adil De Meurthe Et Moselle Et De Meuse",
+   "montant": 126099.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "341863348"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepinformationlogement-yvelines",
+   "label": "Ass Dep Information Logement Yvelines",
+   "montant": 119796.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "494578206"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.associationdepartementaled-informationsu",
+   "label": "Association Departementale D Information Sur Le Logement De L Isere",
+   "montant": 119368.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "499682979"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepinformationlogement-essonne",
+   "label": "Ass Dep Information Logement Essonne",
+   "montant": 117219.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "377511191"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepinformationlogementvald-oise",
+   "label": "Ass Dep Information Logement Val D Oise",
+   "montant": 115319.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "316237767"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.agencedepartementalepourl-informationsur",
+   "label": "Agence Departementale Pour L Information Sur Le Logement",
+   "montant": 113055.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "314559345"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.associationdepartementaled-informationsu-2",
+   "label": "Association Departementale D Information Sur Le Logement De La Moselle",
+   "montant": 112947.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "512462680"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartinformationlogementiet-v",
+   "label": "Ass Depart Information Logement I Et V",
+   "montant": 112624.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342044658"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartementaledinformation-surlelogem",
+   "label": "Ass Departementale D Information Sur Le Logement De La Loire",
+   "montant": 112136.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "750792996"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartementaleinformation-logement-2",
+   "label": "Ass Departementale Information Logement",
+   "montant": 110789.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394418743"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assodeppourinformationsur-logement",
+   "label": "Asso Dep Pour Information Sur Logement",
+   "montant": 107799.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "330651720"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assocdepartementaleinformat-logement",
+   "label": "Assoc Departementale Informat Logement",
+   "montant": 99208.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "314686932"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assocdepartinformationsurle-logement",
+   "label": "Assoc Depart Information Sur Le Logement",
+   "montant": 98385.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382078004"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.consommationlogementetcadrede-vie",
+   "label": "Consommation Logement Et Cadre De Vie",
+   "montant": 97530.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784244139"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepdinformationsurle-logement-2",
+   "label": "Ass Dep D Information Sur Le Logement",
+   "montant": 89825.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342487535"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartinformationlogement",
+   "label": "Ass Depart Information Logement",
+   "montant": 88926.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "349113258"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartementaleinforlogement-guadel",
+   "label": "Ass Departementale Infor Logement Guadel",
+   "montant": 86469.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393567342"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.pourlelogementagencedeppourl-information",
+   "label": "Pour Le Logement Agence Dep Pour L Information Sur Le Logement",
+   "montant": 85483.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "315384925"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.agencedinformationsurle-logementdecorse",
+   "label": "Agence D Information Sur Le Logement De Corse",
+   "montant": 85279.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "839424009"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepinformationlogementpyratl",
+   "label": "Ass Dep Information Logement Pyr Atl",
+   "montant": 85157.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "407668755"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.departementaledinformationsurle-logement",
+   "label": "Departementale D Information Sur Le Logement De Maine Et Loire",
+   "montant": 84788.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "499988806"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.adilassodepartinformlogeme",
+   "label": "Adil Asso Depart Inform Logeme",
+   "montant": 82697.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "325634715"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartinfologementchtemme",
+   "label": "Ass Depart Info Logement Chte Mme",
+   "montant": 81993.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "492533138"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.federasspromotioninsertion-logement",
+   "label": "Feder Ass Promotion Insertion Logement",
+   "montant": 80000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "387602170"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartinformlogemmartinique",
+   "label": "Ass Depart Inform Logem Martinique",
+   "montant": 79915.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390830941"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.asspourlinformationsurle-logement",
+   "label": "Ass Pour L Information Sur Le Logement",
+   "montant": 78750.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428989842"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.confederatsyndicalefamilles",
+   "label": "Confederat Syndicale Familles",
+   "montant": 78504.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775685449"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartementaleinformation-logement-3",
+   "label": "Ass Departementale Information Logement",
+   "montant": 76448.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "327323986"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.agencedepartementaled-informationsurlelo",
+   "label": "Agence Departementale D Information Sur Le Logement Des Hautes Alpes",
+   "montant": 75527.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "505110130"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.associationdepartementaled-informationsu-3",
+   "label": "Association Departementale D Information Sur Le Logement Des Pyrenees Orientales",
+   "montant": 75451.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "789874732"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.agencedepartementaled-informationsurlelo-2",
+   "label": "Agence Departementale D Information Sur Le Logement D Indre Et Loire",
+   "montant": 74955.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "913519203"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.departementaleinformationsur-logement",
+   "label": "Departementale Information Sur Logement",
+   "montant": 74907.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391720877"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdeptinformationsurlelogement",
+   "label": "Ass Dept Information Sur Le Logement",
+   "montant": 74367.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "389440694"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.agencedepdinformationsurle-logement",
+   "label": "Agence Dep D Information Sur Le Logement",
+   "montant": 72193.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "319253472"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assocdepartinformationlogement-doubs",
+   "label": "Assoc Depart Information Logement Doubs",
+   "montant": 72173.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "341096394"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.adilassocdeparinformlogem",
+   "label": "Adil Assoc Depar Inform Logem",
+   "montant": 72099.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331162289"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepinformsurlelogement",
+   "label": "Ass Dep Inform Sur Le Logement",
+   "montant": 70193.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "323138842"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.associationdepartementale-informationsur",
+   "label": "Association Departementale Information Sur Le Logement De La Drome",
+   "montant": 70008.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "397941592"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepinformationlogementdel-eure",
+   "label": "Ass Dep Information Logement De L Eure",
+   "montant": 68951.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "345308563"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.adilassdepartinformlogemen",
+   "label": "Adil Ass Depart Inform Logemen",
+   "montant": 67388.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "319681391"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.agencedepartementaled-informationsurlelo-3",
+   "label": "Agence Departementale D Information Sur Le Logement De L Aude",
+   "montant": 67316.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "879499317"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assocdepartinformationpour-logement",
+   "label": "Assoc Depart Information Pour Logement",
+   "montant": 65902.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "330012956"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepinformationsurlelogement-2",
+   "label": "Ass Dep Information Sur Le Logement",
+   "montant": 65702.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "411498173"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartinformationlogement-landes",
+   "label": "Ass Depart Information Logement Landes",
+   "montant": 65200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "351653548"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartinformationsurle-logement",
+   "label": "Ass Depart Information Sur Le Logement",
+   "montant": 62522.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380308411"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartementalepourl-informationsurlel",
+   "label": "Ass Departementale Pour L Information Sur Le Logement Dans Le Departement De La Vienne",
+   "montant": 62348.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "325373579"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.associationdepartementaled-informationsu-4",
+   "label": "Association Departementale D Information Sur Le Logement De Lot Et Garonne",
+   "montant": 60509.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "514750793"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assodepartinformationsurle-logement",
+   "label": "Asso Depart Information Sur Le Logement",
+   "montant": 60266.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "317824795"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.habicoopfederationfrancaisedes-cooperati",
+   "label": "Habicoop Federation Francaise Des Cooperatives D Habitants",
+   "montant": 60000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "488591587"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartinformationlogement-2",
+   "label": "Ass Depart Information Logement",
+   "montant": 58095.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388919540"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.agencedepinformationsurle-logement",
+   "label": "Agence Dep Information Sur Le Logement",
+   "montant": 57156.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "307737627"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepinformationlogementen-savoie",
+   "label": "Ass Dep Information Logement En Savoie",
+   "montant": 56976.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "349038091"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartinformationlogement-charente",
+   "label": "Ass Depart Information Logement Charente",
+   "montant": 56699.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "433501079"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartementinformation-logement",
+   "label": "Ass Departement Information Logement",
+   "montant": 55660.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394900559"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartinformationlogement-aveyron",
+   "label": "Ass Depart Information Logement Aveyron",
+   "montant": 53763.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "409740362"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartementaledinformation-logementgu",
+   "label": "Ass Departementale D Information Logement Guyane",
+   "montant": 53572.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "752436089"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.confederationgenerallogement",
+   "label": "Confederation General Logement",
+   "montant": 53046.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784180275"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.adil82",
+   "label": "Adil 82",
+   "montant": 53003.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "310290879"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.agencedepdinformationlogement",
+   "label": "Agence Dep D Information Logement",
+   "montant": 52840.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305834640"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartinformationlogement-aubois",
+   "label": "Ass Depart Information Logement Aubois",
+   "montant": 52281.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "313536534"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.adildelindre",
+   "label": "A D I L De L Indre",
+   "montant": 50731.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "324250356"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assinformationlogement",
+   "label": "Ass Information Logement",
+   "montant": 50514.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "328109517"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.associationdepartinformation-logement",
+   "label": "Association Depart Information Logement",
+   "montant": 50509.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "318745114"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assocdepartinformlogement",
+   "label": "Assoc Depart Inform Logement",
+   "montant": 50035.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "332723493"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.francesilvereco",
+   "label": "France Silver Eco",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "519744007"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartementaleinformation-logement-4",
+   "label": "Ass Departementale Information Logement",
+   "montant": 49190.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380299206"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.deppourinformationlogementorne",
+   "label": "Dep Pour Information Logement Orne",
+   "montant": 49153.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "440619781"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdephtesaoneinformation-logement",
+   "label": "Ass Dep Hte Saone Information Logement",
+   "montant": 48839.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "317194959"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepinformationlogement-2",
+   "label": "Ass Dep Information Logement",
+   "montant": 47242.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "314078858"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.associationforceouvriere-consommateursaf",
+   "label": "Association Force Ouvriere Consommateurs Afoc",
+   "montant": 46543.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "316417484"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdeptdinformationsurlogement-dugers",
+   "label": "Ass Dept D Information Sur Logement Du Gers",
+   "montant": 42606.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "479050734"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assdepartsurlelogementdela-lozere",
+   "label": "Ass Depart Sur Le Logement De La Lozere",
+   "montant": 38385.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418262325"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.associationdepartementaled-informationsu-5",
+   "label": "Association Departementale D Information Sur Le Logement Du Cher Adil Du Cher",
+   "montant": 34204.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "922910195"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assfondationetudiantepourlaville",
+   "label": "Ass Fondation Etudiante Pour La Ville",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390322055"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.assocnationalecompagnons-batisseurs",
+   "label": "Assoc Nationale Compagnons Batisseurs",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775666639"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p109.associationdroitaulogement-opposable",
+   "label": "Association Droit Au Logement Opposable",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "813824422"
+   },
+   "rattachement_id": "etat.depenses.BG.VA.109",
+   "enfants": []
+  }
+ ]
+}

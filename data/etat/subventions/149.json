@@ -1,0 +1,970 @@
+{
+ "id": "etat.subventions.p149",
+ "label": "Programme 149 — Compétitivité et durabilité de l'agriculture, de l'agroalimentaire et de la forêt : bénéficiaires des subventions aux associations",
+ "montant": 4393034.39,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "73 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p149.assregdefenseforetscontre-incendies",
+   "label": "Ass Reg Defense Forets Contre Incendies",
+   "montant": 1528763.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "401456546"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.ocapiat",
+   "label": "Ocapiat",
+   "montant": 582000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "844752006"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.institutformationforestiere-communale",
+   "label": "Institut Formation Forestiere Communale",
+   "montant": 333440.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379364433"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.asscoordinattechniqagricole",
+   "label": "Ass Coordinat Techniq Agricole",
+   "montant": 175307.06,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784523318"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.unioncooperationforestiere-francaise",
+   "label": "Union Cooperation Forestiere Francaise",
+   "montant": 174900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "417921103"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.collectifdesraceslocalesde-massif",
+   "label": "Collectif Des Races Locales De Massif",
+   "montant": 143895.22,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "504862582"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.teragir",
+   "label": "Teragir",
+   "montant": 130000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331192690"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.francenatureenvironnement",
+   "label": "France Nature Environnement",
+   "montant": 90000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784263303"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.fiboisiledefrance",
+   "label": "Fibois Ile De France",
+   "montant": 90000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "497976191"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.associationfrancaisede-normalisation",
+   "label": "Association Francaise De Normalisation",
+   "montant": 83600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775724818"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.centretechniqueboisforetsde-guyane",
+   "label": "Centre Technique Bois Forets De Guyane",
+   "montant": 76755.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "819817982"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.conseilnationaldupeuplier",
+   "label": "Conseil National Du Peuplier",
+   "montant": 74000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "523557809"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.ctreinterproftechetudepollut-atmosp",
+   "label": "Ctre Interprof Tech Etude Pollut Atmosp",
+   "montant": 66360.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784663544"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.federparcsnaturelsregionauxde-france",
+   "label": "Feder Parcs Naturels Regionaux De France",
+   "montant": 60500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784845026"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.associationfrancaisede-normalisation-2",
+   "label": "Association Francaise De Normalisation",
+   "montant": 59500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775724818"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.asscomifer",
+   "label": "Ass Comifer",
+   "montant": 52434.43,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428468920"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.associationfrancaisede-normalisation-3",
+   "label": "Association Francaise De Normalisation",
+   "montant": 46571.45,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775724818"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.associationdepartementaledes-comitescomm",
+   "label": "Association Departementale Des Comites Communaux Feux De Forets Et Des Reserves Communales De Securite Civile De L Aude",
+   "montant": 45000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "503327405"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.assleaderfrance",
+   "label": "Ass Leader France",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "450552708"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.capagronc",
+   "label": "Cap Agro Nc",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.unionnormalisationmecanique",
+   "label": "Union Normalisation Mecanique",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "310025697"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.assfranceboisforet",
+   "label": "Ass France Bois Foret",
+   "montant": 38000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "490149135"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.comiteinterprofessionneldubois-energieci",
+   "label": "Comite Interprofessionnel Du Bois Energie Cibe",
+   "montant": 36000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "491783551"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.federparcsnaturelsregionauxde-france-2",
+   "label": "Feder Parcs Naturels Regionaux De France",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784845026"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.bipea",
+   "label": "Bipea",
+   "montant": 22500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "338310196"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.fiboisfrance",
+   "label": "Fibois France",
+   "montant": 22120.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "518815105"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.comitefrancaispourluicn",
+   "label": "Comite Francais Pour L U I C N",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "415025626"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.institutdelelevage",
+   "label": "Institut De L Elevage",
+   "montant": 15450.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302984158"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.eduforestfrance",
+   "label": "Eduforest France",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "924265531"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.unionregionaledesassociationsde-communes",
+   "label": "Union Regionale Des Associations De Communes Foerestieres Auvergne Rhone Alpes",
+   "montant": 13800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428991178"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.assdepartementaledescomites-communauxfeu",
+   "label": "Ass Departementale Des Comites Communaux Feux De Forets Et Des Reserves Communales De Securite Civile De L Herault",
+   "montant": 13598.39,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382972818"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.groupementpastoraldoust",
+   "label": "Groupement Pastoral D Oust",
+   "montant": 13597.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "424984409"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.gptpastoraldustoucoldescots",
+   "label": "Gpt Pastoral D Ustou Col D Escots",
+   "montant": 13054.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "482704533"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.groupementpastoraldesentenacd-oust",
+   "label": "Groupement Pastoral De Sentenac D Oust",
+   "montant": 12674.06,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "478966419"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.groupementpastoraldesoulas",
+   "label": "Groupement Pastoral De Soulas",
+   "montant": 12362.22,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "408207231"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.institutdelelevage-2",
+   "label": "Institut De L Elevage",
+   "montant": 12000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302984158"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.groupementdemployeurssdaec",
+   "label": "Groupement D Employeurs Sdaec",
+   "montant": 11332.72,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "413606278"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.groupementpastoraldarreau",
+   "label": "Groupement Pastoral D Arreau",
+   "montant": 10742.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "408207223"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.comitefrancaisdaccreditation",
+   "label": "Comite Francais D Accreditation",
+   "montant": 9864.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "397879487"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.groupementpastoraldesbesines",
+   "label": "Groupement Pastoral Des Besines",
+   "montant": 9786.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "408207504"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.assdepccfeuxdeforestdevse",
+   "label": "Ass Dep Cc Feux De Forest De Vse",
+   "montant": 9600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432285799"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.i4ceinstituteforclimateeconomics",
+   "label": "I4Ce Institute For Climate Economics",
+   "montant": 9500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "500201983"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.associationregiedeterritoirede-tsingoni",
+   "label": "Association Regie De Territoire De Tsingoni",
+   "montant": 7600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "821211414"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.assfrancaisepourletudedusol",
+   "label": "Ass Francaise Pour L Etude Du Sol",
+   "montant": 7500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420554677"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.vigisol",
+   "label": "Vigisol",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "535202568"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.agroparistechinnovation",
+   "label": "Agroparistech Innovation",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "312097280"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.associationdescollectivites-forestieresd",
+   "label": "Association Des Collectivites Forestieres Du Lot",
+   "montant": 6560.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "883391625"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.brigadedesoutienetprotection-martinelli",
+   "label": "Brigade De Soutien Et Protection Martinelli",
+   "montant": 6400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "881896120"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.junia",
+   "label": "Junia",
+   "montant": 6250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783707003"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.reservesnaturellesdefrance",
+   "label": "Reserves Naturelles De France",
+   "montant": 6200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428434831"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.groupeisaraisema",
+   "label": "Groupe Isara Isema",
+   "montant": 5750.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779845056"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.departemantalecomitesfeuxforets-bdr",
+   "label": "Departemantale Comites Feux Forets Bdr",
+   "montant": 5600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420772055"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.salondelagriculturenouvelle-aquitaine",
+   "label": "Salon De L Agriculture Nouvelle Aquitaine",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "407895853"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.institutpolytechniqueunilasalle",
+   "label": "Institut Polytechnique Unilasalle",
+   "montant": 4820.71,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780507190"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.assdepartementaledescomites-communauxfeu-2",
+   "label": "Ass Departementale Des Comites Communaux Feux De Forets Et Des Reserves Communales De Securite Civile De L Herault",
+   "montant": 3879.24,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382972818"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.assdeptcomitedesfeuxdeforets-reservescom",
+   "label": "Ass Dept Comite Des Feux De Forets Reserves Comm Securite Civile Alpes Maritimes",
+   "montant": 3850.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "402934392"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.lesjardinsdetheleme",
+   "label": "Les Jardins De Theleme",
+   "montant": 3333.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "494119316"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.assinitiationalaforet",
+   "label": "Ass Initiation A La Foret",
+   "montant": 3300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "402776058"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.assdescommunesforestieresdes-po",
+   "label": "Ass Des Communes Forestieres Des Po",
+   "montant": 3010.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423008523"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.lestudiumctreintrecherche-accueil",
+   "label": "Le Studium Ctre Int Recherche Accueil",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "414995316"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.francedouglas",
+   "label": "France Douglas",
+   "montant": 2500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "433044849"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.associationjardinsdecocagnede-macon",
+   "label": "Association Jardins De Cocagne De Macon",
+   "montant": 2500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "414773838"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.expertsforestiersdefrance",
+   "label": "Experts Forestiers De France",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "320720824"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.comiteintercommunalfeuxdeforets",
+   "label": "Comite Intercommunal Feux De Forets",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "752475236"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.partenariatfrancaispourleau",
+   "label": "Partenariat Francais Pour L Eau",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "753506013"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.collectivitesforestieresdel-aveyron",
+   "label": "Collectivites Forestieres De L Aveyron",
+   "montant": 1960.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "838829299"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.agrosia",
+   "label": "Agrosia",
+   "montant": 1287.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "504398421"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.assusagersrestauinterminist",
+   "label": "Ass Usagers Restau Interminist",
+   "montant": 1086.37,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784295115"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.associationpourlapromotiondes-chiensdepr",
+   "label": "Association Pour La Promotion Des Chiens De Protection",
+   "montant": 1050.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "878567742"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.foyerdecharitedelamartini",
+   "label": "Foyer De Charite De La Martini",
+   "montant": 817.02,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "314291931"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.asssecoursetplacementdes-animaux",
+   "label": "Ass Secours Et Placement Des Animaux",
+   "montant": 506.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393526447"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.associationentraidecastans",
+   "label": "Association Entraide Castans",
+   "montant": 164.7,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398751669"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p149.groupementpastoraldecoumebiere",
+   "label": "Groupement Pastoral De Coumebiere",
+   "montant": 100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "510558489"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.149",
+   "enfants": []
+  }
+ ]
+}

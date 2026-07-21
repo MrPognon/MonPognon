@@ -1,0 +1,4181 @@
+{
+ "id": "etat.subventions.p169",
+ "label": "Programme 169 — Reconnaissance et réparation en faveur du monde combattant, mémoire et liens avec la Nation : bénéficiaires des subventions aux associations",
+ "montant": 3264323.03,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "320 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p169.associationcentrejunobeach",
+   "label": "Association Centre Juno Beach",
+   "montant": 300000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "440967651"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.unionassihedndefensesecurite-unionihedn",
+   "label": "Union Ass Ihedn Defense Securite Union Ihedn",
+   "montant": 247924.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "408417947"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.aftral",
+   "label": "Aftral",
+   "montant": 227304.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305405045"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.almeaformationsinterpro",
+   "label": "Almea Formations Interpro",
+   "montant": 216160.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "509232831"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.fondationducampdesmilles-memoireeteducat",
+   "label": "Fondation Du Camp Des Milles Memoire Et Education",
+   "montant": 200000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "513626713"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.fondationdelaresistance",
+   "label": "Fondation De La Resistance",
+   "montant": 180000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "392449500"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.verneilformation",
+   "label": "Verneil Formation",
+   "montant": 156800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "395259203"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.memorialdelashoah",
+   "label": "Memorial De La Shoah",
+   "montant": 150000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784243784"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.airbornemuseum",
+   "label": "Airborne Museum",
+   "montant": 125000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780918207"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.lesouvenirfrancais",
+   "label": "Le Souvenir Francais",
+   "montant": 79000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775676182"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.btpcfagrandest",
+   "label": "Btp Cfa Grand Est",
+   "montant": 78636.25,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783347024"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.cercledugroupementdesoutiende-basededefe",
+   "label": "Cercle Du Groupement De Soutien De Base De Defense De Vincennes",
+   "montant": 73240.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342500154"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.aftral-2",
+   "label": "Aftral",
+   "montant": 71447.04,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305405045"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.comitemonumentnat-hartmannswillerkopf",
+   "label": "Comite Monument Nat Hartmannswillerkopf",
+   "montant": 63000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778921650"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.isetaeca",
+   "label": "Iseta Eca",
+   "montant": 59380.18,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776603060"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assdesjardinspaysagersdes-hortillonnages",
+   "label": "Ass Des Jardins Paysagers Des Hortillonnages",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "533624672"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.federationnationaleandremaginot",
+   "label": "Federation Nationale Andre Maginot",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775666480"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.fondationpourlamemoiredel-esclavage",
+   "label": "Fondation Pour La Memoire De L Esclavage",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "879130003"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assformationprofessbattp",
+   "label": "Ass Formation Profess Bat Tp",
+   "montant": 37000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "313390494"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationdegestiondu-restaurantinterad",
+   "label": "Association De Gestion Du Restaurant Inter Administratif De Quimper",
+   "montant": 36381.56,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "833574981"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.crjscentrregionjeunessspor",
+   "label": "Crjs Centr Region Jeuness Spor",
+   "montant": 32886.33,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "329505523"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecledonien",
+   "label": "Ogec Ledonien",
+   "montant": 32170.03,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384436515"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.institutbretondeducation-permanente",
+   "label": "Institut Breton D Education Permanente",
+   "montant": 31391.25,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340258144"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.laflammesouslarcdetriomphe",
+   "label": "La Flamme Sous L Arc De Triomphe",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784205510"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecsacrecoeur",
+   "label": "Ogec Sacre Coeur",
+   "montant": 28245.76,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777460338"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assmaisonizieumemoenfantsjuifs-exte",
+   "label": "Ass Maison Izieu Memo Enfants Juifs Exte",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388999617"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.centredaccueilpermanentj-tessier",
+   "label": "Centre D Accueil Permanent J Tessier",
+   "montant": 24157.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "329595391"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.maisondaccueillilot",
+   "label": "Maison D Accueil L Ilot",
+   "montant": 23024.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784753287"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.organismedegestionlachartreuse",
+   "label": "Organisme De Gestion La Chartreuse",
+   "montant": 22839.05,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420049074"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.lyceeagricoleprivedenermont",
+   "label": "Lycee Agricole Prive De Nermont",
+   "montant": 22391.64,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "319681540"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.cirarestauration",
+   "label": "Cira Restauration",
+   "montant": 21729.86,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776317547"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationpourlarechercheen-histoirearc",
+   "label": "Association Pour La Recherche En Histoire Archeologie Dans L Espace Septentional",
+   "montant": 18000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "815009667"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.espoir57",
+   "label": "Espoir 57",
+   "montant": 16656.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379899768"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.unionfrasscombattantsvictimes-guerre",
+   "label": "Union Fr Ass Combattants Victimes Guerre",
+   "montant": 16500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784411241"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.swap",
+   "label": "Swap",
+   "montant": 15365.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "751764226"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecgestioninstitutsevigne",
+   "label": "Ogec Gestion Institut Sevigne",
+   "montant": 12510.85,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780887592"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.unionnationaledesassociationsde-deportes",
+   "label": "Union Nationale Des Associations De Deportes Et Internes De La Resistances Et Familles",
+   "montant": 12000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784655375"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.espoir57-2",
+   "label": "Espoir 57",
+   "montant": 11765.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379899768"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.cerclesportifdelinstitution-nationaledes",
+   "label": "Cercle Sportif De L Institution Nationale Des Invalides",
+   "montant": 11000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342093978"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationmanosquinepourune-retraiteact",
+   "label": "Association Manosquine Pour Une Retraite Active",
+   "montant": 10848.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "308128826"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.viltais",
+   "label": "Viltais",
+   "montant": 10604.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "407521798"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ufolepdelasomme",
+   "label": "Ufolep De La Somme",
+   "montant": 10117.18,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331692137"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.adirp",
+   "label": "A D I R P",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "502514086"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ethictable",
+   "label": "Ethic Table",
+   "montant": 9482.34,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "751469255"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationnationaledes-combattantsdesop",
+   "label": "Association Nationale Des Combattants Des Operations Exterieures",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "532361136"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecinstitutionsainteanne",
+   "label": "Ogec Institution Sainte Anne",
+   "montant": 7935.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302858170"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.adapeilespapillonsblancs",
+   "label": "Adapei Les Papillons Blancs",
+   "montant": 7899.71,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775605405"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.asnatanciensetamisforces-francaisesdeonu",
+   "label": "As Nat Anciens Et Amis Forces Francaises De Onu Bataillon Et Regiment De Coree Et 156Eme Regiment Anaaffonu Bc Rc 156 Ri",
+   "montant": 7600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "450214333"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationecrivainscombattants",
+   "label": "Association Ecrivains Combattants",
+   "montant": 7500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784361388"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.carrefoursemploiarmeescollect-entr",
+   "label": "Carrefours Emploi Armees Collect Entr",
+   "montant": 7404.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432945483"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecnotredamesaintprivat",
+   "label": "Ogec Notre Dame Saint Privat",
+   "montant": 7009.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776114746"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationdesfamillesdes-compagnonsdela",
+   "label": "Association Des Familles Des Compagnons De La Liberation",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "492169081"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.maisondesanciensde2db",
+   "label": "Maison Des Anciens De 2 D B",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784361396"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.federationassmarianciens-combattants",
+   "label": "Federation Ass Mari Anciens Combattants",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784363640"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assnlecroixdeguerreetdela-valeurmilitair",
+   "label": "Ass Nle Croix De Guerre Et De La Valeur Militaire",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "311853063"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecsainthuguesendauphine",
+   "label": "Ogec Saint Hugues En Dauphine",
+   "montant": 5496.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779624113"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationdufortdemetzqueuleu-pourlamem",
+   "label": "Association Du Fort De Metz Queuleu Pour La Memoire Des Internes Deportes Et La Sauvegarde Du Site",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "810216580"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.mysportevents",
+   "label": "My Sport Events",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "910104900"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.morvanterrederesistances-associationnpou",
+   "label": "Morvan Terre De Resistances Associationn Pour La Recherche Sur L Occupation Et La Resistance En Morvan",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "328007943"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.unionnationaledesparachutistes",
+   "label": "Union Nationale Des Parachutistes",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305869950"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.mpuamicalanciensservspec-defensenat",
+   "label": "Mpu Amical Anciens Serv Spec Defense Nat",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "433980349"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.foyersocioeducatifdulycee-clementmarot",
+   "label": "Foyer Socio Educatif Du Lycee Clement Marot",
+   "montant": 4880.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "895174977"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.federationregionalechante-aquitaine",
+   "label": "Federation Regionale Chante Aquitaine",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "518806799"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ligueenseignementfederatdep-isere",
+   "label": "Ligue Enseignement Federat Dep Isere",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779552405"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.tousenstagelengagementdun-reseaudentrepr",
+   "label": "Tous En Stage L Engagement D Un Reseau D Entreprises Pour La Reussite Des Jeunes",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "828869529"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assrepublicainedesanciens-combattants",
+   "label": "Ass Republicaine Des Anciens Combattants",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "307309930"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogeccollegestjeanglorieux",
+   "label": "Ogec College St Jean Glorieux",
+   "montant": 3939.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783413883"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.asscompagniedubonhomme",
+   "label": "Ass Compagnie Du Bonhomme",
+   "montant": 3840.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432709848"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.agapesworld",
+   "label": "Agapes World",
+   "montant": 3750.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "913949814"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationdeformationpourla-cooperation",
+   "label": "Association De Formation Pour La Cooperation Et La Promotion Professionnelle Mediterraneenne",
+   "montant": 3718.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302382395"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.comiteparoissialcatholiquedetad",
+   "label": "Comite Paroissial Catholique De Tad",
+   "montant": 3519.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.soldisalgerieassociationnationale-pourla",
+   "label": "Soldis Algerie Association Nationale Pour La Memoire Des Militaires Francais Portes Disparus En Algerie",
+   "montant": 3500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "809582646"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationpourlememorialdela-deportatio",
+   "label": "Association Pour Le Memorial De La Deportation",
+   "montant": 3500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "521894139"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.cerclemixtegendarmerie",
+   "label": "Cercle Mixte Gendarmerie",
+   "montant": 3255.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "518111521"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.taxiradiomarseille",
+   "label": "Taxi Radio Marseille",
+   "montant": 3183.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "317101020"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.officecentraldecooperational-ecole",
+   "label": "Office Central De Cooperation A L Ecole",
+   "montant": 3155.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775689078"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.lacoupedortheatrederochefort",
+   "label": "La Coupe D Or Theatre De Rochefort",
+   "montant": 3034.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "781328331"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.hockeyclubchalonnais",
+   "label": "Hockey Club Chalonnais",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "450618087"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationpatriotiquepropatria-valeursd",
+   "label": "Association Patriotique Pro Patria Valeurs De La Republique Alsace Moselle",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "841341845"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.unnatcavalarmeeblindech",
+   "label": "Un Nat Caval Armee Blinde Ch",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784412074"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationecrivainscombattants-2",
+   "label": "Association Ecrivains Combattants",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784361388"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.officecentraldecooperational-ecole-2",
+   "label": "Office Central De Cooperation A L Ecole",
+   "montant": 2900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775689078"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.comitedepartparachutismesportif-37",
+   "label": "Comite Depart Parachutisme Sportif 37",
+   "montant": 2860.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "447829748"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.federationdesclubsdeladefense",
+   "label": "Federation Des Clubs De La Defense",
+   "montant": 2857.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391513611"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.croixrougefrancaise",
+   "label": "Croix Rouge Francaise",
+   "montant": 2767.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672272"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ebulliscience",
+   "label": "Ebulliscience",
+   "montant": 2745.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "419851449"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.institutcatholiquedelille",
+   "label": "Institut Catholique De Lille",
+   "montant": 2700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775624240"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assgestionsiteshebergpersonnel-poste",
+   "label": "Ass Gestion Sites Heberg Personnel Poste",
+   "montant": 2561.24,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "339038804"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.mpuamicalanciensservspec-defensenat-2",
+   "label": "Mpu Amical Anciens Serv Spec Defense Nat",
+   "montant": 2500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "433980349"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.lesparge",
+   "label": "L Esparge",
+   "montant": 2500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "533907382"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.cibcbretagne",
+   "label": "Cibc Bretagne",
+   "montant": 2380.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "821522000"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecnotredamesaintjoseph",
+   "label": "Ogec Notre Dame Saint Joseph",
+   "montant": 2150.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775077712"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.corsicalocevenements",
+   "label": "Corsica Loc Evenements",
+   "montant": 2100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "494184203"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ctreconsulaireformation-professionain",
+   "label": "Ctre Consulaire Formation Profession Ain",
+   "montant": 2060.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "309576395"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.interprofessionreunionsanteau-travail",
+   "label": "Interprofession Reunion Sante Au Travail",
+   "montant": 2057.98,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "315635078"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.maisondesanciensde2db-2",
+   "label": "Maison Des Anciens De 2 D B",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784361396"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.lesouvenirfrancais-2",
+   "label": "Le Souvenir Francais",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775676182"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.organismgestionenseignement-catholique",
+   "label": "Organism Gestion Enseignement Catholique",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776056988"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assocdepartementalecooperation-ecole",
+   "label": "Assoc Departementale Cooperation Ecole",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "389106105"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.comemoamt",
+   "label": "Comemo A M T",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "441440005"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.fedenatiancicombresihorsfran",
+   "label": "Fede Nati Anci Comb Resi Hors Fran",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "477910392"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.federationvauclusiennedesanciens-combatt",
+   "label": "Federation Vauclusienne Des Anciens Combattants Et Victimes De Guerre",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "510345572"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assdesauvegardedupatrimoine-fortifiedefr",
+   "label": "Ass De Sauvegarde Du Patrimoine Fortifie De Frouard",
+   "montant": 1870.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "513625459"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationdegestiondel-etablissementass",
+   "label": "Association De Gestion De L Etablissement Assomption Lyon",
+   "montant": 1821.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779711365"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.organismedegestionlachartreuse-2",
+   "label": "Organisme De Gestion La Chartreuse",
+   "montant": 1800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420049074"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.centredeformationdela-federationnational",
+   "label": "Centre De Formation De La Federation Nationale Des Metiers De La Natation Et Du Sport Delegation Moselle",
+   "montant": 1790.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "794959619"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.aquitec",
+   "label": "Aquitec",
+   "montant": 1692.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390610525"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.pregentilmontorcierleppoutrain",
+   "label": "Pregentil Montorcier Lep Poutrain",
+   "montant": 1690.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782449110"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationsportiveazurde-macouria",
+   "label": "Association Sportive Azur De Macouria",
+   "montant": 1543.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "509964672"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.centreprivesecretariat-comptabilite",
+   "label": "Centre Prive Secretariat Comptabilite",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779845270"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.gonesforce6",
+   "label": "Gones Force 6",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "528228273"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.btpcfaauvergnerhonealpes",
+   "label": "Btp Cfa Auvergne Rhone Alpes",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418846762"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.officecentralcooperational-ecole",
+   "label": "Office Central Cooperation A L Ecole",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "320588411"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.maisonfamilialeruraleeducatet-orient",
+   "label": "Maison Familiale Rurale Educat Et Orient",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780920682"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.societedesfamillesetamisdes-anciennesdep",
+   "label": "Societe Des Familles Et Amis Des Anciennes Deportees Et Internees De La Resistance",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "804561132"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.unionsportiveenseignementpremier-degrede",
+   "label": "Union Sportive Enseignement Premier Degre De Poce Sur Cisse",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "751638024"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.initiativechretiennepourleurope",
+   "label": "Initiative Chretienne Pour L Europe",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "441163078"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationdessecouristes-francaiscroixb",
+   "label": "Association Des Secouristes Francais Croix Blanche 78",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "452339559"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecchabrillansaintjeanbaptiste",
+   "label": "Ogec Chabrillan Saint Jean Baptiste",
+   "montant": 1450.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779428150"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.laprosedessables",
+   "label": "La Prose Des Sables",
+   "montant": 1325.3,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "523554525"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.lesvertebrees",
+   "label": "Les Vertebrees",
+   "montant": 1266.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "413512146"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.officecentraldelacoopalecole",
+   "label": "Office Central De La Coop A L Ecole",
+   "montant": 1250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393067178"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.officecentralcooperationecole-paris",
+   "label": "Office Central Cooperation Ecole Paris",
+   "montant": 1250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393337480"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assmarketingedition",
+   "label": "Ass Marketing Edition",
+   "montant": 1212.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394844898"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.comitedepartementalhandisport-despo",
+   "label": "Comite Departemental Handisport Des Po",
+   "montant": 1200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "447755877"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecstpaulbourdonblanc",
+   "label": "Ogec St Paul Bourdon Blanc",
+   "montant": 1200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "312309313"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.obisportevents",
+   "label": "O Bi Sport Events",
+   "montant": 1150.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "839356912"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assouvrierecompagnondevoirtour-franc",
+   "label": "Ass Ouvriere Compagnon Devoir Tour Franc",
+   "montant": 1108.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775662026"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.newnabab",
+   "label": "New Nabab",
+   "montant": 1055.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483564498"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.clubsportifdebretignyathletisme",
+   "label": "Club Sportif De Bretigny Athletisme",
+   "montant": 1007.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383846185"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationecolejoliotcurie",
+   "label": "Association Ecole Joliot Curie",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "888738754"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationmulticite",
+   "label": "Association Multicite",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340573179"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.foyersocioeducatifducollege-pascalpaolid",
+   "label": "Foyer Socio Educatif Du College Pascal Paoli De L Ile Rousse",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "530051879"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.occehautsdeseine",
+   "label": "Occe Hauts De Seine",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390614097"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assocgestionetscatholiques-enseigneme",
+   "label": "Assoc Gestion Ets Catholiques Enseigneme",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "329692339"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assnatofficierarmeeairetespace",
+   "label": "Ass Nat Officier Armee Air Et Espace",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784622128"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.memoire2000",
+   "label": "Memoire 2000",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391558848"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecstecatherine",
+   "label": "Ogec Ste Catherine",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782227706"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.organismgestionenseignement-catholique-2",
+   "label": "Organism Gestion Enseignement Catholique",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776103350"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationnationalepourle-souvenirdesda",
+   "label": "Association Nationale Pour Le Souvenir Des Dardanelles Et Fronts D Orient",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434857082"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecinstituttheas",
+   "label": "Ogec Institut Theas",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777304874"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.societedescrimedemetz",
+   "label": "Societe D Escrime De Metz",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779982412"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationsportivescolairedu-brasdepont",
+   "label": "Association Sportive Scolaire Du Bras De Pontho",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "494485758"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assdepartcooperationecoleval-marne",
+   "label": "Ass Depart Cooperation Ecole Val Marne",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "392976882"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.organismedegestionenseignement-catholiqu",
+   "label": "Organisme De Gestion Enseignement Catholique Marie De Galilee",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "832579122"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationdesoutienalacademie-descadets",
+   "label": "Association De Soutien A L Academie Des Cadets De La Defense De Normandie",
+   "montant": 990.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "909267957"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.centreinterprofessionneldesante-autravai",
+   "label": "Centre Interprofessionnel De Sante Au Travail De La Guadeloupe Cist",
+   "montant": 949.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "333466522"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationdegestiondugroupe-robin",
+   "label": "Association De Gestion Du Groupe Robin",
+   "montant": 932.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775644107"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.officecentraldecooperational-ecole-3",
+   "label": "Office Central De Cooperation A L Ecole",
+   "montant": 930.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775689078"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.membresordrenationalmerite",
+   "label": "Membres Ordre National Merite",
+   "montant": 900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "309159556"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.comiteregionaldiledefrancedela-federatio",
+   "label": "Comite Regional D Ile De France De La Federation Sportive Et Culturelle De France",
+   "montant": 900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784714263"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecdemarmoutier",
+   "label": "Ogec De Marmoutier",
+   "montant": 900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775350242"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.comitedepartementalhandisport35",
+   "label": "Comite Departemental Handisport 35",
+   "montant": 900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "447836446"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assfnacvgoss",
+   "label": "Ass Fnacvgoss",
+   "montant": 850.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "429364490"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecsaintfrancoisdassise",
+   "label": "Ogec Saint Francois D Assise",
+   "montant": 835.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "328309836"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.blockrace",
+   "label": "Block Race",
+   "montant": 820.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "839223617"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.merkazloisirs",
+   "label": "Merkaz Loisirs",
+   "montant": 800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "812462422"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.organismedegestionlachartreuse-3",
+   "label": "Organisme De Gestion La Chartreuse",
+   "montant": 800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420049074"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogececoledelabbaye",
+   "label": "Ogec Ecole De L Abbaye",
+   "montant": 800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "334934494"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationlinitiative",
+   "label": "Association L Initiative",
+   "montant": 800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "314024605"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogeccollegeprivestsauveur",
+   "label": "Ogec College Prive St Sauveur",
+   "montant": 800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "786440198"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecinstitutionbeaupeyrat",
+   "label": "Ogec Institution Beaupeyrat",
+   "montant": 800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775716715"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecensemblescolairesaintbenoit",
+   "label": "Ogec Ensemble Scolaire Saint Benoit",
+   "montant": 800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "786116798"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.amicalelaiqueasseducation-populaire",
+   "label": "Amicale Laique Ass Education Populaire",
+   "montant": 800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "786046284"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecstjacquesdecompostelle",
+   "label": "Ogec St Jacques De Compostelle",
+   "montant": 800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "300726312"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.organismgestionenseignement-catholique-3",
+   "label": "Organism Gestion Enseignement Catholique",
+   "montant": 800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776056988"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.organismgestionenseignement-catholique-4",
+   "label": "Organism Gestion Enseignement Catholique",
+   "montant": 800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776114761"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.groupetezenasdumontcel",
+   "label": "Groupe Tezenas Du Montcel",
+   "montant": 800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776395287"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.provinstourismeentrebassee-montoisetmori",
+   "label": "Provins Tourisme Entre Bassee Montois Et Morin",
+   "montant": 774.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "392301347"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.mambokomainssolidaires",
+   "label": "Mamboko Mains Solidaires",
+   "montant": 750.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "482822095"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationfoyerjeunetravailleur",
+   "label": "Association Foyer Jeune Travailleur",
+   "montant": 727.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779993773"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.unionnationaledescombattantsdu-departeme",
+   "label": "Union Nationale Des Combattants Du Departement Du Cantal",
+   "montant": 700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "788685741"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assgestionetsassomptiongaribaldi",
+   "label": "Ass Gestion Ets Assomption Garibaldi",
+   "montant": 700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "300230711"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.institutnicolasbarre",
+   "label": "Institut Nicolas Barre",
+   "montant": 684.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340127802"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.serviceinterprofessionneldesante-autrava",
+   "label": "Service Interprofessionnel De Sante Au Travail 972",
+   "montant": 670.53,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398517383"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.officedhygienesocialedelorraine",
+   "label": "Office D Hygiene Sociale De Lorraine",
+   "montant": 665.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775615313"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.centreregionalresistanceet-liberte",
+   "label": "Centre Regional Resistance Et Liberte",
+   "montant": 660.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428897672"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.officecentralcoopecoledelain",
+   "label": "Office Central Coop Ecole De L Ain",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "339601668"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.groupescolairejeannedarc",
+   "label": "Groupe Scolaire Jeanne D Arc",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779269612"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.aepassociationecolepoincare",
+   "label": "Aep Association Ecole Poincare",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923010979"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assogestcroixstmarceau",
+   "label": "Asso Gest Croix St Marceau",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "317030120"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.organismedegestiondel-etablissementcatho",
+   "label": "Organisme De Gestion De L Etablissement Catholique D Enseignement Du Lycee Prive Saint Francois D Assise",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "786447086"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogeccollegestjeanglorieux-2",
+   "label": "Ogec College St Jean Glorieux",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783413883"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecinstitutionbeaupeyrat-2",
+   "label": "Ogec Institution Beaupeyrat",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775716715"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.amicalelaiquedevignouxsur-barangeon",
+   "label": "Amicale Laique De Vignoux Sur Barangeon",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "801028184"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogec",
+   "label": "Ogec",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777689043"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecaepstcharleslaprovidence",
+   "label": "Ogec Aep St Charles La Providence",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "431708312"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.cooperativescolaireecoledumau",
+   "label": "Cooperative Scolaire Ecole Du Mau",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "503736043"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogececolecollstregisstmichel",
+   "label": "Ogec Ecole Coll St Regis St Michel",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "348929415"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecsaintjoseph",
+   "label": "Ogec Saint Joseph",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775548274"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.amicalelaiquedesaintjuliende-coppel",
+   "label": "Amicale Laique De Saint Julien De Coppel",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "919641365"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.enseignementcatholiquethonon",
+   "label": "Enseignement Catholique Thonon",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302964325"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.leurodelecoledevassieux",
+   "label": "L Euro De L Ecole De Vassieux",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "530333160"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.officecentralcooperecole",
+   "label": "Office Central Cooper Ecole",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780613097"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.aquitec-2",
+   "label": "Aquitec",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390610525"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assrondeaumontfleury",
+   "label": "Ass Rondeau Montfleury",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "069501500"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.maisonfamilialedevougy",
+   "label": "Maison Familiale De Vougy",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302851035"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ladapt",
+   "label": "L Adapt",
+   "montant": 641.9,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775693385"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.croixrougefrancaise-2",
+   "label": "Croix Rouge Francaise",
+   "montant": 636.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672272"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.mouvementfrancaisplanning-familial",
+   "label": "Mouvement Francais Planning Familial",
+   "montant": 620.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782815625"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.intensif",
+   "label": "Intensif",
+   "montant": 600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483390449"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogeclyceepolyvalentstjacques-compostelle",
+   "label": "Ogec Lycee Polyvalent St Jacques Compostelle College St Joseph Le Rosaire",
+   "montant": 600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "513903484"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogececolepriveejeannedarc",
+   "label": "Ogec Ecole Privee Jeanne D Arc",
+   "montant": 600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782074660"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecstecatherine-2",
+   "label": "Ogec Ste Catherine",
+   "montant": 600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782227706"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.handisportbrest",
+   "label": "Handisport Brest",
+   "montant": 580.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393847603"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.centresportifdenormandie",
+   "label": "Centre Sportif De Normandie",
+   "montant": 555.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "518375712"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.entreprendreenlorrainenord",
+   "label": "Entreprendre En Lorraine Nord",
+   "montant": 554.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432845642"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.servicedepreventionetdesanteau-travailde",
+   "label": "Service De Prevention Et De Sante Au Travail De Guyane Spst Guyane",
+   "montant": 542.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "322099052"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogeccharlesdefoucauld",
+   "label": "Ogec Charles De Foucauld",
+   "montant": 532.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775716723"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.organismedegestiondugroupe-scolairesaint",
+   "label": "Organisme De Gestion Du Groupe Scolaire Sainte Anne Savoisienne Apets",
+   "montant": 515.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776484016"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogeclescharmilles",
+   "label": "Ogec Les Charmilles",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "788377315"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.unionnationaledescombattants-sectiondaxu",
+   "label": "Union Nationale Des Combattants Section Dax Unc De Dax",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "838383263"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.maisonfamilialedevougy-2",
+   "label": "Maison Familiale De Vougy",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302851035"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.secouristesfrcroixblanchecde91",
+   "label": "Secouristes Fr Croix Blanche Cde91",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "482971470"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationnationaledesanciensdu-1errama",
+   "label": "Association Nationale Des Anciens Du 1Er Rama Heritier Du 1Er Rac Ra Ffl",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "894658202"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.aepcollegesaintmartin",
+   "label": "Aep College Saint Martin",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "781520986"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.handisportdecornouaillequimper",
+   "label": "Handisport De Cornouaille Quimper",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "403341225"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.secdepartofficecooperecole",
+   "label": "Sec Depart Office Cooper Ecole",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "334850716"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationsportiveecoleprimaire-groupet",
+   "label": "Association Sportive Ecole Primaire Groupe Thurin U S E P",
+   "montant": 488.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "897570040"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.fondatoeuvressocialesair",
+   "label": "Fondat Oeuvres Sociales Air",
+   "montant": 464.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784671919"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.soudesecoleslaiques",
+   "label": "Sou Des Ecoles Laiques",
+   "montant": 456.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "301012027"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogeccentrescolairestbenoit",
+   "label": "Ogec Centre Scolaire St Benoit",
+   "montant": 410.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382382398"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.comitedepartementalufolep",
+   "label": "Comite Departemental Ufolep",
+   "montant": 408.15,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331120006"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.officecentraldecooperational-ecole-4",
+   "label": "Office Central De Cooperation A L Ecole",
+   "montant": 400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775689078"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.unionnationaledescombattants-sectiondeho",
+   "label": "Union Nationale Des Combattants Section De Hon Hergies",
+   "montant": 400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "912426509"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogececolesecondairejeannedarc",
+   "label": "Ogec Ecole Secondaire Jeanne D Arc",
+   "montant": 390.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777064239"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecetablissementsaintpierre",
+   "label": "Ogec Etablissement Saint Pierre",
+   "montant": 370.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780589107"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.centredinformationdesfemmes",
+   "label": "Centre D Information Des Femmes",
+   "montant": 360.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "324787423"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.lacoursive",
+   "label": "La Coursive",
+   "montant": 350.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "377915004"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.clubsportifetartistiquedela-garnisondela",
+   "label": "Club Sportif Et Artistique De La Garnison De Laval",
+   "montant": 340.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "912791787"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.officedetourismesudmeuse",
+   "label": "Office De Tourisme Sud Meuse",
+   "montant": 319.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "799829759"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.collegeprivestjoseph",
+   "label": "College Prive St Joseph",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "788357754"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationdegestiondel-etablissementass-2",
+   "label": "Association De Gestion De L Etablissement Assomption Lyon",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779711365"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogececolepriveestjoseph",
+   "label": "Ogec Ecole Privee St Joseph",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782062558"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogececolecollstregisstmichel-2",
+   "label": "Ogec Ecole Coll St Regis St Michel",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "348929415"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecnotredamesaintjoseph-vendome",
+   "label": "Ogec Notre Dame Saint Joseph Vendome",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "442940151"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationfamilialedeloustal",
+   "label": "Association Familiale De L Oustal",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776818544"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecbloisrivegauche",
+   "label": "Ogec Blois Rive Gauche",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775433410"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecauvergnejeanbaptistedela-salle",
+   "label": "Ogec Auvergne Jean Baptiste De La Salle",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "512472390"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogeclasallefelixaunac",
+   "label": "Ogec La Salle Felix Aunac",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782153233"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.comitedepartementalhandisport57",
+   "label": "Comite Departemental Handisport 57",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "490453396"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assorganismegestionenseign-catholique",
+   "label": "Ass Organisme Gestion Enseign Catholique",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783823156"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecteilharddechardin",
+   "label": "Ogec Teilhard De Chardin",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785772641"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecsaintjacquesde-compostelle",
+   "label": "O G E C Saint Jacques De Compostelle",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "449232537"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecgroupesaintjosephlasalle-dijon",
+   "label": "Ogec Groupe Saint Joseph La Salle Dijon",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778214171"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.organismedegestiondel-etablissementcatho-2",
+   "label": "Organisme De Gestion De L Etablissement Catholique D Enseignement Saint Jean Hulst",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785150541"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogeclamennaisstarmel",
+   "label": "Ogec La Mennais St Armel",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777866047"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.reseaumomartre",
+   "label": "Reseau Mom Artre",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "509963377"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.organismedegestiondel-enseignmentcatholi",
+   "label": "Organisme De Gestion De L Enseignment Catholique Emmanuel D Alzon",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775913221"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecaepmoncadejeannedarc",
+   "label": "Ogec Aep Moncade Jeanne D Arc",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782332936"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.aepogec",
+   "label": "Aep Ogec",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782123467"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecespnddetoutesaides",
+   "label": "Ogec Esp N D De Toutes Aides",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "786014670"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecgestionimmaculeeconception",
+   "label": "Ogec Gestion Immaculee Conception",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780910873"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecnotredamedes3rivieres",
+   "label": "Ogec Notre Dame Des 3 Rivieres",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420747909"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.institutionsaintemarie",
+   "label": "Institution Sainte Marie",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780713707"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecleonxiiistesolange",
+   "label": "Ogec Leon Xiii Ste Solange",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775187578"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.groupearcades",
+   "label": "Groupe Arcades",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "343549887"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.liguedelenseignementfol29",
+   "label": "Ligue De L Enseignement Fol 29",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777510645"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogececolejosephniel",
+   "label": "Ogec Ecole Joseph Niel",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776825424"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.organismgestionenseignement-catholique-5",
+   "label": "Organism Gestion Enseignement Catholique",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775857501"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.gestionenseigneeentcathosaint-louis",
+   "label": "Gestion Enseigneeent Catho Saint Louis",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780697041"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.groupescolairestjoseph",
+   "label": "Groupe Scolaire St Joseph",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779171305"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecinstitutstdominique",
+   "label": "Ogec Institut St Dominique",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783342405"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecnotredamesaintprivat-2",
+   "label": "Ogec Notre Dame Saint Privat",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776114746"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assmaisofamilcantonlambesc",
+   "label": "Ass Maiso Famil Canton Lambesc",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782736730"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecinstitutionsacrecoeur",
+   "label": "Ogec Institution Sacre Coeur",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783346315"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.campusnotredamedesaydesst-charlesstvince",
+   "label": "Campus Notre Dame Des Aydes St Charles St Vincent Pere Brottier Ecoel College Lycee",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775368186"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecetablissementsaintpierre-2",
+   "label": "Ogec Etablissement Saint Pierre",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780589107"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecaeplyceepasteur",
+   "label": "Ogec Aep Lycee Pasteur",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775875883"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.clubsportifetartistiquedu8rpima",
+   "label": "Club Sportif Et Artistique Du 8 Rpima",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "300961711"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecstcaprais",
+   "label": "Ogec St Caprais",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782151765"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assmaisoncampaninstitutnotre-dame",
+   "label": "Ass Maison Campan Institut Notre Dame",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785124280"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecleslauriers",
+   "label": "Ogec Les Lauriers",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "786467324"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecsaintmaur",
+   "label": "Ogec Saint Maur",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782355333"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.synergiedmd82",
+   "label": "Synergie Dmd 82",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923023840"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.organismgestionenseignement-catholique-6",
+   "label": "Organism Gestion Enseignement Catholique",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775786833"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.organismgestionenseignement-catholique-7",
+   "label": "Organism Gestion Enseignement Catholique",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776188005"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.collegestemarie",
+   "label": "College Ste Marie",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777810482"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogeclyceedampierrevalarep",
+   "label": "Ogec Lycee Dampierre Valarep",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783863350"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecdulevant",
+   "label": "Ogec Du Levant",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777863960"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.federpyreneesatlantligueens",
+   "label": "Feder Pyrenees Atlant Ligue Ens",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "481414779"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.adegemontroland",
+   "label": "Adege Mont Roland",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "338599061"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecledonien-2",
+   "label": "Ogec Ledonien",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384436515"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecdelensemblescolairelasalle-paraylemo",
+   "label": "Ogec De L Ensemble Scolaire La Salle Paray Le Monial",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "537834533"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecnotredamedubonsecours",
+   "label": "Ogec Notre Dame Du Bon Secours",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "574200655"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.maisfamilruraleeducorient",
+   "label": "Mais Famil Rurale Educ Orient",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "786169367"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecsaintlouis",
+   "label": "Ogec Saint Louis",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "325486942"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationmuseesomme1916",
+   "label": "Association Musee Somme 1916",
+   "montant": 295.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388391039"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assgestionrestaurant-interadministrat",
+   "label": "Ass Gestion Restaurant Interadministrat",
+   "montant": 267.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384075289"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.officecentralcoopecole",
+   "label": "Office Central Coop Ecole",
+   "montant": 252.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "311508949"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.comitedepartementalhandisportde-lamanche",
+   "label": "Comite Departemental Handisport De La Manche",
+   "montant": 250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "503214611"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationuniscite",
+   "label": "Association Unis Cite",
+   "montant": 240.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398191569"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationuniscite-2",
+   "label": "Association Unis Cite",
+   "montant": 240.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398191569"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.croixrougefrancaise-3",
+   "label": "Croix Rouge Francaise",
+   "montant": 240.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672272"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.courirpourunavenir",
+   "label": "Courir Pour Un Avenir",
+   "montant": 238.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "849669619"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.clubdes20kilometresdeparis",
+   "label": "Club Des 20 Kilometres De Paris",
+   "montant": 225.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "818671935"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assmaisonizieumemoenfantsjuifs-exte-2",
+   "label": "Ass Maison Izieu Memo Enfants Juifs Exte",
+   "montant": 221.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388999617"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationruralepouradultesen-insertion",
+   "label": "Association Rurale Pour Adultes En Insertion",
+   "montant": 220.72,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "330242066"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.asssptcultballeraystmartin-heuille",
+   "label": "Ass Spt Cult Balleray St Martin Heuille",
+   "montant": 207.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "453054926"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assdepartementaleoccedu-calvados",
+   "label": "Ass Departementale Occe Du Calvados",
+   "montant": 201.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390651099"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.ogecauvergnejeanbaptistedela-salle-2",
+   "label": "Ogec Auvergne Jean Baptiste De La Salle",
+   "montant": 200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "512472390"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.federationoeuvreslaiquesml",
+   "label": "Federation Oeuvres Laiques M L",
+   "montant": 200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "786120352"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.laliguedelenseignementdela-marne",
+   "label": "La Ligue De L Enseignement De La Marne",
+   "montant": 200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775611833"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.federoeuvreslaiquesgironde",
+   "label": "Feder Oeuvres Laiques Gironde",
+   "montant": 200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "781837620"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.comitedepartementalufolep29",
+   "label": "Comite Departemental Ufolep 29",
+   "montant": 180.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "495276107"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.missionlocaledinsertiondupoitou",
+   "label": "Mission Locale D Insertion Du Poitou",
+   "montant": 180.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379682222"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.fnpc",
+   "label": "F N P C",
+   "montant": 180.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785388687"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.recreasciencesctrecultscitech-indli",
+   "label": "Recreasciences Ctre Cult Sci Tech Ind Li",
+   "montant": 127.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "445096886"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.respirereseducatpoprechinnov-educactions",
+   "label": "Respire Res Educat Pop Rech Innov Educ Action Sociale",
+   "montant": 120.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "502244718"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.officecentralcooperational-ecole43",
+   "label": "Office Central Cooperation A L Ecole 43",
+   "montant": 120.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "389381229"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assonationaledesamisdumuseede-laeronauti",
+   "label": "Asso Nationale Des Amis Du Musee De L Aeronautique Navale",
+   "montant": 112.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "518536321"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.cridev",
+   "label": "Cridev",
+   "montant": 100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "304993827"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationuniscite-3",
+   "label": "Association Unis Cite",
+   "montant": 100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398191569"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.reseaucitoyenneteet-developpement",
+   "label": "Reseau Citoyennete Et Developpement",
+   "montant": 100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "408705838"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.assparentsdelevesecolede-darsac",
+   "label": "Ass Parents D Eleves Ecole De Darsac",
+   "montant": 95.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "414683128"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.unisverslesport",
+   "label": "Unis Vers Le Sport",
+   "montant": 80.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "451804454"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.centreregionaldinformation-jeunessedebou",
+   "label": "Centre Regional D Information Jeunesse De Bourgogne Franche Comte",
+   "montant": 60.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "325282036"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.associationdufortdemetzqueuleu-pourlamem-2",
+   "label": "Association Du Fort De Metz Queuleu Pour La Memoire Des Internes Deportes Et La Sauvegarde Du Site",
+   "montant": 50.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "810216580"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.lespetitsdebrouillardsgrandest",
+   "label": "Les Petits Debrouillards Grand Est",
+   "montant": 30.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "449666148"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p169.servicedepreventionetdesanteau-travailde-2",
+   "label": "Service De Prevention Et De Sante Au Travail De Guyane Spst Guyane",
+   "montant": 27.1,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "322099052"
+   },
+   "rattachement_id": "etat.depenses.BG.MB.169",
+   "enfants": []
+  }
+ ]
+}

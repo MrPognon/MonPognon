@@ -1,0 +1,441 @@
+{
+ "id": "etat.subventions.p624",
+ "label": "Programme 624 — Pilotage et ressources humaines : bénéficiaires des subventions aux associations",
+ "montant": 1834472.96,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "32 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p624.regimecomplementairederetraite-descadres",
+   "label": "Regime Complementaire De Retraite Des Cadres Des Journaux Officiels",
+   "montant": 932088.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "838462687"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.regimecomplementairederetraite-descadres-2",
+   "label": "Regime Complementaire De Retraite Des Cadres Des Journaux Officiels",
+   "montant": 515092.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "838462687"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.commissiondegestiondesoeuvres-sociales",
+   "label": "Commission De Gestion Des Oeuvres Sociales",
+   "montant": 139800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "517654323"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.caissedeprevoyancesacijo",
+   "label": "Caisse De Prevoyance Sacijo",
+   "montant": 36836.69,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423974591"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.caissedeprevoyancesacijo-2",
+   "label": "Caisse De Prevoyance Sacijo",
+   "montant": 33408.65,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423974591"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.aforpformation",
+   "label": "Aforp Formation",
+   "montant": 28326.76,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775728454"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.assoepita",
+   "label": "Asso Epita",
+   "montant": 22000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "443220223"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.formasupparisiledefrance",
+   "label": "Formasup Paris Ile De France",
+   "montant": 19000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420718173"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.assgestioncaispressalairegaranti",
+   "label": "Ass Gestion Cais Pres Salaire Garanti",
+   "montant": 15730.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "480636687"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.associationsportivedeladirection-delinfo",
+   "label": "Association Sportive De La Direction De L Information Legale Et Administrative",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "842601114"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.associationpourlaformationdes-informatic",
+   "label": "Association Pour La Formation Des Informaticiens Par L Aprentissage",
+   "montant": 13975.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391087210"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.ipag",
+   "label": "Ipag",
+   "montant": 10120.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784280802"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.groupeesiea",
+   "label": "Groupe Esiea",
+   "montant": 9500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "311349138"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.ionisschooloftechnologyand-managementpar",
+   "label": "Ionis School Of Technology And Management Paris I S T M Paris",
+   "montant": 8917.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "514032838"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.unionuniversiteeconomie",
+   "label": "Union Universite Economie",
+   "montant": 7500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "411973431"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.associationpourlaformationdes-informatic-2",
+   "label": "Association Pour La Formation Des Informaticiens Par L Aprentissage",
+   "montant": 5975.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391087210"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.cultureetloisirspm",
+   "label": "Culture Et Loisirs Pm",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "450685482"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.caissedesreglementspecuniaires-effectues",
+   "label": "Caisse Des Reglements Pecuniaires Effectues Par Les Avocats A La Cour De Paris Carpa",
+   "montant": 3929.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784181216"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.communicationpublique",
+   "label": "Communication Publique",
+   "montant": 3717.84,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382508604"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.institutrecherchesenseigsoins-urgence",
+   "label": "Institut Recherches Enseig Soins Urgence",
+   "montant": 1947.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "349687798"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.lirelasociete",
+   "label": "Lire La Societe",
+   "montant": 1137.41,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "401249875"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.assprofesinformationet-documentation",
+   "label": "Ass Profes Information Et Documentation",
+   "montant": 1103.64,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784263311"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.instregetudesformationet-expertises",
+   "label": "Inst Reg Etudes Formation Et Expertises",
+   "montant": 796.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "328877584"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.assfrancaisedecommunication-interne",
+   "label": "Ass Francaise De Communication Interne",
+   "montant": 713.04,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388639718"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.cezamantenneiledefrance",
+   "label": "Cezam Antenne Ile De France",
+   "montant": 637.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418607701"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.idet",
+   "label": "Idet",
+   "montant": 539.92,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383964343"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.agirensemblepourlasanteau-travail",
+   "label": "Agir Ensemble Pour La Sante Au Travail",
+   "montant": 489.78,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "878758218"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.cresusiledefrance",
+   "label": "Cresus Ile De France",
+   "montant": 400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "452896442"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.lafresqueduclimat",
+   "label": "La Fresque Du Climat",
+   "montant": 324.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "849329107"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.institutnationalrecherchesecurite",
+   "label": "Institut National Recherche Securite",
+   "montant": 273.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775671456"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.assintctremedsociauxregile-france",
+   "label": "Ass Int Ctre Med Sociaux Reg Ile France",
+   "montant": 149.07,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775728223"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p624.accessradiologieivry",
+   "label": "Access Radiologie Ivry",
+   "montant": 44.96,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "851266791"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.624",
+   "enfants": []
+  }
+ ]
+}

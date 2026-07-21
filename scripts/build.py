@@ -858,6 +858,11 @@ def main():
                        "syndicats", "ccas", "sdis")
     fiches_dirs = {os.path.join(ROOT, "data", "collectivites", e) + os.sep: e
                    for e in ECHELONS_FICHES}
+    # Les bénéficiaires de subventions empruntent le même chemin que les fiches
+    # (ADR-0004) : publiés en fragments, JAMAIS inlinés dans data.js — 112 722
+    # nœuds y ajouteraient ~31 Mo — mais présents dans `arbres`, donc comptés
+    # par indice_cp(), qui lit les arbres en mémoire et non le fichier publié.
+    fiches_dirs[os.path.join(ROOT, "data", "etat", "subventions") + os.sep] = "subventions"
     flux_dir = os.path.join(ROOT, "data", "flux") + os.sep
     denom_dir = os.path.join(ROOT, "data", "denominateurs") + os.sep
     for f in sorted(glob.glob(os.path.join(ROOT, "data", "**", "*.json"), recursive=True)):

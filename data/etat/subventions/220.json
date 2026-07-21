@@ -1,0 +1,207 @@
+{
+ "id": "etat.subventions.p220",
+ "label": "Programme 220 — Statistiques et études économiques : bénéficiaires des subventions aux associations",
+ "montant": 428993.63,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "14 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p220.agrima",
+   "label": "Agrima",
+   "montant": 205730.31,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394677983"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.220",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p220.associationpersonnelinsee-toulouse",
+   "label": "Association Personnel Insee Toulouse",
+   "montant": 49500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "316252733"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.220",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p220.asspersonnelctreenquetstatis",
+   "label": "Ass Personnel Ctre Enquet Statis",
+   "montant": 44378.65,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "450382098"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.220",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p220.associationdupersonneldelinsee",
+   "label": "Association Du Personnel De L Insee",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "310324694"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.220",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p220.agrad",
+   "label": "Agrad",
+   "montant": 37993.67,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "451256648"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.220",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p220.assgestrestauadmininsee-auvergne",
+   "label": "Ass Gest Restau Admin Insee Auvergne",
+   "montant": 24800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "348474354"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.220",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p220.ctreeuropeenpromotiondel-histoire",
+   "label": "Ctre Europeen Promotion De L Histoire",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "419248646"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.220",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p220.lescefiliens",
+   "label": "Les Cefiliens",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "501242093"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.220",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p220.cafetinseelille",
+   "label": "Cafet Insee Lille",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410241145"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.220",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p220.lesamisdesstatsaustade",
+   "label": "Les Amis Des Stats Au Stade",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "811140631"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.220",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p220.assocdupersonnelinseeaamiens",
+   "label": "Assoc Du Personnel Insee A Amiens",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "793551813"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.220",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p220.assocsportiveetculturellesessi-caen",
+   "label": "Assoc Sportive Et Culturelle Sessi Caen",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "514619881"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.220",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p220.associationdupersonneldelinse-edebesanco",
+   "label": "Association Du Personnel De L I N S E E De Besancon",
+   "montant": 1091.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "818618894"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.220",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p220.statclub",
+   "label": "Stat Club",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "499600971"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.220",
+   "enfants": []
+  }
+ ]
+}

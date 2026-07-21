@@ -1,0 +1,205 @@
+{
+ "id": "etat.subventions.p123",
+ "label": "Programme 123 — Conditions de vie outre-mer : bénéficiaires des subventions aux associations",
+ "montant": 1289666.02,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "20 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p123.adecal",
+   "label": "Adecal",
+   "montant": 887308.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.conservatoireespacesnaturelsden",
+   "label": "Conservatoire Espaces Naturels De N",
+   "montant": 260618.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.lechapitodenc",
+   "label": "Le Chapito De Nc",
+   "montant": 58660.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.maisonfamilialeruraledepoindimi",
+   "label": "Maison Familiale Rurale De Poindimi",
+   "montant": 11187.17,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.liguedehandballdenc",
+   "label": "Ligue De Hand Ball De N C",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.unionrugbyclubdedumbea",
+   "label": "Union Rugby Club De Dumbea",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.asssportiveducollegedetadine",
+   "label": "Ass Sportive Du College De Tadine",
+   "montant": 6600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.federationdecyclisme",
+   "label": "Federation De Cyclisme",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.athleticclubespoirdeboulari",
+   "label": "Athletic Club Espoir De Boulari",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.associationoversongsproductions",
+   "label": "Association Oversongs Productions",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.scoutsetguidesdepolynesiefranc",
+   "label": "Scouts Et Guides De Polynesie Franc",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.musiquedechambreennc",
+   "label": "Musique De Chambre En Nc",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.comiteregionaldekarate",
+   "label": "Comite Regional De Karate",
+   "montant": 4400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.federationdemotocyclismedepolyn",
+   "label": "Federation De Motocyclisme De Polyn",
+   "montant": 4190.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.dumbeanatation",
+   "label": "Dumbea Natation",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.ecoledecirquedenlecaledonie",
+   "label": "Ecole De Cirque De Nle Caledonie",
+   "montant": 3500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.associationdesfemmesthebulu",
+   "label": "Association Des Femmes The Bulu",
+   "montant": 2664.85,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.dumbeasquashclub",
+   "label": "Dumbea Squash Club",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.associationdujudoclubdedumbea",
+   "label": "Association Du Judo Club De Dumbea",
+   "montant": 1700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p123.associationmanactive",
+   "label": "Association Manactive",
+   "montant": 838.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.OA.123",
+   "enfants": []
+  }
+ ]
+}

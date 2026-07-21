@@ -1,0 +1,85 @@
+{
+ "id": "etat.subventions.p352",
+ "label": "Programme 352 : bénéficiaires des subventions aux associations",
+ "montant": 67493.96,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "5 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p352.openfoodfacts",
+   "label": "Open Food Facts",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "814529905"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p352.lyonurbandata",
+   "label": "Lyon Urban Data",
+   "montant": 13248.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "802607564"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p352.sensecube",
+   "label": "Sensecube",
+   "montant": 9360.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "802145375"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p352.happydevnouvelleaquitaine",
+   "label": "Happy Dev Nouvelle Aquitaine",
+   "montant": 9237.96,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "910972017"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p352.parisweb",
+   "label": "Paris Web",
+   "montant": 648.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "494185705"
+   },
+   "enfants": []
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "id": "etat.subventions.p901",
+ "label": "Programme 901 : bénéficiaires des subventions aux associations",
+ "montant": 353240.23,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "17 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p901.pauparachutismepassion",
+   "label": "Pau Parachutisme Passion",
+   "montant": 139103.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "313210270"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p901.groupetudesecuriteindustri-petroliere",
+   "label": "Group Etude Securite Industri Petroliere",
+   "montant": 74407.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "316853514"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p901.aftral",
+   "label": "Aftral",
+   "montant": 35242.31,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305405045"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p901.ctreculturelancienneabbaye-premontres",
+   "label": "Ctre Culturel Ancienne Abbaye Premontres",
+   "montant": 22436.77,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783345994"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p901.assrestaurantadministratifdes-financespu",
+   "label": "Ass Restaurant Administratif Des Finances Publiques 54",
+   "montant": 13411.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302887039"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p901.carrefoursemploiarmeescollect-entr",
+   "label": "Carrefours Emploi Armees Collect Entr",
+   "montant": 10164.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432945483"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p901.evolen",
+   "label": "Evolen",
+   "montant": 10080.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "534585419"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p901.groupetudesecuriteindustri-petroliere-2",
+   "label": "Group Etude Securite Industri Petroliere",
+   "montant": 8753.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "316853514"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p901.gestionmuseenatautomobile-mulhouse",
+   "label": "Gestion Musee Nat Automobile Mulhouse",
+   "montant": 7925.1,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "324551456"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p901.comitefrancaisdaccreditation",
+   "label": "Comite Francais D Accreditation",
+   "montant": 7492.15,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "397879487"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p901.francechaudroneriesolutions",
+   "label": "France Chaudronerie Solutions",
+   "montant": 6615.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384971503"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p901.associationfrancaisede-normalisation",
+   "label": "Association Francaise De Normalisation",
+   "montant": 5030.33,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775724818"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p901.rapidelecsonorisation",
+   "label": "Rapid Elec Sonorisation",
+   "montant": 3517.75,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "794805853"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p901.groupfrancaiscoordinationpour-developess",
+   "label": "Group Francais Coordination Pour Develop Essais De Perfomance Combustibles Lubrifiants Fluides Utilises Transport",
+   "montant": 2880.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775729536"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p901.nauticclubkehl",
+   "label": "Nautic Club Kehl",
+   "montant": 2408.12,
+   "annee": 2023,
+   "statut": "confirme",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p901.institutfrancaisdelauditetdu-controleint",
+   "label": "Institut Francais De L Audit Et Du Controle Internes",
+   "montant": 2304.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775667231"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p901.aeroclubsportsaeriens",
+   "label": "Aero Club Sports Aeriens",
+   "montant": 1468.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782052054"
+   },
+   "enfants": []
+  }
+ ]
+}

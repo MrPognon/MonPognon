@@ -1,0 +1,2274 @@
+{
+ "id": "etat.subventions.p305",
+ "label": "Programme 305 — Stratégies économiques : bénéficiaires des subventions aux associations",
+ "montant": 18873755.13,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "173 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p305.institutlouisbachelier",
+   "label": "Institut Louis Bachelier",
+   "montant": 760000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "508151735"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambrefrancaisedeleconomie-socialeetsol",
+   "label": "Chambre Francaise De L Economie Sociale Et Solidaire",
+   "montant": 645000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "808321459"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.franceactivenouvelleaquitaine",
+   "label": "France Active Nouvelle Aquitaine",
+   "montant": 507103.45,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "821013687"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.asspourdroitalinitiative-economique",
+   "label": "Ass Pour Droit A L Initiative Economique",
+   "montant": 409856.73,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "352216873"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.associationfranceactive",
+   "label": "Association France Active",
+   "montant": 395000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344891668"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.bretagneactive",
+   "label": "Bretagne Active",
+   "montant": 365102.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "403535354"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.fondesfondsdedeveloppement-solidaire",
+   "label": "Fondes Fonds De Developpement Solidaire",
+   "montant": 347267.16,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420640906"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.midipyreneesactive",
+   "label": "Midi Pyrenees Active",
+   "montant": 327041.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "479604472"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.agencevalorisationinitiativesocio-eco",
+   "label": "Agence Valorisation Initiative Socio Eco",
+   "montant": 317000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "442520037"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.franceactiveprovencealpescoted-azur",
+   "label": "France Active Provence Alpes Cote D Azur",
+   "montant": 293349.7,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439061227"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.nordactiffondsdepartinsertion-emploi",
+   "label": "Nord Actif Fonds Depart Insertion Emploi",
+   "montant": 255702.01,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "443795208"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.franceactiveseineetmarne-essonne",
+   "label": "France Active Seine Et Marne Essonne",
+   "montant": 250378.7,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384706412"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.franceactiveauvergne",
+   "label": "France Active Auvergne",
+   "montant": 225524.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432271492"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.parisinitiativesentreprises",
+   "label": "Paris Initiatives Entreprises",
+   "montant": 205000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "348027053"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.associationeuropefinances-regulations",
+   "label": "Association Europe Finances Regulations",
+   "montant": 200000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "508243565"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.initiactive9578",
+   "label": "Initiactive 95 78",
+   "montant": 192533.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "401566252"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.initiactive2607",
+   "label": "Initiactive 26 07",
+   "montant": 191286.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "412543381"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.franceactivealsace",
+   "label": "France Active Alsace",
+   "montant": 186589.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "413992744"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.essfranceoutremer",
+   "label": "Ess France Outre Mer",
+   "montant": 186000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "903891802"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.reunionactive",
+   "label": "Reunion Active",
+   "montant": 181842.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "492544028"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.athena",
+   "label": "Athena",
+   "montant": 181583.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394222541"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.bgeterresdeloire",
+   "label": "Bge Terres De Loire",
+   "montant": 177924.77,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "480178607"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.liguedelenseignementde-normandie",
+   "label": "Ligue De L Enseignement De Normandie",
+   "montant": 177410.65,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "329857387"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.bgeaura",
+   "label": "Bge Aura",
+   "montant": 176717.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428222616"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.bgeadilagencepourle-developpementdelinit",
+   "label": "Bge Adil Agence Pour Le Developpement De L Initiative Locale Du Grand Paris",
+   "montant": 165157.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "326850872"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.rhonedeveloppementinitiative",
+   "label": "Rhone Developpement Initiative",
+   "montant": 163854.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394975767"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.franceactivesavoiemontblanc",
+   "label": "France Active Savoie Mont Blanc",
+   "montant": 156293.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393216080"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.franceactivechampagneardenne",
+   "label": "France Active Champagne Ardenne",
+   "montant": 154975.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "480658681"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialeetsol",
+   "label": "Chambre Regionale De L Economie Sociale Et Solidaire De Nouvelle Aquitaine",
+   "montant": 154519.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "828023341"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialeetsol-2",
+   "label": "Chambre Regionale De L Economie Sociale Et Solidaire Grand Est",
+   "montant": 152681.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "823512298"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.federationdesoeuvreslaiques",
+   "label": "Federation Des Oeuvres Laiques",
+   "montant": 150393.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785506122"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.fairfinanceraccompagner-impacterrassembl",
+   "label": "Fair Financer Accompagner Impacter Rassembler",
+   "montant": 150000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "820923423"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.bgeouestherault",
+   "label": "Bge Ouest Herault",
+   "montant": 148712.87,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "392807848"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.lemouvementassociatifoccitanie",
+   "label": "Le Mouvement Associatif Occitanie",
+   "montant": 146872.18,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "484438296"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.franceactivenormandie",
+   "label": "France Active Normandie",
+   "montant": 144362.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "822427431"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.institutformationappuiinitiat-develop",
+   "label": "Institut Formation Appui Initiat Develop",
+   "montant": 142189.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "338849763"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.fondationnationalesciences-politiques",
+   "label": "Fondation Nationale Sciences Politiques",
+   "montant": 141000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784308249"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.professionsportloisirs64",
+   "label": "Profession Sport Loisirs 64",
+   "montant": 139190.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390601599"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.franceactivemetropole",
+   "label": "France Active Metropole",
+   "montant": 137782.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423257302"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.initiativedoubsterritoirede-belfort",
+   "label": "Initiative Doubs Territoire De Belfort",
+   "montant": 136310.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388661688"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialeetsol-3",
+   "label": "Chambre Regionale De L Economie Sociale Et Solidaire Auvergne Rhone Alpes",
+   "montant": 135438.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331408039"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.pourlaccompagnementetle-developpementdes",
+   "label": "Pour L Accompagnement Et Le Developpement Des Competences Professionnelles",
+   "montant": 134853.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "505349530"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.universiteruralequercyrouergue",
+   "label": "Universite Rurale Quercy Rouergue",
+   "montant": 134736.51,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "389611914"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.interreseauxdelinsertionparl-activiteeco",
+   "label": "Inter Reseaux De L Insertion Par L Activite Economique En Hauts De France",
+   "montant": 125820.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "832340590"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialeetsol-4",
+   "label": "Chambre Regionale De L Economie Sociale Et Solidarite Occitanie",
+   "montant": 125135.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "411204100"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.associationpourundeveloppement-durableet",
+   "label": "Association Pour Un Developpement Durable Et Solidaire",
+   "montant": 125000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "523784452"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.fairfinanceraccompagner-impacterrassembl-2",
+   "label": "Fair Financer Accompagner Impacter Rassembler",
+   "montant": 124800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "820923423"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.bgemayotte",
+   "label": "Bge Mayotte",
+   "montant": 121202.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "514862143"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.grenoblealpesinitiativeactive",
+   "label": "Grenoble Alpes Initiative Active",
+   "montant": 120064.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "419339643"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialeetsol-5",
+   "label": "Chambre Regionale De L Economie Sociale Et Solidaire Ile De France",
+   "montant": 116054.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "514822832"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.organisationpourprojets-alternatifsdentr",
+   "label": "Organisation Pour Projets Alternatifs D Entreprises",
+   "montant": 115000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "349685156"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialeetsol-6",
+   "label": "Chambre Regionale De L Economie Sociale Et Solidaire Hauts De France",
+   "montant": 114885.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "353553316"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.assconseilengestionaux-associations",
+   "label": "Ass Conseil En Gestion Aux Associations",
+   "montant": 114636.28,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "401142153"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.bgeperspectives",
+   "label": "Bge Perspectives",
+   "montant": 113940.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "429910151"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.assactiviteconseil",
+   "label": "Ass Activite Conseil",
+   "montant": 112850.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410572440"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialeetsol-7",
+   "label": "Chambre Regionale De L Economie Sociale Et Solidaire Grand Est",
+   "montant": 108612.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "823512298"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.assinitiaformationappuipedagogi-empl",
+   "label": "Ass Initia Formation Appui Pedagogi Empl",
+   "montant": 107938.1,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "385313010"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.lelabodeleconomiesocialeet-solidaire",
+   "label": "Le Labo De L Economie Sociale Et Solidaire",
+   "montant": 102000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "524585569"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.entourage",
+   "label": "Entourage",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "813792405"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.centreforeconomicpolicy-researchcepr",
+   "label": "Centre For Economic Policy Research Cepr",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "898411806"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.echobat",
+   "label": "Echobat",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "533897815"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.jeuneassociationpourle-developpementecon",
+   "label": "Jeune Association Pour Le Developpement Economique Et Social",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "524043379"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.lepolepetiteenfancelepope",
+   "label": "Le Pole Petite Enfance Le Pope",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "851362418"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.confederationgeneralesocs-cooperativesde",
+   "label": "Confederation Generale Socs Cooperatives De Production",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784853632"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.mouvementimpactfrance",
+   "label": "Mouvement Impact France",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "520067786"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.lacalifornie",
+   "label": "La Californie",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "839694734"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.polelainedupaysdesaugues",
+   "label": "Pole Laine Du Pays De Saugues",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "814096640"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.institutpourleducationfinanciere-dupubli",
+   "label": "Institut Pour L Education Financiere Du Public",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784717001"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.ateliersdelacitoyennete",
+   "label": "Ateliers De La Citoyennete",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "440942811"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.lelabodespartenariats",
+   "label": "Le Labo Des Partenariats",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "833003106"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.teraunecovillagepourlexxie-siecle",
+   "label": "Tera Un Ecovillage Pour Le Xxie Siecle",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "814180618"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.comitecoordnatioassaide-chomeursemp",
+   "label": "Comite Coord Natio Ass Aide Chomeurs Emp",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "341175404"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.geiqhazimisomo",
+   "label": "Geiq Hazi Misomo",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "889667465"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.lesgrandlieuzarts",
+   "label": "Les Grandlieu Zarts",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "811455633"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.ikos",
+   "label": "Ikos",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "843247966"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.fibrethik",
+   "label": "Fibr Ethik",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "523142073"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialeetsol-8",
+   "label": "Chambre Regionale De L Economie Sociale Et Solidaire De Normandie",
+   "montant": 99182.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "440518884"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.bgefranchecomte",
+   "label": "Bge Franche Comte",
+   "montant": 95791.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391319084"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.comitnatolympiqsportiffran",
+   "label": "Comit Nat Olympiq Sportif Fran",
+   "montant": 95000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784354276"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.unionnatinteroeuvreprivesanit-socia",
+   "label": "Union Nat Inter Oeuvre Prive Sanit Socia",
+   "montant": 95000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672223"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.carrefourorganisjeunesseeduca-populai",
+   "label": "Carrefour Organis Jeunesse Educa Populai",
+   "montant": 91729.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780004560"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.franceactiveloire",
+   "label": "France Active Loire",
+   "montant": 91419.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "524200573"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialeetsol-9",
+   "label": "Chambre Regionale De L Economie Sociale Et Solidaire De Bourgogne Franche Comte",
+   "montant": 90219.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "445333222"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.insertiondeveloppement",
+   "label": "Insertion Developpement",
+   "montant": 89996.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "352858476"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.corseactivepourlinitiative",
+   "label": "Corse Active Pour L Initiative",
+   "montant": 89534.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "449667773"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.centredetudesetdactionsociale",
+   "label": "Centre D Etudes Et D Action Sociale",
+   "montant": 88095.39,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "304600885"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.bgelandestecgecoop",
+   "label": "Bge Landes Tec Ge Coop",
+   "montant": 84980.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "334076726"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.article1",
+   "label": "Article 1",
+   "montant": 84804.91,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "499381812"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.franceactivelorraine",
+   "label": "France Active Lorraine",
+   "montant": 84769.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "480044650"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.ressourcespourleconomiesociale-etsolidai",
+   "label": "Ressources Pour L Economie Sociale Et Solidaire",
+   "montant": 84140.66,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "798612958"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.bgesudouest",
+   "label": "Bge Sud Ouest",
+   "montant": 84084.9,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "315963108"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaleeconomiesociale",
+   "label": "Chambre Regionale Economie Sociale",
+   "montant": 83829.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379779309"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.centreetudeactionsocialedela-sarthe",
+   "label": "Centre Etude Action Sociale De La Sarthe",
+   "montant": 83559.22,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "786340059"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.cipro43comitepourlinsertion-professionne",
+   "label": "C I Pro 43 Comite Pour L Insertion Professionnelle De La Haute Loire",
+   "montant": 83195.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779145531"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.lemouvementassociatifhautsde-france",
+   "label": "Le Mouvement Associatif Hauts De France",
+   "montant": 81889.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "818497604"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialeetsol-10",
+   "label": "Chambre Regionale De L Economie Sociale Et Solidaire Paca Cress Paca",
+   "montant": 81509.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "422108605"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.comitedepartolympiquesportif-meuse",
+   "label": "Comite Depart Olympique Sportif Meuse",
+   "montant": 80938.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "337579171"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.poledeconomiesolidaire21",
+   "label": "Pole D Economie Solidaire 21",
+   "montant": 80645.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "438707697"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialeetsol-11",
+   "label": "Chambre Regionale De L Economie Sociale Et Solidaire De Normandie",
+   "montant": 80581.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "440518884"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.lemouvementassociatif",
+   "label": "Le Mouvement Associatif",
+   "montant": 80000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "430349100"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.franceactiveiledefrance",
+   "label": "France Active Ile De France",
+   "montant": 80000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "442562716"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialeetsol-12",
+   "label": "Chambre Regionale De L Economie Sociale Et Solidaire Des Pays De La Loire",
+   "montant": 79916.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439760893"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.resosolidaire",
+   "label": "Reso Solidaire",
+   "montant": 79255.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "513319764"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.missionlocaledelaregiond-alencon",
+   "label": "Mission Locale De La Region D Alencon",
+   "montant": 77946.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378289045"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.aliso",
+   "label": "Aliso",
+   "montant": 77924.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "411846132"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.liguedelenseignementfederation-desoeuvre",
+   "label": "Ligue De L Enseignement Federation Des Oeuvres Laiques Des Vosges",
+   "montant": 77671.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783441082"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.jaccueille",
+   "label": "J Accueille",
+   "montant": 75000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "921166179"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaleeconomiesociale-solidair",
+   "label": "Chambre Regionale Economie Sociale Solidaire Centre",
+   "montant": 74608.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380958520"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.espaceassociatifmaison-associations",
+   "label": "Espace Associatif Maison Associations",
+   "montant": 74439.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "337605562"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.liguedelenseignementfederation-departeme",
+   "label": "Ligue De L Enseignement Federation Departementale Des P O Mouvement D Education Populaire",
+   "montant": 73905.16,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776190563"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.missionlocaletullecentrecorreze",
+   "label": "Mission Locale Tulle Centre Correze",
+   "montant": 73847.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "326298130"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.asstraitdunionaccompagnement",
+   "label": "Ass Trait D Union Accompagnement",
+   "montant": 73833.33,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "479150484"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialeetsol-13",
+   "label": "Chambre Regionale De L Economie Sociale Et Solidaire Des Pays De La Loire",
+   "montant": 73618.99,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439760893"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.liguedelenseignementdelaube",
+   "label": "Ligue De L Enseignement De L Aube",
+   "montant": 72250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775555311"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.asspromoproffesanimasport-cultuam",
+   "label": "Ass Promo Proffes Anima Sport Cultu Am",
+   "montant": 71610.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "424602928"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.agencegestionliaisonconseilassoc",
+   "label": "Agence Gestion Liaison Conseil Assoc",
+   "montant": 70902.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779311547"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.coopfrlesentreprises-cooperatives",
+   "label": "Coop Fr Les Entreprises Cooperatives",
+   "montant": 70000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "317165728"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaleeconomiesociale-2",
+   "label": "Chambre Regionale Economie Sociale",
+   "montant": 69604.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379779309"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.federationoeuvrelaiquecher",
+   "label": "Federation Oeuvre Laique Cher",
+   "montant": 69260.31,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775022056"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaleeconomiesociale-solidair-2",
+   "label": "Chambre Regionale Economie Sociale Solidaire Centre",
+   "montant": 69174.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380958520"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.federatdepartfoyersrurauxdel-yonne",
+   "label": "Federat Depart Foyers Ruraux De L Yonne",
+   "montant": 69007.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "389220237"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.actiondevelopeduclaicite05",
+   "label": "Action Develop Educ Laicite 05",
+   "montant": 68876.35,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "419373519"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.commelesautres",
+   "label": "Comme Les Autres",
+   "montant": 68204.76,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "534436076"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.liguedenseignementdehautemarne",
+   "label": "Ligue D Enseignement De Haute Marne",
+   "montant": 66228.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780464749"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.liguedelenseignementdesalpesde-hauteprov",
+   "label": "Ligue De L Enseignement Des Alpes De Haute Provence",
+   "montant": 61888.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388832206"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.lafabriqueemploietterritoires",
+   "label": "La Fabrique Emploi Et Territoires",
+   "montant": 59729.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "130002876"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.bgeloiretchereureetloir",
+   "label": "Bge Loir Et Cher Eure Et Loir",
+   "montant": 59440.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393089602"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.federationgersligueenseignement",
+   "label": "Federation Gers Ligue Enseignement",
+   "montant": 59057.66,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776985210"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialeetsol-14",
+   "label": "Chambre Regionale De L Economie Sociale Et Solidaire Paca Cress Paca",
+   "montant": 58772.7,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "422108605"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.bgesudouest-2",
+   "label": "Bge Sud Ouest",
+   "montant": 58600.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "315963108"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.bgelimousin",
+   "label": "Bge Limousin",
+   "montant": 54985.05,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "334191822"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.sunirpouraccompagnerlaction-associative",
+   "label": "S Unir Pour Accompagner L Action Associative",
+   "montant": 53802.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "510431133"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.solidaritesnouvellesfaceau-chomage",
+   "label": "Solidarites Nouvelles Face Au Chomage",
+   "montant": 53676.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342435534"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.bgeberrytouraine",
+   "label": "Bge Berry Touraine",
+   "montant": 52679.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "502067234"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.lachambreregionaledeleconomie-socialeets",
+   "label": "La Chambre Regionale De L Economie Sociale Et Solidaire De Martinique 972",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "921479002"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialeetsol-15",
+   "label": "Chambre Regionale De L Economie Sociale Et Solidaire",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439773276"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.sensecube",
+   "label": "Sensecube",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "802145375"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.fonda",
+   "label": "Fonda",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "323923649"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.uniondesemployeursdeleconomie-socialeets",
+   "label": "Union Des Employeurs De L Economie Sociale Et Solidaire",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410168512"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.lescanaux",
+   "label": "Les Canaux",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "828686238"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialedelag",
+   "label": "Chambre Regionale De L Economie Sociale De La Guyane",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "392243119"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialeetsol-16",
+   "label": "Chambre Regionale De L Economie Sociale Et Solidaire Mayotte",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "811294107"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.lesperleconomiesociale-partenairedelecol",
+   "label": "L Esper L Economie Sociale Partenaire De L Ecole De La Republique",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "529038382"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.cresscorse",
+   "label": "Cress Corse",
+   "montant": 44683.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "497676841"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.assdeveloppementparlaformation",
+   "label": "Ass Developpement Par La Formation",
+   "montant": 43875.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "328933668"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.assreseauterritoireseconomie-solidair",
+   "label": "Ass Reseau Territoires Economie Solidair",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "441774981"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.leshotelssolidaires",
+   "label": "Les Hotels Solidaires",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "841509151"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.startupdeterritoire",
+   "label": "Start Up De Territoire",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "843409053"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.centredeculturepopupypirangade-pastinham",
+   "label": "Centre De Culture Popup Ypiranga De Pastinha Mque",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "501021612"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.codephenix",
+   "label": "Code Phenix",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840879050"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.colosolidaire",
+   "label": "Colosolidaire",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "414477414"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.impacttank",
+   "label": "Impact Tank",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "884658329"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.lattribut",
+   "label": "L Attribut",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "893102806"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.groupesosinternational",
+   "label": "Groupe Sos International",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "830976593"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.fask",
+   "label": "Fask",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "845274372"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.commerceequitablefrance",
+   "label": "Commerce Equitable France",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439018334"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.leconseileuropeenecfr",
+   "label": "Le Conseil Europeen Ecfr",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "807638911"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.transitionecologiquefrance",
+   "label": "Transition Ecologique France",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "797400769"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.franceactivebourgognefranche-comte",
+   "label": "France Active Bourgogne Franche Comte",
+   "montant": 16088.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "882321698"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.franceactiveprovencealpescoted-azur-2",
+   "label": "France Active Provence Alpes Cote D Azur",
+   "montant": 15625.05,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439061227"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialeetsol-17",
+   "label": "Chambre Regionale De L Economie Sociale Et Solidaire Auvergne Rhone Alpes",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331408039"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.institutoceanographique",
+   "label": "Institut Oceanographique",
+   "montant": 14160.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784260119"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.comitefrancaisdaccreditation",
+   "label": "Comite Francais D Accreditation",
+   "montant": 12012.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "397879487"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.federdepcentressocnievre",
+   "label": "Feder Dep Centres Soc Nievre",
+   "montant": 10338.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778478206"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.leseconomiques",
+   "label": "Les Economiques",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "792675076"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.observatoiredufinancementdes-entreprises",
+   "label": "Observatoire Du Financement Des Entreprises Par Le Marche",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "529905275"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.groupekedgebusinessschool",
+   "label": "Groupe Kedge Business School",
+   "montant": 9600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "514005123"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.probonolab",
+   "label": "Pro Bono Lab",
+   "montant": 7500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "534046602"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.initiativesaintmartinactive",
+   "label": "Initiative Saint Martin Active",
+   "montant": 4083.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "442187233"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.laresidencesociale",
+   "label": "La Residence Sociale",
+   "montant": 2947.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775726482"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.chambreregionaledeleconomie-socialeetsol-18",
+   "label": "Chambre Regionale De L Economie Sociale Et Solidaire Des Pays De La Loire",
+   "montant": 2694.72,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439760893"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.associationfrancophonede-comptabilite",
+   "label": "Association Francophone De Comptabilite",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "479532814"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p305.clubdesresponsablesd-infrastructuresetde",
+   "label": "Club Des Responsables D Infrastructures Et De Production",
+   "montant": 1080.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "511961187"
+   },
+   "rattachement_id": "etat.depenses.BG.DB.305",
+   "enfants": []
+  }
+ ]
+}

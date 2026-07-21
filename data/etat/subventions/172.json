@@ -1,0 +1,3254 @@
+{
+ "id": "etat.subventions.p172",
+ "label": "Programme 172 — Recherches scientifiques et technologiques pluridisciplinaires : bénéficiaires des subventions aux associations",
+ "montant": 167208294.59,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "249 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p172.associationnationaledela-rechercheetdela",
+   "label": "Association Nationale De La Recherche Et De La Technologie Anrt",
+   "montant": 63991792.73,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784668717"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.institutpasteur",
+   "label": "Institut Pasteur",
+   "montant": 63342000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775684897"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.institutcurie",
+   "label": "Institut Curie",
+   "montant": 9128000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784257164"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.institutpasteurdelille",
+   "label": "Institut Pasteur De Lille",
+   "montant": 6014000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783696834"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.instituthautesetudes-scientifiques",
+   "label": "Institut Hautes Etudes Scientifiques",
+   "montant": 2839000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775688252"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationnationaledela-rechercheetdela-2",
+   "label": "Association Nationale De La Recherche Et De La Technologie Anrt",
+   "montant": 2686907.25,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784668717"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.internathumanfrontierscience-programm",
+   "label": "Internat Human Frontier Science Programm",
+   "montant": 2043000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378265136"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.fondationjeandausset",
+   "label": "Fondation Jean Dausset",
+   "montant": 1847000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391931300"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.agceuniversitairedela-francophonie",
+   "label": "Agce Universitaire De La Francophonie",
+   "montant": 1800000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775757347"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.centrepourlarecherche-economiqueetsesapp",
+   "label": "Centre Pour La Recherche Economique Et Ses Applications",
+   "montant": 1172000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775667009"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.fondationfrancaisepourla-recherchesurlab",
+   "label": "Fondation Francaise Pour La Recherche Sur La Biodiversite",
+   "montant": 750000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "508175627"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.centreforeconomicpolicy-researchcepr",
+   "label": "Centre For Economic Policy Research Cepr",
+   "montant": 500000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "898411806"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.agoranov",
+   "label": "Agoranov",
+   "montant": 495986.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "433417995"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.normandieincubation",
+   "label": "Normandie Incubation",
+   "montant": 371661.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432789014"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.societemathematiquedefrance",
+   "label": "Societe Mathematique De France",
+   "montant": 366000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784263709"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.bernardgregory",
+   "label": "Bernard Gregory",
+   "montant": 355000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "322548314"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.questforchange",
+   "label": "Quest For Change",
+   "montant": 292794.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "478443898"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.incubateuruniversitacademieaix-marse",
+   "label": "Incubateur Universit Academie Aix Marse",
+   "montant": 265905.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "435102884"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.incuballiance",
+   "label": "Incuballiance",
+   "montant": 258892.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432077444"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.incubateurprovencecotedazur",
+   "label": "Incubateur Provence Cote D Azur",
+   "montant": 253000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434132650"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.asscomitedesservices-informatiques",
+   "label": "Ass Comite Des Services Informatiques",
+   "montant": 250000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428475735"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.centreinternationnalde-rechercheauxfront",
+   "label": "Centre Internationnal De Recherche Aux Frontieres De La Chimie",
+   "montant": 239400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "499246601"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.assincubateurparisbiotech",
+   "label": "Ass Incubateur Paris Biotech",
+   "montant": 235000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434969317"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.ctreinternmathempures-appliquees",
+   "label": "Ctre Intern Mathem Pures Appliquees",
+   "montant": 235000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "315577809"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.7technopolesbretagne",
+   "label": "7 Technopoles Bretagne",
+   "montant": 230376.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "808321293"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.dispositifdentrepreneuriat-academiquedeb",
+   "label": "Dispositif D Entrepreneuriat Academique De Bourgogne Franche Comte",
+   "montant": 215000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "833661499"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.nubbo",
+   "label": "Nubbo",
+   "montant": 207307.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432988665"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.fondationinstitutderecherche-pourledevel",
+   "label": "Fondation Institut De Recherche Pour Le Developpement Durable Et Les Relations Internationales",
+   "montant": 200000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "484781133"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.incubateurmultimediabelledemai",
+   "label": "Incubateur Multimedia Belle De Mai",
+   "montant": 192633.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432774149"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.incubateurlorrain",
+   "label": "Incubateur Lorrain",
+   "montant": 187000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432329183"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.institutpasteur-2",
+   "label": "Institut Pasteur",
+   "montant": 171161.94,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775684897"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.centrepourlarecherche-economiqueetsesapp-2",
+   "label": "Centre Pour La Recherche Economique Et Ses Applications",
+   "montant": 160000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775667009"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationwikimediafrance",
+   "label": "Association Wikimedia France",
+   "montant": 158500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "481796464"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.neolojitechnopolegrandpoitiers",
+   "label": "Neoloji Technopole Grand Poitiers",
+   "montant": 132231.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "830781407"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.agencepourlavalorisationdela-rechercheun",
+   "label": "Agence Pour La Valorisation De La Recherche Universitaire Du Limousin",
+   "montant": 125438.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "503371965"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.citeinternationuniversitairede-paris",
+   "label": "Cite Internation Universitaire De Paris",
+   "montant": 125000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784562878"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.syndicatnationaldeledition",
+   "label": "Syndicat National De L Edition",
+   "montant": 121000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784285066"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.technopoledelareunion",
+   "label": "Technopole De La Reunion",
+   "montant": 119358.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "442780243"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.assoctransfertstechnologies-mans",
+   "label": "Assoc Transferts Technologies Mans",
+   "montant": 115000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "387707102"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.aerospacevalley",
+   "label": "Aerospace Valley",
+   "montant": 103789.82,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "484284526"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationnationaledela-rechercheetdela-3",
+   "label": "Association Nationale De La Recherche Et De La Technologie Anrt",
+   "montant": 101505.73,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784668717"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.internationalsciencecouncil",
+   "label": "International Science Council",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784672552"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.fondationducampdesmilles-memoireeteducat",
+   "label": "Fondation Du Camp Des Milles Memoire Et Education",
+   "montant": 90000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "513626713"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.nouvelleaquitaineculture-scientifiquetec",
+   "label": "Nouvelle Aquitaine Culture Scientifique Technique Et Industrielle",
+   "montant": 87000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "880805775"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.frenchamericancultural-exchange",
+   "label": "French American Cultural Exchange",
+   "montant": 86500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.rechercheetavenir",
+   "label": "Recherche Et Avenir",
+   "montant": 86000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "484873963"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.instantscience",
+   "label": "Instant Science",
+   "montant": 84000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "339673287"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.centreingenierietraitemrevetem-surfac",
+   "label": "Centre Ingenierie Traitem Revetem Surfac",
+   "montant": 81679.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423835396"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.fondationpourlamemoiredel-esclavage",
+   "label": "Fondation Pour La Memoire De L Esclavage",
+   "montant": 80000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "879130003"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.plateformeemode",
+   "label": "Plateforme Emode",
+   "montant": 75100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "519635320"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationreseaucurie",
+   "label": "Association Reseau Curie",
+   "montant": 75000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393702956"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.lespritsorcier",
+   "label": "L Esprit Sorcier",
+   "montant": 72000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "812618098"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.amcsti",
+   "label": "Amcsti",
+   "montant": 70000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "333296523"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.biotechsantebretagne",
+   "label": "Biotech Sante Bretagne",
+   "montant": 70000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "879737971"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.theconversationfrance",
+   "label": "The Conversation France",
+   "montant": 70000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "812855096"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationdessocietesde-recherchesousco",
+   "label": "Association Des Societes De Recherche Sous Contrat",
+   "montant": 66985.66,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "438888463"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.centrereginnovtransferttechno-agroalimen",
+   "label": "Centre Reg Innov Transfert Techno Agroalimentaire Sud Provence Alpes Cote D Azur",
+   "montant": 66500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "377631312"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.analysesetsurface",
+   "label": "Analyses Et Surface",
+   "montant": 66500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "392852323"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.lespetitsdebrouillardspaca",
+   "label": "Les Petits Debrouillards Paca",
+   "montant": 66000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423838481"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.corrodys",
+   "label": "Corrodys",
+   "montant": 62400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "341349884"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.technopoledelareunion-2",
+   "label": "Technopole De La Reunion",
+   "montant": 60576.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "442780243"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationnationaledela-rechercheetdela-4",
+   "label": "Association Nationale De La Recherche Et De La Technologie Anrt",
+   "montant": 60000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784668717"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.praxens",
+   "label": "Praxens",
+   "montant": 59562.52,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "339930075"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.circoe",
+   "label": "Circoe",
+   "montant": 59516.9,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394172944"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.extractis",
+   "label": "Extractis",
+   "montant": 58230.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "330874058"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.centrereginnovtransftechnmat-trait",
+   "label": "Centre Reg Innov Transf Techn Mat Trait",
+   "montant": 56400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379146806"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.centresciences",
+   "label": "Centre Sciences",
+   "montant": 55000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "350607388"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationdesindustriesde-procedesmedit",
+   "label": "Association Des Industries De Procedes Mediterranee Denommee Novachim",
+   "montant": 52880.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "338555634"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.westelectronicetapplications-network",
+   "label": "West Electronic Et Applications Network",
+   "montant": 52500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379474745"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.clarte",
+   "label": "Clarte",
+   "montant": 52500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410199749"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.imagesreseaux",
+   "label": "Images Reseaux",
+   "montant": 50958.05,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "487612368"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.larbredesconnaissances-associationpourla",
+   "label": "L Arbre Des Connaissances Association Pour La Promotion Des Sciences Et La Recherche",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "509167508"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.proxinnov",
+   "label": "Proxinnov",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "494012552"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.pavillonsciencesctreculture-scientfc",
+   "label": "Pavillon Sciences Ctre Culture Scient Fc",
+   "montant": 49600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342842960"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.rechinnovtransferttechnmat-fertorg",
+   "label": "Rech Innov Transfert Techn Mat Fert Org",
+   "montant": 48000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "441508017"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.crittpolymerespicardie",
+   "label": "Critt Polymeres Picardie",
+   "montant": 48000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331171272"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationtechteraauvergne-rhonealpes",
+   "label": "Association Techtera Auvergne Rhone Alpes",
+   "montant": 47906.37,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "485203293"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.agrotransfertressourceset-territoires",
+   "label": "Agro Transfert Ressources Et Territoires",
+   "montant": 46100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "353220916"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationsocialesportsculture-loisirse",
+   "label": "Association Sociale Sports Culture Loisirs Et Restauration Des Personnels Du Mesri Et Du Menji",
+   "montant": 43532.68,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340093608"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.pegase",
+   "label": "Pegase",
+   "montant": 42790.76,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "492957576"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.institutcatholiquedelille",
+   "label": "Institut Catholique De Lille",
+   "montant": 41392.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775624240"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.aerial",
+   "label": "Aerial",
+   "montant": 41000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "402668883"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.creatingintegratedmechanicals-systemsauv",
+   "label": "Creating Integrated Mechanicals Systems Auvergne Rhone Alpes",
+   "montant": 40757.93,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "485223366"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.institutkurdedeparis",
+   "label": "Institut Kurde De Paris",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "327446795"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.ctrereginnovatiotransfert-technolog",
+   "label": "Ctre Reg Innovatio Transfert Technolog",
+   "montant": 37750.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384420766"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.ctreeuropeenrecherformaarts-duverre",
+   "label": "Ctre Europeen Recher Forma Arts Du Verre",
+   "montant": 37600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382820595"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.cresittindustrie",
+   "label": "Cresitt Industrie",
+   "montant": 36000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "405041104"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.capenergies",
+   "label": "Capenergies",
+   "montant": 35059.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "488702218"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.planetesciences",
+   "label": "Planete Sciences",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784363848"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.vegenovbbv",
+   "label": "Vegenov Bbv",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "488865304"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.centredinnovationdes-technologiessanscon",
+   "label": "Centre D Innovation Des Technologies Sans Contact Eurarfid",
+   "montant": 34650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "511568602"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.assfrancaiseastronomie",
+   "label": "Ass Francaise Astronomie",
+   "montant": 34000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "308850882"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.institutpasteurdelille-2",
+   "label": "Institut Pasteur De Lille",
+   "montant": 32381.09,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783696834"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.accustica",
+   "label": "Accustica",
+   "montant": 32100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "493954135"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.innozh",
+   "label": "Innozh",
+   "montant": 32000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390474435"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.commissionnationalefrancaise-pourlunesco",
+   "label": "Commission Nationale Francaise Pour L Unesco",
+   "montant": 32000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "805083847"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.plastium",
+   "label": "Plastium",
+   "montant": 31870.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "424208494"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.polefibresenergivie",
+   "label": "Pole Fibres Energivie",
+   "montant": 31505.05,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "485092274"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.citeinternationuniversitairede-paris-2",
+   "label": "Cite Internation Universitaire De Paris",
+   "montant": 31242.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784562878"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.relaisdsciences",
+   "label": "Relais D Sciences",
+   "montant": 31000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "421088238"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.devupcentrevaldeloire",
+   "label": "Dev Up Centre Val De Loire",
+   "montant": 31000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "405047572"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.scienceactionnormandie",
+   "label": "Science Action Normandie",
+   "montant": 31000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "408899185"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.groupementdereflexionetd-actionpourlanim",
+   "label": "Groupement De Reflexion Et D Action Pour L Animal",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "421682816"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.nouvelleaquitaineculture-scientifiquetec-2",
+   "label": "Nouvelle Aquitaine Culture Scientifique Technique Et Industrielle",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "880805775"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.fondationinnovationettransitions",
+   "label": "Fondation Innovation Et Transitions",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "337607303"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.agroalimentaireinnovation-recherche",
+   "label": "Agro Alimentaire Innovation Recherche",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "399283621"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.agrotec",
+   "label": "Agrotec",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344447552"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.terredessciences",
+   "label": "Terre Des Sciences",
+   "montant": 29700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390493104"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.fondationmaisondessciencesdel-homme",
+   "label": "Fondation Maison Des Sciences De L Homme",
+   "montant": 27222.11,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775664105"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.lespacedessciences",
+   "label": "L Espace Des Sciences",
+   "montant": 27000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "330739491"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.cresittindustrie-2",
+   "label": "Cresitt Industrie",
+   "montant": 27000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "405041104"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.apesa",
+   "label": "Apesa",
+   "montant": 26000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "404910929"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.crittautomatisationrobotique",
+   "label": "Critt Automatisation Robotique",
+   "montant": 25825.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "351405386"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.eaecoentreprises",
+   "label": "Ea Eco Entreprises",
+   "montant": 25649.27,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "412135105"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.institutfiltrationtechnique-separative",
+   "label": "Institut Filtration Technique Separative",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "322790403"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.alphanov",
+   "label": "Alphanov",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "493635817"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.incubateurdentreprises-innovantesinizia",
+   "label": "Incubateur D Entreprises Innovantes Inizia",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "798482097"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.agencedeveloppementregion-cinema",
+   "label": "Agence Developpement Region Cinema",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "327657136"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.agropolisinternational",
+   "label": "Agropolis International",
+   "montant": 24000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340751585"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.cetimgrandest",
+   "label": "Cetim Grand Est",
+   "montant": 24000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "314257684"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.clarte-2",
+   "label": "Clarte",
+   "montant": 22500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410199749"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.westelectronicetapplications-network-2",
+   "label": "West Electronic Et Applications Network",
+   "montant": 22500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379474745"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationtechnacol",
+   "label": "Association Technacol",
+   "montant": 21756.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398415794"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.carbetdessciences",
+   "label": "Carbet Des Sciences",
+   "montant": 20787.74,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394418875"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.lescheminsbuissonniers",
+   "label": "Les Chemins Buissonniers",
+   "montant": 20500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "429571383"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.crittsportloisirs",
+   "label": "Critt Sport Loisirs",
+   "montant": 20343.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344340401"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.systemticparisregion",
+   "label": "System Tic Paris Region",
+   "montant": 20232.64,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "485364525"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationfrancebiotech",
+   "label": "Association France Biotech",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "417666278"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.criann",
+   "label": "Criann",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383599990"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.tracestheoriereflexeapprend-commeducatsc",
+   "label": "Traces Theorie Reflexe Apprend Comm Educat Scientif",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "494577851"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.institutpasteur-3",
+   "label": "Institut Pasteur",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775684897"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.photonicsbretagne",
+   "label": "Photonics Bretagne",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "450550512"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.societedesneurosciences",
+   "label": "Societe Des Neurosciences",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379682453"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.fondationnationalesciences-politiques",
+   "label": "Fondation Nationale Sciences Politiques",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784308249"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.adriaassociationpourle-developpementlare",
+   "label": "Adria Association Pour Le Developpement La Recherche Et L Innovation Agroalimentaires",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "306964271"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.retis",
+   "label": "Retis",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "429720204"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.fondationalzheimer",
+   "label": "Fondation Alzheimer",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "508689676"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationpolecristal",
+   "label": "Association Pole Cristal",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "492009915"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.ctrereginnovtransftechnoindus-bois",
+   "label": "Ctre Reg Innov Transf Techno Indus Bois",
+   "montant": 19905.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "343220679"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.ombellisciencepicardie",
+   "label": "Ombelliscience Picardie",
+   "montant": 19500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420371759"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.holo3",
+   "label": "Holo3",
+   "montant": 19200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340673458"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.actalia",
+   "label": "Actalia",
+   "montant": 19112.7,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "325346542"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.maisondesjeunesetdelaculture",
+   "label": "Maison Des Jeunes Et De La Culture",
+   "montant": 18400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "313471872"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationfrancaisedescentres-deressour",
+   "label": "Association Francaise Des Centres De Ressources Technologiques Qualifies",
+   "montant": 18000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "817701923"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationsocialesportsculture-loisirse-2",
+   "label": "Association Sociale Sports Culture Loisirs Et Restauration Des Personnels Du Mesri Et Du Menji",
+   "montant": 17954.79,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340093608"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.lacanopeedessciencescentrede-culturescie",
+   "label": "La Canopee Des Sciences Centre De Culture Scientifique Technique Et Industrielle En Guyane",
+   "montant": 16400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "752539874"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.crittinformatique",
+   "label": "Critt Informatique",
+   "montant": 16000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384915021"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.plateformeemode-2",
+   "label": "Plateforme Emode",
+   "montant": 15900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "519635320"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.lecerclefser",
+   "label": "Le Cercle Fser",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840547152"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.deliresdencre",
+   "label": "Delires D Encre",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "447891482"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.catie",
+   "label": "Catie",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "807548813"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.lesateliersludosophiques",
+   "label": "Les Ateliers Ludosophiques",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "824750384"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.espritjoueur",
+   "label": "Esprit Joueur",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432814226"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.cgenialfondationpourlaculture-scientifiq",
+   "label": "C Genial Fondation Pour La Culture Scientifique Et Technique",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "493050660"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.koruc",
+   "label": "Koruc",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "894113976"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.crittagroalimentaireet-biotechnologie",
+   "label": "Critt Agro Alimentaire Et Biotechnologie",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "353771801"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.assdevrechappliqindagroalim-nord",
+   "label": "Ass Dev Rech Appliq Ind Agro Alim Nord",
+   "montant": 14800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "352120406"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.archipeldessciencescentrede-culturescien",
+   "label": "Archipel Des Sciences Centre De Culture Scientifique Technique Et Industrielle De La Guadeloupe",
+   "montant": 14442.05,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "429552912"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationpouranimation-mathematique",
+   "label": "Association Pour Animation Mathematique",
+   "montant": 14000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "431598366"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.critttechniquesjetfluideet-usinage",
+   "label": "Critt Techniques Jet Fluide Et Usinage",
+   "montant": 13305.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "411701709"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.sciencesreunion",
+   "label": "Sciences Reunion",
+   "montant": 13284.39,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "424586626"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationpftinnovalo",
+   "label": "Association Pft Innovalo",
+   "montant": 13000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "814258562"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.nefsciencesctreregcultutech-indus",
+   "label": "Nef Sciences Ctre Reg Cultu Tech Indus",
+   "montant": 12800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "325857944"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.pavillonsciencesctreculture-scientfc-2",
+   "label": "Pavillon Sciences Ctre Culture Scient Fc",
+   "montant": 12400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342842960"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.fondationdessciencesdu-patrimoine",
+   "label": "Fondation Des Sciences Du Patrimoine",
+   "montant": 12000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "799110218"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.assrechregionetdevelopp-horticulture",
+   "label": "Ass Rech Region Et Developp Horticulture",
+   "montant": 12000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "351476080"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.certia",
+   "label": "C E R T I A",
+   "montant": 11700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783496284"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.crittboisoccitanie",
+   "label": "Critt Bois Occitanie",
+   "montant": 11250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383380136"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.espacedessciencesmaisondela-mer",
+   "label": "Espace Des Sciences Maison De La Mer",
+   "montant": 11000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342892080"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.rechercheetavenir-2",
+   "label": "Recherche Et Avenir",
+   "montant": 10500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "484873963"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.meteoetclimat",
+   "label": "Meteo Et Climat",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784309130"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.montagnesetsciences",
+   "label": "Montagnes Et Sciences",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "811320647"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.agropolisinternational-2",
+   "label": "Agropolis International",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340751585"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.centrecharchitindunautique",
+   "label": "Cent Rech Archit Indu Nautique",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "328950001"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.femmesetsciences",
+   "label": "Femmes Et Sciences",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "438708869"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.mabfrance",
+   "label": "Mab France",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "813565751"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.symbioseassociation",
+   "label": "Symbiose Association",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.agrotransfertressourceset-territoires-2",
+   "label": "Agro Transfert Ressources Et Territoires",
+   "montant": 6900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "353220916"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.institutpasteur-4",
+   "label": "Institut Pasteur",
+   "montant": 6600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775684897"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.assdevrechappliqindagroalim-nord-2",
+   "label": "Ass Dev Rech Appliq Ind Agro Alim Nord",
+   "montant": 6600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "352120406"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.assfemmesetmathematiques",
+   "label": "Ass Femmes Et Mathematiques",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "421871583"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.teamhenrifabre",
+   "label": "Team Henri Fabre",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "534999370"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationfrancaisedesfemmes-ingenieure",
+   "label": "Association Francaise Des Femmes Ingenieures Dite Femmes Ingenieures",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398662437"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.poleagroressourcesetde-recherchedemartin",
+   "label": "Pole Agro Ressources Et De Recherche De Martinique",
+   "montant": 5584.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "443074588"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.crittpolymerespicardie-2",
+   "label": "Critt Polymeres Picardie",
+   "montant": 5550.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331171272"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.certia-2",
+   "label": "C E R T I A",
+   "montant": 5400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783496284"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.passagersdessciences",
+   "label": "Passagers Des Sciences",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "834981813"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.institutjeanerrecart",
+   "label": "Institut Jean Errecart",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782370654"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.inovaguadeloupetechnopoleby-retis",
+   "label": "I Nova Guadeloupe Technopole By Retis",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "921845038"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.officemunicipaldelaculture",
+   "label": "Office Municipal De La Culture",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "314592098"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.mainesciences",
+   "label": "Maine Sciences",
+   "montant": 4600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "405006982"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.rechercheetavenir-3",
+   "label": "Recherche Et Avenir",
+   "montant": 4500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "484873963"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.socastronomiquedefrance",
+   "label": "Soc Astronomique De France",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784309122"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.conservatoiredespacesnaturel-corseetamis",
+   "label": "Conservatoire D Espaces Naturel Corse Et Amis Parc Naturel",
+   "montant": 3812.92,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390752202"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.forumdessavoirscitedesmetiers-descotesda",
+   "label": "Forum Des Savoirs Cite Des Metiers Des Cotes D Armor",
+   "montant": 3500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420867665"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.poleagroressourcesetde-recherchedemartin-2",
+   "label": "Pole Agro Ressources Et De Recherche De Martinique",
+   "montant": 3375.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "443074588"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.cpiecortecentrecorse-associationarinasci",
+   "label": "Cpie Corte Centre Corse Association A Rinascita Di U Vecchju Corti",
+   "montant": 3200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "443647862"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.creactivsciences",
+   "label": "Creact Iv Sciences",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "848875506"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.agriagrandest",
+   "label": "Agria Grand Est",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "341148328"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.incubateurdentreprises-innovantesinizia-2",
+   "label": "Incubateur D Entreprises Innovantes Inizia",
+   "montant": 2450.88,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "798482097"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationmuseedusable",
+   "label": "Association Musee Du Sable",
+   "montant": 2050.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "424797686"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationsavoirapprendre",
+   "label": "Association Savoir Apprendre",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "414065706"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationgulliver",
+   "label": "Association Gulliver",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428658819"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.technopoleduvalenciennois",
+   "label": "Technopole Du Valenciennois",
+   "montant": 1950.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "529693137"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.zoomcentredeculture-scientifiquetechniqu",
+   "label": "Zoom Centre De Culture Scientifique Technique Et Industrielle De Laval",
+   "montant": 1700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "419106497"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.campusorion",
+   "label": "Campus Orion",
+   "montant": 1700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "786243527"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.fondationartsetmetiers",
+   "label": "Fondation Arts Et Metiers",
+   "montant": 1600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340650092"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.federationfoyersrurauxdela-somme",
+   "label": "Federation Foyers Ruraux De La Somme",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "401338108"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.citenature",
+   "label": "Cite Nature",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "392292983"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.livremonami",
+   "label": "Livre Mon Ami",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "839690799"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.groupesscientifiquesdarras",
+   "label": "Groupes Scientifiques D Arras",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423834886"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.communicationpublique",
+   "label": "Communication Publique",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382508604"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.institutpolytechniqueunilasalle",
+   "label": "Institut Polytechnique Unilasalle",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780507190"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.institutpasteur-5",
+   "label": "Institut Pasteur",
+   "montant": 1400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775684897"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.assentraidepersonnelminister-educnat",
+   "label": "Ass Entraide Personnel Minister Educ Nat",
+   "montant": 1331.72,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "313270233"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationcentrespierreet-louisedumonte",
+   "label": "Association Centres Pierre Et Louise Dumonteil",
+   "montant": 1218.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784504003"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.biotechnomarseillebiom",
+   "label": "Biotechno Marseille Bio M",
+   "montant": 1200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "908567795"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationpourlanimationla-creationlatr",
+   "label": "Association Pour L Animation La Creation La Transformation Sociale L Innovation Et La Formation En Education Populaire",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "403498835"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.scientipolesavoirssocietepole-dediffusio",
+   "label": "Scientipole Savoirs Societe Pole De Diffusion De La Culture Scientifique Ile De France Sud",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "500185814"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.terreavenir",
+   "label": "Terre Avenir",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "497617084"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.tracestheoriereflexeapprend-commeducatsc-2",
+   "label": "Traces Theorie Reflexe Apprend Comm Educat Scientif",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "494577851"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationcitedesgeometries",
+   "label": "Association Cite Des Geometries",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "444571996"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.labetapi",
+   "label": "La Beta Pi",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "421131905"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.lesjeudisdelacultured-haplincourtlesjdch",
+   "label": "Les Jeudis De La Culture D Haplincourt Les Jdch",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "841504616"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.maisonpourtous",
+   "label": "Maison Pour Tous",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "399087147"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.travailpourtousateliersdel-olivier",
+   "label": "Travail Pour Tous Ateliers De L Olivier",
+   "montant": 586.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483314472"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.openlande",
+   "label": "Open Lande",
+   "montant": 440.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "881522395"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.lespetitsdebrouillardsgrand-ouest",
+   "label": "Les Petits Debrouillards Grand Ouest",
+   "montant": 340.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "799345590"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.lessciencesetnous",
+   "label": "Les Sciences Et Nous",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "803413087"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.watekan",
+   "label": "Watekan",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "537686859"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.letinbulle",
+   "label": "L Etinbulle",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "844096966"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.maisondeshommesetdes-techniques",
+   "label": "Maison Des Hommes Et Des Techniques",
+   "montant": 270.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394681167"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationcieldanjou",
+   "label": "Association Ciel D Anjou",
+   "montant": 250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "793910241"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.valdevienne",
+   "label": "Val De Vienne",
+   "montant": 250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "316569938"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.zonedexperimentationslibrezel",
+   "label": "Zone D Experimentations Libre Z E L",
+   "montant": 240.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "851344390"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.maisondesjeunesetdelaculture-2",
+   "label": "Maison Des Jeunes Et De La Culture",
+   "montant": 240.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785955576"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.socdessciencesnaturellesdel-ouest",
+   "label": "Soc Des Sciences Naturelles De L Ouest",
+   "montant": 240.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "307378414"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationlhistoiredeshopitaux-etdupatr",
+   "label": "Association L Histoire Des Hopitaux Et Du Patrimoine Sante De Nantes",
+   "montant": 230.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "513509976"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationdefenseenvironnement-vendee",
+   "label": "Association Defense Environnement Vendee",
+   "montant": 200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "308858737"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.astroclubchallandais",
+   "label": "Astro Club Challandais",
+   "montant": 200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "820084523"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.centrelavaloiseducation-populaire",
+   "label": "Centre Lavalois Education Populaire",
+   "montant": 200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "311666671"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.initiationcompetitionautoal-estaca",
+   "label": "Initiation Competition Auto A L Estaca",
+   "montant": 200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "444299804"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.societemycologiquedelaroche-suryon",
+   "label": "Societe Mycologique De La Roche Sur Yon",
+   "montant": 150.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "499903847"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.liledyeudemain",
+   "label": "L Ile D Yeu Demain",
+   "montant": 100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "449158146"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.liguepourlaprotectiondes-oiseaux",
+   "label": "Ligue Pour La Protection Des Oiseaux",
+   "montant": 100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390651222"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationcultureet-archeologie",
+   "label": "Association Culture Et Archeologie",
+   "montant": 100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "442246427"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.ogecstemarie",
+   "label": "Ogec Ste Marie",
+   "montant": 100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383435302"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.slascienceslettresbeauxart",
+   "label": "Sla Sciences Lettres Beaux Art",
+   "montant": 100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "304879372"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p172.associationdesastronomes-amateursdusaumu",
+   "label": "Association Des Astronomes Amateurs Du Saumurois",
+   "montant": 100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "500915582"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.172",
+   "enfants": []
+  }
+ ]
+}

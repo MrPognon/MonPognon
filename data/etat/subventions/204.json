@@ -1,0 +1,1598 @@
+{
+ "id": "etat.subventions.p204",
+ "label": "Programme 204 — Prévention, sécurité sanitaire et offre de soins : bénéficiaires des subventions aux associations",
+ "montant": 11598183.73,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "121 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p204.aides",
+   "label": "Aides",
+   "montant": 2987913.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "349496174"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.equipenationaledintervention-enpreventio",
+   "label": "Equipe Nationale D Intervention En Prevention Et Sante",
+   "montant": 580000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388971749"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.institutpasteur",
+   "label": "Institut Pasteur",
+   "montant": 420000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775684897"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.fednatobservatoireregionaux-sante",
+   "label": "Fed Nat Observatoire Regionaux Sante",
+   "montant": 410000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382394278"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.mouvementfrplanningfamilial",
+   "label": "Mouvement Fr Planning Familial",
+   "montant": 396000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775660004"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.federationaddiction",
+   "label": "Federation Addiction",
+   "montant": 300000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "529049421"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.arcat",
+   "label": "Arcat",
+   "montant": 300000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342080736"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.lecomedecomitepourlasante-desexiles",
+   "label": "Le Comede Comite Pour La Sante Des Exiles",
+   "montant": 288000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "326982337"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.maladiesraresinfoservices",
+   "label": "Maladies Rares Info Services",
+   "montant": 260000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "440803724"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.societefrancaisedesante-publique",
+   "label": "Societe Francaise De Sante Publique",
+   "montant": 220000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "387896517"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.isminterpretariat",
+   "label": "Ism Interpretariat",
+   "montant": 201400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "322434077"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.medecinsdumonde",
+   "label": "Medecins Du Monde",
+   "montant": 182000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "321018749"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.reseaunationalsurveillance-aerobiologi",
+   "label": "Reseau National Surveillance Aerobiologi",
+   "montant": 170000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "408900884"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.solidaritesida",
+   "label": "Solidarite Sida",
+   "montant": 165000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398613083"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.societedetoxicologieclinique",
+   "label": "Societe De Toxicologie Clinique",
+   "montant": 160000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "504543067"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.unafam",
+   "label": "Unafam",
+   "montant": 158000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784363483"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.collectifdeluttecontrela-denutritioncld",
+   "label": "Collectif De Lutte Contre La Denutrition Cld",
+   "montant": 157000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "882684996"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.dnfdemainseranonfumeur",
+   "label": "Dnf Demain Sera Non Fumeur",
+   "montant": 150000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "347823239"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.alliancecontreletabac",
+   "label": "Alliance Contre Le Tabac",
+   "montant": 150000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383552676"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.comitenationalcontretabagisme",
+   "label": "Comite National Contre Tabagisme",
+   "montant": 150000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784287328"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.soshepatites",
+   "label": "Sos Hepatites",
+   "montant": 140000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "413917022"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.reseaufrancaisdesvillessante-delorganisa",
+   "label": "Reseau Francais Des Villes Sante De L Organisation Mondiale De La Sante",
+   "montant": 130000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "444011985"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.associationafriqueavenir",
+   "label": "Association Afrique Avenir",
+   "montant": 130000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "429590284"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.asssafe",
+   "label": "Ass Safe",
+   "montant": 105000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "395065436"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.federationfrancaisedes-diabetiques",
+   "label": "Federation Francaise Des Diabetiques",
+   "montant": 90000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784578528"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.socfrancaisemicrobiologie",
+   "label": "Soc Francaise Microbiologie",
+   "montant": 90000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "311934970"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.sidaction",
+   "label": "Sidaction",
+   "montant": 90000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398945543"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.associationtechnoplus",
+   "label": "Association Techno Plus",
+   "montant": 90000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "417737731"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.federationnationalesass-solidaires",
+   "label": "Federation Nationales Ass Solidaires",
+   "montant": 80000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "482512332"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.associationfrancaisede-normalisation",
+   "label": "Association Francaise De Normalisation",
+   "montant": 80000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775724818"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.lecomitedesfamilles",
+   "label": "Le Comite Des Familles",
+   "montant": 79000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "482494887"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.federationdesacteursdela-solidarite",
+   "label": "Federation Des Acteurs De La Solidarite",
+   "montant": 77500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "308401090"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.alliancemaladiesrares",
+   "label": "Alliance Maladies Rares",
+   "montant": 70000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432502839"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.grainepaysdeloire",
+   "label": "Graine Pays De Loire",
+   "montant": 70000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391289352"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.associationfrancaisedes-pediatresendrocr",
+   "label": "Association Francaise Des Pediatres Endrocrinologues Liberaux",
+   "montant": 70000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "831134143"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.associationdegestiondugroupe-interassoci",
+   "label": "Association De Gestion Du Groupe Inter Associatif Trt 5 Chv",
+   "montant": 70000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "799320569"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.federationsantehabitat",
+   "label": "Federation Sante Habitat",
+   "montant": 68000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "437762644"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.federationfrancaisedesreseaux-desanteenp",
+   "label": "Federation Francaise Des Reseaux De Sante En Perinatalite",
+   "montant": 65000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "522546936"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.ikamberelamaisonaccueillante",
+   "label": "Ikambere La Maison Accueillante",
+   "montant": 64500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423029198"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.gpeetudesrisqueexpositionau-sang",
+   "label": "Gpe Etudes Risque Exposition Au Sang",
+   "montant": 60000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382426005"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.afacrohnrchfrance",
+   "label": "Afa Crohn Rch France",
+   "montant": 60000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "343046132"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.fondationnationalesciences-politiques",
+   "label": "Fondation Nationale Sciences Politiques",
+   "montant": 60000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784308249"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.groupementetudeetprevention-suicide",
+   "label": "Groupement Etude Et Prevention Suicide",
+   "montant": 60000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302607940"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.fabriqueterritoiressante",
+   "label": "Fabrique Territoires Sante",
+   "montant": 60000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "537674707"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.centreinformation-documentationbruit",
+   "label": "Centre Information Documentation Bruit",
+   "montant": 52000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "313296717"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.associationdesamisdesmoinsde-unmillimetr",
+   "label": "Association Des Amis Des Moins De Un Millimetre Ademum",
+   "montant": 52000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923661656"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.associationnationaledesmaisons-desadoles",
+   "label": "Association Nationale Des Maisons Des Adolescents",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "752855551"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.federationfrancaisede-cardiologie",
+   "label": "Federation Francaise De Cardiologie",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784453250"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.groupfemmesabolitionmutil-sexuelles",
+   "label": "Group Femmes Abolition Mutil Sexuelles",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "329425458"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.associationfrancealzheimer",
+   "label": "Association France Alzheimer",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "337969646"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.respaddreseaudes-etablissementsdesantepo",
+   "label": "Respadd Reseau Des Etablissements De Sante Pour La Prevention Des Addictions",
+   "montant": 45000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "414419275"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.centreprimolevi",
+   "label": "Centre Primo Levi",
+   "montant": 45000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "401121355"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.autosupportreducrisques-usagersdrogu",
+   "label": "Auto Support Reduc Risques Usagers Drogu",
+   "montant": 42000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394842249"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.assocfranceparkinson",
+   "label": "Assoc France Parkinson",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "332111541"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.federationnationalededucation-etdepromot",
+   "label": "Federation Nationale D Education Et De Promotion De La Sante",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "448841767"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.socfrdeluttecontrelesida",
+   "label": "Soc Fr De Lutte Contre Le Sida",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423035468"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.federationfrancaiseanorexie-boulimie",
+   "label": "Federation Francaise Anorexie Boulimie",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "489150094"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.socfranaccompagsoinpalliatif",
+   "label": "Soc Fran Accompag Soin Palliatif",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390473353"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.federationhospitalierefrance",
+   "label": "Federation Hospitaliere France",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784546582"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.unionnationalepourla-preventiondusuicide",
+   "label": "Union Nationale Pour La Prevention Du Suicide Unps",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "421895582"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.nightlinefrance",
+   "label": "Nightline France",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "824092605"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.agroparistechinnovation",
+   "label": "Agroparistech Innovation",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "312097280"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.societefrancophonede-tabacologie",
+   "label": "Societe Francophone De Tabacologie",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388171019"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.institutnationaldusommeiletde-lavigilanc",
+   "label": "Institut National Du Sommeil Et De La Vigilance",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "433465168"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.santementalefrance",
+   "label": "Sante Mentale France",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "347399701"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.associationfrancophonede-remediationcogn",
+   "label": "Association Francophone De Remediation Cognitive",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "799000468"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.assscientifiquetecheauenviron",
+   "label": "Ass Scientifique Tech Eau Environ",
+   "montant": 34490.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784717050"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.sosamitiefrance",
+   "label": "S O S Amitie France",
+   "montant": 32000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775698095"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.securitesolaire",
+   "label": "Securite Solaire",
+   "montant": 32000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "400106910"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.unhajunionnationalepour-habitatdesjeunes",
+   "label": "Unhaj Union Nationale Pour Habitat Des Jeunes",
+   "montant": 31500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784362824"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.observatoireintprisonssection-francai",
+   "label": "Observatoire Int Prisons Section Francai",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "407668045"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.jusqualamortaccompagnerla-vie",
+   "label": "Jusqu A La Mort Accompagner La Vie",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388422941"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.avenirdesequipescoordonnees",
+   "label": "Avenir Des Equipes Coordonnees",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "503235384"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.federationnationaledes-dispositifsderess",
+   "label": "Federation Nationale Des Dispositifs De Ressources Et D Appui A La Coordination Des Parcours En Sante",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "851821462"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.socfrancaisealcoologie",
+   "label": "Soc Francaise Alcoologie",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "321569956"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.federationdescommunautes-professionnelle",
+   "label": "Federation Des Communautes Professionnelles Territoriales De Sante",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "877912881"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.apesac",
+   "label": "Apesac",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "749906582"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.societefrancaisedesante-digitalesfsd",
+   "label": "Societe Francaise De Sante Digitale Sfsd",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "533650412"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.actionstraitements",
+   "label": "Actions Traitements",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388615577"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.prominformationscientif-therapeutsida",
+   "label": "Prom Information Scientif Therapeut Sida",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384743704"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.federationnationaledescentres-desante",
+   "label": "Federation Nationale Des Centres De Sante",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378755060"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.argos2001",
+   "label": "Argos 2001",
+   "montant": 23000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "487704439"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.groupementetudeetprevention-suicide-2",
+   "label": "Groupement Etude Et Prevention Suicide",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302607940"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.associationdespollinariums-sentinellesde",
+   "label": "Association Des Pollinariums Sentinelles De France",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "753141720"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.federationfrancaised-addictologie",
+   "label": "Federation Francaise D Addictologie",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439242058"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.associationpourlerecensement-etlalocalis",
+   "label": "Association Pour Le Recensement Et La Localisation Des Defibrillateurs",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "511002412"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.associationdepromotionetd-identification",
+   "label": "Association De Promotion Et D Identification Des Cycles Et De La Mobilite Active Apic",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "889105243"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.federationfrancaisedesreseaux-desanteenp-2",
+   "label": "Federation Francaise Des Reseaux De Sante En Perinatalite",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "522546936"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.solidariteenfantssida",
+   "label": "Solidarite Enfants Sida",
+   "montant": 19000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383834025"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.collegedelamedecinegenerale",
+   "label": "College De La Medecine Generale",
+   "montant": 18000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "529370512"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.associationrevho",
+   "label": "Association Revho",
+   "montant": 18000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "480547413"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.associationlasemaineduson",
+   "label": "Association La Semaine Du Son",
+   "montant": 17000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "452577067"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.avenirsantefrance",
+   "label": "Avenir Sante France",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420829228"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.eluslocauxcontrelesida",
+   "label": "Elus Locaux Contre Le Sida",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "408499002"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.sparadrap",
+   "label": "Sparadrap",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "395056534"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.associationmeningiomesdual-acetatedecypr",
+   "label": "Association Meningiomes Du A L Acetate De Cyproterone Aide Aux Victimes Et Prise En Compte Des Autres Molecules",
+   "montant": 14300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "847807955"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.basiliade",
+   "label": "Basiliade",
+   "montant": 14000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "400840476"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.cyclamed",
+   "label": "Cyclamed",
+   "montant": 12023.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393163019"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.federationeuropeennevivreson-deuil",
+   "label": "Federation Europeenne Vivre Son Deuil",
+   "montant": 12000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "438496200"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.cimadeserviceoecumeniqued-entraide",
+   "label": "Cimade Service Oecumenique D Entraide",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775666597"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.derrierelablouse",
+   "label": "Derriere La Blouse",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "897775045"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.alliancedescollectivites-francaisespourl",
+   "label": "Alliance Des Collectivites Francaises Pour La Qualite De L Air",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "848755161"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.donnerdesellesalasanteddl",
+   "label": "Donner Des Elles A La Sante Ddl",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923607782"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.reseaudesfrance",
+   "label": "Reseau Des France",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "400979118"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.assnatctreinterrupgrossesse-contra",
+   "label": "Ass Nat Ctre Interrup Grossesse Contra",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "389962358"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.federationfrancaisede-psychiatrie",
+   "label": "Federation Francaise De Psychiatrie",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "395123789"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.unionnationassdefensefamilet-indiv",
+   "label": "Union Nation Ass Defense Famil Et Indiv",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "335255956"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.auditionsolidariteorg",
+   "label": "Audition Solidarite Org",
+   "montant": 9800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "503208183"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.acceptesst",
+   "label": "Acceptess T",
+   "montant": 8750.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "524416187"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.empreintesaccompagnerledeuil",
+   "label": "Empreintes Accompagner Le Deuil",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "400998142"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.socenseignementrecherche-toxicomanie",
+   "label": "Soc Enseignement Recherche Toxicomanie",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "335062659"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.collegenationalpourlaqualite-dessoinsenp",
+   "label": "College National Pour La Qualite Des Soins En Psychiatrie",
+   "montant": 7569.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "517432043"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.restonscheznous",
+   "label": "Restons Chez Nous",
+   "montant": 5460.13,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "479892093"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.assprofessionnelssanteen-prison",
+   "label": "Ass Professionnels Sante En Prison",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "419489802"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.associationfrancaisede-normalisation-2",
+   "label": "Association Francaise De Normalisation",
+   "montant": 4690.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775724818"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.secourscatholique",
+   "label": "Secours Catholique",
+   "montant": 3024.57,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775666696"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.asssportiveilienneamateurs",
+   "label": "Ass Sportive Ilienne Amateurs",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "479921348"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.coordinationnationaledes-reseauxdemicros",
+   "label": "Coordination Nationale Des Reseaux De Microstructures Medicales",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "494217540"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.associationdepreventiondela-pollutionatm",
+   "label": "Association De Prevention De La Pollution Atmospherique Hauts De France",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784361834"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.uniondesprofessionnelsducbd",
+   "label": "Union Des Professionnels Du Cbd",
+   "montant": 1001.13,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "901026005"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p204.associationvivreensemble",
+   "label": "Association Vivre Ensemble",
+   "montant": 262.9,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382754513"
+   },
+   "rattachement_id": "etat.depenses.BG.SA.204",
+   "enfants": []
+  }
+ ]
+}

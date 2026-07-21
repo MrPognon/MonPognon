@@ -1,0 +1,7093 @@
+{
+ "id": "etat.subventions.p206",
+ "label": "Programme 206 — Sécurité et qualité sanitaires de l'alimentation : bénéficiaires des subventions aux associations",
+ "montant": 21298303.96,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "544 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p206.fredonoccitanie",
+   "label": "Fredon Occitanie",
+   "montant": 2915694.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "395095367"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.polleniz",
+   "label": "Polleniz",
+   "montant": 1190554.67,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "877959064"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.institutdelelevage",
+   "label": "Institut De L Elevage",
+   "montant": 1154693.64,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302984158"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fredonmairiedecauro",
+   "label": "Fredon Mairie De Cauro",
+   "montant": 1084164.49,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "449912344"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gptdefensesanitairebearnpays-basque",
+   "label": "Gpt Defense Sanitaire Bearn Pays Basque",
+   "montant": 732452.7,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "343715710"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fredoniledefrance",
+   "label": "Fredon Ile De France",
+   "montant": 720560.42,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "443614177"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitaire-corse",
+   "label": "Groupement De Defense Sanitaire Corse",
+   "montant": 548797.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483281242"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.frgdsoccitanie",
+   "label": "Frgds Occitanie",
+   "montant": 533473.89,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "824798797"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gptdedefensesanitairedela-reunion",
+   "label": "Gpt De Defense Sanitaire De La Reunion",
+   "montant": 394097.85,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "351358494"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitairede-bourgogne",
+   "label": "Groupement De Defense Sanitaire De Bourgogne Franche Comte",
+   "montant": 391257.57,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420568156"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupdefensesanitairecotedor",
+   "label": "Group Defense Sanitaire Cote D Or",
+   "montant": 338059.92,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "306553645"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.agroparistechinnovation",
+   "label": "Agroparistech Innovation",
+   "montant": 329768.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "312097280"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationregionaledes-groupementsdedefe",
+   "label": "Federation Regionale Des Groupements De Defense Sanitaire Du Grand Est",
+   "montant": 329609.92,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "825014392"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fredonmairiedecauro-2",
+   "label": "Fredon Mairie De Cauro",
+   "montant": 322441.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "449912344"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fredonmartinique",
+   "label": "Fredon Martinique",
+   "montant": 305478.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "314080359"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.socnationgroupetechnique-veterinaires",
+   "label": "Soc Nation Groupe Technique Veterinaires",
+   "montant": 268541.08,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "389917089"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationnationaledeschasseurs",
+   "label": "Federation Nationale Des Chasseurs",
+   "montant": 254760.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439220153"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationfrancaisede-normalisation",
+   "label": "Association Francaise De Normalisation",
+   "montant": 250040.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775724818"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gdsbretagne",
+   "label": "Gds Bretagne",
+   "montant": 238834.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "478573173"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationregionaledes-groupementsdedefe-2",
+   "label": "Federation Regionale Des Groupements De Defense Sanitaire Des Hauts De France",
+   "montant": 222429.47,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "805181245"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitairedes-paysdelo",
+   "label": "Groupement De Defense Sanitaire Des Pays De Loire Designe Par Gds Pays De La Loire",
+   "montant": 221477.05,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "508422458"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationregionaledes-groupementsdedefe-3",
+   "label": "Federation Regionale Des Groupements De Defense Sanitaire D Auvergne Rhone Alpes",
+   "montant": 201502.39,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "847552718"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.socnationgroupetechnique-veterinaires-2",
+   "label": "Soc Nation Groupe Technique Veterinaires",
+   "montant": 200747.66,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "389917089"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.protectvegfredonguyane",
+   "label": "Protect Veg Fredon Guyane",
+   "montant": 200741.44,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "820724920"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gdsfrance",
+   "label": "Gds France",
+   "montant": 191000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "304863137"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.frgdsnouvelleaquitaine",
+   "label": "Frgds Nouvelle Aquitaine",
+   "montant": 141377.93,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "825290166"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gptdefensesanitairemartinique",
+   "label": "Gpt Defense Sanitaire Martinique",
+   "montant": 139205.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423953850"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitairedel-orne",
+   "label": "Groupement De Defense Sanitaire De L Orne",
+   "montant": 118980.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420374472"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupdedefensesanitairedela-loire",
+   "label": "Group De Defense Sanitaire De La Loire",
+   "montant": 112273.44,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302845540"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.frgdsnouvelleaquitaine-2",
+   "label": "Frgds Nouvelle Aquitaine",
+   "montant": 109126.17,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "825290166"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementtechniqueveterinaire-regionalc",
+   "label": "Groupement Technique Veterinaire Regional Corse",
+   "montant": 106000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "813462694"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.asslandaiseluttemaladiesanimales",
+   "label": "Ass Landaise Lutte Maladies Animales",
+   "montant": 103590.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "343988218"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.ifipinstitutduporc",
+   "label": "Ifip Institut Du Porc",
+   "montant": 102500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775681323"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lacooperationagricole",
+   "label": "La Cooperation Agricole",
+   "montant": 101704.99,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784179665"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.resdepidemioenpathologieequine",
+   "label": "Res D Epidemio En Pathologie Equine",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "504609322"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.unionnormandedesgroupementsde-defensesan",
+   "label": "Union Normande Des Groupements De Defense Sanitaire",
+   "montant": 97674.46,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840338909"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.unionnormandedesgroupementsde-defensesan-2",
+   "label": "Union Normande Des Groupements De Defense Sanitaire",
+   "montant": 94252.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840338909"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gds47associationdepartemetalede-luttecon",
+   "label": "Gds 47 Association Departemetale De Lutte Contre Les Maladies Du Betail",
+   "montant": 93061.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782153076"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementtechniqueveterinaired-occitani",
+   "label": "Groupement Technique Veterinaire D Occitanie Gtv Occitanie",
+   "montant": 92838.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "822935086"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.asscoordinattechniqagricole",
+   "label": "Ass Coordinat Techniq Agricole",
+   "montant": 91400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784523318"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementtechniqueveterinairede-bourgog",
+   "label": "Groupement Technique Veterinaire De Bourgogne Franche Comte",
+   "montant": 90629.03,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410900815"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.comiteregionaleducationpourla-sante",
+   "label": "Comite Regional Education Pour La Sante",
+   "montant": 88748.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782886196"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.officeinternationaldeleau",
+   "label": "Office International De L Eau",
+   "montant": 86000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "314901729"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gptdedefensesanitaireducantal",
+   "label": "Gpt De Defense Sanitaire Du Cantal",
+   "montant": 85666.63,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383274461"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitaire-corse-2",
+   "label": "Groupement De Defense Sanitaire Corse",
+   "montant": 77730.72,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483281242"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.urgtvcentre",
+   "label": "Urgtv Centre",
+   "montant": 75925.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840471023"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupdefensanitbetailhteloire",
+   "label": "Group Defen Sanit Betail Hte Loire",
+   "montant": 75804.63,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779145762"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationregionaledes-groupementsdedefe-4",
+   "label": "Federation Regionale Des Groupements De Defense Sanitaire D Aquitaine",
+   "montant": 75605.16,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432974699"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationregionaledescivamd-occitanie",
+   "label": "Federation Regionale Des Civam D Occitanie",
+   "montant": 75530.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "395392913"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementtechniqueveterinaire-regionnou",
+   "label": "Groupement Technique Veterinaire Region Nouvelle Aquitaine",
+   "montant": 73594.77,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "825229933"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.instituttechniquedelaviculturede-lacunic",
+   "label": "Institut Technique De L Aviculture De La Cuniculture Et De La Pisciculture Itavi",
+   "montant": 72200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "339155681"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationregionaledes-groupementstechni",
+   "label": "Federation Regionale Des Groupements Techniques Veterinaires Haut6De6Frances Frgtv",
+   "montant": 71998.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "828700476"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.frgdsnouvelleaquitaine-3",
+   "label": "Frgds Nouvelle Aquitaine",
+   "montant": 70676.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "825290166"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gdseure",
+   "label": "Gds Eure",
+   "montant": 68967.96,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "303544894"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.grptdefensesanitairecheptel",
+   "label": "Grpt Defense Sanitaire Cheptel",
+   "montant": 67471.13,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302828330"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitaireche",
+   "label": "Groupement De Defense Sanitaire Che",
+   "montant": 67318.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779035377"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementtechniqueveterinaire-regionald",
+   "label": "Groupement Technique Veterinaire Regional Du Grand Est",
+   "montant": 66903.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "829851575"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assgroupementtechveterinairepa-ca",
+   "label": "Ass Groupement Tech Veterinaire P A C A",
+   "montant": 66645.25,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "417538295"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitairedu-betaildup",
+   "label": "Groupement De Defense Sanitaire Du Betail Du Puy De Dome",
+   "montant": 66351.96,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384103024"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitaire",
+   "label": "Groupement De Defense Sanitaire",
+   "montant": 66116.22,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "407631019"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupdepartdefenssanitbeta",
+   "label": "Group Depart Defens Sanit Beta",
+   "montant": 64175.25,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "318435252"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementtechniqueveterinaire-normand",
+   "label": "Groupement Technique Veterinaire Normand",
+   "montant": 63300.96,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "819890708"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitaire-2",
+   "label": "Groupement De Defense Sanitaire",
+   "montant": 62031.43,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "403336159"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.cifog",
+   "label": "Cifog",
+   "montant": 60000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "412222044"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementtechniqueveterinairede-bretagn",
+   "label": "Groupement Technique Veterinaire De Bretagne",
+   "montant": 59804.16,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "447685710"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.rechinnovtransferttechnmatfert-org",
+   "label": "Rech Innov Transfert Techn Mat Fert Org",
+   "montant": 56910.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "441508017"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.frgdsnouvelleaquitaine-4",
+   "label": "Frgds Nouvelle Aquitaine",
+   "montant": 56587.61,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "825290166"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.etsdepartdelelevagedupuyde-dome",
+   "label": "Ets Depart De L Elevage Du Puy De Dome",
+   "montant": 55789.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "301468716"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.grptdefensesanitairecheptel-ardeche",
+   "label": "Grpt Defense Sanitaire Cheptel Ardeche",
+   "montant": 55419.71,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383449188"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementtechniqueveterinaire-gtvdespay",
+   "label": "Groupement Technique Veterinaire Gtv Des Pays De La Loire",
+   "montant": 55304.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "828995449"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitairedes-savoie",
+   "label": "Groupement De Defense Sanitaire Des Savoie",
+   "montant": 55272.87,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776531493"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.plateformepublicprivepourlapre-validatio",
+   "label": "Plateforme Public Prive Pour La Pre Validation Des Methodes De Caracterisation Des Perturbateurs Endocriniens",
+   "montant": 54798.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "880969555"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitairede-lahautega",
+   "label": "Groupement De Defense Sanitaire De La Haute Garonne G D S 31",
+   "montant": 54716.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "338124456"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitaire-corse-3",
+   "label": "Groupement De Defense Sanitaire Corse",
+   "montant": 54557.51,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483281242"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gptdefensesanitairedubetaildu-rhone",
+   "label": "Gpt Defense Sanitaire Du Betail Du Rhone",
+   "montant": 54241.66,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398023481"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.terresenvilles",
+   "label": "Terres En Villes",
+   "montant": 51350.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "453022725"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.phytovictimesoupvassociationdes-professi",
+   "label": "Phyto Victimes Ou Pv Association Des Professionnels Victimes Des Produits Phytosanitaires",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "532715927"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.senura",
+   "label": "S E N U R A",
+   "montant": 49364.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "407846344"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.frgdsnouvelleaquitaine-5",
+   "label": "Frgds Nouvelle Aquitaine",
+   "montant": 47011.99,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "825290166"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federregiogroupdefenssanit-prove",
+   "label": "Feder Regio Group Defens Sanit Prove",
+   "montant": 46370.25,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380098582"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationoccitanedefenseforet",
+   "label": "Association Occitane Defense Foret",
+   "montant": 43992.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "339542763"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federregiogroupdefenssanit-prove-2",
+   "label": "Feder Regio Group Defens Sanit Prove",
+   "montant": 43654.22,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380098582"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federregiogroupdefenssanit-prove-3",
+   "label": "Feder Regio Group Defens Sanit Prove",
+   "montant": 41911.27,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380098582"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federregiogroupdefenssanit-prove-4",
+   "label": "Feder Regio Group Defens Sanit Prove",
+   "montant": 41787.55,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380098582"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federregiogroupdefenssanit-prove-5",
+   "label": "Feder Regio Group Defens Sanit Prove",
+   "montant": 41341.46,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380098582"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationdepartchasseursdu-calvados",
+   "label": "Federation Depart Chasseurs Du Calvados",
+   "montant": 41250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780697330"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.frgdsnouvelleaquitaine-6",
+   "label": "Frgds Nouvelle Aquitaine",
+   "montant": 40811.71,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "825290166"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementtechniqueveterinaire-regional",
+   "label": "Groupement Technique Veterinaire Regional",
+   "montant": 40797.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "831315288"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementregionaldedefense-sanitairedes",
+   "label": "Groupement Regional De Defense Sanitaire Des Animaux D Ile De France",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "532155249"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementregionaldedefense-sanitairedes-2",
+   "label": "Groupement Regional De Defense Sanitaire Des Animaux D Ile De France",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "532155249"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.ovinfos",
+   "label": "Ovinfos",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "752652438"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.frgdsnouvelleaquitaine-7",
+   "label": "Frgds Nouvelle Aquitaine",
+   "montant": 39596.71,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "825290166"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.frgdsnouvelleaquitaine-8",
+   "label": "Frgds Nouvelle Aquitaine",
+   "montant": 38368.97,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "825290166"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gptdepdefensesanitairedes-animaux",
+   "label": "Gpt Dep Defense Sanitaire Des Animaux",
+   "montant": 38056.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "781342670"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fredonmairiedecauro-3",
+   "label": "Fredon Mairie De Cauro",
+   "montant": 37289.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "449912344"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assconseildedeveloppays-pyreneesme",
+   "label": "Ass Conseil De Develop Pays Pyrenees Me",
+   "montant": 37208.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380561498"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federregiogroupdefenssanit-prove-6",
+   "label": "Feder Regio Group Defens Sanit Prove",
+   "montant": 36211.55,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380098582"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.unplusbio",
+   "label": "Un Plus Bio",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "445260144"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.miamuselesmondesdelimage-animationmusiqu",
+   "label": "Miamuse Les Mondes De L Image Animation Musique Saveurs Eveil",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "523735504"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lecolecomestible",
+   "label": "L Ecole Comestible",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "878966035"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.graineoccitanie",
+   "label": "Graine Occitanie",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420582462"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.interassocformationcollective-gestion",
+   "label": "Inter Assoc Formation Collective Gestion",
+   "montant": 34661.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "348548140"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.frgdsnouvelleaquitaine-9",
+   "label": "Frgds Nouvelle Aquitaine",
+   "montant": 33815.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "825290166"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementregionaldescentresd-initiative",
+   "label": "Groupement Regional Des Centres D Initiatives Pour Valoriser L Agriculture Et Le Milieu Rural Provence Alpes Cote D Azur",
+   "montant": 32500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382874212"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.asspatrimonialeinternationale",
+   "label": "Ass Patrimoniale Internationale",
+   "montant": 32400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "381737915"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationregionaledes-groupementsdedefe-5",
+   "label": "Federation Regionale Des Groupements De Defense Sanitaire D Aquitaine",
+   "montant": 32027.04,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432974699"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.adapei",
+   "label": "Adapei",
+   "montant": 31890.44,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775638737"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.frgdsnouvelleaquitaine-10",
+   "label": "Frgds Nouvelle Aquitaine",
+   "montant": 31396.94,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "825290166"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationregionaledeprevention-delanti",
+   "label": "Association Regionale De Prevention De L Antibioresistance En Sante Animale Arpant",
+   "montant": 30400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "823562731"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.centrepermanentdinitiativespourl-environ",
+   "label": "Centre Permanent D Initiatives Pour L Environnement Yonne Et Nievre",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "477775209"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assanimalsocietealimentasa",
+   "label": "Ass Animal Societe Aliment A S A",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "303004212"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.steprotectriceanimauxcher-centre",
+   "label": "Ste Protectrice Animaux Cher Centre",
+   "montant": 29939.61,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "452717804"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assocdeseleveursdedordogne",
+   "label": "Assoc Des Eleveurs De Dordogne",
+   "montant": 29759.84,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "308053677"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.frgdsnouvelleaquitaine-11",
+   "label": "Frgds Nouvelle Aquitaine",
+   "montant": 29732.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "825290166"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationnationalepourl-educationaugou",
+   "label": "Association Nationale Pour L Education Au Gout",
+   "montant": 27837.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "788678118"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.institutdugout",
+   "label": "Institut Du Gout",
+   "montant": 27500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "424893246"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gds70",
+   "label": "Gds70",
+   "montant": 26586.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778542795"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assveterinaireequinefrancaise",
+   "label": "Ass Veterinaire Equine Francaise",
+   "montant": 26585.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785735333"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationfrancaisede-normalisation-2",
+   "label": "Association Francaise De Normalisation",
+   "montant": 25989.36,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775724818"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.ethosphr",
+   "label": "Ethosph R",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "828592436"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.asslepassemuraille",
+   "label": "Ass Le Passe Muraille",
+   "montant": 24956.23,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "421217084"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.maisondelanutrition",
+   "label": "Maison De La Nutrition",
+   "montant": 24474.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423425743"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationregionaledagriculture-biologiq",
+   "label": "Federation Regionale D Agriculture Biologique D Auvergne Rhone Alpes",
+   "montant": 24078.34,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "822717500"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.unionnormandedesgroupementsde-defensesan-3",
+   "label": "Union Normande Des Groupements De Defense Sanitaire",
+   "montant": 24000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840338909"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationregionaledes-groupementsdedefe-6",
+   "label": "Federation Regionale Des Groupements De Defense Sanitaire D Aquitaine",
+   "montant": 23082.14,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432974699"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.interbionouvelleaquitaine",
+   "label": "Interbio Nouvelle Aquitaine",
+   "montant": 23000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "442751715"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.reseaumargueritecultivons-ensembleunmond",
+   "label": "Reseau Marguerite Cultivons Ensemble Un Monde Plus Juste",
+   "montant": 22600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "843237280"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationbdporc",
+   "label": "Association Bd Porc",
+   "montant": 22077.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "484788468"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gptdefensesanitlotoisamelior-elevage",
+   "label": "Gpt Defense Sanit Lotois Amelior Elevage",
+   "montant": 21697.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "353368657"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assespacecentre",
+   "label": "Ass Espace Centre",
+   "montant": 21645.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "441084035"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.inpactcentre",
+   "label": "Inpact Centre",
+   "montant": 21000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "534461025"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.citoyensetterritoiresgrandest",
+   "label": "Citoyens Et Territoires Grand Est",
+   "montant": 21000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383258050"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fondationhopale",
+   "label": "Fondation Hopale",
+   "montant": 20625.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775630445"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.vraccocinascooperations-citoyennespourla",
+   "label": "Vrac Cocinas Cooperations Citoyennes Pour L Alimentation Et La Solidarite",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "893104836"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fnenormandie",
+   "label": "Fne Normandie",
+   "montant": 19296.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "442524278"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gds976mayotte",
+   "label": "Gds 976 Mayotte",
+   "montant": 18920.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "891352874"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.active",
+   "label": "Active",
+   "montant": 18759.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "431626621"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.grptdedefensesanitaire",
+   "label": "Grpt De Defense Sanitaire",
+   "montant": 18214.71,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778396853"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.caralim",
+   "label": "Caralim",
+   "montant": 17750.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "821918703"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.feddepgptdefensesanitaire",
+   "label": "Fed Dep Gpt Defense Sanitaire",
+   "montant": 17726.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "318977709"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.auxpresdescuisiniers",
+   "label": "Aux Pres Des Cuisiniers",
+   "montant": 17500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "887944338"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.openagrifoodorleans",
+   "label": "Open Agrifood Orleans",
+   "montant": 17500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "801057662"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationnouvelleaquitainedes-achatspu",
+   "label": "Association Nouvelle Aquitaine Des Achats Publics Responsables",
+   "montant": 17377.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "792296766"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assregexperimentfruitslegumes-corse",
+   "label": "Ass Reg Experiment Fruits Legumes Corse",
+   "montant": 17232.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390333672"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupdepartdefenssanitbeta-2",
+   "label": "Group Depart Defens Sanit Beta",
+   "montant": 16863.9,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "318435252"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.ouichange",
+   "label": "Ouichange",
+   "montant": 16664.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "898866348"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.carbetdessciences",
+   "label": "Carbet Des Sciences",
+   "montant": 16250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394418875"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.restauco",
+   "label": "Restau Co",
+   "montant": 16200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "493809586"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.agropolisinternational",
+   "label": "Agropolis International",
+   "montant": 16000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340751585"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associcaunaisedesrestaurantsdu-coeur",
+   "label": "Assoc Icaunaise Des Restaurants Du Coeur",
+   "montant": 15752.67,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393369343"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.institutdugout-2",
+   "label": "Institut Du Gout",
+   "montant": 15566.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "424893246"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.epioneprevention",
+   "label": "Epione Prevention",
+   "montant": 15506.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "749951877"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitairedes-savoie-2",
+   "label": "Groupement De Defense Sanitaire Des Savoie",
+   "montant": 15265.41,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776531493"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.cantinesresponsables",
+   "label": "Cantines Responsables",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "848656955"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assocfrancaiseveterinairesanimaux-decomp",
+   "label": "Assoc Francaise Veterinaires Animaux De Compagnie",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "321592701"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lesangesgardins",
+   "label": "Les Anges Gardins",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "531858652"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.solinum",
+   "label": "Solinum",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "821691151"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupdefensesanitairecotedor-2",
+   "label": "Group Defense Sanitaire Cote D Or",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "306553645"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.alterrebourgognefranchecomte",
+   "label": "Alterre Bourgogne Franche Comte",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393708870"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.clubexpertnutritionetalimentation",
+   "label": "Club Expert Nutrition Et Alimentation",
+   "montant": 14927.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "480239748"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.frgdsnouvelleaquitaine-12",
+   "label": "Frgds Nouvelle Aquitaine",
+   "montant": 14927.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "825290166"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.cantinesresponsables-2",
+   "label": "Cantines Responsables",
+   "montant": 14400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "848656955"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.123sommeil",
+   "label": "123 Sommeil",
+   "montant": 13700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "851070359"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.unionnormandedesgroupementsde-defensesan-4",
+   "label": "Union Normande Des Groupements De Defense Sanitaire",
+   "montant": 13278.34,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840338909"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.reseaudeducationnutritionnelle-infantile",
+   "label": "Reseau D Education Nutritionnelle Infantile De La Reunion",
+   "montant": 13180.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "451201636"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationregionaledes-groupementsdedefe-7",
+   "label": "Federation Regionale Des Groupements De Defense Sanitaire Des Hauts De France",
+   "montant": 12747.42,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "805181245"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationvegetariennedefrance",
+   "label": "Association Vegetarienne De France",
+   "montant": 12500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "414697763"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.promotionsantenormandie",
+   "label": "Promotion Sante Normandie",
+   "montant": 12500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "828588319"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.institutregeducnutritionnelle",
+   "label": "Institut Reg Educ Nutritionnelle",
+   "montant": 12430.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "450289392"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationoccitanedefenseforet-2",
+   "label": "Association Occitane Defense Foret",
+   "montant": 12100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "339542763"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.frgdsnouvelleaquitaine-13",
+   "label": "Frgds Nouvelle Aquitaine",
+   "montant": 12056.52,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "825290166"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.biooccitaniefederationregionaled-agricul",
+   "label": "Bio Occitanie Federation Regionale D Agriculture Biologique",
+   "montant": 12050.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "835235292"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.asslepanierdelamer62",
+   "label": "Ass Le Panier De La Mer 62",
+   "montant": 12000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "444850572"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.agenceurbanismeairetoulonnaise",
+   "label": "Agence Urbanisme Aire Toulonnaise",
+   "montant": 12000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "451476899"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.plantecite",
+   "label": "Plante Cite",
+   "montant": 12000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "488701095"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lemouvementdescuisines-nourricieres",
+   "label": "Le Mouvement Des Cuisines Nourricieres",
+   "montant": 11657.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "884624081"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementtechniqueveterinaire-gtvdespay-2",
+   "label": "Groupement Technique Veterinaire Gtv Des Pays De La Loire",
+   "montant": 11603.32,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "828995449"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.biobourgognefranchecomte",
+   "label": "Bio Bourgogne Franche Comte",
+   "montant": 11531.15,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390605723"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gptdedefensesanitairedela-reunion-2",
+   "label": "Gpt De Defense Sanitaire De La Reunion",
+   "montant": 11523.58,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "351358494"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.promotionsantebourgognefranche-comte",
+   "label": "Promotion Sante Bourgogne Franche Comte",
+   "montant": 11484.3,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "414468223"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assagroedieurope",
+   "label": "Ass Agro Edi Europe",
+   "montant": 11344.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434312849"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lespoir",
+   "label": "L Espoir",
+   "montant": 11200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331232611"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.auxgoutsdujour",
+   "label": "Aux Gouts Du Jour",
+   "montant": 11185.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "488997735"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.caribvet",
+   "label": "Caribvet",
+   "montant": 11023.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923219794"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.espacesantedulittoral",
+   "label": "Espace Sante Du Littoral",
+   "montant": 11000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "820677565"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationpourlarealisationd-interventi",
+   "label": "Association Pour La Realisation D Interventions Medicales Et De Sante Au Travail",
+   "montant": 10977.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340630060"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gptdepdefensesanitairedes-animaux-2",
+   "label": "Gpt Dep Defense Sanitaire Des Animaux",
+   "montant": 10825.05,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "405258088"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.solidaritedesproducteurs-agricolesetdesf",
+   "label": "Solidarite Des Producteurs Agricoles Et Des Filieres Alimentaires Des Hauts De France",
+   "montant": 10800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "887628030"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.clubexpertnutritionetalimentation-2",
+   "label": "Club Expert Nutrition Et Alimentation",
+   "montant": 10620.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "480239748"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.grainepaysdeloire",
+   "label": "Graine Pays De Loire",
+   "montant": 10500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391289352"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.jardindecocagneangevin-association",
+   "label": "Jardin De Cocagne Angevin Association",
+   "montant": 10500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423467562"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fredoniledefrance-2",
+   "label": "Fredon Ile De France",
+   "montant": 10492.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "443614177"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.eveilogout",
+   "label": "Eveil O Gout",
+   "montant": 10432.51,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "527914683"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.paesedavvene",
+   "label": "Paese D Avvene",
+   "montant": 10349.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840094882"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationguyanasso",
+   "label": "Association Guyanasso",
+   "montant": 10125.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "798847307"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationrizreunionarr",
+   "label": "Association Riz Reunion Arr",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "881144984"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fablimlelabodesterritoires-alimentairesm",
+   "label": "Fab Lim Le Labo Des Territoires Alimentaires Mediterraneens",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "481872398"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lescolsvertsstrasbourg",
+   "label": "Les Cols Verts Strasbourg",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "890914781"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationrunaction",
+   "label": "Association Run Action",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "514116425"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.kpab6t",
+   "label": "K Pab6T",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "897545463"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupdefensesanitairebetail",
+   "label": "Group Defense Sanitaire Betail",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "312990138"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.revivreiledefrance",
+   "label": "Re Vivre Ile De France",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393844857"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.atmograndest",
+   "label": "Atmo Grand Est",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "822734307"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.maisonagriculturebiologique",
+   "label": "Maison Agriculture Biologique",
+   "montant": 9900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "352369078"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.armeflhor",
+   "label": "A R M E F L Hor",
+   "montant": 9900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390767564"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.ojardindepaulo",
+   "label": "O Jardin De Paulo",
+   "montant": 9820.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "814498366"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.epioneprevention-2",
+   "label": "Epione Prevention",
+   "montant": 9294.98,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "749951877"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.servicedepreventionetdesanteau-travailde",
+   "label": "Service De Prevention Et De Sante Au Travail De La Loire 42",
+   "montant": 9195.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776344970"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.comitenordplantsdepommede-terre",
+   "label": "Comite Nord Plants De Pomme De Terre",
+   "montant": 9182.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784364283"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.castelrenaudaisinsertion",
+   "label": "Castel Renaudais Insertion",
+   "montant": 9152.12,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410209787"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationdepartchasseurs-dordogne",
+   "label": "Federation Depart Chasseurs Dordogne",
+   "montant": 9056.87,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "781690433"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federregiogroupdefenssanit-prove-7",
+   "label": "Feder Regio Group Defens Sanit Prove",
+   "montant": 9025.72,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380098582"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.synethic",
+   "label": "Synethic",
+   "montant": 9000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "529898702"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.oeuvreassistbetesabattoir",
+   "label": "Oeuvre Assist Betes Abattoir",
+   "montant": 8880.3,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784452351"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.grptdedefensesanitairedudoubs-gds25",
+   "label": "Grpt De Defense Sanitaire Du Doubs Gds 25",
+   "montant": 8825.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "300220811"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.legermoir",
+   "label": "Le Germoir",
+   "montant": 8750.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "438275471"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.bioengrandest",
+   "label": "Bio En Grand Est",
+   "montant": 8712.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "839088085"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.luniversdugoutenalsace",
+   "label": "L Univers Du Gout En Alsace",
+   "montant": 8500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "788988251"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.formasupprovencealpescoted-azur",
+   "label": "Formasup Provence Alpes Cote D Azur",
+   "montant": 8500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393914395"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.laposa",
+   "label": "Laposa",
+   "montant": 8500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "808273817"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.dupainsurlaplanche",
+   "label": "Du Pain Sur La Planche",
+   "montant": 8472.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "508901857"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationpourlarealisationd-interventi-2",
+   "label": "Association Pour La Realisation D Interventions Medicales Et De Sante Au Travail",
+   "montant": 8238.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340630060"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.emplettesetcagettes",
+   "label": "Emplettes Et Cagettes",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "889365235"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationdesdieteticiens-nutritionnist",
+   "label": "Association Des Dieteticiens Nutritionnistes De La Reunion",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "902078666"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.frgdsoccitanie-2",
+   "label": "Frgds Occitanie",
+   "montant": 7884.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "824798797"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.sapotnbred",
+   "label": "Sapot N Bred",
+   "montant": 7800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923489629"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationdepartementaledes-lieutenants",
+   "label": "Association Departementale Des Lieutenants De Louveterie De La Haute Garonne",
+   "montant": 7657.91,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "809912777"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assodeslieutenantsdelouveterie",
+   "label": "Asso Des Lieutenants De Louveterie",
+   "montant": 7653.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "414696997"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.banquealimentairedefranchecomte",
+   "label": "Banque Alimentaire De Franche Comte",
+   "montant": 7500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "345293005"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.anisetoile",
+   "label": "A N I S Etoile",
+   "montant": 7500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "482342938"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationgestionnaireducfades-universi",
+   "label": "Association Gestionnaire Du Cfa Des Universites Centre Val De Loire",
+   "montant": 7400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "450491238"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.unionnormandedesgroupementsde-defensesan-5",
+   "label": "Union Normande Des Groupements De Defense Sanitaire",
+   "montant": 7252.55,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840338909"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.clubexpertnutritionetalimentation-3",
+   "label": "Club Expert Nutrition Et Alimentation",
+   "montant": 7200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "480239748"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.timbastien",
+   "label": "Tim Bastien",
+   "montant": 7200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "894982461"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fedorgandefenssanitaveyron",
+   "label": "Fed Organ Defens Sanit Aveyron",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "320291826"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.syndinterprofessioneloleiculteurs-cors",
+   "label": "Synd Interprofessionel Oleiculteurs Cors",
+   "montant": 6900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "433216785"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.orsac",
+   "label": "Orsac",
+   "montant": 6813.43,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775544562"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.franceactivefranchecomte",
+   "label": "France Active Franche Comte",
+   "montant": 6774.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "482449410"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationdorganisationde-producteursna",
+   "label": "Association D Organisation De Producteurs Nationale Fraise",
+   "montant": 6760.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "513175919"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.solinum-2",
+   "label": "Solinum",
+   "montant": 6750.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "821691151"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.bioenhautsdefrance",
+   "label": "Bio En Hauts De France",
+   "montant": 6681.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "433476686"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.martiniqueproductionlocalecom",
+   "label": "Martinique Productionlocale Com",
+   "montant": 6626.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "917657348"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.formasupauvergne",
+   "label": "Formasup Auvergne",
+   "montant": 6500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "491710646"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.asslepassejardins",
+   "label": "Ass Le Passe Jardins",
+   "montant": 6477.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "421959875"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.coordinatagrobiologiquepaysde-loire",
+   "label": "Coordinat Agrobiologique Pays De Loire",
+   "montant": 6300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384354759"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupdefensesanitairevendee",
+   "label": "Group Defense Sanitaire Vendee",
+   "montant": 6250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "786440339"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitairedes-savoie-3",
+   "label": "Groupement De Defense Sanitaire Des Savoie",
+   "montant": 6248.89,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776531493"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.centreinitiatvaloragricmilieu-rural",
+   "label": "Centre Initiat Valor Agric Milieu Rural",
+   "montant": 6207.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410918403"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationpourlarealisationd-interventi-3",
+   "label": "Association Pour La Realisation D Interventions Medicales Et De Sante Au Travail",
+   "montant": 6203.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340630060"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lessensdugout",
+   "label": "Les Sens Du Gout",
+   "montant": 6176.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "421257817"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationpourlarealisationd-interventi-4",
+   "label": "Association Pour La Realisation D Interventions Medicales Et De Sante Au Travail",
+   "montant": 6132.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340630060"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lacloche",
+   "label": "La Cloche",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "809267370"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.spmaideauxanimaux",
+   "label": "Spm Aide Aux Animaux",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "414972232"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assoducentredebeaumotte",
+   "label": "Asso Du Centre De Beaumotte",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "319659959"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.symbiozrecycleriefermeurbaine",
+   "label": "Symbioz Recyclerie Ferme Urbaine",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "842274946"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.renetareseaunationaldesespaces-testagric",
+   "label": "Reneta Reseau National Des Espaces Test Agricoles",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "753093020"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.epicerise",
+   "label": "Epi Cerise",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "790431803"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.c2sservices",
+   "label": "C 2 S Services",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "422716225"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lacooperationagricolecorse",
+   "label": "La Cooperation Agricole Corse",
+   "montant": 5950.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428213110"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.centreintermedecinetravail",
+   "label": "Centre Inter Medecine Travail",
+   "montant": 5796.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784346983"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.tipinouzotes",
+   "label": "Tipinouzotes",
+   "montant": 5675.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "831623665"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.comitenordplantsdepommede-terre-2",
+   "label": "Comite Nord Plants De Pomme De Terre",
+   "montant": 5668.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784364283"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.formasupiseredromeardeche",
+   "label": "Formasup Isere Drome Ardeche",
+   "montant": 5600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "409458049"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.coopagglodugrandverdun",
+   "label": "Coop Agglo Du Grand Verdun",
+   "montant": 5600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "890430408"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.cpiecortecentrecorseassociation-arinasci",
+   "label": "Cpie Corte Centre Corse Association A Rinascita Di U Vecchju Corti",
+   "montant": 5574.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "443647862"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.comiteregionaldinterfelhautsde-france",
+   "label": "Comite Regional D Interfel Hauts De France",
+   "montant": 5558.65,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "881483648"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.maisondelalimentationmeuse-alimentationq",
+   "label": "Maison De L Alimentation Meuse Alimentation Qualite",
+   "montant": 5455.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "911248516"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gdondusauternaisetdesgraves",
+   "label": "G Don Du Sauternais Et Des Graves",
+   "montant": 5441.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "523800050"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensecontreles-organismesn",
+   "label": "Groupement De Defense Contre Les Organismes Nuisibles",
+   "montant": 5410.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "807544218"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.instanceregionaleeducation-promotionsant",
+   "label": "Instance Regionale Education Promotion Sante Martinique",
+   "montant": 5400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "326482452"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gptdedefensesanitaireanimauxdes-po",
+   "label": "Gpt De Defense Sanitaire Animaux Des P O",
+   "montant": 5050.52,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "415001908"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationregionaledes-cooperativesdutil",
+   "label": "Federation Regionale Des Cooperatives D Utilisation De Materiel Agricole Grand Est",
+   "montant": 5016.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "824776215"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.maeva",
+   "label": "Maeva",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "901640540"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationpourlapreventionetla-protecti",
+   "label": "Association Pour La Prevention Et La Protection De La Faune De Mayotte",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "880391123"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationpourlaprotection-animale",
+   "label": "Association Pour La Protection Animale",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "521438390"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.larchedhelios",
+   "label": "L Arche D Helios",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "918322785"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lesmoustachesdelhippocampe",
+   "label": "Les Moustaches De L Hippocampe",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "850364175"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.agrialilleportedespostes-associationdege",
+   "label": "Agria Lille Porte Des Postes Association De Gestion Du Restaurant Inter Administratif De Lille Porte Des Postes",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "912931672"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.polealimentationdurable",
+   "label": "Pole Alimentation Durable",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923545081"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.espacedeprojetsdinsertioncuisine-etsante",
+   "label": "Espace De Projets D Insertion Cuisine Et Sante",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "522778026"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.normabev",
+   "label": "Normabev",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "447834748"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.atelierperminitenvironurbain-ajaccio",
+   "label": "Atelier Perm Init Environ Urbain Ajaccio",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418033718"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assgraine",
+   "label": "Ass G R A I N E",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423390137"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationaideauxchatsmayotte",
+   "label": "Association Aide Aux Chats Mayotte",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "824659395"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assdeppiegeursagreesgironde",
+   "label": "Ass Dep Piegeurs Agrees Gironde",
+   "montant": 4850.26,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420778458"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.internationalseedtestingassociat",
+   "label": "International Seed Testing Associat",
+   "montant": 4842.76,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.actalia",
+   "label": "Actalia",
+   "montant": 4675.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "325346542"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.comitenordplantsdepommede-terre-3",
+   "label": "Comite Nord Plants De Pomme De Terre",
+   "montant": 4622.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784364283"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementtechniqueveterinairede-bretagn-2",
+   "label": "Groupement Technique Veterinaire De Bretagne",
+   "montant": 4524.46,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "447685710"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.rediabylang976reseaudiabete-mayotte",
+   "label": "Rediab Ylang 976 Reseau Diabete Mayotte",
+   "montant": 4500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "525131595"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.agroparistechserviceetudes",
+   "label": "Agroparistech Service Etudes",
+   "montant": 4441.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "348414434"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationdegestionetde-comptabilitedes",
+   "label": "Association De Gestion Et De Comptabilite Des Savoie Cerfrance Des Savoie",
+   "montant": 4320.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "323782383"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lerefugededarwyn",
+   "label": "Le Refuge De Darwyn",
+   "montant": 4235.72,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "834936700"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.preventiondelasanteautravailde-loiretche",
+   "label": "Prevention De La Sante Au Travail De Loir Et Cher",
+   "montant": 4209.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775366701"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assgraine-2",
+   "label": "Ass G R A I N E",
+   "montant": 4194.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423390137"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationinterentreprisespourla-santea",
+   "label": "Association Interentreprises Pour La Sante Au Travail De L Yonne",
+   "montant": 4080.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778647768"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationdexploitationagricole-dechiro",
+   "label": "Association D Exploitation Agricole De Chirongui",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "519839799"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.interbiooccitanie",
+   "label": "Interbio Occitanie",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "837904895"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationlesbonsrestes",
+   "label": "Association Les Bons Restes",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "830953717"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gvadetsingoni",
+   "label": "Gva De Tsingoni",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "521438259"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.umarinu",
+   "label": "U Marinu",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "415147461"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fresquesre",
+   "label": "Fresques Re",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923040901"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.jardinsolibio",
+   "label": "Jardin Soli Bio",
+   "montant": 3938.1,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "517432415"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.adriaassociationpourle-developpementlare",
+   "label": "Adria Association Pour Le Developpement La Recherche Et L Innovation Agroalimentaires",
+   "montant": 3780.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "306964271"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.auvergnerhonealpeselevage",
+   "label": "Auvergne Rhone Alpes Elevage",
+   "montant": 3738.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "504719220"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assdeptdespiegeursagreesdela-dordogne",
+   "label": "Ass Dept Des Piegeurs Agrees De La Dordogne",
+   "montant": 3730.24,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "520509837"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.ifipinstitutduporc-2",
+   "label": "Ifip Institut Du Porc",
+   "montant": 3600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775681323"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assinterprosantetravailco",
+   "label": "Ass Interpro Sante Travail C O",
+   "montant": 3571.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778207944"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationmarseillanaiseduchat-libre",
+   "label": "Association Marseillanaise Du Chat Libre",
+   "montant": 3558.47,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "880078811"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lesfranginesandco",
+   "label": "Les Frangines And Co",
+   "montant": 3500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "902380476"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.agribiorhoneloire",
+   "label": "Agribio Rhone Loire",
+   "montant": 3500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "419832795"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.banquealimentairedunord",
+   "label": "Banque Alimentaire Du Nord",
+   "montant": 3500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382385813"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.preventionsanteoiseaisne",
+   "label": "Prevention Sante Oise Aisne",
+   "montant": 3453.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780220604"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.amicaleddetspp12",
+   "label": "Amicale Ddetspp 12",
+   "montant": 3400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "523197515"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationregionaledes-groupementsdedefe-8",
+   "label": "Federation Regionale Des Groupements De Defense Sanitaire Des Hauts De France",
+   "montant": 3399.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "805181245"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.ensemblepourlapreventionetla-santeautrav",
+   "label": "Ensemble Pour La Prevention Et La Sante Au Travail Dans Les Vosges",
+   "montant": 3264.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783439185"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.cocagnealimenterre",
+   "label": "Cocagne Alimen Terre",
+   "montant": 3250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "878891548"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.naturerights",
+   "label": "Nature Rights",
+   "montant": 3240.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "801867318"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.santetravailsudmarne",
+   "label": "Sante Travail Sud Marne",
+   "montant": 3162.3,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780369591"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fdcivamdugard",
+   "label": "Fd Civam Du Gard",
+   "montant": 3150.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "401534672"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationregionaledes-groupementstechni-2",
+   "label": "Federation Regionale Des Groupements Techniques Veterinaires Haut6De6Frances Frgtv",
+   "montant": 3140.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "828700476"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdeslieutenantsde-louveteriedel",
+   "label": "Groupement Des Lieutenants De Louveterie De L Ariege",
+   "montant": 3128.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "829291657"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.villagesentransition",
+   "label": "Villages En Transition",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "853025211"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationdesanteetdemedecine-autravail",
+   "label": "Association De Sante Et De Medecine Au Travail Des Hautes Pyrenees",
+   "montant": 2808.42,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777168923"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gptdepdefensesanitairebetail-moselle",
+   "label": "Gpt Dep Defense Sanitaire Betail Moselle",
+   "montant": 2789.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382744464"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gptdepdefensesanitairebetail-moselle-2",
+   "label": "Gpt Dep Defense Sanitaire Betail Moselle",
+   "montant": 2759.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382744464"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.controledevelopinsemination-artificiel",
+   "label": "Controle Develop Insemination Artificiel",
+   "montant": 2749.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785734799"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.graceaujardin",
+   "label": "Grace Au Jardin",
+   "montant": 2723.1,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "894310366"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.cpieduhautjura",
+   "label": "Cpie Du Haut Jura",
+   "montant": 2700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "334078458"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.airpaysdelaloire",
+   "label": "Air Pays De La Loire",
+   "montant": 2693.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "323266205"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationbdporc-2",
+   "label": "Association Bd Porc",
+   "montant": 2672.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "484788468"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.medisis",
+   "label": "Medisis",
+   "montant": 2652.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780506515"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.centreintermedecinetravail-2",
+   "label": "Centre Inter Medecine Travail",
+   "montant": 2622.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784346983"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationnationaledes-producteursdenoi",
+   "label": "Association Nationale Des Producteurs De Noisettes Et Autres Fruits A Coques De France",
+   "montant": 2538.82,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "320061328"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.famillesruralesfederatdepheraul",
+   "label": "Familles Rurales Federat Dep Heraul",
+   "montant": 2500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344463765"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.officemunicipaldessportsde-tsingoni",
+   "label": "Office Municipal Des Sports De Tsingoni",
+   "montant": 2500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "812414993"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.actionsanimauxguyane",
+   "label": "Actions Animaux Guyane",
+   "montant": 2500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "841872328"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationleregardducoeur",
+   "label": "Association Le Regard Du Coeur",
+   "montant": 2500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "811377589"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assgroupementdedefensesanitaire",
+   "label": "Ass Groupement De Defense Sanitaire",
+   "montant": 2497.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391772878"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitairedel-orne-2",
+   "label": "Groupement De Defense Sanitaire De L Orne",
+   "montant": 2494.42,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420374472"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associudiipaisanicorsi",
+   "label": "Associu Di I Paisani Corsi",
+   "montant": 2488.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "920806536"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.larenaissancesanitaire",
+   "label": "La Renaissance Sanitaire",
+   "montant": 2462.76,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775661796"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.feddepartdeschasseursdelorne",
+   "label": "Fed Depart Des Chasseurs De L Orne",
+   "montant": 2410.23,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "529102915"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.restaurantducoeurdudoubs",
+   "label": "Restaurant Du Coeur Du Doubs",
+   "montant": 2407.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383426814"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.famillesruralesfederation-departementale",
+   "label": "Familles Rurales Federation Departementale D Indre Et Loire",
+   "montant": 2388.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "389907718"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementtechniqueveterinaire-gtvdespay-3",
+   "label": "Groupement Technique Veterinaire Gtv Des Pays De La Loire",
+   "montant": 2373.54,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "828995449"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lofogatel",
+   "label": "Lo Fogatel",
+   "montant": 2350.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "838617553"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assgroupementdedefensesanitaire-2",
+   "label": "Ass Groupement De Defense Sanitaire",
+   "montant": 2340.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391772878"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.aprevyasantetravail",
+   "label": "Aprevya Sante Travail",
+   "montant": 2337.43,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775783731"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitaire-apicoleduva",
+   "label": "Groupement De Defense Sanitaire Apicole Du Vaucluse",
+   "montant": 2329.71,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "510466766"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.unionnormandedesgroupementsde-defensesan-6",
+   "label": "Union Normande Des Groupements De Defense Sanitaire",
+   "montant": 2315.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840338909"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.arbreetpaysage66",
+   "label": "Arbre Et Paysage 66",
+   "montant": 2280.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "879785822"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationnationalepourl-educationaugou-2",
+   "label": "Association Nationale Pour L Education Au Gout",
+   "montant": 2280.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "788678118"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.letrenel",
+   "label": "Le Trenel",
+   "montant": 2273.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388674640"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensecontreles-organismesn-2",
+   "label": "Groupement De Defense Contre Les Organismes Nuisibles De Saint Julien",
+   "montant": 2230.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "534524715"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.amisdesbetes",
+   "label": "Amis Des Betes",
+   "montant": 2160.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394600324"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assgestionrestinteradmin-perigueux",
+   "label": "Ass Gestion Rest Inter Admin Perigueux",
+   "montant": 2149.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393941448"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.msaservicesmidipyreneessud",
+   "label": "Msa Services Midi Pyrenees Sud",
+   "montant": 2090.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "524563251"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationrizreunionarr-2",
+   "label": "Association Riz Reunion Arr",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "881144984"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationmahoraisepourlalutte-contrele",
+   "label": "Association Mahoraise Pour La Lutte Contre Le Cancer",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "818157141"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.jardinbourbonetdestraditions",
+   "label": "Jardin Bourbon Et Des Traditions",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418746269"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationreusit",
+   "label": "Association Reusit",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432741767"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.siklelescomposteursde-strasbourg",
+   "label": "Sikle Les Composteurs De Strasbourg",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "881853667"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.grandirdignement",
+   "label": "Grandir Dignement",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "792085136"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.asspetitsdebrouillardsdela-reunion",
+   "label": "Ass Petits Debrouillards De La Reunion",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "422107912"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assemploicadreingenieurtech-agricul",
+   "label": "Ass Emploi Cadre Ingenieur Tech Agricul",
+   "montant": 1995.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "303241822"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assemploicadreingenieurtech-agricul-2",
+   "label": "Ass Emploi Cadre Ingenieur Tech Agricul",
+   "montant": 1992.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "303241822"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.ametifsanteautravail",
+   "label": "Ametif Sante Au Travail",
+   "montant": 1977.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785897489"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.guyanepromosante",
+   "label": "Guyane Promo Sante",
+   "montant": 1973.88,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "501219034"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assocdeseleveursdedordogne-2",
+   "label": "Assoc Des Eleveurs De Dordogne",
+   "montant": 1956.55,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "308053677"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationgdsetsauvonsnos-palmiers",
+   "label": "Association Gdset Sauvons Nos Palmiers",
+   "montant": 1923.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "789531753"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.bioariegegaronne",
+   "label": "Bio Ariege Garonne",
+   "montant": 1910.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "381758994"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.artpiculture",
+   "label": "Artpiculture",
+   "montant": 1909.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "518714019"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdagriculteurs-biologiquesdutar",
+   "label": "Groupement D Agriculteurs Biologiques Du Tarn",
+   "montant": 1900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "911156271"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.servicesmedicauxinterentreprises-de80",
+   "label": "Services Medicaux Interentreprises De 80",
+   "montant": 1896.31,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780607982"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fondationassociativechevalespoir-38",
+   "label": "Fondation Associative Cheval Espoir 38",
+   "montant": 1824.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923568372"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.clubexpertnutritionetalimentation-4",
+   "label": "Club Expert Nutrition Et Alimentation",
+   "montant": 1800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "480239748"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.cteregsportspourtousguyane",
+   "label": "Cte Reg Sports Pour Tous Guyane",
+   "montant": 1800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483565446"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lestempsorageux",
+   "label": "Les Temps Orageux",
+   "montant": 1708.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923825319"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitairedes-deuxsevr",
+   "label": "Groupement De Defense Sanitaire Des Deux Sevres",
+   "montant": 1706.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305348070"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationgroupeesa",
+   "label": "Association Groupe Esa",
+   "montant": 1650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342382637"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.officedetourismeetdescongresde-bordeauxm",
+   "label": "Office De Tourisme Et Des Congres De Bordeaux Metropole",
+   "montant": 1640.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "781804554"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationdiabetenutrition974",
+   "label": "Association Diabete Nutrition 974",
+   "montant": 1600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "790365019"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.maisondelanatureetdel-environnement65",
+   "label": "Maison De La Nature Et De L Environnement 65",
+   "montant": 1576.08,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "400545943"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.adapei-2",
+   "label": "Adapei",
+   "montant": 1567.18,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775638737"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federatdepartchasseurariege",
+   "label": "Federat Depart Chasseur Ariege",
+   "montant": 1550.12,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776652794"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.santeautravailsambreavesnois",
+   "label": "Sante Au Travail Sambre Avesnois",
+   "montant": 1539.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783724537"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.capsolidaire",
+   "label": "Cap Solidaire",
+   "montant": 1518.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "828966549"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.astrhalor",
+   "label": "Astrhalor",
+   "montant": 1505.22,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "333372415"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.mouvementpourunealternativenon-violented",
+   "label": "Mouvement Pour Une Alternative Non Violente De L Ocean Indien Man Ocean Indien",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "820085090"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.solidaritedesproducteurs-agricolesetdesf-2",
+   "label": "Solidarite Des Producteurs Agricoles Et Des Filieres Alimentaires Auvergne Rhone Alpes Solaal Aura",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "910728856"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupedentraidemutuellegem-vivreensemble",
+   "label": "Groupe D Entraide Mutuelle Gem Vivre Ensemble",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "831107750"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gpereganimationinformnature-environ",
+   "label": "Gpe Reg Animation Inform Nature Environ",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "414319301"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitaire-apicole",
+   "label": "Groupement De Defense Sanitaire Apicole",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "811916626"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationdecotedorpourla-pecheetlaprote",
+   "label": "Federation De Cote D Or Pour La Peche Et La Protection Du Milieu Aquatique",
+   "montant": 1491.9,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778211045"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.cheminfaisant",
+   "label": "Chemin Faisant",
+   "montant": 1491.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "448684001"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.unenouvelleviepourmelchior",
+   "label": "Une Nouvelle Vie Pour Melchior",
+   "montant": 1490.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "877846154"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fondationpluriel",
+   "label": "Fondation Pluriel",
+   "montant": 1452.82,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "791747819"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fondationbrigittebardot",
+   "label": "Fondation Brigitte Bardot",
+   "montant": 1442.89,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "350394136"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federatdepartchasseurshaute-vienne",
+   "label": "Federat Depart Chasseurs Haute Vienne",
+   "montant": 1400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778046144"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationvendeennedequitation-detravai",
+   "label": "Association Vendeenne D Equitation De Travail",
+   "montant": 1384.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "804274322"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.institutpasteur",
+   "label": "Institut Pasteur",
+   "montant": 1380.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775684897"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.loumargot",
+   "label": "Loumargot",
+   "montant": 1326.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "752905281"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.cagetteetfourchette",
+   "label": "Cagette Et Fourchette",
+   "montant": 1288.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "827633447"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationpourlachatdansles-servicespub",
+   "label": "Association Pour L Achat Dans Les Services Publics",
+   "montant": 1260.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784180853"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.centreressourcedecologie-pedagogiquedeno",
+   "label": "Centre Ressource D Ecologie Pedagogique De Nouvelle Aquitaine",
+   "montant": 1250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "409968963"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.officedetourismeetdescongres-montpellier",
+   "label": "Office De Tourisme Et Des Congres Montpellier Mediterranee Metropole",
+   "montant": 1246.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "352182059"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.institutpasteur-2",
+   "label": "Institut Pasteur",
+   "montant": 1219.37,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775684897"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.bioariegegaronne-2",
+   "label": "Bio Ariege Garonne",
+   "montant": 1206.78,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "381758994"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.kazmaron",
+   "label": "Kaz Maron",
+   "montant": 1200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "528761323"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.maisonfamilialruraldeducatd-orienta",
+   "label": "Maison Familial Rural D Educat D Orienta",
+   "montant": 1198.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775463771"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationhorizonsantetravail",
+   "label": "Association Horizon Sante Travail",
+   "montant": 1188.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775724123"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assanimalsocietealimentasa-2",
+   "label": "Ass Animal Societe Aliment A S A",
+   "montant": 1160.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "303004212"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.restaurantinteradministratifde-lyon",
+   "label": "Restaurant Interadministratif De Lyon",
+   "montant": 1133.9,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "306504713"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.grptdefensesanitairecheptel-2",
+   "label": "Grpt Defense Sanitaire Cheptel",
+   "montant": 1125.56,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302828330"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.asspromodefensepalmipedesdu-perigord",
+   "label": "Ass Promo Defense Palmipedes Du Perigord",
+   "montant": 1111.34,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398954487"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.vegepolysinnovation",
+   "label": "Vegepolys Innovation",
+   "montant": 1087.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "498775659"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.astrhalor-2",
+   "label": "Astrhalor",
+   "montant": 1080.81,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "333372415"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.eveilogout-2",
+   "label": "Eveil O Gout",
+   "montant": 1056.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "527914683"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementtechniqueveterinaire-regional-2",
+   "label": "Groupement Technique Veterinaire Regional",
+   "montant": 1054.43,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "831315288"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federatdepartchasseurshaute-vienne-2",
+   "label": "Federat Depart Chasseurs Haute Vienne",
+   "montant": 1040.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778046144"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationjeaneudes",
+   "label": "Association Jean Eudes",
+   "montant": 1030.17,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "338244775"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationcontrelabandonetla-maltraitan",
+   "label": "Association Contre L Abandon Et La Maltraitance Animale",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "750353203"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.proactiveforce",
+   "label": "Proactive Force",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "837982495"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.plateformepublicprivepourlapre-validatio-2",
+   "label": "Plateforme Public Prive Pour La Pre Validation Des Methodes De Caracterisation Des Perturbateurs Endocriniens",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "880969555"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.ifipinstitutduporc-3",
+   "label": "Ifip Institut Du Porc",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775681323"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.recupetgamelles",
+   "label": "Recup Et Gamelles",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "808550065"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lemitchmouvementdimprovisation-theatrale",
+   "label": "Le Mitch Mouvement D Improvisation Theatrale De Champagne",
+   "montant": 983.46,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "534964333"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationdepartementaledulutte-contrel",
+   "label": "Association Departementale Du Lutte Contre Les Addictions",
+   "montant": 980.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "399226687"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.vegepolysinnovation-2",
+   "label": "Vegepolys Innovation",
+   "montant": 970.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "498775659"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationfrancaisedequitation",
+   "label": "Federation Francaise D Equitation",
+   "montant": 960.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344386701"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationfredericlevavasseur",
+   "label": "Association Frederic Levavasseur",
+   "montant": 934.3,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "315682674"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationdemoyensretraite-complementai",
+   "label": "Association De Moyens Retraite Complementaire",
+   "montant": 889.77,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840600001"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationfredericlevavasseur-2",
+   "label": "Association Frederic Levavasseur",
+   "montant": 883.17,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "315682674"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fondationfrancobritanniquede-sillery",
+   "label": "Fondation Franco Britannique De Sillery",
+   "montant": 858.9,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778115089"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gptdepdefensesanitairedes-animaux-3",
+   "label": "Gpt Dep Defense Sanitaire Des Animaux",
+   "montant": 819.17,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "405258088"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.avcaitcarpediem",
+   "label": "Avc Ait Carpe Diem",
+   "montant": 811.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "883972762"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assagroedieurope-2",
+   "label": "Ass Agro Edi Europe",
+   "montant": 807.02,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434312849"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lesanctuaireanimalierferme-pedagogiquela",
+   "label": "Le Sanctuaire Animalier Ferme Pedagogique La Prairie Des Animaux",
+   "montant": 805.75,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "892853672"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationdepartementaledes-chasseurs",
+   "label": "Federation Departementale Des Chasseurs",
+   "montant": 783.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782139497"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gdseure-2",
+   "label": "Gds Eure",
+   "montant": 715.44,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "303544894"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationzoopsy",
+   "label": "Association Zoopsy",
+   "montant": 693.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434392643"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationpicassiette",
+   "label": "Association Pic Assiette",
+   "montant": 686.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "527583231"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lehavreportcenter",
+   "label": "Le Havre Port Center",
+   "montant": 668.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "818114696"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.esthorticole",
+   "label": "Est Horticole",
+   "montant": 660.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "353126865"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.comitenordplantsdepommede-terre-4",
+   "label": "Comite Nord Plants De Pomme De Terre",
+   "montant": 634.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784364283"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.serviceinterentreprisesdesanteau-travail",
+   "label": "Service Interentreprises De Sante Au Travail Du Btp De Lorraine",
+   "montant": 621.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "309857274"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assinsertreinsertprofhumain-handic",
+   "label": "Ass Insert Reinsert Prof Humain Handic",
+   "montant": 620.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775660970"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.openg",
+   "label": "Open G",
+   "montant": 600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "921842753"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationdemoyensretraite-complementai-2",
+   "label": "Association De Moyens Retraite Complementaire",
+   "montant": 593.78,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840600001"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationregionaledes-groupementsdedefe-9",
+   "label": "Federation Regionale Des Groupements De Defense Sanitaire Des Hauts De France",
+   "montant": 580.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "805181245"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdedefensesanitaire-corse-4",
+   "label": "Groupement De Defense Sanitaire Corse",
+   "montant": 540.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483281242"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assdepamisparenenfanadult-inadap",
+   "label": "Ass Dep Amis Paren Enfan Adult Inadap",
+   "montant": 539.77,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776681140"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.asscoordinattechniqagricole-2",
+   "label": "Ass Coordinat Techniq Agricole",
+   "montant": 528.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784523318"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupeassociatifhandyup",
+   "label": "Groupe Associatif Handy Up",
+   "montant": 523.24,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778125468"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationnationalepourl-educationaugou-3",
+   "label": "Association Nationale Pour L Education Au Gout",
+   "montant": 519.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "788678118"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gptdepdefensesanitairedes-animaux-4",
+   "label": "Gpt Dep Defense Sanitaire Des Animaux",
+   "montant": 512.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "405258088"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.asstarnluttemaladieanimale",
+   "label": "Ass Tarn Lutte Maladie Animale",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777187337"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fondationjeanmoulin",
+   "label": "Fondation Jean Moulin",
+   "montant": 485.1,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "332589670"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.apei",
+   "label": "A P E I",
+   "montant": 473.58,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778395558"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.socnationgroupetechnique-veterinaires-3",
+   "label": "Soc Nation Groupe Technique Veterinaires",
+   "montant": 470.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "389917089"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.controledevelopinsemination-artificiel-2",
+   "label": "Controle Develop Insemination Artificiel",
+   "montant": 466.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785734799"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationpetitecamargue-alsacienne",
+   "label": "Association Petite Camargue Alsacienne",
+   "montant": 461.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "327438859"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gptdepdefensesanitairedes-animaux-5",
+   "label": "Gpt Dep Defense Sanitaire Des Animaux",
+   "montant": 453.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "781342670"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.restaurantadminstministere-interieur",
+   "label": "Restaurant Adminst Ministere Interieur",
+   "montant": 449.1,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778059360"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdelagriculture-biologiquedesha",
+   "label": "Groupement De L Agriculture Biologique Des Hautes Pyrenees",
+   "montant": 443.98,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "440153005"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lerelaisdesanimaux",
+   "label": "Le Relais Des Animaux",
+   "montant": 441.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384065413"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gptdedefensesanitaireducantal-2",
+   "label": "Gpt De Defense Sanitaire Du Cantal",
+   "montant": 434.49,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383274461"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupdefensesanitairebouchesdu-rhone",
+   "label": "Group Defense Sanitaire Bouches Du Rhone",
+   "montant": 422.26,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "409766086"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.officedetourismedelille",
+   "label": "Office De Tourisme De Lille",
+   "montant": 420.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783681687"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdecooperationmedico-socialarra",
+   "label": "Groupement De Cooperation Medico Social Arras Montreuil Sur Mer",
+   "montant": 416.51,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "509909537"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationdeslieutenantsde-louveteriede",
+   "label": "Association Des Lieutenants De Louveterie De La Correze",
+   "montant": 404.37,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "789686532"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.agores",
+   "label": "Agores",
+   "montant": 400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "513537720"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.pyragena",
+   "label": "Pyragena",
+   "montant": 378.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "412914442"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assparentsenfantsinadaptes",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 375.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.riviererhonealpesauvergne",
+   "label": "Riviere Rhone Alpes Auvergne",
+   "montant": 350.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "440502797"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.instituteuropeendelaforet-cultivee",
+   "label": "Institut Europeen De La Foret Cultivee",
+   "montant": 350.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "422480293"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.controledevelopinsemination-artificiel-3",
+   "label": "Controle Develop Insemination Artificiel",
+   "montant": 310.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785734799"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gecaogroupementdesexperts-conseilsenarbo",
+   "label": "Gecao Groupement Des Experts Conseils En Arboriculture Ornementale",
+   "montant": 310.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "879633345"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federationadmr",
+   "label": "Federation Admr",
+   "montant": 308.14,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "440489227"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fermepedagogiqueterredesoleil",
+   "label": "Ferme Pedagogique Terre De Soleil",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "793097551"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assocrestaurantinteradministcite-admi",
+   "label": "Assoc Restaurant Interadminist Cite Admi",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383531795"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lecoledesmarchesdewazemmes",
+   "label": "L Ecole Des Marches De Wazemmes",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "493397228"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.seenovia",
+   "label": "Seenovia",
+   "montant": 291.37,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "786218974"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupdevelagriarboriculture-vaucluse",
+   "label": "Group Devel Agri Arboriculture Vaucluse",
+   "montant": 285.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "422686246"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gds70-2",
+   "label": "Gds70",
+   "montant": 280.04,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778542795"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.laboratoireregionaldesuividela-faunesauv",
+   "label": "Laboratoire Regional De Suivi De La Faune Sauvage",
+   "montant": 278.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "519526438"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lasantedelabeille",
+   "label": "La Sante De L Abeille",
+   "montant": 260.05,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785219676"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationdegestiondu-restaurantinterad",
+   "label": "Association De Gestion Du Restaurant Inter Administratif De Quimper",
+   "montant": 257.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "833574981"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.astrhalor-3",
+   "label": "Astrhalor",
+   "montant": 252.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "333372415"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.asscoordinattechniqagricole-3",
+   "label": "Ass Coordinat Techniq Agricole",
+   "montant": 251.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784523318"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assemploicadreingenieurtech-agricul-3",
+   "label": "Ass Emploi Cadre Ingenieur Tech Agricul",
+   "montant": 228.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "303241822"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.centredepromotionsocialede-corte",
+   "label": "Centre De Promotion Sociale De Corte",
+   "montant": 225.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783013915"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.apei-2",
+   "label": "A P E I",
+   "montant": 224.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778395558"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.adriaassociationpourle-developpementlare-2",
+   "label": "Adria Association Pour Le Developpement La Recherche Et L Innovation Agroalimentaires",
+   "montant": 216.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "306964271"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.ateliertremplinpourlareinsertion-etlempl",
+   "label": "Atelier Tremplin Pour La Reinsertion Et L Emploi",
+   "montant": 215.9,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380307249"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.vegepolysinnovation-3",
+   "label": "Vegepolys Innovation",
+   "montant": 213.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "498775659"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.asscastraisedeprotectiondes-animaux",
+   "label": "Ass Castraise De Protection Des Animaux",
+   "montant": 204.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "310130711"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.asscoordinattechniqagricole-4",
+   "label": "Ass Coordinat Techniq Agricole",
+   "montant": 201.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784523318"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.officedetourismedupaysduhaut-doubs",
+   "label": "Office De Tourisme Du Pays Du Haut Doubs",
+   "montant": 200.32,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "845103043"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.feddepgptdefensesanitaire-2",
+   "label": "Fed Dep Gpt Defense Sanitaire",
+   "montant": 194.88,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "318977709"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assparentsenfantsinadaptes-2",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 194.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.spavauclusienne",
+   "label": "S P A Vauclusienne",
+   "montant": 189.36,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378260277"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lamaisonduvelo",
+   "label": "La Maison Du Velo",
+   "montant": 170.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "487420945"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.federpecheprotectionmilieu-aquatique",
+   "label": "Feder Peche Protection Milieu Aquatique",
+   "montant": 163.84,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "786119362"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.fondationanais",
+   "label": "Fondation Anais",
+   "montant": 162.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775629272"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.elvup",
+   "label": "Elvup",
+   "montant": 157.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780937520"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.asscoordinattechniqagricole-5",
+   "label": "Ass Coordinat Techniq Agricole",
+   "montant": 153.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784523318"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationdegestiondu-restaurantinterad-2",
+   "label": "Association De Gestion Du Restaurant Interadministratif Viotte",
+   "montant": 147.56,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "890291107"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.sosanimauxdelaferme",
+   "label": "Sos Animaux De La Ferme",
+   "montant": 141.63,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "910514728"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.pupillesdelenseignementpublic",
+   "label": "Pupilles De L Enseignement Public",
+   "montant": 135.89,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775022163"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationpourlagestiondu-restaurantint",
+   "label": "Association Pour La Gestion Du Restaurant Inter Administratif De Marmilhat",
+   "montant": 128.75,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "821982121"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.vegephylassociationpourlasante-desvegeta",
+   "label": "Vegephyl Association Pour La Sante Des Vegetaux",
+   "montant": 112.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388488074"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.instituttechniquedelaviculturede-lacunic-2",
+   "label": "Institut Technique De L Aviculture De La Cuniculture Et De La Pisciculture Itavi",
+   "montant": 110.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "339155681"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.vracnational",
+   "label": "Vrac National",
+   "montant": 109.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "892791898"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lespapillonsblancsdelille",
+   "label": "Les Papillons Blancs De Lille",
+   "montant": 108.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775620420"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.agraco",
+   "label": "Agraco",
+   "montant": 101.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302115944"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lespapillonsblancsdelille-2",
+   "label": "Les Papillons Blancs De Lille",
+   "montant": 100.61,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775620420"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.officedetourismedelimoges",
+   "label": "Office De Tourisme De Limoges",
+   "montant": 100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778057273"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gptdeplieutenantdelouveterieain",
+   "label": "Gpt Dep Lieutenant De Louveterie Ain",
+   "montant": 80.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "437727118"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.laborinterprofanalyselaitiere",
+   "label": "Labor Interprof Analyse Laitiere",
+   "montant": 79.43,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778542605"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assafstal",
+   "label": "Ass Afstal",
+   "montant": 79.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "431205368"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationpourlarealisationd-interventi-5",
+   "label": "Association Pour La Realisation D Interventions Medicales Et De Sante Au Travail",
+   "montant": 69.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340630060"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.institutnationalrecherchesecurite",
+   "label": "Institut National Recherche Securite",
+   "montant": 63.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775671456"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.controledevelopinsemination-artificiel-4",
+   "label": "Controle Develop Insemination Artificiel",
+   "montant": 59.14,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785734799"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.reseaudesenilanfopeil",
+   "label": "Reseau Des Enil Anfopeil",
+   "montant": 54.32,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778413161"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationformationetinformation",
+   "label": "Association Formation Et Information",
+   "montant": 50.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393238787"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.laruche",
+   "label": "La Ruche",
+   "montant": 45.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "437491921"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.agrolabs",
+   "label": "Agrolab S",
+   "montant": 43.34,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779075910"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.institutpasteur-3",
+   "label": "Institut Pasteur",
+   "montant": 42.71,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775684897"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupementdeslieutenantsde-louveteriedel-2",
+   "label": "Groupement Des Lieutenants De Louveterie De L Ariege",
+   "montant": 41.55,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "829291657"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.unionnormandedesgroupementsde-defensesan-7",
+   "label": "Union Normande Des Groupements De Defense Sanitaire",
+   "montant": 30.76,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840338909"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assregexperimentadevptviti-vinicoles",
+   "label": "Ass Reg Experimenta Devpt Viti Vinicoles",
+   "montant": 30.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "409572492"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.groupdedefensesanitairedela-loire-2",
+   "label": "Group De Defense Sanitaire De La Loire",
+   "montant": 26.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302845540"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.lasantedelabeille-2",
+   "label": "La Sante De L Abeille",
+   "montant": 26.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785219676"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assgestioncentremedicaleurope-annexe",
+   "label": "Ass Gestion Centre Medical Europe Annexe",
+   "montant": 25.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784401846"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.amicaledelaforetdesarre",
+   "label": "Amicale De La Foret De Sarre",
+   "montant": 23.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "409110459"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.ctegestrestauadministtulle",
+   "label": "Cte Gest Restau Administ Tulle",
+   "montant": 21.19,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "303358105"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.watissanes",
+   "label": "Watiss Anes",
+   "montant": 17.52,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "522908011"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.gptdefensesanitaireducher-cher",
+   "label": "Gpt Defense Sanitaire Du Cher Cher",
+   "montant": 17.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775021975"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.assocscesequiphopitauxprives-phoceen",
+   "label": "Assoc Sces Equip Hopitaux Prives Phoceen",
+   "montant": 16.72,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380858357"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.agrolabs-2",
+   "label": "Agrolab S",
+   "montant": 15.7,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779075910"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.animaliarefugesanctuaire",
+   "label": "Animalia Refuge Sanctuaire",
+   "montant": 5.84,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "811293554"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p206.associationlafermeextraordinaire",
+   "label": "Association La Ferme Extraordinaire",
+   "montant": 5.36,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "917742413"
+   },
+   "rattachement_id": "etat.depenses.BG.AC.206",
+   "enfants": []
+  }
+ ]
+}
