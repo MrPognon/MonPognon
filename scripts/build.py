@@ -2,7 +2,7 @@
 """Valide les fichiers data/ et génère site/data.js.
 Usage : python3 scripts/build.py [--check]        validation seule, pour la CI
         python3 scripts/build.py --show <id>      affiche un nœud, source résolue (ADR-0005)"""
-import json, sys, glob, os
+import json, sys, glob, os, html
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATUTS = {"confirme", "estime", "inconnu"}
@@ -539,6 +539,220 @@ def valider_racine_cp(node, path, codes):
         errors.append(f"{path}: profondeur max {pm} non couverte par la table de {len(niveaux)} niveaux")
 
 
+# ── Pages /perimetre et /methode (issue #50) ─────────────────────────────────
+# Elles sont GÉNÉRÉES depuis site/couverture.json, jamais écrites à la main : une
+# page rédigée dériverait au premier changement de C, et c'est exactement ce que
+# ce projet ne peut pas se permettre. Tout chiffre affiché ici vient du calcul.
+
+CSS_PAGE = """
+:root{--primary:#2f4d8a; --ink:#161616; --mute:#666; --border:#ddd;
+      --surface:#f6f6f6; --ok:#18753c; --ok-bg:#dffee6; --est:#b34000;
+      --est-bg:#ffecc2; --unk:#ce0500; --unk-bg:#ffe9e9;}
+*{box-sizing:border-box; margin:0; padding:0;}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+     color:var(--ink); background:#fff; line-height:1.55;}
+a{color:var(--primary);} :focus-visible{outline:2px solid var(--primary); outline-offset:2px;}
+header{padding:14px 20px; border-bottom:1px solid var(--border); display:flex;
+       gap:14px; align-items:baseline; flex-wrap:wrap;}
+header h1{font-size:1.15rem;} header a{font-size:.85rem;}
+main{max-width:860px; margin:0 auto; padding:22px 20px 80px;}
+h2{font-size:1.05rem; margin:30px 0 10px; padding-bottom:5px; border-bottom:2px solid var(--primary);}
+h3{font-size:.95rem; margin:20px 0 6px;}
+p,li{font-size:.9rem;} p{margin:8px 0;} ul{margin:8px 0 8px 20px;}
+.chiffre{display:flex; gap:26px; flex-wrap:wrap; margin:14px 0;}
+.chiffre div{background:var(--surface); border-radius:6px; padding:12px 16px; flex:1 1 190px;}
+.chiffre b{display:block; font-size:1.5rem; color:var(--primary);}
+.chiffre span{font-size:.75rem; color:var(--mute);}
+table{border-collapse:collapse; width:100%; margin:12px 0; font-size:.82rem;}
+th,td{border:1px solid var(--border); padding:6px 8px; text-align:left; vertical-align:top;}
+th{background:var(--surface);} td.n{text-align:right; white-space:nowrap;}
+.badge{display:inline-block; border-radius:4px; padding:1px 7px; font-size:.68rem;
+       font-weight:700; text-transform:uppercase;}
+.badge.ok{background:var(--ok-bg); color:var(--ok);}
+.badge.unk{background:var(--unk-bg); color:var(--unk);}
+.callout{border-left:4px solid var(--primary); background:var(--surface);
+         padding:10px 14px; margin:14px 0; font-size:.85rem;}
+.callout.alerte{border-left-color:var(--unk); background:var(--unk-bg);}
+.manque{font-size:.78rem; color:var(--mute); margin-top:4px;}
+.barre{display:flex; align-items:center; gap:8px; margin:3px 0; font-size:.78rem;}
+.barre i{display:block; height:13px; background:var(--primary); border-radius:2px;}
+.barre span:first-child{width:2.2em; font-weight:700; font-style:normal;}
+@media(max-width:768px){
+  main{padding:16px 14px 60px;} .chiffre{gap:12px;}
+  /* Un tableau à 4 colonnes est illisible à 375 px, et le faire défiler
+     horizontalement l'est autant. Chaque ligne devient donc un bloc empilé,
+     chaque cellule portant son intitulé via data-col. */
+  table,tbody,tr,td{display:block; width:100%;}
+  thead{display:none;}
+  tr{border:1px solid var(--border); border-radius:6px; margin:0 0 10px; padding:8px 10px;}
+  td{border:none; padding:3px 0; font-size:.82rem;}
+  td.n{text-align:left;}
+  td[data-col]:before{content:attr(data-col) " : "; color:var(--mute); font-size:.72rem;}
+  td[data-col="Bloc"]:before{content:none;}
+}
+"""
+
+def _md(x):
+    return f"{x/1e9:,.1f}".replace(",", " ").replace(".", ",")
+
+def _fr(x, dec=1):
+    """Décimale française : le site est francophone, un « 46.0 % » y détonne."""
+    return f"{x:.{dec}f}".replace(".", ",")
+
+def _page(titre, corps, sous_titre=""):
+    return (f'<!DOCTYPE html>\n<html lang="fr">\n<head>\n<meta charset="UTF-8">\n'
+            f'<meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
+            f'<title>{html.escape(titre)} — Où va l\'argent public ?</title>\n'
+            f'<style>{CSS_PAGE}</style>\n</head>\n<body>\n'
+            f'<header><h1>{html.escape(titre)}</h1>'
+            f'<a href="index.html">← Où va l\'argent public ?</a></header>\n'
+            f'<main>\n{sous_titre}{corps}\n</main>\n'
+            f'<!-- Généré par scripts/build.py — NE PAS ÉDITER À LA MAIN -->\n'
+            f'</body>\n</html>\n')
+
+def _histo(h):
+    total = sum(h.values()) or 1
+    out = []
+    for n in NIVEAUX_P:
+        part = h.get(n, 0.0) / total
+        out.append(f'<div class="barre"><span>{n}</span>'
+                   f'<i style="width:{max(part*100,0):.1f}%"></i>'
+                   f'<span>{_fr(part*100)} %</span></div>')
+    return "".join(out)
+
+def generer_pages(cov_doc):
+    """Écrit site/perimetre.html et site/methode.html depuis le calcul C·P."""
+    cps = cov_doc["cp"]
+
+    # ── /perimetre : l'univers, bloc par bloc, avec ce qui manque et qui contacter
+    c = []
+    for volet in ("depenses", "recettes"):
+        cp = cps.get(volet)
+        if not cp:
+            continue
+        lib = "Dépenses" if volet == "depenses" else "Recettes"
+        c.append(f"<h2>{lib}</h2>")
+        c.append('<div class="chiffre">'
+                 f'<div><b>{_fr(cp["C"]*100)} %</b><span>des euros de l\'univers sont dans l\'arbre</span></div>'
+                 f'<div><b>{_fr(cp["P"], 2)} / 6</b><span>profondeur atteinte (P0→P6)</span></div>'
+                 f'<div><b>{_md(cp["couvert_eur"])} Md€</b><span>couverts sur {_md(cp["univers_eur"])} Md€</span></div>'
+                 '</div>')
+        c.append('<p><b>Ce pourcentage mesure le périmètre, pas la finesse.</b> Les deux nombres '
+                 'ne se moyennent jamais — voir <a href="methode.html">la méthode</a>.</p>')
+        c.append("<h3>Où en est chaque bloc</h3>")
+        c.append("<table><thead><tr><th>Bloc</th><th>Poids</th><th>Couvert</th>"
+                 "<th>Référentiel de comptage</th></tr></thead><tbody>")
+        for b in cp["blocs"]:
+            pct = b["coefficient"] * 100
+            bdg = (f'<span class="badge ok">{_fr(pct, 0)} %</span>' if b["coefficient"] > 0
+                   else '<span class="badge unk">compte zéro</span>')
+            ref = html.escape(b["referentiel"]) if b.get("referentiel") else "<i>aucun</i>"
+            ligne = (f'<tr><td data-col="Bloc"><b>{html.escape(b["label"])}</b>')
+            if not b["coefficient"] and b.get("manque"):
+                m = b["manque"]
+                quoi = html.escape(m.get("quoi", ""))
+                if len(quoi) > 420:
+                    quoi = quoi[:420].rsplit(" ", 1)[0] + "…"
+                ligne += f'<div class="manque">{quoi}'
+                if m.get("contact"):
+                    ligne += f'<br><b>Qui contacter :</b> {html.escape(m["contact"])}'
+                if m.get("url"):
+                    u = html.escape(m["url"])
+                    ligne += f' — <a href="{u}">{u}</a>'
+                ligne += "</div>"
+            ligne += (f'</td><td class="n" data-col="Poids">{_md(b["poids_eur"])} Md€</td>'
+                      f'<td class="n" data-col="Couvert">{bdg}</td>'
+                      f'<td data-col="Référentiel">{ref}</td></tr>')
+            c.append(ligne)
+        c.append("</tbody></table>")
+        c.append("<h3>Profondeur des euros couverts</h3>")
+        c.append(_histo(cp["histogramme_couvert"]))
+        zero = [b for b in cp["blocs"] if not b["coefficient"]]
+        if zero:
+            somme = sum(b["poids_eur"] for b in zero)
+            c.append(f'<div class="callout alerte"><b>{_md(somme)} Md€ comptent zéro.</b> '
+                     f'{len(zero)} blocs sur {len(cp["blocs"])} n\'ont aucun référentiel de comptage '
+                     'homogène : leur couverture ne peut pas être mesurée sans diviser un euro d\'une '
+                     'comptabilité par un euro d\'une autre. Le détail de chaque blocage est dans le '
+                     'tableau ci-dessus, et la règle dans <a href="methode.html">la méthode</a>.</div>')
+        c.append(f'<p class="manque">Univers : comptes nationaux INSEE, millésime {cp["millesime_univers"]} '
+                 f'({html.escape(cp["statut_revision_univers"])}), base brute {_md(cp["univers_eur"])} Md€ '
+                 f'— le total consolidé publié ({_md(cp["univers_consolide_publie_eur"])} Md€) est rappelé '
+                 'ici mais n\'est pas le dénominateur retenu.</p>')
+
+    c.append("<h2>Ce que ce compteur ne compte pas</h2>")
+    c.append('<div class="callout"><p>Le périmètre des administrations publiques (S13) <b>exclut</b> :</p>'
+             "<ul><li>les <b>entreprises publiques marchandes</b> ;</li>"
+             "<li>les <b>stocks de dette</b> et les engagements hors bilan ;</li>"
+             "<li>les <b>dépenses fiscales</b> (exonérations, crédits d'impôt).</li></ul>"
+             "<p><b>Un compteur à 100 % ne réaliserait donc pas l'ambition « tous les euros ».</b> "
+             "Cette note est permanente.</p></div>")
+
+    with open(os.path.join(ROOT, "site", "perimetre.html"), "w", encoding="utf-8") as fh:
+        fh.write(_page("Le périmètre", "\n".join(c),
+                       "<p>Ce que le site couvre, ce qu'il ne couvre pas, et pourquoi — "
+                       "bloc par bloc, avec qui contacter pour obtenir ce qui manque.</p>"))
+
+    # ── /methode : comment l'indice est calculé, et ce qu'il ne mesure pas
+    m = []
+    m.append("<h2>Deux nombres, jamais moyennés</h2>")
+    m.append("<p><b>C — couverture de périmètre.</b> Part des euros de l'univers des administrations "
+             "publiques représentés dans l'arbre.<br>"
+             "<b>P — profondeur.</b> Jusqu'où on suit l'euro, sur une échelle de destination, "
+             "<b>calculée sur les seuls euros couverts</b>.</p>")
+    m.append("<p>Les réduire à une moyenne écraserait celle qui compte le plus. Aucun fichier généré "
+             "ne contient de score global.</p>")
+    m.append("<h2>L'échelle de profondeur</h2>")
+    m.append("<table><thead><tr><th>Niveau</th><th>Ce qu'on voit</th></tr></thead><tbody>" + "".join(
+        f"<tr><td><b>{n}</b></td><td>{d}</td></tr>" for n, d in [
+            ("P0", "agrégat ou sous-secteur non ventilé"),
+            ("P1", "politique publique (mission, branche, strate)"),
+            ("P2", "programme, poste comptable, ou entité administrative nommée"),
+            ("P3", "action et sous-action — la ligne budgétaire fine"),
+            ("P4", "organisme destinataire identifié"),
+            ("P5", "<b>bénéficiaire final nommé</b>, avec identifiant, rattaché à sa ligne payeuse"),
+            ("P6", "<b>pièce justificative</b> référencée"),
+        ]) + "</tbody></table>")
+    m.append("<p>Un cran qui décrit <b>comment</b> l'argent est dépensé (titre budgétaire, nature de "
+             "dépense) et non <b>à qui</b> il va n'avance pas P.</p>")
+    m.append("<h2>La règle du référentiel homogène</h2>")
+    m.append('<div class="callout"><b>On ne divise jamais un euro d\'une comptabilité par un euro '
+             "d'une autre.</b> Le taux de couverture d'un bloc est mesuré à l'intérieur d'un "
+             "référentiel homogène (budget de l'État ÷ budget de l'État, comptes locaux ÷ comptes "
+             "locaux), puis appliqué au poids en comptabilité nationale.</div>")
+    m.append("<p>Conséquence assumée : <b>un bloc sans référentiel homogène compte zéro</b>, même "
+             "lorsque le site le documente intégralement. Les comptes de la Sécurité sociale sont "
+             "dans l'arbre, sourcés et confirmés — et ils comptent zéro, faute de raccord publié "
+             'entre leur comptabilité et la comptabilité nationale. Voir <a href="perimetre.html">le '
+             "périmètre</a> pour le détail de chaque blocage.</p>")
+    m.append("<h2>Ce que le compteur ne mesure pas</h2>")
+    m.append("<ul><li><b>L'exactitude des montants.</b> C mesure la largeur, P la finesse. La qualité "
+             "du sourçage est un indicateur distinct, affiché à part.</li>"
+             "<li><b>Ce qui est fermé par le droit</b> (vie privée, secret des affaires, secret de la "
+             "défense) est documenté mais <b>n'entre dans aucun quotient</b> : le retirer du "
+             "dénominateur reviendrait à se donner une bonne note en rétrécissant l'épreuve.</li></ul>")
+    m.append("<h2>Contre la triche</h2>")
+    m.append("<p>La règle ci-dessus est vérifiée par le programme qui construit le site : chaque "
+             "référentiel et chaque arbre déclarent leur comptabilité, et une divergence fait échouer "
+             "la publication.</p>")
+    m.append('<div class="callout"><b>Sa limite, énoncée plutôt que promise.</b> Ce contrôle compare '
+             "des <b>étiquettes et des montants déclarés</b> ; il ne relit pas les sources. Un "
+             "référentiel étiqueté d'une comptabilité mais issu d'une autre passerait, comme "
+             "passerait un montant fabriqué mais plausible. Le contrôle rend ces erreurs visibles "
+             "dans l'historique public des modifications — il ne les rend pas impossibles. "
+             "<b>La relecture humaine reste nécessaire.</b></div>")
+    m.append('<p class="manque">Méthode complète et décisions d\'architecture : '
+             '<a href="https://github.com/MrPognon/MonPognon/tree/main/docs/adr">docs/adr</a> '
+             "(ADR-0006 pour l'indice, ADR-0007 pour le contrôle). Le calcul lui-même est dans "
+             '<a href="https://github.com/MrPognon/MonPognon/blob/main/scripts/build.py">scripts/build.py</a>, '
+             'et ses résultats bruts dans <a href="couverture.json">couverture.json</a>.</p>')
+
+    with open(os.path.join(ROOT, "site", "methode.html"), "w", encoding="utf-8") as fh:
+        fh.write(_page("La méthode", "\n".join(m),
+                       "<p>Comment la complétion de ce site est mesurée — et ce que "
+                       "cette mesure ne dit pas.</p>"))
+
+
 def main():
     data, fiches, seen = {}, {}, set()
     flux_docs, denominateurs = {}, {}
@@ -649,7 +863,8 @@ def main():
             with open(os.path.join(ROOT, "site", "flux.js"), "w", encoding="utf-8") as fh:
                 fh.write("// Généré par scripts/build.py — NE PAS ÉDITER À LA MAIN (éditez data/flux/)\n")
                 fh.write("window.FLUX = " + json.dumps(fusion, ensure_ascii=False) + ";\n")
+        generer_pages(cov_doc)
         readme_ok = maj_readme(cov)
-        print(f"→ site/couverture.json + couverture.js{' + README (tableau)' if readme_ok else ''}")
+        print(f"→ site/couverture.json + couverture.js + perimetre.html + methode.html{' + README (tableau)' if readme_ok else ''}")
 
 if __name__ == "__main__": main()

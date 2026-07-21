@@ -598,6 +598,9 @@ function cpDetailHTML(){
       <b>Un périmètre de 100 % ne signifierait donc pas que tout l'argent public est visible</b> — et une profondeur de 6/6
       signifierait que chaque euro est traçable jusqu'à sa pièce, pas que la dépense est justifiée.</div>`;
   h+=`<div class="src">📚 <b>Méthode</b><br>${c.methode}</div>`;
+  // Deux pages générées par build.py depuis ce même calcul : elles ne peuvent pas
+  // dériver du compteur, puisqu'elles en sortent (issue #50).
+  h+=`<p class="desc" style="font-size:.8rem">→ <a href="perimetre.html">Le périmètre en détail</a> — bloc par bloc, avec ce qui manque et qui contacter.<br>→ <a href="methode.html">La méthode</a> — comment ces deux nombres sont calculés, et ce qu'ils ne disent pas.</p>`;
   return h;
 }
 function majBadgeCP(){
