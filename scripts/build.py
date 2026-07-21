@@ -427,6 +427,54 @@ def valider_flux(doc, path, seen_ids):
                 errors.append(f"{path}: flux — noeud_lie inexistant « {nid} » ({fid})")
 
 
+# Au-delà de ce facteur, aucun effet de millésime n'explique plus l'écart : c'est
+# une erreur d'imputation. Mesuré sur le corpus au 21/07/2026, un seul programme
+# dépasse son montant — le 350 « JO et paralympiques 2024 », à ×1,44, parce que
+# les versements tracés sont d'exécution 2023 face à un arbre en PLF 2025. Un
+# écart de cette nature est légitime et déclaré ; un facteur 3 ne l'est pas.
+SUR_RATTACHEMENT_FATAL = 3.0
+
+
+def valider_sur_rattachement(arbres):
+    """Pendant, sur l'axe P, de l'assertion `couvert_referentiel_eur` qui protège C.
+
+    Une ligne payeuse ne peut pas verser plus qu'elle ne porte. Sans ce contrôle,
+    rien n'empêchait de pointer 100 Md€ de bénéficiaires sur un programme qui en
+    porte 2,9 : le build passait en silence et P gagnait 0,16 point (vérifié par
+    exécution le 21/07/2026). Le plafond de `collecter_p5()` ne s'y oppose pas —
+    il porte sur le BLOC entier, consommé à moins de 1 %."""
+    montants, recu = {}, {}
+    for racine in arbres:
+        def idx(n):
+            montants[n["id"]] = n.get("montant")
+            for c in n.get("enfants", []):
+                idx(c)
+        idx(racine)
+    for racine in arbres:
+        def collecte(n):
+            cible = n.get("rattachement_id")
+            # mêmes conditions que collecter_p5() : sans elles, l'euro ne bouge pas
+            if cible and n.get("identifiant") and isinstance(n.get("montant"), (int, float)):
+                recu[cible] = recu.get(cible, 0.0) + n["montant"]
+            for c in n.get("enfants", []):
+                collecte(c)
+        collecte(racine)
+    for cible, somme in sorted(recu.items()):
+        porte = montants.get(cible)
+        if not porte or porte <= 0:
+            continue
+        ratio = somme / porte
+        if ratio > SUR_RATTACHEMENT_FATAL:
+            errors.append(f"sur-rattachement — « {cible} » reçoit {somme:,.2f} € de bénéficiaires "
+                          f"rattachés pour une ligne qui en porte {porte:,.2f} € (×{ratio:.2f}). "
+                          f"Au-delà de ×{SUR_RATTACHEMENT_FATAL:g}, aucun écart de millésime "
+                          f"n'explique cela : c'est une erreur d'imputation (ADR-0006).")
+        elif ratio > 1.0:
+            warnings.append(f"sur-rattachement — « {cible} » reçoit {somme:,.2f} € pour une ligne "
+                            f"qui en porte {porte:,.2f} € (×{ratio:.2f}) — écart de millésime "
+                            f"probable, à vérifier.")
+
+
 def valider_rattachements(node, path, seen_ids):
     """Un bénéficiaire ne peut atteindre P5 (ADR-0006) qu'avec les DEUX : un
     identifiant machine et un rattachement à une ligne payeuse réelle."""
@@ -859,6 +907,7 @@ def main():
     cov_doc = {"methode": METHODE_COUVERTURE, "arbres": cov}
     arbres = list(data.values()) + list(fiches.values())
     valider_bases_comptables(arbres, denominateurs)   # ADR-0007, AVANT le calcul
+    valider_sur_rattachement(arbres)                 # pendant de la règle sur l'axe P
     cov_doc["cp"] = {v: indice_cp(arbres, d) for v, d in sorted(denominateurs.items())}
 
     for w in warnings: print("AVERTISSEMENT:", w)
