@@ -1,0 +1,2860 @@
+{
+ "id": "etat.subventions.p334",
+ "label": "Programme 334 — Livre et industries culturelles : bénéficiaires des subventions aux associations",
+ "montant": 9276516.82,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "219 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p334.bureauintdeledtitionfr",
+   "label": "Bureau Int De L Edtition Fr",
+   "montant": 2782000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "306794959"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.agencelivrecinemaaudiovisuelen-nouvellea",
+   "label": "Agence Livre Cinema Audiovisuel En Nouvelle Aquitaine Alca Nouvelle Aquitaine",
+   "montant": 570700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "834315657"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.occitanielivreetlecture",
+   "label": "Occitanie Livre Et Lecture",
+   "montant": 559200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "834654907"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.agencelivreetlecturebourgogne-franchecom",
+   "label": "Agence Livre Et Lecture Bourgogne Franche Comte",
+   "montant": 539901.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "834642431"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lamaisondesecrivainsetdela-litterature",
+   "label": "La Maison Des Ecrivains Et De La Litterature",
+   "montant": 400000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "329970743"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.normandielivrelecture",
+   "label": "Normandie Livre Lecture",
+   "montant": 399000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "834419426"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.auvergnerhonealpeslivreet-lecture",
+   "label": "Auvergne Rhone Alpes Livre Et Lecture",
+   "montant": 392200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "327948238"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.agenceregionaledulivreetdela-lecturedesh",
+   "label": "Agence Regionale Du Livre Et De La Lecture Des Hauts De France",
+   "montant": 384383.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "837806702"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.agenceregionaledulivrepaca",
+   "label": "Agence Regionale Du Livre Paca",
+   "montant": 272807.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "447740036"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.poleregionaldecooperationdes-acteursduli",
+   "label": "Pole Regional De Cooperation Des Acteurs Du Livre Et De La Lecture En Pays De La Loire",
+   "montant": 125000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "802932111"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationinterbibly",
+   "label": "Association Interbibly",
+   "montant": 106002.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342484102"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.europeandigitalreadinglab",
+   "label": "European Digital Reading Lab",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "813445475"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.librairiesindependantesennouvelle-aquita",
+   "label": "Librairies Independantes En Nouvelle Aquitaine",
+   "montant": 84000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "413863960"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationdesbibliothecairesde-france",
+   "label": "Association Des Bibliothecaires De France",
+   "montant": 80000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784205403"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.leslibrairesdenhaut",
+   "label": "Les Libraires D En Haut",
+   "montant": 79000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "440734226"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lesvictoiresdelamusique",
+   "label": "Les Victoires De La Musique",
+   "montant": 75440.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342500675"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.federationnationaledeslabels-independant",
+   "label": "Federation Nationale Des Labels Independants",
+   "montant": 70000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "539096248"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.agenceregionaledulivreetdela-lecturedema",
+   "label": "Agence Regionale Du Livre Et De La Lecture De Mayotte",
+   "montant": 66040.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "811324367"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationdeslibrairies-independantesen",
+   "label": "Association Des Librairies Independantes En Pays De La Loire Alip",
+   "montant": 66000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "751698986"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lesallumesdujazz",
+   "label": "Les Allumes Du Jazz",
+   "montant": 65000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410388912"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.imagesenbibliotheques",
+   "label": "Images En Bibliotheques",
+   "montant": 65000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "352606594"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.federationinterregionaledulivreet-delale",
+   "label": "Federation Interregionale Du Livre Et De La Lecture",
+   "montant": 65000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340319367"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.librairesdusud",
+   "label": "Libraires Du Sud",
+   "montant": 63000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "425100625"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.laguildedesartistesdelamusique",
+   "label": "La Guilde Des Artistes De La Musique",
+   "montant": 60000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "794591800"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.ctrpromotlivrejeunesseseinest-denis",
+   "label": "Ctr Promot Livre Jeunesse Seine St Denis",
+   "montant": 59295.82,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342607009"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.librairesenauvergnerhonealpes",
+   "label": "Libraires En Auvergne Rhone Alpes",
+   "montant": 55000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "504221201"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.parislibrairiesassociationdes-librairies",
+   "label": "Paris Librairies Association Des Librairies De Paris",
+   "montant": 54000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "753758358"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.librairiesennormandieassociation-deslibr",
+   "label": "Librairies En Normandie Association Des Librairies Independantes De Normandie",
+   "montant": 52000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "807659396"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lecoledelalibrairie",
+   "label": "L Ecole De La Librairie",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "348786237"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.maisonsecrivainpatrimoines-litteraires",
+   "label": "Maisons Ecrivain Patrimoines Litteraires",
+   "montant": 48000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "429045107"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lacharte",
+   "label": "La Charte",
+   "montant": 45000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "413705427"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lareuniondeslivres",
+   "label": "La Reunion Des Livres",
+   "montant": 42000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "503131385"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.editeurshautdefrance",
+   "label": "Editeurs Haut De France",
+   "montant": 38891.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "795068576"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.maisoninterculturelledesecrivains-etdesl",
+   "label": "Maison Interculturelle Des Ecrivains Et Des Litteratures D Ameriques Micela",
+   "montant": 36000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "891732224"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.archivistesbibliothecaires-documentalist",
+   "label": "Archivistes Bibliothecaires Documentalistes De Guyane",
+   "montant": 36000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "395293376"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationfrancaisede-normalisation",
+   "label": "Association Francaise De Normalisation",
+   "montant": 35500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775724818"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.confederationdelillustrationet-dulivrere",
+   "label": "Confederation De L Illustration Et Du Livre Region Alsace",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "794615492"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lefestin",
+   "label": "Le Festin",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "377961073"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.esaupe77",
+   "label": "Esaupe 77",
+   "montant": 32000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "443584255"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.fontaineolivres",
+   "label": "Fontaine O Livres",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428905889"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.bibliothequemusicalelagrange-fleuret",
+   "label": "Bibliotheque Musicale La Grange Fleuret",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340836386"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.maisondelacultureyiddish-bibliothequemed",
+   "label": "Maison De La Culture Yiddish Bibliotheque Medem Parizer Yidish Tsenter",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "320152044"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.prixdujeuneecrivain",
+   "label": "Prix Du Jeune Ecrivain",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383176054"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.longcours",
+   "label": "Long Cours",
+   "montant": 24000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "538573155"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.reseauregionaldesmaisonsd-ecrivainetdesp",
+   "label": "Reseau Regional Des Maisons D Ecrivain Et Des Patrimoines Litteraires Des Hauts De France",
+   "montant": 22000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "525251708"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.ilfautallervoir",
+   "label": "Il Faut Aller Voir",
+   "montant": 21000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "444143374"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.centrefrancoismauriacdemalagar",
+   "label": "Centre Francois Mauriac De Malagar",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "338090046"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.collectifdediteursdespaysdela-loire",
+   "label": "Collectif D Editeurs Des Pays De La Loire",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "792962177"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.editionsindependantesenrhone-alpesetauve",
+   "label": "Editions Independantes En Rhone Alpes Et Auvergne",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "799775929"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.mcmlnc",
+   "label": "Mc Mlnc",
+   "montant": 16665.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.fondationaragonelsatriolet",
+   "label": "Fondation Aragon Elsa Triolet",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378686836"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationdesbibliothecaires-departemen",
+   "label": "Association Des Bibliothecaires Departementaux",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380603654"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.asssportiveetculturelle-montargue",
+   "label": "Ass Sportive Et Culturelle Montargue",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "415310614"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.syndnationallibraiancmoder",
+   "label": "Synd National Librai Anc Moder",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784285082"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.socdesgensdelettresdefrance",
+   "label": "Soc Des Gens De Lettres De France",
+   "montant": 14000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "392843249"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.editeursdusudprovencealpes-cotedazur",
+   "label": "Editeurs Du Sud Provence Alpes Cote D Azur",
+   "montant": 14000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "450527791"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.mangelivres",
+   "label": "Mange Livres",
+   "montant": 13920.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "440973279"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lesmalcoiffes",
+   "label": "Les Malcoiffes",
+   "montant": 13000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "531830032"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationdeslibrairies-independantesdo",
+   "label": "Association Des Librairies Independantes D Occitanie",
+   "montant": 12000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "893956284"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.atoumoprod",
+   "label": "Atoumo Prod",
+   "montant": 11663.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "898782982"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.asslabaleinequiditvagues",
+   "label": "Ass La Baleine Qui Dit Vagues",
+   "montant": 11200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410480594"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lesamisdyveschaland",
+   "label": "Les Amis D Yves Chaland",
+   "montant": 11000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "503342636"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lassociationleshypermondes",
+   "label": "L Association Les Hypermondes",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "882093784"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.assoprixameriquesinsulaireguyane",
+   "label": "Asso Prix Ameriques Insulaire Guyane",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "431465046"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.festivalgribouillis",
+   "label": "Festival Gribouillis",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "893441014"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.asslectureentete",
+   "label": "Ass Lecture En Tete",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418088712"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.labaie",
+   "label": "La Baie",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "900982687"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.mademoiselles",
+   "label": "Mademoiselle S",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "505306183"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.reseaudesevenementslitteraireset-desfest",
+   "label": "Reseau Des Evenements Litteraires Et Des Festivals",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "808751580"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.pourlapromotiondelatraduction-ltteraire",
+   "label": "Pour La Promotion De La Traduction Ltteraire",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "333643617"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationescalesdeslettres",
+   "label": "Association Escales Des Lettres",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423527969"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.sochistoireprotestantfran",
+   "label": "Soc Histoire Protestant Fran",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775665961"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lesediteursassocies",
+   "label": "Les Editeurs Associes",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "451865778"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.villavalmont",
+   "label": "Villa Valmont",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "849378252"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.adcatmospherique",
+   "label": "Adc Atmospherique",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "907973002"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.otakusfamily",
+   "label": "Otaku S Family",
+   "montant": 9500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "883919706"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.echelleinconnue",
+   "label": "Echelle Inconnue",
+   "montant": 9000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432724607"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.unionpourladefensedelidentite-reunionnai",
+   "label": "Union Pour La Defense De L Identite Reunionnaise",
+   "montant": 9000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "328332986"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.asspourlapromotionculturelleet-touristiq",
+   "label": "Ass Pour La Promotion Culturelle Et Touristique Du Vin Et Du Livre En Bourgogne",
+   "montant": 9000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "502863541"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.labandeadhoc",
+   "label": "La Bande Adhoc",
+   "montant": 9000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "813303542"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationculturelleetrurale-baraqueswa",
+   "label": "Association Culturelle Et Rurale Baraques Walden",
+   "montant": 8897.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "889446845"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationnationaledes-conseillerspourl",
+   "label": "Association Nationale Des Conseillers Pour Le Livre Et La Lecture Du Ministere De La Culture Ancll",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "842986317"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationamavada",
+   "label": "Association Amavada",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434727517"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.artefactprod",
+   "label": "Artefact Prod",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418010443"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.brouillonsdeculture",
+   "label": "Brouillons De Culture",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "399207562"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.leseditionsdelacerise",
+   "label": "Les Editions De La Cerise",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "493056592"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.zincgrenadine",
+   "label": "Zinc Grenadine",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "484217021"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.institutmemoiresedition-contemporaine",
+   "label": "Institut Memoires Edition Contemporaine",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "351463559"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.balisaille",
+   "label": "Balisaille",
+   "montant": 7500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "902818004"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.facforbachactionculturelle",
+   "label": "F A C Forbach Action Culturelle",
+   "montant": 7500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "501034466"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.onnecomptepaspourdubeurre",
+   "label": "On Ne Compte Pas Pour Du Beurre",
+   "montant": 7500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "891004723"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.versionmangiennes",
+   "label": "Version Mangiennes",
+   "montant": 7500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923479786"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.incarnato",
+   "label": "Incarnato",
+   "montant": 7414.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "849293451"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lireavoixhautenormandie",
+   "label": "Lire A Voix Haute Normandie",
+   "montant": 7200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423671056"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lesamisdessandales",
+   "label": "Les Amis Des Sandales",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923382113"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.assodesarts",
+   "label": "Asso Des Arts",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "520432709"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lecturejeunesse",
+   "label": "Lecture Jeunesse",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305240475"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.assoccroqlivres",
+   "label": "Assoc Croq Livres",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434778379"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationdesbibliothecairesde-france-2",
+   "label": "Association Des Bibliothecaires De France",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784205403"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationpourlasauvegardedela-maisonna",
+   "label": "Association Pour La Sauvegarde De La Maison Natale De Colette",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "532948445"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.promolecture",
+   "label": "Promolecture",
+   "montant": 6500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "489615906"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.bim",
+   "label": "Bim",
+   "montant": 6400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "917612152"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.viagrenelle",
+   "label": "Via Grenelle",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "511071094"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.baguetteetmarmelade",
+   "label": "Baguette Et Marmelade",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "888759859"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lepointdujourcentredartediteur",
+   "label": "Le Point Du Jour Centre D Art Editeur",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "424786242"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.bulleberry",
+   "label": "Bulleberry",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "479252058"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lettresverticales",
+   "label": "Lettres Verticales",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "422648550"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationpourunfestivaldela-languefran",
+   "label": "Association Pour Un Festival De La Langue Francaise Compiegne Pierrefonds Villers Cotterets S Inscrivant Dans Le Dev",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "917528390"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.sourcespoetiques",
+   "label": "Sources Poetiques",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "908907918"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lesamisducinemadureel",
+   "label": "Les Amis Du Cinema Du Reel",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "330782301"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.enimiebd",
+   "label": "Enimie Bd",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "493221006"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.flap",
+   "label": "Flap",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "480655851"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationdesbibliotheques-publiquesdem",
+   "label": "Association Des Bibliotheques Publiques De Martinique",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "402841324"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.rencontresinternationalesdelures",
+   "label": "Rencontres Internationales De Lures",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782399810"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.cinemadesailleurs",
+   "label": "Cinema Des Ailleurs",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "501985428"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lesamisdelarevuenunc",
+   "label": "Les Amis De La Revue Nunc",
+   "montant": 5500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "751906165"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationpourlautobiographie",
+   "label": "Association Pour L Autobiographie",
+   "montant": 5500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432872000"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.vinimoldk",
+   "label": "Vi Nimo Ldk",
+   "montant": 5124.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lescarnetsdelune",
+   "label": "Les Carnets De Lune",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "892755372"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.aoaproduction",
+   "label": "A O A Production",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "509472122"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationruedeslivres",
+   "label": "Association Rue Des Livres",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "523546406"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationdepromotiondulivre-audio",
+   "label": "Association De Promotion Du Livre Audio",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "843667007"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationbellesabsentes",
+   "label": "Association Belles Absentes",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "445221138"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.parolesindigo",
+   "label": "Paroles Indigo",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "519566764"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.diwanenlorraine",
+   "label": "Diwan En Lorraine",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "507645851"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lesmotslemotion",
+   "label": "Les Mots L Emotion",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "842657934"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.brightlightsbigcities",
+   "label": "Bright Lights Big Cities",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "809471261"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.maisonsdecrivainennouvelle-aquitaine",
+   "label": "Maisons D Ecrivain En Nouvelle Aquitaine",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "800843286"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.liguedelenseignementfederation-departeme",
+   "label": "Ligue De L Enseignement Federation Departementale De L Indre",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775189103"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.academiedarchitecture",
+   "label": "Academie D Architecture",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784243438"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationpopfiction",
+   "label": "Association Pop Fiction",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "920467776"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.aimerlireenhautevalleede-chevreuse",
+   "label": "Aimer Lire En Haute Vallee De Chevreuse",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "492276142"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.culturepiecesdetachees",
+   "label": "Culture Pieces Detachees",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "904533189"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.mesmainsenor",
+   "label": "Mes Mains En Or",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "532777968"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.mewemfrance",
+   "label": "Mewem France",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "905080339"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.atoursdebulles",
+   "label": "A Tours De Bulles",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "480077288"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationdesediteursdenouvelle-aquitai",
+   "label": "Association Des Editeurs De Nouvelle Aquitaine",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "895338408"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.crocmillivre",
+   "label": "Crocmillivre",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "814343927"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.handiespacerepitbienetre",
+   "label": "Handi Espace Repit Bien Etre",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "853384170"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.centredecreationduxix",
+   "label": "Centre De Creation Du Xix",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "403058555"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.assocgrandbalan",
+   "label": "Assoc Grand Balan",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "392498473"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lalanternedesecrivains",
+   "label": "La Lanterne Des Ecrivains",
+   "montant": 4800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "914212113"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.maisondesjeunesetdelaculture",
+   "label": "Maison Des Jeunes Et De La Culture",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "417891744"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.gorgebleue",
+   "label": "Gorge Bleue",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "813784584"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.amicalelaiquedeploufragan",
+   "label": "Amicale Laique De Ploufragan",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398199885"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.institutderecherchesetdetudes-surlamedit",
+   "label": "Institut De Recherches Et D Etudes Sur La Mediterranee Et Moyen Orient",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "530121680"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lachouetteimprevue",
+   "label": "La Chouette Imprevue",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "752110353"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associaciondeprefiguraciondela-ciutat",
+   "label": "Associacion De Prefiguracion De La Ciutat",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "849654108"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.comitedesfoiresetsalons",
+   "label": "Comite Des Foires Et Salons",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778564286"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.amaliadiffusion",
+   "label": "Amalia Diffusion",
+   "montant": 3700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "813792173"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationcible95",
+   "label": "Association Cible 95",
+   "montant": 3680.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "413136912"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.varoueditionetevenementiel",
+   "label": "Varou Edition Et Evenementiel",
+   "montant": 3500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "813100120"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lesnuitsetlesjoursdequerbes",
+   "label": "Les Nuits Et Les Jours De Querbes",
+   "montant": 3500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "444605638"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lireaucoeurdujura",
+   "label": "Lire Au Coeur Du Jura",
+   "montant": 3500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "847515475"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.bdlezoux",
+   "label": "Bd Lezoux",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "822955530"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.illico",
+   "label": "Illico",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "824347819"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.yovana",
+   "label": "Yovana",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "810772558"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.mauvaisesgraines",
+   "label": "Mauvaises Graines",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "908416787"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lesamisdelatelierdesnoyers",
+   "label": "Les Amis De L Atelier Des Noyers",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "877860510"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.atelire",
+   "label": "Atelire",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "814523981"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationdufestivaldulivrede-jeunessee",
+   "label": "Association Du Festival Du Livre De Jeunesse Et De Bande Dessinee De Cherbourg Octeville",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378764716"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationbenjaminsmedia",
+   "label": "Association Benjamins Media",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "381917830"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.jedipaca",
+   "label": "Jedi Paca",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "499793198"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationculturellemitaraka",
+   "label": "Association Culturelle Mitaraka",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384790952"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lesescalesdebinic",
+   "label": "Les Escales De Binic",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "795094010"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lesecouteurs",
+   "label": "Les Ecouteurs",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "841811417"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lumak",
+   "label": "Lumak",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "907730006"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.compagnielesfruitsduhasard",
+   "label": "Compagnie Les Fruits Du Hasard",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "431976323"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.memoiredessignes",
+   "label": "Memoire Des Signes",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "832984207"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.taspastoutdit",
+   "label": "T As Pas Tout Dit",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "843427741"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.ecrirelanaturefestivalpyreneen-delittera",
+   "label": "Ecrire La Nature Festival Pyreneen De Litterature",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "910032895"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.rhizomes",
+   "label": "Rhizomes",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "753000157"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationdesbibliothecairesde-france-3",
+   "label": "Association Des Bibliothecaires De France",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784205403"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationpichenettes",
+   "label": "Association Pichenettes",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "528907637"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lapach",
+   "label": "Lapach",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "900267980"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.cultureplanete29",
+   "label": "Culture Planete 29",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "844411801"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.studiocourteechelle",
+   "label": "Studio Courte Echelle",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "838415552"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.eidolaeditions",
+   "label": "Eidola Editions",
+   "montant": 2900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "529942401"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lapetitebibliothequeronde",
+   "label": "La Petite Bibliotheque Ronde",
+   "montant": 2650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "497556787"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationcercle",
+   "label": "Association Cercle",
+   "montant": 2513.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "753385343"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.magnezium",
+   "label": "Magnezium",
+   "montant": 2500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "888369733"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationsocietedeportroyal",
+   "label": "Association Societe De Port Royal",
+   "montant": 2500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784254674"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lesecritsdaouteymoutiers",
+   "label": "Les Ecrits D Aout Eymoutiers",
+   "montant": 2500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "852474535"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.maisondelapoesiedepoitiers",
+   "label": "Maison De La Poesie De Poitiers",
+   "montant": 2500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "493360192"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lireetrelire",
+   "label": "Lire Et Relire",
+   "montant": 2500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "829897818"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.passages",
+   "label": "Passages",
+   "montant": 2500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "809413339"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.agenceregionaledulivreetdela-lecturedema-2",
+   "label": "Agence Regionale Du Livre Et De La Lecture De Mayotte",
+   "montant": 2446.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "811324367"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.ventterral",
+   "label": "Vent Terral",
+   "montant": 2149.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "328006036"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lescroqueursdebulles",
+   "label": "Les Croqueurs De Bulles",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "798487898"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.adcatmospherique-2",
+   "label": "Adc Atmospherique",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "907973002"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.association212",
+   "label": "Association 212",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "538582958"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.acimassoccoopprofessionn-informatmusical",
+   "label": "Acim Assoc Coop Professionn Informat Musicale",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382220945"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lireabarbentane",
+   "label": "Lire A Barbentane",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "908536535"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.leseditionsdavallon",
+   "label": "Les Editions D Avallon",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "882719651"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.bastideetlire",
+   "label": "Bastide Et Lire",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "920331709"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.bullesdebourgogne",
+   "label": "Bulles De Bourgogne",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "832683924"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.federationdescafeslibrairiesde-bretagne",
+   "label": "Federation Des Cafes Librairies De Bretagne",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "498957190"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.associationeditionsdupourquoipas",
+   "label": "Association Editions Du Pourquoi Pas",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "789742368"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.madseries",
+   "label": "Mad Series",
+   "montant": 1900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "792300139"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.fatamorgana",
+   "label": "Fata Morgana",
+   "montant": 1900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776075632"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.leportajauni",
+   "label": "Le Port A Jauni",
+   "montant": 1638.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "441055084"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.reveursdeprose",
+   "label": "Reveurs De Prose",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "904458106"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lesfousdebassan",
+   "label": "Les Fous De Bassan",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344765276"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.bibliopat",
+   "label": "Bibliopat",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923264980"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.eclatsdelire",
+   "label": "Eclats De Lire",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "511485419"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.boutdelaville",
+   "label": "Bout De La Ville",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "753056621"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.livresenpature",
+   "label": "Livres En Pature",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "502065345"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.editionsdupetitspois",
+   "label": "Editions Du Petits Pois",
+   "montant": 1400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "753139559"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.editionsdelattribut",
+   "label": "Editions De L Attribut",
+   "montant": 1350.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "479051856"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.autrementdire",
+   "label": "Autrement Dire",
+   "montant": 1300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "404896722"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.cafelibrairieplumeetbulle",
+   "label": "Cafe Librairie Plume Et Bulle",
+   "montant": 1250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "809731409"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.association",
+   "label": "Association",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "795277763"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.livreensemble",
+   "label": "Livre Ensemble",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "852718568"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.lesamisdelabibliothequediocesaine",
+   "label": "Les Amis De La Bibliotheque Diocesaine",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418388997"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.clublitterairemirabel",
+   "label": "Club Litteraire Mirabel",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "881997282"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.planbeditions",
+   "label": "Plan B Editions",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "853616688"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.toucystoric",
+   "label": "Toucy Storic",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "881696173"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.assocamisdurimbaud",
+   "label": "Assoc Amis Du Rimbaud",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "399501576"
+   },
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p334.internatfedlibraryassocinstit",
+   "label": "Internat Fed Library Assoc Instit",
+   "montant": 598.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.MA.334",
+   "enfants": []
+  }
+ ]
+}

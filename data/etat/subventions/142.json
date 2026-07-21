@@ -1,0 +1,285 @@
+{
+ "id": "etat.subventions.p142",
+ "label": "Programme 142 — Enseignement supérieur et recherche agricoles : bénéficiaires des subventions aux associations",
+ "montant": 31139761.59,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "20 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p142.institutpolytechniqueunilasalle",
+   "label": "Institut Polytechnique Unilasalle",
+   "montant": 7618388.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780507190"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.asscoordinatechnindustrieagro-alimen",
+   "label": "Ass Coordina Techn Industrie Agro Alimen",
+   "montant": 4084651.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "338840564"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.ecoledingenieursdepurpan",
+   "label": "Ecole D Ingenieurs De Purpan",
+   "montant": 4015778.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776944142"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.associationgroupeesa",
+   "label": "Association Groupe Esa",
+   "montant": 3985887.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342382637"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.groupeisaraisema",
+   "label": "Groupe Isara Isema",
+   "montant": 3754905.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779845056"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.junia",
+   "label": "Junia",
+   "montant": 3753242.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783707003"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.ecolesuperieuredubois",
+   "label": "Ecole Superieure Du Bois",
+   "montant": 1609990.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784521304"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.asscoordinattechniqagricole",
+   "label": "Ass Coordinat Techniq Agricole",
+   "montant": 1186000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784523318"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.asscoordinatechnindustrieagro-alimen-2",
+   "label": "Ass Coordina Techn Industrie Agro Alimen",
+   "montant": 680000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "338840564"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.ecoledingenieursdepurpan-2",
+   "label": "Ecole D Ingenieurs De Purpan",
+   "montant": 130740.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776944142"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.asscoordinattechniqagricole-2",
+   "label": "Ass Coordinat Techniq Agricole",
+   "montant": 93023.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784523318"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.institutpolytechniqueunilasalle-2",
+   "label": "Institut Polytechnique Unilasalle",
+   "montant": 89940.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780507190"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.groupeisaraisema-2",
+   "label": "Groupe Isara Isema",
+   "montant": 71597.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779845056"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.junia-2",
+   "label": "Junia",
+   "montant": 26100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783707003"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.associationgroupeesa-2",
+   "label": "Association Groupe Esa",
+   "montant": 21900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342382637"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.ecolesuperieuredubois-2",
+   "label": "Ecole Superieure Du Bois",
+   "montant": 12800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784521304"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.groupeisaraisema-3",
+   "label": "Groupe Isara Isema",
+   "montant": 4587.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779845056"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.fondationhopitalsaintjoseph",
+   "label": "Fondation Hopital Saint Joseph",
+   "montant": 119.27,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775682990"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.fondationvincentdepaul",
+   "label": "Fondation Vincent De Paul",
+   "montant": 94.71,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "438420887"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p142.maisondesanteprotestante-bagatelle",
+   "label": "Maison De Sante Protestante Bagatelle",
+   "montant": 19.61,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782021307"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.142",
+   "enfants": []
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "id": "etat.subventions.p612",
+ "label": "Programme 612 — Navigation aérienne : bénéficiaires des subventions aux associations",
+ "montant": 66000.0,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "2 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p612.federation-nationale-des-radioamateurs",
+   "label": "Federation Nationale Des Radioamateurs",
+   "montant": 36000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "440427557"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.612",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p612.fondation-mines-telecom",
+   "label": "Fondation Mines Telecom",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "752263038"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.612",
+   "enfants": []
+  }
+ ]
+}

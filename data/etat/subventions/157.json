@@ -1,0 +1,1208 @@
+{
+ "id": "etat.subventions.p157",
+ "label": "Programme 157 — Handicap et dépendance : bénéficiaires des subventions aux associations",
+ "montant": 3117752.0,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "91 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p157.3977contrelamaltraitance",
+   "label": "3977 Contre La Maltraitance",
+   "montant": 1390000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "801831868"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.collectiffrancepourlarecherche-etlapromo",
+   "label": "Collectif France Pour La Recherche Et La Promotion De L Emploi Accompagne",
+   "montant": 106500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "808417950"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.ove",
+   "label": "Ove",
+   "montant": 100000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "801252719"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.agencenouvelledessolidarites-actives",
+   "label": "Agence Nouvelle Des Solidarites Actives",
+   "montant": 72000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "488527326"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.jeunesaidantsensemble",
+   "label": "Jeunes Aidants Ensemble",
+   "montant": 70000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "828554899"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.associationpourlamobilisation-nationalec",
+   "label": "Association Pour La Mobilisation Nationale Contre L Isolement Social Des Ages Monalisa",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "800651788"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.droitpluriel",
+   "label": "Droit Pluriel",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "820929768"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.federationfrancaisehandisport",
+   "label": "Federation Francaise Handisport",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785307315"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.federationancreai",
+   "label": "Federation Ancreai",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398418079"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.mouvementfrplanningfamilial",
+   "label": "Mouvement Fr Planning Familial",
+   "montant": 48000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775660004"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.associationnationaledesequipes-contribua",
+   "label": "Association Nationale Des Equipes Contribuant A L Action Medico Sociale Precoce",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331329383"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.credoccentrechpouretudobs",
+   "label": "Credoc Cent Rech Pour Etud Obs",
+   "montant": 37752.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784537649"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.unafam",
+   "label": "Unafam",
+   "montant": 37000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784363483"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.unionnatinteroeuvreprivesanit-socia",
+   "label": "Union Nat Inter Oeuvre Prive Sanit Socia",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672223"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.unionfrancaisecentrevacances-loisirs",
+   "label": "Union Francaise Centre Vacances Loisirs",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775685621"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.nouveausouffle",
+   "label": "Nouveau Souffle",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "804541746"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.federgenassdeppupilleenspublic",
+   "label": "Feder Gen Ass Dep Pupille Ens Public",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784453318"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.fondationdesamisdelatelier",
+   "label": "Fondation Des Amis De L Atelier",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "530342740"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.voisinssolidaires",
+   "label": "Voisins Solidaires",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "501837017"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.associationreiactis",
+   "label": "Association Reiactis",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "495335085"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.federationdesplateformesd-accompagnement",
+   "label": "Federation Des Plateformes D Accompagnement Et De Repit Des Aidants",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "854039450"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.francesilvereco",
+   "label": "France Silver Eco",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "519744007"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.collectifdeluttecontrela-denutritioncld",
+   "label": "Collectif De Lutte Contre La Denutrition Cld",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "882684996"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.handidactique",
+   "label": "Handidactique",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "808008155"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.reseaufrancophonedesvillesamies-desaines",
+   "label": "Reseau Francophone Des Villes Amies Des Aines",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "753983048"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.almafranchecomte",
+   "label": "Alma Franche Comte",
+   "montant": 23000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "494448699"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.nosmemoiresvives",
+   "label": "Nos Memoires Vives",
+   "montant": 21000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "821978004"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.lesrendezvouslectureecriture",
+   "label": "Les Rendez Vous Lecture Ecriture",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "799176235"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.unavenirapresletravail",
+   "label": "Un Avenir Apres Le Travail",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "892068131"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.federationfrancaisederugbyaxiii",
+   "label": "Federation Francaise De Rugby A Xiii",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "788105146"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.almacontrelamaltraitance-departements040",
+   "label": "Alma Contre La Maltraitance Departements 04 05 83 84",
+   "montant": 18000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "491757431"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.almacalvados",
+   "label": "Alma Calvados",
+   "montant": 18000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "452768344"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.officeremoispersonnesagees",
+   "label": "Office Remois Personnes Agees",
+   "montant": 18000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780430344"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.assalma81",
+   "label": "Ass Alma 81",
+   "montant": 18000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439002916"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.federationnationaledes-associationsauser",
+   "label": "Federation Nationale Des Associations Au Service Des Eleves Presentant Une Situation De Handicap Grandir En Societe",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439861568"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.almaberry",
+   "label": "Alma Berry",
+   "montant": 13000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "753291715"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.alma7627",
+   "label": "Alma 76 27",
+   "montant": 13000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "452481658"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.alma5457",
+   "label": "Alma 54 57",
+   "montant": 13000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "452754948"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.ospaofficstephpersonneagee",
+   "label": "Ospa Offic Steph Personne Agee",
+   "montant": 13000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "314764275"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.apalib",
+   "label": "Apalib",
+   "montant": 13000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778950717"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.almaisere",
+   "label": "Alma Isere",
+   "montant": 13000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434566550"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.amdor2000",
+   "label": "Amdor 2000",
+   "montant": 13000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340662725"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.almaheraultalloalamaltraitance-desperson",
+   "label": "Alma Herault Allo A La Maltraitance Des Personnes Agees",
+   "montant": 13000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "533393526"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.almaardeche",
+   "label": "Alma Ardeche",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "509469755"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.culturerelax",
+   "label": "Culture Relax",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "498121516"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.ecolededesignnantesatlantique",
+   "label": "Ecole De Design Nantes Atlantique",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "334055902"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.lesdonneursdevoix",
+   "label": "Les Donneurs De Voix",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "332416114"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.conseilfrancaisdespersonnes-handicapeesp",
+   "label": "Conseil Francais Des Personnes Handicapees Pour Les Affaires Europeennes Et Internationales",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "441995065"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.comitedepartementalrhoneet-metropoledely",
+   "label": "Comite Departemental Rhone Et Metropole De Lyon De Rugby A Xiii",
+   "montant": 8500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "409472701"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.almanordpasdecalais",
+   "label": "Alma Nord Pas De Calais",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "807642756"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.almasarthe",
+   "label": "Alma Sarthe",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "508310265"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.almaardeche-2",
+   "label": "Alma Ardeche",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "509469755"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.assocalmazur",
+   "label": "Assoc Almazur",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439334475"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.associationallomaltraitance-personnesage",
+   "label": "Association Allo Maltraitance Personnes Agees Et Handicapees",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "501146021"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.associationalmamayenne",
+   "label": "Association Alma Mayenne",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "750232183"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.almalandesallomaltraitancedes-personnesa",
+   "label": "Alma Landes Allo Maltraitance Des Personnes Agees Et Ou Handicapees",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "791327497"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.almasavoie",
+   "label": "Alma Savoie",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "812147148"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.alma5889",
+   "label": "Alma 58 89",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "831740204"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.alma22",
+   "label": "Alma 22",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "497720987"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.alma64",
+   "label": "Alma 64",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "501009187"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.officeaquitrecheretudeinform-liaison",
+   "label": "Office Aquit Recher Etude Inform Liaison",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "308066265"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.alma71",
+   "label": "Alma 71",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "451311724"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.alma31oserledire",
+   "label": "Alma 31 Oser Le Dire",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "450355136"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.criascentreregionald-informationpourlagi",
+   "label": "C R I A S Centre Regional D Information Pour L Agir Solidaire",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779868702"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.alma02",
+   "label": "Alma 02",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "537595597"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.alma47",
+   "label": "Alma 47",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "521218941"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.assocalma65",
+   "label": "Assoc Alma 65",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439737396"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.alma11",
+   "label": "Alma 11",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "789144755"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.almareunionallomaltraitancepers-age",
+   "label": "Alma Reunion Allo Maltraitance Pers Age",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "442157988"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.allomaltraitancedehautesavoie",
+   "label": "Allo Maltraitance De Haute Savoie",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "478316441"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.alma13",
+   "label": "Alma 13",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418661823"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.almadrome",
+   "label": "Alma Drome",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "481066496"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.allomaltraitancedufinistere",
+   "label": "Allo Maltraitance Du Finistere",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "532573417"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.almaanjou",
+   "label": "Alma Anjou",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "511840985"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.allomaltraitancepourperonne-agee",
+   "label": "Allo Maltraitance Pour Peronne Agee",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "450967708"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.allomaltraitancedespersonnes-agees",
+   "label": "Allo Maltraitance Des Personnes Agees",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "445089410"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.almavendee",
+   "label": "Alma Vendee",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "498546944"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.associationallomaltraitancepuyde-dome",
+   "label": "Association Allo Maltraitance Puy De Dome",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "510376890"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.centredinformationetde-formationdesservi",
+   "label": "Centre D Information Et De Formation Des Services A La Personne",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "492690870"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.associationalma88",
+   "label": "Association Alma88",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "535024137"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.cassiopea",
+   "label": "Cassiopea",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342357217"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.fondationpartageetvie",
+   "label": "Fondation Partage Et Vie",
+   "montant": 7500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439975640"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.institformarechevalpratiqmedico-soc",
+   "label": "Instit Forma Rech Eval Pratiq Medico Soc",
+   "montant": 6500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382357168"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.ecoutemaltraitancepersonnes-ageeshandica",
+   "label": "Ecoute Maltraitance Personnes Agees Handicapees Cantal",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "790742993"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.alma5889-2",
+   "label": "Alma 58 89",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "831740204"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.alma13-2",
+   "label": "Alma 13",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418661823"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.centredinformationetde-formationdesservi-2",
+   "label": "Centre D Information Et De Formation Des Services A La Personne",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "492690870"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.almavendee-2",
+   "label": "Alma Vendee",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "498546944"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.alma13-3",
+   "label": "Alma 13",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418661823"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.allomaltraitancedufinistere-2",
+   "label": "Allo Maltraitance Du Finistere",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "532573417"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p157.assocpolyvalenteactions-judiciaires15",
+   "label": "Assoc Polyvalente Actions Judiciaires 15",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "438170284"
+   },
+   "rattachement_id": "etat.depenses.BG.SE.157",
+   "enfants": []
+  }
+ ]
+}

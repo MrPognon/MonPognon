@@ -1,0 +1,697 @@
+{
+ "id": "etat.subventions.p380",
+ "label": "Programme 380 — Fonds d'accélération de la transition écologique dans les territoires : bénéficiaires des subventions aux associations",
+ "montant": 4157856.94,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "52 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p380.manustedornithologiepf",
+   "label": "Manu Ste D Ornithologie Pf",
+   "montant": 823970.16,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.labominable",
+   "label": "L Abominable",
+   "montant": 360000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "412049983"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.conservatoiredespacesnaturelsde-lorraine",
+   "label": "Conservatoire D Espaces Naturels De Lorraine",
+   "montant": 235318.41,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "333915569"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.sauvegardedelafaunesauvage",
+   "label": "Sauvegarde De La Faune Sauvage",
+   "montant": 208521.7,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439150129"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.conservatoiredespacesnaturel-corseetamis",
+   "label": "Conservatoire D Espaces Naturel Corse Et Amis Parc Naturel",
+   "montant": 180280.17,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390752202"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.agencedevurbagglom-strasbourgeoise",
+   "label": "Agence Dev Urb Agglom Strasbourgeoise",
+   "montant": 180000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778868216"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.centredetudeetdedecouvertedes-tortuesmar",
+   "label": "Centre D Etude Et De Decouverte Des Tortues Marines De La Reunion",
+   "montant": 152366.01,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "414891150"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.globicereuniongroupelocald-observationet",
+   "label": "Globice Reunion Groupe Local D Observation Et D Identification Des Cetaces",
+   "montant": 136410.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483398574"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.comitefrancaispourluicn",
+   "label": "Comite Francais Pour L U I C N",
+   "montant": 120000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "415025626"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.uniondesvillesportuairesd-occitanie",
+   "label": "Union Des Villes Portuaires D Occitanie",
+   "montant": 120000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "519806111"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.conservatoirebotaniquenationalde-mascari",
+   "label": "Conservatoire Botanique National De Mascarin",
+   "montant": 107789.71,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340671353"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.conservatoiredespacesnaturelsde-champagn",
+   "label": "Conservatoire D Espaces Naturels De Champagne Ardenne",
+   "montant": 96224.54,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780255485"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.groupechiropteresoceanindien",
+   "label": "Groupe Chiropteres Ocean Indien",
+   "montant": 95500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "817964976"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.agceurbamengtertoulouseaire-urbaine",
+   "label": "Agce Urb Ameng Ter Toulouse Aire Urbaine",
+   "montant": 91920.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776950305"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.liguepourlaprotectiondesoiseaux-alsace",
+   "label": "Ligue Pour La Protection Des Oiseaux Alsace",
+   "montant": 80000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "385320155"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.agencedurbanismecentrefranche-comte",
+   "label": "Agence D Urbanisme Centre Franche Comte",
+   "montant": 75686.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434753083"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.lelieuutile",
+   "label": "Le Lieu Utile",
+   "montant": 72900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923135230"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.assocdeveloppementruralreunion",
+   "label": "Assoc Developpement Rural Reunion",
+   "montant": 72830.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "499843779"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.steetudesornithologiquesreunion",
+   "label": "Ste Etudes Ornithologiques Reunion",
+   "montant": 72604.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "412632184"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.assockwata",
+   "label": "Assoc Kwata",
+   "montant": 72422.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "399244474"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.associationpourlavalorisationdel-entrede",
+   "label": "Association Pour La Valorisation De L Entre Deux Monde",
+   "montant": 72360.74,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "752983833"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.groupeetudeprotectionoiseaux-guyane",
+   "label": "Groupe Etude Protection Oiseaux Guyane",
+   "montant": 64542.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391711181"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.natureoceanindien",
+   "label": "Nature Ocean Indien",
+   "montant": 60403.3,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "502777360"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.lorraineassociationnature",
+   "label": "Lorraine Association Nature",
+   "montant": 59573.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "517474631"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.conservatoirebotaniquedela-martinique",
+   "label": "Conservatoire Botanique De La Martinique",
+   "montant": 59348.75,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "442734026"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.initiativepourlarestauration-ecologiquee",
+   "label": "Initiative Pour La Restauration Ecologique En Milieu Insulaire",
+   "montant": 43863.34,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "898619614"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.associationtresor",
+   "label": "Association Tresor",
+   "montant": 40105.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "424136950"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.unioncommunesforestieresdu-grandsud",
+   "label": "Union Communes Forestieres Du Grand Sud",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "451389597"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.agencedurbanismecentrefranche-comte-2",
+   "label": "Agence D Urbanisme Centre Franche Comte",
+   "montant": 36396.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434753083"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.bivouacnaturaliste",
+   "label": "Bivouac Naturaliste",
+   "montant": 35504.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "893264010"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.lelocal",
+   "label": "Le Local",
+   "montant": 28797.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "884920489"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.agencedeveturbanismepays-montbeliard",
+   "label": "Agence Dev Et Urbanisme Pays Montbeliard",
+   "montant": 26412.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "381092535"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.agencederecherchepourla-biodiversitealar",
+   "label": "Agence De Recherche Pour La Biodiversite A La Reunion",
+   "montant": 21261.94,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "825108384"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.groupechiropterescorse",
+   "label": "Groupe Chiropteres Corse",
+   "montant": 21045.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393679535"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.conseilarchitecurbanisme-environnement",
+   "label": "Conseil Architec Urbanisme Environnement",
+   "montant": 21005.92,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "330783416"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.conseilarchitecturbanis-environnement",
+   "label": "Conseil Architect Urbanis Environnement",
+   "montant": 18370.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "320031701"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.agenceurbanismeagglomerationde-tours",
+   "label": "Agence Urbanisme Agglomeration De Tours",
+   "montant": 17544.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775346323"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.conservatoiredesespacesnaturels-deguyane",
+   "label": "Conservatoire Des Espaces Naturels De Guyane",
+   "montant": 17434.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "512957044"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.ligueprotectionoiseauxchampagne-arden",
+   "label": "Ligue Protection Oiseaux Champagne Arden",
+   "montant": 15672.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "343055935"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.associationdesmairesdelardeche",
+   "label": "Association Des Maires De L Ardeche",
+   "montant": 15190.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340262021"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.fedchasseursdestpierreet-miquelon",
+   "label": "Fed Chasseurs De St Pierre Et Miquelon",
+   "montant": 14000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "501098248"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.assgraine",
+   "label": "Ass G R A I N E",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "423390137"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.agenceurbanismedevstomer-flandre",
+   "label": "Agence Urbanisme Dev St Omer Flandre",
+   "montant": 9000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305419095"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.associationdesplaisanciers-pecheurs",
+   "label": "Association Des Plaisanciers Pecheurs",
+   "montant": 9000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923371561"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.sentinellenaturealsace",
+   "label": "Sentinelle Nature Alsace",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "538619503"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.socetudesprotectionnatureen-guyane",
+   "label": "Soc Etudes Protection Nature En Guyane",
+   "montant": 7730.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "389506197"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.associationdepartementaledes-mairesrurau",
+   "label": "Association Departementale Des Maires Ruraux De Loire Atlantique",
+   "montant": 6539.47,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "894224153"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.natureoceanindien-2",
+   "label": "Nature Ocean Indien",
+   "montant": 6251.68,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "502777360"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.federationdepartchasseurs-reunion",
+   "label": "Federation Depart Chasseurs Reunion",
+   "montant": 6003.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "403047376"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.centredetudeetdedecouvertedes-tortuesmar-2",
+   "label": "Centre D Etude Et De Decouverte Des Tortues Marines De La Reunion",
+   "montant": 5876.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "414891150"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.unitedinterventiontoutterrain67-duquad18",
+   "label": "Unite D Intervention Tout Terrain 67 Du Quad 18 Organisation",
+   "montant": 3205.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "830132379"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p380.solihacharente",
+   "label": "Soliha Charente",
+   "montant": 2678.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "781172788"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.380",
+   "enfants": []
+  }
+ ]
+}

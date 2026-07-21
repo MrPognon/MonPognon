@@ -1,0 +1,1221 @@
+{
+ "id": "etat.subventions.p124",
+ "label": "Programme 124 : bénéficiaires des subventions aux associations",
+ "montant": 2058353.25,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "100 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p124.ecoledeconomiedeparis",
+   "label": "Ecole D Economie De Paris",
+   "montant": 292310.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "493902662"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.formasupparisiledefrance",
+   "label": "Formasup Paris Ile De France",
+   "montant": 215948.52,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420718173"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.imagineinstitutdesmaladies-genetiquesnec",
+   "label": "Imagine Institut Des Maladies Genetiques Necker Enfants Malades",
+   "montant": 208000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "499166510"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.asssportivedesministeressociaux",
+   "label": "Ass Sportive Des Ministeres Sociaux",
+   "montant": 130200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382647915"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.associationhopitalfoch",
+   "label": "Association Hopital Foch",
+   "montant": 107437.97,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "408457299"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.fednatobservatoireregionaux-sante",
+   "label": "Fed Nat Observatoire Regionaux Sante",
+   "montant": 102656.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382394278"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.fondationbcom",
+   "label": "Fondation B Com",
+   "montant": 96826.52,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "751468943"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.institutcurie",
+   "label": "Institut Curie",
+   "montant": 87321.15,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784257164"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.fondationlelanretrouve",
+   "label": "Fondation L Elan Retrouve",
+   "montant": 66952.54,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775676349"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.groupeartistagentministaffaire-socia",
+   "label": "Groupe Artist Agent Minist Affaire Socia",
+   "montant": 57266.76,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "448299040"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.centreregionaldeformation-multiprofessio",
+   "label": "Centre Regional De Formation Multiprofessionnel",
+   "montant": 54181.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "341820777"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.entraideunion",
+   "label": "Entraide Union",
+   "montant": 44486.94,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672462"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.credoccentrechpouretudobs",
+   "label": "Credoc Cent Rech Pour Etud Obs",
+   "montant": 39640.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784537649"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.observatoireregionaldelasante",
+   "label": "Observatoire Regional De La Sante",
+   "montant": 38881.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "330065095"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.fondationnationalesciences-politiques",
+   "label": "Fondation Nationale Sciences Politiques",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784308249"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.assconseillyonmanagement-strategent",
+   "label": "Ass Conseil Lyon Management Strateg Ent",
+   "montant": 27361.41,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398357301"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.metiersdesindustriesdesanteet-bienetre",
+   "label": "Metiers Des Industries De Sante Et Bien Etre",
+   "montant": 25500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "452128010"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.amicaledespersonnelsatsdcstep",
+   "label": "Amicale Des Personnels Ats Dcstep",
+   "montant": 22500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "754006245"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.adefsactreformatapprentis-descartes",
+   "label": "Adefsa Ctre Format Apprentis Descartes",
+   "montant": 22000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390894962"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.federationsantefrancevietnam-fsfv",
+   "label": "Federation Sante France Vietnam Fsfv",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "924125511"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.ecoledeconomiedeparis-2",
+   "label": "Ecole D Economie De Paris",
+   "montant": 19657.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "493902662"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.campusfonderiedelimage",
+   "label": "Campus Fonderie De L Image",
+   "montant": 18000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "353869779"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.associationpourlaformationdes-informatic",
+   "label": "Association Pour La Formation Des Informaticiens Par L Aprentissage",
+   "montant": 14900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391087210"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.cfainsta",
+   "label": "Cfa Insta",
+   "montant": 14500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "509472890"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.adapeipapillonsblancsdalsace",
+   "label": "Adapei Papillons Blancs D Alsace",
+   "montant": 13340.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775642614"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.adesa",
+   "label": "Adesa",
+   "montant": 12500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393337738"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.formasuphautsdefrance",
+   "label": "Formasup Hauts De France",
+   "montant": 11900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428135255"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.ctrenationalexpertisehospitaliere",
+   "label": "Ctre National Expertise Hospitaliere",
+   "montant": 11644.16,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305009599"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.clubinformatiquegrandes-entreprisesfr",
+   "label": "Club Informatique Grandes Entreprises Fr",
+   "montant": 11600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "310785985"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.associationdemoyensretraite-complementai",
+   "label": "Association De Moyens Retraite Complementaire",
+   "montant": 11389.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840600001"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.unionuniversiteeconomie",
+   "label": "Union Universite Economie",
+   "montant": 11000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "411973431"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.institutnationaldeformationetd-applicati",
+   "label": "Institut National De Formation Et D Application Du Centre De Culture Ouvriere Infa",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785740291"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.automobileclubdelouest",
+   "label": "Automobile Club De L Ouest",
+   "montant": 9127.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775652316"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.associationsciencespolillejunior-conseil",
+   "label": "Association Sciences Po Lille Junior Conseil",
+   "montant": 8940.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "508751591"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.formasuparl",
+   "label": "Forma Sup Arl",
+   "montant": 8750.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439039611"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.asspromogestionctreenssupa-evry",
+   "label": "Ass Promo Gestion Ctre Ens Sup A Evry",
+   "montant": 8134.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "402924849"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.groupprofesformathospitprive-langued",
+   "label": "Group Profes Format Hospit Prive Langued",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776057358"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.associationdemoyensretraite-complementai-2",
+   "label": "Association De Moyens Retraite Complementaire",
+   "montant": 7599.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840600001"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.ecoledanalysetransactionnelleen-iledefra",
+   "label": "Ecole D Analyse Transactionnelle En Ile De France",
+   "montant": 7594.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "799520705"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.lesluciolesducoeur",
+   "label": "Les Lucioles Du Coeur",
+   "montant": 7190.82,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "888939063"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.assoimmobiliereecolemilitaire",
+   "label": "Asso Immobiliere Ecole Militaire",
+   "montant": 6709.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "572099000"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.supexpertise",
+   "label": "Sup Expertise",
+   "montant": 6700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784414054"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.assjeannemance",
+   "label": "Ass Jeanne Mance",
+   "montant": 6500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780348462"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.supexpertise-2",
+   "label": "Sup Expertise",
+   "montant": 6165.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784414054"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.centredeformationpermanentest-pierre",
+   "label": "Centre De Formation Permanente St Pierre",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "349291898"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.assocretraitesministereaff-sociales",
+   "label": "Assoc Retraites Ministere Aff Sociales",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "448611764"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.citeinternationuniversitairede-paris",
+   "label": "Cite Internation Universitaire De Paris",
+   "montant": 5545.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784562878"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.difcam",
+   "label": "Difcam",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "335324042"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.supalia",
+   "label": "Supalia",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "387679111"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.facultedesmetiersdelessonne",
+   "label": "Faculte Des Metiers De L Essonne",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "452359516"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.collegedeseconomistesdelasante",
+   "label": "College Des Economistes De La Sante",
+   "montant": 4820.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393952072"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.centrepourlarecherche-economiqueetsesapp",
+   "label": "Centre Pour La Recherche Economique Et Ses Applications",
+   "montant": 4800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775667009"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.promeocentredeformationd-apprentisdelind",
+   "label": "Promeo Centre De Formation D Apprentis De L Industrie De Picardie Promeo Cfai Picardie",
+   "montant": 4250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302908983"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.assfrpourlinformationgeograp-afigeo",
+   "label": "Ass Fr Pour L Information Geograp Afigeo",
+   "montant": 4160.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "389985565"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.forcofmc",
+   "label": "Forco Fmc",
+   "montant": 4097.73,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "804618627"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.institutfrancaisdelauditetdu-controleint",
+   "label": "Institut Francais De L Audit Et Du Controle Internes",
+   "montant": 4075.89,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775667231"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.hectarco",
+   "label": "Hectar Co",
+   "montant": 3939.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "890927577"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.assdepartementaleinformation-logement",
+   "label": "Ass Departementale Information Logement",
+   "montant": 3600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "315483727"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.lafresqueduclimat",
+   "label": "La Fresque Du Climat",
+   "montant": 3600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "849329107"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.assdesmedecinsinspecteursdela-sante",
+   "label": "Ass Des Medecins Inspecteurs De La Sante",
+   "montant": 3500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "387844145"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.stefrancaisedestatistique",
+   "label": "Ste Francaise De Statistique",
+   "montant": 3450.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "419725197"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.institutdeculturemusicale",
+   "label": "Institut De Culture Musicale",
+   "montant": 2875.61,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379960040"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.carrefoursemploiarmeescollect-entr",
+   "label": "Carrefours Emploi Armees Collect Entr",
+   "montant": 2872.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432945483"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.centraledachatpublicdes-territoires",
+   "label": "Centrale D Achat Public Des Territoires",
+   "montant": 2720.45,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "512929514"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.scedinterpretesenlanguedes-signes",
+   "label": "Sce D Interpretes En Langue Des Signes",
+   "montant": 2656.63,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "401862958"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.centraledachatdelinformatique-hospitalie",
+   "label": "Centrale D Achat De L Informatique Hospitaliere",
+   "montant": 2557.58,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "800765794"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.assfrancaisedesmanagersdela-diversiteafm",
+   "label": "Ass Francaise Des Managers De La Diversite Afmd",
+   "montant": 2100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "502389208"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.santementalefrance",
+   "label": "Sante Mentale France",
+   "montant": 1920.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "347399701"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.medecinetravailstpierreet-miquelon",
+   "label": "Medecine Travail St Pierre Et Miquelon",
+   "montant": 1817.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "422369355"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.assdepartementaleinformation-logement-2",
+   "label": "Ass Departementale Information Logement",
+   "montant": 1800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "315483727"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.odysseaorganisation",
+   "label": "Odyssea Organisation",
+   "montant": 1743.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "495157653"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.officeinternationaldeleau",
+   "label": "Office International De L Eau",
+   "montant": 1692.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "314901729"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.nosviesbascarbone",
+   "label": "Nos Vies Bas Carbone",
+   "montant": 1560.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "894165976"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.tireliresdavenir",
+   "label": "Tirelires D Avenir",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "882684780"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.centrelemistral",
+   "label": "Centre Le Mistral",
+   "montant": 1460.88,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782815328"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.centraledachatdelinformatique-hospitalie-2",
+   "label": "Centrale D Achat De L Informatique Hospitaliere",
+   "montant": 1402.56,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "800765794"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.parisweb",
+   "label": "Paris Web",
+   "montant": 1296.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "494185705"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.irtess",
+   "label": "Irtess",
+   "montant": 900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410475081"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.alliancefrancaisedekotte",
+   "label": "Alliance Francaise De Kotte",
+   "montant": 720.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.associationfrancaisescience-economique",
+   "label": "Association Francaise Science Economique",
+   "montant": 690.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "402087894"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.scedinterpretesenlanguedes-signes-2",
+   "label": "Sce D Interpretes En Langue Des Signes",
+   "montant": 634.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "401862958"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.associationdirecteurshopital",
+   "label": "Association Directeurs Hopital",
+   "montant": 610.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "327181145"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.mouvementfrancaispourle-planningfamilial",
+   "label": "Mouvement Francais Pour Le Planning Familial Federation Regionale D Ile De France",
+   "montant": 594.88,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "435225503"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.ahyokaproduction",
+   "label": "Ahyoka Production",
+   "montant": 552.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "809225931"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.asspatronageinstitutregional-sourdsaveug",
+   "label": "Ass Patronage Institut Regional Sourds Aveugles De Marseille",
+   "montant": 480.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775559891"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.scedinterpretesenlanguedes-signes-3",
+   "label": "Sce D Interpretes En Langue Des Signes",
+   "montant": 470.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "401862958"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.assocdesmairesdelamarne",
+   "label": "Assoc Des Maires De La Marne",
+   "montant": 406.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "312518004"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.collegenationalpourlaqualitedes-soinsenp",
+   "label": "College National Pour La Qualite Des Soins En Psychiatrie",
+   "montant": 330.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "517432043"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.developpementanimationvelo-solidaire",
+   "label": "Developpement Animation Velo Solidaire",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "810506576"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.associationfrancaisedeconomie-politique",
+   "label": "Association Francaise D Economie Politique",
+   "montant": 250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "527721013"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.ctreeuropeenpromotiondel-histoire",
+   "label": "Ctre Europeen Promotion De L Histoire",
+   "montant": 206.96,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "419248646"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.ladiessystemdefense",
+   "label": "Ladies System Defense",
+   "montant": 200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "814776084"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.vvf",
+   "label": "Vvf",
+   "montant": 192.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775634132"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.apedialsace",
+   "label": "Apedi Alsace",
+   "montant": 176.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "320915242"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.socfranaccompagsoinpalliatif",
+   "label": "Soc Fran Accompag Soin Palliatif",
+   "montant": 165.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390473353"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.fondationhopitalsaintjoseph",
+   "label": "Fondation Hopital Saint Joseph",
+   "montant": 107.71,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775682990"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.asshospitaliereprotestantede-lyon",
+   "label": "Ass Hospitaliere Protestante De Lyon",
+   "montant": 101.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "431768084"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.associationpourledeveloppement-delaccesa",
+   "label": "Association Pour Le Developpement De L Acces A L Imagerie Medicale De Proximite",
+   "montant": 71.86,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "893686329"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.laliguefrancaisepourlasante-mentale",
+   "label": "La Ligue Francaise Pour La Sante Mentale",
+   "montant": 50.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784361222"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p124.gerontopoleauvergnerhonealpes-desainteti",
+   "label": "Gerontopole Auvergne Rhone Alpes De Saint Etienne",
+   "montant": 20.12,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "810041913"
+   },
+   "enfants": []
+  }
+ ]
+}

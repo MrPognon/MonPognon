@@ -1,0 +1,1182 @@
+{
+ "id": "etat.subventions.p144",
+ "label": "Programme 144 — Environnement et prospective de la politique de défense : bénéficiaires des subventions aux associations",
+ "montant": 7719118.15,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "89 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p144.fondationpourlarecherche-strategique",
+   "label": "Fondation Pour La Recherche Strategique",
+   "montant": 1200000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394095533"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.alphanov",
+   "label": "Alphanov",
+   "montant": 796603.95,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "493635817"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.institfrancrelations-internationales",
+   "label": "Instit Franc Relations Internationales",
+   "montant": 618728.79,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784308926"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.fondationpourlarecherche-strategique-2",
+   "label": "Fondation Pour La Recherche Strategique",
+   "montant": 582944.76,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394095533"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.associationnationaledela-rechercheetdela",
+   "label": "Association Nationale De La Recherche Et De La Technologie Anrt",
+   "montant": 466291.41,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784668717"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.institutrelationsintstrategiques",
+   "label": "Institut Relations Int Strategiques",
+   "montant": 422952.35,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382778009"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.parissciencesetlettres",
+   "label": "Paris Sciences Et Lettres",
+   "montant": 398765.66,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "528288608"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.institutfmes",
+   "label": "Institut Fmes",
+   "montant": 208000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379458995"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.fondationnationalesciences-politiques",
+   "label": "Fondation Nationale Sciences Politiques",
+   "montant": 203145.33,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784308249"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.ctreessaisvibroacoustique-automobile",
+   "label": "Ctre Essais Vibro Acoustique Automobile",
+   "montant": 199520.65,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "412402570"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.poledexcellencecyber",
+   "label": "Pole D Excellence Cyber",
+   "montant": 199112.16,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "822406526"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.primusdefensesecurite",
+   "label": "Primus Defense Securite",
+   "montant": 176000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "822998464"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.ecoleelecprodmethodes-industrielles",
+   "label": "Ecole Elec Prod Methodes Industrielles",
+   "montant": 165134.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388964520"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.institutderecherche-technologiquejulesve",
+   "label": "Institut De Recherche Technologique Jules Verne",
+   "montant": 134400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "750801771"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.europeandefenseeconomic-networks",
+   "label": "European Defense Economic Networks",
+   "montant": 133400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "510881741"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.innodev",
+   "label": "Innodev",
+   "montant": 124630.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782886436"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.associationastechparisregion",
+   "label": "Association Astech Paris Region",
+   "montant": 105000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "500759949"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.institutdesoudure",
+   "label": "Institut De Soudure",
+   "montant": 103367.78,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784756413"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.institutrelationsintstrategiques-2",
+   "label": "Institut Relations Int Strategiques",
+   "montant": 80000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382778009"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.polemerbretagneatlantique",
+   "label": "Pole Mer Bretagne Atlantique",
+   "montant": 73500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "488726563"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.associationlaserphotonique-hyperfrequenc",
+   "label": "Association Laser Photonique Hyperfrequences Applications",
+   "montant": 73500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "827755596"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.bretagnecommerceinternational",
+   "label": "Bretagne Commerce International",
+   "montant": 69200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "332304583"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.laplacestrategique",
+   "label": "La Place Strategique",
+   "montant": 68000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "882004187"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.institutpasteur",
+   "label": "Institut Pasteur",
+   "montant": 60493.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775684897"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.institutpasteur-2",
+   "label": "Institut Pasteur",
+   "montant": 60483.63,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775684897"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.nuclearvalley",
+   "label": "Nuclear Valley",
+   "montant": 60000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "489360743"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.institutfmes-2",
+   "label": "Institut Fmes",
+   "montant": 53935.59,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379458995"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.societedesamisdelespci",
+   "label": "Societe Des Amis De L Espci",
+   "montant": 52187.46,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784262644"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.poleoptitec",
+   "label": "Pole Optitec",
+   "montant": 49000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432314854"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.polesolutionscommunicantes-securisees",
+   "label": "Pole Solutions Communicantes Securisees",
+   "montant": 48000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "488564857"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.institutdoptique",
+   "label": "Institut D Optique",
+   "montant": 42111.41,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784616989"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.aerospacevalley",
+   "label": "Aerospace Valley",
+   "montant": 42000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "484284526"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.icamouest",
+   "label": "Icam Ouest",
+   "montant": 41063.07,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "352636922"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.teamhenrifabre",
+   "label": "Team Henri Fabre",
+   "montant": 40478.15,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "534999370"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.leconseileuropeenecfr",
+   "label": "Le Conseil Europeen Ecfr",
+   "montant": 35850.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "807638911"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.normandieaeroespace",
+   "label": "Normandie Aeroespace",
+   "montant": 34524.16,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "489884635"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.axelone",
+   "label": "Axel One",
+   "montant": 33287.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "533461091"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.poleemc2",
+   "label": "Pole Emc2",
+   "montant": 31500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "487891012"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.institutcatholiquedelille",
+   "label": "Institut Catholique De Lille",
+   "montant": 31250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775624240"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.poleeuropeendelaceramique",
+   "label": "Pole Europeen De La Ceramique",
+   "montant": 28000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "443722533"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.confederationamicaleingenieurdel-armemen",
+   "label": "Confederation Amicale Ingenieur De L Armement",
+   "montant": 27000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428463210"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.institutdesoudure-2",
+   "label": "Institut De Soudure",
+   "montant": 24051.05,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784756413"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.fondationrobertschuman",
+   "label": "Fondation Robert Schuman",
+   "montant": 22000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "389122391"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.asscaieta",
+   "label": "Ass Caieta",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "429744519"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.centregeopolitiquegeopolitics-center",
+   "label": "Centre Geopolitique Geopolitics Center",
+   "montant": 18000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "812624625"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.noria",
+   "label": "Noria",
+   "montant": 18000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "753294487"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.comiteetudesdefensenationale",
+   "label": "Comite Etudes Defense Nationale",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784291734"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.eurodefensefrance",
+   "label": "Eurodefense France",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434296349"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.groupedetudesgeopolitiques",
+   "label": "Groupe D Etudes Geopolitiques",
+   "montant": 14000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "838661387"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.comiteetudesdefensenationale-2",
+   "label": "Comite Etudes Defense Nationale",
+   "montant": 14000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784291734"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.agencededeveloppementetd-innovationdelan",
+   "label": "Agence De Developpement Et D Innovation De La Nouvelle Aquitaine",
+   "montant": 14000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "820336733"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.associationfrancaisefreresd-armes",
+   "label": "Association Francaise Freres D Armes",
+   "montant": 13000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "441106671"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.fondationsaintcyr",
+   "label": "Fondation Saint Cyr",
+   "montant": 11227.05,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "497802645"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.associationpourlesetudessurla-guerreetla",
+   "label": "Association Pour Les Etudes Sur La Guerre Et La Strategie",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "817663172"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.ingenieursetscientifiquesde-france",
+   "label": "Ingenieurs Et Scientifiques De France",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784407025"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.institutderecherchesurles-environnements",
+   "label": "Institut De Recherche Sur Les Environnements Complexes",
+   "montant": 9600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "823037551"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.easterncircles",
+   "label": "Eastern Circles",
+   "montant": 9000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "900397605"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.lecourrierdesbalkans",
+   "label": "Le Courrier Des Balkans",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420476988"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.associationthucydideafri",
+   "label": "Association Thucydide Afri",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "448644310"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.lesjeunesdelinstitutdeshautes-etudesdede",
+   "label": "Les Jeunes De L Institut Des Hautes Etudes De Defense Nationale Les Jeunes Ihedn",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "524523396"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.institutdetudesdegeopolitique-appliquee",
+   "label": "Institut D Etudes De Geopolitique Appliquee",
+   "montant": 7000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "849769906"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.institutmaitriserisquessurete-fonctio",
+   "label": "Institut Maitrise Risques Surete Fonctio",
+   "montant": 6872.72,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "443923719"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.associationarpege",
+   "label": "Association Arpege",
+   "montant": 6540.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "750648826"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.cnambretagneagcnam",
+   "label": "Cnam Bretagne Agcnam",
+   "montant": 5990.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "434113619"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.officedetourismeetdescongres-deversaille",
+   "label": "Office De Tourisme Et Des Congres De Versailles Grand Parc",
+   "montant": 5582.28,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785143835"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.groupeurgencerehabilit-developpement",
+   "label": "Groupe Urgence Rehabilit Developpement",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "424079622"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.institutfrancaisdelamer",
+   "label": "Institut Francais De La Mer",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "304348287"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.lerubicon",
+   "label": "Le Rubicon",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "920118320"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.carrefoursemploiarmeescollect-entr",
+   "label": "Carrefours Emploi Armees Collect Entr",
+   "montant": 4860.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432945483"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.associationamicaledesofficiersde-reserve",
+   "label": "Association Amicale Des Officiers De Reserve Des Corps De L Armement",
+   "montant": 4800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "814529970"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.etudesfrancaisesderenseignement-etdecybe",
+   "label": "Etudes Francaises De Renseignement Et De Cyber",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "920534302"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.synopia",
+   "label": "Synopia",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "751931023"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.aveclesfemmesdeladefense",
+   "label": "Avec Les Femmes De La Defense",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "823810981"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.larevuedhistoiremilitaire",
+   "label": "La Revue D Histoire Militaire",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "851585208"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.institutdestrategiecomparee",
+   "label": "Institut De Strategie Comparee",
+   "montant": 2500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "477706220"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.comiteetudesdefensenationale-3",
+   "label": "Comite Etudes Defense Nationale",
+   "montant": 2115.22,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784291734"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.pressesuniversitairesdu-septentrion",
+   "label": "Presses Universitaires Du Septentrion",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "308550052"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.cnamiledefranceagcnam",
+   "label": "Cnam Ile De France Agcnam",
+   "montant": 1800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785150624"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.institutetudessystemiques",
+   "label": "Institut Etudes Systemiques",
+   "montant": 1469.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "381048339"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.cubafusion",
+   "label": "Cuba Fusion",
+   "montant": 1358.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "908890197"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.fondationcentralesupelec",
+   "label": "Fondation Centralesupelec",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840029987"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.nemrodenjeuxcontemporainsde-defenseetdes",
+   "label": "Nemrod Enjeux Contemporains De Defense Et De Securite",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "849720909"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.hecparisstudentsunion",
+   "label": "Hec Paris Students Union",
+   "montant": 900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "879572675"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.associationmorbihannaised-insertionsocia",
+   "label": "Association Morbihannaise D Insertion Sociale Et Professionnelle",
+   "montant": 730.92,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "415012475"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.3aedihedn",
+   "label": "3Aed Ihedn",
+   "montant": 700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784622557"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.associationamifort",
+   "label": "Association Amifort",
+   "montant": 270.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "417789385"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.societedergonomiedelangue-francaise",
+   "label": "Societe D Ergonomie De Langue Francaise",
+   "montant": 165.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "789806130"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.interprofessionreunionsanteau-travail",
+   "label": "Interprofession Reunion Sante Au Travail",
+   "montant": 125.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "315635078"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p144.socfrancaiseradioprotection",
+   "label": "Soc Francaise Radio Protection",
+   "montant": 100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775663081"
+   },
+   "rattachement_id": "etat.depenses.BG.DA.144",
+   "enfants": []
+  }
+ ]
+}

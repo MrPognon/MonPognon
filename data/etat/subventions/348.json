@@ -1,0 +1,181 @@
+{
+ "id": "etat.subventions.p348",
+ "label": "Programme 348 — Performance et résilience des bâtiments de l'État et de ses opérateurs : bénéficiaires des subventions aux associations",
+ "montant": 1467455.52,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "12 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p348.citeinternationuniversitairede-paris",
+   "label": "Cite Internation Universitaire De Paris",
+   "montant": 874000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784562878"
+   },
+   "rattachement_id": "etat.depenses.BG.TR.348",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p348.centraledachatpublicdes-territoires",
+   "label": "Centrale D Achat Public Des Territoires",
+   "montant": 301663.86,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "512929514"
+   },
+   "rattachement_id": "etat.depenses.BG.TR.348",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p348.menageserviceprofessionnels",
+   "label": "Menage Service Professionnels",
+   "montant": 95972.74,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428177489"
+   },
+   "rattachement_id": "etat.depenses.BG.TR.348",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p348.proxentreprisedinsertion",
+   "label": "Prox Entreprise D Insertion",
+   "montant": 53153.77,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "813721420"
+   },
+   "rattachement_id": "etat.depenses.BG.TR.348",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p348.federationdesaveuglesalsace-lorrainegran",
+   "label": "Federation Des Aveugles Alsace Lorraine Grand Est",
+   "montant": 39820.25,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775641392"
+   },
+   "rattachement_id": "etat.depenses.BG.TR.348",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p348.federationdesaveuglesalsace-lorrainegran-2",
+   "label": "Federation Des Aveugles Alsace Lorraine Grand Est",
+   "montant": 27435.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775641392"
+   },
+   "rattachement_id": "etat.depenses.BG.TR.348",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p348.reciprocite",
+   "label": "Reciprocite",
+   "montant": 24078.48,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "429346547"
+   },
+   "rattachement_id": "etat.depenses.BG.TR.348",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p348.centrenationalartsducirque",
+   "label": "Centre National Arts Du Cirque",
+   "montant": 24000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "341372522"
+   },
+   "rattachement_id": "etat.depenses.BG.TR.348",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p348.servicesproxchantiers",
+   "label": "Services Prox Chantiers",
+   "montant": 18983.49,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "453752735"
+   },
+   "rattachement_id": "etat.depenses.BG.TR.348",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p348.aufildesseounes",
+   "label": "Au Fil Des Seounes",
+   "montant": 7854.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "491954301"
+   },
+   "rattachement_id": "etat.depenses.BG.TR.348",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p348.liguefrancaiseprotectionoiseaux",
+   "label": "Ligue Francaise Protection Oiseaux",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784263287"
+   },
+   "rattachement_id": "etat.depenses.BG.TR.348",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p348.menageserviceprofessionnels-2",
+   "label": "Menage Service Professionnels",
+   "montant": 193.73,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428177489"
+   },
+   "rattachement_id": "etat.depenses.BG.TR.348",
+   "enfants": []
+  }
+ ]
+}

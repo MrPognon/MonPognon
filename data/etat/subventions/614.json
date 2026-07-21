@@ -1,0 +1,350 @@
+{
+ "id": "etat.subventions.p614",
+ "label": "Programme 614 — Transports aériens, surveillance et certification : bénéficiaires des subventions aux associations",
+ "montant": 2101825.0,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "25 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p614.federation-francaise-aeronautique",
+   "label": "Federation Francaise Aeronautique",
+   "montant": 585000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784354417"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.federation-francaise-de-vol-en-plan",
+   "label": "Federation Francaise De Vol En Plan",
+   "montant": 487500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394220420"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.federation-francaise-aeronautique-2",
+   "label": "Federation Francaise Aeronautique",
+   "montant": 340000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784354417"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.ffplum",
+   "label": "Ffplum",
+   "montant": 165000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378080386"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.federation-francaise-de-vol-en-plan-2",
+   "label": "Federation Francaise De Vol En Plan",
+   "montant": 150000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394220420"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.ffplum-2",
+   "label": "Ffplum",
+   "montant": 60000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378080386"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.akto",
+   "label": "Akto",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "853000982"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.proavia",
+   "label": "Proavia",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "310923040"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.federation-francaise-aero-modelisme",
+   "label": "Federation Francaise Aero Modelisme",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784354425"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.aero-club-de-france",
+   "label": "Aero Club De France",
+   "montant": 32000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784663064"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.federation-francaise-d-helicoptere",
+   "label": "Federation Francaise D'Helicoptere",
+   "montant": 26000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "392249603"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.reseau-du-sport-de-l-air",
+   "label": "Reseau Du Sport De L'Air",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775692361"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.federation-francaise-aerostation",
+   "label": "Federation Francaise Aerostation",
+   "montant": 24000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "321393365"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.ffplum-3",
+   "label": "Ffplum",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378080386"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.france-spectacle-aerien",
+   "label": "France Spectacle Aerien",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923438485"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.gestion-reseau-mesur-pollut-atmosph-airp",
+   "label": "Gestion Reseau Mesur Pollut Atmosph (Airparif)",
+   "montant": 12500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "316465236"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.airemploi-espace-orientation",
+   "label": "Airemploi Espace Orientation",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "422982538"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.tarnaise-de-vol-a-voile",
+   "label": "Tarnaise De Vol A Voile",
+   "montant": 9000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "339066177"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.aeroclub-henri-guillaumet",
+   "label": "Aeroclub Henri Guillaumet",
+   "montant": 6469.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784955122"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.lyon-voltige",
+   "label": "Lyon Voltige",
+   "montant": 5825.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "837986173"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.observatoire-regional-du-bruit-idf",
+   "label": "Observatoire Regional Du Bruit Idf",
+   "montant": 5500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483921219"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.synd-mixte-aerodrome-du-pays-montbelliar",
+   "label": "Synd Mixte Aerodrome Du Pays Montbelliard",
+   "montant": 4389.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "252500822"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.aero-club-paris-sud",
+   "label": "Aero Club Paris Sud",
+   "montant": 4205.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "433455300"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.acg-jousse-aeroclub",
+   "label": "Acg Jousse (Aéroclub)",
+   "montant": 3937.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "751123654"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p614.asso-des-etoiles-des-ailes",
+   "label": "Asso. Des Etoiles & Des Ailes",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "527610547"
+   },
+   "rattachement_id": "etat.depenses.BA.XC.614",
+   "enfants": []
+  }
+ ]
+}

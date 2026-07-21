@@ -1,0 +1,1081 @@
+{
+ "id": "etat.subventions.p902",
+ "label": "Programme 902 : bénéficiaires des subventions aux associations",
+ "montant": 1557511.25,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "88 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p902.etapeauvergne",
+   "label": "Etape Auvergne",
+   "montant": 283407.09,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "507539260"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.aerocampusaquitaine",
+   "label": "Aerocampus Aquitaine",
+   "montant": 129335.98,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "532050549"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.assdevelopapprentisindust-aquitain",
+   "label": "Ass Develop Apprentis Indust Aquitain",
+   "montant": 110448.66,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "351090840"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.adapei",
+   "label": "Adapei",
+   "montant": 94449.14,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775585003"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.formasupprovencealpescoted-azur",
+   "label": "Formasup Provence Alpes Cote D Azur",
+   "montant": 77207.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393914395"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.adultesenfantsinadaptesmentaux",
+   "label": "Adultes Enfants Inadaptes Mentaux",
+   "montant": 73790.52,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775615594"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.associationavath",
+   "label": "Association Avath",
+   "montant": 46270.3,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "313402232"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.associnstitutmecanaeraunotet-automob",
+   "label": "Assoc Institut Mecan Aeraunot Et Automob",
+   "montant": 41000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "395213515"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.midisup",
+   "label": "Midisup",
+   "montant": 32100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "499179307"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.afpmaformation",
+   "label": "Afpma Formation",
+   "montant": 32052.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "514903608"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.associationfrancaisepourles-essaisnondes",
+   "label": "Association Francaise Pour Les Essais Non Destrutifs Dans L Industrie Aeronautique Et Spatiale",
+   "montant": 31843.16,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "348028226"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.caissedesreglementspecuniaires-desavocat",
+   "label": "Caisse Des Reglements Pecuniaires Des Avocats Au Barreau De Toulon",
+   "montant": 29504.45,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "317400430"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.formasupauvergne",
+   "label": "Formasup Auvergne",
+   "montant": 29161.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "491710646"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.organismedegestiondel-enseignmentcatholi",
+   "label": "Organisme De Gestion De L Enseignment Catholique Emmanuel D Alzon",
+   "montant": 27000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775913221"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.associationfrancaisede-normalisation",
+   "label": "Association Francaise De Normalisation",
+   "montant": 25672.54,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775724818"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.socenseignementprofessrhone",
+   "label": "Soc Enseignement Profess Rhone",
+   "montant": 23385.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779904838"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.associationformationssecours",
+   "label": "Association Formations Secours",
+   "montant": 21400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "849545355"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.gestionctreformaapprindus-provence",
+   "label": "Gestion Ctre Forma Appr Indus Provence",
+   "montant": 21241.14,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782911960"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.centredingenieridessystemese",
+   "label": "Centre D Ingenieri Des Systemes E",
+   "montant": 19728.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "403034572"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.assusagerszonecivilecuers-pierrefeu",
+   "label": "Ass Usagers Zone Civile Cuers Pierrefeu",
+   "montant": 17985.12,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "422968651"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.associationavath-2",
+   "label": "Association Avath",
+   "montant": 16800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "313402232"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.cesi",
+   "label": "Cesi",
+   "montant": 15633.19,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775722572"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.aviaclub",
+   "label": "Avia Club",
+   "montant": 14923.15,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388744435"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.centredaideparletravailessor83",
+   "label": "Centre D Aide Par Le Travail Essor 83",
+   "montant": 12000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "389012576"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.cfaidauvergne",
+   "label": "Cfai D Auvergne",
+   "montant": 12000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393104526"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.groupekedgebusinessschool",
+   "label": "Groupe Kedge Business School",
+   "montant": 11700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "514005123"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.aftral",
+   "label": "Aftral",
+   "montant": 11580.86,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305405045"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.afpmaapprentissage",
+   "label": "Afpma Apprentissage",
+   "montant": 11500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779310044"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.agitea",
+   "label": "Agitea",
+   "montant": 10977.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "510884471"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.assformationprofindustriesud-ouest",
+   "label": "Ass Formation Prof Industrie Sud Ouest",
+   "montant": 10680.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "781843073"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.cfaidiafor",
+   "label": "Cfai Diafor",
+   "montant": 10676.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390482420"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.aftral-2",
+   "label": "Aftral",
+   "montant": 10077.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305405045"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.qualapproviindustriesfrancaeron-spat",
+   "label": "Qual Approvi Industries Franc Aeron Spat",
+   "montant": 9918.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393243589"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.formasuphautsdefrance",
+   "label": "Formasup Hauts De France",
+   "montant": 9400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428135255"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.formasuphautsdefrance-2",
+   "label": "Formasup Hauts De France",
+   "montant": 9352.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428135255"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.associationingenieurs2000",
+   "label": "Association Ingenieurs 2000",
+   "montant": 8600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "387599350"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.associationdegestiondelexternat-saintjos",
+   "label": "Association De Gestion De L Externat Saint Joseph",
+   "montant": 8400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783100670"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.comitefrancaisdaccreditation",
+   "label": "Comite Francais D Accreditation",
+   "montant": 8368.45,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "397879487"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.institutfmes",
+   "label": "Institut Fmes",
+   "montant": 8100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379458995"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.institutdesoudure",
+   "label": "Institut De Soudure",
+   "montant": 8064.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784756413"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.centredeformationdesapprentis-delindustr",
+   "label": "Centre De Formation Des Apprentis De L Industrie Loire Drome Ardeche Cfai Lda",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "884745985"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.assocdauphinoiseformation-industrie",
+   "label": "Assoc Dauphinoise Formation Industrie",
+   "montant": 8000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775595945"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.aftral-3",
+   "label": "Aftral",
+   "montant": 7550.79,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305405045"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.assapprentissageindustriel",
+   "label": "Ass Apprentissage Industriel",
+   "montant": 7280.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "349586099"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.ifirarlainrhoneloire",
+   "label": "Ifir Arl Ain Rhone Loire",
+   "montant": 7100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "381348796"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.fidalformation",
+   "label": "Fidal Formation",
+   "montant": 6930.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "349537365"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.unionuniversiteeconomie",
+   "label": "Union Universite Economie",
+   "montant": 6800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "411973431"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.objectifformations",
+   "label": "Objectif Formations",
+   "montant": 6500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "417564473"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.polyviaformation",
+   "label": "Polyvia Formation",
+   "montant": 6420.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "308708536"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.toulonvartechnologies",
+   "label": "Toulon Var Technologies",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "345245260"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.formasuparl",
+   "label": "Forma Sup Arl",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439039611"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.unitededeveloppementdespremiers-secoursd",
+   "label": "Unite De Developpement Des Premiers Secours Du Var",
+   "montant": 5200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "817486491"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.adapei-2",
+   "label": "Adapei",
+   "montant": 4915.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775638737"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.assdepartementaledespep",
+   "label": "Ass Departementale Des Pep",
+   "montant": 4860.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775638661"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.associationdegestiondu-restaurantinterad",
+   "label": "Association De Gestion Du Restaurant Inter Administratif De Quimper",
+   "montant": 4783.49,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "833574981"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.clubdes20kilometresdeparis",
+   "label": "Club Des 20 Kilometres De Paris",
+   "montant": 4677.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "818671935"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.confederationfressaisnon-destructifs",
+   "label": "Confederation Fr Essais Non Destructifs",
+   "montant": 4662.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "351979653"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.uniondepdessapeurspompiersdu-pdd",
+   "label": "Union Dep Des Sapeurs Pompiers Du Pdd",
+   "montant": 4377.18,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "392671566"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.associationdegestiondu-conservatoirenati",
+   "label": "Association De Gestion Du Conservatoire Nation Des Arts Et Metiers Auvergne Rhone Alpes",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "443206289"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.alphanov",
+   "label": "Alphanov",
+   "montant": 3960.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "493635817"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.associationpourlaformation-professionnel",
+   "label": "Association Pour La Formation Professionnelle De L Industrie De Provence Afpi Provence",
+   "montant": 3720.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344086590"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.aeroclubdemeribel",
+   "label": "Aero Club De Meribel",
+   "montant": 3443.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "325205110"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.assoclespapillonsblancs",
+   "label": "Assoc Les Papillons Blancs",
+   "montant": 3402.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775569825"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.institutsuperieurdestechniquesde-laperfo",
+   "label": "Institut Superieur Des Techniques De La Performance",
+   "montant": 3333.33,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "381294024"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.aquitainesimulation",
+   "label": "Aquitaine Simulation",
+   "montant": 3250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "492750484"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.adapeidupuydedome",
+   "label": "Adapei Du Puy De Dome",
+   "montant": 3093.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775634355"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.comitedepartolympiqueetsportif",
+   "label": "Comite Depart Olympique Et Sportif",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "422401844"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.creatingintegratedmechanicals-systemsauv",
+   "label": "Creating Integrated Mechanicals Systems Auvergne Rhone Alpes",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "485223366"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.afpibretagne",
+   "label": "Afpi Bretagne",
+   "montant": 2964.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "308249952"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.cimicifopvaldeloire",
+   "label": "Cimi Cifop Val De Loire",
+   "montant": 2916.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344363056"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.officeaquitrecheretudeinform-liaison",
+   "label": "Office Aquit Recher Etude Inform Liaison",
+   "montant": 2500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "308066265"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.aftral-4",
+   "label": "Aftral",
+   "montant": 2454.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305405045"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.bordeauxaquitaineaeronautet-spatiale",
+   "label": "Bordeaux Aquitaine Aeronaut Et Spatiale",
+   "montant": 2400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394399992"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.associationnouvelleaquitainedes-achatspu",
+   "label": "Association Nouvelle Aquitaine Des Achats Publics Responsables",
+   "montant": 2200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "792296766"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.collegefrancaisdemetrologie",
+   "label": "College Francais De Metrologie",
+   "montant": 2043.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "442921045"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.ladapt",
+   "label": "L Adapt",
+   "montant": 1932.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775693385"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.associationjessicafrance",
+   "label": "Association Jessica France",
+   "montant": 1440.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382765410"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.asssecfrancaiscroixblanchedes-volcans",
+   "label": "Ass Sec Francais Croix Blanche Des Volcans",
+   "montant": 1200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "403710395"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.institutfrancaisdelobsolescence",
+   "label": "Institut Francais De L Obsolescence",
+   "montant": 1200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "914881008"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.comiteregionalduskidumontblanc",
+   "label": "Comite Regional Du Ski Du Mont Blanc",
+   "montant": 1160.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776530362"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.associationauvergnerhonealpes-pourlesmet",
+   "label": "Association Auvergne Rhone Alpes Pour Les Metiers De L Industrie 2Arami",
+   "montant": 900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "824458921"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.diafororganisation",
+   "label": "Diafor Organisation",
+   "montant": 600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "408778918"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.centredentrainementauxmethodes-deducatio",
+   "label": "Centre D Entrainement Aux Methodes D Education Active Nouvelle Aquitaine",
+   "montant": 412.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "482769007"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.interlude",
+   "label": "Interlude",
+   "montant": 324.61,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420999435"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.groupinduschimiquepetudeset-recherc",
+   "label": "Group Indus Chimique P Etudes Et Recherc",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "338052970"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.cercleentreprisesdusudouest-ceso",
+   "label": "Cercle Entreprises Du Sud Ouest Ceso",
+   "montant": 240.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "847648730"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.trapclubdubourdieucestas",
+   "label": "Trap Club Dubourdieu Cestas",
+   "montant": 200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410458681"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p902.groupementdesportedrapeauxde-lazonededef",
+   "label": "Groupement Des Porte Drapeaux De La Zone De Defense Sud Ouest Aquitaine",
+   "montant": 135.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "523358224"
+   },
+   "enfants": []
+  }
+ ]
+}

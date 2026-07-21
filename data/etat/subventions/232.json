@@ -1,0 +1,623 @@
+{
+ "id": "etat.subventions.p232",
+ "label": "Programme 232 — Vie politique : bénéficiaires des subventions aux associations",
+ "montant": 66250671.25,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "46 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p232.ensemblepourlamajorite-presidentielle",
+   "label": "Ensemble Pour La Majorite Presidentielle",
+   "montant": 19517061.62,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "921224085"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.rassemblementnational",
+   "label": "Rassemblement National",
+   "montant": 10142523.33,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331309013"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.lesrepublicains",
+   "label": "Les Republicains",
+   "montant": 9761094.96,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "443349220"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.lafranceinsoumise",
+   "label": "La France Insoumise",
+   "montant": 7947994.99,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "828130799"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.partisocialiste",
+   "label": "Parti Socialiste",
+   "montant": 4526641.16,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784411720"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.europeecologielesverts",
+   "label": "Europe Ecologie Les Verts",
+   "montant": 3012408.69,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "333465383"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.uniondesdemocrateseuropeens-centristeset",
+   "label": "Union Des Democrates Europeens Centristes Et Independants",
+   "montant": 2347048.46,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "922904362"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.particommunistefrancais",
+   "label": "Parti Communiste Francais",
+   "montant": 2043707.45,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775694821"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.reconquete",
+   "label": "Reconquete",
+   "montant": 1597326.72,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "900676032"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.regionsetpeuplessolidaires",
+   "label": "Regions Et Peuples Solidaires",
+   "montant": 1026446.98,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "478150808"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.partiradicaldegauche",
+   "label": "Parti Radical De Gauche",
+   "montant": 793575.73,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784228538"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.alliancecentriste",
+   "label": "Alliance Centriste",
+   "montant": 745275.26,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "519142384"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.partianimaliste",
+   "label": "Parti Animaliste",
+   "montant": 411318.35,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "843612946"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.lutteouvriere",
+   "label": "Lutte Ouvriere",
+   "montant": 370847.56,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "441092103"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.gaucherepublicaineetsocialiste",
+   "label": "Gauche Republicaine Et Socialiste",
+   "montant": 366174.35,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "848359303"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.mouvementecologisteindependant",
+   "label": "Mouvement Ecologiste Independant",
+   "montant": 241788.85,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "399683259"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.deboutlarepublique",
+   "label": "Debout La Republique",
+   "montant": 217412.04,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "477933899"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.ecologieaucentre",
+   "label": "Ecologie Au Centre",
+   "montant": 199618.96,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "479642357"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.lespatriotes",
+   "label": "Les Patriotes",
+   "montant": 198612.32,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "840455653"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.partiprogressistedemocratique-guadeloupe",
+   "label": "Parti Progressiste Democratique Guadeloupeen P P D G",
+   "montant": 161217.13,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "841774649"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.peyia",
+   "label": "Peyi A",
+   "montant": 133118.79,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923641427"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.pourlareuniondetoutesnosforces",
+   "label": "Pour La Reunion De Toutes Nos Forces",
+   "montant": 99279.69,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "751505264"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.partiprogressistemartiniquais",
+   "label": "Parti Progressiste Martiniquais",
+   "montant": 81452.41,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "314025115"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.rezistansegalite974",
+   "label": "Rezistan S Egalite 974",
+   "montant": 74238.56,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "909575516"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.progres974",
+   "label": "Progres 974",
+   "montant": 58412.31,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "879461267"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.associationambitionreunion",
+   "label": "Association Ambition Reunion",
+   "montant": 53665.47,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "838923316"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.reunionlibre",
+   "label": "Reunion Libre",
+   "montant": 51088.75,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923623524"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.partidumouvementpopulaire-franciscainmpf",
+   "label": "Parti Du Mouvement Populaire Franciscain M P F",
+   "montant": 39021.57,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "841185606"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.fondationjeanmoulin",
+   "label": "Fondation Jean Moulin",
+   "montant": 7681.74,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "332589670"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.preveam",
+   "label": "Preveam",
+   "montant": 6612.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302978739"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.associationpourlespersonnesen-situationd",
+   "label": "Association Pour Les Personnes En Situation De Handicap Neuromoteur Et Leur Famille",
+   "montant": 5438.07,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775643257"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.batirlepaysmartinique",
+   "label": "Batir Le Pays Martinique",
+   "montant": 2876.83,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "448813790"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.adpc83assdptprotectcivile",
+   "label": "Adpc 83 Ass Dpt Protect Civile",
+   "montant": 2053.32,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "314138439"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.emploitravailhandicapeatelier-protege",
+   "label": "Emploi Travail Handicape Atelier Protege",
+   "montant": 1712.46,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "348947052"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.caissereglementpecuniairedes-avocats",
+   "label": "Caisse Reglement Pecuniaire Des Avocats",
+   "montant": 1493.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391541323"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.udemuniondesdemocrateset-ecologistesdema",
+   "label": "Udem Union Des Democrates Et Ecologistes De Martinique",
+   "montant": 951.95,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "431557743"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.particommunistereunionnais",
+   "label": "Parti Communiste Reunionnais",
+   "montant": 787.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384703963"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.protectioncivileparisseine",
+   "label": "Protection Civile Paris Seine",
+   "montant": 660.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418037461"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.associationlesantes",
+   "label": "Association Les Antes",
+   "montant": 424.98,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "320660400"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.apffrancehandicap",
+   "label": "Apf France Handicap",
+   "montant": 328.23,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775688732"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.arpei",
+   "label": "A R P E I",
+   "montant": 324.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785534629"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.partiradical",
+   "label": "Parti Radical",
+   "montant": 298.49,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784180242"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.associationdeveloppementemploi-localadel",
+   "label": "Association Developpement Emploi Local Adel Agir Pour L Emploi",
+   "montant": 252.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "539746313"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.travailpourtousateliersdelolivier",
+   "label": "Travail Pour Tous Ateliers De L Olivier",
+   "montant": 247.14,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483314472"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.fondationjeanmoulin-2",
+   "label": "Fondation Jean Moulin",
+   "montant": 112.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "332589670"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p232.asscorpsprefecthautsfonctminist-int",
+   "label": "Ass Corps Prefect Hauts Fonct Minist Int",
+   "montant": 45.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390136208"
+   },
+   "rattachement_id": "etat.depenses.BG.AB.232",
+   "enfants": []
+  }
+ ]
+}

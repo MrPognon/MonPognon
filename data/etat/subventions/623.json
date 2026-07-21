@@ -1,0 +1,155 @@
+{
+ "id": "etat.subventions.p623",
+ "label": "Programme 623 — Édition et diffusion : bénéficiaires des subventions aux associations",
+ "montant": 704886.64,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "10 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p623.associationagora",
+   "label": "Association Agora",
+   "montant": 686734.26,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "392221529"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.623",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p623.parisweb",
+   "label": "Paris Web",
+   "montant": 4328.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "494185705"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.623",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p623.clubdesresponsablesd-infrastructuresetde",
+   "label": "Club Des Responsables D Infrastructures Et De Production",
+   "montant": 3137.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "511961187"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.623",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p623.grouptfrdelindustriedel-informatio",
+   "label": "Groupt Fr De L Industrie De L Informatio",
+   "montant": 2992.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "318949609"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.623",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p623.assopouretudehistoiredess",
+   "label": "Asso Pour Etude Histoire De Ss",
+   "montant": 2611.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "309256147"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.623",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p623.assutilisateursfrancaisoracle",
+   "label": "Ass Utilisateurs Francais Oracle",
+   "montant": 2191.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "400103743"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.623",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p623.assdeveloppefestivalint-geographie",
+   "label": "Ass Developpe Festival Int Geographie",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "397661372"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.623",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p623.syndicatnationaldeledition",
+   "label": "Syndicat National De L Edition",
+   "montant": 672.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784285066"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.623",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p623.unipressepresencedespressesde-francedans",
+   "label": "Uni Presse Presence Des Presses De France Dans Le Monde",
+   "montant": 400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "448794271"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.623",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p623.assfrancaiscertificforestpefc-france",
+   "label": "Ass Francais Certific Forest Pefc France",
+   "montant": 320.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "438171340"
+   },
+   "rattachement_id": "etat.depenses.BA.XJ.623",
+   "enfants": []
+  }
+ ]
+}

@@ -1,0 +1,5585 @@
+{
+ "id": "etat.subventions.p203",
+ "label": "Programme 203 — Infrastructures et services de transports : bénéficiaires des subventions aux associations",
+ "montant": 172495397.22,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "428 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p203.fongecfatransport",
+   "label": "Fongecfa Transport",
+   "montant": 149663836.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "417752805"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.agecfavoyageurs",
+   "label": "Agecfa Voyageurs",
+   "montant": 12563879.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "429122278"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.carpaavocatsbarreauavignon",
+   "label": "Carpa Avocats Barreau Avignon",
+   "montant": 1855802.94,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "334475944"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assosocfrancaisesdautor",
+   "label": "Asso Soc Francaises D Autor",
+   "montant": 635163.86,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "325951903"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.tubosvougasistemasdeengenharia-sa",
+   "label": "Tubos Vouga Sistemas De Engenharia Sa",
+   "montant": 590190.23,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "751189994"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.caissedesreglementspecuniaires-effectues",
+   "label": "Caisse Des Reglements Pecuniaires Effectues Par Les Avocats A La Cour De Paris Carpa",
+   "montant": 440237.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784181216"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.groupautoriteresptransport",
+   "label": "Group Autorite Resp Transport",
+   "montant": 420000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "322441817"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assocdeveloppementtechniques",
+   "label": "Assoc Developpement Techniques",
+   "montant": 289922.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784622797"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assmondialedelaroute",
+   "label": "Ass Mondiale De La Route",
+   "montant": 255000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784670259"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.conservatoiredespacesnaturelsde-franchec",
+   "label": "Conservatoire D Espaces Naturels De Franche Comte",
+   "montant": 247022.78,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "392113874"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationrivieresetbocages",
+   "label": "Association Rivieres Et Bocages",
+   "montant": 223950.1,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "347462863"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.fedenatassociationusagers-transports",
+   "label": "Fede Nat Association Usagers Transports",
+   "montant": 210000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "352718738"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.retis",
+   "label": "Retis",
+   "montant": 200000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "429720204"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.institutdesroutesdesruesetdes-infrastruc",
+   "label": "Institut Des Routes Des Rues Et Des Infrastructures Pour La Mobilite",
+   "montant": 200000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420200271"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationrivieresetbocages-2",
+   "label": "Association Rivieres Et Bocages",
+   "montant": 182294.23,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "347462863"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.federationfrancaiseusagers-bicyclette",
+   "label": "Federation Francaise Usagers Bicyclette",
+   "montant": 130000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "407676253"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.conservatoiredespacesnaturelsd-occitanie",
+   "label": "Conservatoire D Espaces Naturels D Occitanie",
+   "montant": 124911.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384643938"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.insthtesetudesdevamenaterri-euro",
+   "label": "Inst Htes Etudes Dev Amena Terri Euro",
+   "montant": 120000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "479002461"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.atmonormandie",
+   "label": "Atmo Normandie",
+   "montant": 117185.32,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "488233313"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ieedvedecom",
+   "label": "Ieed Vedecom",
+   "montant": 113351.23,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "524979853"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.conservatoiredespacesnaturelsd-auvergne",
+   "label": "Conservatoire D Espaces Naturels D Auvergne",
+   "montant": 106351.34,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344896998"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationfrancaisede-normalisation",
+   "label": "Association Francaise De Normalisation",
+   "montant": 102177.16,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775724818"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationfrancaisede-normalisation-2",
+   "label": "Association Francaise De Normalisation",
+   "montant": 98383.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775724818"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.atmonormandie-2",
+   "label": "Atmo Normandie",
+   "montant": 83985.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "488233313"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.caissereglementspecuniaires-avocats",
+   "label": "Caisse Reglements Pecuniaires Avocats",
+   "montant": 83500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "441568656"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.clubdesvillesetterritoires-cyclables",
+   "label": "Club Des Villes Et Territoires Cyclables",
+   "montant": 80000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388490963"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.veloetterritoires",
+   "label": "Velo Et Territoires",
+   "montant": 80000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "431214337"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.charentenature",
+   "label": "Charente Nature",
+   "montant": 76320.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "328015003"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.lpoauvergnerhonealpes",
+   "label": "Lpo Auvergne Rhone Alpes",
+   "montant": 63739.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "301125100"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.carpaouestatlantiquebretagne",
+   "label": "Carpa Ouest Atlantique Bretagne",
+   "montant": 61814.71,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "308648484"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.lafabriquedesmobilites",
+   "label": "La Fabrique Des Mobilites",
+   "montant": 60000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "835270026"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.regroupementdesnaturalistes-ardennais",
+   "label": "Regroupement Des Naturalistes Ardennais",
+   "montant": 59702.94,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "424892925"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assdevelopdelemploimetiers-nouveaux",
+   "label": "Ass Develop De L Emploi Metiers Nouveaux",
+   "montant": 52890.12,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "419213558"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assgestionreseaumesurpollut-atmosph",
+   "label": "Ass Gestion Reseau Mesur Pollut Atmosph",
+   "montant": 52350.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "316465236"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.caisreglpecunavocatscourappel-aix",
+   "label": "Cais Regl Pecun Avocats Cour Appel Aix",
+   "montant": 50470.95,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305915878"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.objectifofp",
+   "label": "Objectif Ofp",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "522944792"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.institutdamenagementetd-urbanismedelareg",
+   "label": "Institut D Amenagement Et D Urbanisme De La Region Ile De France",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "849810155"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.comiteetudeinformationdrogue",
+   "label": "Comite Etude Information Drogue",
+   "montant": 48425.91,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "312410566"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationdedeveloppementd-amenagemente",
+   "label": "Association De Developpement D Amenagement Et De Services En Environnement Et En",
+   "montant": 46500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340601178"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.gerontopoledespaysdelaloire",
+   "label": "Gerontopole Des Pays De La Loire",
+   "montant": 44160.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "529999088"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.lafabriquedesmobilites-2",
+   "label": "La Fabrique Des Mobilites",
+   "montant": 43100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "835270026"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.batiaction",
+   "label": "Bati Action",
+   "montant": 42105.75,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "452076748"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.auxilia",
+   "label": "Auxilia",
+   "montant": 40325.09,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "440817203"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.agencedevurbagglom-strasbourgeoise",
+   "label": "Agence Dev Urb Agglom Strasbourgeoise",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778868216"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ecomode",
+   "label": "Ecomode",
+   "montant": 40000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "907586739"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.conservatoiredespacesnaturelsd-occitanie-2",
+   "label": "Conservatoire D Espaces Naturels D Occitanie",
+   "montant": 36450.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384643938"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ecoflandres",
+   "label": "Ecoflandres",
+   "montant": 36067.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380819573"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.caraauvergnerhonealpes",
+   "label": "Cara Auvergne Rhone Alpes",
+   "montant": 36000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "485361059"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.chantiersdeppourlemploisd-insertion",
+   "label": "Chantiers Dep Pour L Emplois D Insertion",
+   "montant": 35883.64,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428702575"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.federationfrancaisedesvillages-etapes",
+   "label": "Federation Francaise Des Villages Etapes",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "449424191"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.lescharmettes",
+   "label": "Les Charmettes",
+   "montant": 33380.75,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776719676"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationdepromotionetd-identification",
+   "label": "Association De Promotion Et D Identification Des Cycles Et De La Mobilite Active Apic",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "889105243"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ecoledemanagementdenormandie-ouemnormand",
+   "label": "Ecole De Management De Normandie Ou Em Normandie",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "479806630"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assfrancdevelopveloroutevoies-vertes",
+   "label": "Ass Franc Develop Veloroute Voies Vertes",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428247472"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.lheureuxcyclage",
+   "label": "L Heureux Cyclage",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "528073398"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.observatoireregionaldubruitenidf",
+   "label": "Observatoire Regional Du Bruit En Idf",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483921219"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.agceurbandevelintercomaggl-rennais",
+   "label": "Agce Urban Devel Intercom Aggl Rennais",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777734070"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.liguefrancaiseprotectionoiseaux",
+   "label": "Ligue Francaise Protection Oiseaux",
+   "montant": 30000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784263287"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.conservatoiredespacesnaturelsde-lallier",
+   "label": "Conservatoire D Espaces Naturels De L Allier",
+   "montant": 29610.76,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393649587"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.atmohautsdefrance",
+   "label": "Atmo Hauts De France",
+   "montant": 27627.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "478029127"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationpourlapromotiondel-apprentiss",
+   "label": "Association Pour La Promotion De L Apprentissage De L Enseignement Catholique Technique En Occitanie",
+   "montant": 27210.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "484011481"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.insthtesetudesdevamenaterri-euro-2",
+   "label": "Inst Htes Etudes Dev Amena Terri Euro",
+   "montant": 27000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "479002461"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.servicedaidepartravail-occasionnel",
+   "label": "Service D Aide Par Travail Occasionnel",
+   "montant": 26620.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "334912623"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assintermedaideemploisudmayenne",
+   "label": "Ass Intermed Aide Emploi Sud Mayenne",
+   "montant": 25658.53,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344438254"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assmondialedelaroute-2",
+   "label": "Ass Mondiale De La Route",
+   "montant": 25600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784670259"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.wimoov",
+   "label": "Wimoov",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "422136143"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.francenatureenvironnement",
+   "label": "France Nature Environnement",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784263303"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.vvf",
+   "label": "Vvf",
+   "montant": 24091.12,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775634132"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.airpaysdelaloire",
+   "label": "Air Pays De La Loire",
+   "montant": 23774.92,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "323266205"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assinternationalevillesetports",
+   "label": "Ass Internationale Villes Et Ports",
+   "montant": 23000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "349537472"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assobjectifemploisolidarite",
+   "label": "Ass Objectif Emploi Solidarite",
+   "montant": 22892.77,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "422400523"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.atmooccitanie",
+   "label": "Atmo Occitanie",
+   "montant": 22251.71,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "308599703"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.groupementdesassociations-intermediaires",
+   "label": "Groupement Des Associations Intermediaires De Nantes Metropole",
+   "montant": 21625.52,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "523746584"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationespoiravenir",
+   "label": "Association Espoir Avenir",
+   "montant": 21608.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379486368"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.conservatoiredespacesnaturelsd-auvergne-2",
+   "label": "Conservatoire D Espaces Naturels D Auvergne",
+   "montant": 20826.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344896998"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.restaurantinteradministratifde-lyon",
+   "label": "Restaurant Interadministratif De Lyon",
+   "montant": 20079.56,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "306504713"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.lafabriquedelalogistique",
+   "label": "La Fabrique De La Logistique",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "907903934"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.fedefrancrandonnepedestre",
+   "label": "Fede Franc Randonne Pedestre",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "303588164"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.comitefrancaisdelassosmondiale-delaroute",
+   "label": "Comite Francais De L Assos Mondiale De La Route",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "491914370"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.observatoireregionaldubruitenidf-2",
+   "label": "Observatoire Regional Du Bruit En Idf",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483921219"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.boitesavelofrance",
+   "label": "Boites A Velo France",
+   "montant": 20000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "850611302"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assockwata",
+   "label": "Assoc Kwata",
+   "montant": 19413.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "399244474"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.compagniedesamorce",
+   "label": "Compagnie Desamorce",
+   "montant": 19249.95,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "489152744"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ctrepermanenteducation-environnement",
+   "label": "Ctre Permanent Education Environnement",
+   "montant": 19208.88,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "431785187"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ctreculturelancienneabbaye-premontres",
+   "label": "Ctre Culturel Ancienne Abbaye Premontres",
+   "montant": 18586.26,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783345994"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.addictionsalcoolvielibre",
+   "label": "Addictions Alcool Vie Libre",
+   "montant": 18575.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775723711"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.atmoauvergnerhonealpes",
+   "label": "Atmo Auvergne Rhone Alpes",
+   "montant": 18472.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "534194451"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.auxilia-2",
+   "label": "Auxilia",
+   "montant": 18067.41,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "440817203"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.observatoireregionaldubruitenidf-3",
+   "label": "Observatoire Regional Du Bruit En Idf",
+   "montant": 18000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483921219"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.retis-2",
+   "label": "Retis",
+   "montant": 18000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "429720204"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.atmonouvelleaquitaine",
+   "label": "Atmo Nouvelle Aquitaine",
+   "montant": 17896.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "311059422"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.arhesactivs",
+   "label": "Arhes Activ S",
+   "montant": 17788.18,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344459599"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.sectionfrancaisedelassociation-internati",
+   "label": "Section Francaise De L Association Internationale De La Navigation Fluviale Et Maritime A I P C N",
+   "montant": 17600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "501175632"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationdedeveloppementd-amenagemente-2",
+   "label": "Association De Developpement D Amenagement Et De Services En Environnement Et En",
+   "montant": 17582.54,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340601178"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assgestioncentresocialotr",
+   "label": "Ass Gestion Centre Social Otr",
+   "montant": 16872.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "781036744"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assparentsenfantsinadaptes",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 15727.57,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.apeimoselle",
+   "label": "Apei Moselle",
+   "montant": 15408.52,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775619596"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.portshautsdefrance",
+   "label": "Ports Hauts De France",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "831606728"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ruedelavenir",
+   "label": "Rue De L Avenir",
+   "montant": 15000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380727263"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.institutdevelformationconti",
+   "label": "Institut Devel Formation Conti",
+   "montant": 14806.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302456116"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.caissereglementspecuniaires-avocats-2",
+   "label": "Caisse Reglements Pecuniaires Avocats",
+   "montant": 14795.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "781822234"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.sevreetmaineemploisolidaire",
+   "label": "Sevre Et Maine Emploi Solidaire",
+   "montant": 14588.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "488259797"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.conservatoiredespacesnaturels-despaysdel",
+   "label": "Conservatoire D Espaces Naturels Des Pays De La Loire",
+   "montant": 14435.3,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "809440654"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.conservatoiredespacesnaturelsde-nouvelle",
+   "label": "Conservatoire D Espaces Naturels De Nouvelle Aquitaine",
+   "montant": 14256.1,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388575961"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.alesiassociationlanesterienne-entraideso",
+   "label": "A L E S I Association Lanesterienne Entr Aide Sociale Immediate",
+   "montant": 14095.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384675575"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationpourledeveloppementl-insertio",
+   "label": "Association Pour Le Developpement L Insertion Et L Accompagnement Des Personnes Handicapees",
+   "montant": 13619.49,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775584998"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.bureaudenormalisationferroviaire",
+   "label": "Bureau De Normalisation Ferroviaire",
+   "montant": 13000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "401458187"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ligueprotectiondesoiseauxpaca",
+   "label": "Ligue Protection Des Oiseaux Paca",
+   "montant": 12850.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "350323101"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assdeptamisparentsenfants-inadaptes",
+   "label": "Ass Dept Amis Parents Enfants Inadaptes",
+   "montant": 12792.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775710668"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.fondationagircontrelexclusion",
+   "label": "Fondation Agir Contre L Exclusion",
+   "montant": 12500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398568063"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.lavieactive",
+   "label": "La Vie Active",
+   "montant": 12288.37,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775629934"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationreussirlinsertiona-bron",
+   "label": "Association Reussir L Insertion A Bron",
+   "montant": 12151.04,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390815504"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.asstravailemploisolidarite",
+   "label": "Ass Travail Emploi Solidarite",
+   "montant": 12098.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "349892620"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.liguepourlaprotectiondesoiseaux-deloirea",
+   "label": "Ligue Pour La Protection Des Oiseaux De Loire Atlantique",
+   "montant": 12057.13,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382233591"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.relaisemploi",
+   "label": "Relais Emploi",
+   "montant": 12020.87,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378418867"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.vvf-2",
+   "label": "Vvf",
+   "montant": 11983.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775634132"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.federationdepechedelanievre",
+   "label": "Federation De Peche De La Nievre",
+   "montant": 11884.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778476663"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.groupeornithologiquenormand",
+   "label": "Groupe Ornithologique Normand",
+   "montant": 11735.71,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383694080"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.esupgroup",
+   "label": "Esup Group",
+   "montant": 11700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "807993019"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationrecherchetravail",
+   "label": "Association Recherche Travail",
+   "montant": 11692.76,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344665237"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.fredonhautevienne",
+   "label": "Fredon Haute Vienne",
+   "montant": 11586.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "412109670"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.gestionrestinteradministratifs",
+   "label": "Gestion Rest Inter Administratifs",
+   "montant": 11145.85,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "327323606"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.midisup",
+   "label": "Midisup",
+   "montant": 11000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "499179307"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.agirtransport",
+   "label": "Agir Transport",
+   "montant": 10850.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "539537886"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.groupeetudeinvertebrearmoricain",
+   "label": "Groupe Etude Invertebre Armoricain",
+   "montant": 10830.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "412520462"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.institutpolytechniqueunilasalle",
+   "label": "Institut Polytechnique Unilasalle",
+   "montant": 10500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780507190"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationpourlaformationdes-informatic",
+   "label": "Association Pour La Formation Des Informaticiens Par L Aprentissage",
+   "montant": 10500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "391087210"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.atmoauvergnerhonealpes-2",
+   "label": "Atmo Auvergne Rhone Alpes",
+   "montant": 10482.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "534194451"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.lesastelles",
+   "label": "Les Astelles",
+   "montant": 10464.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "411025901"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.restaurantciteadministrativemacon",
+   "label": "Restaurant Cite Administrative Macon",
+   "montant": 10415.05,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "311642243"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationides",
+   "label": "Association I D E S",
+   "montant": 10305.42,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378541130"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.agencealpinedesterritoires",
+   "label": "Agence Alpine Des Territoires",
+   "montant": 10236.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "309421444"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.francenatureenvironnementloire",
+   "label": "France Nature Environnement Loire",
+   "montant": 10054.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "353282270"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.observatoireregionaldubruitenidf-4",
+   "label": "Observatoire Regional Du Bruit En Idf",
+   "montant": 10000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483921219"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assandrecoindre",
+   "label": "Ass Andre Coindre",
+   "montant": 9700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776121352"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationvannesrelais",
+   "label": "Association Vannes Relais",
+   "montant": 9465.21,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344183405"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ecoledelaconstructiondes-infrastructures",
+   "label": "Ecole De La Construction Des Infrastructures Et Reseaux Formation",
+   "montant": 9172.47,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782738306"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.capenergie",
+   "label": "Cap Energie",
+   "montant": 9134.55,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "403403603"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assaraducete",
+   "label": "Ass Ara Du Cete",
+   "montant": 9089.31,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "407878123"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.observatoireregionaldes-transportsetdesm",
+   "label": "Observatoire Regional Des Transports Et Des Mobilites Des Pays De La Loire",
+   "montant": 9000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398209445"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.agencedurbanismedelaire-metropolitainely",
+   "label": "Agence D Urbanisme De L Aire Metropolitaine Lyonnaise",
+   "montant": 9000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "315028365"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.institutdevelformationconti-2",
+   "label": "Institut Devel Formation Conti",
+   "montant": 8937.52,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302456116"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assformationeducationpermanent-tivoli",
+   "label": "Ass Formation Education Permanent Tivoli",
+   "montant": 8530.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "300164233"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.lespapillonsblancsdedunkerque",
+   "label": "Les Papillons Blancs De Dunkerque",
+   "montant": 8343.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775622285"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.comitefrancaisdaccreditation",
+   "label": "Comite Francais D Accreditation",
+   "montant": 8338.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "397879487"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.formasupauvergne",
+   "label": "Formasup Auvergne",
+   "montant": 8012.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "491710646"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.conservatoiredespacesnaturelsde-nouvelle-2",
+   "label": "Conservatoire D Espaces Naturels De Nouvelle Aquitaine",
+   "montant": 7855.04,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388575961"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.formasuphautsdefrance",
+   "label": "Formasup Hauts De France",
+   "montant": 7820.43,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428135255"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.latumba",
+   "label": "La Tumba",
+   "montant": 7564.98,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418957718"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assparentsenfantsinadaptes-2",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 7549.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationmessidor",
+   "label": "Association Messidor",
+   "montant": 7500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305933004"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.centreregionaldeformation-multiprofessio",
+   "label": "Centre Regional De Formation Multiprofessionnel",
+   "montant": 7485.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "341820777"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assameliorenvironnementpays-marquise",
+   "label": "Ass Amelior Environnement Pays Marquise",
+   "montant": 7403.52,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388489718"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.comitedepartprotecnature-environnemen",
+   "label": "Comite Depart Protec Nature Environnemen",
+   "montant": 7365.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "304828536"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assecoletechniquelachataigneraie",
+   "label": "Ass Ecole Technique La Chataigneraie",
+   "montant": 7250.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775700842"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.groupemammalogiquebreton",
+   "label": "Groupe Mammalogique Breton",
+   "montant": 7016.88,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "379607633"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.theshifters",
+   "label": "The Shifters",
+   "montant": 6937.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "837507722"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.bretagnesupplychain",
+   "label": "Bretagne Supply Chain",
+   "montant": 6705.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "529431348"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.domainedelasnee",
+   "label": "Domaine De L Asnee",
+   "montant": 6701.34,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "448432856"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.familruraleducorientatrollancou",
+   "label": "Famil Rural Educ Orientat Rollancou",
+   "montant": 6687.75,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "307616300"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assofrancaisedestunnelsetdel-espacesoute",
+   "label": "Asso Francaise Des Tunnels Et De L Espace Souterrain Aftes",
+   "montant": 6600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "319378964"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.lavieactive-2",
+   "label": "La Vie Active",
+   "montant": 6600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775629934"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.silkroadbusinessschool",
+   "label": "Silkroad Business School",
+   "montant": 6500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "814916052"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationgroupeessec",
+   "label": "Association Groupe Essec",
+   "montant": 6026.18,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775663958"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.institutfrancaisdelamer",
+   "label": "Institut Francais De La Mer",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "304348287"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.carparreglemavocatsrouen",
+   "label": "Carpar Reglem Avocats Rouen",
+   "montant": 5846.46,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "312010200"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationmessidor-2",
+   "label": "Association Messidor",
+   "montant": 5786.55,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305933004"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ecoflandres-2",
+   "label": "Ecoflandres",
+   "montant": 5670.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380819573"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.comitefrancaisdelassosmondiale-delaroute-2",
+   "label": "Comite Francais De L Assos Mondiale De La Route",
+   "montant": 5500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "491914370"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.groupemammalogiquedauvergne",
+   "label": "Groupe Mammalogique D Auvergne",
+   "montant": 5397.9,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "540022381"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationpourlapromotiondes-handicapes",
+   "label": "Association Pour La Promotion Des Handicapes Et La Gestion De Ses Structures",
+   "montant": 5329.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "338439482"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.atmooccitanie-2",
+   "label": "Atmo Occitanie",
+   "montant": 5317.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "308599703"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ieedvedecom-2",
+   "label": "Ieed Vedecom",
+   "montant": 5300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "524979853"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.parentsenfantsinadaptesvallee-orne",
+   "label": "Parents Enfants Inadaptes Vallee Orne",
+   "montant": 5295.32,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775619117"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationdegestiondu-restaurantinterad",
+   "label": "Association De Gestion Du Restaurant Inter Administratif De Metz Polygone Agriamp",
+   "montant": 5103.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923815641"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.cesi",
+   "label": "Cesi",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775722572"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationagencede-developpementmedlink",
+   "label": "Association Agence De Developpement Medlink Ports",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "810488932"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.semerledoute",
+   "label": "Semer Le Doute",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "533896825"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.conservatoiredespacesnaturelsde-champagn",
+   "label": "Conservatoire D Espaces Naturels De Champagne Ardenne",
+   "montant": 4876.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780255485"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.aquitainemarketingscejunior-entrepris",
+   "label": "Aquitaine Marketing Sce Junior Entrepris",
+   "montant": 4771.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "348315649"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationdegestiondu-restaurantadminis",
+   "label": "Association De Gestion Du Restaurant Administratif Du Centre Des Finances Publiques De Limoges",
+   "montant": 4754.51,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "385399746"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.solidariteassociativepourla-gestiondeset",
+   "label": "Solidarite Associative Pour La Gestion Des Etablissements Et Services Specialises",
+   "montant": 4584.14,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "852647676"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.federationdesaveuglesalsace-lorrainegran",
+   "label": "Federation Des Aveugles Alsace Lorraine Grand Est",
+   "montant": 4566.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775641392"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationsteredenn",
+   "label": "Association Steredenn",
+   "montant": 4440.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "781626544"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.forestiersdumonde",
+   "label": "Forestiers Du Monde",
+   "montant": 4377.44,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "452508724"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assocdeveloppementtechniques-2",
+   "label": "Assoc Developpement Techniques",
+   "montant": 4216.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784622797"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.gestionrestinteradministratifs-2",
+   "label": "Gestion Rest Inter Administratifs",
+   "montant": 4196.25,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "327323606"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.federdepartassocpechepiscicult-nord",
+   "label": "Feder Depart Assoc Peche Piscicult Nord",
+   "montant": 4080.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "419349956"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.apco",
+   "label": "Apco",
+   "montant": 4040.64,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "411555139"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.conservatoiredespacesnaturelsd-auvergne-3",
+   "label": "Conservatoire D Espaces Naturels D Auvergne",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344896998"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.leschantiersdubarrois",
+   "label": "Les Chantiers Du Barrois",
+   "montant": 3900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "327337572"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.centreregformatbatimtravaux-publics",
+   "label": "Centre Reg Format Batim Travaux Publics",
+   "montant": 3840.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302331434"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.groupemammalogiquedauvergne-2",
+   "label": "Groupe Mammalogique D Auvergne",
+   "montant": 3809.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "540022381"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.civaplozerenouvelle",
+   "label": "C I V A P Lozere Nouvelle",
+   "montant": 3726.02,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776112922"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assrebondentrepriseadaptee",
+   "label": "Ass Rebond Entreprise Adaptee",
+   "montant": 3669.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "480954130"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationpourlespersonnesen-situationd",
+   "label": "Association Pour Les Personnes En Situation De Handicap Neuromoteur Et Leur Famille",
+   "montant": 3663.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775643257"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationnationaledeprevention-enalcoo",
+   "label": "Association Nationale De Prevention En Alcoologie Et Addictologie",
+   "montant": 3640.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775660087"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.neomys",
+   "label": "Neomys",
+   "montant": 3611.86,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432117315"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.federationdepechedelanievre-2",
+   "label": "Federation De Peche De La Nievre",
+   "montant": 3600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778476663"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.aftral",
+   "label": "Aftral",
+   "montant": 3596.52,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305405045"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationpourlaformation-continue",
+   "label": "Association Pour La Formation Continue",
+   "montant": 3500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382754786"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.liguepourlaprotectiondesoiseaux",
+   "label": "Ligue Pour La Protection Des Oiseaux",
+   "montant": 3500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390651222"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.conservatoiredespacesnaturelsd-auvergne-4",
+   "label": "Conservatoire D Espaces Naturels D Auvergne",
+   "montant": 3480.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344896998"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ingenierieetconseilencognitique",
+   "label": "Ingenierie Et Conseil En Cognitique",
+   "montant": 3480.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "495329310"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.asssportculturelleentraide-equipement",
+   "label": "Ass Sport Culturelle Entraide Equipement",
+   "montant": 3390.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "350764684"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.cappactreadaptprofartisanat",
+   "label": "Cappa Ctre Adapt Prof Artisanat",
+   "montant": 3340.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "319618369"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assocdeveloppementtechniques-3",
+   "label": "Assoc Developpement Techniques",
+   "montant": 3276.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784622797"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.vacancestourismefamille",
+   "label": "Vacances Tourisme Famille",
+   "montant": 3180.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775619588"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.caponordsportsdorientation",
+   "label": "Caponord Sports D Orientation",
+   "montant": 3125.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "500871082"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.comitedepartspeleologiedel-aveyron",
+   "label": "Comite Depart Speleologie De L Aveyron",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "447685066"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.smartticketingalliance",
+   "label": "Smart Ticketing Alliance",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assmondialedelaroute-3",
+   "label": "Ass Mondiale De La Route",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784670259"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.carpaavocatsbarreauavignon-2",
+   "label": "Carpa Avocats Barreau Avignon",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "334475944"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.lpoauvergnerhonealpes-2",
+   "label": "Lpo Auvergne Rhone Alpes",
+   "montant": 2975.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "301125100"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assgestionreseaumesurpollut-atmosph-2",
+   "label": "Ass Gestion Reseau Mesur Pollut Atmosph",
+   "montant": 2965.86,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "316465236"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.lesfoyersdecluny",
+   "label": "Les Foyers De Cluny",
+   "montant": 2898.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778134593"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assocformprofindustriesudfc",
+   "label": "Assoc Form Prof Industrie Sud Fc",
+   "montant": 2808.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778298042"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.aftral-2",
+   "label": "Aftral",
+   "montant": 2772.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305405045"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationbelmontaisedeservices-etdacco",
+   "label": "Association Belmontaise De Services Et D Accompagnement Pour Personnes Handicapees",
+   "montant": 2736.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776692899"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.lok3",
+   "label": "L Ok3",
+   "montant": 2700.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "850864687"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationesupbretagne",
+   "label": "Association Esup Bretagne",
+   "montant": 2700.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "808158190"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.capfamilles",
+   "label": "Cap Familles",
+   "montant": 2608.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "320527278"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ctrepermanenteducation-environnement-2",
+   "label": "Ctre Permanent Education Environnement",
+   "montant": 2596.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "431785187"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assrestaurinteradministratif-mazenod",
+   "label": "Ass Restaur Interadministratif Mazenod",
+   "montant": 2579.72,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779856806"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.leschantiersdubarrois-2",
+   "label": "Les Chantiers Du Barrois",
+   "montant": 2521.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "327337572"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.institutdesroutesdesruesetdes-infrastruc-2",
+   "label": "Institut Des Routes Des Rues Et Des Infrastructures Pour La Mobilite",
+   "montant": 2500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420200271"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assocsportculturentraideequip-htega",
+   "label": "Assoc Sport Cultur Entraide Equip Hte Ga",
+   "montant": 2400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "399487479"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assdepamisparenenfanadultinadap",
+   "label": "Ass Dep Amis Paren Enfan Adult Inadap",
+   "montant": 2354.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776681140"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationintermediaire",
+   "label": "Association Intermediaire",
+   "montant": 2350.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "345406565"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ctreculturelancienneabbaye-premontres-2",
+   "label": "Ctre Culturel Ancienne Abbaye Premontres",
+   "montant": 2336.95,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783345994"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assdeveloeuvrecultueducsocia-appren",
+   "label": "Ass Devel Oeuvre Cultu Educ Socia Appren",
+   "montant": 2319.97,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780004446"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.mobilitydataeurope",
+   "label": "Mobilitydata Europe",
+   "montant": 2280.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "898080270"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assaraducete-2",
+   "label": "Ass Ara Du Cete",
+   "montant": 2279.63,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "407878123"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.biomeobservationdesespaces-naturels",
+   "label": "Biome Observation Des Espaces Naturels",
+   "montant": 2272.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "449869320"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assosportcultentraequipille-vilaine",
+   "label": "Asso Sport Cult Entra Equip Ille Vilaine",
+   "montant": 2230.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "449710821"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.fedpapecheprotectionmilieu-aquatique",
+   "label": "Fed Pa Peche Protection Milieu Aquatique",
+   "montant": 2200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383565579"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.croixrougefrancaise",
+   "label": "Croix Rouge Francaise",
+   "montant": 2135.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672272"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assrebondentrepriseadaptee-2",
+   "label": "Ass Rebond Entreprise Adaptee",
+   "montant": 2131.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "480954130"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.adapei",
+   "label": "Adapei",
+   "montant": 2119.54,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775585003"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.btpcfaauvergnerhonealpes",
+   "label": "Btp Cfa Auvergne Rhone Alpes",
+   "montant": 2100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418846762"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.infrastructuresdurablesrhone-alpes",
+   "label": "Infrastructures Durables Rhone Alpes",
+   "montant": 2088.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "520977364"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assdepamisenfantsinadaptes",
+   "label": "Ass Dep Amis Enfants Inadaptes",
+   "montant": 2076.12,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775544083"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assocgestrestinteradminisde-vesoul",
+   "label": "Assoc Gest Rest Inter Adminis De Vesoul",
+   "montant": 2056.09,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778540104"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.centreentreprisecommunication-avancee",
+   "label": "Centre Entreprise Communication Avancee",
+   "montant": 2010.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "343686432"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.federationdepechedelanievre-3",
+   "label": "Federation De Peche De La Nievre",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778476663"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.federdepertassagreespechepisci-cdn",
+   "label": "Feder Depert Ass Agrees Peche Pisci Cdn",
+   "montant": 1980.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "339087165"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assrestaurantciteadministrative",
+   "label": "Ass Restaurant Cite Administrative",
+   "montant": 1949.59,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388331183"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationflavien",
+   "label": "Association Flavien",
+   "montant": 1940.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785135104"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assparentsenfantsinadaptes-3",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 1914.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.poleagroalimentairedeliserepaa-38",
+   "label": "Pole Agroalimentaire De L Isere Paa 38",
+   "montant": 1875.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "853451953"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationpourlagestiondu-restaurantint",
+   "label": "Association Pour La Gestion Du Restaurant Inter Administratif De Marmilhat",
+   "montant": 1863.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "821982121"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.emmausariegefondateurabbepierre",
+   "label": "Emmaus Ariege Fondateur Abbe Pierre",
+   "montant": 1860.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "433483823"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.liguefrancaiseprotectionoiseaux-2",
+   "label": "Ligue Francaise Protection Oiseaux",
+   "montant": 1849.65,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784263287"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.comitefrancaisdaccreditation-2",
+   "label": "Comite Francais D Accreditation",
+   "montant": 1848.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "397879487"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.unionnormalisationmecanique",
+   "label": "Union Normalisation Mecanique",
+   "montant": 1800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "310025697"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.manoirdelagoeletterie",
+   "label": "Manoir De La Goeletterie",
+   "montant": 1799.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "351549670"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.protectioncivileparisseine",
+   "label": "Protection Civile Paris Seine",
+   "montant": 1780.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418037461"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.radiobesbreetloirefm",
+   "label": "Radio Besbre Et Loire Fm",
+   "montant": 1747.17,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "352248926"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assparentsenfantsinadaptes-4",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 1729.56,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.chauvesourisauvergne",
+   "label": "Chauve Souris Auvergne",
+   "montant": 1660.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "507983369"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assgestionrestaurantinterad",
+   "label": "Ass Gestion Restaurant Interad",
+   "montant": 1641.35,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "312915176"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.anaconservatoiredespaces-naturelsariege",
+   "label": "Ana Conservatoire D Espaces Naturels Ariege",
+   "montant": 1640.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "393302104"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationlaiquepourleducation-laformat",
+   "label": "Association Laique Pour L Education La Formation La Prevention Et L Autonomie",
+   "montant": 1580.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775624075"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.federatdepartassocdepeche",
+   "label": "Federat Depart Assoc De Peche",
+   "montant": 1564.56,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783447667"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.serviceplus",
+   "label": "Service Plus",
+   "montant": 1557.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "484215314"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.cfairegionnordpasdecalais",
+   "label": "Cfai Region Nord Pas De Calais",
+   "montant": 1539.67,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "300488806"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.caissreglepecuniavocabarreau-valence",
+   "label": "Caiss Regle Pecuni Avoca Barreau Valence",
+   "montant": 1507.46,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "350212411"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.francenatureenvironnementloire-2",
+   "label": "France Nature Environnement Loire",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "353282270"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.femmesenmouvement",
+   "label": "Femmes En Mouvement",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "820496057"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.mayennenatureenvironnement",
+   "label": "Mayenne Nature Environnement",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "380438671"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.caissedesreglementspecuniaires-desavocat",
+   "label": "Caisse Des Reglements Pecuniaires Des Avocats De Strasbourg",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "316671858"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.caissereglementpecuniairedes-avocats",
+   "label": "Caisse Reglement Pecuniaire Des Avocats",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384618351"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.federationdesaveuglesalsace-lorrainegran-2",
+   "label": "Federation Des Aveugles Alsace Lorraine Grand Est",
+   "montant": 1448.94,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775641392"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.instderechercheenprevention-sante",
+   "label": "Inst De Recherche En Prevention Sante",
+   "montant": 1440.82,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "478075393"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.centreregionaldephytosociologie",
+   "label": "Centre Regional De Phytosociologie",
+   "montant": 1440.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344021878"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.digitalaquitaine",
+   "label": "Digital Aquitaine",
+   "montant": 1425.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "809619752"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assparentsenfantsinadaptes-5",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 1420.56,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assdepamisparenenfanadultinadap-2",
+   "label": "Ass Dep Amis Paren Enfan Adult Inadap",
+   "montant": 1420.48,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776681140"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationdesparentsdes-personneshandic",
+   "label": "Association Des Parents Des Personnes Handicapees Mentales Et De Leurs Amis De Chambery",
+   "montant": 1408.29,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775653280"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.etic53",
+   "label": "Etic 53",
+   "montant": 1384.95,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "799767900"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assocdeveloppementtechniques-4",
+   "label": "Assoc Developpement Techniques",
+   "montant": 1368.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784622797"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.formasuphautsdefrance-2",
+   "label": "Formasup Hauts De France",
+   "montant": 1366.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "428135255"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.groupementdedefensesanitaire-apicoledela",
+   "label": "Groupement De Defense Sanitaire Apicole De La Creuse",
+   "montant": 1357.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "532171154"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assparentsenfantsinadaptes-6",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 1330.56,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.leneufbis",
+   "label": "Le Neuf Bis",
+   "montant": 1296.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "528536543"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.croixrougefrancaise-2",
+   "label": "Croix Rouge Francaise",
+   "montant": 1290.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672272"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assformationeducationpermanent-tivoli-2",
+   "label": "Ass Formation Education Permanent Tivoli",
+   "montant": 1275.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "300164233"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationsportiveculturelleetd-entraid",
+   "label": "Association Sportive Culturelle Et D Entraide Du Gers",
+   "montant": 1238.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "534840905"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.commisspermanetudeproteceau-soussol",
+   "label": "Commiss Perman Etude Protec Eau Sous Sol",
+   "montant": 1210.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378166631"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ensembledevelopponsl-accompagnement",
+   "label": "Ensemble Developpons L Accompagnement",
+   "montant": 1208.64,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "782030811"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.federationdesaoneetloirepourla-pecheetla",
+   "label": "Federation De Saone Et Loire Pour La Peche Et La Protection Du Milieu Aquatique",
+   "montant": 1200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778599423"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.clubdesclientsfinauxdelaled",
+   "label": "Club Des Clients Finaux De La Led",
+   "montant": 1200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "833610934"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.asspersonnelgestionrestau-interadmini",
+   "label": "Ass Personnel Gestion Restau Interadmini",
+   "montant": 1184.02,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "324833268"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assparentsenfantsinadaptes-7",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 1173.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.asssportiveculturelleentraide-equipement",
+   "label": "Ass Sportive Culturelle Entraide Equipement",
+   "montant": 1170.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "781171327"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assgestionrestaurantinterad-2",
+   "label": "Ass Gestion Restaurant Interad",
+   "montant": 1162.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "312915176"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.aftral-3",
+   "label": "Aftral",
+   "montant": 1108.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305405045"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.legravillon",
+   "label": "Le Gravillon",
+   "montant": 1106.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "885296962"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.comitefrancaisdelassosmondiale-delaroute-3",
+   "label": "Comite Francais De L Assos Mondiale De La Route",
+   "montant": 1100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "491914370"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assparentsenfantsinadaptes-8",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 1083.36,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.institutrecherchesenseigsoins-urgence",
+   "label": "Institut Recherches Enseig Soins Urgence",
+   "montant": 1080.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "349687798"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assocsomarneparentsenfants-inadaptes",
+   "label": "Assoc So Marne Parents Enfants Inadaptes",
+   "montant": 1066.04,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342466356"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.conservatoiredespacesnaturelsde-normandi",
+   "label": "Conservatoire D Espaces Naturels De Normandie",
+   "montant": 1030.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394098792"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationmorbihannaised-insertionsocia",
+   "label": "Association Morbihannaise D Insertion Sociale Et Professionnelle",
+   "montant": 1008.48,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "415012475"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assocentraidedesoeuvres-catholiques",
+   "label": "Assoc Entraide Des Oeuvres Catholiques",
+   "montant": 1008.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "441521309"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assdesmairesdeseluslocauxdu-tarn",
+   "label": "Ass Des Maires Des Elus Locaux Du Tarn",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378598262"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.federationdelaviennepourlapeche-etlaprot",
+   "label": "Federation De La Vienne Pour La Peche Et La Protection Du Milieu Aquatique",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "781565924"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.phasm",
+   "label": "Phasm",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "907675532"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.caisreglpecunavocatscourappel-aix-2",
+   "label": "Cais Regl Pecun Avocats Cour Appel Aix",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305915878"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.capam",
+   "label": "C A P A M",
+   "montant": 968.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "523193142"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.restaurantinteradmindepart-charente",
+   "label": "Restaurant Interadmin Depart Charente",
+   "montant": 960.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "442588729"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.federationdesaveuglesalsace-lorrainegran-3",
+   "label": "Federation Des Aveugles Alsace Lorraine Grand Est",
+   "montant": 949.86,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775641392"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.groupemammalogiquedauvergne-3",
+   "label": "Groupe Mammalogique D Auvergne",
+   "montant": 936.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "540022381"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationflavien-2",
+   "label": "Association Flavien",
+   "montant": 929.64,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785135104"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assdepartementaledactionsociale-despolic",
+   "label": "Ass Departementale D Action Sociale Des Policiers",
+   "montant": 924.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775708969"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.comitefrancenvirondevelop-durable",
+   "label": "Comite Franc Environ Develop Durable",
+   "montant": 900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "399155779"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.institutrechercheappliquee-experimenta",
+   "label": "Institut Recherche Appliquee Experimenta",
+   "montant": 900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "389486549"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.restaurpersondirecdepartequipe-gard",
+   "label": "Restaur Person Direc Depart Equipe Gard",
+   "montant": 900.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "422137612"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.protectioncivileparisseine-2",
+   "label": "Protection Civile Paris Seine",
+   "montant": 890.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "418037461"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.arpei",
+   "label": "A R P E I",
+   "montant": 883.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785534629"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.federationdesaveuglesalsace-lorrainegran-4",
+   "label": "Federation Des Aveugles Alsace Lorraine Grand Est",
+   "montant": 856.02,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775641392"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.abeillecreusoise",
+   "label": "Abeille Creusoise",
+   "montant": 812.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "422468595"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.federpecheprotecmilieuaquathte-loir",
+   "label": "Feder Peche Protec Milieu Aquat Hte Loir",
+   "montant": 800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "779144922"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationsportiveculturelleetd-entraid-2",
+   "label": "Association Sportive Culturelle Et D Entraide De La Charente Maritime",
+   "montant": 795.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "532379252"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ctreculturelancienneabbaye-premontres-3",
+   "label": "Ctre Culturel Ancienne Abbaye Premontres",
+   "montant": 794.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783345994"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.catcalcavallerdenveitg",
+   "label": "Cat Cal Cavaller D Enveitg",
+   "montant": 786.79,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "340971555"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationrencontreetculture",
+   "label": "Association Rencontre Et Culture",
+   "montant": 730.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "343084505"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.lpoauvergnerhonealpes-3",
+   "label": "Lpo Auvergne Rhone Alpes",
+   "montant": 725.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "301125100"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.leschantiersdubarrois-3",
+   "label": "Les Chantiers Du Barrois",
+   "montant": 718.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "327337572"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.centreregionaldephytosociologie-2",
+   "label": "Centre Regional De Phytosociologie",
+   "montant": 713.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "344021878"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assrestaurantciteadministrative-2",
+   "label": "Ass Restaurant Cite Administrative",
+   "montant": 678.76,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "388331183"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationsportiveculturelleetd-entraid-3",
+   "label": "Association Sportive Culturelle Et D Entraide De L Ecologie De La Haute Vienne",
+   "montant": 650.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "513176271"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.etapeauvergne",
+   "label": "Etape Auvergne",
+   "montant": 647.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "507539260"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assocgestiondesateliersproteges",
+   "label": "Assoc Gestion Des Ateliers Proteges",
+   "montant": 636.3,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "417562469"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.casccomitedanimationsocialeet-culturelle",
+   "label": "Casc Comite D Animation Sociale Et Culturelle Du Sdmis",
+   "montant": 585.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "414107920"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assparentsenfantsinadaptes-9",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 579.24,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.parentsenfantsinadaptesvallee-orne-2",
+   "label": "Parents Enfants Inadaptes Vallee Orne",
+   "montant": 573.48,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775619117"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.leducationparletravail",
+   "label": "L Education Par Le Travail",
+   "montant": 570.57,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776108458"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.visiondavenir",
+   "label": "Vision D Avenir",
+   "montant": 570.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432618593"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.federationdesaveuglesalsace-lorrainegran-5",
+   "label": "Federation Des Aveugles Alsace Lorraine Grand Est",
+   "montant": 561.3,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775641392"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.disposervices",
+   "label": "Dispo Services",
+   "montant": 540.61,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "398055673"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationpourlagestiondu-restaurantint-2",
+   "label": "Association Pour La Gestion Du Restaurant Inter Administratif De Marmilhat",
+   "montant": 528.3,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "821982121"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.restaurantadminstministere-interieur",
+   "label": "Restaurant Adminst Ministere Interieur",
+   "montant": 521.68,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778059360"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationlepont",
+   "label": "Association Le Pont",
+   "montant": 520.01,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "413689548"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.lepresaleassociationdesusagers-delacanti",
+   "label": "Le Pre Sale Association Des Usagers De La Cantine Direction Departementale De L Equipement Bureaux Du Pre Saint Gerv",
+   "montant": 504.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "843833807"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationsportiveculturelleetd-entraid-4",
+   "label": "Association Sportive Culturelle Et D Entraide De L Equipement De Lot Et Garonne",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "531951713"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.asce86",
+   "label": "Asce86",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "814418539"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.asquaproassociationpourla-qualiteetlapro",
+   "label": "Asquapro Association Pour La Qualite Et La Projection Des Betons",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "811085588"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.caissereglementspecuniaires-avocats-3",
+   "label": "Caisse Reglements Pecuniaires Avocats",
+   "montant": 500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "781822234"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assocrestaurantinteradministcite-admi",
+   "label": "Assoc Restaurant Interadminist Cite Admi",
+   "montant": 487.58,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383531795"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationregionalepourl-integration",
+   "label": "Association Regionale Pour L Integration",
+   "montant": 458.88,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "334353471"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationdeprotectionciviledu-pasdecal",
+   "label": "Association De Protection Civile Du Pas De Calais",
+   "montant": 453.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "831852280"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.asscentrefrancaisanticorrosion",
+   "label": "Ass Centre Francais Anticorrosion",
+   "montant": 450.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378036883"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.fedpapecheprotectionmilieu-aquatique-2",
+   "label": "Fed Pa Peche Protection Milieu Aquatique",
+   "montant": 450.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "383565579"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.officedetourismeetdescongresde-bordeauxm",
+   "label": "Office De Tourisme Et Des Congres De Bordeaux Metropole",
+   "montant": 420.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "781804554"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationdegestiondes-associationsdepa",
+   "label": "Association De Gestion Des Associations De Parents Et D Enfants Inadaptes 13 Nord Ouest",
+   "montant": 413.91,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "817447360"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.liguefrancaiseprotectionoiseaux-3",
+   "label": "Ligue Francaise Protection Oiseaux",
+   "montant": 412.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784263287"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assparentsenfantsinadaptes-10",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 405.72,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.asceequipement09",
+   "label": "Asce Equipement 09",
+   "montant": 400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "409719200"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.asscomitefrdegeologiedel-ingenieur",
+   "label": "Ass Comite Fr De Geologie De L Ingenieur",
+   "montant": 400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "429933484"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.resosolidaire",
+   "label": "Reso Solidaire",
+   "montant": 400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "513319764"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.asqpe",
+   "label": "Asqpe",
+   "montant": 400.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "448828095"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.societedetirdesaintpierre-miquelon",
+   "label": "Societe De Tir De Saint Pierre Miquelon",
+   "montant": 396.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "490185808"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assoted16gds",
+   "label": "Asso Ted 16 Gds",
+   "montant": 386.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "513023275"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.centredactivitesdeplongee",
+   "label": "Centre D Activites De Plongee",
+   "montant": 385.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "333484657"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.asslilleorientationrelaisemploi",
+   "label": "Ass Lille Orientation Relais Emploi",
+   "montant": 382.56,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "337857817"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.dinancapfreheltourisme",
+   "label": "Dinan Cap Frehel Tourisme",
+   "montant": 378.22,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "777363060"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ctreculturelancienneabbaye-premontres-4",
+   "label": "Ctre Culturel Ancienne Abbaye Premontres",
+   "montant": 324.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783345994"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ethictable",
+   "label": "Ethic Table",
+   "montant": 317.9,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "751469255"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assrestciteadministrative-chateauroux",
+   "label": "Ass Rest Cite Administrative Chateauroux",
+   "montant": 313.95,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "312161292"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ctreculturelancienneabbaye-premontres-5",
+   "label": "Ctre Culturel Ancienne Abbaye Premontres",
+   "montant": 309.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783345994"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assdesexposantsdelamaisonde-paysdelauxoi",
+   "label": "Ass Des Exposants De La Maison De Pays De L Auxois Sud",
+   "montant": 305.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "494240294"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.travailpourtousateliersdel-olivier",
+   "label": "Travail Pour Tous Ateliers De L Olivier",
+   "montant": 304.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483314472"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.fsttfrancesanstranchee-technologies",
+   "label": "Fstt France Sans Tranchee Technologies",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "413070194"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.veloetterritoires-2",
+   "label": "Velo Et Territoires",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "431214337"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.pignonsurrue",
+   "label": "Pignon Sur Rue",
+   "montant": 300.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "454052531"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assparentsenfantsinadaptes-11",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 296.88,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assparentsenfantsinadaptes-12",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 295.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.ctreculturelancienneabbaye-premontres-6",
+   "label": "Ctre Culturel Ancienne Abbaye Premontres",
+   "montant": 292.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783345994"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationdesparentsdes-personneshandic-2",
+   "label": "Association Des Parents Des Personnes Handicapees Mentales Et De Leurs Amis De Chambery",
+   "montant": 264.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775653280"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationfrancaiseeclairage",
+   "label": "Association Francaise Eclairage",
+   "montant": 257.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784360190"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.asce86-2",
+   "label": "Asce86",
+   "montant": 255.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "814418539"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationlesantes",
+   "label": "Association Les Antes",
+   "montant": 252.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "320660400"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.liguepourlaprotectiondesoiseaux-deloirea-2",
+   "label": "Ligue Pour La Protection Des Oiseaux De Loire Atlantique",
+   "montant": 244.64,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "382233591"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationthierryalbouy",
+   "label": "Association Thierry Albouy",
+   "montant": 240.48,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775971856"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.clusterlumiere",
+   "label": "Cluster Lumiere",
+   "montant": 240.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "505345835"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assocationassemuseedesverts",
+   "label": "Assocation Asse Musee Des Verts",
+   "montant": 230.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "791772072"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationthierryalbouy-2",
+   "label": "Association Thierry Albouy",
+   "montant": 228.96,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775971856"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assfrancaisedegeniecivil",
+   "label": "Ass Francaise De Genie Civil",
+   "montant": 225.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "417905932"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationleclosdunid",
+   "label": "Association Le Clos Du Nid",
+   "montant": 224.72,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775608979"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.asssauvegardeenfantadultenievre",
+   "label": "Ass Sauvegarde Enfant Adulte Nievre",
+   "montant": 221.52,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775620164"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.deltaplus",
+   "label": "Delta Plus",
+   "montant": 217.42,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778068957"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assfrpourlinformationgeograp-afigeo",
+   "label": "Ass Fr Pour L Information Geograp Afigeo",
+   "montant": 214.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "389985565"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationdepartementalede-protectionci",
+   "label": "Association Departementale De Protection Civile Du Gers",
+   "montant": 210.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "531859411"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.canoekayakvivonnelespagayous",
+   "label": "Canoe Kayak Vivonne Les Pagayous",
+   "montant": 201.6,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "352445951"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.restaurantinteradministratifde-lyon-2",
+   "label": "Restaurant Interadministratif De Lyon",
+   "montant": 200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "306504713"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.comiteterritorialolympiqueet-sportifdela",
+   "label": "Comite Territorial Olympique Et Sportif De La Martinique",
+   "montant": 200.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "342446192"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assparentsenfantsinadaptes-13",
+   "label": "Ass Parents Enfants Inadaptes",
+   "montant": 198.48,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "331603365"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.milleetuneabeilles",
+   "label": "Mille Et Une Abeilles",
+   "montant": 190.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "828518563"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationfrancaisede-normalisation-3",
+   "label": "Association Francaise De Normalisation",
+   "montant": 182.3,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775724818"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.automobileclubassociation-francaisedesau",
+   "label": "Automobile Club Association Francaise Des Automobilistes",
+   "montant": 181.74,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775641871"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assfrancaisedegeniecivil-2",
+   "label": "Ass Francaise De Genie Civil",
+   "montant": 180.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "417905932"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.arpei-2",
+   "label": "A R P E I",
+   "montant": 170.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785534629"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.clubomnisportbrivadois",
+   "label": "Club Omnisport Brivadois",
+   "montant": 165.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "341099760"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.fededelalozerepecheprotec-aquatique",
+   "label": "Fede De La Lozere Peche Protec Aquatique",
+   "montant": 162.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "313448052"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.visiondavenir-2",
+   "label": "Vision D Avenir",
+   "montant": 161.76,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432618593"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.asspicardepreserentrevehicu-anciens",
+   "label": "Ass Picarde Preser Entre Vehicu Anciens",
+   "montant": 156.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "780623401"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.travailpourtousateliersdel-olivier-2",
+   "label": "Travail Pour Tous Ateliers De L Olivier",
+   "montant": 154.8,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "483314472"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationpourlapromotionetl-ameliorati",
+   "label": "Association Pour La Promotion Et L Amelioration De La Qualite Des Travaux Et Equipements Routiers En Normandie",
+   "montant": 150.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "521842583"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.comitenatsecuriteusagers-electricite",
+   "label": "Comite Nat Securite Usagers Electricite",
+   "montant": 144.14,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775669732"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationfingrasdumezenc",
+   "label": "Association Fin Gras Du Mezenc",
+   "montant": 140.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "411555584"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assogestionrestauinteradminis-peliss",
+   "label": "Asso Gestion Restau Inter Adminis Peliss",
+   "montant": 136.51,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "339448813"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationlepont-2",
+   "label": "Association Le Pont",
+   "montant": 130.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "413689548"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assocdeveloppementtechniques-5",
+   "label": "Assoc Developpement Techniques",
+   "montant": 120.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784622797"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.institutmaitriserisquessurete-fonctio",
+   "label": "Institut Maitrise Risques Surete Fonctio",
+   "montant": 110.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "443923719"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.institutdesoudure",
+   "label": "Institut De Soudure",
+   "montant": 109.25,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784756413"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.habitatjeunesbesancon",
+   "label": "Habitat Jeunes Besancon",
+   "montant": 102.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778285106"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.imgc",
+   "label": "Imgc",
+   "montant": 100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "821594090"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.associationconcordia",
+   "label": "Association Concordia",
+   "montant": 100.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784180440"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.tubosvougasistemasdeengenharia-sa-2",
+   "label": "Tubos Vouga Sistemas De Engenharia Sa",
+   "montant": 96.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "751189994"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.unionfederaleconsommateurshte-loire",
+   "label": "Union Federale Consommateurs Hte Loire",
+   "montant": 90.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378398390"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.officedetourismederoubaix",
+   "label": "Office De Tourisme De Roubaix",
+   "montant": 75.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "783793391"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.conservatoiredespacesnaturels-despaysdel-2",
+   "label": "Conservatoire D Espaces Naturels Des Pays De La Loire",
+   "montant": 73.72,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "809440654"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.civaplozerenouvelle-2",
+   "label": "C I V A P Lozere Nouvelle",
+   "montant": 59.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "776112922"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.comitedepartspeleologiedel-aveyron-2",
+   "label": "Comite Depart Speleologie De L Aveyron",
+   "montant": 51.84,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "447685066"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.lemoulindugot",
+   "label": "Le Moulin Du Got",
+   "montant": 47.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "447778788"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assformationeducationpermanent-tivoli-3",
+   "label": "Ass Formation Education Permanent Tivoli",
+   "montant": 44.4,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "300164233"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p203.assstehorticulturedesetl",
+   "label": "Ass Ste Horticulture De S Et L",
+   "montant": 30.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "427483201"
+   },
+   "rattachement_id": "etat.depenses.BG.TA.203",
+   "enfants": []
+  }
+ ]
+}

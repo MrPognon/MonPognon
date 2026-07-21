@@ -1,0 +1,77 @@
+{
+ "id": "etat.subventions.p192",
+ "label": "Programme 192 — Recherche et enseignement supérieur en matière économique et industrielle : bénéficiaires des subventions aux associations",
+ "montant": 168941.97,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "4 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p192.caracterisation",
+   "label": "Caracterisation",
+   "montant": 88338.25,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "489824334"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.192",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p192.institutdoptique",
+   "label": "Institut D Optique",
+   "montant": 66012.72,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784616989"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.192",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p192.micropacks",
+   "label": "Micro Packs",
+   "montant": 10956.46,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "489967901"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.192",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p192.micropacks-2",
+   "label": "Micro Packs",
+   "montant": 3634.54,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "489967901"
+   },
+   "rattachement_id": "etat.depenses.BG.RA.192",
+   "enfants": []
+  }
+ ]
+}

@@ -1,0 +1,285 @@
+{
+ "id": "etat.subventions.p775",
+ "label": "Programme 775 — Développement et transfert en agriculture : bénéficiaires des subventions aux associations",
+ "montant": 8835955.51,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "20 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p775.lacooperationagricole",
+   "label": "La Cooperation Agricole",
+   "montant": 2045270.23,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784179665"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.trame",
+   "label": "Trame",
+   "montant": 2032627.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "410051197"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.fednationcuma",
+   "label": "Fed Nation Cuma",
+   "montant": 915447.87,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784263790"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.terredeliens",
+   "label": "Terre De Liens",
+   "montant": 829787.68,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "480509645"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.federationnationagricbiolog-regionfr",
+   "label": "Federation Nation Agric Biolog Region Fr",
+   "montant": 773393.5,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "394000236"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.reseaucivam",
+   "label": "Reseau Civam",
+   "montant": 675351.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775682230"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.assocnationaledessocieteset-groupementsa",
+   "label": "Assoc Nationale Des Societes Et Groupements Agricoles Pour L Exploitation En Commun",
+   "montant": 338000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784362022"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.associationsolidaritepaysans",
+   "label": "Association Solidarite Paysans",
+   "montant": 310500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "409214863"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.institutdelelevage",
+   "label": "Institut De L Elevage",
+   "montant": 203000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302984158"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.associationfrancaisearbres-champetreseta",
+   "label": "Association Francaise Arbres Champetres Et Agroforesteries",
+   "montant": 177482.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "508047396"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.federassociatdevelopemploiagri-rural",
+   "label": "Feder Associat Develop Emploi Agri Rural",
+   "montant": 130000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "349902536"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.fedenationalereseau-developpementapicole",
+   "label": "Fede Nationale Reseau Developpement Apicole",
+   "montant": 101156.77,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "792640930"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.mouvementinterregionaldesamap",
+   "label": "Mouvement Inter Regional Des Amap",
+   "montant": 55000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "522026160"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.renetareseaunationaldesespaces-testagric",
+   "label": "Reneta Reseau National Des Espaces Test Agricoles",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "753093020"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.associationpourlapromotiondune-agricultu",
+   "label": "Association Pour La Promotion D Une Agriculture Durable",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "798530614"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.federationnationaleaccueilpaysan",
+   "label": "Federation Nationale Accueil Paysan",
+   "montant": 50000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "390693638"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.associationfrancaisede-pastoralisme",
+   "label": "Association Francaise De Pastoralisme",
+   "montant": 46452.1,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "403875933"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.servicederemplacementfrance",
+   "label": "Service De Remplacement France",
+   "montant": 25000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "432264950"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.terresenvilles",
+   "label": "Terres En Villes",
+   "montant": 24126.96,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "453022725"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p775.asscoordinattechniqagricole",
+   "label": "Ass Coordinat Techniq Agricole",
+   "montant": 3360.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "784523318"
+   },
+   "rattachement_id": "etat.depenses.CAS.YF.775",
+   "enfants": []
+  }
+ ]
+}

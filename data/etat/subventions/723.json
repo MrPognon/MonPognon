@@ -1,0 +1,233 @@
+{
+ "id": "etat.subventions.p723",
+ "label": "Programme 723 — Opérations immobilières et entretien des bâtiments de l'État : bénéficiaires des subventions aux associations",
+ "montant": 111756.99,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "16 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p723.comitegestiondescentresde-vacances",
+   "label": "Comite Gestion Des Centres De Vacances",
+   "montant": 70000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "401111059"
+   },
+   "rattachement_id": "etat.depenses.CAS.YB.723",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p723.lesenvironneurs",
+   "label": "Les Environneurs",
+   "montant": 7561.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "404063315"
+   },
+   "rattachement_id": "etat.depenses.CAS.YB.723",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p723.entraideunion",
+   "label": "Entraide Union",
+   "montant": 7020.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775672462"
+   },
+   "rattachement_id": "etat.depenses.CAS.YB.723",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p723.apremis",
+   "label": "Apremis",
+   "montant": 6507.97,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "384885000"
+   },
+   "rattachement_id": "etat.depenses.CAS.YB.723",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p723.agencelocaledelenergieetdu-climat",
+   "label": "Agence Locale De L Energie Et Du Climat",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "495009441"
+   },
+   "rattachement_id": "etat.depenses.CAS.YB.723",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p723.associationfidji",
+   "label": "Association Fidji",
+   "montant": 3600.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "513281618"
+   },
+   "rattachement_id": "etat.depenses.CAS.YB.723",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p723.reciprocite",
+   "label": "Reciprocite",
+   "montant": 2824.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "429346547"
+   },
+   "rattachement_id": "etat.depenses.CAS.YB.723",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p723.assregionaledespersonnelsdes-servicesdas",
+   "label": "Ass Regionale Des Personnels Des Services D Assistance Technique A L Epuration Et Suivi Des Eaux Du Bassin Loire Bretagn",
+   "montant": 2340.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "492036512"
+   },
+   "rattachement_id": "etat.depenses.CAS.YB.723",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p723.assatol",
+   "label": "Ass Atol",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "488281510"
+   },
+   "rattachement_id": "etat.depenses.CAS.YB.723",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p723.regiedequartiersdelouest-chalonnais",
+   "label": "Regie De Quartiers De L Ouest Chalonnais",
+   "montant": 1452.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "412805244"
+   },
+   "rattachement_id": "etat.depenses.CAS.YB.723",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p723.adapeidelasarthe",
+   "label": "Adapei De La Sarthe",
+   "montant": 1026.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775652381"
+   },
+   "rattachement_id": "etat.depenses.CAS.YB.723",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p723.institutpasteur",
+   "label": "Institut Pasteur",
+   "montant": 693.43,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775684897"
+   },
+   "rattachement_id": "etat.depenses.CAS.YB.723",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p723.associationmessidor",
+   "label": "Association Messidor",
+   "montant": 619.18,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "305933004"
+   },
+   "rattachement_id": "etat.depenses.CAS.YB.723",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p723.institutpasteur-2",
+   "label": "Institut Pasteur",
+   "montant": 491.48,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775684897"
+   },
+   "rattachement_id": "etat.depenses.CAS.YB.723",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p723.reagir43",
+   "label": "Reagir 43",
+   "montant": 450.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "451803084"
+   },
+   "rattachement_id": "etat.depenses.CAS.YB.723",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p723.aireargonnebarrois",
+   "label": "Aire Argonne Barrois",
+   "montant": 171.73,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "440621456"
+   },
+   "rattachement_id": "etat.depenses.CAS.YB.723",
+   "enfants": []
+  }
+ ]
+}

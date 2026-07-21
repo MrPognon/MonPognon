@@ -168,11 +168,10 @@ def vue_associations(meta, lib, payeuses):
                 "montant": round(t["montant"], 2), "annee": 2023, "statut": "confirme",
                 "source": {"nom": src["nom"] + f", ligne du programme {prog}"},
             }
-            # P5 exige les DEUX : un identifiant machine et la ligne payeuse.
-            if sir:
-                noeud["identifiant"] = {"type": "SIREN", "valeur": sir}
-            if paye_par:
-                noeud["rattachement_id"] = paye_par
+            # Ni identifiant ni rattachement ICI : ces cinq nœuds sont un APERÇU
+            # d'affichage. La totalité des bénéficiaires vit dans les fragments
+            # data/etat/subventions/<prog>.json, seule source du P5 — les porter
+            # aux deux endroits ferait compter les mêmes euros deux fois.
             noeud["enfants"] = []
             enfants_assoc.append(noeud)
         enfants_prog.append({
@@ -183,6 +182,7 @@ def vue_associations(meta, lib, payeuses):
                             f"détaillés ci-dessous ; les {reste_n:,} autres représentent {reste_m:,.0f} €.").replace(",", " "),
             "enfants": enfants_assoc,
         })
+    ecrire_fragments_subventions(rows, lib, payeuses, src)
     return {
         "id": "etat.qui-percoit.associations",
         "label": "Subventions de l'État aux associations (exécution 2023)",
@@ -192,6 +192,68 @@ def vue_associations(meta, lib, payeuses):
                         "exécutées des programmes, ils ne s'additionnent pas au PLF 2025.").replace(",", " "),
         "source": src, "enfants": enfants_prog,
     }
+
+
+
+def ecrire_fragments_subventions(rows, lib, payeuses, src):
+    """Un fichier par programme sous data/etat/subventions/, contenant TOUS les
+    bénéficiaires — pas seulement les cinq plus gros.
+
+    Pourquoi des fragments et non la vue principale : les 112 722 versements
+    pèsent ~31 Mo de JSON, et `site/data.js` (2,6 Mo) est chargé à chaque
+    ouverture du site. Le mécanisme de fragments de l'ADR-0004, déjà utilisé
+    pour les 56 491 fiches de collectivités, publie ces arbres à la demande
+    SANS les inliner — tout en les gardant dans le calcul de l'indice, qui lit
+    les arbres en mémoire et non le fichier publié.
+
+    Racine à `bloc_univers: null` : cette vue est transverse, elle ne compte pas
+    dans la couverture C. Elle ne sert qu'au reclassement P5, qui déplace des
+    euros déjà comptés dans l'arbre payeur au lieu d'en ajouter."""
+    dossier = os.path.join(ROOT, "data", "etat", "subventions")
+    os.makedirs(dossier, exist_ok=True)
+    par_prog = {}
+    for r in rows:
+        if r.get("montant"):
+            par_prog.setdefault(str(r["programme"]), []).append(r)
+    ecrits = rattaches = 0
+    montant_rattache = 0.0
+    for prog, lst in sorted(par_prog.items()):
+        vus, enfants = set(), []
+        paye_par = payeuses.get(prog)
+        for r in sorted(lst, key=lambda x: -x["montant"]):
+            sir = siren_propre(r.get("siren"))
+            n = {
+                "id": f"etat.subventions.p{prog}.{slug(r['denomination'] or 'association', vus)}",
+                "label": " ".join((r["denomination"] or "(dénomination non renseignée)").split()).title(),
+                "montant": round(r["montant"], 2), "annee": 2023, "statut": "confirme",
+            }
+            # P5 exige les DEUX : un identifiant machine ET la ligne payeuse.
+            if sir:
+                n["identifiant"] = {"type": "SIREN", "valeur": sir}
+            if paye_par:
+                n["rattachement_id"] = paye_par
+                if sir:
+                    rattaches += 1
+                    montant_rattache += r["montant"]
+            n["enfants"] = []
+            enfants.append(n)
+        racine = {
+            "id": f"etat.subventions.p{prog}",
+            "label": f"Programme {prog}" + (f" — {lib[prog]}" if lib.get(prog) else "")
+                     + " : bénéficiaires des subventions aux associations",
+            "montant": round(sum(r["montant"] for r in lst), 2), "annee": 2023, "statut": "confirme",
+            "bloc_univers": None, "volet": None, "base_comptable": None,
+            "niveaux": ["P0", "P5"],
+            "description": (f"{len(lst):,} versement(s) de l'exercice 2023. Vue transverse : ces euros sont "
+                            "DÉJÀ comptés dans les dépenses du programme payeur, ils ne s'y ajoutent pas."
+                            ).replace(",", " "),
+            "source": src, "enfants": enfants,
+        }
+        with open(os.path.join(dossier, f"{prog}.json"), "w", encoding="utf-8") as fh:
+            json.dump(racine, fh, ensure_ascii=False, indent=1); fh.write("\n")
+        ecrits += 1
+    print(f"fragments subventions : {ecrits} programme(s), {rattaches} bénéficiaires rattachés "
+          f"({montant_rattache/1e9:.3f} Md€ éligibles P5)")
 
 
 def inconnues_vue():

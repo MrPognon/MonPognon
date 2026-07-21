@@ -1,0 +1,353 @@
+{
+ "id": "etat.subventions.p151",
+ "label": "Programme 151 — Français à l'étranger et affaires consulaires : bénéficiaires des subventions aux associations",
+ "montant": 318858.54,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "28 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p151.federationfrorganismeautoris-adoption",
+   "label": "Federation Fr Organisme Autoris Adoption",
+   "montant": 55000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "437954993"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.amequignondroitdenfance",
+   "label": "A Mequignon Droit D Enfance",
+   "montant": 45000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "785062910"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.associationfrancaisedentraide",
+   "label": "Association Francaise Dentraide",
+   "montant": 35000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.alliancefrancaisedemanagua",
+   "label": "Alliance Francaise De Managua",
+   "montant": 19414.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.lumieredesenfants",
+   "label": "Lumiere Des Enfants",
+   "montant": 18870.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "397538356"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.associationdesdamesdecharite",
+   "label": "Association Des Dames De Charite",
+   "montant": 17000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.enfanceavenir",
+   "label": "Enfance Avenir",
+   "montant": 16515.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "430010876"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.desracinesnaissentdesailes",
+   "label": "Des Racines Naissent Des Ailes",
+   "montant": 14000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "807407663"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.confederationfrancaisepourl-adoption",
+   "label": "Confederation Francaise Pour L Adoption",
+   "montant": 14000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "520979436"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.alliancefrsejohannesburg",
+   "label": "Alliance Frse Johannesburg",
+   "montant": 11986.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.francaisdumondeadfevietnam",
+   "label": "Francais Du Monde Adfe Vietnam",
+   "montant": 11585.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "902569912"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.associationainaenfanceetavenir",
+   "label": "Association Aina Enfance Et Avenir",
+   "montant": 9934.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "482817699"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.associazionestendhalandco",
+   "label": "Associazione Stendhal And Co",
+   "montant": 8150.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.alliancefrancaisedelapaz",
+   "label": "Alliance Francaise De La Paz",
+   "montant": 6000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.alliancefrancaisedeturin",
+   "label": "Alliance Française De Turin",
+   "montant": 5000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.lassociationdesolidariteetd-entraidedesf",
+   "label": "L Association De Solidarite Et D Entraide Des Francais De Shangai",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "883223828"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.latelierdescahiers",
+   "label": "L Atelier Des Cahiers",
+   "montant": 4000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "520695792"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.assoeuvressocialesrelat-exterieures",
+   "label": "Ass Oeuvres Sociales Relat Exterieures",
+   "montant": 3888.54,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "310392923"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.associationdelecolefrancaise-debattamban",
+   "label": "Association De L Ecole Francaise De Battambang Cambodge",
+   "montant": 3500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "791408321"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.racinescoreennesassociation-desfrancaisa",
+   "label": "Racines Coreennes Association Des Francais Adoptes D Origine Coreenne",
+   "montant": 3000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "808499412"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.pointdecoute",
+   "label": "Point D Ecoute",
+   "montant": 2000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "902273572"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.associationdiaphanie",
+   "label": "Association Diaphanie",
+   "montant": 1890.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "347631665"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.reseauentrepreneur-developpementred",
+   "label": "Reseau Entrepreneur Developpement R E D",
+   "montant": 1800.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "924010457"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.alliancefrancaisedekotte",
+   "label": "Alliance Francaise De Kotte",
+   "montant": 1750.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.ecolefrancaiseinternationalede-wuhanefiw",
+   "label": "Ecole Francaise Internationale De Wuhan Efiw",
+   "montant": 1576.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923048169"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.afvsaigonaccueil",
+   "label": "Afv Saigon Accueil",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "924227036"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.bombayaccueil",
+   "label": "Bombay Accueil",
+   "montant": 1500.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "923688949"
+   },
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p151.stefrdebienfaisancede-katmandou",
+   "label": "Ste Fr De Bienfaisance De Katmandou",
+   "montant": 1000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "rattachement_id": "etat.depenses.BG.AA.151",
+   "enfants": []
+  }
+ ]
+}

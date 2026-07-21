@@ -1,0 +1,376 @@
+{
+ "id": "etat.subventions.p119",
+ "label": "Programme 119 — Concours financiers aux collectivités territoriales et à leurs groupements : bénéficiaires des subventions aux associations",
+ "montant": 2173920.42,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "27 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p119.maisondenfantsdietetiqueet-thermaledecap",
+   "label": "Maison D Enfants Dietetique Et Thermale De Capvern Les Bains Medt",
+   "montant": 458091.26,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "332108737"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.lyceeagricoleprivedenermont",
+   "label": "Lycee Agricole Prive De Nermont",
+   "montant": 300000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "319681540"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.lyceeagricoleprivedenermont-2",
+   "label": "Lycee Agricole Prive De Nermont",
+   "montant": 300000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "319681540"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.agiravecamisparentset-professionnelspour",
+   "label": "Agir Avec Amis Parents Et Professionnels Pour Les Personnes En Situation De Handicap",
+   "montant": 176339.54,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "529784225"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.monasteresaintemariedeboulaur",
+   "label": "Monastere Sainte Marie De Boulaur",
+   "montant": 157791.89,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "339344772"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.cine32",
+   "label": "Cine 32",
+   "montant": 90000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "347586992"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.centresocialdubazois",
+   "label": "Centre Social Du Bazois",
+   "montant": 87741.19,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "778443150"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.associationduchateaudemonthelon",
+   "label": "Association Du Chateau De Monthelon",
+   "montant": 61641.38,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "521712661"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.federationfrancaisedesclubs-alpinsetdemo",
+   "label": "Federation Francaise Des Clubs Alpins Et De Montagne",
+   "montant": 58879.48,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775671316"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.agencedurbanismed-agglomerationsdemosell",
+   "label": "Agence D Urbanisme D Agglomerations De Moselle",
+   "montant": 56000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "301574497"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.historialdelagrandeguerre",
+   "label": "Historial De La Grande Guerre",
+   "montant": 48507.03,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "347530362"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.associationpourlasauvegardedela-maisonna",
+   "label": "Association Pour La Sauvegarde De La Maison Natale De Colette",
+   "montant": 44496.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "532948445"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.ecomuseedumontmorillonais",
+   "label": "Ecomusee Du Montmorillonais",
+   "montant": 39000.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "341361053"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.garrosservicesregiedequartier",
+   "label": "Garros Services Regie De Quartier",
+   "montant": 36701.46,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "378996094"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.associationlapetitepierre",
+   "label": "Association La Petite Pierre",
+   "montant": 36463.05,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "421170754"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.onvaverslebeau",
+   "label": "On Va Vers Le Beau",
+   "montant": 35887.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "819618430"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.portdeplaisance",
+   "label": "Port De Plaisance",
+   "montant": 34116.66,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "301171328"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.aucoindeloreille",
+   "label": "Au Coin De L Oreille",
+   "montant": 29435.04,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "420130510"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.ecomuseedumontmorillonais-2",
+   "label": "Ecomusee Du Montmorillonais",
+   "montant": 22440.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "341361053"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.gptdepdefensesanitairedes-animaux",
+   "label": "Gpt Dep Defense Sanitaire Des Animaux",
+   "montant": 19552.16,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "405258088"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.socnationaleprotectiondela-nature",
+   "label": "Soc Nationale Protection De La Nature",
+   "montant": 17982.54,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775662752"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.cinqfilieresgascognearmagnac",
+   "label": "Cinq Filieres Gascogne Armagnac",
+   "montant": 17318.04,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "500823679"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.assocoeuvredenotredameduhaut",
+   "label": "Assoc Oeuvre De Notre Dame Du Haut",
+   "montant": 17234.26,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "412325672"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.amicalelaiquedecondom",
+   "label": "Amicale Laique De Condom",
+   "montant": 14246.1,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "302815329"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.associationlapetitepierre-2",
+   "label": "Association La Petite Pierre",
+   "montant": 6988.36,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "421170754"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.ecolesuperieuredarchitectdes-jardins",
+   "label": "Ecole Superieure D Architect Des Jardins",
+   "montant": 4127.98,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "421958851"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p119.villagesdelaforetdechaux",
+   "label": "Villages De La Foret De Chaux",
+   "montant": 2940.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "501197230"
+   },
+   "rattachement_id": "etat.depenses.BG.RC.119",
+   "enfants": []
+  }
+ ]
+}

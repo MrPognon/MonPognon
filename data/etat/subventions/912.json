@@ -1,0 +1,85 @@
+{
+ "id": "etat.subventions.p912",
+ "label": "Programme 912 : bénéficiaires des subventions aux associations",
+ "montant": 7448.52,
+ "annee": 2023,
+ "statut": "confirme",
+ "bloc_univers": null,
+ "volet": null,
+ "base_comptable": null,
+ "niveaux": [
+  "P0",
+  "P5"
+ ],
+ "description": "5 versement(s) de l'exercice 2023. Vue transverse : ces euros sont DÉJÀ comptés dans les dépenses du programme payeur  ils ne s'y ajoutent pas.",
+ "source": {
+  "nom": "PLF 2025 — annexe jaune « Effort financier de l'État en faveur des associations » (versements de l'exercice 2023)",
+  "url": "https://data.economie.gouv.fr/explore/dataset/plf25-donnees-de-l-annexe-jaune-effort-financier-de-l-etat-en-faveur-des-associations/",
+  "producteur": "Direction du budget / DGFiP",
+  "licence": "Licence Ouverte 2.0",
+  "consulte_le": "2026-07-08",
+  "maj": "2024-12-23"
+ },
+ "enfants": [
+  {
+   "id": "etat.subventions.p912.associationculturellesociale-sportive",
+   "label": "Association Culturelle Sociale Sportive",
+   "montant": 5509.32,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "397557315"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p912.asscultuctredetentionvillenauxe-lag",
+   "label": "Ass Cultu Ctre Detention Villenauxe La G",
+   "montant": 1544.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "452077142"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p912.associationpourledeveleoppement-deleduca",
+   "label": "Association Pour Le Develeoppement De L Education Routiere Et L Aide A La Mobilite",
+   "montant": 210.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "502682503"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p912.secourscatholique",
+   "label": "Secours Catholique",
+   "montant": 145.2,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "775666696"
+   },
+   "enfants": []
+  },
+  {
+   "id": "etat.subventions.p912.lepontlevis",
+   "label": "Le Pont Levis",
+   "montant": 40.0,
+   "annee": 2023,
+   "statut": "confirme",
+   "identifiant": {
+    "type": "SIREN",
+    "valeur": "439804980"
+   },
+   "enfants": []
+  }
+ ]
+}
