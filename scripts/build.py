@@ -573,7 +573,15 @@ th{background:var(--surface);} td.n{text-align:right; white-space:nowrap;}
 .callout{border-left:4px solid var(--primary); background:var(--surface);
          padding:10px 14px; margin:14px 0; font-size:.85rem;}
 .callout.alerte{border-left-color:var(--unk); background:var(--unk-bg);}
-.manque{font-size:.78rem; color:var(--mute); margin-top:4px;}
+.manque{font-size:.78rem; color:var(--mute); margin-top:6px;}
+.manque b{color:var(--ink);}
+.manque details{margin:6px 0;}
+.manque summary{cursor:pointer; color:var(--primary); font-weight:600;
+                padding:3px 0; list-style-position:inside;}
+.manque details[open] summary{margin-bottom:4px;}
+.manque details p{font-size:.78rem; margin:0 0 7px; max-width:70ch;}
+.manque .qui{margin-top:6px; padding-top:5px; border-top:1px dotted var(--border);
+             word-break:break-word;}
 .barre{display:flex; align-items:center; gap:8px; margin:3px 0; font-size:.78rem;}
 .barre i{display:block; height:13px; background:var(--primary); border-radius:2px;}
 .barre span:first-child{width:2.2em; font-weight:700; font-style:normal;}
@@ -598,6 +606,24 @@ def _md(x):
 def _fr(x, dec=1):
     """Décimale française : le site est francophone, un « 46.0 % » y détonne."""
     return f"{x:.{dec}f}".replace(".", ",")
+
+
+def _paragraphes(txt, cible=340):
+    """Les champs `manque.quoi` sont des pavés d'un seul tenant de plusieurs
+    milliers de signes. Les déplier tels quels ne les rendrait pas lisibles :
+    on les coupe sur des frontières de PHRASE, en groupant jusqu'à ~`cible`
+    signes. Découper au caractère trancherait au milieu d'un mot ou d'un nombre."""
+    morceaux = txt.split(". ")
+    phrases, courante = [], ""
+    for i, morceau in enumerate(morceaux):
+        # Le séparateur n'est réinjecté qu'ENTRE les fragments : le dernier porte
+        # déjà sa ponctuation, et la lui rajouter doublait le point final.
+        courante += morceau + (". " if i < len(morceaux) - 1 else "")
+        if len(courante) >= cible:
+            phrases.append(courante.strip()); courante = ""
+    if courante.strip():
+        phrases.append(courante.strip())
+    return "".join(f"<p>{p}</p>" for p in phrases) or f"<p>{txt}</p>"
 
 def _page(titre, corps, sous_titre=""):
     return (f'<!DOCTYPE html>\n<html lang="fr">\n<head>\n<meta charset="UTF-8">\n'
@@ -651,14 +677,35 @@ def generer_pages(cov_doc):
             if not b["coefficient"] and b.get("manque"):
                 m = b["manque"]
                 quoi = html.escape(m.get("quoi", ""))
-                if len(quoi) > 420:
-                    quoi = quoi[:420].rsplit(" ", 1)[0] + "…"
-                ligne += f'<div class="manque">{quoi}'
+                # Accroche = la première phrase, qui porte toujours le motif du
+                # blocage (« RACCORD MANQUANT, ET NON DONNÉE MANQUANTE. »…).
+                # Le reste est déplié à la demande plutôt que TRONQUÉ : couper
+                # laissait le lecteur sans la carte, et sans moyen de la voir.
+                # La POSITION de coupe est calculée à part de la chaîne affichée :
+                # l'ellipse ajoutée à l'accroche ne doit pas décaler le reste, sous
+                # peine de manger un caractère et de repartir au milieu d'un mot.
+                coupe = quoi.find(". ")
+                if 0 < coupe < 260:
+                    fin, accroche = coupe + 1, quoi[:coupe + 1]
+                else:
+                    fin = len(quoi[:220].rsplit(" ", 1)[0])
+                    accroche = quoi[:fin] + "…"
+                reste = quoi[fin:].strip()
+                # Le contact vit DANS le dépliant : replié, il poussait le poids et le
+                # taux de couverture sous la ligne de flottaison en vue mobile, alors que
+                # ce sont les deux chiffres qu'on vient chercher en premier.
+                contact = ""
                 if m.get("contact"):
-                    ligne += f'<br><b>Qui contacter :</b> {html.escape(m["contact"])}'
-                if m.get("url"):
-                    u = html.escape(m["url"])
-                    ligne += f' — <a href="{u}">{u}</a>'
+                    contact = f'<div class="qui"><b>Qui contacter :</b> {html.escape(m["contact"])}'
+                    if m.get("url"):
+                        u = html.escape(m["url"])
+                        contact += f'<br><a href="{u}">{u}</a>'
+                    contact += "</div>"
+                ligne += f'<div class="manque"><b>{accroche}</b>'
+                if reste or contact:
+                    ligne += (f'<details><summary>Ce qui a été cherché, pourquoi cela ne convient '
+                              f'pas, et qui contacter ({len(reste)} signes)</summary>'
+                              f'{_paragraphes(reste) if reste else ""}{contact}</details>')
                 ligne += "</div>"
             ligne += (f'</td><td class="n" data-col="Poids">{_md(b["poids_eur"])} Md€</td>'
                       f'<td class="n" data-col="Couvert">{bdg}</td>'
