@@ -16,3 +16,5 @@ site/couverture.json
 site/data/
 site/communes-index.js
 site/flux.js
+site/perimetre.html
+site/methode.html
