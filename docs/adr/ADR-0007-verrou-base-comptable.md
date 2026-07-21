@@ -75,10 +75,11 @@ Les règles **E** et **F** répondent à cette attaque : un corpus ne peut dépa
 1. **Un `total_eur` fabriqué mais plausible passe.** E n'attrape que le débordement au-delà de 1. Sur un bloc dont le coefficient réel est 0,3, rétrécir le référentiel jusqu'à amener `c` à 1,0 reste possible et invisible.
 2. **Une étiquette mensongère passe.** `base_comptable: "CCSS"` sur un référentiel issu d'ailleurs satisfait toutes les règles.
 3. **Un référentiel entièrement inventé sur un bloc aujourd'hui à zéro passe**, si son montant est choisi égal au corpus présent : `c = 1,0`, aucune règle violée.
+4. **Les six règles sont TOUTES intra-bloc : rien ne détecte qu'un même euro soit compté dans DEUX blocs.** Découvert le 21/07/2026 en instruisant les ODASS. L'arbre porte déjà `secu.depenses.maladie.hopital` = 109,4 Md€ (« Établissements de santé (ONDAM) »), en base `CCSS` sous `ASSO.regimes`. Un corpus hospitalier étiqueté `CCSS` et rattaché à `ASSO.odass` réexprimerait ces mêmes euros, satisferait A→F sans une erreur, et gonflerait C d'un montant **faux** — pas seulement nul. Aucune règle actuelle ne le voit.
 
 Ce que le verrou change malgré tout : ces attaques cessent d'être des **omissions** que personne ne remarque pour devenir des **écritures explicites** — une base, un montant — sur des lignes dont c'est l'unique objet, dans un diff. La relecture humaine reste **nécessaire** ; elle sait désormais où regarder.
 
-**Le contrôle qui fermerait vraiment le reste** est de re-vérifier `total_eur` à sa source, comme `verify-fond.yml` le fait déjà pour les montants de l'arbre. C'est le candidat naturel pour un ADR ultérieur — et il ne faut pas prétendre qu'il est fait tant qu'il ne l'est pas.
+**Deux contrôles fermeraient le reste** : re-vérifier `total_eur` à sa source, et détecter le recouvrement entre blocs (une même somme d'euros apparaissant sous deux `bloc_univers` distincts). Le premier est, comme `verify-fond.yml` le fait déjà pour les montants de l'arbre. C'est le candidat naturel pour un ADR ultérieur — et il ne faut pas prétendre qu'il est fait tant qu'il ne l'est pas.
 
 ## Conséquences
 
