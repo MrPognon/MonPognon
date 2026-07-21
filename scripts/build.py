@@ -475,6 +475,60 @@ def valider_sur_rattachement(arbres):
                             f"probable, à vérifier.")
 
 
+STATUTS_PLAFOND = {"ferme-droit", "communicable-sur-demande", "inexistant"}
+# Le statut dérive l'effet du bouton, et on vérifie que le fichier ne ment pas :
+# une donnée fermée ou inexistante éteint le bouton « réclamer », une donnée
+# communicable le laisse (ADR-0006 §5).
+EFFET_ATTENDU = {"ferme-droit": "reclamer-eteint", "inexistant": "reclamer-eteint",
+                 "communicable-sur-demande": "reclamer-autorise"}
+
+
+def valider_plafond(doc, blocs_connus):
+    """Registre du plafond légal (ADR-0006 §5). Ce n'est NI un arbre NI un
+    dénominateur : il n'entre dans aucun quotient — vérifié par le fait qu'il est
+    chargé après indice_cp(). On contrôle ici que chaque entrée est citée à un
+    article Légifrance non abrogé, et qu'une fermeture ne s'auto-déclare pas sans
+    fondement — c'est le fichier le plus sensible du dépôt."""
+    if doc is None:
+        return
+    for champ in ("millesime", "consulte_le", "principe", "entrees"):
+        if champ not in doc:
+            errors.append(f"plafond-legal — champ requis manquant '{champ}'")
+            return
+    vus = set()
+    for e in doc["entrees"]:
+        ident = e.get("id", "?")
+        if ident in vus:
+            errors.append(f"plafond-legal — id dupliqué « {ident} »")
+        vus.add(ident)
+        if e.get("statut") not in STATUTS_PLAFOND:
+            errors.append(f"plafond-legal — {ident} : statut invalide « {e.get('statut')} »")
+        if e.get("effet_bouton") != EFFET_ATTENDU.get(e.get("statut")):
+            errors.append(f"plafond-legal — {ident} : effet_bouton « {e.get('effet_bouton')} » "
+                          f"incohérent avec le statut « {e.get('statut')} » "
+                          f"(attendu « {EFFET_ATTENDU.get(e.get('statut'))} »)")
+        fonds = e.get("fondements") or []
+        if not fonds:
+            errors.append(f"plafond-legal — {ident} : aucune citation d'article — interdit, "
+                          f"une fermeture ou une ouverture s'appuie toujours sur un texte")
+        for fo in fonds:
+            for c in ("reference", "url", "citation", "en_vigueur_depuis"):
+                if not fo.get(c):
+                    errors.append(f"plafond-legal — {ident} : fondement sans '{c}'")
+            if not str(fo.get("url", "")).startswith("https://www.legifrance.gouv.fr/"):
+                errors.append(f"plafond-legal — {ident} : l'URL d'un fondement doit pointer sur "
+                              f"Légifrance (l'article lui-même) — « {fo.get('url')} »")
+            if fo.get("abroge") is True:
+                errors.append(f"plafond-legal — {ident} : fondement sur un article abrogé "
+                              f"« {fo.get('reference')} » — la ligne ne tient plus")
+        # La portée, si elle vise des blocs, doit désigner des blocs réels.
+        portee = e.get("portee") or {}
+        if portee.get("type") == "bloc_univers":
+            for v in portee.get("valeurs", []):
+                if v not in blocs_connus:
+                    errors.append(f"plafond-legal — {ident} : portée sur un bloc inconnu « {v} »")
+
+
 def valider_rattachements(node, path, seen_ids):
     """Un bénéficiaire ne peut atteindre P5 (ADR-0006) qu'avec les DEUX : un
     identifiant machine et un rattachement à une ligne payeuse réelle."""
@@ -694,7 +748,60 @@ def _histo(h):
                    f'<span>{_fr(part*100)} %</span></div>')
     return "".join(out)
 
-def generer_pages(cov_doc):
+def generer_page_plafond(plafond):
+    """Écrit site/plafond.html depuis data/plafond-legal.json (ADR-0006 §5)."""
+    if plafond is None:
+        return
+    p = ['<div class="callout"><b>La communication est la règle, le secret l\'exception.</b><br>'
+         + html.escape(plafond["principe"]) + "</div>"]
+    fermes = [e for e in plafond["entrees"] if e["statut"] == "ferme-droit"]
+    p.append("<h2>Ce que le droit ferme absolument</h2>")
+    if not fermes:
+        p.append('<div class="callout"><b>Rien, à ce jour.</b> Une revue article par article de cinq '
+                 "fondements (droit d'accès, défense nationale, vie privée, secret des affaires et fiscal, "
+                 "secret statistique), chacun soumis à double contradiction, n'a établi <b>aucune donnée de "
+                 "l'arbre que le droit interdise de publier</b>. Les protections invoquées portent sur des "
+                 "mentions occultables (CRPA art. L311-7) ou restreignent le cercle des destinataires — "
+                 "elles ne ferment pas le montant.</div>")
+    else:
+        for e in fermes:
+            p.append(_entree_plafond_html(e))
+    p.append("<h2>Non publié d'office, mais obtenable sur demande</h2>")
+    p.append("<p>Ces données ne sont pas fermées : elles ne sont simplement pas mises en ligne "
+             "d'office. Toute personne peut les demander, et le bouton « réclamer » du site vous y aide.</p>")
+    for e in plafond["entrees"]:
+        if e["statut"] == "communicable-sur-demande":
+            p.append(_entree_plafond_html(e))
+    p.append(f'<p class="manque">Revue juridique {plafond["millesime"]}, articles vérifiés au texte sur '
+             f'Légifrance le {plafond["consulte_le"]}. Registre brut : '
+             '<a href="https://github.com/MrPognon/MonPognon/blob/main/data/plafond-legal.json">'
+             "data/plafond-legal.json</a>.</p>")
+    with open(os.path.join(ROOT, "site", "plafond.html"), "w", encoding="utf-8") as fh:
+        fh.write(_page("Le plafond légal", "\n".join(p),
+                       "<p>Ce que le droit français ferme, ce qu'il oblige à publier, "
+                       "et ce qui reste obtenable sur demande — cité article par article.</p>"))
+
+
+def _entree_plafond_html(e):
+    badge = {"ferme-droit": '<span class="badge unk">fermé par le droit</span>',
+             "communicable-sur-demande": '<span class="badge ok">communicable sur demande</span>',
+             "inexistant": '<span class="badge">donnée non produite</span>'}[e["statut"]]
+    h = [f'<h3>{html.escape(e["quoi"].split(". ")[0])} {badge}</h3>']
+    if len(e["quoi"].split(". ", 1)) > 1:
+        h.append(f'<p>{html.escape(e["quoi"].split(". ", 1)[1])}</p>')
+    if e.get("note"):
+        h.append(f'<div class="callout">{html.escape(e["note"])}</div>')
+    h.append("<table><tbody>")
+    for fo in e["fondements"]:
+        h.append(f'<tr><td><b>{html.escape(fo["reference"])}</b><br>'
+                 f'<a href="{html.escape(fo["url"])}">texte sur Légifrance</a>, '
+                 f'en vigueur depuis le {fo["en_vigueur_depuis"]}</td>'
+                 f'<td>« {html.escape(fo["citation"])} »</td></tr>')
+    h.append("</tbody></table>")
+    return "".join(h)
+
+
+def generer_pages(cov_doc, plafond=None):
     """Écrit site/perimetre.html et site/methode.html depuis le calcul C·P."""
     cps = cov_doc["cp"]
 
@@ -825,7 +932,9 @@ def generer_pages(cov_doc):
              "du sourçage est un indicateur distinct, affiché à part.</li>"
              "<li><b>Ce qui est fermé par le droit</b> (vie privée, secret des affaires, secret de la "
              "défense) est documenté mais <b>n'entre dans aucun quotient</b> : le retirer du "
-             "dénominateur reviendrait à se donner une bonne note en rétrécissant l'épreuve.</li></ul>")
+             "dénominateur reviendrait à se donner une bonne note en rétrécissant l'épreuve. "
+             "Le détail article par article est sur <a href=\"plafond.html\">la page du plafond "
+             "légal</a> — à ce jour, le droit ne ferme absolument aucune donnée de l'arbre.</li></ul>")
     m.append("<h2>Contre la triche</h2>")
     m.append("<p>La règle ci-dessus est vérifiée par le programme qui construit le site : chaque "
              "référentiel et chaque arbre déclarent leur comptabilité, et une divergence fait échouer "
@@ -846,6 +955,7 @@ def generer_pages(cov_doc):
         fh.write(_page("La méthode", "\n".join(m),
                        "<p>Comment la complétion de ce site est mesurée — et ce que "
                        "cette mesure ne dit pas.</p>"))
+    generer_page_plafond(plafond)
 
 
 def main():
@@ -865,6 +975,8 @@ def main():
     fiches_dirs[os.path.join(ROOT, "data", "etat", "subventions") + os.sep] = "subventions"
     flux_dir = os.path.join(ROOT, "data", "flux") + os.sep
     denom_dir = os.path.join(ROOT, "data", "denominateurs") + os.sep
+    plafond_path = os.path.join(ROOT, "data", "plafond-legal.json")
+    plafond = None
     for f in sorted(glob.glob(os.path.join(ROOT, "data", "**", "*.json"), recursive=True)):
         key = os.path.relpath(f, os.path.join(ROOT, "data")).replace(os.sep, "_").removesuffix(".json")
         with open(f, encoding="utf-8") as fh:
@@ -872,6 +984,9 @@ def main():
         if f.startswith(denom_dir):         # dénominateurs C·P (ADR-0006) : pas des arbres
             valider_denominateur(node, os.path.relpath(f, ROOT))
             denominateurs[node.get("volet", "?")] = node
+            continue
+        if f == plafond_path:               # plafond légal (ADR-0006 §5) : contexte juridique,
+            plafond = node                  # jamais un arbre, jamais dans un quotient. Validé plus bas.
             continue
         if f.startswith(flux_dir):          # flux (ADR-0001) : validés après les arbres
             flux_docs[os.path.relpath(f, ROOT)] = node
@@ -914,6 +1029,9 @@ def main():
     valider_bases_comptables(arbres, denominateurs)   # ADR-0007, AVANT le calcul
     valider_sur_rattachement(arbres)                 # pendant de la règle sur l'axe P
     cov_doc["cp"] = {v: indice_cp(arbres, d) for v, d in sorted(denominateurs.items())}
+    # Plafond légal validé APRÈS le calcul C·P, et jamais passé à indice_cp() :
+    # la preuve mécanique qu'il « n'entre dans aucun quotient » (ADR-0006 §5).
+    valider_plafond(plafond, codes)
 
     for w in warnings: print("AVERTISSEMENT:", w)
     if errors:
@@ -964,8 +1082,12 @@ def main():
             with open(os.path.join(ROOT, "site", "flux.js"), "w", encoding="utf-8") as fh:
                 fh.write("// Généré par scripts/build.py — NE PAS ÉDITER À LA MAIN (éditez data/flux/)\n")
                 fh.write("window.FLUX = " + json.dumps(fusion, ensure_ascii=False) + ";\n")
-        generer_pages(cov_doc)
+        if plafond is not None:              # plafond légal : publié pour gater le bouton « réclamer »
+            with open(os.path.join(ROOT, "site", "plafond.js"), "w", encoding="utf-8") as fh:
+                fh.write("// Généré par scripts/build.py — NE PAS ÉDITER À LA MAIN (éditez data/plafond-legal.json)\n")
+                fh.write("window.PLAFOND = " + json.dumps(plafond, ensure_ascii=False) + ";\n")
+        generer_pages(cov_doc, plafond)
         readme_ok = maj_readme(cov)
-        print(f"→ site/couverture.json + couverture.js + perimetre.html + methode.html{' + README (tableau)' if readme_ok else ''}")
+        print(f"→ site/couverture.json + couverture.js + perimetre.html + methode.html + plafond.html{' + README (tableau)' if readme_ok else ''}")
 
 if __name__ == "__main__": main()
