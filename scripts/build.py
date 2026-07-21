@@ -755,8 +755,19 @@ def generer_page_plafond(plafond):
     p = ['<div class="callout"><b>La communication est la règle, le secret l\'exception.</b><br>'
          + html.escape(plafond["principe"]) + "</div>"]
     fermes = [e for e in plafond["entrees"] if e["statut"] == "ferme-droit"]
+    fermes_actifs = [e for e in fermes if (e.get("portee") or {}).get("type") != "aucune"]
     p.append("<h2>Ce que le droit ferme absolument</h2>")
-    if not fermes:
+    if fermes and not fermes_actifs:
+        p.append('<div class="callout"><b>Aucune donnée de l\'arbre aujourd\'hui.</b> Le droit connaît '
+                 "des secrets absolus — un document couvert par le secret de la défense nationale, ou une "
+                 "donnée nominative de personne physique, n'est communicable à personne. Mais l'arbre ne "
+                 "contient à ce jour que des personnes morales et des agrégats budgétaires : aucun de ces "
+                 "secrets n'y trouve à s'appliquer. Les deux entrées ci-dessous sont documentées comme "
+                 "<b>frontières</b> — elles deviendront actives si l'arbre s'approche d'une pièce classifiée "
+                 "ou d'une donnée individuelle.</div>")
+        for e in fermes:
+            p.append(_entree_plafond_html(e))
+    elif not fermes:
         p.append('<div class="callout"><b>Rien, à ce jour.</b> Une revue article par article de cinq '
                  "fondements (droit d'accès, défense nationale, vie privée, secret des affaires et fiscal, "
                  "secret statistique), chacun soumis à double contradiction, n'a établi <b>aucune donnée de "
@@ -764,7 +775,7 @@ def generer_page_plafond(plafond):
                  "mentions occultables (CRPA art. L311-7) ou restreignent le cercle des destinataires — "
                  "elles ne ferment pas le montant.</div>")
     else:
-        for e in fermes:
+        for e in fermes_actifs:
             p.append(_entree_plafond_html(e))
     p.append("<h2>Non publié d'office, mais obtenable sur demande</h2>")
     p.append("<p>Ces données ne sont pas fermées : elles ne sont simplement pas mises en ligne "
@@ -934,7 +945,7 @@ def generer_pages(cov_doc, plafond=None):
              "défense) est documenté mais <b>n'entre dans aucun quotient</b> : le retirer du "
              "dénominateur reviendrait à se donner une bonne note en rétrécissant l'épreuve. "
              "Le détail article par article est sur <a href=\"plafond.html\">la page du plafond "
-             "légal</a> — à ce jour, le droit ne ferme absolument aucune donnée de l'arbre.</li></ul>")
+             "légal</a> — à ce jour, aucune donnée de l'arbre n'est fermée par le droit ; deux secrets absolus (défense, données nominatives) y sont documentés comme frontières.</li></ul>")
     m.append("<h2>Contre la triche</h2>")
     m.append("<p>La règle ci-dessus est vérifiée par le programme qui construit le site : chaque "
              "référentiel et chaque arbre déclarent leur comptabilité, et une divergence fait échouer "
