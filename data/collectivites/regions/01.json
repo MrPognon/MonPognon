@@ -2,7 +2,7 @@
  "id": "region.01",
  "label": "Guadeloupe (01)",
  "montant": null,
- "annee": 2024,
+ "annee": 2025,
  "statut": "confirme",
  "bloc_univers": "APUL.regions",
  "volet": "mixte",
@@ -15,58 +15,58 @@
   null,
   null
  ],
- "description": "Fiche régionale (ADR-0004) — Guadeloupe, code 01 · 389 277 habitants. Comptes 2024 exécutés, CONSOLIDÉS (budget principal et budgets annexes). Le montant racine est volontairement null : les dépenses (639 586 100,54 €) et les recettes (679 595 753,25 €) ne s'additionnent pas.",
+ "description": "Fiche régionale (ADR-0004) — Guadeloupe, code 01 · 388 197 habitants. Comptes 2025 exécutés, CONSOLIDÉS (budget principal et budgets annexes). Le montant racine est volontairement null : les dépenses (480 724 447,42 €) et les recettes (526 593 447,57 €) ne s'additionnent pas.",
  "source": {
-  "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024",
+  "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025",
   "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
   "producteur": "OFGL / DGFiP",
   "licence": "Licence Ouverte 2.0",
-  "consulte_le": "2026-07-20",
+  "consulte_le": "2026-07-21",
   "maj": "2026-07-17"
  },
  "enfants": [
   {
    "id": "region.01.depenses",
-   "label": "Dépenses 2024 (comptes consolidés)",
-   "montant": 639586100.54,
-   "annee": 2024,
+   "label": "Dépenses 2025 (comptes consolidés)",
+   "montant": 480724447.42,
+   "annee": 2025,
    "statut": "confirme",
    "source": {
-    "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses totales »",
+    "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Dépenses totales »",
     "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
     "producteur": "OFGL / DGFiP",
     "licence": "Licence Ouverte 2.0",
-    "consulte_le": "2026-07-20",
+    "consulte_le": "2026-07-21",
     "maj": "2026-07-17"
    },
    "enfants": [
     {
      "id": "region.01.depenses.fonctionnement",
      "label": "Dépenses de fonctionnement",
-     "montant": 269481990.13,
-     "annee": 2024,
+     "montant": 239726741.18,
+     "annee": 2025,
      "statut": "confirme",
      "source": {
-      "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses de fonctionnement »",
+      "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Dépenses de fonctionnement »",
       "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
       "producteur": "OFGL / DGFiP",
       "licence": "Licence Ouverte 2.0",
-      "consulte_le": "2026-07-20",
+      "consulte_le": "2026-07-21",
       "maj": "2026-07-17"
      },
      "enfants": [
       {
        "id": "region.01.depenses.fonctionnement.personnel",
        "label": "Frais de personnel",
-       "montant": 81633438.67,
-       "annee": 2024,
+       "montant": 82230965.68,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Frais de personnel »",
+        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Frais de personnel »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -74,15 +74,15 @@
       {
        "id": "region.01.depenses.fonctionnement.achats",
        "label": "Achats et charges externes",
-       "montant": 47739833.19,
-       "annee": 2024,
+       "montant": 44612779.69,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Achats et charges externes »",
+        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Achats et charges externes »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -90,15 +90,15 @@
       {
        "id": "region.01.depenses.fonctionnement.intervention",
        "label": "Dépenses d'intervention",
-       "montant": 119790992.57,
-       "annee": 2024,
+       "montant": 95958208.28,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses d'intervention »",
+        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Dépenses d'intervention »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -106,15 +106,15 @@
       {
        "id": "region.01.depenses.fonctionnement.autres",
        "label": "Autres dépenses de fonctionnement",
-       "montant": 7563996.22,
-       "annee": 2024,
+       "montant": 5267189.11,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Autres dépenses de fonctionnement »",
+        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Autres dépenses de fonctionnement »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -122,15 +122,15 @@
       {
        "id": "region.01.depenses.fonctionnement.charges-financieres",
        "label": "Charges financières",
-       "montant": 12753729.48,
-       "annee": 2024,
+       "montant": 11657598.42,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Charges financières »",
+        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Charges financières »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -140,30 +140,30 @@
     {
      "id": "region.01.depenses.investissement",
      "label": "Dépenses d'investissement",
-     "montant": 370104110.41,
-     "annee": 2024,
+     "montant": 240997706.24,
+     "annee": 2025,
      "statut": "confirme",
      "source": {
-      "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses d'investissement »",
+      "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Dépenses d'investissement »",
       "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
       "producteur": "OFGL / DGFiP",
       "licence": "Licence Ouverte 2.0",
-      "consulte_le": "2026-07-20",
+      "consulte_le": "2026-07-21",
       "maj": "2026-07-17"
      },
      "enfants": [
       {
        "id": "region.01.depenses.investissement.equipement",
        "label": "Dépenses d'équipement",
-       "montant": 124805519.22,
-       "annee": 2024,
+       "montant": 90472123.19,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses d'équipement »",
+        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Dépenses d'équipement »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -171,15 +171,15 @@
       {
        "id": "region.01.depenses.investissement.remboursement-emprunts",
        "label": "Remboursements d'emprunts (hors gestion active de la dette)",
-       "montant": 80263288.99,
-       "annee": 2024,
+       "montant": 42481544.45,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Remboursements d'emprunts hors GAD »",
+        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Remboursements d'emprunts hors GAD »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -187,15 +187,15 @@
       {
        "id": "region.01.depenses.investissement.autres",
        "label": "Autres dépenses d'investissement",
-       "montant": 8977325.93,
-       "annee": 2024,
+       "montant": 3967581.78,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Autres dépenses d'investissement »",
+        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Autres dépenses d'investissement »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -203,15 +203,15 @@
       {
        "id": "region.01.depenses.investissement.subventions-versees",
        "label": "Subventions d'équipement versées",
-       "montant": 156057976.27,
-       "annee": 2024,
+       "montant": 104076456.82,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Subventions d'équipement versées »",
+        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Subventions d'équipement versées »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -222,46 +222,46 @@
   },
   {
    "id": "region.01.recettes",
-   "label": "Recettes 2024 (comptes consolidés)",
-   "montant": 679595753.25,
-   "annee": 2024,
+   "label": "Recettes 2025 (comptes consolidés)",
+   "montant": 526593447.57,
+   "annee": 2025,
    "statut": "confirme",
    "source": {
-    "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Recettes totales »",
+    "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Recettes totales »",
     "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
     "producteur": "OFGL / DGFiP",
     "licence": "Licence Ouverte 2.0",
-    "consulte_le": "2026-07-20",
+    "consulte_le": "2026-07-21",
     "maj": "2026-07-17"
    },
    "enfants": [
     {
      "id": "region.01.recettes.fonctionnement",
      "label": "Recettes de fonctionnement",
-     "montant": 333499101.63,
-     "annee": 2024,
+     "montant": 342027044.02,
+     "annee": 2025,
      "statut": "confirme",
      "source": {
-      "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Recettes de fonctionnement »",
+      "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Recettes de fonctionnement »",
       "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
       "producteur": "OFGL / DGFiP",
       "licence": "Licence Ouverte 2.0",
-      "consulte_le": "2026-07-20",
+      "consulte_le": "2026-07-21",
       "maj": "2026-07-17"
      },
      "enfants": [
       {
        "id": "region.01.recettes.fonctionnement.impots",
        "label": "Impôts et taxes",
-       "montant": 244840725.13,
-       "annee": 2024,
+       "montant": 247639805.35,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Impôts et taxes »",
+        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Impôts et taxes »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -269,15 +269,15 @@
       {
        "id": "region.01.recettes.fonctionnement.concours-etat",
        "label": "Concours de l'État (dont DGF)",
-       "montant": 39997908.29,
-       "annee": 2024,
+       "montant": 37580421.67,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Concours de l'Etat »",
+        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Concours de l'Etat »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -285,15 +285,15 @@
       {
        "id": "region.01.recettes.fonctionnement.ventes",
        "label": "Ventes de biens et services",
-       "montant": 65849.0,
-       "annee": 2024,
+       "montant": 65663.0,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Ventes de biens et services »",
+        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Ventes de biens et services »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -301,15 +301,15 @@
       {
        "id": "region.01.recettes.fonctionnement.subventions-participations",
        "label": "Subventions reçues et participations",
-       "montant": 33240823.05,
-       "annee": 2024,
+       "montant": 39112334.83,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Subventions reçues et participations »",
+        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Subventions reçues et participations »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -317,15 +317,15 @@
       {
        "id": "region.01.recettes.fonctionnement.autres",
        "label": "Autres recettes de fonctionnement",
-       "montant": 15353796.16,
-       "annee": 2024,
+       "montant": 17628819.17,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Autres recettes de fonctionnement »",
+        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Autres recettes de fonctionnement »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -335,30 +335,30 @@
     {
      "id": "region.01.recettes.investissement",
      "label": "Recettes d'investissement",
-     "montant": 346096651.62,
-     "annee": 2024,
+     "montant": 184566403.55,
+     "annee": 2025,
      "statut": "confirme",
      "source": {
-      "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Recettes d'investissement »",
+      "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Recettes d'investissement »",
       "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
       "producteur": "OFGL / DGFiP",
       "licence": "Licence Ouverte 2.0",
-      "consulte_le": "2026-07-20",
+      "consulte_le": "2026-07-21",
       "maj": "2026-07-17"
      },
      "enfants": [
       {
        "id": "region.01.recettes.investissement.emprunts",
        "label": "Emprunts (hors gestion active de la dette)",
-       "montant": 114188836.09,
-       "annee": 2024,
+       "montant": 45303678.91,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Emprunts hors GAD »",
+        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Emprunts hors GAD »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -366,15 +366,15 @@
       {
        "id": "region.01.recettes.investissement.fctva",
        "label": "FCTVA (remboursement de TVA sur investissements)",
-       "montant": 16478255.22,
-       "annee": 2024,
+       "montant": 27232038.99,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « FCTVA »",
+        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « FCTVA »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -382,15 +382,15 @@
       {
        "id": "region.01.recettes.investissement.autres",
        "label": "Autres recettes d'investissement",
-       "montant": 5428662.68,
-       "annee": 2024,
+       "montant": 13208339.47,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2024, agrégat « Autres recettes d'investissement »",
+        "nom": "OFGL — Comptes consolidés des régions (jeu ofgl-base-regions-consolidee), comptes consolidés, exercice 2025, agrégat « Autres recettes d'investissement »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []

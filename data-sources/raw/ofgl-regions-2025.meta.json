@@ -1,8 +1,8 @@
 {
  "dataset": "ofgl-base-regions-consolidee",
- "filtre": "year(exer)=2024",
- "consulte_le": "2026-07-20",
+ "filtre": "year(exer)=2025",
+ "consulte_le": "2026-07-21",
  "maj_dataset": "2026-07-17",
- "lignes": 911,
+ "lignes": 912,
  "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/"
 }

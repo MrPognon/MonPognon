@@ -52,7 +52,7 @@ python3 scripts/build.py --show <id>          # un nœud avec sa source résolue
 python3 -m http.server -d site                # prévisualiser http://localhost:8000
 
 python3 scripts/pipelines/fiches_communales_ofgl.py --departement 45 [--telecharger] [--forcer]
-python3 scripts/pipelines/fiches_echelons_ofgl.py --echelon departements [--telecharger] [--forcer]
+python3 scripts/pipelines/fiches_echelons_ofgl.py --echelon departements [--exercice 2025] [--telecharger] [--forcer]
 python3 scripts/pipelines/qualifier_profondeur.py --verifier   # dry-run — SANS --verifier, ÉCRIT dans data/
 python3 scripts/verifier_sources.py           # hygiène des sources, en local
 python3 scripts/verifiers/fond.py --max 40    # re-vérification des montants à la source
@@ -102,7 +102,7 @@ Les 56 491 fiches pèsent **853 Mo sur disque** mais **92,9 Mio de packfile** �
 
 - Rupture M14→M57 (2024) dans les balances communales ; fusions de communes → passer par le COG INSEE millésimé.
 - Le circuit recette→branche Sécu n'est PAS bijectif (TVA affectée, taxe sur les salaires, compensations) : ne jamais forcer une correspondance 1:1.
-- `exer = 2024` est **codé en dur** dans les deux pipelines de collectivités, face à un univers 2025 (`ecart_millesime: true`). Dette déclarée.
+- **L'OFGL publie les échelons à des rythmes différents.** Au 21/07/2026 : 2025 existe pour les départements, régions, CCAS et SDIS ; **pas** pour les communes, les intercommunalités ni les syndicats (jeu communes mis à jour le 15/07/2026, il s'arrête à 2024). `fiches_echelons_ofgl.py` prend donc `--exercice` ; le défaut reste 2024. `ecart_millesime: true` subsiste sur `APUL.communes` (168,0 Md€) et `APUL.syndicats` (15,7 Md€) — dette déclarée, refermable dès publication.
 
 ### Shell
 

@@ -172,9 +172,9 @@
           "methode_poids": "Poids publié × facteur de consolidation du sous-secteur (répartition des transferts internes au prorata des poids bruts). Voir `methode_consolidation` à la racine.",
           "sens_du_biais": "neutre",
           "referentiel_comptage": {
-            "nom": "OFGL — comptes consolidés des départements, exercice 2024, agrégat « Recettes totales »",
+            "nom": "OFGL — comptes consolidés des départements, exercice 2025, agrégat « Recettes totales »",
             "base_comptable": "OFGL",
-            "total_eur": 93796988581.65,
+            "total_eur": 96789635397.21,
             "source": {
               "nom": "ofgl-base-departements-consolidee",
               "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
@@ -182,12 +182,12 @@
               "licence": "Licence Ouverte 2.0",
               "consulte_le": "2026-07-20"
             },
-            "verification": "Somme recalculée le 20/07/2026 par appel API sur l'ensemble des départements."
+            "verification": "Somme recalculée le 21/07/2026 par appel API sur l'ensemble des départements, exercice 2025 (agrégat « Recettes totales », 97 lignes)."
           },
-          "couvert_referentiel_eur": 93796988581.65,
+          "couvert_referentiel_eur": 96789635397.21,
           "noeuds": [],
           "raccord_publie": false,
-          "ecart_millesime": true,
+          "ecart_millesime": false,
           "note": "97 fiches, couverture intégrale du référentiel au centime. Contrairement aux communes, le numérateur est ici en comptes CONSOLIDÉS (budget principal et budgets annexes), exactement comme le référentiel : aucun biais de périmètre à déclarer. Écart de millésime assumé : fiches 2024, univers 2025."
         },
         {
@@ -207,9 +207,9 @@
           "methode_poids": "Poids publié × facteur de consolidation du sous-secteur (répartition des transferts internes au prorata des poids bruts). Voir `methode_consolidation` à la racine.",
           "sens_du_biais": "neutre",
           "referentiel_comptage": {
-            "nom": "OFGL — comptes consolidés des régions, exercice 2024, agrégat « Recettes totales »",
+            "nom": "OFGL — comptes consolidés des régions, exercice 2025, agrégat « Recettes totales »",
             "base_comptable": "OFGL",
-            "total_eur": 43064171508.94,
+            "total_eur": 42219214840.32,
             "source": {
               "nom": "ofgl-base-regions-consolidee",
               "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-regions-consolidee/",
@@ -217,12 +217,12 @@
               "licence": "Licence Ouverte 2.0",
               "consulte_le": "2026-07-20"
             },
-            "verification": "Somme recalculée le 20/07/2026 par appel API sur l'ensemble des régions."
+            "verification": "Somme recalculée le 21/07/2026 par appel API sur l'ensemble des régions, exercice 2025 (agrégat « Recettes totales », 17 lignes)."
           },
-          "couvert_referentiel_eur": 43064171508.94,
+          "couvert_referentiel_eur": 42219214840.32,
           "noeuds": [],
           "raccord_publie": false,
-          "ecart_millesime": true,
+          "ecart_millesime": false,
           "note": "17 fiches, couverture intégrale du référentiel au centime. Contrairement aux communes, le numérateur est ici en comptes CONSOLIDÉS (budget principal et budgets annexes), exactement comme le référentiel : aucun biais de périmètre à déclarer. Écart de millésime assumé : fiches 2024, univers 2025."
         },
         {

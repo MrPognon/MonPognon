@@ -2,7 +2,7 @@
  "id": "departement.70",
  "label": "Haute-Saône (70)",
  "montant": null,
- "annee": 2024,
+ "annee": 2025,
  "statut": "confirme",
  "bloc_univers": "APUL.departements",
  "volet": "mixte",
@@ -15,58 +15,58 @@
   null,
   null
  ],
- "description": "Fiche départementale (ADR-0004) — Haute-Saône, code 70 · 240 393 habitants. Comptes 2024 exécutés, CONSOLIDÉS (budget principal et budgets annexes). Le montant racine est volontairement null : les dépenses (317 789 980,28 €) et les recettes (318 568 391,90 €) ne s'additionnent pas.",
+ "description": "Fiche départementale (ADR-0004) — Haute-Saône, code 70 · 239 980 habitants. Comptes 2025 exécutés, CONSOLIDÉS (budget principal et budgets annexes). Le montant racine est volontairement null : les dépenses (313 344 851,18 €) et les recettes (318 542 977,22 €) ne s'additionnent pas.",
  "source": {
-  "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024",
+  "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025",
   "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
   "producteur": "OFGL / DGFiP",
   "licence": "Licence Ouverte 2.0",
-  "consulte_le": "2026-07-20",
+  "consulte_le": "2026-07-21",
   "maj": "2026-07-17"
  },
  "enfants": [
   {
    "id": "departement.70.depenses",
-   "label": "Dépenses 2024 (comptes consolidés)",
-   "montant": 317789980.28,
-   "annee": 2024,
+   "label": "Dépenses 2025 (comptes consolidés)",
+   "montant": 313344851.18,
+   "annee": 2025,
    "statut": "confirme",
    "source": {
-    "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses totales »",
+    "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Dépenses totales »",
     "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
     "producteur": "OFGL / DGFiP",
     "licence": "Licence Ouverte 2.0",
-    "consulte_le": "2026-07-20",
+    "consulte_le": "2026-07-21",
     "maj": "2026-07-17"
    },
    "enfants": [
     {
      "id": "departement.70.depenses.fonctionnement",
      "label": "Dépenses de fonctionnement",
-     "montant": 237721779.45,
-     "annee": 2024,
+     "montant": 237886613.49,
+     "annee": 2025,
      "statut": "confirme",
      "source": {
-      "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses de fonctionnement »",
+      "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Dépenses de fonctionnement »",
       "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
       "producteur": "OFGL / DGFiP",
       "licence": "Licence Ouverte 2.0",
-      "consulte_le": "2026-07-20",
+      "consulte_le": "2026-07-21",
       "maj": "2026-07-17"
      },
      "enfants": [
       {
        "id": "departement.70.depenses.fonctionnement.personnel",
        "label": "Frais de personnel",
-       "montant": 65165572.93,
-       "annee": 2024,
+       "montant": 65351289.48,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Frais de personnel »",
+        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Frais de personnel »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -74,15 +74,15 @@
       {
        "id": "departement.70.depenses.fonctionnement.achats",
        "label": "Achats et charges externes",
-       "montant": 20069867.31,
-       "annee": 2024,
+       "montant": 16507443.23,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Achats et charges externes »",
+        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Achats et charges externes »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -90,15 +90,15 @@
       {
        "id": "departement.70.depenses.fonctionnement.intervention",
        "label": "Dépenses d'intervention",
-       "montant": 147800100.22,
-       "annee": 2024,
+       "montant": 151055334.22,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses d'intervention »",
+        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Dépenses d'intervention »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -106,15 +106,15 @@
       {
        "id": "departement.70.depenses.fonctionnement.autres",
        "label": "Autres dépenses de fonctionnement",
-       "montant": 1772996.33,
-       "annee": 2024,
+       "montant": 2677442.71,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Autres dépenses de fonctionnement »",
+        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Autres dépenses de fonctionnement »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -122,15 +122,15 @@
       {
        "id": "departement.70.depenses.fonctionnement.charges-financieres",
        "label": "Charges financières",
-       "montant": 2913242.66,
-       "annee": 2024,
+       "montant": 2295103.85,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Charges financières »",
+        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Charges financières »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -140,30 +140,30 @@
     {
      "id": "departement.70.depenses.investissement",
      "label": "Dépenses d'investissement",
-     "montant": 80068200.83,
-     "annee": 2024,
+     "montant": 75458237.69,
+     "annee": 2025,
      "statut": "confirme",
      "source": {
-      "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses d'investissement »",
+      "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Dépenses d'investissement »",
       "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
       "producteur": "OFGL / DGFiP",
       "licence": "Licence Ouverte 2.0",
-      "consulte_le": "2026-07-20",
+      "consulte_le": "2026-07-21",
       "maj": "2026-07-17"
      },
      "enfants": [
       {
        "id": "departement.70.depenses.investissement.equipement",
        "label": "Dépenses d'équipement",
-       "montant": 37864343.17,
-       "annee": 2024,
+       "montant": 28242919.64,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Dépenses d'équipement »",
+        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Dépenses d'équipement »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -171,15 +171,15 @@
       {
        "id": "departement.70.depenses.investissement.remboursement-emprunts",
        "label": "Remboursements d'emprunts (hors gestion active de la dette)",
-       "montant": 16090079.68,
-       "annee": 2024,
+       "montant": 14987816.73,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Remboursements d'emprunts hors GAD »",
+        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Remboursements d'emprunts hors GAD »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -187,15 +187,15 @@
       {
        "id": "departement.70.depenses.investissement.autres",
        "label": "Autres dépenses d'investissement",
-       "montant": 696163.26,
-       "annee": 2024,
+       "montant": 3196045.23,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Autres dépenses d'investissement »",
+        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Autres dépenses d'investissement »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -203,15 +203,15 @@
       {
        "id": "departement.70.depenses.investissement.subventions-versees",
        "label": "Subventions d'équipement versées",
-       "montant": 25417614.72,
-       "annee": 2024,
+       "montant": 29031456.09,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Subventions d'équipement versées »",
+        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Subventions d'équipement versées »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -222,46 +222,46 @@
   },
   {
    "id": "departement.70.recettes",
-   "label": "Recettes 2024 (comptes consolidés)",
-   "montant": 318568391.9,
-   "annee": 2024,
+   "label": "Recettes 2025 (comptes consolidés)",
+   "montant": 318542977.22,
+   "annee": 2025,
    "statut": "confirme",
    "source": {
-    "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Recettes totales »",
+    "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Recettes totales »",
     "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
     "producteur": "OFGL / DGFiP",
     "licence": "Licence Ouverte 2.0",
-    "consulte_le": "2026-07-20",
+    "consulte_le": "2026-07-21",
     "maj": "2026-07-17"
    },
    "enfants": [
     {
      "id": "departement.70.recettes.fonctionnement",
      "label": "Recettes de fonctionnement",
-     "montant": 276093454.84,
-     "annee": 2024,
+     "montant": 276791308.46,
+     "annee": 2025,
      "statut": "confirme",
      "source": {
-      "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Recettes de fonctionnement »",
+      "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Recettes de fonctionnement »",
       "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
       "producteur": "OFGL / DGFiP",
       "licence": "Licence Ouverte 2.0",
-      "consulte_le": "2026-07-20",
+      "consulte_le": "2026-07-21",
       "maj": "2026-07-17"
      },
      "enfants": [
       {
        "id": "departement.70.recettes.fonctionnement.impots",
        "label": "Impôts et taxes",
-       "montant": 178272721.2,
-       "annee": 2024,
+       "montant": 183792940.56,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Impôts et taxes »",
+        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Impôts et taxes »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -269,15 +269,15 @@
       {
        "id": "departement.70.recettes.fonctionnement.concours-etat",
        "label": "Concours de l'État (dont DGF)",
-       "montant": 57409971.47,
-       "annee": 2024,
+       "montant": 57328529.74,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Concours de l'Etat »",
+        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Concours de l'Etat »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -285,15 +285,15 @@
       {
        "id": "departement.70.recettes.fonctionnement.ventes",
        "label": "Ventes de biens et services",
-       "montant": 8290891.48,
-       "annee": 2024,
+       "montant": 2894031.61,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Ventes de biens et services »",
+        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Ventes de biens et services »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -301,15 +301,15 @@
       {
        "id": "departement.70.recettes.fonctionnement.subventions-participations",
        "label": "Subventions reçues et participations",
-       "montant": 27963757.93,
-       "annee": 2024,
+       "montant": 28853503.58,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Subventions reçues et participations »",
+        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Subventions reçues et participations »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -317,15 +317,15 @@
       {
        "id": "departement.70.recettes.fonctionnement.autres",
        "label": "Autres recettes de fonctionnement",
-       "montant": 4156112.76,
-       "annee": 2024,
+       "montant": 3922302.97,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Autres recettes de fonctionnement »",
+        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Autres recettes de fonctionnement »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -335,30 +335,30 @@
     {
      "id": "departement.70.recettes.investissement",
      "label": "Recettes d'investissement",
-     "montant": 42474937.06,
-     "annee": 2024,
+     "montant": 41751668.76,
+     "annee": 2025,
      "statut": "confirme",
      "source": {
-      "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Recettes d'investissement »",
+      "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Recettes d'investissement »",
       "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
       "producteur": "OFGL / DGFiP",
       "licence": "Licence Ouverte 2.0",
-      "consulte_le": "2026-07-20",
+      "consulte_le": "2026-07-21",
       "maj": "2026-07-17"
      },
      "enfants": [
       {
        "id": "departement.70.recettes.investissement.emprunts",
        "label": "Emprunts (hors gestion active de la dette)",
-       "montant": 20636325.0,
-       "annee": 2024,
+       "montant": 15000000.0,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Emprunts hors GAD »",
+        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Emprunts hors GAD »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -366,15 +366,15 @@
       {
        "id": "departement.70.recettes.investissement.fctva",
        "label": "FCTVA (remboursement de TVA sur investissements)",
-       "montant": 7370611.31,
-       "annee": 2024,
+       "montant": 5484830.32,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « FCTVA »",
+        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « FCTVA »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
@@ -382,15 +382,15 @@
       {
        "id": "departement.70.recettes.investissement.autres",
        "label": "Autres recettes d'investissement",
-       "montant": 2043918.56,
-       "annee": 2024,
+       "montant": 4563782.32,
+       "annee": 2025,
        "statut": "confirme",
        "source": {
-        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2024, agrégat « Autres recettes d'investissement »",
+        "nom": "OFGL — Comptes consolidés des départements (jeu ofgl-base-departements-consolidee), comptes consolidés, exercice 2025, agrégat « Autres recettes d'investissement »",
         "url": "https://data.ofgl.fr/explore/dataset/ofgl-base-departements-consolidee/",
         "producteur": "OFGL / DGFiP",
         "licence": "Licence Ouverte 2.0",
-        "consulte_le": "2026-07-20",
+        "consulte_le": "2026-07-21",
         "maj": "2026-07-17"
        },
        "enfants": []
