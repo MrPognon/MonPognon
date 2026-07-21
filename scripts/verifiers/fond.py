@@ -74,6 +74,11 @@ def arbres(ref=None):
             # agrégats de comptabilité nationale, diffusés en XLSX. Aucun resolver ne sait
             # les re-vérifier automatiquement — ils sont relus à la main en revue de PR.
             continue
+        if "entrees" in racine and "principe" in racine:
+            # Plafond légal (ADR-0006 §5) : registre juridique, aucun montant à vérifier.
+            # Ses citations sont contrôlées par valider_plafond() dans build.py (article
+            # présent, URL Légifrance, non abrogé) — pas par ce re-vérificateur de montants.
+            continue
 
         def walk(n, src=None):
             # héritage de source champ par champ (ADR-0005) — même résolution que build.py
