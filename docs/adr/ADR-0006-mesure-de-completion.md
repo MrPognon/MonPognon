@@ -197,3 +197,46 @@ Démonstration par exécution obtenue pendant l'investigation : on peut renseign
 Sources primaires ouvertes : INSEE `t_3108_fr.xlsx` (passage du solde, périmètre régime général, arrivée S1314) et `t_3213_fr.xlsx` (compte de S13141 — total du sous-secteur, jamais sa partition) ; Eurostat `gov_10a_main` (granularité S1314 maximum) ; annexe 5 du PLFSS 2026 et tableau 23 du RESF (isole régime général + FSV, pas ROBSS + FSV, et n'est pas une partition exhaustive) ; annexe 1 méthodologique des Comptes de la protection sociale édition 2025 et jeu open data DREES n° 305 (`si_code = S13141` — troisième référentiel, champ Sespros, hors Mayotte, prestations incluant des crédits d'impôt ; CPS 2024 = 823,6 Md€ contre INSEE 3.213 = 740,5 Md€ sur millésime identique) ; catalogues open data AMELI, ATIH/ScanSanté, CNAF/Cafdata.
 
 Bornes de cette recherche, à énoncer avec elle : les fichiers CSV des catalogues de santé n'ont pas été téléchargés et inspectés colonne par colonne — les conclusions de granularité reposent sur les pages de description des producteurs. Les 52+ jeux « professionnels de santé libéraux » du catalogue AMELI n'ont pas été parcourus un par un. Cet angle reste formellement ouvert, mais il ne peut pas changer le verdict : le gain d'indice serait nul quelle que soit la granularité trouvée, un bloc à `c = 0` étant absent de P comme de C.
+
+## Note d'application — 2026-07-21 : l'axe P a son plafond, et il avait sa faille
+
+Investigation dédiée sur l'axe P de l'État : 4 gisements instruits, chacun soumis à 2 réfutations, tous les gains **mesurés par ré-exécution d'`indice_cp()`**, jamais estimés.
+
+### 1. Le taux de change, à connaître avant toute promesse
+
+> **1 Md€ de crédits reclassé de P3 vers P5 vaut +0,00160 point de P.**
+
+Il vient de la mécanique : pour `APUC.etat`, `comptes = c × poids_eur` donne une échelle de 551,90 / 823,04 = **0,6706** — un euro de l'arbre État ne pèse que 0,67 euro d'univers — multipliée par 2 crans, divisée par les 837,62 Md€ couverts. **Faire bouger P d'un dixième de point exige de reclasser ~42 Md€.**
+
+### 2. Le gain réellement disponible : +0,023
+
+| Gisement | Euros traçables | ΔP |
+|---|---:|---:|
+| Associations, plafond `[:5]` retiré | 10,655 Md€ | +0,013 |
+| Opérateurs mono-programme | 6,534 Md€ | +0,011 |
+| Opérateurs multi-programmes | 47,764 Md€ | **0** — non ventilable |
+| Commande publique (DECP) | 72,4 Md€ | **0** — aucun lien vers la ligne budgétaire |
+
+**P est proche de son plafond structurel, pour la même raison que C : ce sont les sources qui manquent.** Les DECP ne portent aucun rattachement budgétaire (schéma officiel v2.0.3 inspecté : ni `programme`, ni `imputation`, ni `chorus`). Le jaune des opérateurs agrège 85,6 % de ses montants sur plusieurs programmes.
+
+### 3. La faille : P était achetable, et personne ne le voyait
+
+L'ADR-0007 a rendu mécanique la règle qui protège **C**. **Rien ne protégeait P.** Vérifié par exécution : pointer 100 Md€ de bénéficiaires sur `etat.depenses.BG.VA.177`, un programme qui porte 2,93 Md€, faisait passer P de 2,663 à **2,823** — `exit 0`, zéro erreur. Le plafond de `collecter_p5()` ne s'y opposait pas : il porte sur le **bloc entier** (823 Md€), consommé à moins de 1 %.
+
+`valider_sur_rattachement()` ferme cette porte : une ligne payeuse ne peut pas verser plus qu'elle ne porte. Au-delà de **×3**, erreur fatale ; entre ×1 et ×3, avertissement — parce qu'un écart de millésime est légitime et se produit réellement (le programme 350, « JO 2024 », reçoit 69,5 M€ de versements d'exécution 2023 pour 48,2 M€ de crédits au PLF 2025, soit ×1,44).
+
+### 4. Le piège à ne pas « découvrir » comme une optimisation
+
+**Poser `niveaux[6] = "P4"` sur `data/etat/depenses.json` ferait passer P de 2,663 à 2,864 — +0,201 pour un caractère. Ce serait FAUX.** La profondeur 6 de l'arbre État porte les **titres LOLF** (personnel, fonctionnement, intervention) : une **nature** de dépense, jamais un « organisme destinataire ». Le `null` actuel est correct et doit le rester.
+
+C'est le plus gros gain unitaire du dépôt, il coûte une édition d'un caractère, et **aucune règle de `build.py` ne s'y oppose**. Il est consigné ici pour que sa découverte soit une lecture, pas une tentation.
+
+### 5. P4 est fermé par l'architecture, pas par les données
+
+`niveaux` est indexée par la **profondeur JSON**, et l'arbre de l'État n'est pas de profondeur uniforme : 569,13 Md€ se posent à la profondeur 5, 253,92 Md€ à la profondeur 6. Aucun cran sémantique « organisme destinataire » ne peut donc être déclaré à une profondeur unique — ajouter un 8ᵉ cran rapporte exactement 0 (vérifié). Par ailleurs `collecter_p5()` n'a pas d'équivalent P4 : un nœud portant un `identifiant` mais aucun `rattachement_id` ne rapporte rien.
+
+**Toute profondeur gagnée sur l'État passe donc obligatoirement par la vue transverse et le mécanisme P5.** Ouvrir P4 supposerait soit de normaliser la profondeur de l'arbre, soit de faire porter à chaque nœud son cran sémantique — un ADR, pas une PR de données.
+
+### 6. Rappel vérifié
+
+Tout rattachement visant un nœud d'un bloc à `c = 0` (Sécu, ODAC, ODASS, ODAL) vaut **strictement zéro** — 40 Md€ pointés sur `secu.depenses` laissent P inchangé. Un futur pipeline de rattachements doit refuser ces cibles, ou au minimum les signaler.
