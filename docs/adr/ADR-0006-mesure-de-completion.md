@@ -52,7 +52,9 @@ Le rattachement de P5 est ce qui distingue « on sait que cette association a re
 
 Le coefficient de couverture `c` d'un bloc est mesuré **à l'intérieur d'un référentiel homogène** (PLF ÷ PLF, OFGL ÷ OFGL, CCSS ÷ CCSS), puis appliqué au **poids SEC** du bloc.
 
-⚠️ **Cette règle est un garde-fou ÉDITORIAL, et non un verrou mécanique** — voir la note d'application 3 du 20/07/2026, qui corrige une surpromesse de la présente section. `build.py` refuse mécaniquement un référentiel **absent** (`ref is None → c = 0`). Il ne sait pas détecter un référentiel **faux** : `indice_cp()` calcule `c = present / ref["total_eur"]` sans jamais comparer les bases comptables des deux termes, et `referentiel_comptage` ne porte aucun champ qui les déclare. La règle tient donc par la relecture humaine.
+**Cette règle est désormais mécanique — voir l'ADR-0007** (21/07/2026), qui l'implémente après que la note d'application 3 eut établi que la présente section promettait un verrou inexistant. Le référentiel et l'arbre déclarent chacun leur `base_comptable` ; `build.py` refuse un référentiel muet, un référentiel en base SEC (circulaire), un arbre muet, et surtout **toute divergence entre la base de l'arbre et celle du référentiel de son bloc**.
+
+⚠️ **Limite à connaître, et à ne pas surpromettre une seconde fois** : le verrou compare des **étiquettes déclarées**, il ne relit pas les sources. Un référentiel étiqueté `CCSS` mais réellement issu d'une autre comptabilité passerait. Ce qui change, c'est que l'erreur cesse d'être une omission invisible pour devenir une ligne explicite dans le diff. La relecture humaine reste requise — elle sait maintenant où regarder.
 
 Conséquence assumée et inconfortable : les **666 Md€ de la Sécurité sociale**, pourtant modélisés, sourcés et confirmés, **comptent zéro**. Ce n'est pas une donnée manquante, c'est un **raccord** manquant, et la page `/perimetre` doit le dire en clair. La note d'application 3 établit que ce raccord est impossible pour une raison plus profonde qu'une lacune de publication : les deux périmètres ne s'emboîtent pas.
 

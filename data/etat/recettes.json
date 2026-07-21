@@ -6,6 +6,7 @@
  "statut": "confirme",
  "bloc_univers": "APUC.etat",
  "volet": "recettes",
+ "base_comptable": "PLF",
  "niveaux": [
   "P0",
   "P1",

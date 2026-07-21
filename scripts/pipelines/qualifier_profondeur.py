@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Qualifie chaque arbre pour l'indice C·P (ADR-0006, étape 3 de l'issue #50).
 
-Ajoute deux champs à la RACINE de chaque fichier de données :
+Ajoute quatre champs à la RACINE de chaque fichier de données :
 
   bloc_univers  code du sous-segment du dénominateur que cet arbre alimente
                 (data/denominateurs/apu-*.json), ou null si l'arbre ne compte
@@ -13,6 +13,13 @@ Ajoute deux champs à la RACINE de chaque fichier de données :
                 racine, cas des fiches communales) | null (vue transverse). Sans
                 lui, le calcul mélangerait l'arbre des dépenses et celui des
                 recettes, qui se mesurent contre deux dénominateurs distincts.
+
+  base_comptable  comptabilité dans laquelle les montants de cet arbre sont
+                libellés ("PLF", "OFGL", "CCSS"), ou null si l'arbre ne compte
+                pas. C'est ce champ que build.py compare à celui du référentiel
+                du bloc pour REFUSER un coefficient mesuré entre deux
+                comptabilités différentes (ADR-0007). Sans lui, la règle
+                anti-triche n'était qu'une convention de relecture.
 
   niveaux       table de traduction « profondeur JSON → niveau de destination »
                 sur l'échelle P0→P6 de l'ADR-0006. Un `null` signifie que ce
@@ -49,39 +56,39 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 # Les niveaux sont indexés par profondeur JSON (0 = racine du fichier).
 QUALIF = {
     "data/etat/depenses.json": (
-        "APUC.etat", "depenses",
+        "APUC.etat", "depenses", "PLF",
         # racine, titre budgétaire (BG/CAS/CCF/BA), mission, programme,
         # action, sous-action, titre LOLF (nature → n'avance pas la destination)
         ["P0", "P0", "P1", "P2", "P3", "P3", None],
     ),
     "data/etat/recettes.json": (
-        "APUC.etat", "recettes",   # les 156 lignes de l'état A
+        "APUC.etat", "recettes", "PLF",   # les 156 lignes de l'état A
         ["P0", "P1", "P2"],
     ),
     "data/etat/qui-percoit.json": (
-        None, None,  # vue transverse, montant racine null, jamais sommée (issue #4)
+        None, None, None,  # vue transverse, montant racine null, jamais sommée (issue #4)
         ["P0", "P0", "P1", "P2", "P4"],
     ),
     "data/etat/qui-paie.json": (
-        None, None,  # vue transverse, montant racine null, jamais sommée (issue #5)
+        None, None, None,  # vue transverse, montant racine null, jamais sommée (issue #5)
         ["P0", "P0", "P1", "P2"],
     ),
     "data/secu/depenses.json": (
-        "ASSO.regimes", "depenses",
+        "ASSO.regimes", "depenses", "CCSS",
         ["P0", "P1", "P2", "P3"],
     ),
     "data/secu/recettes.json": (
-        "ASSO.regimes", "recettes",
+        "ASSO.regimes", "recettes", "CCSS",
         ["P0", "P1", "P2", "P3"],
     ),
     "data/collectivites/depenses.json": (
         # Agrégat national « estimé ». La couverture locale est portée par les
         # fiches communales : le rattacher à APUL doublonnerait.
-        None, "depenses",
+        None, "depenses", None,
         ["P0", "P1"],
     ),
     "data/collectivites/recettes.json": (
-        None, "recettes",
+        None, "recettes", None,
         ["P0", "P1"],
     ),
 }
@@ -102,20 +109,22 @@ FICHES_ECHELONS = {
 NIVEAUX_VALIDES = {"P0", "P1", "P2", "P3", "P4", "P5", "P6", None}
 
 
-def poser_champs(node, bloc, volet, niveaux):
-    """Insère bloc_univers et niveaux juste après `statut`, en préservant l'ordre
-    des autres clés (la position compte pour la lisibilité des diffs)."""
-    if (node.get("bloc_univers", "∅") == bloc and node.get("volet", "∅") == volet
-            and node.get("niveaux") == niveaux):
+CHAMPS = ("bloc_univers", "volet", "base_comptable", "niveaux")
+
+
+def poser_champs(node, bloc, volet, base, niveaux):
+    """Insère les champs de qualification juste après `statut`, en préservant
+    l'ordre des autres clés (la position compte pour la lisibilité des diffs)."""
+    valeurs = (bloc, volet, base, niveaux)
+    if all(node.get(k, "∅") == v for k, v in zip(CHAMPS, valeurs)):
         return False
-    for k in ("bloc_univers", "volet", "niveaux"):
+    for k in CHAMPS:
         node.pop(k, None)
     cles = list(node.keys())
     ancre = cles.index("statut") + 1 if "statut" in cles else len(cles)
     reste = cles[ancre:]
-    node["bloc_univers"] = bloc
-    node["volet"] = volet
-    node["niveaux"] = niveaux
+    for k, v in zip(CHAMPS, valeurs):
+        node[k] = v
     for k in reste:                      # on repousse la fin pour garder l'ordre
         node[k] = node.pop(k)
     return True
@@ -133,9 +142,10 @@ def main():
     for ech, bloc in FICHES_ECHELONS.items():
         motif = ("*", "*.json") if ech == "communes" else ("*.json",)
         for f in sorted(glob.glob(os.path.join(ROOT, "data", "collectivites", ech, *motif))):
-            cibles.append((os.path.relpath(f, ROOT), (bloc, "mixte", NIVEAUX_FICHE)))
+            # Toutes les fiches de collectivités viennent de l'OFGL (ADR-0004).
+            cibles.append((os.path.relpath(f, ROOT), (bloc, "mixte", "OFGL", NIVEAUX_FICHE)))
 
-    for rel, (bloc, volet, niveaux) in cibles:
+    for rel, (bloc, volet, base, niveaux) in cibles:
         chemin = os.path.join(ROOT, rel)
         with open(chemin, encoding="utf-8") as fh:
             node = json.load(fh)
@@ -147,7 +157,7 @@ def main():
             erreurs += 1
             continue
 
-        if poser_champs(node, bloc, volet, niveaux):
+        if poser_champs(node, bloc, volet, base, niveaux):
             modifies += 1
             if not verifier:
                 with open(chemin, "w", encoding="utf-8") as fh:

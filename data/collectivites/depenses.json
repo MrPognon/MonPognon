@@ -6,6 +6,7 @@
  "statut": "estime",
  "bloc_univers": null,
  "volet": "depenses",
+ "base_comptable": null,
  "niveaux": [
   "P0",
   "P1"

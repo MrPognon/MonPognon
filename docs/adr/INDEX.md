@@ -11,4 +11,5 @@ Quand écrire un ADR : changement du modèle de données ou du schéma, nouveau 
 | [ADR-0003](ADR-0003-axe-temps.md) | L'axe temps : millésimes successifs et voté vs exécuté | Accepté | 2026-07-07 |
 | [ADR-0004](ADR-0004-fiches-communales.md) | Les fiches communales vivent hors de l'arbre national | Accepté | 2026-07-07 |
 | [ADR-0005](ADR-0005-heritage-source.md) | Héritage de la source parent → enfants, au niveau du champ | Accepté | 2026-07-07 |
-| [ADR-0006](ADR-0006-mesure-de-completion.md) | Mesurer la complétion contre l'univers réel : l'indice C·P | Accepté (+ 2 notes d'application 2026-07-20) | 2026-07-20 |
+| [ADR-0006](ADR-0006-mesure-de-completion.md) | Mesurer la complétion contre l'univers réel : l'indice C·P | Accepté (+ 3 notes d'application 2026-07-20) | 2026-07-20 |
+| [ADR-0007](ADR-0007-verrou-base-comptable.md) | Rendre mécanique la règle du référentiel homogène (`base_comptable`) | Accepté | 2026-07-21 |

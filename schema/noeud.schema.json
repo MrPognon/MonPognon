@@ -60,6 +60,20 @@
       ],
       "description": "RACINE DE FICHIER UNIQUEMENT (ADR-0006). Volet auquel l'arbre appartient : « depenses », « recettes », « mixte » (les deux sous une même racine, cas des fiches communales) ou null. Les deux volets se mesurent contre des dénominateurs DISTINCTS et ne doivent jamais se mélanger."
     },
+    "base_comptable": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "PLF",
+        "OFGL",
+        "CCSS",
+        "SEC",
+        null
+      ],
+      "description": "RACINE DE FICHIER UNIQUEMENT (ADR-0007). Comptabilité dans laquelle les montants de cet arbre sont libellés. OBLIGATOIRE dès que bloc_univers est non nul : build.py la compare à la base_comptable du référentiel du bloc et REFUSE un coefficient mesuré entre deux comptabilités différentes. C'est ce qui rend mécanique la règle anti-triche de l'ADR-0006 §3, jusque-là tenue par la seule relecture humaine."
+    },
     "niveaux": {
       "type": "array",
       "description": "RACINE DE FICHIER UNIQUEMENT (ADR-0006). Table de traduction « profondeur JSON → niveau de destination » sur l'échelle P0→P6. Un null signifie que ce cran n'avance PAS l'axe destination : l'euro conserve le dernier niveau non nul au-dessus de lui. C'est le cas d'une ventilation par nature de dépense (titre LOLF), qui dit comment l'argent est dépensé et non à qui il va.",

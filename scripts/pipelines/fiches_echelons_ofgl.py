@@ -177,7 +177,7 @@ def fiche(cle_val, rows, cfg, meta, rapport):
     fmt = lambda v: f"{v:,.2f}".replace(",", " ").replace(".", ",")
     return {"id": racine, "label": f"{nom} ({cle_val})", "montant": None,
             "annee": EXER, "statut": "confirme",
-            "bloc_univers": cfg["bloc"], "volet": "mixte",
+            "bloc_univers": cfg["bloc"], "volet": "mixte", "base_comptable": "OFGL",
             "niveaux": ["P2", "P2", "P2", None, None, None],
             "description": (f"{cfg['quoi']} (ADR-0004) — {nom}, code {cle_val}"
                             + (f" · {int(ptot):,} habitants".replace(",", "\u202f") if ptot else "")

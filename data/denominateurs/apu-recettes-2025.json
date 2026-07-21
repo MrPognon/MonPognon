@@ -51,6 +51,7 @@
           "sens_du_biais": "sur-estime",
           "referentiel_comptage": {
             "nom": "PLF 2025 — recettes du budget général (état A), somme des 156 lignes",
+            "base_comptable": "PLF",
             "total_eur": 588407754684,
             "source": {
               "nom": "PLF 2025 — recettes du budget général",
@@ -135,6 +136,7 @@
           "sens_du_biais": "sous-estime",
           "referentiel_comptage": {
             "nom": "OFGL — comptes consolidés des communes ET des groupements à fiscalité propre, exercice 2024, agrégat « Recettes totales »",
+            "base_comptable": "OFGL",
             "total_eur": 192497511495.93,
             "source": {
               "nom": "ofgl-base-communes-consolidee + ofgl-base-gfp-consolidee",
@@ -171,6 +173,7 @@
           "sens_du_biais": "neutre",
           "referentiel_comptage": {
             "nom": "OFGL — comptes consolidés des départements, exercice 2024, agrégat « Recettes totales »",
+            "base_comptable": "OFGL",
             "total_eur": 93796988581.65,
             "source": {
               "nom": "ofgl-base-departements-consolidee",
@@ -205,6 +208,7 @@
           "sens_du_biais": "neutre",
           "referentiel_comptage": {
             "nom": "OFGL — comptes consolidés des régions, exercice 2024, agrégat « Recettes totales »",
+            "base_comptable": "OFGL",
             "total_eur": 43064171508.94,
             "source": {
               "nom": "ofgl-base-regions-consolidee",
@@ -239,6 +243,7 @@
           "sens_du_biais": "neutre",
           "referentiel_comptage": {
             "nom": "OFGL — comptes consolidés des syndicats, exercice 2024, agrégat « Recettes totales »",
+            "base_comptable": "OFGL",
             "total_eur": 24748615246.94,
             "source": {
               "nom": "ofgl-base-syndicats-consolidee",
