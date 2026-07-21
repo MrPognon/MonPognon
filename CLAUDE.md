@@ -72,11 +72,14 @@ python3 scripts/verifiers/fond.py --max 40    # re-vérification des montants à
 
 ### Le piège majeur : le nom d'un agrégat ne dit pas son périmètre
 
-**Toujours ouvrir la définition officielle d'un bloc AVANT de l'utiliser.** Trois erreurs successives, toutes du même moule :
+**Toujours ouvrir la définition officielle d'un bloc AVANT de l'utiliser.** Quatre erreurs successives, toutes du même moule :
 
 - « Communes » au sens OFGL ≠ « communes » au sens SEC : **S131311 inclut les EPCI**, et aucune table INSEE ne leur est dédiée. Un coefficient mesuré sur les seules communes était appliqué à un poids SEC contenant **71,2 Md€ d'EPCI non modélisés** : couverture surestimée d'**environ 3 points**, jusqu'à ce que les 1 266 intercommunalités soient ingérées et le référentiel élargi (20/07/2026).
 - Les tables de passage INSEE **3.107** (État) et **3.108** (Sécu) existent bel et bien — mais convertissent un **solde**, jamais des flux. Elles échouent en outre pour deux raisons *distinctes* : 3.108 part du seul régime général (périmètre plus étroit), 3.107 part de l'**exécution constatée** quand l'arbre modélise le **PLF déposé** (prévision). D'où `raccord_publie: false` partout.
 - L'OFGL ne publie que ~31 % du périmètre ODAL (CCAS et SDIS) : y poser un coefficient aurait refait la même erreur.
+- « ODAC » (classification INSEE, ~700 unités) ≠ « **opérateurs de l'État** » (catégorie budgétaire, ~434 au jaune). Le jaune l'écrit lui-même — *« tous les opérateurs de l'État ne relèvent cependant pas de la liste des ODAC »*, ONF en exemple — et la LFI 2020 art. 179 l'oblige à publier les deux listes. **Les périmètres se croisent**, et une partie du résidu (agences de l'eau, SOLIDEO, sociétés de grands projets) relève d'`APUL.odal`, **un autre bloc du dépôt**.
+
+**Le réflexe qui en découle : vérifier la contenance dans LES DEUX SENS.** Trois fois sur quatre, le projet n'a testé que l'inclusion supposée et a manqué le sens inverse.
 
 ### Mesurer git en poids d'arbre de travail est faux
 

@@ -96,9 +96,9 @@
           "raccord_publie": false,
           "ecart_millesime": false,
           "manque": {
-            "quoi": "Aucune recette d'opérateur de l'État n'est modélisée (taxes affectées, ressources propres des ~700 ODAC).",
-            "contact": "Jaune budgétaire « Opérateurs de l'État » annexé au PLF",
-            "url": "https://www.budget.gouv.fr/documentation/documents-budgetaires"
+            "quoi": "RÉFÉRENTIEL MANQUANT, ET PÉRIMÈTRE MAL DÉSIGNÉ — même situation que le volet dépenses, et même correction du 20/07/2026. Aucune recette d'ODAC n'est modélisée (taxes affectées, ressources propres). Ce champ assimilait auparavant « ODAC » et « opérateurs de l'État » : c'est faux, les deux périmètres se croisent, et le jaune budgétaire l'écrit lui-même. Voir le volet dépenses pour la carte complète — liste INSEE des ODAC (~700 unités), non-coïncidence établie dans les deux sens, résidu relevant partiellement d'APUL.odal, et l'inventaire de ce qui a été cherché comme référentiel de comptage.",
+            "contact": "INSEE — Département des comptes nationaux, pour un référentiel de comptage du sous-secteur S13112. La Direction du budget peut par ailleurs être sollicitée pour la reprise de la publication en format ouvert des budgets d'opérateurs, interrompue après le PLF 2019 — mais son périmètre « opérateurs » n'est PAS le périmètre ODAC.",
+            "url": "https://www.insee.fr/fr/statistiques/fichier/8574832/Liste_ODAC_SD2023.pdf"
           }
         }
       ]
