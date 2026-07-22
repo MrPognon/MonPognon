@@ -257,3 +257,17 @@ Conséquences durables, désormais mécaniques :
 - La page `/plafond` affiche d'abord « Ce que le droit ferme absolument : rien, à ce jour », puis les deux cas d'ouverture avec leurs articles.
 
 **Écrire correctement ce fichier, c'était surtout ne presque rien y écrire.** La liste des dix-neuf lignes retirées, avec leur faille, vaut plus que le fichier lui-même : elle documente les fermetures qu'un contributeur de bonne foi aurait déclarées à tort.
+
+## Note d'application — 2026-07-21 (2) : relecture juridique du plafond, et ses corrections
+
+Le `plafond-legal.json` livré plus haut a été soumis à une relecture adversariale indépendante (4 angles, chaque article rouvert au texte sur Légifrance). Verdict : gating sûr, mais le **texte affiché** contenait des inexactitudes, toutes corrigées.
+
+**Citation tronquée, 3 fois.** L'article L311-1 était cité à partir de son milieu, sans l'incise d'ouverture « Sous réserve des dispositions des articles L. 311-5 et L. 311-6 ». Un premier `WebFetch` avait renvoyé le texte amputé ; la relecture, en le rouvrant, a restitué l'intégral — vérifié une seconde fois à la main. La coupe supprimait précisément la réserve qui subordonne le droit d'accès aux exceptions : elle penchait **vers l'ouverture**. Sur le fichier dont le produit est la citation exacte, c'était la faute à corriger en premier. **Leçon : une citation d'article se vérifie sur DEUX consultations indépendantes, jamais une seule.**
+
+**Le principe sur-déclarait l'ouverture, trois fois** : « liste fermée » → corrigé en « limitatifs et d'interprétation stricte » (L311-5 renvoie « aux autres secrets protégés par la loi ») ; « la charge de la preuve pèse sur qui refuse, jamais sur qui demande » → **retiré**, sans fondement textuel et contredit par L311-6 (le demandeur doit établir sa qualité d'intéressé) ; « les protections n'interdisent pas la publication du montant » → corrigé, faux pour L311-5 (secret absolu, ni occultable ni restreint aux destinataires).
+
+**Deux fermetures réelles étaient niées** par le principe, sans exposer personne (l'arbre ne contient que des personnes morales et des agrégats), mais le fichier les affirmait inexistantes alors qu'il est conçu pour croître vers elles. Ajoutées comme **entrées-frontières `ferme-droit`, portée vide** : le secret de la défense nationale (L311-5 2° b) et les données nominatives de personnes physiques (L311-6 + L312-1-2). Elles ne gatent aucun nœud aujourd'hui ; elles s'activeront à l'ingestion d'une pièce classifiée ou d'un bénéficiaire personne physique.
+
+Ce qui a tenu à la relecture : le raisonnement de fond des deux entrées d'ouverture, le seuil de 3 500 habitants, la portée `APUL.communes` (à ne PAS élargir aux groupements/syndicats, hors du critère de population), et l'absence de toute donnée protégée dans l'arbre actuel.
+
+**Ce qui reste pour un juriste humain** : la frontière exacte du classifiable dans la commande publique de défense, et le régime précis des données nominatives de rémunération publique — cette relecture-machine borne le sujet, elle ne le tranche pas.
