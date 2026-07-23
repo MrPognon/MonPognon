@@ -81,6 +81,8 @@ Ce que le verrou change malgré tout : ces attaques cessent d'être des **omissi
 
 **Deux contrôles fermeraient le reste** : re-vérifier `total_eur` à sa source, et détecter le recouvrement entre blocs (une même somme d'euros apparaissant sous deux `bloc_univers` distincts). Le premier est, comme `verify-fond.yml` le fait déjà pour les montants de l'arbre. C'est le candidat naturel pour un ADR ultérieur — et il ne faut pas prétendre qu'il est fait tant qu'il ne l'est pas.
 
+> **Mise à jour, 2026-07-23 (ADR-0009).** Le second contrôle — la détection du recouvrement inter-`bloc_univers` — est désormais **fait**, et ferme l'attaque n°4 ci-dessus **à l'agrégat** (copie ou réexpression au montant exact ; une réexpression re-granularisée échappe encore, cf. ADR-0009). Le premier — re-vérifier les `total_eur` des référentiels à leur source — **reste ouvert**.
+
 ## Conséquences
 
 - `schema/denominateur.schema.json` : `base_comptable` requise sur `referentiel_comptage` ;
