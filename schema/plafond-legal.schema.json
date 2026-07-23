@@ -10,7 +10,7 @@
   "consulte_le": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
   "principe": {
    "type": "string",
-   "description": "Le principe directeur, affiché en tête de la page : la communication est la règle, la fermeture l'exception, et la charge de la preuve pèse sur qui déclare fermé."
+   "description": "Le principe directeur, affiché en tête de la page : la communication des documents administratifs est la règle (CRPA L311-1), le secret l'exception, limitative et d'interprétation stricte. Une extinction n'est jamais présumée : elle doit s'appuyer sur un texte cité, daté et en vigueur."
   },
   "entrees": {
    "type": "array",

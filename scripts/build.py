@@ -51,7 +51,7 @@ def validate(node, path, seen_ids):
     if m is not None and not isinstance(m, (int, float)): errors.append(f"{path}: montant non numérique ({node['id']})")
     if m is not None and node.get("annee") is None: warnings.append(f"{path}: montant sans année ({node['id']})")
     kids = [c for c in node["enfants"] if c.get("montant")]
-    if m and kids:
+    if m and m > 0 and kids:
         s = sum(c["montant"] for c in kids)
         if s > m * 1.02:
             warnings.append(f"{path}: somme des enfants ({s:,.0f}) > parent ({m:,.0f}) de plus de 2 % ({node['id']})")

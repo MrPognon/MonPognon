@@ -189,7 +189,7 @@
           "noeuds": [],
           "raccord_publie": false,
           "ecart_millesime": false,
-          "note": "97 fiches, couverture intégrale du référentiel au centime. Contrairement aux communes, le numérateur est ici en comptes CONSOLIDÉS (budget principal et budgets annexes), exactement comme le référentiel : aucun biais de périmètre à déclarer. Écart de millésime assumé : fiches 2024, univers 2025."
+          "note": "97 fiches, couverture intégrale du référentiel au centime. Contrairement aux communes, le numérateur est ici en comptes CONSOLIDÉS (budget principal et budgets annexes), exactement comme le référentiel : aucun biais de périmètre à déclarer. Fiches 2025, univers 2025 : aucun écart de millésime."
         },
         {
           "code": "APUL.regions",
@@ -224,7 +224,7 @@
           "noeuds": [],
           "raccord_publie": false,
           "ecart_millesime": false,
-          "note": "17 fiches, couverture intégrale du référentiel au centime. Contrairement aux communes, le numérateur est ici en comptes CONSOLIDÉS (budget principal et budgets annexes), exactement comme le référentiel : aucun biais de périmètre à déclarer. Écart de millésime assumé : fiches 2024, univers 2025."
+          "note": "17 fiches, couverture intégrale du référentiel au centime. Contrairement aux communes, le numérateur est ici en comptes CONSOLIDÉS (budget principal et budgets annexes), exactement comme le référentiel : aucun biais de périmètre à déclarer. Fiches 2025, univers 2025 : aucun écart de millésime."
         },
         {
           "code": "APUL.syndicats",
