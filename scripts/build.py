@@ -475,6 +475,65 @@ def valider_sur_rattachement(arbres):
                             f"probable, à vérifier.")
 
 
+# ── Recouvrement inter-bloc_univers (ADR-0009) ───────────────────────────────
+# Les échelons de collectivités sont des personnes morales SÉPARÉES, réconciliées
+# une à une par code INSEE : deux d'entre elles portant le même montant, ce n'est
+# jamais le même euro — seulement une coïncidence (9 293 cas sur le corpus au
+# 23/07/2026). On exclut donc les collisions dont TOUS les blocs en sont. Liste
+# fermée : y ajouter un échelon est une décision de code, jamais un effet de bord.
+ECHELONS_COLLECTIVITES = {"APUL.communes", "APUL.departements", "APUL.regions",
+                          "APUL.syndicats", "APUL.odal"}
+# Au-delà de ce montant, un même chiffre à l'euro et à l'année près, dans le même
+# volet, sous deux comptabilités distinctes, n'est pas une coïncidence : c'est un
+# double compte. En deçà, on avertit sans bloquer (coïncidence encore plausible).
+SEUIL_RECOUVREMENT = 100_000_000
+
+
+def volet_du_noeud(node_id, volet_racine):
+    """Volet effectif d'un nœud. Les fiches sont « mixtes » (ADR-0004) mais leurs
+    sous-arbres `.depenses` / `.recettes` portent leur volet dans leur id."""
+    if node_id.endswith(".recettes") or ".recettes." in node_id:
+        return "recettes"
+    if node_id.endswith(".depenses") or ".depenses." in node_id:
+        return "depenses"
+    return volet_racine
+
+
+def valider_recouvrement_blocs(arbres):
+    """Un même euro ne peut pas être compté sous DEUX bloc_univers (ADR-0009).
+
+    La faille laissée ouverte par ADR-0007 : ses six règles sont TOUTES intra-bloc.
+    Rien n'empêchait de réexprimer un agrégat déjà présent — l'hôpital ONDAM,
+    109,4 Md€ sous ASSO.regimes — sous un second bloc (ASSO.odass), gonflant C d'un
+    montant FAUX, pas seulement nul. Signal mécanique : un montant confirmé, à
+    l'euro et à l'année près, dans le MÊME volet (C se calcule par volet), sous deux
+    blocs distincts qui ne sont pas tous deux des échelons de collectivités."""
+    empreintes = {}
+    for racine in arbres:
+        bloc = racine.get("bloc_univers")
+        if not bloc:            # vues transverses (subventions, qui-paie…) : hors de `present`
+            continue
+        vol_racine = racine.get("volet")
+
+        def indexer(n):
+            m = n.get("montant")
+            if isinstance(m, (int, float)) and m > 0 and n.get("statut") == "confirme":
+                cle = (round(m, 2), n.get("annee"), volet_du_noeud(n["id"], vol_racine))
+                empreintes.setdefault(cle, {}).setdefault(bloc, []).append(n["id"])
+            for c in n.get("enfants", []):
+                indexer(c)
+        indexer(racine)
+
+    for (m, annee, volet), blocs in sorted(empreintes.items()):
+        if len(blocs) < 2 or set(blocs).issubset(ECHELONS_COLLECTIVITES):
+            continue
+        ou = " ↔ ".join(f"{b} (p.ex. {ids[0]})" for b, ids in sorted(blocs.items()))
+        msg = (f"recouvrement inter-bloc — {m:,.2f} € ({annee}, {volet}) apparaît sous deux "
+               f"bloc_univers : {ou}. Un même euro ne peut être compté deux fois (ADR-0009) : "
+               f"rattacher les deux nœuds à un seul bloc, ou expliquer la coïncidence.")
+        (errors if m >= SEUIL_RECOUVREMENT else warnings).append(msg)
+
+
 STATUTS_PLAFOND = {"ferme-droit", "communicable-sur-demande", "inexistant"}
 # Le statut dérive l'effet du bouton, et on vérifie que le fichier ne ment pas :
 # une donnée fermée ou inexistante éteint le bouton « réclamer », une donnée
@@ -1039,6 +1098,7 @@ def main():
     arbres = list(data.values()) + list(fiches.values())
     valider_bases_comptables(arbres, denominateurs)   # ADR-0007, AVANT le calcul
     valider_sur_rattachement(arbres)                 # pendant de la règle sur l'axe P
+    valider_recouvrement_blocs(arbres)               # ADR-0009 : un même euro sous deux blocs
     cov_doc["cp"] = {v: indice_cp(arbres, d) for v, d in sorted(denominateurs.items())}
     # Plafond légal validé APRÈS le calcul C·P, et jamais passé à indice_cp() :
     # la preuve mécanique qu'il « n'entre dans aucun quotient » (ADR-0006 §5).
