@@ -96,7 +96,7 @@
     },
     "identifiant": {
       "type": "object",
-      "description": "Identifiant MACHINE du bénéficiaire (ADR-0006). Condition nécessaire — avec rattachement_id — pour qu'un euro atteigne le niveau P5. Sans lui, on sait qu'un organisme a reçu de l'argent, mais on ne peut pas le relier de façon fiable à un registre public.",
+      "description": "Identifiant MACHINE du bénéficiaire (ADR-0006, ADR-0008). Condition nécessaire — avec rattachement_id — pour qu'un euro atteigne le niveau P5. Sans lui, on sait qu'un organisme a reçu de l'argent, mais on ne peut pas le relier de façon fiable à un registre public. SIREN/SIRET/RNA pour les entités françaises ; LEI (ISO 17442, vérifiable sur GLEIF) pour les organismes internationaux qu'aucun registre français ne couvre (ADR-0008). Un identifiant n'est valide que s'il résout dans son registre : on n'en invente jamais.",
       "required": [
         "type",
         "valeur"
@@ -107,7 +107,8 @@
           "enum": [
             "SIREN",
             "SIRET",
-            "RNA"
+            "RNA",
+            "LEI"
           ]
         },
         "valeur": {
