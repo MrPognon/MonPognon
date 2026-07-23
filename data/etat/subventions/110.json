@@ -23,11 +23,13 @@
  "enfants": [
   {
    "id": "etat.subventions.p110.assinternationalededeveloppemen",
-   "label": "Ass Internationale De Developpemen",
+   "label": "Association Internationale de Développement (IDA — Banque mondiale)",
    "montant": 1004021932.85,
    "annee": 2023,
    "statut": "confirme",
+   "identifiant": { "type": "LEI", "valeur": "P41R60HC414IWQA1XW02" },
    "rattachement_id": "etat.depenses.BG.AD.110",
+   "description": "Guichet concessionnel du groupe Banque mondiale. L'annexe jaune (source) ne porte aucun SIREN pour cet organisme international — sa colonne indique « NR CHORUS » (non référencé dans Chorus). L'identifiant retenu est donc le LEI (Legal Entity Identifier, ISO 17442), vérifiable sur GLEIF : « International Development Association », 1818 H Street NW, Washington (siège de la Banque mondiale), entité ACTIVE, enregistrement ISSUED, consulté le 2026-07-23. Admis à P5 au titre de l'ADR-0008.",
    "enfants": []
   },
   {
